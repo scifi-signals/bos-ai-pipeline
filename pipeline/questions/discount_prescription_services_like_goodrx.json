@@ -1,0 +1,60 @@
+{
+  "id": "discount_prescription_services_like_goodrx",
+  "question": "Do discount prescription services like GoodRx actually save patients money?",
+  "topic": "Clarifies how prescription discount services operate amid consumer confusion about pricing transpare",
+  "tags": [
+    "Health and Medicine",
+    "Healthcare Costs",
+    "Consumer Protection"
+  ],
+  "sources": [
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://nap.nationalacademies.org/catalog/25310/medications-for-opioid-use-disorder-save-lives",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use",
+      "url": "https://nap.nationalacademies.org/catalog/24781/pain-management-and-the-opioid-epidemic-balancing-societal-and-individual",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+      "url": "https://nap.nationalacademies.org/catalog/10027/crossing-the-quality-chasm-a-new-health-system-for-the",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communities in Action: Pathways to Health Equity",
+      "url": "https://nap.nationalacademies.org/catalog/24624/communities-in-action-pathways-to-health-equity",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Keeping Patients Safe: Transforming the Work Environment of Nurses",
+      "url": "https://nap.nationalacademies.org/catalog/10851/keeping-patients-safe-transforming-the-work-environment-of-nurses",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Evaluation of the Department of Veterans Affairs Mental Health Services",
+      "url": "https://nap.nationalacademies.org/catalog/24915/evaluation-of-the-department-of-veterans-affairs-mental-health-services",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Community-Based Health Literacy Interventions: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/24917/community-based-health-literacy-interventions-proceedings-of-a-workshop",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary",
+      "url": "https://nap.nationalacademies.org/catalog/23498/integrating-health-literacy-cultural-competence-and-language-access-services-workshop",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

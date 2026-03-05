@@ -1,0 +1,60 @@
+{
+  "id": "prep_pre_exposure_prophylaxis_effective",
+  "question": "Is PrEP (pre-exposure prophylaxis) 100% effective at preventing HIV?",
+  "topic": "Clarifies the high but not perfect effectiveness of PrEP to ensure appropriate use and expectations",
+  "tags": [
+    "Health and Medicine",
+    "Infectious Disease",
+    "Sexual Health"
+  ],
+  "sources": [
+    {
+      "name": "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths",
+      "url": "https://nap.nationalacademies.org/catalog/4757/growing-up-tobacco-free-preventing-nicotine-addiction-in-children-and",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Preventing Medication Errors",
+      "url": "https://nap.nationalacademies.org/catalog/11623/preventing-medication-errors",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Bridge and Tunnel Strikes: A Guide for Prevention and Mitigation",
+      "url": "https://nap.nationalacademies.org/catalog/28813/bridge-and-tunnel-strikes-a-guide-for-prevention-and-mitigation",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Evidence-Based Practice for Public Health Emergency Preparedness and Response",
+      "url": "https://nap.nationalacademies.org/catalog/25650/evidence-based-practice-for-public-health-emergency-preparedness-and-response",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Bridging the Evidence Gap in Obesity Prevention: A Framework to Inform Decision Making",
+      "url": "https://nap.nationalacademies.org/catalog/12847/bridging-the-evidence-gap-in-obesity-prevention-a-framework-to",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+      "url": "https://nap.nationalacademies.org/catalog/26156/guidance-on-pfas-exposure-testing-and-clinical-follow-up",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Evaluating Obesity Prevention Efforts: A Plan for Measuring Progress",
+      "url": "https://nap.nationalacademies.org/catalog/18334/evaluating-obesity-prevention-efforts-a-plan-for-measuring-progress",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Preventing Childhood Obesity: Health in the Balance",
+      "url": "https://nap.nationalacademies.org/catalog/11015/preventing-childhood-obesity-health-in-the-balance",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

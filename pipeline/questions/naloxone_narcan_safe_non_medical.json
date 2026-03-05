@@ -1,0 +1,60 @@
+{
+  "id": "naloxone_narcan_safe_non_medical",
+  "question": "Is naloxone (Narcan) safe for non-medical people to administer during overdoses?",
+  "topic": "Addresses fears that prevent bystanders from using life-saving overdose reversal medication",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Drug Safety"
+  ],
+  "sources": [
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://nap.nationalacademies.org/catalog/25310/medications-for-opioid-use-disorder-save-lives",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Integrating Responses at the Intersection of Opioid Use Disorder and Infectious Disease Epidemics: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/25153/integrating-responses-at-the-intersection-of-opioid-use-disorder-and-infectious-disease-epidemics",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Pain Management for People with Serious Illness in the Context of the Opioid Use Disorder Epidemic: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/25435/pain-management-for-people-with-serious-illness-in-the-context-of-the-opioid-use-disorder-epidemic",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://nap.nationalacademies.org/catalog/10306/immunization-safety-review-multiple-immunizations-and-immune-dysfunction",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field",
+      "url": "https://nap.nationalacademies.org/catalog/26902/using-population-descriptors-in-genetics-and-genomics-research-a-new",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use",
+      "url": "https://nap.nationalacademies.org/catalog/24781/pain-management-and-the-opioid-epidemic-balancing-societal-and-individual",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/26635/methadone-treatment-for-opioid-use-disorder-improving-access-through-regulatory",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Educating Together, Improving Together: Harmonizing Interprofessional Approaches to Address the Opioid Epidemic",
+      "url": "https://nap.nationalacademies.org/catalog/27108/educating-together-improving-together-harmonizing-interprofessional-approaches-to-address-the",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

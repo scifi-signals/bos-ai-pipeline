@@ -1,0 +1,60 @@
+{
+  "id": "artificial_intelligence_systems_automatically_develop",
+  "question": "Will artificial intelligence systems automatically develop goals to survive and harm humans?",
+  "topic": "Separates evidence-based AI safety concerns from science fiction scenarios in public discourse",
+  "tags": [
+    "Technology",
+    "Artificial Intelligence",
+    "Safety"
+  ],
+  "sources": [
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop—in Brief",
+      "url": "https://nap.nationalacademies.org/catalog/26887/artificial-intelligence-and-justified-confidence-proceedings-of-a-workshop-in",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Developing a National Registry of Pharmacologic and Biologic Clinical Trials: Workshop Report",
+      "url": "https://nap.nationalacademies.org/catalog/11561/developing-a-national-registry-of-pharmacologic-and-biologic-clinical-trials",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Artificial Intelligence and the Future of Work",
+      "url": "https://nap.nationalacademies.org/catalog/27644/artificial-intelligence-and-the-future-of-work",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "AI for Scientific Discovery: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/27457/ai-for-scientific-discovery-proceedings-of-a-workshop",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Reproducibility and Replicability in Science",
+      "url": "https://nap.nationalacademies.org/catalog/25303/reproducibility-and-replicability-in-science",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "A 21st Century Cyber-Physical Systems Education",
+      "url": "https://nap.nationalacademies.org/catalog/23686/a-21st-century-cyber-physical-systems-education",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Envisioning a Transformed Clinical Trials Enterprise for 2030: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/26349/envisioning-a-transformed-clinical-trials-enterprise-for-2030-proceedings-of",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

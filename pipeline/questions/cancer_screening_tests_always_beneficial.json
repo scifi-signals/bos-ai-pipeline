@@ -1,0 +1,60 @@
+{
+  "id": "cancer_screening_tests_always_beneficial",
+  "question": "Are cancer screening tests always beneficial regardless of age or health status?",
+  "topic": "Addresses misconceptions about universal benefits of cancer screening versus evidence-based guidelin",
+  "tags": [
+    "Health and Medicine",
+    "Cancer Prevention",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Improving Diagnosis in Health Care",
+      "url": "https://nap.nationalacademies.org/catalog/21794/improving-diagnosis-in-health-care",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Ovarian Cancers: Evolving Paradigms in Research and Care",
+      "url": "https://nap.nationalacademies.org/catalog/21841/ovarian-cancers-evolving-paradigms-in-research-and-care",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Childhood Cancer Survivorship: Improving Care and Quality of Life",
+      "url": "https://nap.nationalacademies.org/catalog/10767/childhood-cancer-survivorship-improving-care-and-quality-of-life",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/24742/the-drug-development-paradigm-in-oncology-proceedings-of-a-workshop",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/25664/health-literacy-and-communication-strategies-in-oncology-proceedings-of-a",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/25048/implementing-and-evaluating-genomic-screening-programs-in-health-care-systems",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Newborn Screening in the United States: A Vision for Sustaining and Advancing Excellence",
+      "url": "https://nap.nationalacademies.org/catalog/29102/newborn-screening-in-the-united-states-a-vision-for-sustaining",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Realizing the Potential of Genomics across the Continuum of Precision Health Care: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/26917/realizing-the-potential-of-genomics-across-the-continuum-of-precision-health-care",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

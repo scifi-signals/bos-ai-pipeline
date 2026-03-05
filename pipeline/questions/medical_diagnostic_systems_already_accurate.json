@@ -1,0 +1,60 @@
+{
+  "id": "medical_diagnostic_systems_already_accurate",
+  "question": "Are AI medical diagnostic systems already more accurate than human doctors?",
+  "topic": "Addresses hype and misconceptions about current AI medical capabilities versus established evidence",
+  "tags": [
+    "Health and Medicine",
+    "Technology",
+    "Artificial Intelligence"
+  ],
+  "sources": [
+    {
+      "name": "Improving Diagnosis in Health Care",
+      "url": "https://nap.nationalacademies.org/catalog/21794/improving-diagnosis-in-health-care",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Artificial Intelligence and the Future of Work",
+      "url": "https://nap.nationalacademies.org/catalog/27644/artificial-intelligence-and-the-future-of-work",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/25048/implementing-and-evaluating-genomic-screening-programs-in-health-care-systems",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Reproducibility and Replicability in Science",
+      "url": "https://nap.nationalacademies.org/catalog/25303/reproducibility-and-replicability-in-science",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+      "url": "https://nap.nationalacademies.org/catalog/10027/crossing-the-quality-chasm-a-new-health-system-for-the",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Stronger Food and Drug Regulatory Systems Abroad",
+      "url": "https://nap.nationalacademies.org/catalog/25651/stronger-food-and-drug-regulatory-systems-abroad",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Global Infectious Disease Surveillance and Detection: Assessing the Challenges—Finding Solutions: Workshop Summary",
+      "url": "https://nap.nationalacademies.org/catalog/11996/global-infectious-disease-surveillance-and-detection-assessing-the-challenges-finding",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

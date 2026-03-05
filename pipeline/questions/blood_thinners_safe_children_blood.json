@@ -1,0 +1,60 @@
+{
+  "id": "blood_thinners_safe_children_blood",
+  "question": "Are blood thinners safe for children with blood clots?",
+  "topic": "Addresses parental concerns about pediatric anticoagulation therapy based on adult medication fears",
+  "tags": [
+    "Health and Medicine",
+    "Pediatrics",
+    "Blood Disorders"
+  ],
+  "sources": [
+    {
+      "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+      "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Making Better Drugs for Children with Cancer",
+      "url": "https://nap.nationalacademies.org/catalog/11259/making-better-drugs-for-children-with-cancer",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+      "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+      "url": "https://nap.nationalacademies.org/catalog/27207/the-future-pediatric-subspecialty-physician-workforce-meeting-the-needs-of",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+      "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://nap.nationalacademies.org/catalog/13563/the-childhood-immunization-schedule-and-safety-stakeholder-concerns-scientific-evidence",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative",
+      "url": "https://nap.nationalacademies.org/catalog/19033/research-on-children-and-adolescents-with-mental-behavioral-and-developmental-disorders",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://nap.nationalacademies.org/catalog/10306/immunization-safety-review-multiple-immunizations-and-immune-dysfunction",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

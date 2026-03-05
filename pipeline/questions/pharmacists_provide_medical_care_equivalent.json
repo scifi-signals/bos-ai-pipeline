@@ -1,0 +1,60 @@
+{
+  "id": "pharmacists_provide_medical_care_equivalent",
+  "question": "Can pharmacists provide medical care equivalent to doctors?",
+  "topic": "Clarifies the scope and training of pharmacists amid confusion about their expanding healthcare role",
+  "tags": [
+    "Health and Medicine",
+    "Healthcare Access",
+    "Professional Roles"
+  ],
+  "sources": [
+    {
+      "name": "National Plan for Health Workforce Well-Being",
+      "url": "https://nap.nationalacademies.org/catalog/26744/national-plan-for-health-workforce-well-being",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+      "url": "https://nap.nationalacademies.org/catalog/10027/crossing-the-quality-chasm-a-new-health-system-for-the",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Improving Diagnosis in Health Care",
+      "url": "https://nap.nationalacademies.org/catalog/21794/improving-diagnosis-in-health-care",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medical Surge Capacity: Workshop Summary",
+      "url": "https://nap.nationalacademies.org/catalog/12798/medical-surge-capacity-workshop-summary",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series",
+      "url": "https://nap.nationalacademies.org/catalog/26573/evolving-crisis-standards-of-care-and-ongoing-lessons-from-covid-19",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crisis Standards of Care: A Toolkit for Indicators and Triggers",
+      "url": "https://nap.nationalacademies.org/catalog/18338/crisis-standards-of-care-a-toolkit-for-indicators-and-triggers",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crisis Standards of Care: Summary of a Workshop Series",
+      "url": "https://nap.nationalacademies.org/catalog/12787/crisis-standards-of-care-summary-of-a-workshop-series",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crisis Standards of Care: Lessons from Communities Building Their Plans: Workshop in Brief",
+      "url": "https://nap.nationalacademies.org/catalog/21676/crisis-standards-of-care-lessons-from-communities-building-their-plans",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

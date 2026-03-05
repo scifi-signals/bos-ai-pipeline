@@ -1,0 +1,60 @@
+{
+  "id": "mrna_vaccines_change_dna_permanently",
+  "question": "Do mRNA vaccines change your DNA permanently?",
+  "topic": "Addresses one of the most persistent and harmful COVID-19 vaccine misconceptions that continues to a",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines",
+    "Genetics"
+  ],
+  "sources": [
+    {
+      "name": "Heritable Human Genome Editing",
+      "url": "https://nap.nationalacademies.org/catalog/25665/heritable-human-genome-editing",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human Genome Editing: Science, Ethics, and Governance",
+      "url": "https://nap.nationalacademies.org/catalog/24623/human-genome-editing-science-ethics-and-governance",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adverse Effects of Vaccines: Evidence and Causality",
+      "url": "https://nap.nationalacademies.org/catalog/13164/adverse-effects-of-vaccines-evidence-and-causality",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://nap.nationalacademies.org/catalog/13563/the-childhood-immunization-schedule-and-safety-stakeholder-concerns-scientific-evidence",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications",
+      "url": "https://nap.nationalacademies.org/catalog/10822/immunization-safety-review-influenza-vaccines-and-neurological-complications",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders",
+      "url": "https://nap.nationalacademies.org/catalog/10208/immunization-safety-review-thimerosal-containing-vaccines-and-neurodevelopmental-disorders",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Vaccines and Autism",
+      "url": "https://nap.nationalacademies.org/catalog/10997/immunization-safety-review-vaccines-and-autism",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://nap.nationalacademies.org/catalog/10306/immunization-safety-review-multiple-immunizations-and-immune-dysfunction",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}
