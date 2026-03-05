@@ -84,6 +84,16 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 .priority-medium { background:var(--amber-light); color:var(--amber); }
 .priority-low { background:var(--bg); color:var(--text-tertiary); border:1px solid var(--border); }
 
+.verification-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; margin-left:6px; }
+.verification-verified { background:var(--green-light); color:var(--green); }
+.verification-needs_review { background:var(--red-light); color:var(--red); }
+.verification-unverified { background:var(--bg); color:var(--text-tertiary); border:1px solid var(--border); }
+
+.misinfo-box { background:var(--red-light); border:1px solid #FECACA; border-radius:var(--radius-sm); padding:10px 14px; margin-bottom:10px; font-size:13px; line-height:1.5; }
+.misinfo-label { font-size:11px; text-transform:uppercase; letter-spacing:0.3px; color:var(--red); font-weight:700; margin-bottom:4px; }
+.stakes-box { background:var(--amber-light); border:1px solid #FDE68A; border-radius:var(--radius-sm); padding:10px 14px; margin-bottom:10px; font-size:13px; line-height:1.5; }
+.stakes-label { font-size:11px; text-transform:uppercase; letter-spacing:0.3px; color:var(--amber); font-weight:700; margin-bottom:4px; }
+
 .published-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; background:var(--green-light); color:var(--green); }
 
 .generate-btn { display:inline-block; padding:8px 18px; background:var(--accent); color:white; border:none; border-radius:var(--radius-sm); font-weight:600; font-size:13px; cursor:pointer; font-family:'DM Sans',sans-serif; }
@@ -322,6 +332,35 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         var rationale = q.rationale || '';
         if (rationale.length > 200) rationale = rationale.substring(0, 200) + '...';
 
+        // Verification badge
+        var verBadge = '';
+        var verStatus = q.verification_status || '';
+        if (verStatus === 'verified') {
+            verBadge = ' <span class="verification-badge verification-verified">Verified</span>';
+        } else if (verStatus === 'needs_review') {
+            verBadge = ' <span class="verification-badge verification-needs_review">Needs Review</span>';
+        } else if (verStatus === 'unverified') {
+            verBadge = ' <span class="verification-badge verification-unverified">Unverified</span>';
+        }
+
+        // Misinformation narrative box
+        var misinfoHtml = '';
+        if (q.misinformation_narrative) {
+            misinfoHtml = '<div class="misinfo-box">' +
+                '<div class="misinfo-label">Misinformation to combat</div>' +
+                escHtml(q.misinformation_narrative) +
+            '</div>';
+        }
+
+        // Public stakes box
+        var stakesHtml = '';
+        if (q.public_stakes) {
+            stakesHtml = '<div class="stakes-box">' +
+                '<div class="stakes-label">Why it matters</div>' +
+                escHtml(q.public_stakes) +
+            '</div>';
+        }
+
         var sourcesHtml = '';
         if (q.nasem_source_count > 0) {
             sourcesHtml = '<div class="queue-item-sources">' +
@@ -346,9 +385,11 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         return '<div class="queue-item" id="queue-' + q.id + '">' +
             '<div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:4px;">' +
                 '<h3>' + escHtml(q.question) + '</h3>' +
-                '<span class="priority-badge ' + priorityClass + '">' + (q.priority || 'medium') + '</span>' +
+                '<span class="priority-badge ' + priorityClass + '">' + (q.priority || 'medium') + verBadge + '</span>' +
             '</div>' +
             (rationale ? '<div class="queue-item-rationale">' + escHtml(rationale) + '</div>' : '') +
+            misinfoHtml +
+            stakesHtml +
             tagsHtml +
             sourcesHtml +
             '<button class="generate-btn" onclick="generateArticle(\'' + q.id + '\', this)" id="gen-btn-' + q.id + '">Generate Article</button>' +

@@ -14,20 +14,38 @@ VERIFIED_DB = STM_DIR / "verified_nasem_database.json"
 
 # Multi-word phrase patterns to detect in questions
 PHRASE_PATTERNS = [
+    # Climate & environment
     "global warming", "climate change", "air quality", "air pollution",
     "greenhouse gas", "sea level", "fossil fuel", "renewable energy",
-    "mental health", "public health", "gene editing", "artificial intelligence",
-    "machine learning", "food safety", "water quality", "nuclear energy",
-    "solar energy", "wind energy", "electric vehicle", "carbon dioxide",
-    "carbon emissions", "wildfire smoke", "particulate matter",
-    "ozone layer", "ground-level ozone", "extreme weather",
-    "infectious disease", "chronic disease", "heart disease",
-    "breathing problems", "respiratory illness", "lung disease",
-    "birth weight", "premature death", "life expectancy",
+    "carbon dioxide", "carbon emissions", "wildfire smoke", "particulate matter",
+    "ozone layer", "ground-level ozone", "extreme weather", "water quality",
+    "solar energy", "wind energy", "electric vehicle", "nuclear energy",
+    # Health — general
+    "public health", "mental health", "infectious disease", "chronic disease",
+    "heart disease", "breathing problems", "respiratory illness", "lung disease",
+    "birth weight", "premature death", "life expectancy", "food safety",
+    # Vaccines & immunization
+    "vaccine safety", "vaccine efficacy", "herd immunity", "mrna vaccine",
+    "flu vaccine", "covid vaccine", "childhood immunization", "immunization schedule",
+    # Pharmacy & medications
+    "prescription drug", "drug safety", "drug pricing", "opioid crisis",
+    "opioid use disorder", "opioid overdose", "medication safety",
+    "pediatric medication", "off-label use", "weight loss drug",
+    # Specific health topics
+    "weight loss", "blood clot", "hiv prevention", "opioid epidemic",
+    "substance abuse", "substance use", "alcohol use", "tobacco use",
+    "screen time", "sleep deprivation", "noise pollution",
+    # Technology & AI
+    "artificial intelligence", "machine learning", "gene editing",
+    "genetic testing", "medical imaging", "diagnostic accuracy",
+    # Nutrition & diet
+    "dietary supplement", "food additive", "processed food", "organic food",
+    "genetically modified", "artificial sweetener",
 ]
 
 # Synonym expansion — maps trigger words to search terms
 SYNONYMS = {
+    # Climate
     "global warming": ["climate change", "climate", "warming", "greenhouse", "carbon"],
     "climate change": ["global warming", "climate", "warming", "greenhouse", "carbon"],
     "breathing": ["respiratory", "lung", "asthma", "copd", "air quality", "air pollution", "ozone"],
@@ -35,13 +53,42 @@ SYNONYMS = {
     "air quality": ["ozone", "smog", "particulate", "air pollution", "wildfire", "pm2.5"],
     "pollution": ["air quality", "ozone", "smog", "particulate", "emissions", "pollutant"],
     "wildfire": ["fire", "smoke", "air quality", "particulate", "drought"],
-    "vaccine": ["immunization", "vaccination", "mrna"],
-    "cancer": ["tumor", "carcinoma", "oncology", "leukemia"],
-    "genetics": ["dna", "crispr", "genome", "gene editing", "genomics"],
-    "nutrition": ["diet", "food", "obesity", "fasting"],
-    "mental health": ["depression", "anxiety", "behavioral", "stress", "ptsd"],
     "water": ["ocean", "drought", "flooding", "sea level", "freshwater"],
     "energy": ["solar", "wind", "nuclear", "renewable", "fossil fuel", "battery"],
+    # Vaccines & immunization
+    "vaccine": ["immunization", "vaccination", "mrna", "inoculation", "immunize"],
+    "vaccination": ["vaccine", "immunization", "inoculation", "mrna"],
+    "immunization": ["vaccine", "vaccination", "inoculation"],
+    "mrna": ["vaccine", "moderna", "pfizer", "rna"],
+    # Pharmacy & medications
+    "pharmacist": ["pharmacy", "pharmacies", "dispensing", "prescription"],
+    "pharmacy": ["pharmacist", "pharmacies", "drugstore", "dispensing"],
+    "opioid": ["fentanyl", "heroin", "morphine", "oxycodone", "naloxone", "narcan", "overdose"],
+    "naloxone": ["narcan", "opioid", "overdose", "reversal"],
+    "narcan": ["naloxone", "opioid", "overdose"],
+    "ozempic": ["semaglutide", "glp-1", "wegovy", "weight loss", "obesity"],
+    "semaglutide": ["ozempic", "glp-1", "wegovy", "weight loss"],
+    "obesity": ["weight", "overweight", "bmi", "diet", "metabolic"],
+    # Health topics
+    "cancer": ["tumor", "carcinoma", "oncology", "leukemia", "malignant"],
+    "genetics": ["dna", "crispr", "genome", "gene editing", "genomics"],
+    "nutrition": ["diet", "food", "obesity", "fasting", "dietary"],
+    "mental health": ["depression", "anxiety", "behavioral", "stress", "ptsd", "psychiatric"],
+    "depression": ["mental health", "anxiety", "psychiatric", "antidepressant"],
+    "hiv": ["aids", "antiretroviral", "prep", "prevention"],
+    "prep": ["hiv", "prevention", "prophylaxis", "truvada"],
+    "pediatric": ["children", "child", "infant", "neonatal", "adolescent"],
+    "children": ["pediatric", "child", "infant", "youth", "adolescent"],
+    "blood clot": ["thrombosis", "embolism", "coagulation", "anticoagulant"],
+    "diabetes": ["insulin", "glucose", "blood sugar", "metabolic", "a1c"],
+    # AI & technology
+    "artificial intelligence": ["machine learning", "deep learning", "neural network", "algorithm"],
+    "machine learning": ["artificial intelligence", "deep learning", "algorithm", "neural"],
+    "diagnostic": ["diagnosis", "screening", "detection", "imaging"],
+    "mri": ["imaging", "magnetic resonance", "radiology", "scan"],
+    # Diet & supplements
+    "supplement": ["vitamin", "mineral", "herbal", "dietary supplement"],
+    "organic": ["pesticide", "conventional", "farming", "agriculture"],
 }
 
 

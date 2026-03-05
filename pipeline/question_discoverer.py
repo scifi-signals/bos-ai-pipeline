@@ -145,34 +145,52 @@ def _rank_and_refine(raw_questions, max_questions):
     prompt = f"""I have {len(raw_questions)} candidate topics/claims from science podcasts and news trends.
 Convert the best ones into "Based on Science" article questions.
 
+The "Based on Science" series exists to COMBAT MISINFORMATION — to provide authoritative,
+evidence-based answers where the public commonly believes something WRONG or is confused
+by conflicting claims. The goal is to CORRECT MISCONCEPTIONS, not just inform.
+
 Candidates:
 {candidates_text}
 
 Select the top {max_questions} candidates that would make the best "Based on Science" articles.
 
-Criteria for good BoS questions:
-- Questions the general public would actually ask (not specialist jargon)
-- Have strong scientific evidence available (not speculative/cutting-edge)
-- Health, environment, or daily-life relevance
-- Can be answered at 8th-grade reading level
-- Not already well-covered by simple Google searches
+REQUIRED criteria — every question MUST have ALL of these:
+1. ACTIVE MISINFORMATION: There must be a specific, identifiable wrong belief, myth, or
+   dangerous confusion circulating among the public (on social media, in news, in common
+   assumptions). If you cannot name the specific wrong belief, REJECT the topic.
+2. AUTHORITATIVE EVIDENCE: Strong scientific evidence exists from NASEM, IPCC, CDC, WHO,
+   or peer-reviewed meta-analyses that directly contradicts or clarifies the misconception.
+3. PUBLIC STAKES: Real health, safety, or environmental consequences if people continue
+   believing the wrong thing.
+4. ACCESSIBILITY: Can be answered at an 8th-grade reading level for a general audience.
+
+REJECT topics that are:
+- Purely informational with no wrong belief to correct (e.g., "How fast are MRI scans?")
+- Speculative or cutting-edge science without established consensus
+- Already well-covered by simple Google searches or existing fact-checks
+- Policy/opinion questions rather than evidence questions
 
 Return a JSON array:
 ```json
 [
   {{
     "question": "Does [topic] cause [effect]?",
-    "rationale": "Why this is a good BoS question",
+    "misinformation_narrative": "The specific wrong belief (e.g., 'Many people believe X when in fact Y')",
+    "public_stakes": "What happens if people keep believing the wrong thing",
+    "rationale": "Why this is a good BoS question — what misconception does it correct?",
     "source_indices": [1, 5, 12],
     "estimated_sources": "What types of authoritative sources likely exist",
-    "priority": "high|medium|low"
+    "priority": "high|medium|low",
+    "tags": ["Health and Medicine", "Public Health"]
   }}
 ]
 ```
 
-Return ONLY the JSON array."""
+Return ONLY the JSON array. Do NOT include questions where you cannot identify a specific,
+real misinformation narrative. It is better to return fewer high-quality questions than to
+pad the list with informational topics."""
 
-    system = "You are an editorial strategist for the National Academies' 'Based on Science' series. You identify science questions the public is actively asking that can be answered with authoritative evidence."
+    system = "You are an editorial strategist for the National Academies' 'Based on Science' series. Your mission is to identify science topics where PUBLIC MISINFORMATION is actively causing harm and where authoritative evidence can correct the record. You only select questions that combat specific, identifiable wrong beliefs."
 
     response = ask_claude(prompt, system_prompt=system)
 
