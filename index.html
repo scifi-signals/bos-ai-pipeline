@@ -182,9 +182,8 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     var BOS_CONFIG = {
         repo: 'scifi-signals/bos-ai-pipeline',
         workflow: 'generate-article.yml',
-        // Fine-grained PAT: actions:write on bos-ai-pipeline only
-        // Replace with actual PAT after creating it
-        pat: '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'
+        apiUrl: 'https://stm-api.stardreamgames.com',
+        apiKey: 'csW9JGOjklBlNQCEtcCxRLqkuZVHAnlqbq7IFOFQ0DA'
     };
 
     // ========================================================================
@@ -413,35 +412,34 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     // One-Click Generation: Workflow Dispatch
     // ========================================================================
     function generateArticle(questionId, btn) {
-        if (BOS_CONFIG.pat === 'REPLACE_WITH_ACTIONS_PAT') {
-            alert('PAT not configured. Set BOS_CONFIG.pat in index.html.');
-            return;
-        }
-
         btn.disabled = true;
         btn.textContent = 'Triggering...';
 
-        fetch('https://api.github.com/repos/' + BOS_CONFIG.repo + '/actions/workflows/' + BOS_CONFIG.workflow + '/dispatches', {
+        fetch(BOS_CONFIG.apiUrl + '/api/dispatch-workflow', {
             method: 'POST',
             headers: {
-                'Authorization': 'Bearer ' + BOS_CONFIG.pat,
-                'Accept': 'application/vnd.github.v3+json',
-                'Content-Type': 'application/json'
+                'Content-Type': 'application/json',
+                'X-API-Key': BOS_CONFIG.apiKey
             },
             body: JSON.stringify({
-                ref: 'main',
+                repo: BOS_CONFIG.repo,
+                workflow: BOS_CONFIG.workflow,
                 inputs: { question_id: questionId }
             })
         }).then(function(response) {
-            if (response.status === 204) {
+            if (response.ok) {
                 btn.className = 'generate-btn generating';
                 btn.textContent = 'Generating... (~10 min)';
                 localStorage.setItem('generating_' + questionId, Date.now().toString());
             } else {
-                response.text().then(function(t) {
+                response.json().then(function(data) {
                     btn.disabled = false;
                     btn.textContent = 'Generate Article';
-                    alert('Dispatch failed (' + response.status + '): ' + t);
+                    alert('Dispatch failed: ' + (data.detail || response.status));
+                }).catch(function() {
+                    btn.disabled = false;
+                    btn.textContent = 'Generate Article';
+                    alert('Dispatch failed (' + response.status + ')');
                 });
             }
         }).catch(function(err) {
