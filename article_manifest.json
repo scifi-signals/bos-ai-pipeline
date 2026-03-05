@@ -1,6 +1,20 @@
 {
   "articles": [
     {
+      "id": "pharmacist_vaccinations",
+      "title": "How effective are pharmacists at providing vaccinations compared to doctors?",
+      "article_url": "articles/pharmacist_vaccinations_article.html",
+      "evidence_url": "articles/pharmacist_vaccinations_evidence.html",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
+      ],
+      "sources_count": 6,
+      "findings_count": 13,
+      "fact_check": "NEEDS_REVISION"
+    },
+    {
       "id": "breathing_problems",
       "title": "Does global warming cause breathing problems?",
       "article_url": "articles/breathing_problems_article.html",
