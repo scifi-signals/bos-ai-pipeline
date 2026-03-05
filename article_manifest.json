@@ -12,7 +12,8 @@
       ],
       "sources_count": 7,
       "findings_count": 63,
-      "fact_check": "NEEDS_REVISION"
+      "fact_check": "NEEDS_REVISION",
+      "demo": true
     }
   ]
 }

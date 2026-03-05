@@ -144,7 +144,9 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                 return '<span class="tag-pill">' + t + '</span>';
             }).join('');
             var badge = '';
-            if (latest.fact_check) {
+            if (latest.demo) {
+                badge = ' <span class="fact-check-badge" style="background:var(--amber-light);color:var(--amber);">DEMO</span>';
+            } else if (latest.fact_check) {
                 var cls = latest.fact_check === 'PASS' ? 'badge-pass' : 'badge-needs-revision';
                 badge = ' <span class="fact-check-badge ' + cls + '">' + latest.fact_check + '</span>';
             }
@@ -169,7 +171,9 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             }
             list.innerHTML = articles.slice(1).map(function(a) {
                 var aBadge = '';
-                if (a.fact_check) {
+                if (a.demo) {
+                    aBadge = ' <span class="fact-check-badge" style="background:var(--amber-light);color:var(--amber);">DEMO</span>';
+                } else if (a.fact_check) {
                     var aCls = a.fact_check === 'PASS' ? 'badge-pass' : 'badge-needs-revision';
                     aBadge = ' <span class="fact-check-badge ' + aCls + '">' + a.fact_check + '</span>';
                 }
