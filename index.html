@@ -68,6 +68,38 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 .badge-pass { background:var(--green-light); color:var(--green); }
 .badge-needs-revision { background:var(--amber-light); color:var(--amber); }
 
+/* Discovery Queue */
+.queue-item { background:var(--surface); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:20px; margin-bottom:12px; }
+.queue-item:hover { border-color:var(--border); box-shadow:var(--shadow-sm); }
+.queue-item h3 { font-family:'DM Serif Display',serif; font-size:17px; font-weight:400; margin-bottom:6px; }
+.queue-item-meta { font-size:13px; color:var(--text-secondary); margin-bottom:8px; }
+.queue-item-rationale { font-size:13px; color:var(--text-secondary); margin-bottom:10px; line-height:1.5; }
+.queue-item-sources { font-size:12px; color:var(--text-tertiary); margin-bottom:12px; }
+.queue-item-sources ul { list-style:none; padding:0; margin-top:4px; }
+.queue-item-sources li { padding:1px 0; }
+.queue-item-sources li::before { content:"\2022"; color:var(--accent); margin-right:6px; }
+
+.priority-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.3px; }
+.priority-high { background:var(--red-light); color:var(--red); }
+.priority-medium { background:var(--amber-light); color:var(--amber); }
+.priority-low { background:var(--bg); color:var(--text-tertiary); border:1px solid var(--border); }
+
+.published-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; background:var(--green-light); color:var(--green); }
+
+.generate-btn { display:inline-block; padding:8px 18px; background:var(--accent); color:white; border:none; border-radius:var(--radius-sm); font-weight:600; font-size:13px; cursor:pointer; font-family:'DM Sans',sans-serif; }
+.generate-btn:hover { background:var(--accent-hover); }
+.generate-btn:disabled { background:var(--text-tertiary); cursor:not-allowed; }
+.generate-btn.generating { background:var(--amber); }
+
+/* Social Copy Cards */
+.social-cards { display:grid; grid-template-columns:1fr 1fr; gap:12px; margin-top:16px; }
+.social-card { background:var(--bg); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:16px; }
+.social-card-label { font-size:11px; text-transform:uppercase; letter-spacing:0.5px; color:var(--text-tertiary); font-weight:600; margin-bottom:8px; }
+.social-card-text { font-size:13px; line-height:1.5; color:var(--text-primary); white-space:pre-wrap; margin-bottom:10px; }
+.copy-btn { display:inline-block; padding:4px 12px; background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-sm); font-size:12px; font-weight:500; cursor:pointer; color:var(--text-secondary); font-family:'DM Sans',sans-serif; }
+.copy-btn:hover { background:var(--surface-hover); color:var(--text-primary); }
+.copy-btn.copied { background:var(--green-light); color:var(--green); border-color:var(--green); }
+
 .footer { max-width:900px; margin:0 auto; padding:20px 32px 40px; text-align:center; font-size:12px; color:var(--text-tertiary); border-top:1px solid var(--border-light); }
 .footer a { color:var(--accent); text-decoration:none; }
 
@@ -78,6 +110,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     .card, .latest-box { padding:20px; }
     .archive-item { flex-direction:column; align-items:flex-start; gap:4px; }
     .archive-meta { text-align:left; }
+    .social-cards { grid-template-columns:1fr; }
 }
     </style>
 </head>
@@ -112,6 +145,13 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             Each article includes a <strong>full evidence package</strong> with source-by-source findings, consensus analysis, and independent fact-check results. Articles target an <strong>8th-grade reading level</strong> following NASEM's "Based on Science" style guide.
         </div>
 
+        <div class="card queue-section">
+            <div class="card-label">Discovery Queue</div>
+            <div id="discovery-queue">
+                <p style="color:var(--text-tertiary); font-size:14px;">Loading discovery queue...</p>
+            </div>
+        </div>
+
         <div class="card">
             <div class="card-label">Article Archive</div>
             <ul class="archive-list" id="archive-list">
@@ -126,71 +166,340 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     </div>
 
     <script>
-    fetch('article_manifest.json')
-        .then(r => r.json())
-        .then(data => {
-            var articles = data.articles || [];
-            if (articles.length === 0) {
-                document.getElementById('latest-article').innerHTML =
-                    '<p style="color:var(--text-tertiary);">No articles published yet.</p>';
-                document.getElementById('archive-list').innerHTML =
-                    '<li class="archive-item" style="color:var(--text-tertiary);">No articles yet. Check back soon.</li>';
-                return;
-            }
+    // ========================================================================
+    // Configuration
+    // ========================================================================
+    var BOS_CONFIG = {
+        repo: 'scifi-signals/bos-ai-pipeline',
+        workflow: 'generate-article.yml',
+        // Fine-grained PAT: actions:write on bos-ai-pipeline only
+        // Replace with actual PAT after creating it
+        pat: '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'
+    };
 
-            // Latest article (first in manifest)
-            var latest = articles[0];
-            var tags = (latest.tags || []).map(function(t) {
-                return '<span class="tag-pill">' + t + '</span>';
-            }).join('');
-            var badge = '';
-            if (latest.demo) {
-                badge = ' <span class="fact-check-badge" style="background:var(--amber-light);color:var(--amber);">DEMO</span>';
-            } else if (latest.fact_check) {
-                var cls = latest.fact_check === 'PASS' ? 'badge-pass' : 'badge-needs-revision';
-                badge = ' <span class="fact-check-badge ' + cls + '">' + latest.fact_check + '</span>';
-            }
-            document.getElementById('latest-article').innerHTML =
-                '<div class="latest-box">' +
-                    '<h3>' + latest.title + '</h3>' +
-                    '<div class="latest-meta">' +
-                        latest.sources_count + ' sources &middot; ' +
-                        latest.findings_count + ' findings' +
-                        badge +
-                    '</div>' +
-                    '<a class="latest-btn" href="' + latest.article_url + '">Read Article</a>' +
-                    '&nbsp;&nbsp;<a href="' + latest.evidence_url + '" style="font-size:13px;color:var(--accent);">View Evidence</a>' +
-                    '<div class="tag-pills" style="margin-top:12px;">' + tags + '</div>' +
-                '</div>';
+    // ========================================================================
+    // State
+    // ========================================================================
+    var manifestData = null;
+    var publishedIds = new Set();
 
-            // Archive list (all articles)
-            var list = document.getElementById('archive-list');
-            if (articles.length <= 1) {
-                list.innerHTML = '<li class="archive-item" style="color:var(--text-tertiary); font-size:14px;">More articles coming soon.</li>';
-                return;
-            }
-            list.innerHTML = articles.slice(1).map(function(a) {
-                var aBadge = '';
-                if (a.demo) {
-                    aBadge = ' <span class="fact-check-badge" style="background:var(--amber-light);color:var(--amber);">DEMO</span>';
-                } else if (a.fact_check) {
-                    var aCls = a.fact_check === 'PASS' ? 'badge-pass' : 'badge-needs-revision';
-                    aBadge = ' <span class="fact-check-badge ' + aCls + '">' + a.fact_check + '</span>';
-                }
-                return '<li class="archive-item">' +
-                    '<a href="' + a.article_url + '">' + a.title + '</a>' +
-                    '<div class="archive-meta">' +
-                        a.sources_count + ' sources &middot; ' + a.findings_count + ' findings' +
-                        aBadge +
-                    '</div>' +
-                '</li>';
-            }).join('');
-        })
-        .catch(function() {
+    // ========================================================================
+    // Load manifest + discovery queue
+    // ========================================================================
+    Promise.all([
+        fetch('article_manifest.json').then(function(r) { return r.json(); }).catch(function() { return {articles:[]}; }),
+        fetch('discovered_questions.json').then(function(r) { return r.json(); }).catch(function() { return null; })
+    ]).then(function(results) {
+        manifestData = results[0];
+        var discoveryData = results[1];
+
+        var articles = manifestData.articles || [];
+        articles.forEach(function(a) { publishedIds.add(a.id); });
+
+        renderLatestArticle(articles);
+        renderArchive(articles);
+        renderDiscoveryQueue(discoveryData);
+    });
+
+    // ========================================================================
+    // Render: Latest Article
+    // ========================================================================
+    function renderLatestArticle(articles) {
+        if (articles.length === 0) {
             document.getElementById('latest-article').innerHTML =
-                '<p style="color:var(--text-tertiary);">Articles loading failed. Check back later.</p>';
-            document.getElementById('archive-list').innerHTML = '';
+                '<p style="color:var(--text-tertiary);">No articles published yet.</p>';
+            return;
+        }
+
+        var latest = articles[0];
+        var tags = (latest.tags || []).map(function(t) {
+            return '<span class="tag-pill">' + t + '</span>';
+        }).join('');
+        var badge = '';
+        if (latest.demo) {
+            badge = ' <span class="fact-check-badge" style="background:var(--amber-light);color:var(--amber);">DEMO</span>';
+        } else if (latest.fact_check) {
+            var cls = latest.fact_check === 'PASS' ? 'badge-pass' : 'badge-needs-revision';
+            badge = ' <span class="fact-check-badge ' + cls + '">' + latest.fact_check + '</span>';
+        }
+
+        var socialHtml = '';
+        if (latest.has_social) {
+            socialHtml = '<div id="latest-social" data-id="' + latest.id + '"></div>';
+        }
+
+        document.getElementById('latest-article').innerHTML =
+            '<div class="latest-box">' +
+                '<h3>' + escHtml(latest.title) + '</h3>' +
+                '<div class="latest-meta">' +
+                    latest.sources_count + ' sources &middot; ' +
+                    latest.findings_count + ' findings' +
+                    badge +
+                '</div>' +
+                '<a class="latest-btn" href="' + latest.article_url + '">Read Article</a>' +
+                '&nbsp;&nbsp;<a href="' + latest.evidence_url + '" style="font-size:13px;color:var(--accent);">View Evidence</a>' +
+                '<div class="tag-pills" style="margin-top:12px;">' + tags + '</div>' +
+                socialHtml +
+            '</div>';
+
+        // Load social posts for latest article
+        if (latest.has_social) {
+            loadSocialPosts(latest.id, 'latest-social');
+        }
+    }
+
+    // ========================================================================
+    // Render: Archive
+    // ========================================================================
+    function renderArchive(articles) {
+        var list = document.getElementById('archive-list');
+        if (articles.length <= 1) {
+            list.innerHTML = '<li class="archive-item" style="color:var(--text-tertiary); font-size:14px;">More articles coming soon.</li>';
+            return;
+        }
+        list.innerHTML = articles.slice(1).map(function(a) {
+            var aBadge = '';
+            if (a.demo) {
+                aBadge = ' <span class="fact-check-badge" style="background:var(--amber-light);color:var(--amber);">DEMO</span>';
+            } else if (a.fact_check) {
+                var aCls = a.fact_check === 'PASS' ? 'badge-pass' : 'badge-needs-revision';
+                aBadge = ' <span class="fact-check-badge ' + aCls + '">' + a.fact_check + '</span>';
+            }
+            return '<li class="archive-item">' +
+                '<a href="' + a.article_url + '">' + escHtml(a.title) + '</a>' +
+                '<div class="archive-meta">' +
+                    a.sources_count + ' sources &middot; ' + a.findings_count + ' findings' +
+                    aBadge +
+                '</div>' +
+            '</li>';
+        }).join('');
+    }
+
+    // ========================================================================
+    // Render: Discovery Queue
+    // ========================================================================
+    function renderDiscoveryQueue(discoveryData) {
+        var container = document.getElementById('discovery-queue');
+        if (!discoveryData || !discoveryData.questions || discoveryData.questions.length === 0) {
+            container.innerHTML = '<p style="color:var(--text-tertiary); font-size:14px;">No questions in the discovery queue yet. Run the discovery pipeline to populate.</p>';
+            return;
+        }
+
+        var html = '';
+        var questions = discoveryData.questions;
+
+        // Client-side status: cross-reference with manifest
+        questions.forEach(function(q) {
+            if (publishedIds.has(q.id)) {
+                q.status = 'published';
+            }
         });
+
+        var pendingCount = questions.filter(function(q) { return q.status === 'pending'; }).length;
+        var publishedCount = questions.filter(function(q) { return q.status === 'published'; }).length;
+
+        html += '<p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px;">' +
+            pendingCount + ' pending &middot; ' + publishedCount + ' published' +
+            (discoveryData.generated_at ? ' &middot; Last updated: ' + new Date(discoveryData.generated_at).toLocaleDateString() : '') +
+            '</p>';
+
+        questions.forEach(function(q) {
+            if (q.status === 'published') {
+                html += renderPublishedQueueItem(q);
+            } else {
+                html += renderPendingQueueItem(q);
+            }
+        });
+
+        container.innerHTML = html;
+
+        // Check for in-flight generations
+        checkGenerationStatus();
+    }
+
+    function renderPendingQueueItem(q) {
+        var priorityClass = 'priority-' + (q.priority || 'medium');
+        var rationale = q.rationale || '';
+        if (rationale.length > 200) rationale = rationale.substring(0, 200) + '...';
+
+        var sourcesHtml = '';
+        if (q.nasem_source_count > 0) {
+            sourcesHtml = '<div class="queue-item-sources">' +
+                '<strong>' + q.nasem_source_count + ' NASEM sources found</strong>';
+            if (q.nasem_sources_preview && q.nasem_sources_preview.length > 0) {
+                sourcesHtml += '<ul>';
+                q.nasem_sources_preview.forEach(function(s) {
+                    sourcesHtml += '<li>' + escHtml(s) + '</li>';
+                });
+                sourcesHtml += '</ul>';
+            }
+            sourcesHtml += '</div>';
+        }
+
+        var tagsHtml = '';
+        if (q.tags && q.tags.length > 0) {
+            tagsHtml = '<div class="tag-pills" style="margin-bottom:10px;">' +
+                q.tags.map(function(t) { return '<span class="tag-pill">' + escHtml(t) + '</span>'; }).join('') +
+                '</div>';
+        }
+
+        return '<div class="queue-item" id="queue-' + q.id + '">' +
+            '<div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:4px;">' +
+                '<h3>' + escHtml(q.question) + '</h3>' +
+                '<span class="priority-badge ' + priorityClass + '">' + (q.priority || 'medium') + '</span>' +
+            '</div>' +
+            (rationale ? '<div class="queue-item-rationale">' + escHtml(rationale) + '</div>' : '') +
+            tagsHtml +
+            sourcesHtml +
+            '<button class="generate-btn" onclick="generateArticle(\'' + q.id + '\', this)" id="gen-btn-' + q.id + '">Generate Article</button>' +
+        '</div>';
+    }
+
+    function renderPublishedQueueItem(q) {
+        var articleUrl = q.article_url || ('articles/' + q.id + '_article.html');
+        return '<div class="queue-item" style="opacity:0.7;">' +
+            '<div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:4px;">' +
+                '<h3><a href="' + articleUrl + '" style="color:var(--accent); text-decoration:none;">' + escHtml(q.question) + '</a></h3>' +
+                '<span class="published-badge">Published</span>' +
+            '</div>' +
+            (q.tags && q.tags.length > 0 ?
+                '<div class="tag-pills">' + q.tags.map(function(t) { return '<span class="tag-pill">' + escHtml(t) + '</span>'; }).join('') + '</div>'
+                : '') +
+        '</div>';
+    }
+
+    // ========================================================================
+    // One-Click Generation: Workflow Dispatch
+    // ========================================================================
+    function generateArticle(questionId, btn) {
+        if (BOS_CONFIG.pat === 'REPLACE_WITH_ACTIONS_PAT') {
+            alert('PAT not configured. Set BOS_CONFIG.pat in index.html.');
+            return;
+        }
+
+        btn.disabled = true;
+        btn.textContent = 'Triggering...';
+
+        fetch('https://api.github.com/repos/' + BOS_CONFIG.repo + '/actions/workflows/' + BOS_CONFIG.workflow + '/dispatches', {
+            method: 'POST',
+            headers: {
+                'Authorization': 'Bearer ' + BOS_CONFIG.pat,
+                'Accept': 'application/vnd.github.v3+json',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                ref: 'main',
+                inputs: { question_id: questionId }
+            })
+        }).then(function(response) {
+            if (response.status === 204) {
+                btn.className = 'generate-btn generating';
+                btn.textContent = 'Generating... (~10 min)';
+                localStorage.setItem('generating_' + questionId, Date.now().toString());
+            } else {
+                response.text().then(function(t) {
+                    btn.disabled = false;
+                    btn.textContent = 'Generate Article';
+                    alert('Dispatch failed (' + response.status + '): ' + t);
+                });
+            }
+        }).catch(function(err) {
+            btn.disabled = false;
+            btn.textContent = 'Generate Article';
+            alert('Network error: ' + err.message);
+        });
+    }
+
+    function checkGenerationStatus() {
+        var thirtyMin = 30 * 60 * 1000;
+        for (var i = 0; i < localStorage.length; i++) {
+            var key = localStorage.key(i);
+            if (key && key.startsWith('generating_')) {
+                var qid = key.replace('generating_', '');
+                var startTime = parseInt(localStorage.getItem(key), 10);
+                var btn = document.getElementById('gen-btn-' + qid);
+
+                if (publishedIds.has(qid)) {
+                    // Article appeared in manifest — generation succeeded
+                    localStorage.removeItem(key);
+                    if (btn) {
+                        btn.className = 'generate-btn';
+                        btn.style.background = 'var(--green)';
+                        btn.textContent = 'Published!';
+                        btn.disabled = true;
+                    }
+                } else if (Date.now() - startTime > thirtyMin) {
+                    // Timed out
+                    localStorage.removeItem(key);
+                    if (btn) {
+                        btn.className = 'generate-btn';
+                        btn.disabled = false;
+                        btn.textContent = 'May have failed — try again';
+                        btn.style.background = 'var(--red)';
+                        btn.style.color = 'white';
+                    }
+                } else if (btn) {
+                    // Still in progress
+                    btn.className = 'generate-btn generating';
+                    btn.textContent = 'Generating... (~10 min)';
+                    btn.disabled = true;
+                }
+            }
+        }
+    }
+
+    // ========================================================================
+    // Social Posts: Load + Display
+    // ========================================================================
+    function loadSocialPosts(questionId, containerId) {
+        fetch('social/' + questionId + '.json')
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                var container = document.getElementById(containerId);
+                if (!container) return;
+                container.innerHTML = renderSocialCards(data);
+            })
+            .catch(function() { /* no social posts available, silent */ });
+    }
+
+    function renderSocialCards(data) {
+        return '<div class="social-cards">' +
+            '<div class="social-card">' +
+                '<div class="social-card-label">Short Post (X / Bluesky / Threads)</div>' +
+                '<div class="social-card-text" id="social-short-' + data.question_id + '">' + escHtml(data.short_post) + '</div>' +
+                '<button class="copy-btn" onclick="copyPost(\'social-short-' + data.question_id + '\', this)">Copy</button>' +
+            '</div>' +
+            '<div class="social-card">' +
+                '<div class="social-card-label">Long Post (LinkedIn / Facebook)</div>' +
+                '<div class="social-card-text" id="social-long-' + data.question_id + '">' + escHtml(data.long_post) + '</div>' +
+                '<button class="copy-btn" onclick="copyPost(\'social-long-' + data.question_id + '\', this)">Copy</button>' +
+            '</div>' +
+        '</div>';
+    }
+
+    function copyPost(elementId, btn) {
+        var el = document.getElementById(elementId);
+        if (!el) return;
+        var text = el.textContent.replace(/\{\{ARTICLE_URL\}\}/g, window.location.href);
+        navigator.clipboard.writeText(text).then(function() {
+            btn.textContent = 'Copied!';
+            btn.className = 'copy-btn copied';
+            setTimeout(function() {
+                btn.textContent = 'Copy';
+                btn.className = 'copy-btn';
+            }, 2000);
+        });
+    }
+
+    // ========================================================================
+    // Util
+    // ========================================================================
+    function escHtml(s) {
+        if (!s) return '';
+        var div = document.createElement('div');
+        div.textContent = s;
+        return div.innerHTML;
+    }
     </script>
 </body>
 </html>

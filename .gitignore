@@ -9,7 +9,7 @@ __pycache__/
 # Cached sources (large, re-downloadable)
 pipeline/sources/
 
-# Generated output (re-generable)
+# Generated output (re-generable) — published copies live at root (articles/, social/)
 pipeline/output/
 
 # Editor

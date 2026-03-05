@@ -38,6 +38,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add articles/ article_manifest.json
+          git add articles/ article_manifest.json social/
           git commit -m "Auto-generated: ${{ inputs.question_id }}" || true
+          git pull --rebase origin main
           git push

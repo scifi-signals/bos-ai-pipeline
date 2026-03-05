@@ -3,6 +3,7 @@
 import json
 import re
 import html as html_lib
+from pathlib import Path
 from config import OUTPUT_DIR
 
 # STM Design System CSS — DM Sans + DM Serif Display, card-based layout
@@ -100,11 +101,22 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 
 .footer { max-width:900px; margin:0 auto; padding:20px 32px 40px; text-align:center; font-size:12px; color:var(--text-tertiary); border-top:1px solid var(--border-light); }
 
+.social-share { margin-top:16px; }
+.social-share h2 { font-family:'DM Serif Display',serif; font-size:22px; font-weight:400; margin-bottom:16px; }
+.social-cards { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.social-card { background:var(--bg); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:16px; }
+.social-card-label { font-size:11px; text-transform:uppercase; letter-spacing:0.5px; color:var(--text-tertiary); font-weight:600; margin-bottom:8px; }
+.social-card-text { font-size:13px; line-height:1.5; color:var(--text-primary); white-space:pre-wrap; margin-bottom:10px; }
+.copy-btn { display:inline-block; padding:4px 12px; background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-sm); font-size:12px; font-weight:500; cursor:pointer; color:var(--text-secondary); font-family:'DM Sans',sans-serif; }
+.copy-btn:hover { background:var(--surface-hover); color:var(--text-primary); }
+.copy-btn.copied { background:var(--green-light); color:var(--green); border-color:var(--green); }
+
 @media (max-width:640px) {
     .header { padding:0 16px; }
     .hero, .container { padding-left:16px; padding-right:16px; }
     .hero h1 { font-size:28px; }
     .card, .short-answer { padding:20px; }
+    .social-cards { grid-template-columns:1fr; }
 }
 """
 
@@ -114,6 +126,22 @@ function toggleEvidence(id) {
     body.classList.toggle('open');
     var arrow = body.previousElementSibling.querySelector('.arrow');
     arrow.textContent = body.classList.contains('open') ? '\\u25BC' : '\\u25B6';
+}
+"""
+
+SOCIAL_JS = """
+function copyPost(elementId, btn) {
+    var el = document.getElementById(elementId);
+    if (!el) return;
+    var text = el.textContent.replace(/\\{\\{ARTICLE_URL\\}\\}/g, window.location.href);
+    navigator.clipboard.writeText(text).then(function() {
+        btn.textContent = 'Copied!';
+        btn.className = 'copy-btn copied';
+        setTimeout(function() {
+            btn.textContent = 'Copy';
+            btn.className = 'copy-btn';
+        }, 2000);
+    });
 }
 """
 
@@ -171,12 +199,17 @@ def render_article_html(article_markdown, question_id, tags=None):
         pills = "".join(f'<span class="tag-pill">{html_lib.escape(t)}</span>' for t in tags)
         body_html += f'<div style="margin-top:16px;"><div class="tag-pills">{pills}</div></div>'
 
+    # Social posts (if available)
+    social_html, include_social_js = _render_social_section(question_id)
+    body_html += social_html
+
     page = _wrap_page(
         title=title,
         hero=hero_html,
         body=body_html,
         nav_extra=f'<a href="{question_id}_evidence.html">View Evidence</a>',
         description=lede,
+        include_social_js=include_social_js,
     )
 
     out_path = OUTPUT_DIR / "html" / f"{question_id}_article.html"
@@ -320,9 +353,14 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
     return out_path
 
 
-def _wrap_page(title, hero, body, nav_extra="", include_js=False, description=""):
+def _wrap_page(title, hero, body, nav_extra="", include_js=False, include_social_js=False, description=""):
     """Wrap content in full HTML page with STM design system."""
-    js_block = f"<script>{TOGGLE_JS}</script>" if include_js else ""
+    js_parts = []
+    if include_js:
+        js_parts.append(TOGGLE_JS)
+    if include_social_js:
+        js_parts.append(SOCIAL_JS)
+    js_block = f"<script>{''.join(js_parts)}</script>" if js_parts else ""
     og_desc = html_lib.escape(description) if description else html_lib.escape(title)
     return f"""<!DOCTYPE html>
 <html lang="en">
@@ -357,6 +395,40 @@ def _wrap_page(title, hero, body, nav_extra="", include_js=False, description=""
     {js_block}
 </body>
 </html>"""
+
+
+def _render_social_section(question_id):
+    """Render social post cards if social JSON exists. Returns (html, needs_js)."""
+    social_path = OUTPUT_DIR / "social" / f"{question_id}.json"
+    if not social_path.exists():
+        return "", False
+
+    try:
+        data = json.loads(social_path.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return "", False
+
+    short_post = html_lib.escape(data.get("short_post", ""))
+    long_post = html_lib.escape(data.get("long_post", ""))
+
+    html = f"""
+    <div class="card social-share">
+        <h2>Share This Article</h2>
+        <div class="social-cards">
+            <div class="social-card">
+                <div class="social-card-label">Short Post (X / Bluesky / Threads)</div>
+                <div class="social-card-text" id="social-short">{short_post}</div>
+                <button class="copy-btn" onclick="copyPost('social-short', this)">Copy</button>
+            </div>
+            <div class="social-card">
+                <div class="social-card-label">Long Post (LinkedIn / Facebook)</div>
+                <div class="social-card-text" id="social-long">{long_post}</div>
+                <button class="copy-btn" onclick="copyPost('social-long', this)">Copy</button>
+            </div>
+        </div>
+    </div>
+    """
+    return html, True
 
 
 def _parse_article_sections(markdown):

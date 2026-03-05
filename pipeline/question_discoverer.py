@@ -1,6 +1,7 @@
 """Discover potential BoS questions from STM trending topics and podcast claims."""
 
 import json
+import os
 import re
 from pathlib import Path
 from datetime import datetime
@@ -8,9 +9,9 @@ from datetime import datetime
 from config import PROJECT_DIR
 from llm import ask_claude
 
-# Data paths
-STM_DIR = Path(r"C:\Users\chris\Downloads\science-trend-monitor")
-PODCAST_DIR = Path(r"C:\Users\chris\Downloads\science-podcast-monitor")
+# Data paths — override via env vars for CI/server, defaults for local dev
+STM_DIR = Path(os.environ.get("STM_DIR", r"C:\Users\chris\Downloads\science-trend-monitor"))
+PODCAST_DIR = Path(os.environ.get("PODCAST_DIR", r"C:\Users\chris\Downloads\science-podcast-monitor"))
 PODCAST_SUMMARIES = PODCAST_DIR / "data" / "summaries"
 TOPIC_HISTORY = STM_DIR / "topic_history.json"
 

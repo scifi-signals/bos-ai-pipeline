@@ -1,13 +1,14 @@
 """Find relevant NASEM publications for any question using the STM catalog."""
 
 import json
+import os
 import re
 from pathlib import Path
 
 from config import PROJECT_DIR
 
-# STM data paths
-STM_DIR = Path(r"C:\Users\chris\Downloads\science-trend-monitor")
+# STM data paths — override via env vars for CI/server, defaults for local dev
+STM_DIR = Path(os.environ.get("STM_DIR", r"C:\Users\chris\Downloads\science-trend-monitor"))
 NASEM_CATALOG = STM_DIR / "nasem_catalog.json"
 VERIFIED_DB = STM_DIR / "verified_nasem_database.json"
 

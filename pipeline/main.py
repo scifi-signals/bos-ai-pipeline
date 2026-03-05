@@ -25,37 +25,42 @@ def cmd_run(args):
     print(f"{'='*60}")
 
     # Step 1: Evidence extraction
-    print(f"\n[1/6] Extracting evidence from {len(question_config['sources'])} sources...")
+    print(f"\n[1/7] Extracting evidence from {len(question_config['sources'])} sources...")
     from evidence_extractor import extract_evidence
     evidence = extract_evidence(question_config)
     print(f"  Total: {evidence['total_findings']} findings from {evidence['sources_processed']} sources")
 
     # Step 2: Consensus building
-    print(f"\n[2/6] Building consensus...")
+    print(f"\n[2/7] Building consensus...")
     from consensus_builder import build_consensus
     consensus = build_consensus(evidence)
     n_claims = len(consensus.get("primary_claims", []))
     print(f"  Found {n_claims} primary claims")
 
     # Step 3: Article generation
-    print(f"\n[3/6] Generating article...")
+    print(f"\n[3/7] Generating article...")
     from article_generator import generate_article
     article_result = generate_article(consensus, evidence)
 
     # Step 4: Fact-checking
-    print(f"\n[4/6] Fact-checking...")
+    print(f"\n[4/7] Fact-checking...")
     from fact_checker import fact_check
     fc_result = fact_check(article_result["article_markdown"], evidence)
 
-    # Step 5: HTML rendering
-    print(f"\n[5/6] Rendering HTML...")
+    # Step 5: Social post generation
+    print(f"\n[5/7] Generating social posts...")
+    from social_generator import generate_social_posts
+    generate_social_posts(article_result["article_markdown"], evidence, args.question_id)
+
+    # Step 6: HTML rendering
+    print(f"\n[6/7] Rendering HTML...")
     from html_renderer import render_article_html, render_evidence_html
     render_article_html(article_result["article_markdown"], args.question_id,
                         tags=question_config.get("tags", []))
     render_evidence_html(evidence, consensus=consensus, fact_check_result=fc_result)
 
-    # Step 6: Evaluation (if reference exists)
-    print(f"\n[6/6] Evaluation...")
+    # Step 7: Evaluation (if reference exists)
+    print(f"\n[7/7] Evaluation...")
     from evaluate import evaluate
     eval_result = evaluate(args.question_id)
 
