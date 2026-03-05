@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How It Works | Based on Science</title>
+    <meta name="description" content="How the Based on Science AI Pipeline transforms authoritative research into accessible articles.">
+    <meta property="og:title" content="How It Works — Based on Science">
+    <meta property="og:description" content="A 6-step AI pipeline that transforms authoritative research into accessible, fact-checked articles.">
+    <meta property="og:type" content="article">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <style>
+:root {
+    --bg: #FAFAF8; --surface: #FFFFFF; --surface-hover: #F5F5F0;
+    --border: #E8E6E1; --border-light: #F0EEE9;
+    --text-primary: #1A1A18; --text-secondary: #6B6960; --text-tertiary: #9B9890;
+    --accent: #2563EB; --accent-light: #EFF6FF; --accent-hover: #1D4ED8;
+    --green: #16A34A; --green-light: #F0FDF4;
+    --amber: #D97706; --amber-light: #FFFBEB;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.04); --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+    --radius: 10px; --radius-sm: 6px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-primary); line-height:1.7; -webkit-font-smoothing:antialiased; }
+
+.header { background:var(--surface); border-bottom:1px solid var(--border); padding:0 32px; }
+.header-inner { max-width:900px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; height:64px; }
+.header-left { display:flex; align-items:center; gap:16px; text-decoration:none; color:inherit; }
+.logo-mark { width:32px; height:32px; background:var(--accent); border-radius:8px; display:flex; align-items:center; justify-content:center; color:white; font-weight:700; font-size:14px; }
+.header-title { font-family:'DM Serif Display',serif; font-size:18px; }
+.header-right { font-size:13px; color:var(--text-tertiary); }
+.header-right a { color:var(--accent); text-decoration:none; font-weight:500; }
+
+.hero { max-width:900px; margin:0 auto; padding:48px 32px 32px; }
+.hero h1 { font-family:'DM Serif Display',serif; font-size:36px; font-weight:400; margin-bottom:12px; line-height:1.2; }
+.hero .tagline { font-size:15px; color:var(--text-secondary); max-width:600px; }
+
+.container { max-width:900px; margin:0 auto; padding:0 32px 60px; }
+
+.step-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:28px 32px; margin-bottom:16px; box-shadow:var(--shadow-sm); }
+.step-card:hover { box-shadow:var(--shadow-md); }
+.step-num { display:inline-block; width:28px; height:28px; background:var(--accent); color:white; border-radius:50%; text-align:center; line-height:28px; font-weight:700; font-size:13px; margin-right:12px; vertical-align:middle; }
+.step-card h2 { font-family:'DM Serif Display',serif; font-size:20px; font-weight:400; margin-bottom:12px; display:inline; vertical-align:middle; }
+.step-card p { font-size:15px; margin-top:12px; }
+.step-detail { font-size:13px; color:var(--text-secondary); margin-top:8px; padding:10px 14px; background:var(--bg); border-radius:var(--radius-sm); }
+
+.principle-box { background:var(--accent-light); border:1px solid #BFDBFE; border-radius:var(--radius); padding:24px 28px; margin-bottom:16px; }
+.principle-box h2 { font-family:'DM Serif Display',serif; font-size:20px; font-weight:400; margin-bottom:12px; color:var(--accent-hover); }
+.principle-box ul { padding-left:20px; }
+.principle-box li { font-size:14px; margin-bottom:6px; }
+
+.tier-table { width:100%; border-collapse:collapse; margin-top:12px; font-size:14px; }
+.tier-table th, .tier-table td { padding:8px 12px; text-align:left; border-bottom:1px solid var(--border-light); }
+.tier-table th { font-weight:600; font-size:12px; text-transform:uppercase; letter-spacing:0.5px; color:var(--text-tertiary); }
+.tier-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:600; text-transform:uppercase; }
+.tier-1 { background:var(--green-light); color:var(--green); }
+.tier-2 { background:var(--accent-light); color:var(--accent); }
+.tier-3 { background:var(--amber-light); color:var(--amber); }
+.tier-4 { background:var(--bg); color:var(--text-tertiary); border:1px solid var(--border); }
+
+.footer { max-width:900px; margin:0 auto; padding:20px 32px 40px; text-align:center; font-size:12px; color:var(--text-tertiary); border-top:1px solid var(--border-light); }
+.footer a { color:var(--accent); text-decoration:none; }
+
+@media (max-width:640px) {
+    .header { padding:0 16px; }
+    .hero, .container { padding-left:16px; padding-right:16px; }
+    .hero h1 { font-size:28px; }
+    .step-card, .principle-box { padding:20px; }
+}
+    </style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <a class="header-left" href="index.html">
+                <div class="logo-mark">BoS</div>
+                <span class="header-title">Based on Science</span>
+            </a>
+            <div class="header-right">
+                <a href="index.html">Articles</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="hero">
+        <h1>How This Works</h1>
+        <p class="tagline">A 6-step AI pipeline transforms authoritative research into accessible, fact-checked articles. Every claim traces back to its source.</p>
+    </div>
+
+    <div class="container">
+        <div class="step-card">
+            <span class="step-num">1</span>
+            <h2>Source Discovery</h2>
+            <p>The pipeline identifies authoritative sources for each science question, prioritizing NASEM reports, IPCC assessments, and peer-reviewed research. Sources are ranked by a 4-tier system based on institutional authority and evidence quality.</p>
+            <table class="tier-table">
+                <tr><th>Tier</th><th>Source Type</th></tr>
+                <tr><td><span class="tier-badge tier-1">Tier 1</span></td><td>NAS/NASEM reports, IPCC reports, peer-reviewed meta-analyses</td></tr>
+                <tr><td><span class="tier-badge tier-2">Tier 2</span></td><td>Government agencies (EPA, CDC, WHO), major health organizations</td></tr>
+                <tr><td><span class="tier-badge tier-3">Tier 3</span></td><td>Peer-reviewed individual studies, university research</td></tr>
+                <tr><td><span class="tier-badge tier-4">Tier 4</span></td><td>Science journalism, educational resources, advocacy organizations</td></tr>
+            </table>
+        </div>
+
+        <div class="step-card">
+            <span class="step-num">2</span>
+            <h2>Evidence Extraction</h2>
+            <p>Claude reads each source document and extracts structured evidence: specific claims, supporting quotes, data points, strength assessments, and limitations. Long documents are chunked (~8,000 tokens with overlap) to ensure thorough coverage.</p>
+            <div class="step-detail">Each finding includes: claim, verbatim evidence quote, data points, strength rating (strong/moderate/limited), limitations, and source section reference.</div>
+        </div>
+
+        <div class="step-card">
+            <span class="step-num">3</span>
+            <h2>Cross-Source Consensus</h2>
+            <p>Claude analyzes all extracted evidence together to identify where sources agree, disagree, or provide complementary information. Claims are assigned consensus levels (strong, moderate, limited, conflicting) based on the weight and agreement of underlying evidence.</p>
+        </div>
+
+        <div class="step-card">
+            <span class="step-num">4</span>
+            <h2>Article Generation</h2>
+            <p>Claude generates an article following NASEM's "Based on Science" style guide. Articles target an 8th-grade reading level, open with a short answer, then walk through the evidence section by section. Every claim in the article must trace back to extracted evidence.</p>
+        </div>
+
+        <div class="step-card">
+            <span class="step-num">5</span>
+            <h2>Independent Fact-Checking</h2>
+            <p>GPT-4o independently verifies every factual claim in the article against the evidence package. Using a different model prevents self-confirmation bias. Each claim receives a verdict: <strong>Confirmed</strong>, <strong>Plausible</strong>, <strong>Unsupported</strong>, or <strong>Contradicted</strong>.</p>
+            <div class="step-detail">Reading level is also measured with Flesch-Kincaid, Flesch Reading Ease, and Gunning Fog metrics to verify the 8th-grade target is met.</div>
+        </div>
+
+        <div class="step-card">
+            <span class="step-num">6</span>
+            <h2>Publication with Evidence Transparency</h2>
+            <p>Every published article includes a companion evidence page showing the full evidence package: consensus analysis, fact-check results with individual verdicts, and collapsible source cards with per-source findings and original quotes. Readers can verify any claim back to its source.</p>
+        </div>
+
+        <div class="principle-box">
+            <h2>Design Principles</h2>
+            <ul>
+                <li><strong>Dual-model verification</strong> &mdash; Claude for analysis and generation, GPT-4o for independent fact-checking</li>
+                <li><strong>Evidence traceability</strong> &mdash; every claim links to specific sources with exact quotes</li>
+                <li><strong>Source hierarchy</strong> &mdash; institutional reports and meta-analyses weighted above individual studies</li>
+                <li><strong>Accessible language</strong> &mdash; 8th-grade reading level, plain language, no jargon</li>
+                <li><strong>Full transparency</strong> &mdash; evidence packages published alongside every article</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="footer">
+        Evidence sourced from the National Academies, IPCC, and peer-reviewed research.<br>
+        <a href="index.html">Back to Articles</a>
+    </div>
+</body>
+</html>

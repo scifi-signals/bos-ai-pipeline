@@ -1,0 +1,8 @@
+anthropic
+openai
+httpx
+beautifulsoup4
+PyPDF2
+readability-lxml
+textstat
+lxml

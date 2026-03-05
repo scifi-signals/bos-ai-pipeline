@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evidence: Does global warming cause breathing problems? | Based on Science</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <style>
+:root {
+    --bg: #FAFAF8; --surface: #FFFFFF; --surface-hover: #F5F5F0;
+    --border: #E8E6E1; --border-light: #F0EEE9;
+    --text-primary: #1A1A18; --text-secondary: #6B6960; --text-tertiary: #9B9890;
+    --accent: #2563EB; --accent-light: #EFF6FF; --accent-hover: #1D4ED8;
+    --green: #16A34A; --green-light: #F0FDF4;
+    --amber: #D97706; --amber-light: #FFFBEB;
+    --red: #DC2626; --red-light: #FEF2F2;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.04); --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+    --radius: 10px; --radius-sm: 6px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-primary); line-height:1.7; -webkit-font-smoothing:antialiased; }
+
+.header { background:var(--surface); border-bottom:1px solid var(--border); padding:0 32px; }
+.header-inner { max-width:900px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; height:64px; }
+.header-left { display:flex; align-items:center; gap:16px; }
+.logo-mark { width:32px; height:32px; background:var(--accent); border-radius:8px; display:flex; align-items:center; justify-content:center; color:white; font-weight:700; font-size:14px; }
+.header-title { font-family:'DM Serif Display',serif; font-size:18px; }
+.header-right { font-size:13px; color:var(--text-tertiary); }
+.header-right a { color:var(--accent); text-decoration:none; font-weight:500; }
+
+.hero { max-width:900px; margin:0 auto; padding:48px 32px 32px; }
+.hero-org { font-size:12px; text-transform:uppercase; letter-spacing:1.5px; color:var(--text-tertiary); font-weight:600; margin-bottom:8px; }
+.hero h1 { font-family:'DM Serif Display',serif; font-size:36px; font-weight:400; margin-bottom:12px; line-height:1.2; }
+.hero .lede { font-size:17px; color:var(--text-secondary); font-style:italic; max-width:680px; line-height:1.6; }
+
+.container { max-width:900px; margin:0 auto; padding:0 32px 60px; }
+
+.card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:32px; margin-bottom:16px; box-shadow:var(--shadow-sm); }
+.card:hover { box-shadow:var(--shadow-md); }
+.card h2 { font-family:'DM Serif Display',serif; font-size:22px; font-weight:400; margin-bottom:16px; }
+.card h3 { font-family:'DM Serif Display',serif; font-size:18px; font-weight:400; margin-top:20px; margin-bottom:8px; }
+.card p { margin-bottom:14px; font-size:15px; }
+.card strong { font-weight:600; }
+.card em { font-style:italic; }
+.card ul, .card ol { margin:12px 0; padding-left:24px; }
+.card li { margin-bottom:6px; font-size:15px; }
+.card a { color:var(--accent); text-decoration:none; font-weight:500; }
+.card a:hover { text-decoration:underline; }
+
+.short-answer { background:var(--accent-light); border:1px solid #BFDBFE; border-radius:var(--radius); padding:28px 32px; margin-bottom:16px; }
+.short-answer h2 { font-family:'DM Serif Display',serif; font-size:22px; font-weight:400; margin-bottom:12px; color:var(--accent-hover); }
+.short-answer p { font-size:16px; line-height:1.7; }
+
+.note-box { background:var(--amber-light); border:1px solid #FDE68A; border-radius:var(--radius-sm); padding:16px 20px; margin:16px 0; font-size:14px; }
+
+.resources-list { list-style:none; padding:0; }
+.resources-list li { padding:10px 0; border-bottom:1px solid var(--border-light); }
+.resources-list li:last-child { border-bottom:none; }
+.resources-list a { color:var(--accent); text-decoration:none; font-weight:500; font-size:14px; }
+.resources-list a:hover { text-decoration:underline; }
+
+.tag-pills { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+.tag-pill { display:inline-block; padding:4px 12px; background:var(--bg); border:1px solid var(--border); border-radius:20px; font-size:12px; color:var(--text-secondary); font-weight:500; }
+
+.evidence-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); margin-bottom:12px; overflow:hidden; }
+.evidence-header { padding:16px 20px; cursor:pointer; display:flex; justify-content:space-between; align-items:center; }
+.evidence-header:hover { background:var(--surface-hover); }
+.evidence-header h3 { font-family:'DM Serif Display',serif; font-size:16px; font-weight:400; }
+.tier-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; }
+.tier-1 { background:var(--green-light); color:var(--green); }
+.tier-2 { background:var(--accent-light); color:var(--accent); }
+.tier-3 { background:var(--amber-light); color:var(--amber); }
+.tier-4 { background:var(--bg); color:var(--text-tertiary); }
+.evidence-body { padding:0 20px 16px; display:none; }
+.evidence-body.open { display:block; }
+.finding { padding:12px 0; border-top:1px solid var(--border-light); }
+.finding:first-child { border-top:none; }
+.finding-claim { font-weight:600; font-size:14px; margin-bottom:4px; }
+.finding-quote { font-style:italic; font-size:13px; color:var(--text-secondary); padding:8px 12px; border-left:3px solid var(--border); margin:8px 0; }
+.finding-meta { font-size:12px; color:var(--text-tertiary); display:flex; gap:12px; }
+.strength-strong { color:var(--green); font-weight:600; }
+.strength-moderate { color:var(--amber); font-weight:600; }
+.strength-limited { color:var(--text-tertiary); font-weight:600; }
+
+.consensus-bar { display:flex; align-items:center; gap:8px; margin:8px 0; }
+.consensus-level { padding:3px 10px; border-radius:4px; font-size:12px; font-weight:600; text-transform:uppercase; }
+.consensus-strong { background:var(--green-light); color:var(--green); }
+.consensus-moderate { background:var(--amber-light); color:var(--amber); }
+.consensus-limited { background:var(--red-light); color:var(--red); }
+.consensus-conflicting { background:var(--bg); color:var(--text-tertiary); }
+
+.fact-check-row { display:flex; align-items:flex-start; gap:12px; padding:10px 0; border-bottom:1px solid var(--border-light); }
+.fact-check-row:last-child { border-bottom:none; }
+.verdict-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; white-space:nowrap; }
+.verdict-CONFIRMED { background:var(--green-light); color:var(--green); }
+.verdict-PLAUSIBLE { background:var(--accent-light); color:var(--accent); }
+.verdict-UNSUPPORTED { background:var(--amber-light); color:var(--amber); }
+.verdict-CONTRADICTED { background:var(--red-light); color:var(--red); }
+
+.footer { max-width:900px; margin:0 auto; padding:20px 32px 40px; text-align:center; font-size:12px; color:var(--text-tertiary); border-top:1px solid var(--border-light); }
+
+@media (max-width:640px) {
+    .header { padding:0 16px; }
+    .hero, .container { padding-left:16px; padding-right:16px; }
+    .hero h1 { font-size:28px; }
+    .card, .short-answer { padding:20px; }
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <div class="header-left">
+                <div class="logo-mark">BoS</div>
+                <span class="header-title">Based on Science</span>
+            </div>
+            <div class="header-right"><a href="../index.html">Home</a> &nbsp;|&nbsp; <a href="breathing_problems_article.html">View Article</a></div>
+        </div>
+    </div>
+    
+    <div class="hero">
+        <div class="hero-org">Evidence Package</div>
+        <h1>Does global warming cause breathing problems?</h1>
+        <p class="lede">63 findings from 7 sources</p>
+    </div>
+    
+    <div class="container">
+        <div class="card"><h2>Consensus Analysis</h2><p>Yes, global warming causes breathing problems through multiple pathways: increased ground-level ozone formation that triggers respiratory disease, more frequent wildfires producing harmful smoke and particulate matter, and increased allergens that worsen asthma. Climate change also indirectly affects respiratory health by increasing heat-related hospital admissions for respiratory diseases.</p>
+            <div style="margin:16px 0; padding:12px 0; border-top:1px solid var(--border-light);">
+                <div class="consensus-bar">
+                    <span class="consensus-level consensus-strong">strong</span>
+                    <strong>Climate change worsens air pollution, particularly ground-level ozone formation, which directly causes breathing problems and respiratory disease</strong>
+                </div>
+            <ul style="margin:8px 0 0 20px;"><li style="font-size:13px;">Tropospheric ozone levels significantly associated with cardiopulmonary mortality in 66 U.S. cities over 18 years <span style="color:var(--text-tertiary);">— IPCC AR5 WGII Chapter 11</span></li><li style="font-size:13px;">150,000 premature deaths from ozone exposures globally in 2010 <span style="color:var(--text-tertiary);">— IPCC AR5 WGII Chapter 11</span></li><li style="font-size:13px;">7.3% projected increase in summer ozone-related asthma emergency department visits for children in NYC by 2020s <span style="color:var(--text-tertiary);">— IPCC AR5 WGII Chapter 11</span></li></ul></div>
+            <div style="margin:16px 0; padding:12px 0; border-top:1px solid var(--border-light);">
+                <div class="consensus-bar">
+                    <span class="consensus-level consensus-strong">strong</span>
+                    <strong>Climate change increases wildfire frequency and intensity, producing harmful particulate matter and smoke that causes respiratory problems</strong>
+                </div>
+            <ul style="margin:8px 0 0 20px;"><li style="font-size:13px;">339,000 deaths per year globally from air pollution from forest fires (range 260,000-600,000) <span style="color:var(--text-tertiary);">— IPCC AR5 WGII Chapter 11</span></li><li style="font-size:13px;">Moscow wildfire pollution reached 1500 μg m⁻³ PM10, 30x WHO guidelines <span style="color:var(--text-tertiary);">— IPCC AR5 WGII Chapter 11</span></li></ul></div>
+            <div style="margin:16px 0; padding:12px 0; border-top:1px solid var(--border-light);">
+                <div class="consensus-bar">
+                    <span class="consensus-level consensus-moderate">moderate</span>
+                    <strong>Warmer temperatures increase production of airborne allergens like pollen and fungal spores, worsening asthma and allergic respiratory diseases</strong>
+                </div>
+            <ul style="margin:8px 0 0 20px;"><li style="font-size:13px;">3-5 day time lag between increasing grass pollen and asthma ambulance calls <span style="color:var(--text-tertiary);">— IPCC AR5 WGII Chapter 11</span></li></ul></div>
+            <div style="margin:16px 0; padding:12px 0; border-top:1px solid var(--border-light);">
+                <div class="consensus-bar">
+                    <span class="consensus-level consensus-moderate">moderate</span>
+                    <strong>Heat waves and extreme heat directly affect respiratory health by increasing hospital admissions for respiratory diseases</strong>
+                </div>
+            <ul style="margin:8px 0 0 20px;"><li style="font-size:13px;">50% of 2003 European heat wave deaths possibly associated with ozone exposure rather than heat itself <span style="color:var(--text-tertiary);">— IPCC AR5 WGII Chapter 11</span></li></ul></div>
+            <div style="margin:16px 0; padding:12px 0; border-top:1px solid var(--border-light);">
+                <div class="consensus-bar">
+                    <span class="consensus-level consensus-strong">strong</span>
+                    <strong>Climate change mitigation measures could prevent millions of breathing-related deaths by reducing air pollution exposure</strong>
+                </div>
+            <ul style="margin:8px 0 0 20px;"><li style="font-size:13px;">1.3 million premature deaths could be prevented by 2050 through reduced air pollution from climate mitigation <span style="color:var(--text-tertiary);">— IPCC AR5 WGII Chapter 11</span></li><li style="font-size:13px;">3.5 million premature deaths annually from household air pollution <span style="color:var(--text-tertiary);">— IPCC AR5 WGII Chapter 11</span></li><li style="font-size:13px;">3.2 million premature deaths globally from ambient particle pollution <span style="color:var(--text-tertiary);">— IPCC AR5 WGII Chapter 11</span></li></ul></div></div>
+        <div class="card">
+            <h2>Fact-Check Report</h2>
+            <div style="display:flex; gap:24px; flex-wrap:wrap; margin-bottom:16px;">
+                <div><strong>Overall:</strong> <span style="color:var(--amber); font-weight:700;">NEEDS_REVISION</span></div>
+                <div><strong>Confirmed:</strong> 21</div>
+                <div><strong>Plausible:</strong> 0</div>
+                <div><strong>Unsupported:</strong> 1</div>
+                <div><strong>Contradicted:</strong> 0</div>
+            </div>
+            <div style="margin-bottom:16px;">
+                <strong>Reading Level:</strong> FK Grade 12.7
+                <span style="color:var(--red);"> (above target)</span>
+                &nbsp;|&nbsp; Flesch Ease: 33.4
+                &nbsp;|&nbsp; Gunning Fog: 15.2
+            </div>
+        
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Global warming causes breathing problems through multiple pathways: it increases ground-level ozone that triggers respiratory disease, produces more wildfire smoke that damages lungs, and creates conditions that worsen asthma and allergies</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">All three pathways are directly supported by evidence in the package</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Higher temperatures increase the formation of ground-level ozone</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Direct match with evidence showing temperature-ozone relationship</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Research tracking 66 U.S. cities over 18 years (1982-2000) found that tropospheric ozone levels were significantly associated with cardiopulmonary mortality</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Exact match with specific study details</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">The health risks persist even when ozone levels meet current EPA standards of 0.08 parts per million over 8 hours</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Direct match with EPA standard and health risks</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Scientists estimate that ozone exposures caused 150,000 premature deaths worldwide in 2010</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Exact match with global mortality estimate</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">One study projected a 7.3% increase in summer ozone-related asthma emergency department visits for children in New York City by the 2020s compared to the 1990s</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Exact match with specific projection data</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">During the 2010 Russian heat wave and wildfires, Moscow recorded air pollution levels between 430 and 900 micrograms per cubic meter of PM10 particles on most days, with occasional spikes reaching 1,500 micrograms per cubic meter</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Exact match with Moscow pollution data</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">The World Health Organization&#x27;s air quality guidelines recommend no more than 50 micrograms per cubic meter for PM10</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Direct match with WHO guidelines</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">One global study estimated that air pollution from forest fires causes 339,000 deaths per year worldwide, with estimates ranging from 260,000 to 600,000 deaths annually</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Exact match with global fire mortality estimates</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">The regions most affected are sub-Saharan Africa and Southeast Asia</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Direct match with regional impact data</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">During the 2003 European heat wave, scientists found that possibly 50% of the deaths could have been associated with ozone exposure rather than heat itself</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Exact match with 2003 heat wave study findings</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Warmer conditions generally favor the production and release of airborne allergens such as fungal spores and plant pollen, consequently affecting asthma and other allergic respiratory diseases like allergic rhinitis</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Exact match with allergen pathway</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Studies have documented clear connections between increasing grass pollen concentrations and more frequent ambulance calls for asthma symptoms, with a time lag of 3 to 5 days</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Exact match with pollen-asthma study findings</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Children are particularly susceptible to most allergic diseases</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Direct match with children&#x27;s susceptibility</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Older adults face heightened vulnerability because they are more likely to suffer from health conditions that limit the body&#x27;s ability to respond to stressors such as heat and air pollution</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Direct match with older adult vulnerability</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">More than half of all non-household labor hours occur outdoors</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Exact match with outdoor labor statistics</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Agricultural and construction workers in tropical developing countries are among the most exposed</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Direct match with worker exposure data</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Households that burn solid fuels for cooking and heating face 3.5 million premature deaths annually from household air pollution, representing 4.4% of the global burden of disease</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Direct match with household air pollution mortality data</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">An additional 0.5 million deaths result from household cookfuel&#x27;s contribution to outdoor air pollution</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Direct match with cookfuel pollution mortality</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">The IPCC found that climate mitigation measures could prevent 1.3 million premature deaths by 2050 through reduced air pollution exposure</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Direct match with mitigation benefits projection</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-CONFIRMED">CONFIRMED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Reducing emissions of climate-altering pollutants like black carbon and methane could prevent 0.7 to 4.6 million premature deaths through PM2.5 reduction alone</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">Direct match with BC and methane mitigation benefits</div>
+                </div>
+            </div>
+            
+            <div class="fact-check-row">
+                <span class="verdict-badge verdict-UNSUPPORTED">UNSUPPORTED</span>
+                <div>
+                    <div style="font-size:14px; font-weight:500;">Some plants also produce more potent allergens under elevated carbon dioxide levels, though this represents just one study&#x27;s findings at very high CO2 concentrations</div>
+                    <div style="font-size:12px; color:var(--text-tertiary); margin-top:2px;">No evidence in the package supports this claim about CO2 effects on allergen potency</div>
+                </div>
+            </div>
+            </div><div class="card"><h2>Source Evidence</h2></div>
+        <div class="evidence-card">
+            <div class="evidence-header" onclick="toggleEvidence('evidence-0')">
+                <div>
+                    <span class="tier-badge tier-2">Tier 2</span>
+                    &nbsp;
+                    <h3 style="display:inline;">Health Effects Institute - State of Global Air 2025</h3>
+                    <span style="color:var(--text-tertiary); font-size:13px;"> — 0 findings</span>
+                </div>
+                <span class="arrow" style="font-size:12px;">&#9654;</span>
+            </div>
+            <div class="evidence-body" id="evidence-0">
+        </div></div>
+        <div class="evidence-card">
+            <div class="evidence-header" onclick="toggleEvidence('evidence-1')">
+                <div>
+                    <span class="tier-badge tier-1">Tier 1</span>
+                    &nbsp;
+                    <h3 style="display:inline;">IPCC AR5 WGII Chapter 11 - Human Health</h3>
+                    <span style="color:var(--text-tertiary); font-size:13px;"> — 63 findings</span>
+                </div>
+                <span class="arrow" style="font-size:12px;">&#9654;</span>
+            </div>
+            <div class="evidence-body" id="evidence-1">
+        
+                <div class="finding">
+                    <div class="finding-claim">Climate-altering pollutants other than CO2 caused more than 7% of the global burden of disease in 2010 through inhalation</div>
+            <div class="finding-quote">In 2010, more than 7% of the global burden of disease was due to inhalation of these air pollutants (high confidence).</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: None mentioned for this specific finding</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate change affects health indirectly through ecological disruptions including shifting patterns of disease vectors</div>
+            <div class="finding-quote">Indirectly, health may be damaged by ecological disruptions brought on by climate change (crop failures, shifting patterns of disease vectors), or social responses to climate change (such as displacement of populations following prolonged drought).</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: None mentioned</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Local changes in temperature and rainfall have altered distribution of some water-borne illnesses and disease vectors</div>
+            <div class="finding-quote">Local changes in temperature and rainfall have altered distribution of some water-borne illnesses and disease vectors, and reduced food production for some vulnerable populations (medium confidence).</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: None mentioned</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Air quality is identified as an ecosystem-mediated impact of climate change on health outcomes</div>
+            <div class="finding-quote">Air Quality</div>
+                    <div class="finding-meta">
+                        <span class="strength-limited">limited</span>
+            <span>Limitations: Only section heading provided, detailed content not included in this chunk</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Long-term outdoor ozone exposures are a specific air quality concern related to climate change health impacts</div>
+            <div class="finding-quote">Long-Term Outdoor Ozone Exposures</div>
+                    <div class="finding-meta">
+                        <span class="strength-limited">limited</span>
+            <span>Limitations: Only section heading provided, detailed content not included in this chunk</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Acute air pollution episodes are identified as a climate-related health concern</div>
+            <div class="finding-quote">Acute Air Pollution Episodes</div>
+                    <div class="finding-meta">
+                        <span class="strength-limited">limited</span>
+            <span>Limitations: Only section heading provided, detailed content not included in this chunk</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Aeroallergens are identified as a climate-related air quality health concern</div>
+            <div class="finding-quote">Aeroallergens</div>
+                    <div class="finding-meta">
+                        <span class="strength-limited">limited</span>
+            <span>Limitations: Only section heading provided, detailed content not included in this chunk</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Co-benefits exist from reducing emissions of warming climate-altering pollutants that simultaneously improve health</div>
+            <div class="finding-quote">Reducing local emissions of health-damaging and climate-altering air pollutants from energy systems, through improved energy efficiency, and a shift to cleaner energy sources (very high confidence)</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: None mentioned</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate-altering pollutants such as black carbon and tropospheric ozone have substantial, direct, negative effects on human health</div>
+            <div class="finding-quote">CAPs such as black carbon and tropospheric ozone have substantial, direct, negative effects on human health (Wang et al., 2013; see Section 11.5.3 and Box 11-3).</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Specific health effects not detailed in this excerpt</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">CO2 at levels of 1000 ppm and above may reduce mental performance</div>
+            <div class="finding-quote">Although CO2 is not considered a health-damaging air pollutant at levels experienced outside particular occupational and health-care settings, one study has reported a reduction in mental performance at 1000 ppm and above, within the range that all of humanity would experience in some extreme climate scenarios by 2100 (Satish et al., 2012).</div>
+                    <div class="finding-meta">
+                        <span class="strength-limited">limited</span>
+            <span>Limitations: Based on one study; effects only at very high concentrations not typically experienced outside occupational settings</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate change affects health through effects mediated through natural systems, including air pollution</div>
+            <div class="finding-quote">Effects mediated through natural systems, for example, disease vectors, water-borne diseases, and air pollution (Section 11.5)</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: General pathway identification; specific mechanisms not detailed in this excerpt</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Older people are more likely to suffer from health conditions that limit the body&#x27;s ability to respond to stressors such as heat and air pollution</div>
+            <div class="finding-quote">Older people are also more likely to suffer from health conditions that limit the body&#x27;s ability to respond to stressors such as heat and air pollution (Gamble et al., 2013).</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Specific health conditions and mechanisms not detailed</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">The association between hot days and increases in mortality is very robust</div>
+            <div class="finding-quote">Most notably, the association between hot days (commonly defined in terms of the percentiles of daily maximum temperature for a specified location) and increases in mortality is very robust (Honda et al., 2013).</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: Specific temperature thresholds and mortality rates not provided in this excerpt</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">There has been a global increase in warm days and nights, which likely increases heat-related deaths</div>
+            <div class="finding-quote">The IPCC Special Report on Extreme Events (SREX) concludes that it is very likely that there has been an overall decrease in the number of cold days and nights, and an overall increase in the number of warm days and nights, at the global scale. If there has been an increase in daily maximum temperatures, then it follows, in our view, that the number of heat-related deaths is likely to have also increased.</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: Logical inference rather than direct measurement of health impacts</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">The 2003 European heat wave caused approximately 15,000 excess deaths in France alone and was likely caused by anthropogenic climate change</div>
+            <div class="finding-quote">The 2003 heat wave was one such record event; therefore, the probability that particular heat wave can be attributed to climate change is 75% or more, and on this basis it is likely the excess mortality attributed to the heat wave (about 15,000 deaths in France alone (Fouillet et al., 2008)) was caused by anthropogenic climate change.</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: Specific to one event and one country</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Heat stress affects respiratory health through increased hospital admissions for respiratory diseases</div>
+            <div class="finding-quote">Numerous studies of temperature-related morbidity, based on hospital admissions or emergency presentations, have reported increases in events due to cardiovascular, respiratory, and kidney diseases (Hansen et al., 2008; Knowlton et al., 2009; Lin and Chan, 2009) and the impact has been related to the duration and intensity of heat (Nitschke et al., 2011).</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Studies are based on hospital admissions which may not capture all respiratory impacts</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Forest fire smoke linked to increased mortality and morbidity affects respiratory health</div>
+            <div class="finding-quote">Smoke from forest fires has been linked elsewhere with increased mortality and morbidity (Analitis et al., 2012; see Section 11.5.3.2).</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Limited detail provided on specific respiratory impacts</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate change increases fire risk which produces smoke affecting respiratory health</div>
+            <div class="finding-quote">Heat also acts on human health through its effects, in conjunction with low rainfall, on fire risk. In Australia in 2009, record high temperatures, combined with long-term drought, caused fires of unprecedented intensity and 173 deaths from burns and injury (Teague et al., 2010). Smoke from forest fires has been linked elsewhere with increased mortality and morbidity (Analitis et al., 2012; see Section 11.5.3.2).</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Example focuses on one event in Australia; deaths primarily from burns/injury rather than respiratory causes specifically mentioned</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Higher temperatures increase ozone production which can affect breathing and respiratory health</div>
+            <div class="finding-quote">if temperatures rise, many air pollution models (Ebi and McGregor, 2008; Tsai et al., 2008; Chang et al., 2010; Polvani et al., 2011) project increased ozone production especially within and surrounding urban areas</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Enhanced temperature also accelerates destruction of ozone, and the net direct impact of climate change on ozone concentrations worldwide is thought to be a reduction</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Even small increases in ground-level ozone concentrations may affect health</div>
+            <div class="finding-quote">Even small increases in atmospheric concentrations of ground-level ozone may affect health (Bell et al., 2006; Ebi and McGregor, 2008; Jerrett et al., 2009)</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: There is a lack of association between ozone and premature mortality only at very low concentrations (from 0 to ~10 ppb)</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Ozone levels meeting EPA standards are still associated with increased risk of premature mortality</div>
+            <div class="finding-quote">Bell et al. (2006) found that levels that meet the USEPA 8-hour regulation (0.08 ppm over 8 hours) were associated with increased risk of premature mortality</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            </div></div>
+                <div class="finding">
+                    <div class="finding-claim">Tropospheric ozone levels are significantly associated with cardiopulmonary mortality</div>
+            <div class="finding-quote">In an analysis of 66 U.S. cities with 18 years of follow-up (1982–2000), tropospheric ozone levels were found to be significantly associated with cardiopulmonary mortality</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            </div></div>
+                <div class="finding">
+                    <div class="finding-claim">Wildfires release particulate matter that affects respiratory health for extended periods</div>
+            <div class="finding-quote">Wildfires, which occur more commonly following heat waves and drought, release particulate matter and other toxic substances that may affect large numbers of people for days to months</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            </div></div>
+                <div class="finding">
+                    <div class="finding-claim">Forest fires cause substantial premature mortality from air pollution</div>
+            <div class="finding-quote">One study of worldwide premature mortality attributable to air pollution from forest fires estimated there were 339,000 deaths per year (range 260,000 to 600,000)</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: The regions most affected are sub-Saharan Africa and Southeast Asia</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Heat waves with wildfires can create extremely dangerous air pollution levels</div>
+            <div class="finding-quote">The highest 24-hour pollution levels recorded in Moscow during these conditions were between 430 and 900 µg m–3 PM10 most days, but occasionally reached 1500 µg m–3</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            </div></div>
+                <div class="finding">
+                    <div class="finding-claim">Heat waves interact with ozone exposure to increase mortality</div>
+            <div class="finding-quote">Dear et al. (2005) modeled the daily mortality due to heat and exposure to ozone during the European summer heat wave of 2003 and found that possibly 50% of the deaths could have been associated with ozone exposure rather than the heat itself</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            </div></div>
+                <div class="finding">
+                    <div class="finding-claim">Warmer conditions increase airborne allergens affecting asthma and allergic respiratory diseases</div>
+            <div class="finding-quote">Warmer conditions generally favor the production and release of airborne allergens (such as fungal spores and plant pollen) and, consequently, there may be an effect on asthma and other allergic respiratory diseases such as allergic rhinitis</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Children are particularly susceptible to most allergic diseases</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Increasing grass pollen levels lead to more asthma-related ambulance calls</div>
+            <div class="finding-quote">Studies have shown that increasing concentrations of grass pollen lead to more frequent ambulance calls due to asthma symptoms, with a time lag of 3 to 5 days</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            </div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate change is projected to increase ozone-related mortality in the USA and Canada</div>
+            <div class="finding-quote">In general, all-cause mortality related to ozone is expected to increase in the USA and Canada</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            </div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate change could cause additional premature deaths from fine particulate matter</div>
+            <div class="finding-quote">A study that investigated regional air quality in the USA in 2050, using a down-scaled climate model (Goddard Institute for Space Studies, Global Climate Model), concluded there would be about 4000 additional annual premature deaths due to increased exposures to PM2.5</div>
+                    <div class="finding-meta">
+                        <span class="strength-limited">limited</span>
+            <span>Limitations: Based on one study using one climate model</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Asthma emergency department visits for children are projected to increase due to higher ozone levels</div>
+            <div class="finding-quote">Sheffield et al. (2011), applying the SRES A2 scenario, projected a median 7.3% increase in summer ozone-related asthma emergency department visits for children (0 to 17 years) across New York City by the 2020s compared to the 1990s</div>
+                    <div class="finding-meta">
+                        <span class="strength-limited">limited</span>
+            <span>Limitations: Single city study</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Heat exposure affects work capacity and can cause heat exhaustion in outdoor workers</div>
+            <div class="finding-quote">Individuals who are obliged to work outside in hot conditions, without access to shade, or sufficient water, are at heightened risk of heat strain (ICD code T .67, &quot;heat exhaustion&quot;) and heat stroke. Health risks increase with the level of physical exertion.</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Focus on occupational exposure rather than general population breathing problems</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Rising temperatures will significantly reduce work capacity in hot climates by 2050 and 2100</div>
+            <div class="finding-quote">In Southeast Asia, in 2050, the model indicates that more than half the afternoon work hours will be lost due to the need for rest breaks. By 2100, under RCP4.5, Dunne et al. (2013) project up to a 20% loss of productivity globally.</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Focuses on work productivity rather than direct breathing problems</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Heat exposure affects cognitive and physical performance</div>
+            <div class="finding-quote">Exposure to heat affects psychomotor, perceptual, and cognitive performance (Hancock et al., 2007) and increases risk of injuries (Ramsey, 1995).</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Does not specifically mention respiratory or breathing effects</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Some parts of the world already exceed safe work activity levels during the hottest months</div>
+            <div class="finding-quote">Note that some parts of the world already exceed the level for safe work activity during the hottest month. In general, with climate change, for every 1°C that Tmax goes up, the WBGT goes up by about 0.9°C, leading to more parts of the world being restricted for more of the year, with consequent impacts on productivity, heat exhaustion, and need for air conditioning to protect health</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Mentions heat exhaustion but not specific breathing problems</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Air quality is identified as one of eight major health-related sectors impacted by climate change</div>
+            <div class="finding-quote">Impacts are identified in eight health-related sectors based on assessment of the literature and expert judgments by authors of Chapter 11</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: The width of the slices indicates in a qualitative way the relative importance in terms of burden of ill health globally at present and should not be considered completely independent</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate change mitigation through reduction of co-pollutants can provide significant respiratory health benefits by reducing exposures to health-damaging air pollutants</div>
+            <div class="finding-quote">Reductions in health-damaging co-pollutant emissions would decrease exposures to outdoor air pollution and could reduce risks of cardiovascular disease, chronic and acute respiratory illnesses, lung cancer, and preterm birth</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: Benefits depend on specific interventions and local conditions</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Household solid fuel combustion creates substantial respiratory health impacts and climate effects</div>
+            <div class="finding-quote">Potentially reduce exposures that are associated with disease, chronic and acute respiratory illnesses, lung cancer, low birth weight and stillbirths, and possibly tuberculosis</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: Successfully accelerating the reduction of impacts from these fuels has not been found to be easily accomplished with biomass/coal stove programs implemented to date and may require moving to clean fuels</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Outdoor air pollution from particulate matter causes significant respiratory health impacts globally</div>
+            <div class="finding-quote">Outdoor exposure to PM, especially to particles with diameters less than 2.5 µm (PM2.5), contributes significantly to ill health including cardio- and cerebrovascular disease, adult chronic and child acute respiratory illnesses, lung cancer, and possibly other diseases</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: Based on Comparative Risk Assessment for outdoor air pollution from Global Burden of Disease 2010 Project</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Methane reduction can provide respiratory health co-benefits by reducing ozone-related health impacts</div>
+            <div class="finding-quote">Thus, reductions in CH4 could lead to reductions in ambient tropospheric ozone concentrations, which in turn could result in reductions in population morbidity and premature mortality and climate forcing</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Conservative interpretation of evidence for mortality from ozone in some studies</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Black carbon from incomplete combustion causes both climate and respiratory health impacts</div>
+            <div class="finding-quote">Black carbon (BC), a primary product of incomplete combustion, is both a strong CAP and health-damaging... A systematic review, meta-analysis, and the largest cohort study to date of the health effects of BC found that there were probably stronger effects on mortality from exposure to BC than for undifferentiated fine particles (PM2.5)</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: WGI AR5 concluded that the net impact of BC emissions reductions overall is not certain as to sign, i.e., whether net warming or cooling</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Reducing methane emissions could decrease surface ozone concentrations and prevent breathing-related deaths</div>
+            <div class="finding-quote">One study found that a reduction of global anthropogenic CH4 emissions by 20% beginning in 2010 could decrease the average daily maximum 8-hour surface ozone by 1 ppb by volume, globally—sufficient to prevent 30,000 premature all-cause mortalities globally in 2030, and 370,000 between 2010 and 2030</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Based on one study; mortality benefits are from all-cause mortality, not specifically respiratory</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Global ozone exposure caused an estimated 150,000 premature deaths in 2010</div>
+            <div class="finding-quote">work done for the GBD-2010 estimated 150,000 premature deaths from all ozone exposures globally in 2010, indicating a more conservative interpretation of the evidence for mortality from ozone</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Described as &#x27;more conservative interpretation&#x27;; deaths are from all ozone exposures, not specifically breathing problems</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Implementing black carbon and methane mitigation measures could prevent millions of premature deaths, primarily from PM2.5 reduction</div>
+            <div class="finding-quote">if all of 400 proposed BC and CH4 mitigation measures were implemented on a global scale, the estimated benefits to health would come predominately from reducing PM2.5 (0.7 to 4.6 million avoided premature deaths; 5.3 to 37.4 million avoided years of life lost) compared to tropospheric ozone (0.04 to 0.52 million avoided premature deaths; 0.35 to 4.7 million avoided years of life lost) based on 2030 population figures</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Based on hypothetical implementation of all proposed measures; benefits projected to 2030</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate mitigation measures could prevent 1.3 million premature deaths by 2050 through reduced air pollution exposure</div>
+            <div class="finding-quote">Another study of the reduction of PM and ozone exposures due to CAPs emissions controls and including climate change feedback showed potential reductions of 1.3 million premature deaths by 2050 with avoided costs of premature mortality many times those of the estimated cost of abatement</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Benefits are from combined PM and ozone reductions, not specifically respiratory impacts</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate change can cause heat exhaustion affecting workforce and economic productivity</div>
+            <div class="finding-quote">economic losses due to widespread &#x27;heat exhaustion&#x27; impacts on the workforce</div>
+                    <div class="finding-meta">
+                        <span class="strength-limited">limited</span>
+            <span>Limitations: Heat exhaustion mentioned as example without quantitative data; part of broader societal impacts</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Extreme warming could make outdoor physical activity impossible in some regions by end of century</div>
+            <div class="finding-quote">the higher-end projections of warming indicate that before the end of the 21st century, parts of the world may experience temperatures that exceed physiological limits during periods of the year, making it impossible to work or carry out other physical activity outside</div>
+                    <div class="finding-meta">
+                        <span class="strength-limited">limited</span>
+            <span>Limitations: Based on higher-end warming projections; refers to physiological limits rather than specific breathing problems</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Air pollution affects respiratory health, with temperature influencing ozone levels that impact mortality and lung function</div>
+            <div class="finding-quote">Bell , M.L., R.D. Peng, and F . Dominici, 2006: The exposure-response curve for ozone and risk of mortality and the adequacy of current ozone regulations. Environmental Health Perspectives ,114(4) , 532-536.</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: This is a reference citation only - specific findings not detailed in this text chunk</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate change affects ambient ozone levels and health in US cities</div>
+            <div class="finding-quote">Bell , M.L., R. Goldberg, C. Hogrefe, P . Kinney, K. Knowlton, B. Lynn, J. Rosenthal, C. Rosenzweig, and J. Patz, 2007: Climate change, ambient ozone, and health in 50 US cities. Climatic Change ,82(1) , 61-76.</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: This is a reference citation only - specific findings not detailed in this text chunk</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Improved air quality from climate change mitigation provides ancillary human health benefits</div>
+            <div class="finding-quote">Bell , M.L., D.L. Davis, L.A. Cifuentes, A.J. Krupnick, R.D. Morgenstern, and G.D. Thurston, 2008a: Ancillary human health benefits of improved air quality resulting from climate change mitigation. Environmental Health ,7, 41, doi:10.1186/1476-069X-7-41.</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: This is a reference citation only - specific findings not detailed in this text chunk</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Household stove improvements reduce risk of chronic obstructive pulmonary disease</div>
+            <div class="finding-quote">Chapman , R.S., X. He, A.E. Blair, and Q. Lan, 2005: Improvement in household stoves and risk of chronic obstructive pulmonary disease in Xuanwei, China: retrospective cohort study. BMJ ,331 , 1050, doi:10.1136/bmj.38628.676088.55.</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: This is a reference citation only - specific findings not detailed in this text chunk</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Air pollution has short-term effects on adolescent lung function</div>
+            <div class="finding-quote">Chang , Y .K., C.C. Wu, L.T. Lee, R.S. Lin, Y .H. Yu, and Y .C. Chen, 2012: The short-term effects of air pollution on adolescent lung function in Taiwan. Chemosphere ,87(1) , 26-30.</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: This is a reference citation only - specific findings not detailed in this text chunk</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate change affects tropospheric ozone and particulate matter with health impacts</div>
+            <div class="finding-quote">Ebi , K.L. and G. McGregor, 2008: Climate change, tropospheric ozone and particulate matter, health impacts. Environmental Health Perspectives ,116(11) , 1449-1455.</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: This is a reference citation only - specific findings not detailed in this text chunk</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Air pollution affects children with asthma, with gender differences observed</div>
+            <div class="finding-quote">Dong , G.H., T. Chen, M.M. Liu, D. Wang, Y .N. Ma, W.H. Ren, Y .L. Lee, Y .D. Zhao, and Q.C. He, 2011: Gender differences and effect of air pollution on asthma in children with and without allergic predisposition: northeast Chinese children health study. PLoS One ,6(7) , e22470, doi:10.1371/journal.pone.0022470.</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: This is a reference citation only - specific findings not detailed in this text chunk</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Associations exist between grass and weed pollen and emergency department visits for asthma among children</div>
+            <div class="finding-quote">Associations between grass and weed pollen and emergency department visits for asthma among children in Montreal</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Study limited to Montreal area and children only</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Critical review found evidence for NO2 no-effect levels in human exposure data</div>
+            <div class="finding-quote">Critical review of the human data on short-term nitrogen dioxide (NO 2) exposures: evidence for NO 2no-effect levels</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Review focuses on short-term exposures only</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Long-term ozone exposure is associated with mortality</div>
+            <div class="finding-quote">Long-term ozone exposure and mortality</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Study title only provided, specific findings not detailed</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Global mortality is attributable to smoke from landscape fires</div>
+            <div class="finding-quote">Estimated global mortality attributable to smoke from landscape fires</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: Study title only, specific mortality estimates not provided</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate change is expected to worsen ground-level ozone formation, which can trigger asthma attacks and reduce childhood lung function</div>
+            <div class="finding-quote">Sheffield, P.E., K. Knowlton, J.L. Carr, and P.L. Kinney, 2011: Modeling of regional climate change effects on ground-level ozone and childhood asthma. American Journal of Preventive Medicine, 41(3), 251-257</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: This is a modeling study, which provides projections rather than observed effects</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Future ozone pollution will have significant global health and economic impacts</div>
+            <div class="finding-quote">Selin, N.E., S. Wu, K.M. Nam, J.M. Reilly, S. Paltsev, R.G. Prinn, and M.D. Webster, 2009: Global health and economic impacts of future ozone pollution. Environmental Research Letters, 4, 044014</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: This is a modeling study projecting future impacts rather than documenting current effects</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Climate change may worsen air pollution-related health effects beyond just temperature increases</div>
+            <div class="finding-quote">Tagaris, E., K.J. Liao, A.J. Delucia, L. Deck, P. Amar, and A.G. Russell, 2009: Potential impact of climate change on air pollution-related human health effects. Environmental Science &amp; Technology, 43(13), 4979-4988</div>
+                    <div class="finding-meta">
+                        <span class="strength-moderate">moderate</span>
+            <span>Limitations: This is a potential impact assessment rather than observed effects</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Strategies to reduce greenhouse gas emissions can provide co-benefits for air quality and human health, including respiratory health</div>
+            <div class="finding-quote">Smith, K.R., M. Jerrett, H.R. Anderson, R.T. Burnett, V. Stone, R. Derwent, R.W. Atkinson, A. Cohen, S.B. Shonkoff, D. Krewski, C.A. Pope III, M.J. Thun, and G. Thurston, 2009: Public health benefits of strategies to reduce greenhouse-gas emissions: health implications of short-lived greenhouse pollutants. Lancet, 374(9707), 2091-2103</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: Focus is on co-benefits of mitigation strategies rather than direct climate impacts</span></div></div>
+                <div class="finding">
+                    <div class="finding-claim">Mitigating climate change can simultaneously improve air quality and reduce future human mortality from air pollution</div>
+            <div class="finding-quote">West, J.J., S.J. Smith, R.A. Silva, V. Naik, Y. Zhang, Z. Adelman, M.M. Fry, S. Anenberg, L.W. Horowitz, and J. Lamarque, 2013: Co-benefits of mitigating global greenhouse gas emissions for future air quality and human health. Nature Climate Change, 3(10), 885-889</div>
+                    <div class="finding-meta">
+                        <span class="strength-strong">strong</span>
+            <span>Limitations: Focus is on benefits of mitigation rather than direct impacts of warming</span></div></div></div></div>
+        <div class="evidence-card">
+            <div class="evidence-header" onclick="toggleEvidence('evidence-4')">
+                <div>
+                    <span class="tier-badge tier-1">Tier 1</span>
+                    &nbsp;
+                    <h3 style="display:inline;">National Academies - Climate Resources</h3>
+                    <span style="color:var(--text-tertiary); font-size:13px;"> — 0 findings</span>
+                </div>
+                <span class="arrow" style="font-size:12px;">&#9654;</span>
+            </div>
+            <div class="evidence-body" id="evidence-4">
+        </div></div>
+        <div class="evidence-card">
+            <div class="evidence-header" onclick="toggleEvidence('evidence-5')">
+                <div>
+                    <span class="tier-badge tier-2">Tier 2</span>
+                    &nbsp;
+                    <h3 style="display:inline;">AirNow - Air Quality Index</h3>
+                    <span style="color:var(--text-tertiary); font-size:13px;"> — 0 findings</span>
+                </div>
+                <span class="arrow" style="font-size:12px;">&#9654;</span>
+            </div>
+            <div class="evidence-body" id="evidence-5">
+        </div></div>
+        <div class="evidence-card">
+            <div class="evidence-header" onclick="toggleEvidence('evidence-6')">
+                <div>
+                    <span class="tier-badge tier-3">Tier 3</span>
+                    &nbsp;
+                    <h3 style="display:inline;">National Allergy Bureau - Pollen Counts</h3>
+                    <span style="color:var(--text-tertiary); font-size:13px;"> — 0 findings</span>
+                </div>
+                <span class="arrow" style="font-size:12px;">&#9654;</span>
+            </div>
+            <div class="evidence-body" id="evidence-6">
+        </div></div>
+    </div>
+    <div class="footer">
+        Based on Science &mdash; National Academies of Sciences, Engineering, and Medicine<br>
+        Generated by BoS AI Pipeline
+    </div>
+    <script>
+function toggleEvidence(id) {
+    var body = document.getElementById(id);
+    body.classList.toggle('open');
+    var arrow = body.previousElementSibling.querySelector('.arrow');
+    arrow.textContent = body.classList.contains('open') ? '\u25BC' : '\u25B6';
+}
+</script>
+</body>
+</html>

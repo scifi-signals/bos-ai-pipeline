@@ -1,0 +1,43 @@
+name: Generate Article
+
+on:
+  workflow_dispatch:
+    inputs:
+      question_id:
+        description: 'Question ID (matches questions/*.json filename)'
+        required: true
+        type: string
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run pipeline
+        run: cd pipeline && python main.py run ${{ inputs.question_id }}
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+
+      - name: Publish to site
+        run: python publish.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add articles/ article_manifest.json
+          git commit -m "Auto-generated: ${{ inputs.question_id }}" || true
+          git push

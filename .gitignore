@@ -1,0 +1,17 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# API keys
+*_api_key.txt
+.env
+
+# Cached sources (large, re-downloadable)
+pipeline/sources/
+
+# Generated output (re-generable)
+pipeline/output/
+
+# Editor
+.vscode/
+*.swp

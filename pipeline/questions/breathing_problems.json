@@ -1,0 +1,55 @@
+{
+  "id": "breathing_problems",
+  "question": "Does global warming cause breathing problems?",
+  "topic": "Climate change and respiratory health",
+  "tags": ["Health and Medicine", "Pollution", "Climate Change"],
+  "ground_truth_data_points": [
+    "470,000 ozone-related deaths globally in 2023 (HEI State of Global Air 2025)",
+    "14,000 COPD deaths in US linked to ozone (one of highest rates among wealthy nations)",
+    "2018 Camp Fire: hazardous air 150+ miles away, affecting ~7 million people in SF Bay Area",
+    "Ragweed pollen season lengthened significantly in central US/Canada between 1995-2015"
+  ],
+  "sources": [
+    {
+      "name": "HEI State of Global Air - Ozone",
+      "url": "https://www.stateofglobalair.org/pollution-sources/ozone",
+      "type": "web",
+      "tier": 2,
+      "note": "470K global ozone deaths figure (2023 data, 2025 report)"
+    },
+    {
+      "name": "HEI State of Global Air 2024 - Key Findings",
+      "url": "https://www.stateofglobalair.org/news-events/2024/new-state-global-air-report-finds-air-pollution-second-leading-risk-factor-death",
+      "type": "web",
+      "tier": 2,
+      "note": "14,000 US COPD deaths from ozone figure (2021 data, 2024 report)"
+    },
+    {
+      "name": "IPCC AR5 WGII Chapter 11 - Human Health",
+      "url": "https://www.ipcc.ch/site/assets/uploads/2018/02/WGIIAR5-Chap11_FINAL.pdf",
+      "type": "pdf",
+      "tier": 1
+    },
+    {
+      "name": "USGCRP - Impacts of Climate Change on Human Health (2016)",
+      "url": "https://archive.org/download/ClimateHealth2016FullReportSmall/ClimateHealth2016_FullReport_small.pdf",
+      "type": "pdf",
+      "tier": 2,
+      "note": "Internet Archive mirror — original globalchange.gov taken down"
+    },
+    {
+      "name": "AirNow - Air Quality Index",
+      "url": "https://www.airnow.gov/",
+      "type": "web",
+      "tier": 2,
+      "note": "Reference resource for What You Can Do section, not primary evidence"
+    },
+    {
+      "name": "National Allergy Bureau - Pollen Counts",
+      "url": "https://pollen.aaaai.org/",
+      "type": "web",
+      "tier": 3,
+      "note": "Reference resource for What You Can Do section, not primary evidence"
+    }
+  ]
+}
