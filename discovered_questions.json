@@ -1,294 +1,243 @@
 {
-  "generated_at": "2026-03-05T02:49:56Z",
+  "generated_at": "2026-03-05T03:33:29Z",
   "questions": [
     {
-      "id": "effective_pharmacists_providing_healthcare_compared",
-      "question": "How effective are pharmacists at providing healthcare compared to doctors?",
+      "id": "systems_currently_diagnose_diseases_better",
+      "question": "Can AI systems currently diagnose diseases better than doctors?",
       "priority": "high",
-      "rationale": "Public increasingly uses pharmacies for healthcare but may not understand pharmacist training and capabilities. Has direct health implications and challenges common assumptions.",
+      "rationale": "Corrects overhyped claims about current AI diagnostic capabilities that could lead to dangerous medical decision-making by the public.",
+      "misinformation_narrative": "Tech promoters and some media coverage claim AI is already superior to doctors at medical diagnosis, leading some people to trust AI diagnostic tools over professional medical care or delay seeking proper medical attention.",
+      "public_stakes": "Patients may inappropriately rely on AI tools for serious medical decisions, delay necessary medical care, or dismiss professional medical advice in favor of AI-generated diagnoses.",
+      "verification_status": "verified",
       "tags": [
         "Health and Medicine",
+        "Artificial Intelligence",
+        "Medical Technology"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop—in Brief (None)",
+        "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
+        "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop (2018)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "narcan_naloxone_dangerous_use_only",
+      "question": "Is Narcan (naloxone) dangerous to use or only effective when administered by medical professionals?",
+      "priority": "high",
+      "rationale": "Corrects dangerous myths that prevent life-saving overdose interventions by non-medical personnel.",
+      "misinformation_narrative": "Some people believe naloxone is dangerous for non-medical personnel to use, can cause harm if used incorrectly, or won't work unless given by a healthcare provider, leading to reluctance to obtain or use this life-saving medication.",
+      "public_stakes": "Preventable overdose deaths when bystanders fail to administer naloxone due to unfounded fears about its safety or effectiveness.",
+      "verification_status": "verified",
+      "tags": [
         "Public Health",
-        "Technology"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Artificial Intelligence and the Future of Work (2024)",
-        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
-        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
-        "Space Nuclear Propulsion for Human Mars Exploration (2021)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "glp_medications_like_ozempic_safe",
-      "question": "Are GLP-1 medications like Ozempic safe and effective for weight loss?",
-      "priority": "high",
-      "rationale": "Extremely popular topic with widespread public interest, significant health implications, and much misinformation circulating about off-label use.",
-      "tags": [
-        "Health and Medicine"
+        "Drug Safety",
+        "Emergency Medicine",
+        "Opioid Crisis"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
         "Medications for Opioid Use Disorder Save Lives (2019)",
-        "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
-        "Artificial Intelligence and the Future of Work (2024)",
-        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "well_narcan_work_reverse_opioid",
-      "question": "How well does Narcan work to reverse opioid overdoses?",
-      "priority": "high",
-      "rationale": "Critical public health issue with life-saving implications. Many people encounter situations where they might need to use naloxone but don't understand its effectiveness.",
-      "tags": [
-        "Health and Medicine",
-        "Public Health"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Medications for Opioid Use Disorder Save Lives (2019)",
-        "Artificial Intelligence and the Future of Work (2024)",
         "Integrating Responses at the Intersection of Opioid Use Disorder and Infectious Disease Epidemics: Proceedings of a Workshop (2018)",
-        "Pain Management for People with Serious Illness in the Context of the Opioid Use Disorder Epidemic: Proceedings of a Workshop (2019)",
-        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)"
+        "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use (2017)",
+        "Framing Opioid Prescribing Guidelines for Acute Pain: Developing the Evidence (2020)",
+        "Medication-Assisted Treatment for Opioid Use Disorder: Proceedings of a Workshop—in Brief (2016)"
       ],
       "discovered_at": "2026-03-05",
       "status": "pending"
     },
     {
-      "id": "safe_children_take_medications_prescribed",
-      "question": "Is it safe for children to take medications prescribed for adults?",
-      "priority": "high",
-      "rationale": "Common parental concern with serious safety implications. Off-label use in pediatrics is widespread but poorly understood by public.",
+      "id": "glp_medications_like_ozempic_only",
+      "question": "Do GLP-1 medications like Ozempic only work for weight loss and not for serious medical conditions?",
+      "priority": "medium",
+      "rationale": "Corrects reductive understanding of GLP-1 medications that could impact access to legitimate medical treatment.",
+      "misinformation_narrative": "Media focus on celebrity weight loss has led many to view GLP-1 medications as cosmetic 'diet drugs' rather than understanding their proven cardiovascular and diabetes benefits, potentially leading to stigma or insurance coverage issues.",
+      "public_stakes": "Patients with diabetes or cardiovascular disease may face barriers to accessing these medications due to misperceptions about their medical necessity versus cosmetic use.",
+      "verification_status": "verified",
       "tags": [
-        "Science"
+        "Health and Medicine",
+        "Diabetes",
+        "Cardiovascular Health"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "Medications for Opioid Use Disorder Save Lives (2019)",
-        "Improving the Health, Safety, and Well-Being of Young Adults: Workshop Summary (2013)",
-        "The State of Mental, Emotional, and Behavioral Health of Children and Youth in the United States: Proceedings of a Workshop (2020)",
-        "Artificial Intelligence and the Future of Work (2024)",
-        "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)"
+        "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop (2018)",
+        "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop—in Brief (None)",
+        "Current Status and Response to the Global Obesity Pandemic: Proceedings of a Workshop (2019)",
+        "Driving Action and Progress on Obesity Prevention and Treatment: Proceedings of a Workshop (2017)",
+        "The Current State of Obesity Solutions in the United States: Workshop Summary (2014)"
       ],
       "discovered_at": "2026-03-05",
       "status": "pending"
     },
     {
-      "id": "accurate_diagnosing_medical_conditions_compared",
-      "question": "How accurate is AI at diagnosing medical conditions compared to doctors?",
-      "priority": "high",
-      "rationale": "Growing public interest in AI healthcare applications with important implications for medical decision-making and trust in healthcare providers.",
+      "id": "mrna_flu_vaccines_less_safe",
+      "question": "Are mRNA flu vaccines less safe or effective than traditional flu vaccines?",
+      "priority": "medium",
+      "rationale": "Corrects spillover misinformation from COVID vaccines that could impact acceptance of improved flu vaccine technology.",
+      "misinformation_narrative": "COVID-19 vaccine misinformation has created suspicion about mRNA technology in general, leading some to assume mRNA flu vaccines are experimental, unsafe, or less effective than traditional vaccines.",
+      "public_stakes": "Reduced flu vaccination rates and continued preventable flu-related hospitalizations and deaths due to unfounded fears about mRNA vaccine technology.",
+      "verification_status": "verified",
       "tags": [
-        "Health and Medicine",
-        "Technology"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Artificial Intelligence and the Future of Work (2024)",
-        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
-        "Medications for Opioid Use Disorder Save Lives (2019)",
-        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "mrna_flu_vaccines_effective_traditional",
-      "question": "Are mRNA flu vaccines more effective than traditional flu shots?",
-      "priority": "high",
-      "rationale": "Public has heightened awareness of mRNA technology post-COVID and wants to understand benefits for seasonal flu prevention.",
-      "tags": [
-        "Health and Medicine",
-        "Technology"
+        "Public Health",
+        "Vaccines",
+        "Immunology"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
         "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
-        "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
         "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
-        "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders (2001)",
+        "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19 (2021)",
+        "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
         "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)"
       ],
       "discovered_at": "2026-03-05",
       "status": "pending"
     },
     {
-      "id": "should_older_adults_stop_taking",
-      "question": "Should older adults stop taking some of their medications?",
+      "id": "suboxone_just_replacing_one_addiction",
+      "question": "Is Suboxone just 'replacing one addiction with another' and not real treatment?",
       "priority": "medium",
-      "rationale": "Growing awareness of polypharmacy risks in elderly, but public needs guidance on when deprescribing is appropriate and safe.",
+      "rationale": "Corrects harmful stigma about medication-assisted treatment that prevents people from accessing evidence-based addiction care.",
+      "misinformation_narrative": "Stigma around medication-assisted treatment leads many to view buprenorphine (Suboxone) as simply substituting one drug for another rather than recognizing it as evidence-based medical treatment for opioid use disorder.",
+      "public_stakes": "People with opioid use disorder may avoid or discontinue life-saving treatment due to stigma, leading to continued addiction, overdose risk, and social consequences.",
+      "verification_status": "verified",
       "tags": [
-        "Science"
+        "Public Health",
+        "Addiction Medicine",
+        "Mental Health"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "Health Literacy and Older Adults: Reshaping the Landscape: Proceedings of a Workshop (2018)",
         "Medications for Opioid Use Disorder Save Lives (2019)",
-        "Artificial Intelligence and the Future of Work (2024)",
-        "Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System (2020)",
-        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)"
+        "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop (2023)",
+        "Medication-Assisted Treatment for Opioid Use Disorder: Proceedings of a Workshop—in Brief (2016)",
+        "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths (1994)",
+        "Communities in Action: Pathways to Health Equity (2017)"
       ],
       "discovered_at": "2026-03-05",
       "status": "pending"
     },
     {
-      "id": "effective_prep_preventing_hiv_infection",
-      "question": "How effective is PrEP at preventing HIV infection?",
-      "priority": "medium",
-      "rationale": "Important public health tool but awareness and understanding remain limited despite high effectiveness when used properly.",
+      "id": "children_medications_safe_used_off",
+      "question": "Are children's medications safe when used 'off-label' without specific pediatric testing?",
+      "priority": "low",
+      "rationale": "Corrects dangerous assumption that adult medication data applies to children, when developmental differences in drug metabolism create real safety risks.",
+      "misinformation_narrative": "Many parents and even some healthcare providers believe that adult medications can be safely used in children at scaled-down doses, not realizing that children's bodies process drugs fundamentally differently and that 40% of pediatric treatments lack proper safety testing in kids.",
+      "public_stakes": "Children face increased risks of adverse drug reactions, ineffective treatment, and potentially life-threatening complications when medications haven't been properly tested in pediatric populations.",
+      "verification_status": "needs_review",
       "tags": [
         "Health and Medicine",
+        "Pediatric Health",
+        "Drug Safety"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Making Better Drugs for Children with Cancer (2005)",
+        "Medications for Opioid Use Disorder Save Lives (2019)",
+        "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
+        "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+        "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society (2015)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "should_you_avoid_getting_vaccinated",
+      "question": "Should you avoid getting vaccinated at pharmacies instead of doctor's offices?",
+      "priority": "low",
+      "rationale": "Corrects misconceptions about pharmacist qualifications and vaccine safety that create barriers to vaccination access.",
+      "misinformation_narrative": "Some people believe pharmacist-administered vaccines are less safe, effective, or professionally administered than those given in doctors' offices, not realizing pharmacists receive specialized training and administer the majority of vaccines safely.",
+      "public_stakes": "Vaccine hesitancy and reduced vaccination rates if people avoid convenient pharmacy locations, potentially contributing to preventable disease outbreaks.",
+      "verification_status": "needs_review",
+      "tags": [
         "Public Health",
-        "Technology"
+        "Vaccines",
+        "Pharmacy"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "Artificial Intelligence and the Future of Work (2024)",
-        "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths (1994)",
-        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
-        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)"
+        "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+        "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
+        "Communities in Action: Pathways to Health Equity (2017)",
+        "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+        "Medications for Opioid Use Disorder Save Lives (2019)"
       ],
       "discovered_at": "2026-03-05",
       "status": "pending"
     },
     {
-      "id": "discount_pharmacy_apps_like_goodrx",
-      "question": "Do discount pharmacy apps like GoodRx actually save money?",
-      "priority": "medium",
-      "rationale": "Millions use these services but may not understand how they work or if they're getting the best prices for medications.",
+      "id": "prep_pre_exposure_prophylaxis_only",
+      "question": "Is PrEP (pre-exposure prophylaxis) only necessary for certain 'high-risk' groups?",
+      "priority": "low",
+      "rationale": "Corrects harmful misconceptions about PrEP eligibility that perpetuate health disparities and prevent HIV prevention.",
+      "misinformation_narrative": "Stigma and outdated risk categorizations lead some people to believe PrEP is only for specific demographics, when CDC guidelines now recommend considering PrEP for anyone at substantial HIV risk regardless of identity categories.",
+      "public_stakes": "Continued HIV transmission among people who could benefit from PrEP but don't consider themselves 'high-risk' based on outdated or stigmatizing criteria.",
+      "verification_status": "needs_review",
       "tags": [
-        "Science"
+        "Public Health",
+        "HIV Prevention",
+        "Sexual Health"
+      ],
+      "nasem_source_count": 6,
+      "nasem_sources_preview": [
+        "Bridge and Tunnel Strikes: A Guide for Prevention and Mitigation (2025)",
+        "Safe on Mars: Precursor Measurements Necessary to Support Human Operations on the Martian Surface (2002)",
+        "The Prevention and Treatment of Missing Data in Clinical Trials (2011)",
+        "Alliances for Obesity Prevention: Finding Common Ground: Workshop Summary (2012)",
+        "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups (2023)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "should_elderly_patients_avoid_deprescribing",
+      "question": "Should elderly patients avoid 'deprescribing' because stopping medications is always dangerous?",
+      "priority": "low",
+      "rationale": "Corrects misconception that equates stopping medications with abandoning medical care, when evidence supports careful medication review in elderly populations.",
+      "misinformation_narrative": "Many elderly patients and families believe that stopping any prescribed medication is inherently dangerous, not realizing that medication regimens often become inappropriate with age and that careful deprescribing can improve health outcomes.",
+      "public_stakes": "Elderly patients may experience harmful drug interactions, falls, cognitive impairment, and other adverse effects from inappropriate polypharmacy when deprescribing is avoided.",
+      "verification_status": "needs_review",
+      "tags": [
+        "Health and Medicine",
+        "Geriatric Health",
+        "Medication Safety"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
         "Medications for Opioid Use Disorder Save Lives (2019)",
         "Artificial Intelligence and the Future of Work (2024)",
+        "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
         "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
-        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)"
+        "Keeping Patients Safe: Transforming the Work Environment of Nurses (2004)"
       ],
       "discovered_at": "2026-03-05",
       "status": "pending"
     },
     {
-      "id": "systems_develop_goals_weren_programmed",
-      "question": "Can AI systems develop goals that weren't programmed into them?",
-      "priority": "medium",
-      "rationale": "Public fascination and concern about AI autonomy and safety, with important implications for understanding AI development risks.",
+      "id": "discount_drug_programs_like_goodrx",
+      "question": "Do discount drug programs like GoodRx actually save money compared to insurance?",
+      "priority": "low",
+      "rationale": "Corrects oversimplified assumptions about drug pricing that can lead to higher out-of-pocket costs for patients.",
+      "misinformation_narrative": "Consumers often assume discount drug programs always offer the best prices, not understanding that these services may sometimes cost more than insurance copays or other programs, and may not count toward deductibles.",
+      "public_stakes": "Patients may pay more for medications than necessary or miss insurance benefits when relying solely on discount programs without comparing options.",
+      "verification_status": "needs_review",
       "tags": [
-        "Technology"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Artificial Intelligence and the Future of Work (2024)",
-        "K-12 STEM Education and Workforce Development in Rural Areas (2025)",
-        "Increasing Student Success in Developmental Mathematics: Proceedings of a Workshop (2019)",
-        "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report (2025)",
-        "Stronger Food and Drug Regulatory Systems Abroad (2020)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "children_bodies_process_medications_differently",
-      "question": "How do children's bodies process medications differently than adults?",
-      "priority": "medium",
-      "rationale": "Important for parents and caregivers to understand why children need different dosing and why adult medications can be dangerous.",
-      "tags": [
-        "Science"
+        "Health Economics",
+        "Pharmacy",
+        "Consumer Health"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
         "Medications for Opioid Use Disorder Save Lives (2019)",
-        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
-        "Artificial Intelligence and the Future of Work (2024)",
-        "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
-        "Space Nuclear Propulsion for Human Mars Exploration (2021)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "blood_clots_dangerous_children_adults",
-      "question": "Are blood clots more dangerous for children than adults?",
-      "priority": "medium",
-      "rationale": "COVID increased awareness of clotting issues, and parents need to understand pediatric-specific risks and treatments.",
-      "tags": [
-        "Science"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Artificial Intelligence and the Future of Work (2024)",
-        "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
-        "Space Nuclear Propulsion for Human Mars Exploration (2021)",
-        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "large_language_models_like_chatgpt",
-      "question": "How do large language models like ChatGPT actually think and reason?",
-      "priority": "low",
-      "rationale": "Widespread public use of AI tools with curiosity about their capabilities and limitations for reasoning tasks.",
-      "tags": [
-        "Technology"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Medications for Opioid Use Disorder Save Lives (2019)",
-        "Artificial Intelligence and the Future of Work (2024)",
-        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
-        "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations (2025)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "fast_modern_mri_scans_compared",
-      "question": "How fast are modern MRI scans compared to older machines?",
-      "priority": "low",
-      "rationale": "Patients often experience anxiety about MRI duration and may be interested in technological improvements affecting scan times.",
-      "tags": [
-        "Science"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Artificial Intelligence and the Future of Work (2024)",
-        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
-        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
-        "Space Nuclear Propulsion for Human Mars Exploration (2021)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "universe_fundamentally_mathematical_nature",
-      "question": "Is the universe fundamentally mathematical in nature?",
-      "priority": "low",
-      "rationale": "Philosophical question with scientific implications that interests educated public, though challenging to address with empirical evidence.",
-      "tags": [
-        "Health and Medicine"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Artificial Intelligence and the Future of Work (2024)",
-        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
-        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
-        "Space Nuclear Propulsion for Human Mars Exploration (2021)"
+        "Health Insurance and Insights from Health Literacy: Helping Consumers Understand: Proceedings of a Workshop (2017)",
+        "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
+        "Communities in Action: Pathways to Health Equity (2017)",
+        "The Drug Development Paradigm in Oncology: Proceedings of a Workshop (2018)"
       ],
       "discovered_at": "2026-03-05",
       "status": "pending"

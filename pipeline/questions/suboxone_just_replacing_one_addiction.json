@@ -1,0 +1,60 @@
+{
+  "id": "suboxone_just_replacing_one_addiction",
+  "question": "Is Suboxone just 'replacing one addiction with another' and not real treatment?",
+  "topic": "Corrects harmful stigma about medication-assisted treatment that prevents people from accessing evid",
+  "tags": [
+    "Public Health",
+    "Addiction Medicine",
+    "Mental Health"
+  ],
+  "sources": [
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://nap.nationalacademies.org/catalog/25310/medications-for-opioid-use-disorder-save-lives",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/26635/methadone-treatment-for-opioid-use-disorder-improving-access-through-regulatory",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medication-Assisted Treatment for Opioid Use Disorder: Proceedings of a Workshop—in Brief",
+      "url": "https://nap.nationalacademies.org/catalog/25322/medication-assisted-treatment-for-opioid-use-disorder-proceedings-of-a",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths",
+      "url": "https://nap.nationalacademies.org/catalog/4757/growing-up-tobacco-free-preventing-nicotine-addiction-in-children-and",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communities in Action: Pathways to Health Equity",
+      "url": "https://nap.nationalacademies.org/catalog/24624/communities-in-action-pathways-to-health-equity",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Reducing Racial Inequality in Crime and Justice: Science, Practice, and Policy",
+      "url": "https://nap.nationalacademies.org/catalog/26705/reducing-racial-inequality-in-crime-and-justice-science-practice-and",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/26623/the-impact-of-juvenile-justice-system-involvement-on-the-health-and-well-being-of-youth-families-and-communities-of-color",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Promise of Adolescence: Realizing Opportunity for All Youth",
+      "url": "https://nap.nationalacademies.org/catalog/25388/the-promise-of-adolescence-realizing-opportunity-for-all-youth",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

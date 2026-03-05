@@ -1,0 +1,60 @@
+{
+  "id": "glp_medications_like_ozempic_only",
+  "question": "Do GLP-1 medications like Ozempic only work for weight loss and not for serious medical conditions?",
+  "topic": "Corrects reductive understanding of GLP-1 medications that could impact access to legitimate medical",
+  "tags": [
+    "Health and Medicine",
+    "Diabetes",
+    "Cardiovascular Health"
+  ],
+  "sources": [
+    {
+      "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/24855/the-challenge-of-treating-obesity-and-overweight-proceedings-of-a",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop—in Brief",
+      "url": "https://nap.nationalacademies.org/catalog/24830/the-challenge-of-treating-obesity-and-overweight-proceedings-of-a",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Current Status and Response to the Global Obesity Pandemic: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/25273/current-status-and-response-to-the-global-obesity-pandemic-proceedings",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Driving Action and Progress on Obesity Prevention and Treatment: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/24734/driving-action-and-progress-on-obesity-prevention-and-treatment-proceedings",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Current State of Obesity Solutions in the United States: Workshop Summary",
+      "url": "https://nap.nationalacademies.org/catalog/18742/the-current-state-of-obesity-solutions-in-the-united-states",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Cross-Sector Responses to Obesity: Models for Change: Workshop Summary",
+      "url": "https://nap.nationalacademies.org/catalog/21706/cross-sector-responses-to-obesity-models-for-change-workshop-summary",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Accelerating Progress in Obesity Prevention: Solving the Weight of the Nation",
+      "url": "https://nap.nationalacademies.org/catalog/13275/accelerating-progress-in-obesity-prevention-solving-the-weight-of-the",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Evaluating Obesity Prevention Efforts: A Plan for Measuring Progress",
+      "url": "https://nap.nationalacademies.org/catalog/18334/evaluating-obesity-prevention-efforts-a-plan-for-measuring-progress",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

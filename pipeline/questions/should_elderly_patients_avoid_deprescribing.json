@@ -1,0 +1,60 @@
+{
+  "id": "should_elderly_patients_avoid_deprescribing",
+  "question": "Should elderly patients avoid 'deprescribing' because stopping medications is always dangerous?",
+  "topic": "Corrects misconception that equates stopping medications with abandoning medical care, when evidence",
+  "tags": [
+    "Health and Medicine",
+    "Geriatric Health",
+    "Medication Safety"
+  ],
+  "sources": [
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://nap.nationalacademies.org/catalog/25310/medications-for-opioid-use-disorder-save-lives",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Artificial Intelligence and the Future of Work",
+      "url": "https://nap.nationalacademies.org/catalog/27644/artificial-intelligence-and-the-future-of-work",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+      "url": "https://nap.nationalacademies.org/catalog/10027/crossing-the-quality-chasm-a-new-health-system-for-the",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Keeping Patients Safe: Transforming the Work Environment of Nurses",
+      "url": "https://nap.nationalacademies.org/catalog/10851/keeping-patients-safe-transforming-the-work-environment-of-nurses",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://nap.nationalacademies.org/catalog/26522/origins-worlds-and-life-a-decadal-strategy-for-planetary-science",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communities in Action: Pathways to Health Equity",
+      "url": "https://nap.nationalacademies.org/catalog/24624/communities-in-action-pathways-to-health-equity",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field",
+      "url": "https://nap.nationalacademies.org/catalog/26902/using-population-descriptors-in-genetics-and-genomics-research-a-new",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

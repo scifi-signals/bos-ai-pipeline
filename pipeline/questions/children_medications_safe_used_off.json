@@ -1,0 +1,60 @@
+{
+  "id": "children_medications_safe_used_off",
+  "question": "Are children's medications safe when used 'off-label' without specific pediatric testing?",
+  "topic": "Corrects dangerous assumption that adult medication data applies to children, when developmental dif",
+  "tags": [
+    "Health and Medicine",
+    "Pediatric Health",
+    "Drug Safety"
+  ],
+  "sources": [
+    {
+      "name": "Making Better Drugs for Children with Cancer",
+      "url": "https://nap.nationalacademies.org/catalog/11259/making-better-drugs-for-children-with-cancer",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://nap.nationalacademies.org/catalog/25310/medications-for-opioid-use-disorder-save-lives",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://nap.nationalacademies.org/catalog/13563/the-childhood-immunization-schedule-and-safety-stakeholder-concerns-scientific-evidence",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://nap.nationalacademies.org/catalog/10306/immunization-safety-review-multiple-immunizations-and-immune-dysfunction",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+      "url": "https://nap.nationalacademies.org/catalog/21754/comprehensive-cancer-care-for-children-and-their-families-summary-of",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+      "url": "https://nap.nationalacademies.org/catalog/27207/the-future-pediatric-subspecialty-physician-workforce-meeting-the-needs-of",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+      "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda",
+      "url": "https://nap.nationalacademies.org/catalog/25201/fostering-healthy-mental-emotional-and-behavioral-development-in-children-and-youth",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}
