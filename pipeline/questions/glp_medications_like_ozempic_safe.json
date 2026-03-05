@@ -1,0 +1,58 @@
+{
+  "id": "glp_medications_like_ozempic_safe",
+  "question": "Are GLP-1 medications like Ozempic safe and effective for weight loss?",
+  "topic": "Extremely popular topic with widespread public interest, significant health implications, and much m",
+  "tags": [
+    "Health and Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://nap.nationalacademies.org/catalog/25310/medications-for-opioid-use-disorder-save-lives",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://nap.nationalacademies.org/catalog/10306/immunization-safety-review-multiple-immunizations-and-immune-dysfunction",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Artificial Intelligence and the Future of Work",
+      "url": "https://nap.nationalacademies.org/catalog/27644/artificial-intelligence-and-the-future-of-work",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://nap.nationalacademies.org/catalog/26522/origins-worlds-and-life-a-decadal-strategy-for-planetary-science",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field",
+      "url": "https://nap.nationalacademies.org/catalog/26902/using-population-descriptors-in-genetics-and-genomics-research-a-new",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Space Nuclear Propulsion for Human Mars Exploration",
+      "url": "https://nap.nationalacademies.org/catalog/25977/space-nuclear-propulsion-for-human-mars-exploration",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Effective Health Communication Within the Current Information Environment and the Role of the Federal Government: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/27210/effective-health-communication-within-the-current-information-environment-and-the-role-of-the-federal-government",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

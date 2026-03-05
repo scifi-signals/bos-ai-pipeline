@@ -1,0 +1,331 @@
+{
+  "generated_at": "2026-03-05T02:49:56Z",
+  "questions": [
+    {
+      "id": "effective_pharmacists_providing_healthcare_compared",
+      "question": "How effective are pharmacists at providing healthcare compared to doctors?",
+      "priority": "high",
+      "rationale": "Public increasingly uses pharmacies for healthcare but may not understand pharmacist training and capabilities. Has direct health implications and challenges common assumptions.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Technology"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+        "Space Nuclear Propulsion for Human Mars Exploration (2021)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "glp_medications_like_ozempic_safe",
+      "question": "Are GLP-1 medications like Ozempic safe and effective for weight loss?",
+      "priority": "high",
+      "rationale": "Extremely popular topic with widespread public interest, significant health implications, and much misinformation circulating about off-label use.",
+      "tags": [
+        "Health and Medicine"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Medications for Opioid Use Disorder Save Lives (2019)",
+        "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "well_narcan_work_reverse_opioid",
+      "question": "How well does Narcan work to reverse opioid overdoses?",
+      "priority": "high",
+      "rationale": "Critical public health issue with life-saving implications. Many people encounter situations where they might need to use naloxone but don't understand its effectiveness.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Medications for Opioid Use Disorder Save Lives (2019)",
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Integrating Responses at the Intersection of Opioid Use Disorder and Infectious Disease Epidemics: Proceedings of a Workshop (2018)",
+        "Pain Management for People with Serious Illness in the Context of the Opioid Use Disorder Epidemic: Proceedings of a Workshop (2019)",
+        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "safe_children_take_medications_prescribed",
+      "question": "Is it safe for children to take medications prescribed for adults?",
+      "priority": "high",
+      "rationale": "Common parental concern with serious safety implications. Off-label use in pediatrics is widespread but poorly understood by public.",
+      "tags": [
+        "Science"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Medications for Opioid Use Disorder Save Lives (2019)",
+        "Improving the Health, Safety, and Well-Being of Young Adults: Workshop Summary (2013)",
+        "The State of Mental, Emotional, and Behavioral Health of Children and Youth in the United States: Proceedings of a Workshop (2020)",
+        "Artificial Intelligence and the Future of Work (2024)",
+        "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "accurate_diagnosing_medical_conditions_compared",
+      "question": "How accurate is AI at diagnosing medical conditions compared to doctors?",
+      "priority": "high",
+      "rationale": "Growing public interest in AI healthcare applications with important implications for medical decision-making and trust in healthcare providers.",
+      "tags": [
+        "Health and Medicine",
+        "Technology"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+        "Medications for Opioid Use Disorder Save Lives (2019)",
+        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "mrna_flu_vaccines_effective_traditional",
+      "question": "Are mRNA flu vaccines more effective than traditional flu shots?",
+      "priority": "high",
+      "rationale": "Public has heightened awareness of mRNA technology post-COVID and wants to understand benefits for seasonal flu prevention.",
+      "tags": [
+        "Health and Medicine",
+        "Technology"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
+        "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
+        "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
+        "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders (2001)",
+        "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "should_older_adults_stop_taking",
+      "question": "Should older adults stop taking some of their medications?",
+      "priority": "medium",
+      "rationale": "Growing awareness of polypharmacy risks in elderly, but public needs guidance on when deprescribing is appropriate and safe.",
+      "tags": [
+        "Science"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Health Literacy and Older Adults: Reshaping the Landscape: Proceedings of a Workshop (2018)",
+        "Medications for Opioid Use Disorder Save Lives (2019)",
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System (2020)",
+        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "effective_prep_preventing_hiv_infection",
+      "question": "How effective is PrEP at preventing HIV infection?",
+      "priority": "medium",
+      "rationale": "Important public health tool but awareness and understanding remain limited despite high effectiveness when used properly.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Technology"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths (1994)",
+        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "discount_pharmacy_apps_like_goodrx",
+      "question": "Do discount pharmacy apps like GoodRx actually save money?",
+      "priority": "medium",
+      "rationale": "Millions use these services but may not understand how they work or if they're getting the best prices for medications.",
+      "tags": [
+        "Science"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Medications for Opioid Use Disorder Save Lives (2019)",
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "systems_develop_goals_weren_programmed",
+      "question": "Can AI systems develop goals that weren't programmed into them?",
+      "priority": "medium",
+      "rationale": "Public fascination and concern about AI autonomy and safety, with important implications for understanding AI development risks.",
+      "tags": [
+        "Technology"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Artificial Intelligence and the Future of Work (2024)",
+        "K-12 STEM Education and Workforce Development in Rural Areas (2025)",
+        "Increasing Student Success in Developmental Mathematics: Proceedings of a Workshop (2019)",
+        "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report (2025)",
+        "Stronger Food and Drug Regulatory Systems Abroad (2020)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "children_bodies_process_medications_differently",
+      "question": "How do children's bodies process medications differently than adults?",
+      "priority": "medium",
+      "rationale": "Important for parents and caregivers to understand why children need different dosing and why adult medications can be dangerous.",
+      "tags": [
+        "Science"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Medications for Opioid Use Disorder Save Lives (2019)",
+        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+        "Space Nuclear Propulsion for Human Mars Exploration (2021)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "blood_clots_dangerous_children_adults",
+      "question": "Are blood clots more dangerous for children than adults?",
+      "priority": "medium",
+      "rationale": "COVID increased awareness of clotting issues, and parents need to understand pediatric-specific risks and treatments.",
+      "tags": [
+        "Science"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+        "Space Nuclear Propulsion for Human Mars Exploration (2021)",
+        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "large_language_models_like_chatgpt",
+      "question": "How do large language models like ChatGPT actually think and reason?",
+      "priority": "low",
+      "rationale": "Widespread public use of AI tools with curiosity about their capabilities and limitations for reasoning tasks.",
+      "tags": [
+        "Technology"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Medications for Opioid Use Disorder Save Lives (2019)",
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+        "The Air Traffic Controller Workforce Imperative: Staffing Models and Their Implementation to Ensure Safe and Efficient Airspace Operations (2025)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "fast_modern_mri_scans_compared",
+      "question": "How fast are modern MRI scans compared to older machines?",
+      "priority": "low",
+      "rationale": "Patients often experience anxiety about MRI duration and may be interested in technological improvements affecting scan times.",
+      "tags": [
+        "Science"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+        "Space Nuclear Propulsion for Human Mars Exploration (2021)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "universe_fundamentally_mathematical_nature",
+      "question": "Is the universe fundamentally mathematical in nature?",
+      "priority": "low",
+      "rationale": "Philosophical question with scientific implications that interests educated public, though challenging to address with empirical evidence.",
+      "tags": [
+        "Health and Medicine"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Artificial Intelligence and the Future of Work (2024)",
+        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+        "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+        "Space Nuclear Propulsion for Human Mars Exploration (2021)"
+      ],
+      "discovered_at": "2026-03-05",
+      "status": "pending"
+    },
+    {
+      "id": "pharmacist_vaccinations",
+      "question": "How effective are pharmacists at providing vaccinations compared to doctors?",
+      "priority": "n/a",
+      "rationale": "",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
+      ],
+      "nasem_source_count": 6,
+      "nasem_sources_preview": [],
+      "discovered_at": "",
+      "status": "published",
+      "article_url": "articles/pharmacist_vaccinations_article.html",
+      "evidence_url": "articles/pharmacist_vaccinations_evidence.html"
+    },
+    {
+      "id": "breathing_problems",
+      "question": "Does global warming cause breathing problems?",
+      "priority": "n/a",
+      "rationale": "",
+      "tags": [
+        "Health and Medicine",
+        "Pollution",
+        "Climate Change"
+      ],
+      "nasem_source_count": 7,
+      "nasem_sources_preview": [],
+      "discovered_at": "",
+      "status": "published",
+      "article_url": "articles/breathing_problems_article.html",
+      "evidence_url": "articles/breathing_problems_evidence.html"
+    }
+  ]
+}

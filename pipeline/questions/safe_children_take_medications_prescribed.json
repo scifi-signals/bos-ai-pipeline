@@ -1,0 +1,58 @@
+{
+  "id": "safe_children_take_medications_prescribed",
+  "question": "Is it safe for children to take medications prescribed for adults?",
+  "topic": "Common parental concern with serious safety implications. Off-label use in pediatrics is widespread ",
+  "tags": [
+    "Science"
+  ],
+  "sources": [
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://nap.nationalacademies.org/catalog/25310/medications-for-opioid-use-disorder-save-lives",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Improving the Health, Safety, and Well-Being of Young Adults: Workshop Summary",
+      "url": "https://nap.nationalacademies.org/catalog/18340/improving-the-health-safety-and-well-being-of-young-adults",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The State of Mental, Emotional, and Behavioral Health of Children and Youth in the United States: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/25739/the-state-of-mental-emotional-and-behavioral-health-of-children-and-youth-in-the-united-states",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Artificial Intelligence and the Future of Work",
+      "url": "https://nap.nationalacademies.org/catalog/27644/artificial-intelligence-and-the-future-of-work",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://nap.nationalacademies.org/catalog/13563/the-childhood-immunization-schedule-and-safety-stakeholder-concerns-scientific-evidence",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://nap.nationalacademies.org/catalog/10306/immunization-safety-review-multiple-immunizations-and-immune-dysfunction",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://nap.nationalacademies.org/catalog/26522/origins-worlds-and-life-a-decadal-strategy-for-planetary-science",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}
