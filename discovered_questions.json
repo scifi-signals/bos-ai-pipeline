@@ -243,23 +243,6 @@
       "status": "pending"
     },
     {
-      "id": "pharmacist_vaccinations",
-      "question": "How effective are pharmacists at providing vaccinations compared to doctors?",
-      "priority": "n/a",
-      "rationale": "",
-      "tags": [
-        "Health and Medicine",
-        "Public Health",
-        "Vaccines"
-      ],
-      "nasem_source_count": 6,
-      "nasem_sources_preview": [],
-      "discovered_at": "",
-      "status": "published",
-      "article_url": "articles/pharmacist_vaccinations_article.html",
-      "evidence_url": "articles/pharmacist_vaccinations_evidence.html"
-    },
-    {
       "id": "breathing_problems",
       "question": "Does global warming cause breathing problems?",
       "priority": "n/a",
