@@ -367,7 +367,11 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             if (q.nasem_sources_preview && q.nasem_sources_preview.length > 0) {
                 sourcesHtml += '<ul>';
                 q.nasem_sources_preview.forEach(function(s) {
-                    sourcesHtml += '<li>' + escHtml(s) + '</li>';
+                    if (typeof s === 'object' && s.url) {
+                        sourcesHtml += '<li><a href="' + escHtml(s.url) + '" target="_blank" rel="noopener" style="color:var(--accent); text-decoration:none;">' + escHtml(s.name) + '</a></li>';
+                    } else {
+                        sourcesHtml += '<li>' + escHtml(typeof s === 'string' ? s : s.name) + '</li>';
+                    }
                 });
                 sourcesHtml += '</ul>';
             }

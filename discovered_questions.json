@@ -16,11 +16,26 @@
       ],
       "nasem_source_count": 9,
       "nasem_sources_preview": [
-        "Climate Change: Evidence and Causes: Update 2020 (2020)",
-        "Dietary Reference Intakes: Proposed Definition of Dietary Fiber (2001)",
-        "Preventing Childhood Obesity: Health in the Balance (2005)",
-        "Local Government Actions to Prevent Childhood Obesity (2010)",
-        "Progress in Preventing Childhood Obesity: How Do We Measure Up? (2007)"
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://nap.nationalacademies.org/catalog/25733/climate-change-evidence-and-causes-update-2020"
+        },
+        {
+          "name": "Dietary Reference Intakes: Proposed Definition of Dietary Fiber (2001)",
+          "url": "https://nap.nationalacademies.org/catalog/10161/dietary-reference-intakes-proposed-definition-of-dietary-fiber"
+        },
+        {
+          "name": "Preventing Childhood Obesity: Health in the Balance (2005)",
+          "url": "https://nap.nationalacademies.org/catalog/11015/preventing-childhood-obesity-health-in-the-balance"
+        },
+        {
+          "name": "Local Government Actions to Prevent Childhood Obesity (2010)",
+          "url": "https://nap.nationalacademies.org/catalog/12674/local-government-actions-to-prevent-childhood-obesity"
+        },
+        {
+          "name": "Progress in Preventing Childhood Obesity: How Do We Measure Up? (2007)",
+          "url": "https://nap.nationalacademies.org/catalog/11722/progress-in-preventing-childhood-obesity-how-do-we-measure-up"
+        }
       ],
       "discovered_at": "2026-03-06",
       "status": "pending"
@@ -40,11 +55,26 @@
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
-        "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
-        "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula (2025)",
-        "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States (2025)",
-        "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)"
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+          "url": "https://nap.nationalacademies.org/catalog/25747/feeding-infants-and-children-from-birth-to-24-months-summarizing"
+        },
+        {
+          "name": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula (2025)",
+          "url": "https://nap.nationalacademies.org/catalog/29065/protein-quality-and-growth-monitoring-studies-quality-factor-requirements-for"
+        },
+        {
+          "name": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States (2025)",
+          "url": "https://nap.nationalacademies.org/catalog/27765/challenges-in-supply-market-competition-and-regulation-of-infant-formula-in-the-united-states"
+        },
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://nap.nationalacademies.org/catalog/10306/immunization-safety-review-multiple-immunizations-and-immune-dysfunction"
+        }
       ],
       "discovered_at": "2026-03-06",
       "status": "pending"
@@ -64,10 +94,22 @@
       ],
       "nasem_source_count": 4,
       "nasem_sources_preview": [
-        "Reproducibility and Replicability in Science (2019)",
-        "Safety of Dietary Supplements for Horses, Dogs, and Cats (2009)",
-        "Progress in Preventing Childhood Obesity: How Do We Measure Up? (2007)",
-        "Preventing Childhood Obesity: Health in the Balance (2005)"
+        {
+          "name": "Reproducibility and Replicability in Science (2019)",
+          "url": "https://nap.nationalacademies.org/catalog/25303/reproducibility-and-replicability-in-science"
+        },
+        {
+          "name": "Safety of Dietary Supplements for Horses, Dogs, and Cats (2009)",
+          "url": "https://nap.nationalacademies.org/catalog/12461/safety-of-dietary-supplements-for-horses-dogs-and-cats"
+        },
+        {
+          "name": "Progress in Preventing Childhood Obesity: How Do We Measure Up? (2007)",
+          "url": "https://nap.nationalacademies.org/catalog/11722/progress-in-preventing-childhood-obesity-how-do-we-measure-up"
+        },
+        {
+          "name": "Preventing Childhood Obesity: Health in the Balance (2005)",
+          "url": "https://nap.nationalacademies.org/catalog/11015/preventing-childhood-obesity-health-in-the-balance"
+        }
       ],
       "discovered_at": "2026-03-06",
       "status": "pending"
@@ -87,11 +129,26 @@
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop (2018)",
-        "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop—in Brief (None)",
-        "Accelerating Progress in Obesity Prevention: Solving the Weight of the Nation (2012)",
-        "Measuring Progress in Obesity Prevention: Workshop Report (2012)",
-        "Obesity in the Early Childhood Years: State of the Science and Implementation of Promising Solutions: Workshop Summary (2016)"
+        {
+          "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop (2018)",
+          "url": "https://nap.nationalacademies.org/catalog/25310/medications-for-opioid-use-disorder-save-lives"
+        },
+        {
+          "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop—in Brief (None)",
+          "url": "https://nap.nationalacademies.org/catalog/10306/immunization-safety-review-multiple-immunizations-and-immune-dysfunction"
+        },
+        {
+          "name": "Accelerating Progress in Obesity Prevention: Solving the Weight of the Nation (2012)",
+          "url": "https://nap.nationalacademies.org/catalog/27644/artificial-intelligence-and-the-future-of-work"
+        },
+        {
+          "name": "Measuring Progress in Obesity Prevention: Workshop Report (2012)",
+          "url": "https://nap.nationalacademies.org/catalog/26355/human-ai-teaming-state-of-the-art-and-research-needs"
+        },
+        {
+          "name": "Obesity in the Early Childhood Years: State of the Science and Implementation of Promising Solutions: Workshop Summary (2016)",
+          "url": "https://nap.nationalacademies.org/catalog/26522/origins-worlds-and-life-a-decadal-strategy-for-planetary-science"
+        }
       ],
       "discovered_at": "2026-03-06",
       "status": "pending"
@@ -135,11 +192,26 @@
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
-        "Adverse Effects of Vaccines: Evidence and Causality (2012)",
-        "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
-        "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality (1993)",
-        "Vaccine Safety Research, Data Access, and Public Trust (2005)"
+        {
+          "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
+          "url": "https://nap.nationalacademies.org/catalog/10822/immunization-safety-review-influenza-vaccines-and-neurological-complications"
+        },
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://nap.nationalacademies.org/catalog/13164/adverse-effects-of-vaccines-evidence-and-causality"
+        },
+        {
+          "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
+          "url": "https://nap.nationalacademies.org/catalog/13563/the-childhood-immunization-schedule-and-safety-stakeholder-concerns-scientific-evidence"
+        },
+        {
+          "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality (1993)",
+          "url": "https://nap.nationalacademies.org/catalog/2138/adverse-events-associated-with-childhood-vaccines-evidence-bearing-on-causality"
+        },
+        {
+          "name": "Vaccine Safety Research, Data Access, and Public Trust (2005)",
+          "url": "https://nap.nationalacademies.org/catalog/11234/vaccine-safety-research-data-access-and-public-trust"
+        }
       ],
       "discovered_at": "2026-03-06",
       "status": "pending"
@@ -159,11 +231,26 @@
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases (2011)",
-        "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals (2025)",
-        "Communities in Action: Pathways to Health Equity (2017)",
-        "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
-        "The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop (2019)"
+        {
+          "name": "A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases (2011)",
+          "url": "https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases"
+        },
+        {
+          "name": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals (2025)",
+          "url": "https://nap.nationalacademies.org/catalog/29118/breastfeeding-in-the-united-states-strategies-to-support-families-and"
+        },
+        {
+          "name": "Communities in Action: Pathways to Health Equity (2017)",
+          "url": "https://nap.nationalacademies.org/catalog/24624/communities-in-action-pathways-to-health-equity"
+        },
+        {
+          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
+          "url": "https://nap.nationalacademies.org/catalog/10027/crossing-the-quality-chasm-a-new-health-system-for-the"
+        },
+        {
+          "name": "The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop (2019)",
+          "url": "https://nap.nationalacademies.org/catalog/25535/the-convergence-of-infectious-diseases-and-noncommunicable-diseases-proceedings-of"
+        }
       ],
       "discovered_at": "2026-03-06",
       "status": "pending"
@@ -183,11 +270,26 @@
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality (1993)",
-        "Adverse Effects of Pertussis and Rubella Vaccines (1991)",
-        "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families (2023)",
-        "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
-        "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)"
+        {
+          "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality (1993)",
+          "url": "https://nap.nationalacademies.org/catalog/2138/adverse-events-associated-with-childhood-vaccines-evidence-bearing-on-causality"
+        },
+        {
+          "name": "Adverse Effects of Pertussis and Rubella Vaccines (1991)",
+          "url": "https://nap.nationalacademies.org/catalog/1815/adverse-effects-of-pertussis-and-rubella-vaccines"
+        },
+        {
+          "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families (2023)",
+          "url": "https://nap.nationalacademies.org/catalog/26809/addressing-the-long-term-effects-of-the-covid-19-pandemic-on-children-and-families"
+        },
+        {
+          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
+          "url": "https://nap.nationalacademies.org/catalog/26284/countering-the-pandemic-threat-through-global-coordination-on-vaccines-the"
+        },
+        {
+          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+          "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families"
+        }
       ],
       "discovered_at": "2026-03-06",
       "status": "pending"
@@ -207,11 +309,26 @@
       ],
       "nasem_source_count": 5,
       "nasem_sources_preview": [
-        "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
-        "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
-        "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
-        "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
-        "Dietary Reference Intakes Research Synthesis: Workshop Summary (2007)"
+        {
+          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
+          "url": "https://nap.nationalacademies.org/catalog/27207/the-future-pediatric-subspecialty-physician-workforce-meeting-the-needs-of"
+        },
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+          "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families"
+        },
+        {
+          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+          "url": "https://nap.nationalacademies.org/catalog/25747/feeding-infants-and-children-from-birth-to-24-months-summarizing"
+        },
+        {
+          "name": "Dietary Reference Intakes Research Synthesis: Workshop Summary (2007)",
+          "url": "https://nap.nationalacademies.org/catalog/11767/dietary-reference-intakes-research-synthesis-workshop-summary"
+        }
       ],
       "discovered_at": "2026-03-06",
       "status": "pending"
@@ -231,11 +348,26 @@
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
-        "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
-        "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
-        "Advancing the Power of Economic Evidence to Inform Investments in Children, Youth, and Families (2016)",
-        "Making Better Drugs for Children with Cancer (2005)"
+        {
+          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
+          "url": "https://nap.nationalacademies.org/catalog/27207/the-future-pediatric-subspecialty-physician-workforce-meeting-the-needs-of"
+        },
+        {
+          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+          "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families"
+        },
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2"
+        },
+        {
+          "name": "Advancing the Power of Economic Evidence to Inform Investments in Children, Youth, and Families (2016)",
+          "url": "https://nap.nationalacademies.org/catalog/23481/advancing-the-power-of-economic-evidence-to-inform-investments-in-children-youth-and-families"
+        },
+        {
+          "name": "Making Better Drugs for Children with Cancer (2005)",
+          "url": "https://nap.nationalacademies.org/catalog/11259/making-better-drugs-for-children-with-cancer"
+        }
       ],
       "discovered_at": "2026-03-06",
       "status": "pending"
@@ -251,7 +383,28 @@
         "Climate Change"
       ],
       "nasem_source_count": 7,
-      "nasem_sources_preview": [],
+      "nasem_sources_preview": [
+        {
+          "name": "HEI State of Global Air - Ozone",
+          "url": "https://www.stateofglobalair.org/pollution-sources/ozone"
+        },
+        {
+          "name": "HEI State of Global Air 2024 - Key Findings",
+          "url": "https://www.stateofglobalair.org/news-events/2024/new-state-global-air-report-finds-air-pollution-second-leading-risk-factor-death"
+        },
+        {
+          "name": "IPCC AR5 WGII Chapter 11 - Human Health",
+          "url": "https://www.ipcc.ch/site/assets/uploads/2018/02/WGIIAR5-Chap11_FINAL.pdf"
+        },
+        {
+          "name": "USGCRP - Impacts of Climate Change on Human Health (2016)",
+          "url": "https://archive.org/download/ClimateHealth2016FullReportSmall/ClimateHealth2016_FullReport_small.pdf"
+        },
+        {
+          "name": "AirNow - Air Quality Index",
+          "url": "https://www.airnow.gov/"
+        }
+      ],
       "discovered_at": "",
       "status": "published",
       "article_url": "articles/breathing_problems_article.html",
