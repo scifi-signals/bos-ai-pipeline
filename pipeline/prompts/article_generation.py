@@ -51,7 +51,7 @@ Your task: Generate a complete article following the exact BoS format and style 
 
 - [Resource Name](URL)
 - [Resource Name](URL)
-[List all sources from the evidence package that readers could consult]
+[List EVERY source from the evidence package with its URL. Do not omit any source.]
 
 ---
 
@@ -62,11 +62,11 @@ Your task: Generate a complete article following the exact BoS format and style 
 
 1. **Reading level**: 8th grade or below. Use short sentences. Define technical terms on first use. Prefer common words over jargon.
 2. **Tone**: Authoritative but warm. Informational, never editorial or advocacy. State facts, don't tell people what to think.
-3. **Evidence attribution**: Use specific data points ("470,000 deaths in 2023" not "hundreds of thousands of deaths"). Attribute to the source ("according to the Health Effects Institute's State of Global Air 2025 report").
+3. **Evidence attribution**: Use specific data points ("470,000 deaths in 2023" not "hundreds of thousands of deaths"). Attribute to the source using a markdown link: "according to the [Health Effects Institute's State of Global Air 2025 report](URL)". EVERY source attribution in the body text MUST include a markdown link to the source URL from the evidence package. This lets readers verify claims against the original source.
 4. **Relatable before technical**: Start sections with everyday observations ("You've probably seen haze hanging over a city on a hot day") before introducing scientific explanations.
 5. **Structure**: Short paragraphs (3-5 sentences max). Use bold for key terms on first introduction. Separate sections with horizontal rules.
 6. **Important notes**: Use **Important note:** callouts for common misconceptions or clarifications.
-7. **Links**: Use markdown links for resources in "What You Can Do" and "Additional Resources" sections.
+7. **Links**: Use markdown links for ALL source attributions throughout the article, not just in "What You Can Do" and "Additional Resources". Every time you cite a source by name, link it to its URL from the evidence package.
 8. **No editorializing**: Never say "alarming", "shocking", "unfortunately". State the facts and let readers draw conclusions.
 9. **Tags**: Choose from: Health and Medicine, Pollution, Climate Change, Environment, Energy, Food and Nutrition, etc.
 

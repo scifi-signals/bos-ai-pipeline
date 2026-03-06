@@ -87,6 +87,12 @@ def _validate_article(article):
     if "tags:" not in article_lower:
         issues.append("Missing Tags line at end")
 
+    # Check for source links in body (not just Additional Resources)
+    import re
+    link_count = len(re.findall(r'\[[^\]]+\]\(https?://[^)]+\)', article))
+    if link_count < 3:
+        issues.append(f"Only {link_count} source links found — articles should link to sources inline")
+
     return {"valid": len(issues) == 0, "issues": issues}
 
 

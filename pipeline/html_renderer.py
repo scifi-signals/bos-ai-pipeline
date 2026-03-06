@@ -296,13 +296,17 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
         n_findings = len(src.get("findings", []))
         card_id = f"evidence-{i}"
 
+        source_name = html_lib.escape(src.get('source', 'Unknown'))
+        source_url = src.get('url', '')
+        source_link = f'<a href="{html_lib.escape(source_url)}" target="_blank" rel="noopener" onclick="event.stopPropagation()">{source_name}</a>' if source_url else source_name
+
         body_html += f"""
         <div class="evidence-card">
             <div class="evidence-header" onclick="toggleEvidence('{card_id}')">
                 <div>
                     <span class="tier-badge tier-{tier}">Tier {tier}</span>
                     &nbsp;
-                    <h3 style="display:inline;">{html_lib.escape(src.get('source', 'Unknown'))}</h3>
+                    <h3 style="display:inline;">{source_link}</h3>
                     <span style="color:var(--text-tertiary); font-size:13px;"> — {n_findings} findings</span>
                 </div>
                 <span class="arrow" style="font-size:12px;">&#9654;</span>
