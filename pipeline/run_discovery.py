@@ -131,6 +131,15 @@ def run_discovery(max_questions=15):
                 }
                 for s in q.get("nasem_sources_full", [])[:8]
             ],
+            "discovery_sources": [
+                {
+                    "type": rs.get("source_type", ""),
+                    "text": rs.get("raw_text", ""),
+                    "origin": rs.get("source", ""),
+                    "date": rs.get("date", ""),
+                }
+                for rs in q.get("raw_sources", [])
+            ],
         }
         config_path = QUESTIONS_DIR / f"{q['id']}.json"
         config_path.write_text(
@@ -321,6 +330,15 @@ def _write_discovery_queue(questions):
             "tags": q.get("tags", _infer_tags(q)),
             "nasem_source_count": q.get("nasem_source_count", 0),
             "nasem_sources_preview": q.get("nasem_sources_preview", []),
+            "discovery_sources": [
+                {
+                    "type": rs.get("source_type", rs.get("type", "")),
+                    "text": rs.get("raw_text", rs.get("text", "")),
+                    "origin": rs.get("source", rs.get("origin", "")),
+                    "date": rs.get("date", ""),
+                }
+                for rs in q.get("raw_sources", q.get("discovery_sources", []))
+            ],
             "discovered_at": today,
             "status": "published" if is_published else "pending",
         }
