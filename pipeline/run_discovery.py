@@ -104,7 +104,7 @@ def run_discovery(max_questions=15):
             q["nasem_source_count"] = len(sources)
             q["nasem_sources_preview"] = [
                 {"name": f"{s['name']} ({s.get('year', '?')})", "url": s.get("url", "")}
-                for s in sources[:5]
+                for s in sources
             ]
             q["nasem_sources_full"] = sources
         except Exception as e:
