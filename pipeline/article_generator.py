@@ -14,8 +14,14 @@ def generate_article(consensus, evidence_package):
 
     # Build evidence summary — include findings but trim raw text for token economy
     evidence_for_prompt = []
+    reference_sources = []
     for src in evidence_package["evidence"]:
-        if src.get("error") or not src.get("findings"):
+        if src.get("error"):
+            continue
+        if not src.get("findings"):
+            # Keep sources without findings as reference resources (e.g. AirNow, pollen trackers)
+            if src.get("url"):
+                reference_sources.append({"source": src["source"], "url": src["url"]})
             continue
         evidence_for_prompt.append({
             "source": src["source"],
@@ -23,6 +29,13 @@ def generate_article(consensus, evidence_package):
             "tier": src.get("tier", 3),
             "findings": src.get("findings", []),
         })
+
+    ref_block = ""
+    if reference_sources:
+        ref_block = f"""
+
+Reference Sources (no extracted findings, but include in Additional Resources with links):
+{json.dumps(reference_sources, indent=2)}"""
 
     prompt = f"""Generate a "Based on Science" article for the following question.
 
@@ -32,7 +45,7 @@ Consensus Analysis:
 {json.dumps(consensus, indent=2)}
 
 Full Evidence Package ({len(evidence_for_prompt)} sources):
-{json.dumps(evidence_for_prompt, indent=2)}
+{json.dumps(evidence_for_prompt, indent=2)}{ref_block}
 
 Write the complete article in Markdown format following the BoS style guide exactly."""
 

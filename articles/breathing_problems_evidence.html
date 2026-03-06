@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Evidence: Does global warming cause breathing problems? | Based on Science</title>
+    <meta property="og:title" content="Evidence: Does global warming cause breathing problems? | Based on Science">
+    <meta property="og:description" content="63 findings from 7 sources">
+    <meta property="og:type" content="article">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
     <style>
 :root {
@@ -99,11 +102,22 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 
 .footer { max-width:900px; margin:0 auto; padding:20px 32px 40px; text-align:center; font-size:12px; color:var(--text-tertiary); border-top:1px solid var(--border-light); }
 
+.social-share { margin-top:16px; }
+.social-share h2 { font-family:'DM Serif Display',serif; font-size:22px; font-weight:400; margin-bottom:16px; }
+.social-cards { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.social-card { background:var(--bg); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:16px; }
+.social-card-label { font-size:11px; text-transform:uppercase; letter-spacing:0.5px; color:var(--text-tertiary); font-weight:600; margin-bottom:8px; }
+.social-card-text { font-size:13px; line-height:1.5; color:var(--text-primary); white-space:pre-wrap; margin-bottom:10px; }
+.copy-btn { display:inline-block; padding:4px 12px; background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-sm); font-size:12px; font-weight:500; cursor:pointer; color:var(--text-secondary); font-family:'DM Sans',sans-serif; }
+.copy-btn:hover { background:var(--surface-hover); color:var(--text-primary); }
+.copy-btn.copied { background:var(--green-light); color:var(--green); border-color:var(--green); }
+
 @media (max-width:640px) {
     .header { padding:0 16px; }
     .hero, .container { padding-left:16px; padding-right:16px; }
     .hero h1 { font-size:28px; }
     .card, .short-answer { padding:20px; }
+    .social-cards { grid-template-columns:1fr; }
 }
 </style>
 </head>
@@ -114,7 +128,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                 <div class="logo-mark">BoS</div>
                 <span class="header-title">Based on Science</span>
             </div>
-            <div class="header-right"><a href="../index.html">Home</a> &nbsp;|&nbsp; <a href="breathing_problems_article.html">View Article</a></div>
+            <div class="header-right"><a href="breathing_problems_article.html">View Article</a></div>
         </div>
     </div>
     
@@ -125,9 +139,6 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     </div>
     
     <div class="container">
-        <div style="background:#FFFBEB; border:1px solid #FDE68A; border-radius:10px; padding:16px 20px; margin-bottom:16px; font-size:14px; color:#6B6960;">
-            <strong style="color:#D97706;">Pipeline Demonstration.</strong> This evidence package corresponds to an existing <a href="https://www.nationalacademies.org/based-on-science/does-global-warming-cause-breathing-problems" style="color:#2563EB; text-decoration:none; font-weight:500;">NASEM "Based on Science" article</a> and was generated to validate the pipeline against a published reference.
-        </div>
         <div class="card"><h2>Consensus Analysis</h2><p>Yes, global warming causes breathing problems through multiple pathways: increased ground-level ozone formation that triggers respiratory disease, more frequent wildfires producing harmful smoke and particulate matter, and increased allergens that worsen asthma. Climate change also indirectly affects respiratory health by increasing heat-related hospital admissions for respiratory diseases.</p>
             <div style="margin:16px 0; padding:12px 0; border-top:1px solid var(--border-light);">
                 <div class="consensus-bar">
@@ -356,7 +367,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                 <div>
                     <span class="tier-badge tier-2">Tier 2</span>
                     &nbsp;
-                    <h3 style="display:inline;">Health Effects Institute - State of Global Air 2025</h3>
+                    <h3 style="display:inline;"><a href="https://www.stateofglobalair.org/resources/report/state-global-air-report-2025" target="_blank" rel="noopener" onclick="event.stopPropagation()">Health Effects Institute - State of Global Air 2025</a></h3>
                     <span style="color:var(--text-tertiary); font-size:13px;"> — 0 findings</span>
                 </div>
                 <span class="arrow" style="font-size:12px;">&#9654;</span>
@@ -368,7 +379,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                 <div>
                     <span class="tier-badge tier-1">Tier 1</span>
                     &nbsp;
-                    <h3 style="display:inline;">IPCC AR5 WGII Chapter 11 - Human Health</h3>
+                    <h3 style="display:inline;"><a href="https://www.ipcc.ch/site/assets/uploads/2018/02/WGIIAR5-Chap11_FINAL.pdf" target="_blank" rel="noopener" onclick="event.stopPropagation()">IPCC AR5 WGII Chapter 11 - Human Health</a></h3>
                     <span style="color:var(--text-tertiary); font-size:13px;"> — 63 findings</span>
                 </div>
                 <span class="arrow" style="font-size:12px;">&#9654;</span>
@@ -758,7 +769,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                 <div>
                     <span class="tier-badge tier-1">Tier 1</span>
                     &nbsp;
-                    <h3 style="display:inline;">National Academies - Climate Resources</h3>
+                    <h3 style="display:inline;"><a href="https://www.nationalacademies.org/topics/climate" target="_blank" rel="noopener" onclick="event.stopPropagation()">National Academies - Climate Resources</a></h3>
                     <span style="color:var(--text-tertiary); font-size:13px;"> — 0 findings</span>
                 </div>
                 <span class="arrow" style="font-size:12px;">&#9654;</span>
@@ -770,7 +781,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                 <div>
                     <span class="tier-badge tier-2">Tier 2</span>
                     &nbsp;
-                    <h3 style="display:inline;">AirNow - Air Quality Index</h3>
+                    <h3 style="display:inline;"><a href="https://www.airnow.gov/" target="_blank" rel="noopener" onclick="event.stopPropagation()">AirNow - Air Quality Index</a></h3>
                     <span style="color:var(--text-tertiary); font-size:13px;"> — 0 findings</span>
                 </div>
                 <span class="arrow" style="font-size:12px;">&#9654;</span>
@@ -782,7 +793,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                 <div>
                     <span class="tier-badge tier-3">Tier 3</span>
                     &nbsp;
-                    <h3 style="display:inline;">National Allergy Bureau - Pollen Counts</h3>
+                    <h3 style="display:inline;"><a href="https://pollen.aaaai.org/" target="_blank" rel="noopener" onclick="event.stopPropagation()">National Allergy Bureau - Pollen Counts</a></h3>
                     <span style="color:var(--text-tertiary); font-size:13px;"> — 0 findings</span>
                 </div>
                 <span class="arrow" style="font-size:12px;">&#9654;</span>
