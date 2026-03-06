@@ -1,0 +1,60 @@
+{
+  "id": "people_need_avoid_gluten_they",
+  "question": "Do people need to avoid gluten if they don't have celiac disease?",
+  "topic": "Addresses widespread dietary misconception with nutritional and economic consequences",
+  "tags": [
+    "Health and Medicine",
+    "Nutrition",
+    "Digestive Health"
+  ],
+  "sources": [
+    {
+      "name": "A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases",
+      "url": "https://nap.nationalacademies.org/catalog/13145/a-nationwide-framework-for-surveillance-of-cardiovascular-and-chronic-lung-diseases",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals",
+      "url": "https://nap.nationalacademies.org/catalog/29118/breastfeeding-in-the-united-states-strategies-to-support-families-and",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communities in Action: Pathways to Health Equity",
+      "url": "https://nap.nationalacademies.org/catalog/24624/communities-in-action-pathways-to-health-equity",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+      "url": "https://nap.nationalacademies.org/catalog/10027/crossing-the-quality-chasm-a-new-health-system-for-the",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/25535/the-convergence-of-infectious-diseases-and-noncommunicable-diseases-proceedings-of",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Rapid Medical Countermeasure Response to Infectious Diseases: Enabling Sustainable Capabilities Through Ongoing Public- and Private-Sector Partnerships: Workshop Summary",
+      "url": "https://nap.nationalacademies.org/catalog/21809/rapid-medical-countermeasure-response-to-infectious-diseases-enabling-sustainable-capabilities",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Environmental Neuroscience: Advancing the Understanding of How Chemical Exposures Impact Brain Health and Disease: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/25937/environmental-neuroscience-advancing-the-understanding-of-how-chemical-exposures-impact",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://nap.nationalacademies.org/catalog/25310/medications-for-opioid-use-disorder-save-lives",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

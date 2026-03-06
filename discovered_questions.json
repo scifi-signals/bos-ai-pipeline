@@ -1,292 +1,243 @@
 {
-  "generated_at": "2026-03-05T12:35:02Z",
+  "generated_at": "2026-03-06T12:30:05Z",
   "questions": [
     {
-      "id": "mrna_vaccines_change_dna_permanently",
-      "question": "Do mRNA vaccines change your DNA permanently?",
+      "id": "vaccines_cause_food_allergies",
+      "question": "Do vaccines cause food allergies?",
       "priority": "high",
-      "rationale": "Addresses one of the most persistent and harmful COVID-19 vaccine misconceptions that continues to affect public health",
-      "misinformation_narrative": "Persistent false belief that mRNA vaccines alter human genetic material, despite extensive evidence they do not enter cell nuclei or integrate into DNA",
-      "public_stakes": "Vaccine hesitancy based on genetic modification fears reduces vaccination rates and increases disease transmission",
+      "rationale": "Directly addresses a specific vaccine misconception that leads to dangerous vaccine avoidance behavior",
+      "misinformation_narrative": "Anti-vaccine groups and some parents believe that vaccines cause food allergies, citing the increase in both vaccine schedules and food allergy prevalence as evidence of causation",
+      "public_stakes": "Vaccine hesitancy based on false allergy concerns undermines herd immunity and puts children at risk of preventable diseases",
       "verification_status": "verified",
       "tags": [
         "Health and Medicine",
         "Vaccines",
-        "Genetics"
+        "Public Health"
       ],
-      "nasem_source_count": 10,
+      "nasem_source_count": 9,
       "nasem_sources_preview": [
-        "Heritable Human Genome Editing (2021)",
-        "Human Genome Editing: Science, Ethics, and Governance (2017)",
-        "Adverse Effects of Vaccines: Evidence and Causality (2012)",
-        "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
-        "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)"
+        "Climate Change: Evidence and Causes: Update 2020 (2020)",
+        "Dietary Reference Intakes: Proposed Definition of Dietary Fiber (2001)",
+        "Preventing Childhood Obesity: Health in the Balance (2005)",
+        "Local Government Actions to Prevent Childhood Obesity (2010)",
+        "Progress in Preventing Childhood Obesity: How Do We Measure Up? (2007)"
       ],
-      "discovered_at": "2026-03-05",
+      "discovered_at": "2026-03-06",
       "status": "pending"
     },
     {
-      "id": "naloxone_narcan_safe_non_medical",
-      "question": "Is naloxone (Narcan) safe for non-medical people to administer during overdoses?",
+      "id": "should_parents_avoid_giving_peanuts",
+      "question": "Should parents avoid giving peanuts to infants to prevent allergies?",
       "priority": "high",
-      "rationale": "Addresses fears that prevent bystanders from using life-saving overdose reversal medication",
-      "misinformation_narrative": "Some people fear that using Narcan incorrectly could harm overdose victims or that only medical professionals should administer it",
-      "public_stakes": "Hesitation to use naloxone during overdoses leads to preventable deaths from opioid overdoses",
+      "rationale": "Corrects persistent parenting misconception with major health consequences, backed by landmark LEAP trial evidence",
+      "misinformation_narrative": "Many parents still believe they should delay introducing peanuts and other allergens until after age 1-2 to prevent allergies, despite updated medical guidance",
+      "public_stakes": "Delayed allergen introduction may actually increase allergy risk, leading to more severe food allergies and associated health complications",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Child Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+        "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+        "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula (2025)",
+        "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States (2025)",
+        "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)"
+      ],
+      "discovered_at": "2026-03-06",
+      "status": "pending"
+    },
+    {
+      "id": "igg_food_sensitivity_tests_accurate",
+      "question": "Are IgG food sensitivity tests accurate for diagnosing food allergies?",
+      "priority": "high",
+      "rationale": "Addresses a widespread commercial testing scam that causes real nutritional harm and medical confusion",
+      "misinformation_narrative": "Alternative medicine practitioners and online companies market IgG food sensitivity tests as reliable ways to identify food allergies and intolerances, leading people to unnecessarily restrict diets",
+      "public_stakes": "False positive results lead to unnecessary dietary restrictions, nutritional deficiencies, and delayed proper medical care for real food allergies",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Diagnostic Tests",
+        "Consumer Protection"
+      ],
+      "nasem_source_count": 4,
+      "nasem_sources_preview": [
+        "Reproducibility and Replicability in Science (2019)",
+        "Safety of Dietary Supplements for Horses, Dogs, and Cats (2009)",
+        "Progress in Preventing Childhood Obesity: How Do We Measure Up? (2007)",
+        "Preventing Childhood Obesity: Health in the Balance (2005)"
+      ],
+      "discovered_at": "2026-03-06",
+      "status": "pending"
+    },
+    {
+      "id": "glp_medications_like_ozempic_safe",
+      "question": "Are GLP-1 medications like Ozempic safe for weight loss?",
+      "priority": "high",
+      "rationale": "Addresses both overuse and underuse of important diabetes/obesity medications due to contradictory misinformation",
+      "misinformation_narrative": "Social media influencers and online pharmacies promote off-label GLP-1 use while others spread fears about dangerous side effects, creating confusion about legitimate medical use",
+      "public_stakes": "Inappropriate use without medical supervision causes harm while legitimate patients may avoid beneficial treatment due to safety fears",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Pharmaceuticals",
+        "Obesity"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop (2018)",
+        "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop—in Brief (None)",
+        "Accelerating Progress in Obesity Prevention: Solving the Weight of the Nation (2012)",
+        "Measuring Progress in Obesity Prevention: Workshop Report (2012)",
+        "Obesity in the Early Childhood Years: State of the Science and Implementation of Promising Solutions: Workshop Summary (2016)"
+      ],
+      "discovered_at": "2026-03-06",
+      "status": "pending"
+    },
+    {
+      "id": "narcan_naloxone_safe_non_medical",
+      "question": "Is Narcan (naloxone) safe for non-medical people to use during overdoses?",
+      "priority": "high",
+      "rationale": "Corrects life-or-death misconception that prevents bystander intervention in overdose emergencies",
+      "misinformation_narrative": "Some people fear using naloxone because they believe it's dangerous for non-trained individuals or could cause legal liability",
+      "public_stakes": "Hesitation to use naloxone during overdoses directly leads to preventable overdose deaths",
       "verification_status": "verified",
       "tags": [
         "Health and Medicine",
         "Public Health",
-        "Drug Safety"
+        "Drug Policy"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
         "Medications for Opioid Use Disorder Save Lives (2019)",
         "Integrating Responses at the Intersection of Opioid Use Disorder and Infectious Disease Epidemics: Proceedings of a Workshop (2018)",
         "Pain Management for People with Serious Illness in the Context of the Opioid Use Disorder Epidemic: Proceedings of a Workshop (2019)",
-        "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
-        "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "pharmacists_provide_medical_care_equivalent",
-      "question": "Can pharmacists provide medical care equivalent to doctors?",
-      "priority": "medium",
-      "rationale": "Clarifies the scope and training of pharmacists amid confusion about their expanding healthcare roles",
-      "misinformation_narrative": "Some people believe pharmacists are just pill counters with minimal training, while others may overestimate their scope of practice compared to physicians",
-      "public_stakes": "Underutilizing pharmacist expertise leads to missed preventive care opportunities, while overestimating their role could delay necessary physician care",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Healthcare Access",
-        "Professional Roles"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "National Plan for Health Workforce Well-Being (2023)",
-        "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
-        "Improving Diagnosis in Health Care (2016)",
-        "Medical Surge Capacity: Workshop Summary (2010)",
-        "Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series (2023)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "should_elderly_patients_stop_taking",
-      "question": "Should elderly patients stop taking multiple medications to avoid harmful interactions?",
-      "priority": "medium",
-      "rationale": "Addresses confusion about medication management in elderly populations where both under-treatment and over-treatment are risks",
-      "misinformation_narrative": "Many people believe that taking multiple medications is inherently dangerous for elderly patients, when evidence-based deprescribing requires careful medical evaluation",
-      "public_stakes": "Self-directed medication discontinuation can worsen chronic conditions, while inappropriate polypharmacy increases adverse events",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Geriatrics",
-        "Medication Safety"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Medications for Opioid Use Disorder Save Lives (2019)",
-        "Keeping Patients Safe: Transforming the Work Environment of Nurses (2004)",
-        "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
-        "Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being (2019)",
-        "Communities in Action: Pathways to Health Equity (2017)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "prep_pre_exposure_prophylaxis_effective",
-      "question": "Is PrEP (pre-exposure prophylaxis) 100% effective at preventing HIV?",
-      "priority": "medium",
-      "rationale": "Clarifies the high but not perfect effectiveness of PrEP to ensure appropriate use and expectations",
-      "misinformation_narrative": "Either overestimation of PrEP effectiveness leading to risky behavior, or underestimation leading to avoidance of this highly effective prevention tool",
-      "public_stakes": "Misconceptions about PrEP effectiveness can lead to HIV infections through either false confidence or missed prevention opportunities",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Infectious Disease",
-        "Sexual Health"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths (1994)",
-        "Preventing Medication Errors (2007)",
-        "Bridge and Tunnel Strikes: A Guide for Prevention and Mitigation (2025)",
-        "Evidence-Based Practice for Public Health Emergency Preparedness and Response (2020)",
-        "Bridging the Evidence Gap in Obesity Prevention: A Framework to Inform Decision Making (2010)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "cancer_screening_tests_always_beneficial",
-      "question": "Are cancer screening tests always beneficial regardless of age or health status?",
-      "priority": "medium",
-      "rationale": "Addresses misconceptions about universal benefits of cancer screening versus evidence-based guidelines",
-      "misinformation_narrative": "Belief that cancer screening is always beneficial leads to over-screening in low-risk individuals, while fear of screening leads to under-screening in appropriate candidates",
-      "public_stakes": "Over-screening causes unnecessary anxiety and procedures, while under-screening misses treatable cancers",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Cancer Prevention",
-        "Public Health"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Improving Diagnosis in Health Care (2016)",
-        "Ovarian Cancers: Evolving Paradigms in Research and Care (2016)",
-        "Childhood Cancer Survivorship: Improving Care and Quality of Life (2003)",
-        "The Drug Development Paradigm in Oncology: Proceedings of a Workshop (2018)",
-        "Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop (2020)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "children_medications_safe_used_off",
-      "question": "Are children's medications safe when used off-label without FDA approval?",
-      "priority": "low",
-      "rationale": "Addresses widespread parental fear about off-label pediatric medication use, which affects treatment adherence and health outcomes",
-      "misinformation_narrative": "Many parents believe off-label medication use in children is dangerous or experimental, when in fact it's a necessary and often evidence-based practice for treating pediatric conditions",
-      "public_stakes": "Parents may refuse necessary treatments for their children, leading to untreated conditions and worse health outcomes",
-      "verification_status": "needs_review",
-      "tags": [
-        "Health and Medicine",
-        "Pediatrics",
-        "Medication Safety"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Challenges for the FDA: The Future of Drug Safety: Workshop Summary (2007)",
-        "Making Better Drugs for Children with Cancer (2005)",
-        "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
-        "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
-        "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "medical_diagnostic_systems_already_accurate",
-      "question": "Are AI medical diagnostic systems already more accurate than human doctors?",
-      "priority": "low",
-      "rationale": "Addresses hype and misconceptions about current AI medical capabilities versus established evidence",
-      "misinformation_narrative": "Exaggerated claims that AI has already surpassed human physicians in diagnostic accuracy, leading to either over-reliance on AI or dismissal of its genuine benefits",
-      "public_stakes": "Premature replacement of physician judgment with AI could lead to diagnostic errors, while rejecting AI assistance could miss opportunities to improve care",
-      "verification_status": "needs_review",
-      "tags": [
-        "Health and Medicine",
-        "Technology",
-        "Artificial Intelligence"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Improving Diagnosis in Health Care (2016)",
-        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-        "Artificial Intelligence and the Future of Work (2024)",
-        "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop (2018)",
-        "Reproducibility and Replicability in Science (2019)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "glp_medications_like_ozempic_only",
-      "question": "Do GLP-1 medications like Ozempic only work for weight loss?",
-      "priority": "low",
-      "rationale": "Corrects oversimplified understanding of GLP-1 medications amid widespread media attention on weight loss effects",
-      "misinformation_narrative": "Public focus on GLP-1 medications as weight loss drugs obscures their primary cardiovascular and diabetes benefits, leading to misunderstanding of appropriate use",
-      "public_stakes": "Patients may seek these medications inappropriately for weight loss while missing their established medical benefits for diabetes and heart disease",
-      "verification_status": "needs_review",
-      "tags": [
-        "Health and Medicine",
-        "Diabetes",
-        "Cardiovascular Health"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop (2018)",
-        "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop—in Brief (None)",
-        "Medications for Opioid Use Disorder Save Lives (2019)",
-        "Using Systematic Reviews to Support Future Dietary Reference Intakes: A Letter Report (2024)",
-        "Public Engagement on Facilitating Access to Antiviral Medications and Information in an Influenza Pandemic: Workshop Series Summary (2012)"
-      ],
-      "discovered_at": "2026-03-05",
-      "status": "pending"
-    },
-    {
-      "id": "discount_prescription_services_like_goodrx",
-      "question": "Do discount prescription services like GoodRx actually save patients money?",
-      "priority": "low",
-      "rationale": "Clarifies how prescription discount services operate amid consumer confusion about pricing transparency",
-      "misinformation_narrative": "Confusion about how prescription discount services work and whether they provide genuine savings or hidden costs",
-      "public_stakes": "Patients may overpay for medications or miss better savings opportunities due to misunderstanding discount service models",
-      "verification_status": "needs_review",
-      "tags": [
-        "Health and Medicine",
-        "Healthcare Costs",
-        "Consumer Protection"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        "Medications for Opioid Use Disorder Save Lives (2019)",
         "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use (2017)",
-        "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
-        "Communities in Action: Pathways to Health Equity (2017)",
-        "Keeping Patients Safe: Transforming the Work Environment of Nurses (2004)"
+        "Advancing Therapeutic Development for Pain and Opioid Use Disorders Through Public-Private Partnerships: Proceedings of a Workshop (2018)"
       ],
-      "discovered_at": "2026-03-05",
+      "discovered_at": "2026-03-06",
       "status": "pending"
     },
     {
-      "id": "artificial_intelligence_systems_automatically_develop",
-      "question": "Will artificial intelligence systems automatically develop goals to survive and harm humans?",
-      "priority": "low",
-      "rationale": "Separates evidence-based AI safety concerns from science fiction scenarios in public discourse",
-      "misinformation_narrative": "Science fiction-driven fears that AI systems inevitably develop self-preservation instincts and become hostile to humans",
-      "public_stakes": "Unfounded fears may hinder beneficial AI development, while dismissing genuine AI safety concerns could lead to inadequate safeguards",
+      "id": "people_egg_allergies_safely_receive",
+      "question": "Can people with egg allergies safely receive flu vaccines?",
+      "priority": "medium",
+      "rationale": "Corrects outdated medical guidance that still circulates despite updated safety evidence",
+      "misinformation_narrative": "Many people with egg allergies and their healthcare providers still believe flu vaccines are dangerous for egg-allergic individuals due to egg-based production methods",
+      "public_stakes": "Egg-allergic individuals avoid flu vaccination unnecessarily, increasing their risk of serious influenza complications",
       "verification_status": "verified",
       "tags": [
-        "Technology",
-        "Artificial Intelligence",
-        "Safety"
+        "Health and Medicine",
+        "Vaccines",
+        "Allergies"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-        "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop—in Brief (None)",
-        "Developing a National Registry of Pharmacologic and Biologic Clinical Trials: Workshop Report (2006)",
-        "Artificial Intelligence and the Future of Work (2024)",
-        "AI for Scientific Discovery: Proceedings of a Workshop (2024)"
+        "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
+        "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+        "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
+        "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality (1993)",
+        "Vaccine Safety Research, Data Access, and Public Trust (2005)"
       ],
-      "discovered_at": "2026-03-05",
+      "discovered_at": "2026-03-06",
       "status": "pending"
     },
     {
-      "id": "blood_thinners_safe_children_blood",
-      "question": "Are blood thinners safe for children with blood clots?",
+      "id": "people_need_avoid_gluten_they",
+      "question": "Do people need to avoid gluten if they don't have celiac disease?",
+      "priority": "medium",
+      "rationale": "Addresses widespread dietary misconception with nutritional and economic consequences",
+      "misinformation_narrative": "Many people believe gluten is inherently harmful and follow gluten-free diets without medical need, thinking it's healthier for everyone",
+      "public_stakes": "Unnecessary gluten avoidance can lead to nutritional deficiencies and higher food costs, while masking actual celiac disease diagnosis",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition",
+        "Digestive Health"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases (2011)",
+        "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals (2025)",
+        "Communities in Action: Pathways to Health Equity (2017)",
+        "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
+        "The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop (2019)"
+      ],
+      "discovered_at": "2026-03-06",
+      "status": "pending"
+    },
+    {
+      "id": "should_parents_worry_blood_clots",
+      "question": "Should parents worry about blood clots from COVID-19 vaccines in children?",
+      "priority": "medium",
+      "rationale": "Corrects specific vaccine safety misconception that drives pediatric vaccine hesitancy",
+      "misinformation_narrative": "Some parents avoid COVID-19 vaccination for children due to exaggerated fears about blood clot risks, often conflating adult adenovirus vaccine issues with mRNA vaccines used in children",
+      "public_stakes": "Vaccine hesitancy puts children at risk of COVID-19 complications while avoiding minimal actual risk",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "Child Health"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality (1993)",
+        "Adverse Effects of Pertussis and Rubella Vaccines (1991)",
+        "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families (2023)",
+        "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
+        "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)"
+      ],
+      "discovered_at": "2026-03-06",
+      "status": "pending"
+    },
+    {
+      "id": "most_children_outgrow_food_allergies",
+      "question": "Do most children outgrow food allergies?",
+      "priority": "medium",
+      "rationale": "Corrects misconceptions about food allergy prognosis that affect daily management decisions",
+      "misinformation_narrative": "Some parents believe all food allergies are lifelong while others assume children will definitely outgrow them, leading to either over-restriction or dangerous exposure",
+      "public_stakes": "Incorrect assumptions about allergy persistence affect dietary management, emergency preparedness, and quality of life decisions",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Child Health",
+        "Allergies"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
+        "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+        "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+        "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+        "Dietary Reference Intakes Research Synthesis: Workshop Summary (2007)"
+      ],
+      "discovered_at": "2026-03-06",
+      "status": "pending"
+    },
+    {
+      "id": "most_medications_given_children_properly",
+      "question": "Are most medications given to children properly tested for pediatric safety?",
       "priority": "low",
-      "rationale": "Addresses parental concerns about pediatric anticoagulation therapy based on adult medication fears",
-      "misinformation_narrative": "Parents may fear giving blood thinners to children due to bleeding risks, not understanding that pediatric formulations and dosing have been specifically studied",
-      "public_stakes": "Delaying appropriate anticoagulation in children with blood clots can lead to life-threatening complications",
+      "rationale": "Addresses gap between public assumptions and reality of pediatric drug testing that affects treatment decisions",
+      "misinformation_narrative": "Parents may assume all medications prescribed to children have been specifically tested in pediatric populations, when many are used off-label based on adult data",
+      "public_stakes": "Parents may not understand the limitations of pediatric drug safety data, potentially missing important monitoring needs or avoiding beneficial treatments",
       "verification_status": "needs_review",
       "tags": [
         "Health and Medicine",
-        "Pediatrics",
-        "Blood Disorders"
+        "Child Health",
+        "Pharmaceuticals"
       ],
-      "nasem_source_count": 8,
+      "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society (2015)",
-        "Making Better Drugs for Children with Cancer (2005)",
-        "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula (2025)",
         "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
-        "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)"
+        "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+        "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+        "Advancing the Power of Economic Evidence to Inform Investments in Children, Youth, and Families (2016)",
+        "Making Better Drugs for Children with Cancer (2005)"
       ],
-      "discovered_at": "2026-03-05",
+      "discovered_at": "2026-03-06",
       "status": "pending"
     },
     {

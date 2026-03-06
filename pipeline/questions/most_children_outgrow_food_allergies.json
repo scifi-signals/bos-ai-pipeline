@@ -1,0 +1,42 @@
+{
+  "id": "most_children_outgrow_food_allergies",
+  "question": "Do most children outgrow food allergies?",
+  "topic": "Corrects misconceptions about food allergy prognosis that affect daily management decisions",
+  "tags": [
+    "Health and Medicine",
+    "Child Health",
+    "Allergies"
+  ],
+  "sources": [
+    {
+      "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+      "url": "https://nap.nationalacademies.org/catalog/27207/the-future-pediatric-subspecialty-physician-workforce-meeting-the-needs-of",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+      "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+      "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
+      "url": "https://nap.nationalacademies.org/catalog/25747/feeding-infants-and-children-from-birth-to-24-months-summarizing",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Reference Intakes Research Synthesis: Workshop Summary",
+      "url": "https://nap.nationalacademies.org/catalog/11767/dietary-reference-intakes-research-synthesis-workshop-summary",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

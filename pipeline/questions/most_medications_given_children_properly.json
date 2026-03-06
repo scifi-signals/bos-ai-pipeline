@@ -1,0 +1,60 @@
+{
+  "id": "most_medications_given_children_properly",
+  "question": "Are most medications given to children properly tested for pediatric safety?",
+  "topic": "Addresses gap between public assumptions and reality of pediatric drug testing that affects treatmen",
+  "tags": [
+    "Health and Medicine",
+    "Child Health",
+    "Pharmaceuticals"
+  ],
+  "sources": [
+    {
+      "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+      "url": "https://nap.nationalacademies.org/catalog/27207/the-future-pediatric-subspecialty-physician-workforce-meeting-the-needs-of",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+      "url": "https://nap.nationalacademies.org/catalog/27835/launching-lifelong-health-by-improving-health-care-for-children-youth-and-families",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+      "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing the Power of Economic Evidence to Inform Investments in Children, Youth, and Families",
+      "url": "https://nap.nationalacademies.org/catalog/23481/advancing-the-power-of-economic-evidence-to-inform-investments-in-children-youth-and-families",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Making Better Drugs for Children with Cancer",
+      "url": "https://nap.nationalacademies.org/catalog/11259/making-better-drugs-for-children-with-cancer",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://nap.nationalacademies.org/catalog/25310/medications-for-opioid-use-disorder-save-lives",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://nap.nationalacademies.org/catalog/13563/the-childhood-immunization-schedule-and-safety-stakeholder-concerns-scientific-evidence",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://nap.nationalacademies.org/catalog/10306/immunization-safety-review-multiple-immunizations-and-immune-dysfunction",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

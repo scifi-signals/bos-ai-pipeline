@@ -1,0 +1,60 @@
+{
+  "id": "vaccines_cause_food_allergies",
+  "question": "Do vaccines cause food allergies?",
+  "topic": "Directly addresses a specific vaccine misconception that leads to dangerous vaccine avoidance behavi",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://nap.nationalacademies.org/catalog/25733/climate-change-evidence-and-causes-update-2020",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Reference Intakes: Proposed Definition of Dietary Fiber",
+      "url": "https://nap.nationalacademies.org/catalog/10161/dietary-reference-intakes-proposed-definition-of-dietary-fiber",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Preventing Childhood Obesity: Health in the Balance",
+      "url": "https://nap.nationalacademies.org/catalog/11015/preventing-childhood-obesity-health-in-the-balance",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Local Government Actions to Prevent Childhood Obesity",
+      "url": "https://nap.nationalacademies.org/catalog/12674/local-government-actions-to-prevent-childhood-obesity",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Progress in Preventing Childhood Obesity: How Do We Measure Up?",
+      "url": "https://nap.nationalacademies.org/catalog/11722/progress-in-preventing-childhood-obesity-how-do-we-measure-up",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Safety of Dietary Supplements for Horses, Dogs, and Cats",
+      "url": "https://nap.nationalacademies.org/catalog/12461/safety-of-dietary-supplements-for-horses-dogs-and-cats",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+      "url": "https://nap.nationalacademies.org/catalog/27239/complementary-feeding-interventions-for-infants-and-young-children-under-age-2",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Reducing Impacts of Food Loss and Waste: Proceedings of a Workshop",
+      "url": "https://nap.nationalacademies.org/catalog/25396/reducing-impacts-of-food-loss-and-waste-proceedings-of-a",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}

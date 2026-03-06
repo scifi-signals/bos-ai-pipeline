@@ -1,0 +1,60 @@
+{
+  "id": "people_egg_allergies_safely_receive",
+  "question": "Can people with egg allergies safely receive flu vaccines?",
+  "topic": "Corrects outdated medical guidance that still circulates despite updated safety evidence",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines",
+    "Allergies"
+  ],
+  "sources": [
+    {
+      "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications",
+      "url": "https://nap.nationalacademies.org/catalog/10822/immunization-safety-review-influenza-vaccines-and-neurological-complications",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adverse Effects of Vaccines: Evidence and Causality",
+      "url": "https://nap.nationalacademies.org/catalog/13164/adverse-effects-of-vaccines-evidence-and-causality",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://nap.nationalacademies.org/catalog/13563/the-childhood-immunization-schedule-and-safety-stakeholder-concerns-scientific-evidence",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality",
+      "url": "https://nap.nationalacademies.org/catalog/2138/adverse-events-associated-with-childhood-vaccines-evidence-bearing-on-causality",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Vaccine Safety Research, Data Access, and Public Trust",
+      "url": "https://nap.nationalacademies.org/catalog/11234/vaccine-safety-research-data-access-and-public-trust",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://nap.nationalacademies.org/catalog/10306/immunization-safety-review-multiple-immunizations-and-immune-dysfunction",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adverse Effects of Pertussis and Rubella Vaccines",
+      "url": "https://nap.nationalacademies.org/catalog/1815/adverse-effects-of-pertussis-and-rubella-vaccines",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Financing Vaccines in the 21st Century: Assuring Access and Availability",
+      "url": "https://nap.nationalacademies.org/catalog/10782/financing-vaccines-in-the-21st-century-assuring-access-and-availability",
+      "type": "web",
+      "tier": 1
+    }
+  ]
+}
