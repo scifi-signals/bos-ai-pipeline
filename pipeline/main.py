@@ -51,6 +51,20 @@ def cmd_run(args):
     from fact_checker import fact_check
     fc_result = fact_check(article_result["article_markdown"], evidence)
 
+    # Publish gate: halt if fact-check fails
+    assessment = fc_result.get("overall_assessment", "").upper()
+    summary = fc_result.get("summary", {})
+    contradicted = summary.get("contradicted", 0)
+    unsupported = summary.get("unsupported", 0)
+    if contradicted and contradicted > 0:
+        print(f"\n  HALTED: {contradicted} contradicted claim(s). Article not published.")
+        print("  Review the fact-check report and fix the article before re-running.")
+        sys.exit(1)
+    if "NEEDS_REVISION" in assessment or "FAIL" in assessment:
+        print(f"\n  HALTED: Fact-check returned '{assessment}'. Article not published.")
+        print("  Review the fact-check report and fix the article before re-running.")
+        sys.exit(1)
+
     # Step 5: Social post generation
     print(f"\n[5/7] Generating social posts...")
     from social_generator import generate_social_posts

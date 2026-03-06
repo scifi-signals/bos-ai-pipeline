@@ -3,7 +3,7 @@
 import json
 import re
 
-from llm import ask_gpt4o, ask_claude
+from llm import ask_gpt4o
 from prompts.fact_checking import FACT_CHECK_PROMPT
 from config import OUTPUT_DIR, OPENAI_API_KEY
 
@@ -33,15 +33,12 @@ Evidence package ({len(evidence_compact)} sources):
 
 Check every factual claim in the article against the evidence. Return JSON."""
 
-    # Use GPT-4o for independent verification; fall back to Claude if OpenAI unavailable
-    try:
-        if not OPENAI_API_KEY:
-            raise RuntimeError("No OpenAI key")
-        print("  Running fact-check (GPT-4o)...")
-        response = ask_gpt4o(prompt, system_prompt=FACT_CHECK_PROMPT, max_tokens=4096)
-    except Exception as e:
-        print(f"  GPT-4o unavailable ({e}), falling back to Claude...")
-        response = ask_claude(prompt, system_prompt=FACT_CHECK_PROMPT, max_tokens=8192)
+    # Use GPT-4o for independent verification (different model prevents self-confirmation)
+    if not OPENAI_API_KEY:
+        raise RuntimeError("Fact-check requires OPENAI_API_KEY — dual-model verification "
+                           "needs GPT-4o, not Claude checking its own work")
+    print("  Running fact-check (GPT-4o)...")
+    response = ask_gpt4o(prompt, system_prompt=FACT_CHECK_PROMPT, max_tokens=4096)
 
     try:
         if "```json" in response:
