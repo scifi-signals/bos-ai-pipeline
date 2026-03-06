@@ -84,10 +84,24 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 
     <div class="hero">
         <h1>How This Works</h1>
-        <p class="tagline">A 6-step AI pipeline transforms authoritative research into accessible, fact-checked articles. Every claim traces back to its source.</p>
+        <p class="tagline">An AI pipeline that discovers trending science misinformation, matches it to authoritative research, and generates accessible, fact-checked articles. Every claim traces back to its source.</p>
     </div>
 
     <div class="container">
+        <div class="principle-box" style="margin-bottom:32px;">
+            <h2>Question Discovery</h2>
+            <p style="font-size:15px; margin-bottom:12px;">Before any article is written, the pipeline identifies <em>which questions need answering</em>. This runs daily and works in four stages:</p>
+            <ul>
+                <li><strong>Signal detection</strong> — The <a href="https://scifi-signals.github.io/Science-Trend-Monitor-Agent/" style="color:var(--accent-hover)">Science Trend Monitor</a> tracks 33+ RSS feeds, Bluesky science discussions, and science podcast transcripts. When a health or science topic starts trending, it becomes a candidate.</li>
+                <li><strong>Misinformation filter</strong> — Claude evaluates each trending topic: Is there an active misinformation narrative? Are people making specific false claims? Topics without a clear misinfo angle are filtered out — the goal is to counter misinformation, not just explain science.</li>
+                <li><strong>NASEM source matching</strong> — For each question that passes the filter, the pipeline searches a catalog of 1,300+ National Academies publications using keyword scoring and LLM reranking. Questions are only queued if relevant NASEM research exists to answer them.</li>
+                <li><strong>Priority ranking</strong> — Questions are ranked by public health stakes, strength of the misinformation narrative, and quality of available NASEM sources. High-priority questions have active misinfo, clear public harm, and strong institutional evidence.</li>
+            </ul>
+            <p style="font-size:13px; color:var(--text-secondary); margin-top:12px;">Each question in the discovery queue shows its misinformation narrative, why it matters, and every NASEM source that will be used — so you can evaluate the question before any article is generated.</p>
+        </div>
+
+        <h2 style="font-family:'DM Serif Display',serif; font-size:24px; margin-bottom:16px;">Article Pipeline</h2>
+
         <div class="step-card">
             <span class="step-num">1</span>
             <h2>Source Discovery</h2>
