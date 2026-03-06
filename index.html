@@ -85,9 +85,12 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 .queue-item-sources a { color:var(--accent); text-decoration:none; }
 .queue-item-sources a:hover { text-decoration:underline; }
 
-.queue-item-discovery { font-size:12px; color:var(--text-secondary); margin-bottom:10px; padding:10px 14px; background:var(--accent-light); border:1px solid #BFDBFE; border-radius:var(--radius-sm); }
-.queue-item-discovery .discovery-label { font-size:11px; text-transform:uppercase; letter-spacing:0.5px; color:var(--accent); font-weight:600; margin-bottom:4px; }
-.queue-item-discovery ul { list-style:none; padding:0; margin:0; }
+.queue-item-discovery { font-size:12px; color:var(--text-tertiary); margin-bottom:12px; }
+.queue-item-discovery summary { cursor:pointer; list-style:none; display:flex; align-items:center; gap:6px; }
+.queue-item-discovery summary::before { content:"\25B6"; font-size:9px; color:var(--text-tertiary); transition:transform 0.15s; }
+.queue-item-discovery[open] summary::before { transform:rotate(90deg); }
+.queue-item-discovery summary::-webkit-details-marker { display:none; }
+.queue-item-discovery ul { list-style:none; padding:0; margin-top:6px; }
 .queue-item-discovery li { padding:2px 0; line-height:1.5; }
 
 .priority-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.3px; }
@@ -398,21 +401,24 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                 '</div>';
         }
 
-        // Discovery sources — what triggered this question
+        // Discovery sources — what triggered this question (quiet collapsible)
         var discoveryHtml = '';
         if (q.discovery_sources && q.discovery_sources.length > 0) {
-            var dsItems = q.discovery_sources.map(function(ds) {
-                var icon = ds.type === 'podcast_claim' ? '🎙' : ds.type === 'podcast_topic' ? '🎙' : '📈';
-                var label = ds.type === 'podcast_claim' ? 'Podcast claim' : ds.type === 'podcast_topic' ? 'Podcast topic' : 'Trending topic';
-                var line = icon + ' <strong>' + label + ':</strong> ' + escHtml(ds.text);
-                if (ds.origin) line += ' <span style="color:var(--text-tertiary);">— ' + escHtml(ds.origin) + '</span>';
-                if (ds.date) line += ' <span style="color:var(--text-tertiary);">(' + escHtml(ds.date) + ')</span>';
-                return '<li>' + line + '</li>';
-            }).join('');
-            discoveryHtml = '<div class="queue-item-discovery">' +
-                '<div class="discovery-label">Discovered from</div>' +
-                '<ul>' + dsItems + '</ul>' +
-            '</div>';
+            var realSources = q.discovery_sources.filter(function(ds) { return ds.text && ds.text.trim(); });
+            if (realSources.length > 0) {
+                var dsItems = realSources.map(function(ds) {
+                    var icon = ds.type === 'podcast_claim' ? '🎙' : ds.type === 'podcast_topic' ? '🎙' : '📈';
+                    var label = ds.type === 'podcast_claim' ? 'Podcast claim' : ds.type === 'podcast_topic' ? 'Podcast topic' : 'Trending topic';
+                    var line = icon + ' <strong>' + label + ':</strong> ' + escHtml(ds.text);
+                    if (ds.origin) line += ' <span style="color:var(--text-tertiary);">— ' + escHtml(ds.origin) + '</span>';
+                    if (ds.date) line += ' <span style="color:var(--text-tertiary);">(' + escHtml(ds.date) + ')</span>';
+                    return '<li>' + line + '</li>';
+                }).join('');
+                discoveryHtml = '<details class="queue-item-discovery">' +
+                    '<summary><strong>Discovery signals (' + realSources.length + ')</strong></summary>' +
+                    '<ul>' + dsItems + '</ul>' +
+                '</details>';
+            }
         }
 
         return '<div class="queue-item" id="queue-' + q.id + '">' +
