@@ -2,9 +2,17 @@ __pycache__/
 *.pyc
 *.pyo
 
-# API keys
-*_api_key.txt
+# API keys and credentials — NEVER commit these
+*.key
+*.pem
 .env
+.env.*
+*_api_key*
+*api*key*.txt
+*secret*
+*credential*
+*password*.txt
+*token.json
 
 # Cached sources (large, re-downloadable)
 pipeline/sources/

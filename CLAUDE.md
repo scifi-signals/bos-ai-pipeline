@@ -56,8 +56,8 @@ python main.py serve                    # Browse output at localhost:8080
 ## API Keys
 
 Loaded from env vars or local text files:
-- `ANTHROPIC_API_KEY` / `anthropic_api_key.txt` — Claude (evidence, consensus, article, social, discovery)
-- `OPENAI_API_KEY` / `openai_api_key.txt` — GPT-4o (fact-checking)
+- `ANTHROPIC_API_KEY` — env var only, Claude (evidence, consensus, article, social, discovery)
+- `OPENAI_API_KEY` — env var only, GPT-4o (fact-checking)
 
 ## Key Design Decisions
 

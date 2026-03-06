@@ -2,6 +2,7 @@
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -10,6 +11,9 @@ from config import QUESTIONS_DIR, OUTPUT_DIR
 
 def load_question(question_id):
     """Load a question config from the questions directory."""
+    if not re.match(r'^[a-z0-9_]+$', question_id):
+        print(f"Error: Invalid question_id '{question_id}' — only lowercase alphanumeric and underscores allowed")
+        sys.exit(1)
     path = QUESTIONS_DIR / f"{question_id}.json"
     if not path.exists():
         print(f"Error: Question config not found at {path}")

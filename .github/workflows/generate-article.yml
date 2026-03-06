@@ -26,7 +26,7 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Run pipeline
-        run: cd pipeline && python main.py run ${{ inputs.question_id }}
+        run: cd pipeline && python main.py run "${{ inputs.question_id }}"
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
@@ -39,6 +39,6 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add articles/ article_manifest.json social/
-          git commit -m "Auto-generated: ${{ inputs.question_id }}" || true
+          git commit -m "Auto-generated: $(echo '${{ inputs.question_id }}' | tr -cd '[:alnum:]_-')" || true
           git pull --rebase origin main
           git push

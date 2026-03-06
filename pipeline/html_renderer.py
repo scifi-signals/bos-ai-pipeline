@@ -516,8 +516,12 @@ def _md_to_html(text):
 
 def _inline_md(text):
     """Convert inline markdown: bold, italic, links."""
-    # Links
-    text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', r'<a href="\2">\1</a>', text)
+    # Links — escape URL in href to prevent XSS
+    def _link_replace(m):
+        link_text = html_lib.escape(m.group(1))
+        url = html_lib.escape(m.group(2))
+        return f'<a href="{url}">{link_text}</a>'
+    text = re.sub(r'\[([^\]]+)\]\(([^)]+)\)', _link_replace, text)
     # Bold
     text = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', text)
     # Italic
