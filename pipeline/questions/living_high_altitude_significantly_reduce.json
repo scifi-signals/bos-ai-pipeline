@@ -1,7 +1,7 @@
 {
   "id": "living_high_altitude_significantly_reduce",
   "question": "Does living at high altitude significantly reduce diabetes risk?",
-  "topic": "Addresses potentially misleading health claims about environmental factors in disease prevention",
+  "topic": "Addresses potentially misleading health claims about environmental factors and disease risk",
   "tags": [
     "Health and Medicine",
     "Environmental Health"
@@ -28,30 +28,6 @@
     {
       "name": "Environmental Chemicals, the Human Microbiome, and Health Risk: A Research Strategy",
       "url": "https://www.nationalacademies.org/publications/24960",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "The Arctic in the Anthropocene: Emerging Research Questions",
-      "url": "https://www.nationalacademies.org/publications/18726",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Abrupt Impacts of Climate Change: Anticipating Surprises",
-      "url": "https://www.nationalacademies.org/publications/18373",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Tipping Points, Cascading Impacts, and Interacting Risks in the Earth System: Proceedings of a Workshop",
-      "url": "https://www.nationalacademies.org/publications/26925",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration",
-      "url": "https://www.nationalacademies.org/publications/26278",
       "type": "web",
       "tier": 1
     }

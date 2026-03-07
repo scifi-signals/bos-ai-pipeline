@@ -1,11 +1,11 @@
 {
   "id": "vaccines_cause_food_allergies_children",
   "question": "Do vaccines cause food allergies in children?",
-  "topic": "Directly addresses a common vaccine misconception that influences parenting decisions and public hea",
+  "topic": "Directly addresses vaccine misinformation that affects vaccination decisions and child health outcom",
   "tags": [
     "Health and Medicine",
-    "Vaccines",
-    "Child Health"
+    "Public Health",
+    "Vaccines"
   ],
   "sources": [
     {
@@ -27,8 +27,8 @@
       "tier": 1
     },
     {
-      "name": "Food Marketing to Children and Youth: Threat or Opportunity?",
-      "url": "https://www.nationalacademies.org/publications/11514",
+      "name": "Local Government Actions to Prevent Childhood Obesity",
+      "url": "https://www.nationalacademies.org/publications/12674",
       "type": "web",
       "tier": 1
     },
@@ -45,14 +45,14 @@
       "tier": 1
     },
     {
-      "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
-      "url": "https://www.nationalacademies.org/publications/26809",
+      "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda",
+      "url": "https://www.nationalacademies.org/publications/25201",
       "type": "web",
       "tier": 1
     },
     {
-      "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda",
-      "url": "https://www.nationalacademies.org/publications/25201",
+      "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+      "url": "https://www.nationalacademies.org/publications/26809",
       "type": "web",
       "tier": 1
     }
@@ -64,6 +64,13 @@
       "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
       "url": "",
       "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Vaccine administration and confidence-building",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
     }
   ]
 }

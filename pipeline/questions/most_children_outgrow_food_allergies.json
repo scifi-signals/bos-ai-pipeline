@@ -1,0 +1,75 @@
+{
+  "id": "most_children_outgrow_food_allergies",
+  "question": "Do most children outgrow food allergies, and which ones are they most likely to outgrow?",
+  "topic": "Provides evidence-based expectations for food allergy management and family planning",
+  "tags": [
+    "Health and Medicine",
+    "Child Health"
+  ],
+  "sources": [
+    {
+      "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+      "url": "https://www.nationalacademies.org/publications/27207",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+      "url": "https://www.nationalacademies.org/publications/27239",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
+      "url": "https://www.nationalacademies.org/publications/25747",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+      "url": "https://www.nationalacademies.org/publications/29065",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Reference Intakes: Guiding Principles for Nutrition Labeling and Fortification",
+      "url": "https://www.nationalacademies.org/publications/10872",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+      "url": "https://www.nationalacademies.org/publications/27835",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Reference Intakes for Sodium and Potassium",
+      "url": "https://www.nationalacademies.org/publications/25353",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc",
+      "url": "https://www.nationalacademies.org/publications/10026",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "80% of children outgrow egg and milk allergies by early elementary school - plausible figure, warrants verification",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Only 20% of children outgrow peanut allergies, barely 10% outgrow tree nut allergies - specific percentages should be verified against current literature",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    }
+  ]
+}

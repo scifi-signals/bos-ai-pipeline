@@ -1,7 +1,7 @@
 {
-  "id": "teenagers_getting_enough_sleep_just",
-  "question": "Are teenagers getting enough sleep, and is it just about screen time?",
-  "topic": "Corrects oversimplified explanations for teen sleep deprivation that prevent implementation of effec",
+  "id": "teenagers_getting_enough_sleep_main",
+  "question": "Are teenagers getting enough sleep, and what are the main causes of sleep deprivation?",
+  "topic": "Provides evidence-based context for a major public health issue affecting academic performance and m",
   "tags": [
     "Health and Medicine",
     "Child Health",
@@ -9,38 +9,8 @@
   ],
   "sources": [
     {
-      "name": "Social Media and Adolescent Health",
-      "url": "https://www.nationalacademies.org/publications/27396",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
-      "url": "https://www.nationalacademies.org/publications/26623",
-      "type": "web",
-      "tier": 1
-    },
-    {
       "name": "Communities in Action: Pathways to Health Equity",
       "url": "https://www.nationalacademies.org/publications/24624",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Juvenile Crime, Juvenile Justice",
-      "url": "https://www.nationalacademies.org/publications/9747",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Behavioral Economics: Policy Impact and Future Directions",
-      "url": "https://www.nationalacademies.org/publications/26874",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Graduate STEM Education for the 21st Century",
-      "url": "https://www.nationalacademies.org/publications/25038",
       "type": "web",
       "tier": 1
     },
@@ -51,8 +21,38 @@
       "tier": 1
     },
     {
-      "name": "Medications for Opioid Use Disorder Save Lives",
-      "url": "https://www.nationalacademies.org/publications/25310",
+      "name": "Reproducibility and Replicability in Science",
+      "url": "https://www.nationalacademies.org/publications/25303",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Graduate STEM Education for the 21st Century",
+      "url": "https://www.nationalacademies.org/publications/25038",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field",
+      "url": "https://www.nationalacademies.org/publications/26902",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Science and Practice of Team Science",
+      "url": "https://www.nationalacademies.org/publications/29043",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Behavioral Economics: Policy Impact and Future Directions",
+      "url": "https://www.nationalacademies.org/publications/26874",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+      "url": "https://www.nationalacademies.org/publications/27165",
       "type": "web",
       "tier": 1
     }

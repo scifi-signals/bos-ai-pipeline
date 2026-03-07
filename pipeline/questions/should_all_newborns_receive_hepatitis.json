@@ -1,9 +1,10 @@
 {
-  "id": "should_newborns_routinely_receive_hepatitis",
-  "question": "Should newborns routinely receive hepatitis B vaccination?",
-  "topic": "Addresses vaccine hesitancy about a specific childhood vaccine with clear public health benefits",
+  "id": "should_all_newborns_receive_hepatitis",
+  "question": "Should all newborns receive the hepatitis B vaccine at birth?",
+  "topic": "Addresses specific anti-vaccine claims about newborn vaccination schedules",
   "tags": [
     "Health and Medicine",
+    "Public Health",
     "Vaccines",
     "Child Health"
   ],
@@ -33,20 +34,14 @@
       "tier": 1
     },
     {
+      "name": "Adverse Effects of Vaccines: Evidence and Causality",
+      "url": "https://www.nationalacademies.org/publications/13164",
+      "type": "web",
+      "tier": 1
+    },
+    {
       "name": "Priorities for the National Vaccine Plan",
       "url": "https://www.nationalacademies.org/publications/12796",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality",
-      "url": "https://www.nationalacademies.org/publications/2138",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Adverse Effects of Pertussis and Rubella Vaccines",
-      "url": "https://www.nationalacademies.org/publications/1815",
       "type": "web",
       "tier": 1
     },
@@ -55,12 +50,25 @@
       "url": "https://www.nationalacademies.org/publications/10208",
       "type": "web",
       "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+      "url": "https://www.nationalacademies.org/publications/10101",
+      "type": "web",
+      "tier": 1
     }
   ],
   "discovery_sources": [
     {
       "type": "podcast_claim",
       "text": "CDC advisors voted to stop routine hepatitis B vaccination at birth for all U.S. newborns, citing potential harm — described as lacking supporting research; external medical groups cite studies showing vaccine is very safe and credit it with 99% reduction in young children with hepatitis B since 1991",
+      "origin": "Short Wave: The global fallout of RFK Jr.'s vaccine policies",
+      "url": "https://www.npr.org/2026/03/04/nx-s1-5701334/vaccine-health-hepatitis",
+      "date": "2026-03-04T08:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Researchers conducting hepatitis B study in Guinea-Bissau claim they are not withholding vaccines from babies who would otherwise receive them — disputed by WHO and medical experts including Paul Offit who characterize the study design as unethical",
       "origin": "Short Wave: The global fallout of RFK Jr.'s vaccine policies",
       "url": "https://www.npr.org/2026/03/04/nx-s1-5701334/vaccine-health-hepatitis",
       "date": "2026-03-04T08:00:00"

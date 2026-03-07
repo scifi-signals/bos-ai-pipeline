@@ -1,0 +1,83 @@
+{
+  "id": "should_parents_avoid_giving_young",
+  "question": "Should parents avoid giving young babies common allergens like peanuts?",
+  "topic": "Corrects persistent outdated beliefs about allergy prevention that contradict current medical eviden",
+  "tags": [
+    "Health and Medicine",
+    "Child Health",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+      "url": "https://www.nationalacademies.org/publications/27239",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Parenting Matters: Supporting Parents of Children Ages 0-8",
+      "url": "https://www.nationalacademies.org/publications/21868",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://www.nationalacademies.org/publications/10306",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Newborn Screening in the United States: A Vision for Sustaining and Advancing Excellence",
+      "url": "https://www.nationalacademies.org/publications/29102",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Strategies to Limit Sugar-Sweetened Beverage Consumption in Young Children: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/24897",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Alliances for Obesity Prevention: Finding Common Ground: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/13305",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communities in Action: Pathways to Health Equity",
+      "url": "https://www.nationalacademies.org/publications/24624",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Early allergen introduction reduces allergy development risk - consistent with LEAP trial and subsequent research",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "LEAP trial findings on early allergen introduction in infants",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Skin barrier disruption in eczema and food allergy risk",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "id": "covid_vaccines_cause_dangerous_blood",
+  "question": "Do COVID-19 vaccines cause dangerous blood clots?",
+  "topic": "This addresses specific safety misinformation that contributed to vaccine hesitancy, with clear data",
+  "tags": [
+    "Vaccines",
+    "COVID-19",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Adverse Effects of Vaccines: Evidence and Causality",
+      "url": "https://www.nationalacademies.org/publications/13164",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+      "url": "https://www.nationalacademies.org/publications/26284",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+      "url": "https://www.nationalacademies.org/publications/26282",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Framework for Equitable Allocation of COVID-19 Vaccine",
+      "url": "https://www.nationalacademies.org/publications/25917",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series",
+      "url": "https://www.nationalacademies.org/publications/26573",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+      "url": "https://www.nationalacademies.org/publications/26809",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Reopening K-12 Schools During the COVID-19 Pandemic: Prioritizing Health, Equity, and Communities",
+      "url": "https://www.nationalacademies.org/publications/25858",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://www.nationalacademies.org/publications/10306",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Adenovirus-based vaccines (AstraZeneca, J&J) occurred at ~1 in 200,000 rate of thrombotic complications - figure cited from Science article discussed",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "60% of people have inherited antibody variation affecting adenovirus protein recognition - specific percentage from vaccine safety study",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Adenovirus-based COVID-19 vaccine adverse events and thrombotic mechanisms",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "trending_topic",
+      "text": "Vaccines & Immunization",
+      "origin": "STM (5 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Opinion: What’s so religious about opposing vaccines?",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/03/06/religious-exemption-vaccines-amish-vaccination-hesitancy-examined/?utm_campaign=rss",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Divisive F.D.A. Vaccine Regulator Resigns",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/06/health/fda-prasad-resigns.html",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: As Kennedy Turns From Vaccines, MAHA Allies See a ‘Betrayal’",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/02/health/kennedy-maha-vaccines.html",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: We Lost the Lyme Vaccine. Under Rand Paul's New Vaccine Liability Bill, We'll Lose More.",
+      "origin": "STM — Reason Magazine",
+      "url": "https://reason.com/2026/03/05/we-lost-the-lyme-vaccine-under-rand-pauls-new-vaccine-liability-bill-well-lose-more/",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Rand Paul's Bill Could Take Away a Lot of Vaccines",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/06/rand_pauls_bill_could_take_away_a_lot_of_vaccines_1168921.html",
+      "date": "2026-03-06"
+    }
+  ]
+}

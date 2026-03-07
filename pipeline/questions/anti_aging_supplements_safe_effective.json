@@ -1,0 +1,97 @@
+{
+  "id": "anti_aging_supplements_safe_effective",
+  "question": "Are anti-aging supplements safe and effective for extending lifespan?",
+  "topic": "This addresses widespread supplement misinformation with serious health implications, especially as ",
+  "tags": [
+    "Supplements",
+    "Aging",
+    "Cancer Risk"
+  ],
+  "sources": [
+    {
+      "name": "Safety of Dietary Supplements for Horses, Dogs, and Cats",
+      "url": "https://www.nationalacademies.org/publications/12461",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://www.nationalacademies.org/publications/10306",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field",
+      "url": "https://www.nationalacademies.org/publications/26902",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Reproducibility and Replicability in Science",
+      "url": "https://www.nationalacademies.org/publications/25303",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communities in Action: Pathways to Health Equity",
+      "url": "https://www.nationalacademies.org/publications/24624",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communicating Science Effectively: A Research Agenda",
+      "url": "https://www.nationalacademies.org/publications/23674",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Effective Health Communication Within the Current Information Environment and the Role of the Federal Government: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/27210",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists reveal why a popular anti-aging compound may also fuel cancer",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_topic",
+      "text": "Aging & Longevity",
+      "origin": "STM (3 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-05"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Telehealth is widely used by older adults insured by Medicare, new research shows",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/telehealth-is-widely-used-by-older-adults-insured-by-medicare-new-research-shows-276566",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Stem Cells From Young Can Help Older Adults Gain Mobility",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/06/stem_cells_from_young_can_help_older_adults_gain_mobility_1168924.html",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Aging Doesn't Always Mean Physical and Cognitive Decline",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/06/aging_doesnt_always_mean_physical_and_cognitive_decline_1168848.html",
+      "date": "2026-03-06"
+    }
+  ]
+}

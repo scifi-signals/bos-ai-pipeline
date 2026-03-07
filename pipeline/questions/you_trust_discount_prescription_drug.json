@@ -1,0 +1,83 @@
+{
+  "id": "you_trust_discount_prescription_drug",
+  "question": "Can you trust discount prescription drug programs and apps for medication savings?",
+  "topic": "This addresses consumer misinformation about healthcare pricing tools that directly affects medicati",
+  "tags": [
+    "Healthcare Costs",
+    "Medications",
+    "Consumer Protection"
+  ],
+  "sources": [
+    {
+      "name": "Challenges for the FDA: The Future of Drug Safety: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/11969",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use",
+      "url": "https://www.nationalacademies.org/publications/24781",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Measuring Success in Substance Use Grant Programs: Outcomes and Metrics for Improvement",
+      "url": "https://www.nationalacademies.org/publications/25745",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+      "url": "https://www.nationalacademies.org/publications/10027",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communities in Action: Pathways to Health Equity",
+      "url": "https://www.nationalacademies.org/publications/24624",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+      "url": "https://www.nationalacademies.org/publications/27835",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25048",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "TrumpRx offers 43 brand name drugs at discounted prices through manufacturer coupons and GoodRx integration - verify scope and accuracy of drug list",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "TrumpRx prices are often similar to or higher than existing discount services like GoodRx and SingleCare - verify comparative pricing accuracy",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "GoodRx makes money by negotiating with pharmacy benefit managers and pocketing part of the savings - verify business model accuracy",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    }
+  ]
+}

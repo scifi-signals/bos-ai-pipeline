@@ -1,0 +1,89 @@
+{
+  "id": "gmo_foods_pose_health_risks",
+  "question": "Do GMO foods pose health risks compared to conventional foods?",
+  "topic": "Addresses persistent GMO safety misconceptions despite strong scientific consensus",
+  "tags": [
+    "Food and Agriculture",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "Space Nuclear Propulsion for Human Mars Exploration",
+      "url": "https://www.nationalacademies.org/publications/25977",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Exploring Linkages Between Soil Health and Human Health",
+      "url": "https://www.nationalacademies.org/publications/27459",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing the Framework for Assessing Causality of Health and Welfare Effects to Inform National Ambient Air Quality Standard Reviews",
+      "url": "https://www.nationalacademies.org/publications/26612",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Assessing the Effects of the Gulf of Mexico Oil Spill on Human Health: A Summary of the June 2010 Workshop",
+      "url": "https://www.nationalacademies.org/publications/12949",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Modeling the Health Risks of Climate Change: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/21705",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Health Risks of Indoor Exposure to Particulate Matter: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/23531",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare",
+      "url": "https://www.nationalacademies.org/publications/29239",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Realizing the Potential of Genomics across the Continuum of Precision Health Care: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/26917",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "GMO Cavendish banana resistant to Tropical Race 4 approved in Australia in 2024 with 98% resistance rate",
+      "origin": "The Skeptics' Guide to the Universe: The Skeptics Guide #1076 - Feb 21 2026",
+      "url": "https://www.theskepticsguide.org/podcast/sgu/1076",
+      "date": "2026-02-21T14:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Marker-assisted selection can reduce banana breeding development time from 12 months to immediate screening",
+      "origin": "The Skeptics' Guide to the Universe: The Skeptics Guide #1076 - Feb 21 2026",
+      "url": "https://www.theskepticsguide.org/podcast/sgu/1076",
+      "date": "2026-02-21T14:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "CRISPR gene editing for disease resistance",
+      "origin": "The Skeptics' Guide to the Universe: The Skeptics Guide #1076 - Feb 21 2026",
+      "url": "https://www.theskepticsguide.org/podcast/sgu/1076",
+      "date": "2026-02-21T14:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "GMO Cavendish banana development",
+      "origin": "The Skeptics' Guide to the Universe: The Skeptics Guide #1076 - Feb 21 2026",
+      "url": "https://www.theskepticsguide.org/podcast/sgu/1076",
+      "date": "2026-02-21T14:00:00"
+    }
+  ]
+}

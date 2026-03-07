@@ -1,34 +1,16 @@
 {
   "id": "should_parents_avoid_giving_allergenic",
-  "question": "Should parents avoid giving allergenic foods to infants to prevent food allergies?",
-  "topic": "Corrects a major misconception that reversed evidence-based feeding recommendations, with clear clin",
+  "question": "Should parents avoid giving allergenic foods to babies to prevent food allergies?",
+  "topic": "This corrects persistent misconceptions about infant feeding that directly contradict evidence-based",
   "tags": [
-    "Health and Medicine",
-    "Child Health",
-    "Nutrition"
+    "Pediatric Health",
+    "Nutrition",
+    "Food Allergies"
   ],
   "sources": [
     {
       "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
       "url": "https://www.nationalacademies.org/publications/27239",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc",
-      "url": "https://www.nationalacademies.org/publications/10026",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Dietary Reference Intakes: Applications in Dietary Planning",
-      "url": "https://www.nationalacademies.org/publications/10609",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Dietary Reference Intakes: Applications in Dietary Assessment",
-      "url": "https://www.nationalacademies.org/publications/9956",
       "type": "web",
       "tier": 1
     },
@@ -51,8 +33,26 @@
       "tier": 1
     },
     {
-      "name": "Dietary Reference Intakes for Water, Potassium, Sodium, Chloride, and Sulfate",
-      "url": "https://www.nationalacademies.org/publications/10925",
+      "name": "Dietary Reference Intakes for Vitamin A, Vitamin K, Arsenic, Boron, Chromium, Copper, Iodine, Iron, Manganese, Molybdenum, Nickel, Silicon, Vanadium, and Zinc",
+      "url": "https://www.nationalacademies.org/publications/10026",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Reference Intakes: Applications in Dietary Planning",
+      "url": "https://www.nationalacademies.org/publications/10609",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Reference Intakes for Vitamin C, Vitamin E, Selenium, and Carotenoids",
+      "url": "https://www.nationalacademies.org/publications/9810",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Reference Intakes: Applications in Dietary Assessment",
+      "url": "https://www.nationalacademies.org/publications/9956",
       "type": "web",
       "tier": 1
     }
@@ -75,6 +75,20 @@
     {
       "type": "podcast_topic",
       "text": "LEAP trial findings on early allergen introduction in infants",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Atopic march (eczema-allergies-asthma progression)",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Skin barrier disruption in eczema and food allergy risk",
       "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
       "url": "",
       "date": "2026-03-04T11:00:00"

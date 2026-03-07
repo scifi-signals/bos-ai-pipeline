@@ -1,0 +1,75 @@
+{
+  "id": "quantum_effects_actually_important_biological",
+  "question": "Are quantum effects actually important in biological systems?",
+  "topic": "This addresses the growing commercialization and misrepresentation of legitimate quantum biology res",
+  "tags": [
+    "Quantum Science",
+    "Biology"
+  ],
+  "sources": [
+    {
+      "name": "Potential Environmental Effects of Nuclear War",
+      "url": "https://www.nationalacademies.org/publications/27515",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/26139",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+      "url": "https://www.nationalacademies.org/publications/26850",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26750",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25499",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Guide for Truck Parking Information Management Systems",
+      "url": "https://www.nationalacademies.org/publications/28757",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26522",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Why ‘quantum proteins’ could be the next big thing in biology",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00662-1",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_topic",
+      "text": "Quantum Science",
+      "origin": "STM (3 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-05"
+    }
+  ]
+}

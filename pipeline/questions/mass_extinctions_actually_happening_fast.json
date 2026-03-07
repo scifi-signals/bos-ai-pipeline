@@ -1,0 +1,90 @@
+{
+  "id": "mass_extinctions_actually_happening_fast",
+  "question": "Are mass extinctions actually happening as fast as scientists say?",
+  "topic": "This addresses misconceptions about the pace and severity of the current extinction crisis with clea",
+  "tags": [
+    "Biodiversity",
+    "Conservation",
+    "Environment"
+  ],
+  "sources": [
+    {
+      "name": "Science, Evolution, and Creationism",
+      "url": "https://www.nationalacademies.org/publications/11876",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://www.nationalacademies.org/publications/25733",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+      "url": "https://www.nationalacademies.org/publications/18373",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Arctic in the Anthropocene: Emerging Research Questions",
+      "url": "https://www.nationalacademies.org/publications/18726",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Potential Environmental Effects of Nuclear War",
+      "url": "https://www.nationalacademies.org/publications/27515",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26522",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Progress and Priorities in Ocean Drilling: In Search of Earth's Past and Future",
+      "url": "https://www.nationalacademies.org/publications/27414",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Social-Ecological Consequences of Future Wildfires and Smoke in the West: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/27972",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: ‘Insane’ images depict ant species in stunning 3D",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/insane-images-depict-ant-species-stunning-3-d",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Top predators still prowled the seas after the biggest mass extinction",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2517930-top-predators-still-prowled-the-seas-after-the-biggest-mass-extinction/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: For every known vertebrate species, two more may be hiding in plain sight",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260303050621.htm",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_topic",
+      "text": "Biodiversity & Conservation",
+      "origin": "STM (5 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-05"
+    }
+  ]
+}

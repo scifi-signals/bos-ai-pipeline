@@ -24,13 +24,16 @@ def discover_questions(max_questions=10):
 
     # Source 1: Podcast claims that need verification
     podcast_qs = _mine_podcast_claims()
-    raw_questions.extend(podcast_qs)
     print(f"  Podcast claims: {len(podcast_qs)} candidates")
 
-    # Source 2: STM trending topics
+    # Source 2: STM trending topics + articles
     trending_qs = _mine_trending_topics()
-    raw_questions.extend(trending_qs)
     print(f"  Trending topics: {len(trending_qs)} candidates")
+
+    # Interleave sources so both get represented in the candidate cap
+    # Give STM articles priority slots since they're outnumbered by podcasts
+    raw_questions.extend(trending_qs)
+    raw_questions.extend(podcast_qs)
 
     if not raw_questions:
         print("  No candidates found. Check STM and podcast monitor data paths.")
@@ -117,14 +120,32 @@ def _mine_trending_topics():
             name = topic.get("name", "")
             source_count = topic.get("source_count", 0)
             if name and source_count >= 3:
-                candidates.append({
-                    "raw_text": name,
-                    "source_type": "trending_topic",
-                    "source": f"STM ({source_count} sources)",
-                    "source_url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
-                    "date": timestamp[:10] if timestamp else "",
-                    "momentum": source_count,
-                })
+                # Use article headlines if available (much more specific than topic name)
+                top_articles = topic.get("top_articles", [])
+                if top_articles:
+                    for article in top_articles:
+                        title = article.get("title", "")
+                        link = article.get("link", "")
+                        outlet = article.get("source", "")
+                        if title:
+                            candidates.append({
+                                "raw_text": f"{name}: {title}",
+                                "source_type": "trending_article",
+                                "source": f"STM — {outlet}" if outlet else f"STM ({source_count} sources)",
+                                "source_url": link or "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+                                "date": timestamp[:10] if timestamp else "",
+                                "momentum": source_count,
+                            })
+                else:
+                    # Fallback: topic name only (old format)
+                    candidates.append({
+                        "raw_text": name,
+                        "source_type": "trending_topic",
+                        "source": f"STM ({source_count} sources)",
+                        "source_url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+                        "date": timestamp[:10] if timestamp else "",
+                        "momentum": source_count,
+                    })
 
     # Deduplicate by topic name
     seen = set()

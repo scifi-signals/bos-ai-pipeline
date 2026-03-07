@@ -1,0 +1,69 @@
+{
+  "id": "thimerosal_vaccines_dangerous_especially_children",
+  "question": "Is thimerosal in vaccines dangerous, especially for children of color?",
+  "topic": "Directly addresses racially-targeted vaccine misinformation from prominent figures",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders",
+      "url": "https://www.nationalacademies.org/publications/10208",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adverse Effects of Vaccines: Evidence and Causality",
+      "url": "https://www.nationalacademies.org/publications/13164",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Financing Vaccines in the 21st Century: Assuring Access and Availability",
+      "url": "https://www.nationalacademies.org/publications/10782",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+      "url": "https://www.nationalacademies.org/publications/27835",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+      "url": "https://www.nationalacademies.org/publications/26809",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Achieving Behavioral Health Equity for Children, Families, and Communities: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25347",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/26623",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+      "url": "https://www.nationalacademies.org/publications/21754",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "RFK Jr. claims thimerosal involves 'injecting mercury into more than 100 million black and brown babies' — framed as harmful; scientific consensus from WHO, FDA, and CDC deems thimerosal safe; mercury from thimerosal is rapidly excreted and does not accumulate",
+      "origin": "Short Wave: The global fallout of RFK Jr.'s vaccine policies",
+      "url": "https://www.npr.org/2026/03/04/nx-s1-5701334/vaccine-health-hepatitis",
+      "date": "2026-03-04T08:00:00"
+    }
+  ]
+}

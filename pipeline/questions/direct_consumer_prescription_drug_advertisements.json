@@ -1,0 +1,68 @@
+{
+  "id": "direct_consumer_prescription_drug_advertisements",
+  "question": "Are direct-to-consumer prescription drug advertisements helpful or harmful for patients?",
+  "topic": "Addresses commercial misinformation about pharmaceutical marketing effects on healthcare",
+  "tags": [
+    "Health and Medicine",
+    "Consumer Health"
+  ],
+  "sources": [
+    {
+      "name": "Challenges for the FDA: The Future of Drug Safety: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/11969",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Health Literacy and Consumer-Facing Technology: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/21781",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Health Insurance and Insights from Health Literacy: Helping Consumers Understand: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/24664",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Direct-to-Consumer Genetic Testing: Summary of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/13021",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use",
+      "url": "https://www.nationalacademies.org/publications/24781",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+      "url": "https://www.nationalacademies.org/publications/10027",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communities in Action: Pathways to Health Equity",
+      "url": "https://www.nationalacademies.org/publications/24624",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Direct-to-consumer drug advertising increases both drug utilization and healthcare costs",
+      "origin": "The Skeptics' Guide to the Universe: The Skeptics Guide #1076 - Feb 21 2026",
+      "url": "https://www.theskepticsguide.org/podcast/sgu/1076",
+      "date": "2026-02-21T14:00:00"
+    }
+  ]
+}

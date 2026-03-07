@@ -1,0 +1,75 @@
+{
+  "id": "brain_organoids_actually_learn_remember",
+  "question": "Can brain organoids actually learn and remember like living brains?",
+  "topic": "Clarifies capabilities and limitations of emerging biotechnology to prevent misconceptions",
+  "tags": [
+    "Science and Research",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "How People Learn: Brain, Mind, Experience, and School: Expanded Edition",
+      "url": "https://www.nationalacademies.org/publications/9853",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "How People Learn II: Learners, Contexts, and Cultures",
+      "url": "https://www.nationalacademies.org/publications/24783",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Reproducibility and Replicability in Science",
+      "url": "https://www.nationalacademies.org/publications/25303",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Traumatic Brain Injury: A Roadmap for Accelerating Progress",
+      "url": "https://www.nationalacademies.org/publications/25394",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Artificial Intelligence and the Future of Work",
+      "url": "https://www.nationalacademies.org/publications/27644",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://www.nationalacademies.org/publications/26355",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/26887",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Machine Learning and Artificial Intelligence to Advance Earth System Science: Opportunities and Challenges: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/26566",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Mouse-derived brain organoids can learn and remember tasks using reinforcement learning - flagged as questionable by multiple hosts",
+      "origin": "The Skeptics' Guide to the Universe: The Skeptics Guide #1076 - Feb 21 2026",
+      "url": "https://www.theskepticsguide.org/podcast/sgu/1076",
+      "date": "2026-02-21T14:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Brain organoids and reinforcement learning",
+      "origin": "The Skeptics' Guide to the Universe: The Skeptics Guide #1076 - Feb 21 2026",
+      "url": "https://www.theskepticsguide.org/podcast/sgu/1076",
+      "date": "2026-02-21T14:00:00"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "id": "safe_take_multiple_supplements_together",
+  "question": "Is it safe to take multiple supplements together without medical supervision?",
+  "topic": "This addresses widespread misconceptions about supplement safety that have real health consequences,",
+  "tags": [
+    "Supplements",
+    "Drug Interactions",
+    "Patient Safety"
+  ],
+  "sources": [
+    {
+      "name": "Safety of Dietary Supplements for Horses, Dogs, and Cats",
+      "url": "https://www.nationalacademies.org/publications/12461",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Challenges for the FDA: The Future of Drug Safety: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/11969",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "To Err Is Human: Building a Safer Health System",
+      "url": "https://www.nationalacademies.org/publications/9728",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Using Systematic Reviews to Support Future Dietary Reference Intakes: A Letter Report",
+      "url": "https://www.nationalacademies.org/publications/27031",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Reference Intakes: Proposed Definition and Plan for Review of Dietary Antioxidants and Related Compounds",
+      "url": "https://www.nationalacademies.org/publications/6252",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Reference Intakes: Applications in Dietary Planning",
+      "url": "https://www.nationalacademies.org/publications/10609",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communities in Action: Pathways to Health Equity",
+      "url": "https://www.nationalacademies.org/publications/24624",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_topic",
+      "text": "Deprescribing in elderly/geriatric populations",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "trending_topic",
+      "text": "Aging & Longevity",
+      "origin": "STM (3 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-05"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists reveal why a popular anti-aging compound may also fuel cancer",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "date": "2026-03-06"
+    }
+  ]
+}

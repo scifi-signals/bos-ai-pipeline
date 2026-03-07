@@ -1,0 +1,97 @@
+{
+  "id": "most_medications_children_receive_actually",
+  "question": "Are most medications children receive actually tested and approved for pediatric use?",
+  "topic": "This addresses a knowledge gap that affects parental decision-making about children's medical care",
+  "tags": [
+    "Pediatric Health",
+    "Medications",
+    "FDA Approval"
+  ],
+  "sources": [
+    {
+      "name": "Making Better Drugs for Children with Cancer",
+      "url": "https://www.nationalacademies.org/publications/11259",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+      "url": "https://www.nationalacademies.org/publications/21754",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://www.nationalacademies.org/publications/13563",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+      "url": "https://www.nationalacademies.org/publications/27207",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative",
+      "url": "https://www.nationalacademies.org/publications/19033",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+      "url": "https://www.nationalacademies.org/publications/26809",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda",
+      "url": "https://www.nationalacademies.org/publications/25201",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Approximately 40% or higher of treatments for children with complex diseases are off-label",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pediatric clinical trials design and methodology",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Developmental differences in drug metabolism and coagulation proteins",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Off-label medication use in pediatric populations",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Biobanking and specimen collection in pediatric research",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    }
+  ]
+}
