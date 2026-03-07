@@ -14,6 +14,21 @@
       "findings_count": 2,
       "fact_check": "PASS",
       "has_social": true
+    },
+    {
+      "id": "breathing_problems",
+      "title": "Does global warming cause breathing problems?",
+      "article_url": "articles/breathing_problems_article.html",
+      "evidence_url": "articles/breathing_problems_evidence.html",
+      "tags": [
+        "Health and Medicine",
+        "Pollution",
+        "Climate Change"
+      ],
+      "sources_count": 7,
+      "findings_count": 63,
+      "fact_check": "NEEDS_REVISION",
+      "demo": true
     }
   ]
 }

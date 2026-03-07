@@ -87,8 +87,11 @@ def publish():
                     entry[key] = value
         merged.append(entry)
 
-    # Keep existing entries that aren't in new_entries (shouldn't happen normally,
-    # but handles edge cases where HTML was deleted but manifest entry should stay)
+    # Keep existing entries that aren't in new_entries (e.g. previously published
+    # articles whose HTML isn't in the current pipeline run)
+    for qid, entry in existing_manifest.items():
+        if qid not in new_entries:
+            merged.append(entry)
 
     # Sort: newest first (articles not previously in manifest go to top)
     existing_ids = set(existing_manifest.keys())
