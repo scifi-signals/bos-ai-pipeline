@@ -1,0 +1,79 @@
+{
+  "id": "climate_change_accelerating_remaining_steady",
+  "question": "Is climate change accelerating or remaining steady?",
+  "topic": "Trending article specifically states climate change pace nearly doubled in ten years, contradicting ",
+  "tags": [
+    "Environment",
+    "Climate Science"
+  ],
+  "sources": [
+    {
+      "name": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+      "url": "https://www.nationalacademies.org/publications/18373",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://www.nationalacademies.org/publications/25733",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Attribution of Extreme Weather Events in the Context of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/21852",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence and Causes",
+      "url": "https://www.nationalacademies.org/publications/18730",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_topic",
+      "text": "Climate Change",
+      "origin": "STM (4 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-05"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate change is speeding up — the pace nearly doubled in ten years",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00745-z",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate change and geopolitics threaten water supplies — but disaster is not inevitable",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00659-w",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Spreading crushed rock on farms could absorb 1 billion tonnes of CO2",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2517484-spreading-crushed-rock-on-farms-could-absorb-1-billion-tonnes-of-co2/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Ants capture carbon dioxide from the air and turn it into armour",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2517419-ants-capture-carbon-dioxide-from-the-air-and-turn-it-into-armour/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate models may be missing massive carbon emissions from boreal wildfires",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260303201755.htm",
+      "date": "2026-03-06"
+    }
+  ]
+}

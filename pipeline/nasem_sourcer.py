@@ -173,30 +173,60 @@ def _llm_rerank(question, candidates, max_results):
 
     prompt = f"""Question: {question}
 
-Which of these NASEM publications would contain evidence that DIRECTLY answers this question?
+I have a list of NASEM publications. I need to know which ones — if any — contain
+evidence that DIRECTLY helps answer this specific question.
 
-CRITICAL: Only include publications that are genuinely relevant. A publication about
-"children's health" is NOT relevant to a question about vaccines unless it specifically
-covers vaccines. A publication about "dietary supplements for horses" is NOT relevant
-to human supplement questions. Be strict — it is better to return fewer results than
-to include irrelevant ones.
+For EACH publication, apply this test:
+"If I opened this publication and searched for '{question.rstrip("?")}',
+would I find relevant data, analysis, or expert conclusions?"
 
-If fewer than {max_results} publications are relevant, return only the relevant ones.
-If NONE are relevant, return: NONE
+REJECT a publication if:
+- It shares a keyword but covers a different topic (e.g., "Dietary Reference Intakes"
+  is about nutrient requirements, NOT food allergies or food testing)
+- It is about a different domain entirely (e.g., "AI and Future of Work" for a medical question)
+- It is tangentially related at best (same broad field but different specific topic)
+- Its title and description don't suggest it covers the question's core subject matter
+
+It is VERY COMMON for none of the candidates to be relevant. Do not force matches.
+Returning NONE is the correct answer when no publication genuinely fits.
 
 Publications:
 {pub_list}
 
-Return format: just the numbers separated by commas, e.g.: 5,2,8
-Or if none are relevant: NONE"""
+First, write one sentence about what this question is actually asking about.
+Then list ONLY the numbers of publications that pass the test, separated by commas.
+If none pass: write NONE
+
+Format:
+TOPIC: [one sentence]
+RESULT: [numbers or NONE]"""
 
     try:
         print(f"  LLM reranking {len(candidates)} candidates...")
-        response = ask_claude(prompt, max_tokens=200)
-        if "NONE" in response.upper().strip():
+        response = ask_claude(prompt, max_tokens=300)
+        print(f"  LLM response: {response.strip()[:150]}")
+
+        # Extract the RESULT line
+        result_line = ""
+        for line in response.strip().split("\n"):
+            if line.strip().upper().startswith("RESULT"):
+                result_line = line.strip()
+                break
+
+        # If no RESULT line found, don't parse random numbers from reasoning text
+        if not result_line:
+            if "NONE" in response.upper():
+                print("  LLM says no relevant publications found")
+                return []
+            # No RESULT line and no NONE — treat as failed parse
+            print("  LLM response missing RESULT line, treating as no results")
+            return []
+
+        if "NONE" in result_line.upper():
             print("  LLM says no relevant publications found")
             return []
-        numbers = [int(n.strip()) for n in re.findall(r'\d+', response)]
+
+        numbers = [int(n.strip()) for n in re.findall(r'\d+', result_line)]
         reranked = []
         seen = set()
         for n in numbers:
@@ -206,6 +236,9 @@ Or if none are relevant: NONE"""
                 reranked.append((score, pub))
         if reranked:
             return reranked[:max_results]
+        else:
+            print("  LLM returned no valid publication numbers")
+            return []
     except Exception as e:
         print(f"  LLM reranking failed ({e}), using keyword scores")
 
