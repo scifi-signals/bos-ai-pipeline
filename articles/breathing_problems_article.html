@@ -100,6 +100,11 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 .verdict-UNSUPPORTED { background:var(--amber-light); color:var(--amber); }
 .verdict-CONTRADICTED { background:var(--red-light); color:var(--red); }
 
+.breadcrumbs { max-width:900px; margin:0 auto; padding:12px 32px 0; font-size:13px; color:var(--text-tertiary); }
+.breadcrumbs a { color:var(--accent); text-decoration:none; font-weight:500; }
+.breadcrumbs a:hover { text-decoration:underline; }
+.breadcrumbs .sep { margin:0 6px; }
+
 .footer { max-width:900px; margin:0 auto; padding:20px 32px 40px; text-align:center; font-size:12px; color:var(--text-tertiary); border-top:1px solid var(--border-light); }
 
 .social-share { margin-top:16px; }
@@ -125,12 +130,15 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     <div class="header">
         <div class="header-inner">
             <div class="header-left">
+                <a href="../index.html" style="display:flex;align-items:center;gap:16px;text-decoration:none;color:inherit;">
                 <div class="logo-mark">BoS</div>
                 <span class="header-title">Based on Science</span>
+                </a>
             </div>
             <div class="header-right"><a href="breathing_problems_evidence.html">View Evidence</a></div>
         </div>
     </div>
+    <div class="breadcrumbs"><a href="../index.html">Home</a><span class="sep">›</span>Does global warming cause breathing problems?</div>
     
     <div class="hero">
         <div class="hero-org">National Academies of Sciences, Engineering, and Medicine</div>
@@ -192,7 +200,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 <li><a href="https://www.airnow.gov/" target="_blank">AirNow - Air Quality Index</a></li>
 <li><a href="https://pollen.aaaai.org/" target="_blank">National Allergy Bureau - Pollen Counts</a></li></ul>
         </div>
-        <div style="margin-top:16px;"><div class="tag-pills"><span class="tag-pill">Health and Medicine</span><span class="tag-pill">Pollution</span><span class="tag-pill">Climate Change</span></div></div>
+        <div style="margin-top:16px;"><div class="tag-pills"><span class="tag-pill">Health and Medicine</span><span class="tag-pill">Climate and Environment</span></div></div>
     </div>
     <div class="footer">
         Based on Science &mdash; National Academies of Sciences, Engineering, and Medicine<br>

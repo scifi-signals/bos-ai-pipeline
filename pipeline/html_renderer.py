@@ -99,6 +99,11 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 .verdict-UNSUPPORTED { background:var(--amber-light); color:var(--amber); }
 .verdict-CONTRADICTED { background:var(--red-light); color:var(--red); }
 
+.breadcrumbs { max-width:900px; margin:0 auto; padding:12px 32px 0; font-size:13px; color:var(--text-tertiary); }
+.breadcrumbs a { color:var(--accent); text-decoration:none; font-weight:500; }
+.breadcrumbs a:hover { text-decoration:underline; }
+.breadcrumbs .sep { margin:0 6px; }
+
 .footer { max-width:900px; margin:0 auto; padding:20px 32px 40px; text-align:center; font-size:12px; color:var(--text-tertiary); border-top:1px solid var(--border-light); }
 
 .social-share { margin-top:16px; }
@@ -210,6 +215,7 @@ def render_article_html(article_markdown, question_id, tags=None):
         nav_extra=f'<a href="{question_id}_evidence.html">View Evidence</a>',
         description=lede,
         include_social_js=include_social_js,
+        breadcrumbs=[("Home", "../index.html"), (title,)],
     )
 
     out_path = OUTPUT_DIR / "html" / f"{question_id}_article.html"
@@ -251,13 +257,21 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
         if consensus.get("overall_answer"):
             body_html += f'<p>{html_lib.escape(consensus["overall_answer"])}</p>'
 
+        consensus_tooltips = {
+            "strong": "Strong: Multiple authoritative sources independently confirm this claim with consistent findings.",
+            "moderate": "Moderate: Supported by credible evidence but fewer independent sources or some variation in findings.",
+            "limited": "Limited: Based on a small number of sources or preliminary evidence that needs further confirmation.",
+            "conflicting": "Conflicting: Sources disagree — some support and some contradict this claim.",
+        }
+
         for claim in consensus["primary_claims"]:
             level = claim.get("consensus_level", "limited")
             css_class = f"consensus-{level}"
+            tooltip = html_lib.escape(consensus_tooltips.get(level, ""))
             body_html += f"""
             <div style="margin:16px 0; padding:12px 0; border-top:1px solid var(--border-light);">
                 <div class="consensus-bar">
-                    <span class="consensus-level {css_class}">{level}</span>
+                    <span class="consensus-level {css_class}" title="{tooltip}" style="cursor:help;">{level}</span>
                     <strong>{html_lib.escape(claim.get('claim', ''))}</strong>
                 </div>
             """
@@ -373,6 +387,7 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
         nav_extra=f'<a href="{question_id}_article.html">View Article</a>',
         include_js=True,
         description=evidence_desc,
+        breadcrumbs=[("Home", "../index.html"), ("Article", f"{question_id}_article.html"), ("Evidence",)],
     )
 
     out_path = OUTPUT_DIR / "html" / f"{question_id}_evidence.html"
@@ -382,7 +397,7 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
     return out_path
 
 
-def _wrap_page(title, hero, body, nav_extra="", include_js=False, include_social_js=False, description=""):
+def _wrap_page(title, hero, body, nav_extra="", include_js=False, include_social_js=False, description="", breadcrumbs=None):
     """Wrap content in full HTML page with STM design system."""
     js_parts = []
     if include_js:
@@ -391,6 +406,15 @@ def _wrap_page(title, hero, body, nav_extra="", include_js=False, include_social
         js_parts.append(SOCIAL_JS)
     js_block = f"<script>{''.join(js_parts)}</script>" if js_parts else ""
     og_desc = html_lib.escape(description) if description else html_lib.escape(title)
+    # Build breadcrumb trail
+    if breadcrumbs:
+        crumb_parts = []
+        for label, href in breadcrumbs[:-1]:
+            crumb_parts.append(f'<a href="{html_lib.escape(href)}">{html_lib.escape(label)}</a>')
+        crumb_parts.append(html_lib.escape(breadcrumbs[-1][0]))  # last item is current page, no link
+        breadcrumb_html = '<div class="breadcrumbs">' + '<span class="sep">›</span>'.join(crumb_parts) + '</div>'
+    else:
+        breadcrumb_html = ""
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -407,12 +431,15 @@ def _wrap_page(title, hero, body, nav_extra="", include_js=False, include_social
     <div class="header">
         <div class="header-inner">
             <div class="header-left">
+                <a href="../index.html" style="display:flex;align-items:center;gap:16px;text-decoration:none;color:inherit;">
                 <div class="logo-mark">BoS</div>
                 <span class="header-title">Based on Science</span>
+                </a>
             </div>
             <div class="header-right">{nav_extra}</div>
         </div>
     </div>
+    {breadcrumb_html}
     {hero}
     <div class="container">
         {body}
