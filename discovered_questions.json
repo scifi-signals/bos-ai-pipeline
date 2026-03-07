@@ -2,7 +2,7 @@
   "generated_at": "2026-03-07T12:25:04Z",
   "questions": [
     {
-      "id": "climate_change_actually_speeding",
+      "id": "climate_change_actually_accelerating_fast",
       "question": "Is climate change actually speeding up?",
       "priority": "high",
       "rationale": "Counters persistent denial narratives with recent acceleration data",
@@ -61,7 +61,7 @@
       "readiness_summary": "2 NASEM sources, most recent 2016 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
-      "id": "cancer_blood_tests_reliable_early",
+      "id": "blood_tests_cancer_screening_accurate",
       "question": "Are cancer blood tests reliable for early detection?",
       "priority": "high",
       "rationale": "Addresses growing commercial misinformation about unvalidated screening tests",
@@ -448,7 +448,7 @@
       "readiness_summary": "1 NASEM source, most recent 2025 · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
-      "id": "anti_aging_supplements_prevent_aging",
+      "id": "anti_aging_supplements_like_nad",
       "question": "Can anti-aging supplements prevent aging or extend lifespan?",
       "priority": "low",
       "rationale": "Addresses billion-dollar supplement industry claims with emerging safety concerns",
