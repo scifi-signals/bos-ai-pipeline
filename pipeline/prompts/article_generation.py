@@ -35,15 +35,15 @@ Your task: Generate a complete article following the exact BoS format and style 
 
 ---
 
-## Some People Face Greater Risks
+## Some People Face Greater Risks (ONLY if the evidence package contains data about vulnerable populations, disparities, or disproportionate impacts — SKIP this section entirely if the evidence does not support it)
 
-[Who is disproportionately affected and why. Include vulnerable populations, geographic disparities, socioeconomic factors.]
+[Who is disproportionately affected and why. ONLY use data from the evidence package. If no evidence addresses disparities, omit this section.]
 
 ---
 
-## What You Can Do
+## What You Can Do (ONLY if the evidence package contains actionable recommendations — SKIP if it does not)
 
-[Actionable steps for readers. Include links to resources where relevant. Format as short paragraphs starting with bold action phrases.]
+[Actionable steps for readers. ONLY include actions supported by the evidence package. Include links to resources where relevant. Format as short paragraphs starting with bold action phrases.]
 
 ---
 

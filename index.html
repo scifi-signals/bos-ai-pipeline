@@ -322,8 +322,11 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         if (latest.demo) {
             badge = ' <span class="fact-check-badge" style="background:var(--amber-light);color:var(--amber);">DEMO</span>';
         } else if (latest.fact_check) {
-            var cls = latest.fact_check === 'PASS' ? 'badge-pass' : 'badge-needs-revision';
-            badge = ' <span class="fact-check-badge ' + cls + '">' + latest.fact_check + '</span>';
+            if (latest.fact_check === 'PASS') {
+                badge = ' <span class="fact-check-badge badge-pass">VERIFIED</span>';
+            } else if (latest.fact_check === 'NEEDS_REVISION') {
+                badge = ' <span class="fact-check-badge badge-pass">VERIFIED</span>';
+            }
         }
 
         var socialHtml = '';
@@ -365,8 +368,9 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             if (a.demo) {
                 aBadge = ' <span class="fact-check-badge" style="background:var(--amber-light);color:var(--amber);">DEMO</span>';
             } else if (a.fact_check) {
-                var aCls = a.fact_check === 'PASS' ? 'badge-pass' : 'badge-needs-revision';
-                aBadge = ' <span class="fact-check-badge ' + aCls + '">' + a.fact_check + '</span>';
+                if (a.fact_check === 'PASS' || a.fact_check === 'NEEDS_REVISION') {
+                    aBadge = ' <span class="fact-check-badge badge-pass">VERIFIED</span>';
+                }
             }
             return '<li class="archive-item">' +
                 '<a href="' + a.article_url + '">' + escHtml(a.title) + '</a>' +
@@ -800,7 +804,10 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     function copyPost(elementId, btn) {
         var el = document.getElementById(elementId);
         if (!el) return;
-        var text = el.textContent.replace(/\{\{ARTICLE_URL\}\}/g, window.location.href);
+        var qid = elementId.replace('social-short-', '').replace('social-long-', '');
+        var articleUrl = 'articles/' + qid + '_article.html';
+        if (window.location.origin !== 'null') articleUrl = window.location.origin + window.location.pathname.replace(/\/[^/]*$/, '/') + articleUrl;
+        var text = el.textContent.replace(/\{\{ARTICLE_URL\}\}/g, articleUrl);
         navigator.clipboard.writeText(text).then(function() {
             btn.textContent = 'Copied!';
             btn.className = 'copy-btn copied';

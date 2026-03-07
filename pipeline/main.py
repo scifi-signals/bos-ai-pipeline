@@ -39,6 +39,11 @@ def cmd_run(args):
         print("  Check source URLs and content availability.")
         sys.exit(1)
 
+    if evidence['total_findings'] < 5:
+        print(f"\n  HALTED: Only {evidence['total_findings']} findings extracted (minimum 5 required).")
+        print("  Not enough evidence to generate a credible article.")
+        sys.exit(1)
+
     # Step 2: Consensus building
     print(f"\n[2/7] Building consensus...")
     from consensus_builder import build_consensus

@@ -28,36 +28,6 @@
       "findings_count": 63,
       "fact_check": "NEEDS_REVISION",
       "demo": true
-    },
-    {
-      "id": "covid_vaccines_cause_dangerous_blood",
-      "title": "Do COVID-19 vaccines cause dangerous blood clots?",
-      "article_url": "articles/covid_vaccines_cause_dangerous_blood_article.html",
-      "evidence_url": "articles/covid_vaccines_cause_dangerous_blood_evidence.html",
-      "tags": [
-        "Vaccines",
-        "COVID-19",
-        "Public Health"
-      ],
-      "sources_count": 8,
-      "findings_count": 3,
-      "fact_check": "NEEDS_REVISION",
-      "has_social": true
-    },
-    {
-      "id": "should_parents_avoid_giving_young",
-      "title": "Should parents avoid giving young children common allergens like peanuts to prevent food allergies?",
-      "article_url": "articles/should_parents_avoid_giving_young_article.html",
-      "evidence_url": "articles/should_parents_avoid_giving_young_evidence.html",
-      "tags": [
-        "Health and Medicine",
-        "Child Health",
-        "Public Health"
-      ],
-      "sources_count": 2,
-      "findings_count": 2,
-      "fact_check": "PASS",
-      "has_social": true
     }
   ]
 }

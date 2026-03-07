@@ -86,7 +86,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 
 .consensus-detail { font-size:12px; color:var(--text-secondary); margin-top:10px; }
 .consensus-detail summary { cursor:pointer; list-style:none; display:flex; align-items:center; gap:6px; font-size:12px; color:var(--text-tertiary); }
-.consensus-detail summary::before { content:"\25B6"; font-size:9px; transition:transform 0.15s; }
+.consensus-detail summary::before { content:"\\25B6"; font-size:9px; transition:transform 0.15s; }
 .consensus-detail[open] summary::before { transform:rotate(90deg); }
 .consensus-detail summary::-webkit-details-marker { display:none; }
 .consensus-detail-body { margin-top:8px; padding:12px 16px; background:var(--bg); border-radius:var(--radius-sm); font-size:13px; line-height:1.6; }
@@ -147,7 +147,9 @@ SOCIAL_JS = """
 function copyPost(elementId, btn) {
     var el = document.getElementById(elementId);
     if (!el) return;
-    var text = el.textContent.replace(/\\{\\{ARTICLE_URL\\}\\}/g, window.location.href);
+    var articleLink = document.querySelector('.header-right a[href$="_evidence.html"]');
+    var articleUrl = articleLink ? articleLink.href.replace('_evidence.html', '_article.html') : window.location.href;
+    var text = el.textContent.replace(/\\{\\{ARTICLE_URL\\}\\}/g, articleUrl);
     navigator.clipboard.writeText(text).then(function() {
         btn.textContent = 'Copied!';
         btn.className = 'copy-btn copied';
@@ -389,6 +391,8 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
             continue
         tier = src.get("tier", 3)
         n_findings = len(src.get("findings", []))
+        if n_findings == 0:
+            continue
         card_id = f"evidence-{i}"
 
         source_name = html_lib.escape(src.get('source', 'Unknown'))
