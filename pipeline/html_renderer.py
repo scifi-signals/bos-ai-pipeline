@@ -257,27 +257,57 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
         if consensus.get("overall_answer"):
             body_html += f'<p>{html_lib.escape(consensus["overall_answer"])}</p>'
 
-        consensus_tooltips = {
-            "strong": "Strong: Multiple authoritative sources independently confirm this claim with consistent findings.",
-            "moderate": "Moderate: Supported by credible evidence but fewer independent sources or some variation in findings.",
-            "limited": "Limited: Based on a small number of sources or preliminary evidence that needs further confirmation.",
-            "conflicting": "Conflicting: Sources disagree — some support and some contradict this claim.",
-        }
+        tier_labels = {1: "Tier 1 — national/international body", 2: "Tier 2 — government agency", 3: "Tier 3 — individual study", 4: "Tier 4 — journalism/advocacy"}
 
         for claim in consensus["primary_claims"]:
             level = claim.get("consensus_level", "limited")
             css_class = f"consensus-{level}"
-            tooltip = html_lib.escape(consensus_tooltips.get(level, ""))
+
+            # Build concrete explanation of why this level was assigned
+            supporting = claim.get("supporting_sources", [])
+            contradicting = claim.get("contradicting_sources", [])
+            data_points = claim.get("key_data_points", [])
+            uncertainties = claim.get("uncertainties", [])
+            confidence_note = claim.get("confidence_note", "")
+
+            why_parts = []
+            if supporting:
+                src_descs = []
+                for s in supporting:
+                    name = s.get("source", "")
+                    tier = s.get("tier", 0)
+                    tier_desc = tier_labels.get(tier, "")
+                    src_url = _lookup_source_url(name)
+                    if src_url:
+                        src_link = f'<a href="{html_lib.escape(src_url)}" target="_blank" rel="noopener">{html_lib.escape(name)}</a>'
+                    else:
+                        src_link = html_lib.escape(name)
+                    src_descs.append(f"{src_link} ({tier_desc})" if tier_desc else src_link)
+                why_parts.append(f"Supported by {', '.join(src_descs)}")
+            if data_points:
+                why_parts.append(f"{len(data_points)} quantified data point{'s' if len(data_points) != 1 else ''}")
+            if contradicting:
+                why_parts.append(f"{len(contradicting)} contradicting source{'s' if len(contradicting) != 1 else ''}")
+            elif not contradicting:
+                why_parts.append("no contradicting sources")
+            if uncertainties:
+                why_parts.append(f"{len(uncertainties)} noted {'uncertainties' if len(uncertainties) != 1 else 'uncertainty'}")
+            if confidence_note:
+                why_parts.append(html_lib.escape(confidence_note))
+
+            why_html = f'<div style="font-size:12px; color:var(--text-secondary); margin-top:4px; line-height:1.5;">{". ".join(why_parts)}.</div>'
+
             body_html += f"""
             <div style="margin:16px 0; padding:12px 0; border-top:1px solid var(--border-light);">
                 <div class="consensus-bar">
-                    <span class="consensus-level {css_class}" title="{tooltip}" style="cursor:help;">{level}</span>
+                    <span class="consensus-level {css_class}">{level}</span>
                     <strong>{html_lib.escape(claim.get('claim', ''))}</strong>
                 </div>
+                {why_html}
             """
-            if claim.get("key_data_points"):
+            if data_points:
                 body_html += '<ul style="margin:8px 0 0 20px;">'
-                for dp in claim["key_data_points"]:
+                for dp in data_points:
                     src_name = dp.get("source", "")
                     src_url = _lookup_source_url(src_name)
                     if src_url:
