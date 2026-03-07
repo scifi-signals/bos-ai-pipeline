@@ -467,7 +467,9 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             stakesHtml +
             tagsHtml +
             sourcesHtml +
-            '<button class="generate-btn" onclick="generateArticle(\'' + q.id + '\', this)" id="gen-btn-' + q.id + '">Generate Article</button>' +
+            ((q.nasem_source_count && q.nasem_source_count > 0) ?
+                '<button class="generate-btn" onclick="generateArticle(\'' + q.id + '\', this)" id="gen-btn-' + q.id + '">Generate Article</button>' :
+                '<button class="generate-btn" disabled style="opacity:0.4;cursor:not-allowed;">No NASEM sources — cannot generate</button>') +
         '</div>';
     }
 

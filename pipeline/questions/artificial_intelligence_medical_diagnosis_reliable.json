@@ -1,0 +1,55 @@
+{
+  "id": "artificial_intelligence_medical_diagnosis_reliable",
+  "question": "Is artificial intelligence in medical diagnosis reliable enough to trust with patient care?",
+  "topic": "Addresses both AI hype and AI dismissal in medicine with evidence about actual current capabilities ",
+  "tags": [
+    "Artificial Intelligence",
+    "Medical Technology",
+    "Healthcare"
+  ],
+  "sources": [],
+  "discovery_sources": [
+    {
+      "type": "trending_topic",
+      "text": "Artificial Intelligence",
+      "origin": "STM (16 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-05"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: The first ‘AI societies’ are taking shape: how human-like are they?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00070-5",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: How AI is shaping the war in Iran — and what’s next for future conflicts",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00710-w",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Advancing operational global aerosol forecasting with machine learning",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10234-y",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI can write genomes — how long until it creates synthetic life?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00681-y",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Radiology AI makes consistent diagnoses using 3D images from different health centres",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00645-2",
+      "date": "2026-03-06"
+    }
+  ]
+}

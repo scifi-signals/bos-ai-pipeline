@@ -1,0 +1,104 @@
+{
+  "id": "pharmacists_qualified_provide_medical_services",
+  "question": "Are pharmacists qualified to provide medical services like vaccinations and health screenings?",
+  "topic": "Corrects misconceptions about pharmacist training and capabilities that limit healthcare access",
+  "tags": [
+    "Healthcare Access",
+    "Pharmacy",
+    "Public Health"
+  ],
+  "sources": [],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Over 70% of all Americans receive vaccinations from pharmacies or pharmacists - verify current vaccination administration statistics",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Most Americans live within five miles of a community pharmacy - verify geographic accessibility data",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Pharmacists conduct residencies similar in rigor to physician residencies - clarify training equivalencies",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Average patient has 20 healthcare touch points per year with pharmacists, doubling for those with multiple chronic conditions - verify frequency data",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "GLP-1 medications (glucagon-like peptide-1 agonists) for glucose control and cardiovascular benefits",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "PrEP and PEP (pre-exposure prophylaxis and post-exposure prophylaxis for HIV prevention)",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Narcan (naloxone) access for opioid overdose reversal",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Suboxone (buprenorphine) for opioid use disorder treatment",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Deprescribing in elderly/geriatric populations",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Vaccine administration and confidence-building",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Colorectal cancer screening",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Cervical cancer screening",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Reproductive health services",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    }
+  ]
+}

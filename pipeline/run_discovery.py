@@ -113,10 +113,16 @@ def run_discovery(max_questions=15):
             q["nasem_sources_preview"] = []
             q["nasem_sources_full"] = []
 
-    # Step 5a: Write question configs for new questions
+    # Step 5a: Write question configs for new questions (only if they have sources)
     print(f"\n[5/5] Writing outputs...")
     QUESTIONS_DIR.mkdir(parents=True, exist_ok=True)
+    skipped_no_sources = 0
     for q in new_questions:
+        source_count = q.get("nasem_source_count", 0)
+        if source_count == 0:
+            skipped_no_sources += 1
+            print(f"  SKIP (0 NASEM sources): {q['id']}")
+            continue
         config = {
             "id": q["id"],
             "question": q["question"],
@@ -147,9 +153,15 @@ def run_discovery(max_questions=15):
             json.dumps(config, indent=2, ensure_ascii=False), encoding="utf-8"
         )
         print(f"  Config: pipeline/questions/{q['id']}.json")
+    if skipped_no_sources:
+        print(f"  ({skipped_no_sources} questions dropped — no NASEM sources found)")
 
-    # Step 5b: Build discovered_questions.json
-    _write_discovery_queue(questions)
+    # Step 5b: Build discovered_questions.json (exclude 0-source questions)
+    publishable = [q for q in questions if q.get("nasem_source_count", 0) > 0]
+    dropped = len(questions) - len(publishable)
+    if dropped:
+        print(f"  Queue: dropping {dropped} questions with 0 sources")
+    _write_discovery_queue(publishable)
     print("\nDiscovery complete.")
 
 

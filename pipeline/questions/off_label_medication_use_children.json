@@ -1,0 +1,83 @@
+{
+  "id": "off_label_medication_use_children",
+  "question": "Is off-label medication use in children safe?",
+  "topic": "Addresses parental misconceptions about standard pediatric prescribing practices",
+  "tags": [
+    "Health and Medicine",
+    "Pediatrics",
+    "Pharmaceuticals"
+  ],
+  "sources": [
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Preventing Medication Errors",
+      "url": "https://www.nationalacademies.org/publications/11623",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+      "url": "https://www.nationalacademies.org/publications/27207",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://www.nationalacademies.org/publications/10306",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medication-Assisted Treatment for Opioid Use Disorder: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/25322",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/26635",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Occupational Health and Safety in the Care and Use of Research Animals",
+      "url": "https://www.nationalacademies.org/publications/4988",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://www.nationalacademies.org/publications/13563",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Approximately 40% or higher of treatments for children with complex diseases are off-label",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Off-label medication use in pediatric populations",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pediatric clinical trials design and methodology",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    }
+  ]
+}

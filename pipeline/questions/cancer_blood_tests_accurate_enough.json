@@ -1,0 +1,77 @@
+{
+  "id": "cancer_blood_tests_accurate_enough",
+  "question": "Are cancer blood tests accurate enough to replace standard screening?",
+  "topic": "Addresses misleading marketing of unproven cancer screening technologies",
+  "tags": [
+    "Health and Medicine",
+    "Cancer",
+    "Screening",
+    "Consumer Health"
+  ],
+  "sources": [
+    {
+      "name": "Newborn Screening in the United States: A Vision for Sustaining and Advancing Excellence",
+      "url": "https://www.nationalacademies.org/publications/29102",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Refining Processes for the Co-Development of Genome-Based Therapeutics and Companion Diagnostic Tests: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/18617",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/21692",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/24742",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Ovarian Cancers: Evolving Paradigms in Research and Care",
+      "url": "https://www.nationalacademies.org/publications/21841",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Improving Diagnosis in Health Care",
+      "url": "https://www.nationalacademies.org/publications/21794",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Guiding Cancer Control: A Path to Transformation",
+      "url": "https://www.nationalacademies.org/publications/25438",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Long-Term Survivorship Care After Cancer Treatment: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25043",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Cancer blood tests are everywhere. Do they really work?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00661-2",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_topic",
+      "text": "Cancer Research",
+      "origin": "STM (4 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-05"
+    }
+  ]
+}

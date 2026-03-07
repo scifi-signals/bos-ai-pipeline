@@ -1,0 +1,78 @@
+{
+  "id": "mrna_flu_vaccines_effective_traditional",
+  "question": "Are mRNA flu vaccines more effective than traditional flu shots?",
+  "topic": "Addresses emerging misconceptions about new vaccine technology applications",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines",
+    "Influenza"
+  ],
+  "sources": [
+    {
+      "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications",
+      "url": "https://www.nationalacademies.org/publications/10822",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders",
+      "url": "https://www.nationalacademies.org/publications/10208",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines",
+      "url": "https://www.nationalacademies.org/publications/26285",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://www.nationalacademies.org/publications/10306",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Calling the Shots: Immunization Finance Policies and Practices",
+      "url": "https://www.nationalacademies.org/publications/9836",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+      "url": "https://www.nationalacademies.org/publications/26284",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Moderna's mRNA flu vaccine trial enrolled over 40,000 adults over age 50 and showed superiority to standard-dose flu vaccine",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "HHS canceled over $500 million in mRNA contracts",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Europe, Canada, and Australia accepted Moderna's mRNA flu vaccine application",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "mRNA-based flu vaccine development",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    }
+  ]
+}
