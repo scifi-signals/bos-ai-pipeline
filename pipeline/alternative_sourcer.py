@@ -66,7 +66,78 @@ KNOWN_AUTHORITIES = {
         "base_url": "https://www.usda.gov",
         "tier": 2,
     },
+    "AAP": {
+        "full_name": "American Academy of Pediatrics",
+        "base_url": "https://www.aap.org",
+        "tier": 2,
+    },
+    "American Academy of Pediatrics": {
+        "full_name": "American Academy of Pediatrics",
+        "base_url": "https://www.aap.org",
+        "tier": 2,
+    },
+    "AAAAI": {
+        "full_name": "American Academy of Allergy, Asthma & Immunology",
+        "base_url": "https://www.aaaai.org",
+        "tier": 2,
+    },
+    "AMA": {
+        "full_name": "American Medical Association",
+        "base_url": "https://www.ama-assn.org",
+        "tier": 2,
+    },
+    "AHA": {
+        "full_name": "American Heart Association",
+        "base_url": "https://www.heart.org",
+        "tier": 2,
+    },
+    "ACS": {
+        "full_name": "American Cancer Society",
+        "base_url": "https://www.cancer.org",
+        "tier": 2,
+    },
+    "EAACI": {
+        "full_name": "European Academy of Allergy and Clinical Immunology",
+        "base_url": "https://www.eaaci.org",
+        "tier": 2,
+    },
+    "NOAA": {
+        "full_name": "National Oceanic and Atmospheric Administration",
+        "base_url": "https://www.noaa.gov",
+        "tier": 2,
+    },
+    "NASA": {
+        "full_name": "National Aeronautics and Space Administration",
+        "base_url": "https://www.nasa.gov",
+        "tier": 2,
+    },
 }
+
+
+def _match_authority(org_name):
+    """Fuzzy-match an organization name against KNOWN_AUTHORITIES.
+
+    Handles variants like 'NIH/NIAID', 'American Academy of Pediatrics',
+    'CDC Foundation', etc.
+    """
+    # Exact match first
+    if org_name in KNOWN_AUTHORITIES:
+        return KNOWN_AUTHORITIES[org_name]
+
+    # Prefix match (e.g., 'NIH/NIAID' starts with 'NIH')
+    org_upper = org_name.upper()
+    for key, value in KNOWN_AUTHORITIES.items():
+        if org_upper.startswith(key.upper()):
+            return value
+
+    # Substring match on full name
+    org_lower = org_name.lower()
+    for key, value in KNOWN_AUTHORITIES.items():
+        full = value.get("full_name", "").lower()
+        if full and (org_lower in full or full in org_lower):
+            return value
+
+    return {}
 
 
 def find_alternative_sources(question, max_results=5):
@@ -117,8 +188,7 @@ Or if no reliable alternatives exist: NONE"""
         results = []
         for s in sources[:max_results]:
             org = s.get("organization", "")
-            # Look up known authority info
-            authority = KNOWN_AUTHORITIES.get(org, {})
+            authority = _match_authority(org)
             results.append({
                 "organization": org,
                 "organization_full": authority.get("full_name", org),
