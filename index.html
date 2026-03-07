@@ -132,7 +132,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 .queue-tab.active .tab-count { background:var(--accent-light); color:var(--accent); }
 .queue-tab:not(.active) .tab-count { background:var(--bg); color:var(--text-tertiary); }
 .queue-tab-gap .tab-count { background:#F0F0FF !important; color:#6366F1 !important; }
-.queue-tab-panel { display:none; }
+.queue-tab-panel { display:none; padding-top:16px; }
 .queue-tab-panel.active { display:block; }
 
 /* NASEM Gap styling */
@@ -206,41 +206,49 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             </div>
         </details>
 
-        <div class="card">
-            <div class="card-label">Latest Article</div>
-            <div id="latest-article">
-                <p style="color:var(--text-tertiary); font-size:14px;">Loading articles...</p>
+        <div class="queue-tabs" id="main-tabs">
+            <button class="queue-tab active" onclick="switchTab('tab-queue')" id="tab-btn-queue">Discovery Queue <span class="tab-count" id="tab-count-queue">0</span></button>
+            <button class="queue-tab queue-tab-gap" onclick="switchTab('tab-gaps')" id="tab-btn-gaps">NASEM Gaps <span class="tab-count" id="tab-count-gaps">0</span></button>
+            <button class="queue-tab" onclick="switchTab('tab-articles')" id="tab-btn-articles">Articles <span class="tab-count" id="tab-count-articles">0</span></button>
+        </div>
+
+        <div class="queue-tab-panel active" id="tab-queue">
+            <div class="card queue-section">
+                <p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px; line-height:1.6;">
+                    Questions discovered daily from trending science topics and podcast claims. Each is matched to National Academies research and ranked by priority.
+                </p>
+                <div id="discovery-queue">
+                    <p style="color:var(--text-tertiary); font-size:14px;">Loading discovery queue...</p>
+                </div>
             </div>
         </div>
 
-        <div class="info-box">
-            Each article includes a <strong>full evidence package</strong> with source-by-source findings, consensus analysis, and independent fact-check results. Articles target an <strong>8th-grade reading level</strong> following NASEM's "Based on Science" style guide.
-        </div>
-
-        <div class="card queue-section">
-            <div class="card-label">Discovery Queue</div>
-            <p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px; line-height:1.6;">
-                Questions are discovered daily by monitoring trending science topics and podcast claims for active misinformation. Each question is filtered for public health stakes, matched to National Academies research, and ranked by priority.
-                <a href="methodology.html" style="color:var(--accent); text-decoration:none; font-weight:500;">How this works &rarr;</a>
-            </p>
-            <div id="discovery-queue">
-                <p style="color:var(--text-tertiary); font-size:14px;">Loading discovery queue...</p>
+        <div class="queue-tab-panel" id="tab-gaps">
+            <div class="card queue-section">
+                <p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px; line-height:1.6;">
+                    Trending misinformation topics where the National Academies has no published research. Alternative authoritative sources are listed for each gap. These represent opportunities for new NASEM coverage.
+                </p>
+                <div id="gaps-queue">
+                    <p style="color:var(--text-tertiary); font-size:14px;">No coverage gaps found.</p>
+                </div>
             </div>
         </div>
 
-        <div class="card queue-section" id="gaps-section" style="display:none;">
-            <div class="card-label">NASEM Coverage Gaps</div>
-            <p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px; line-height:1.6;">
-                Trending misinformation topics where the National Academies has no published research. Alternative authoritative sources are listed for each gap. These represent opportunities for new NASEM coverage.
-            </p>
-            <div id="gaps-queue"></div>
-        </div>
-
-        <div class="card">
-            <div class="card-label">Article Archive</div>
-            <ul class="archive-list" id="archive-list">
-                <li class="archive-item" style="color:var(--text-tertiary); font-size:14px;">Loading...</li>
-            </ul>
+        <div class="queue-tab-panel" id="tab-articles">
+            <div class="card">
+                <div id="latest-article">
+                    <p style="color:var(--text-tertiary); font-size:14px;">Loading articles...</p>
+                </div>
+            </div>
+            <div class="info-box">
+                Each article includes a <strong>full evidence package</strong> with source-by-source findings, consensus analysis, and independent fact-check results. Articles target an <strong>8th-grade reading level</strong> following NASEM's "Based on Science" style guide.
+            </div>
+            <div class="card">
+                <div class="card-label">Archive</div>
+                <ul class="archive-list" id="archive-list">
+                    <li class="archive-item" style="color:var(--text-tertiary); font-size:14px;">Loading...</li>
+                </ul>
+            </div>
         </div>
     </div>
 
@@ -250,6 +258,18 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     </div>
 
     <script>
+    // ========================================================================
+    // Tab Switching
+    // ========================================================================
+    function switchTab(panelId) {
+        // Deactivate all tabs and panels
+        document.querySelectorAll('.queue-tab').forEach(function(t) { t.classList.remove('active'); });
+        document.querySelectorAll('.queue-tab-panel').forEach(function(p) { p.classList.remove('active'); });
+        // Activate selected
+        document.getElementById(panelId).classList.add('active');
+        document.getElementById('tab-btn-' + panelId.replace('tab-', '')).classList.add('active');
+    }
+
     // ========================================================================
     // Configuration
     // ========================================================================
@@ -288,6 +308,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     // Render: Latest Article
     // ========================================================================
     function renderLatestArticle(articles) {
+        document.getElementById('tab-count-articles').textContent = articles.length;
         if (articles.length === 0) {
             document.getElementById('latest-article').innerHTML =
                 '<p style="color:var(--text-tertiary);">No articles published yet.</p>';
@@ -365,6 +386,8 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         var container = document.getElementById('discovery-queue');
         if (!discoveryData || !discoveryData.questions || discoveryData.questions.length === 0) {
             container.innerHTML = '<p style="color:var(--text-tertiary); font-size:14px;">No questions in the discovery queue yet. Run the discovery pipeline to populate.</p>';
+            document.getElementById('tab-count-queue').textContent = '0';
+            document.getElementById('tab-count-gaps').textContent = '0';
             return;
         }
 
@@ -379,27 +402,27 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 
         var pendingQuestions = questions.filter(function(q) { return q.status === 'pending'; });
         var gapQuestions = questions.filter(function(q) { return q.status === 'nasem_gap'; });
-        var publishedQuestions = questions.filter(function(q) { return q.status === 'published'; });
 
-        // Render main queue (pending + published)
-        var html = '<p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px;">' +
-            pendingQuestions.length + ' ready to generate' +
-            (publishedQuestions.length > 0 ? ' &middot; ' + publishedQuestions.length + ' published' : '') +
-            (discoveryData.generated_at ? ' &middot; Last updated: ' + new Date(discoveryData.generated_at).toLocaleDateString() : '') +
-            '</p>';
+        // Update tab counts
+        document.getElementById('tab-count-queue').textContent = pendingQuestions.length;
+        document.getElementById('tab-count-gaps').textContent = gapQuestions.length;
 
-        pendingQuestions.forEach(function(q) { html += renderPendingQueueItem(q); });
-        publishedQuestions.forEach(function(q) { html += renderPublishedQueueItem(q); });
-
+        // Render main queue (pending only — published go to Articles tab)
+        var html = '';
+        if (pendingQuestions.length === 0) {
+            html = '<p style="color:var(--text-tertiary); font-size:14px;">No pending questions. Run the discovery pipeline to find new topics.</p>';
+        } else {
+            html += '<p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px;">' +
+                pendingQuestions.length + ' question' + (pendingQuestions.length !== 1 ? 's' : '') + ' ready to generate' +
+                (discoveryData.generated_at ? ' &middot; Last updated: ' + new Date(discoveryData.generated_at).toLocaleDateString() : '') +
+                '</p>';
+            pendingQuestions.forEach(function(q) { html += renderPendingQueueItem(q); });
+        }
         container.innerHTML = html;
 
-        // Render gaps section
+        // Render gaps tab
         if (gapQuestions.length > 0) {
-            var gapsSection = document.getElementById('gaps-section');
-            gapsSection.style.display = 'block';
-            var gapsHtml = '<p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px;">' +
-                gapQuestions.length + ' topic' + (gapQuestions.length !== 1 ? 's' : '') + ' with no NASEM coverage' +
-                '</p>';
+            var gapsHtml = '';
             gapQuestions.forEach(function(q) { gapsHtml += renderGapQueueItem(q); });
             document.getElementById('gaps-queue').innerHTML = gapsHtml;
         }
