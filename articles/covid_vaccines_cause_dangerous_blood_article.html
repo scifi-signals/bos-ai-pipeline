@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Do COVID-19 vaccines cause dangerous blood clots? | Based on Science</title>
+    <meta property="og:title" content="Do COVID-19 vaccines cause dangerous blood clots? | Based on Science">
+    <meta property="og:description" content="Blood clots have been linked to COVID-19 vaccines in some cases, but the available data lacks details about how often this happens or how serious the risk is.">
+    <meta property="og:type" content="article">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=DM+Serif+Display&display=swap" rel="stylesheet">
+    <style>
+:root {
+    --bg: #FAFAF8; --surface: #FFFFFF; --surface-hover: #F5F5F0;
+    --border: #E8E6E1; --border-light: #F0EEE9;
+    --text-primary: #1A1A18; --text-secondary: #6B6960; --text-tertiary: #9B9890;
+    --accent: #2563EB; --accent-light: #EFF6FF; --accent-hover: #1D4ED8;
+    --green: #16A34A; --green-light: #F0FDF4;
+    --amber: #D97706; --amber-light: #FFFBEB;
+    --red: #DC2626; --red-light: #FEF2F2;
+    --shadow-sm: 0 1px 2px rgba(0,0,0,0.04); --shadow-md: 0 4px 12px rgba(0,0,0,0.06);
+    --radius: 10px; --radius-sm: 6px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-primary); line-height:1.7; -webkit-font-smoothing:antialiased; }
+
+.header { background:var(--surface); border-bottom:1px solid var(--border); padding:0 32px; }
+.header-inner { max-width:900px; margin:0 auto; display:flex; align-items:center; justify-content:space-between; height:64px; }
+.header-left { display:flex; align-items:center; gap:16px; }
+.logo-mark { width:32px; height:32px; background:var(--accent); border-radius:8px; display:flex; align-items:center; justify-content:center; color:white; font-weight:700; font-size:14px; }
+.header-title { font-family:'DM Serif Display',serif; font-size:18px; }
+.header-right { font-size:13px; color:var(--text-tertiary); }
+.header-right a { color:var(--accent); text-decoration:none; font-weight:500; }
+
+.hero { max-width:900px; margin:0 auto; padding:48px 32px 32px; }
+.hero-org { font-size:12px; text-transform:uppercase; letter-spacing:1.5px; color:var(--text-tertiary); font-weight:600; margin-bottom:8px; }
+.hero h1 { font-family:'DM Serif Display',serif; font-size:36px; font-weight:400; margin-bottom:12px; line-height:1.2; }
+.hero .lede { font-size:17px; color:var(--text-secondary); font-style:italic; max-width:680px; line-height:1.6; }
+
+.container { max-width:900px; margin:0 auto; padding:0 32px 60px; }
+
+.card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:32px; margin-bottom:16px; box-shadow:var(--shadow-sm); }
+.card:hover { box-shadow:var(--shadow-md); }
+.card h2 { font-family:'DM Serif Display',serif; font-size:22px; font-weight:400; margin-bottom:16px; }
+.card h3 { font-family:'DM Serif Display',serif; font-size:18px; font-weight:400; margin-top:20px; margin-bottom:8px; }
+.card p { margin-bottom:14px; font-size:15px; }
+.card strong { font-weight:600; }
+.card em { font-style:italic; }
+.card ul, .card ol { margin:12px 0; padding-left:24px; }
+.card li { margin-bottom:6px; font-size:15px; }
+.card a { color:var(--accent); text-decoration:none; font-weight:500; }
+.card a:hover { text-decoration:underline; }
+
+.short-answer { background:var(--accent-light); border:1px solid #BFDBFE; border-radius:var(--radius); padding:28px 32px; margin-bottom:16px; }
+.short-answer h2 { font-family:'DM Serif Display',serif; font-size:22px; font-weight:400; margin-bottom:12px; color:var(--accent-hover); }
+.short-answer p { font-size:16px; line-height:1.7; }
+
+.note-box { background:var(--amber-light); border:1px solid #FDE68A; border-radius:var(--radius-sm); padding:16px 20px; margin:16px 0; font-size:14px; }
+
+.resources-list { list-style:none; padding:0; }
+.resources-list li { padding:10px 0; border-bottom:1px solid var(--border-light); }
+.resources-list li:last-child { border-bottom:none; }
+.resources-list a { color:var(--accent); text-decoration:none; font-weight:500; font-size:14px; }
+.resources-list a:hover { text-decoration:underline; }
+
+.tag-pills { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+.tag-pill { display:inline-block; padding:4px 12px; background:var(--bg); border:1px solid var(--border); border-radius:20px; font-size:12px; color:var(--text-secondary); font-weight:500; }
+
+.evidence-card { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); margin-bottom:12px; overflow:hidden; }
+.evidence-header { padding:16px 20px; cursor:pointer; display:flex; justify-content:space-between; align-items:center; }
+.evidence-header:hover { background:var(--surface-hover); }
+.evidence-header h3 { font-family:'DM Serif Display',serif; font-size:16px; font-weight:400; }
+.tier-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:600; text-transform:uppercase; letter-spacing:0.5px; }
+.tier-1 { background:var(--green-light); color:var(--green); }
+.tier-2 { background:var(--accent-light); color:var(--accent); }
+.tier-3 { background:var(--amber-light); color:var(--amber); }
+.tier-4 { background:var(--bg); color:var(--text-tertiary); }
+.evidence-body { padding:0 20px 16px; display:none; }
+.evidence-body.open { display:block; }
+.finding { padding:12px 0; border-top:1px solid var(--border-light); }
+.finding:first-child { border-top:none; }
+.finding-claim { font-weight:600; font-size:14px; margin-bottom:4px; }
+.finding-quote { font-style:italic; font-size:13px; color:var(--text-secondary); padding:8px 12px; border-left:3px solid var(--border); margin:8px 0; }
+.finding-meta { font-size:12px; color:var(--text-tertiary); display:flex; gap:12px; }
+.strength-strong { color:var(--green); font-weight:600; }
+.strength-moderate { color:var(--amber); font-weight:600; }
+.strength-limited { color:var(--text-tertiary); font-weight:600; }
+
+.consensus-detail { font-size:12px; color:var(--text-secondary); margin-top:10px; }
+.consensus-detail summary { cursor:pointer; list-style:none; display:flex; align-items:center; gap:6px; font-size:12px; color:var(--text-tertiary); }
+.consensus-detail summary::before { content:"B6"; font-size:9px; transition:transform 0.15s; }
+.consensus-detail[open] summary::before { transform:rotate(90deg); }
+.consensus-detail summary::-webkit-details-marker { display:none; }
+.consensus-detail-body { margin-top:8px; padding:12px 16px; background:var(--bg); border-radius:var(--radius-sm); font-size:13px; line-height:1.6; }
+.consensus-detail-body a { color:var(--accent); text-decoration:none; }
+.consensus-detail-body a:hover { text-decoration:underline; }
+
+.consensus-bar { display:flex; align-items:center; gap:8px; margin:8px 0; }
+.consensus-level { padding:3px 10px; border-radius:4px; font-size:12px; font-weight:600; text-transform:uppercase; }
+.consensus-strong { background:var(--green-light); color:var(--green); }
+.consensus-moderate { background:var(--amber-light); color:var(--amber); }
+.consensus-limited { background:var(--red-light); color:var(--red); }
+.consensus-conflicting { background:var(--bg); color:var(--text-tertiary); }
+
+.fact-check-row { display:flex; align-items:flex-start; gap:12px; padding:10px 0; border-bottom:1px solid var(--border-light); }
+.fact-check-row:last-child { border-bottom:none; }
+.verdict-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; white-space:nowrap; }
+.verdict-CONFIRMED { background:var(--green-light); color:var(--green); }
+.verdict-PLAUSIBLE { background:var(--accent-light); color:var(--accent); }
+.verdict-UNSUPPORTED { background:var(--amber-light); color:var(--amber); }
+.verdict-CONTRADICTED { background:var(--red-light); color:var(--red); }
+
+.breadcrumbs { max-width:900px; margin:0 auto; padding:12px 32px 0; font-size:13px; color:var(--text-tertiary); }
+.breadcrumbs a { color:var(--accent); text-decoration:none; font-weight:500; }
+.breadcrumbs a:hover { text-decoration:underline; }
+.breadcrumbs .sep { margin:0 6px; }
+
+.footer { max-width:900px; margin:0 auto; padding:20px 32px 40px; text-align:center; font-size:12px; color:var(--text-tertiary); border-top:1px solid var(--border-light); }
+
+.social-share { margin-top:16px; }
+.social-share h2 { font-family:'DM Serif Display',serif; font-size:22px; font-weight:400; margin-bottom:16px; }
+.social-cards { display:grid; grid-template-columns:1fr 1fr; gap:12px; }
+.social-card { background:var(--bg); border:1px solid var(--border-light); border-radius:var(--radius-sm); padding:16px; }
+.social-card-label { font-size:11px; text-transform:uppercase; letter-spacing:0.5px; color:var(--text-tertiary); font-weight:600; margin-bottom:8px; }
+.social-card-text { font-size:13px; line-height:1.5; color:var(--text-primary); white-space:pre-wrap; margin-bottom:10px; }
+.copy-btn { display:inline-block; padding:4px 12px; background:var(--surface); border:1px solid var(--border); border-radius:var(--radius-sm); font-size:12px; font-weight:500; cursor:pointer; color:var(--text-secondary); font-family:'DM Sans',sans-serif; }
+.copy-btn:hover { background:var(--surface-hover); color:var(--text-primary); }
+.copy-btn.copied { background:var(--green-light); color:var(--green); border-color:var(--green); }
+
+@media (max-width:640px) {
+    .header { padding:0 16px; }
+    .hero, .container { padding-left:16px; padding-right:16px; }
+    .hero h1 { font-size:28px; }
+    .card, .short-answer { padding:20px; }
+    .social-cards { grid-template-columns:1fr; }
+}
+</style>
+</head>
+<body>
+    <div class="header">
+        <div class="header-inner">
+            <div class="header-left">
+                <a href="../index.html" style="display:flex;align-items:center;gap:16px;text-decoration:none;color:inherit;">
+                <div class="logo-mark">BoS</div>
+                <span class="header-title">Based on Science</span>
+                </a>
+            </div>
+            <div class="header-right"><a href="covid_vaccines_cause_dangerous_blood_evidence.html">View Evidence</a></div>
+        </div>
+    </div>
+    <div class="breadcrumbs"><a href="../index.html">Home</a><span class="sep">›</span>Do COVID-19 vaccines cause dangerous blood clots?</div>
+    
+    <div class="hero">
+        <div class="hero-org">National Academies of Sciences, Engineering, and Medicine</div>
+        <h1>Do COVID-19 vaccines cause dangerous blood clots?</h1>
+        <p class="lede">Blood clots have been linked to COVID-19 vaccines in some cases, but the available data lacks details about how often this happens or how serious the risk is.</p>
+    </div>
+    
+    <div class="container">
+        
+        <div class="short-answer">
+            <h2>The Short Answer</h2>
+            <p>Yes, blood clotting disorders have been connected to COVID-19 vaccines. Heart problems called myocarditis have also been reported after mRNA COVID-19 shots. But we don't have enough details about how common these problems are or which people face the highest risk.</p>
+        </div>
+        
+        <div class="card">
+            <h2>What We Know About Blood Clots and COVID-19 Vaccines</h2>
+            <p>You might have heard news reports about blood clots after COVID-19 shots. These concerns are real. Scientists have found links between vaccines and serious blood clotting problems.</p>
+<p>The connection between vaccines and clots has gotten stronger over time. According to a <a href="https://www.nationalacademies.org/publications/26282">National Academies report on vaccine research</a>, studies show "vaccine link to serious clotting disorder firms up." This means the evidence has grown more solid.</p>
+<p>But the current research has big gaps. We don't know exactly how many people get blood clots after shots. We also don't know which vaccines cause more problems. The data doesn't tell us if these clots are mild or severe.</p>
+<p>Scientists are working to fill these gaps. They want to understand the real risks. This will help doctors and patients make better choices about vaccines.</p>
+        </div>
+        
+        <div class="card">
+            <h2>Heart Problems After mRNA Vaccines</h2>
+            <p>Blood clots aren't the only concern. Heart inflammation called <strong>myocarditis</strong> has also been reported. This affects the heart muscle and can be serious.</p>
+<p>The <a href="https://www.nationalacademies.org/publications/26282">National Academies vaccine report</a> notes cases of "patients with acute myocarditis following mRNA COVID-19 vaccination." The word "acute" means the problem happened quickly after the shot.</p>
+<p>mRNA vaccines include the Pfizer and Moderna shots. These use a new type of technology to help your body fight the virus. But we still need more data about heart risks.</p>
+<p>Again, we're missing key details. We don't know how many people get myocarditis after these shots. We don't know which age groups are most at risk. We also don't know how severe these heart problems usually are.</p>
+        </div>
+        
+        <div class="card">
+            <h2>Tracking Vaccine Side Effects Around the World</h2>
+            <p>Scientists in many countries are working together to study vaccine side effects. They want to know what's normal versus what's caused by vaccines.</p>
+<p>A large study looked at background rates of health problems in eight countries, according to the <a href="https://www.nationalacademies.org/publications/26282">National Academies report</a>. This "multinational network cohort study" helps scientists understand what would happen even without vaccines.</p>
+<p>This type of research is important. It helps separate real vaccine side effects from health problems that would happen anyway. Many things can cause blood clots, including COVID-19 itself.</p>
+<p>The global approach gives scientists more data to work with. Eight countries provide millions of health records. This makes the findings more reliable than studies from just one place.</p>
+        </div>
+        
+        <div class="card">
+            <h2>Some People Face Greater Risks</h2>
+            <p>We don't have enough data to know which groups face higher risks of blood clots from COVID-19 vaccines. This is a major gap in our knowledge.</p>
+<p>Age likely matters. Many vaccine side effects affect different age groups in different ways. But the current evidence doesn't give us these details.</p>
+<p>Gender might also play a role. Some blood clotting disorders affect women more than men. But again, we need more specific data about vaccine-related clots.</p>
+<p>People with certain health conditions might face different risks. Those who already have clotting problems or heart disease could be more vulnerable. But doctors need better data to give patients good advice.</p>
+        </div>
+        
+        <div class="card">
+            <h2>What You Can Do</h2>
+            <p><strong>Talk to your doctor</strong> about your personal risk factors. They can help you weigh the risks and benefits of COVID-19 vaccines based on your health history.</p>
+<p><strong>Know the warning signs</strong> of blood clots and heart problems. Chest pain, trouble breathing, severe headaches, and leg swelling can all be serious. Get medical help right away if you have these symptoms after a vaccine.</p>
+<p><strong>Report side effects</strong> to health authorities. The more data we have, the better we can understand vaccine risks. You can report problems to the Vaccine Adverse Event Reporting System (VAERS).</p>
+<p><strong>Stay informed</strong> as new research comes out. Scientists are actively studying these issues. Better data will help everyone make more informed choices.</p>
+<div class="note-box"><strong>Important note:</strong> COVID-19 itself causes blood clots and heart problems. The disease often causes more severe versions of these same health issues that worry people about vaccines.</div>
+        </div>
+        
+        <div class="card">
+            <h2>Additional Resources</h2>
+            <ul class="resources-list"><li><a href="https://www.nationalacademies.org/publications/26282" target="_blank">Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19</a></li>
+<li><a href="https://www.nationalacademies.org/publications/13164" target="_blank">Adverse Effects of Vaccines: Evidence and Causality</a></li>
+<li><a href="https://www.nationalacademies.org/publications/26284" target="_blank">Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative</a></li>
+<li><a href="https://www.nationalacademies.org/publications/25917" target="_blank">Framework for Equitable Allocation of COVID-19 Vaccine</a></li>
+<li><a href="https://www.nationalacademies.org/publications/26573" target="_blank">Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series</a></li>
+<li><a href="https://www.nationalacademies.org/publications/26809" target="_blank">Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families</a></li>
+<li><a href="https://www.nationalacademies.org/publications/25858" target="_blank">Reopening K-12 Schools During the COVID-19 Pandemic: Prioritizing Health, Equity, and Communities</a></li>
+<li><a href="https://www.nationalacademies.org/publications/10306" target="_blank">Immunization Safety Review: Multiple Immunizations and Immune Dysfunction</a></li></ul>
+        </div>
+        <div style="margin-top:16px;"><div class="tag-pills"><span class="tag-pill">Vaccines</span><span class="tag-pill">COVID-19</span><span class="tag-pill">Public Health</span></div></div>
+    <div class="card social-share">
+        <h2>Share This Article</h2>
+        <div class="social-cards">
+            <div class="social-card">
+                <div class="social-card-label">Short Post (X / Bluesky / Threads)</div>
+                <div class="social-card-text" id="social-short">Blood clotting disorders have been linked to COVID-19 vaccines, according to a 2025 National Academies report. However, we still lack key details about how often this happens or which groups face the highest risk. {{ARTICLE_URL}} #BasedOnScience</div>
+                <button class="copy-btn" onclick="copyPost('social-short', this)">Copy</button>
+            </div>
+            <div class="social-card">
+                <div class="social-card-label">Long Post (LinkedIn / Facebook)</div>
+                <div class="social-card-text" id="social-long">You may have heard concerns about blood clots after COVID-19 vaccines. Here&#x27;s what the science tells us: According to a 2025 National Academies report, blood clotting disorders have indeed been linked to COVID-19 vaccines, and the evidence for this connection has grown stronger over time. The report also notes cases of acute myocarditis following mRNA vaccines. However, major data gaps remain - we don&#x27;t know exactly how common these side effects are or which populations face the highest risk. Scientists across 8 countries are working together to study background rates of these health problems to better understand what&#x27;s normal versus vaccine-related. Talk to your doctor about your personal risk factors. {{ARTICLE_URL}} #BasedOnScience</div>
+                <button class="copy-btn" onclick="copyPost('social-long', this)">Copy</button>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <div class="footer">
+        Based on Science &mdash; National Academies of Sciences, Engineering, and Medicine<br>
+        Generated by BoS AI Pipeline
+    </div>
+    <script>
+function copyPost(elementId, btn) {
+    var el = document.getElementById(elementId);
+    if (!el) return;
+    var text = el.textContent.replace(/\{\{ARTICLE_URL\}\}/g, window.location.href);
+    navigator.clipboard.writeText(text).then(function() {
+        btn.textContent = 'Copied!';
+        btn.className = 'copy-btn copied';
+        setTimeout(function() {
+            btn.textContent = 'Copy';
+            btn.className = 'copy-btn';
+        }, 2000);
+    });
+}
+</script>
+</body>
+</html>
