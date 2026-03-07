@@ -70,6 +70,13 @@ def cmd_run(args):
         print("  Review the fact-check report and fix the article before re-running.")
         sys.exit(1)
 
+    reading_level = fc_result.get("reading_level", {})
+    fk_grade = reading_level.get("flesch_kincaid_grade", 99)
+    if fk_grade > 10.0:
+        print(f"\n  HALTED: Reading level FK {fk_grade} exceeds grade 10 maximum.")
+        print("  Article is too complex for the target audience.")
+        sys.exit(1)
+
     # Step 5: Social post generation
     print(f"\n[5/7] Generating social posts...")
     from social_generator import generate_social_posts

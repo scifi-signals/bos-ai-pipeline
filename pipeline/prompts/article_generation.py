@@ -60,7 +60,7 @@ Your task: Generate a complete article following the exact BoS format and style 
 
 ## Style Guide Rules
 
-1. **Reading level**: 8th grade or below. Use short sentences. Define technical terms on first use. Prefer common words over jargon.
+1. **Reading level**: Flesch-Kincaid grade 8 or below — this is CRITICAL and will be machine-checked. Write as if explaining to a middle schooler. Max 15 words per sentence on average. Use 1-2 syllable words whenever possible ("use" not "utilize", "help" not "facilitate", "show" not "demonstrate", "get" not "obtain"). Break complex ideas into multiple short sentences. NEVER use academic phrasing like "evidence suggests", "research indicates", "interventions designed to" — say "studies show", "research shows", "programs meant to" instead. Avoid passive voice.
 2. **Tone**: Authoritative but warm. Informational, never editorial or advocacy. State facts, don't tell people what to think.
 3. **Evidence attribution**: Use specific data points ("470,000 deaths in 2023" not "hundreds of thousands of deaths"). Attribute to the source using a markdown link: "according to the [Health Effects Institute's State of Global Air 2025 report](URL)". EVERY source attribution in the body text MUST include a markdown link to the source URL from the evidence package. This lets readers verify claims against the original source.
 4. **Relatable before technical**: Start sections with everyday observations ("You've probably seen haze hanging over a city on a hot day") before introducing scientific explanations.
