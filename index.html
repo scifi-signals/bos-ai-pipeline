@@ -504,7 +504,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                         if (ds.url) {
                             line += ' <span style="color:var(--text-tertiary);">— <a href="' + escHtml(ds.url) + '" target="_blank" rel="noopener" style="color:var(--accent);">' + escHtml(ds.origin) + '</a></span>';
                         } else {
-                            line += ' <span style="color:var(--text-tertiary);">— ' + escHtml(ds.origin) + '</span>';
+                            line += ' <span style="color:var(--text-tertiary); font-style:italic;">— ' + escHtml(ds.origin) + '</span>';
                         }
                     }
                     if (ds.date) line += ' <span style="color:var(--text-tertiary);">(' + escHtml(ds.date) + ')</span>';
@@ -619,7 +619,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                         if (ds.url) {
                             line += ' <span style="color:var(--text-tertiary);">— <a href="' + escHtml(ds.url) + '" target="_blank" rel="noopener" style="color:var(--accent);">' + escHtml(ds.origin) + '</a></span>';
                         } else {
-                            line += ' <span style="color:var(--text-tertiary);">— ' + escHtml(ds.origin) + '</span>';
+                            line += ' <span style="color:var(--text-tertiary); font-style:italic;">— ' + escHtml(ds.origin) + '</span>';
                         }
                     }
                     return '<li>' + line + '</li>';
