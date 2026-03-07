@@ -276,8 +276,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     var BOS_CONFIG = {
         repo: 'scifi-signals/bos-ai-pipeline',
         workflow: 'generate-article.yml',
-        apiUrl: 'https://stm-api.stardreamgames.com',
-        apiKey: 'csW9JGOjklBlNQCEtcCxRLqkuZVHAnlqbq7IFOFQ0DA'
+        apiUrl: 'https://stm-api.stardreamgames.com'
     };
 
     // ========================================================================
@@ -679,8 +678,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         fetch(BOS_CONFIG.apiUrl + '/api/dispatch-workflow', {
             method: 'POST',
             headers: {
-                'Content-Type': 'application/json',
-                'X-API-Key': BOS_CONFIG.apiKey
+                'Content-Type': 'application/json'
             },
             body: JSON.stringify({
                 repo: BOS_CONFIG.repo,
