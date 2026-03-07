@@ -40,7 +40,14 @@ PHRASE_PATTERNS = [
     "genetic testing", "medical imaging", "diagnostic accuracy",
     # Nutrition & diet
     "dietary supplement", "food additive", "processed food", "organic food",
-    "genetically modified", "artificial sweetener",
+    "genetically modified", "genetically engineered", "artificial sweetener",
+    "food allergy", "food allergies", "food sensitivity",
+    # Specific medical
+    "blood clot", "blood clots", "hepatitis b",
+    "thimerosal", "sleep deprivation",
+    "anti-aging", "aging supplement",
+    # Space & discovery
+    "extraterrestrial", "uap", "ufo",
 ]
 
 # Synonym expansion — maps trigger words to search terms
@@ -89,6 +96,18 @@ SYNONYMS = {
     # Diet & supplements
     "supplement": ["vitamin", "mineral", "herbal", "dietary supplement"],
     "organic": ["pesticide", "conventional", "farming", "agriculture"],
+    "gmo": ["genetically modified", "genetically engineered", "transgenic", "bioengineered", "ge crop"],
+    "allergy": ["allergen", "allergic", "anaphylaxis", "ige", "hypersensitivity"],
+    "food allergy": ["allergen", "allergic reaction", "anaphylaxis", "peanut allergy"],
+    "aging": ["longevity", "lifespan", "senescence", "gerontology"],
+    "twin": ["twins", "monozygotic", "dizygotic", "identical twin"],
+    "sleep": ["circadian", "insomnia", "melatonin", "sleep deprivation"],
+    "altitude": ["hypoxia", "high altitude", "elevation"],
+    "thimerosal": ["mercury", "preservative", "ethylmercury", "vaccine preservative"],
+    "hepatitis": ["hepatitis b", "hbv", "liver disease", "viral hepatitis"],
+    "extraterrestrial": ["uap", "ufo", "unidentified aerial", "alien"],
+    "organoid": ["organoids", "stem cell", "tissue engineering", "in vitro"],
+    "quantum": ["quantum biology", "quantum computing", "quantum effect", "entanglement"],
 }
 
 
@@ -154,19 +173,29 @@ def _llm_rerank(question, candidates, max_results):
 
     prompt = f"""Question: {question}
 
-Rank these NASEM publications by relevance to answering this question.
-Return ONLY the numbers of the top {max_results} most relevant publications, best first.
-Consider: Does this publication contain evidence that directly addresses the question?
-A publication about air quality + health is more relevant than one about carbon pricing.
+Which of these NASEM publications would contain evidence that DIRECTLY answers this question?
+
+CRITICAL: Only include publications that are genuinely relevant. A publication about
+"children's health" is NOT relevant to a question about vaccines unless it specifically
+covers vaccines. A publication about "dietary supplements for horses" is NOT relevant
+to human supplement questions. Be strict — it is better to return fewer results than
+to include irrelevant ones.
+
+If fewer than {max_results} publications are relevant, return only the relevant ones.
+If NONE are relevant, return: NONE
 
 Publications:
 {pub_list}
 
-Return format: just the numbers separated by commas, e.g.: 5,2,8,1,3"""
+Return format: just the numbers separated by commas, e.g.: 5,2,8
+Or if none are relevant: NONE"""
 
     try:
         print(f"  LLM reranking {len(candidates)} candidates...")
         response = ask_claude(prompt, max_tokens=200)
+        if "NONE" in response.upper().strip():
+            print("  LLM says no relevant publications found")
+            return []
         numbers = [int(n.strip()) for n in re.findall(r'\d+', response)]
         reranked = []
         seen = set()
@@ -252,6 +281,16 @@ def _expand_keywords(all_keywords):
     return list(expanded)
 
 
+GENERIC_WORDS = {
+    "health", "risk", "risks", "safety", "policy", "system", "research",
+    "science", "study", "report", "review", "assessment", "evidence",
+    "public", "national", "community", "care", "medical", "clinical",
+    "disease", "prevention", "treatment", "children", "population",
+    "food", "foods", "human", "people", "age", "impact", "effects",
+    "education", "practice", "quality", "strategy", "program",
+}
+
+
 def _score_publication(pub, phrases, single_words, expanded_keywords, is_verified=False):
     """Score a publication against keywords. Higher = more relevant.
 
@@ -264,48 +303,79 @@ def _score_publication(pub, phrases, single_words, expanded_keywords, is_verifie
     pub_keywords = " ".join(k.lower() for k in (pub.get("keywords") or []))
     searchable = f"{title} {desc} {pub_keywords}"
 
+    # Track what kind of keywords matched (specific vs generic)
+    specific_matches = 0
+    generic_only = True
+
     # Phrase matches in title (highest weight — very specific)
     for phrase in phrases:
         if phrase in title:
             score += 10.0
+            specific_matches += 1
+            generic_only = False
 
     # Phrase matches in description/keywords
     for phrase in phrases:
         if phrase in desc:
             score += 4.0
+            specific_matches += 1
+            generic_only = False
         if phrase in pub_keywords:
             score += 3.0
+            specific_matches += 1
+            generic_only = False
 
-    # Expanded keyword matches in title
+    # Single words from the question (NOT expanded) in title — strong signal
+    for word in single_words:
+        if word in GENERIC_WORDS:
+            continue
+        if word in title:
+            score += 4.0
+            specific_matches += 1
+            generic_only = False
+
+    # Expanded keyword matches in title (weaker than direct words)
     for kw in expanded_keywords:
-        if kw in phrases:
+        if kw in phrases or kw in single_words:
             continue  # Already scored above
+        if kw in GENERIC_WORDS:
+            continue
         if kw in title:
-            score += 3.0 if len(kw) >= 6 else 2.0
+            score += 2.0 if len(kw) >= 6 else 1.0
+            specific_matches += 1
+            generic_only = False
 
-    # Expanded keyword matches in description
+    # Expanded keyword matches in description (light weight)
     for kw in expanded_keywords:
         if kw in phrases:
             continue
+        if kw in GENERIC_WORDS:
+            continue
         if kw in desc:
-            score += 0.5
+            score += 0.3
 
     # Expanded keyword matches in pub keywords
     for kw in expanded_keywords:
+        if kw in GENERIC_WORDS:
+            continue
         if kw in pub_keywords:
-            score += 0.5
+            score += 0.3
 
-    # Multi-keyword density bonus: reward pubs matching many different terms
-    matches = sum(1 for kw in expanded_keywords if kw in searchable)
-    if matches >= 5:
+    # If ONLY generic words matched, this pub is probably not relevant
+    if generic_only and score > 0:
+        score *= 0.1
+
+    # Multi-keyword density bonus — only count specific matches
+    specific_in_searchable = sum(1 for kw in expanded_keywords
+                                  if kw not in GENERIC_WORDS and kw in searchable)
+    if specific_in_searchable >= 5:
         score += 3.0
-    elif matches >= 3:
+    elif specific_in_searchable >= 3:
         score += 1.5
 
     # Cross-domain intersection bonus: if question spans domains (e.g. climate + health),
     # strongly reward pubs that match terms from BOTH domains
     if phrases and len(phrases) >= 2:
-        # Check if pub matches terms related to each phrase
         phrase_matches = 0
         for phrase in phrases:
             phrase_terms = set()
@@ -316,7 +386,7 @@ def _score_publication(pub, phrases, single_words, expanded_keywords, is_verifie
             if any(t in searchable for t in phrase_terms):
                 phrase_matches += 1
         if phrase_matches >= 2:
-            score += 8.0  # Big bonus for cross-domain relevance
+            score += 8.0
 
     # Verified publication boost
     if is_verified:
