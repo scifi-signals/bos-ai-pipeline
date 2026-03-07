@@ -1,11 +1,10 @@
 {
   "id": "should_elderly_patients_stop_taking",
   "question": "Should elderly patients stop taking multiple medications to avoid harmful interactions?",
-  "topic": "Addresses confusion about medication management in elderly populations where both under-treatment an",
+  "topic": "Corrects both extremes of medication fear and blind adherence, promoting evidence-based deprescribin",
   "tags": [
     "Health and Medicine",
-    "Geriatrics",
-    "Medication Safety"
+    "Geriatric Care"
   ],
   "sources": [
     {
@@ -15,14 +14,14 @@
       "tier": 1
     },
     {
-      "name": "Keeping Patients Safe: Transforming the Work Environment of Nurses",
-      "url": "https://www.nationalacademies.org/publications/10851",
+      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+      "url": "https://www.nationalacademies.org/publications/10027",
       "type": "web",
       "tier": 1
     },
     {
-      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
-      "url": "https://www.nationalacademies.org/publications/10027",
+      "name": "Keeping Patients Safe: Transforming the Work Environment of Nurses",
+      "url": "https://www.nationalacademies.org/publications/10851",
       "type": "web",
       "tier": 1
     },
@@ -45,16 +44,24 @@
       "tier": 1
     },
     {
-      "name": "Reproducibility and Replicability in Science",
-      "url": "https://www.nationalacademies.org/publications/25303",
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://www.nationalacademies.org/publications/10306",
       "type": "web",
       "tier": 1
     },
     {
-      "name": "Considerations for Designing an Epidemiologic Study for Multiple Sclerosis and Other Neurologic Disorders in Pre and Post 9/11 Gulf War Veterans",
-      "url": "https://www.nationalacademies.org/publications/21870",
+      "name": "Reproducibility and Replicability in Science",
+      "url": "https://www.nationalacademies.org/publications/25303",
       "type": "web",
       "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_topic",
+      "text": "Deprescribing in elderly/geriatric populations",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "date": "2026-02-25T11:00:00"
     }
   ]
 }

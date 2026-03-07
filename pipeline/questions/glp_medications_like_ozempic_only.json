@@ -1,28 +1,21 @@
 {
   "id": "glp_medications_like_ozempic_only",
-  "question": "Do GLP-1 medications like Ozempic only work for weight loss and not for serious medical conditions?",
-  "topic": "Corrects reductive understanding of GLP-1 medications that could impact access to legitimate medical",
+  "question": "Are GLP-1 medications like Ozempic only for diabetes, or can they help with other conditions?",
+  "topic": "Clarifies legitimate expanded uses of GLP-1 medications beyond diabetes, addressing stigma and acces",
   "tags": [
     "Health and Medicine",
-    "Diabetes",
-    "Cardiovascular Health"
+    "Endocrinology"
   ],
   "sources": [
     {
-      "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop",
-      "url": "https://www.nationalacademies.org/publications/24855",
+      "name": "Local Government Actions to Prevent Childhood Obesity",
+      "url": "https://www.nationalacademies.org/publications/12674",
       "type": "web",
       "tier": 1
     },
     {
-      "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop—in Brief",
-      "url": "https://www.nationalacademies.org/publications/24830",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Current Status and Response to the Global Obesity Pandemic: Proceedings of a Workshop",
-      "url": "https://www.nationalacademies.org/publications/25273",
+      "name": "Alliances for Obesity Prevention: Finding Common Ground: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/13305",
       "type": "web",
       "tier": 1
     },
@@ -33,28 +26,42 @@
       "tier": 1
     },
     {
-      "name": "The Current State of Obesity Solutions in the United States: Workshop Summary",
-      "url": "https://www.nationalacademies.org/publications/18742",
+      "name": "Assessing Prevalence and Trends in Obesity: Navigating the Evidence",
+      "url": "https://www.nationalacademies.org/publications/23505",
       "type": "web",
       "tier": 1
     },
     {
-      "name": "Cross-Sector Responses to Obesity: Models for Change: Workshop Summary",
-      "url": "https://www.nationalacademies.org/publications/21706",
+      "name": "Current Status and Response to the Global Obesity Pandemic: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25273",
       "type": "web",
       "tier": 1
     },
     {
-      "name": "Accelerating Progress in Obesity Prevention: Solving the Weight of the Nation",
-      "url": "https://www.nationalacademies.org/publications/13275",
+      "name": "Public Engagement on Facilitating Access to Antiviral Medications and Information in an Influenza Pandemic: Workshop Series Summary",
+      "url": "https://www.nationalacademies.org/publications/13404",
       "type": "web",
       "tier": 1
     },
     {
-      "name": "Evaluating Obesity Prevention Efforts: A Plan for Measuring Progress",
-      "url": "https://www.nationalacademies.org/publications/18334",
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
       "type": "web",
       "tier": 1
+    },
+    {
+      "name": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals",
+      "url": "https://www.nationalacademies.org/publications/29118",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_topic",
+      "text": "GLP-1 medications (glucagon-like peptide-1 agonists) for glucose control and cardiovascular benefits",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "date": "2026-02-25T11:00:00"
     }
   ]
 }

@@ -1,0 +1,42 @@
+{
+  "id": "current_systems_think_reason_like",
+  "question": "Can current AI systems think and reason like humans?",
+  "topic": "Corrects both overhyped claims about AI consciousness and unfounded dismissal of actual AI capabilit",
+  "tags": [
+    "Technology",
+    "Artificial Intelligence"
+  ],
+  "sources": [],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "AI systems spontaneously develop survival as a sub-goal when trained on other objectives without explicit programming",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "date": "2026-02-20T06:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "AI systems can be trained to deliberately give wrong answers and will generalize this behavior beyond the training context",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "date": "2026-02-20T06:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Large language models confabulate (create false memories) in ways similar to human memory recall",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "date": "2026-02-20T06:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Current language models can perform reasoning tasks and detect logical inconsistencies in their own beliefs",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "date": "2026-02-20T06:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Large language models and their reasoning capabilities",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "date": "2026-02-20T06:00:00"
+    }
+  ]
+}

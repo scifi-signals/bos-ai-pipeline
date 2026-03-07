@@ -1,0 +1,97 @@
+{
+  "id": "pharmacists_provide_same_level_clinical",
+  "question": "Can pharmacists provide the same level of clinical care as physicians?",
+  "topic": "Corrects widespread misconception about pharmacist qualifications and scope of practice, which limit",
+  "tags": [
+    "Health and Medicine",
+    "Healthcare Access"
+  ],
+  "sources": [
+    {
+      "name": "Implementing High-Quality Primary Care: Rebuilding the Foundation of Health Care",
+      "url": "https://www.nationalacademies.org/publications/25983",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "National Plan for Health Workforce Well-Being",
+      "url": "https://www.nationalacademies.org/publications/26744",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Improving Diagnosis in Health Care",
+      "url": "https://www.nationalacademies.org/publications/21794",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+      "url": "https://www.nationalacademies.org/publications/10027",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Leadership by Example: Coordinating Government Roles in Improving Health Care Quality",
+      "url": "https://www.nationalacademies.org/publications/10537",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series",
+      "url": "https://www.nationalacademies.org/publications/26573",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+      "url": "https://www.nationalacademies.org/publications/26479",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Pharmacists conduct residencies similar in rigor to physician residencies - clarify training equivalencies",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Average patient has 20 healthcare touch points per year with pharmacists, doubling for those with multiple chronic conditions - verify frequency data",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Vaccine administration and confidence-building",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Colorectal cancer screening",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Cervical cancer screening",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Reproductive health services",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "date": "2026-02-25T11:00:00"
+    }
+  ]
+}

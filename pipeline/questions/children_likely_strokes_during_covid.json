@@ -1,0 +1,73 @@
+{
+  "id": "children_likely_strokes_during_covid",
+  "question": "Are children more likely to have strokes during COVID-19?",
+  "topic": "Provides evidence-based information about actual pediatric stroke risk during COVID to guide appropr",
+  "tags": [
+    "Health and Medicine",
+    "Pediatric Health"
+  ],
+  "sources": [
+    {
+      "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
+      "url": "https://www.nationalacademies.org/publications/26809",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Reopening K-12 Schools During the COVID-19 Pandemic: Prioritizing Health, Equity, and Communities",
+      "url": "https://www.nationalacademies.org/publications/25858",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+      "url": "https://www.nationalacademies.org/publications/27835",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+      "url": "https://www.nationalacademies.org/publications/27207",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+      "url": "https://www.nationalacademies.org/publications/21754",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Making Better Drugs for Children with Cancer",
+      "url": "https://www.nationalacademies.org/publications/11259",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda",
+      "url": "https://www.nationalacademies.org/publications/25201",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative",
+      "url": "https://www.nationalacademies.org/publications/19033",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_topic",
+      "text": "Pediatric stroke pathophysiology",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "COVID-19 thromboembolism in children",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "date": "2026-02-18T11:00:00"
+    }
+  ]
+}

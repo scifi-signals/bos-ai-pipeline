@@ -1,0 +1,79 @@
+{
+  "id": "mrna_flu_vaccines_fundamentally_different",
+  "question": "Are mRNA flu vaccines fundamentally different from traditional flu vaccines in safety or effectiveness?",
+  "topic": "Addresses mRNA technology misconceptions that could impact flu vaccination decisions as these vaccin",
+  "tags": [
+    "Public Health",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications",
+      "url": "https://www.nationalacademies.org/publications/10822",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://www.nationalacademies.org/publications/10306",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines",
+      "url": "https://www.nationalacademies.org/publications/26285",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adverse Effects of Vaccines: Evidence and Causality",
+      "url": "https://www.nationalacademies.org/publications/13164",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://www.nationalacademies.org/publications/13563",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+      "url": "https://www.nationalacademies.org/publications/26284",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Vaccines for the 21st Century: A Tool for Decisionmaking",
+      "url": "https://www.nationalacademies.org/publications/5501",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Priorities for the National Vaccine Plan",
+      "url": "https://www.nationalacademies.org/publications/12796",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Moderna's mRNA flu vaccine trial enrolled over 40,000 adults over age 50 and showed superiority to standard-dose flu vaccine",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Moderna separately ran a trial versus high-dose shot in adults 65 and older",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "mRNA-based flu vaccine development",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "date": "2026-02-18T11:00:00"
+    }
+  ]
+}

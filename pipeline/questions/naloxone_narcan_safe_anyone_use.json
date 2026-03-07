@@ -1,0 +1,67 @@
+{
+  "id": "naloxone_narcan_safe_anyone_use",
+  "question": "Is naloxone (Narcan) safe for anyone to use in an overdose emergency?",
+  "topic": "Corrects potentially fatal misconceptions about naloxone safety that prevent its use in overdose eme",
+  "tags": [
+    "Public Health",
+    "Emergency Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use",
+      "url": "https://www.nationalacademies.org/publications/24781",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Integrating Responses at the Intersection of Opioid Use Disorder and Infectious Disease Epidemics: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25153",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing Therapeutic Development for Pain and Opioid Use Disorders Through Public-Private Partnerships: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25060",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Pain Management for People with Serious Illness in the Context of the Opioid Use Disorder Epidemic: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25435",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Measuring Success in Substance Use Grant Programs: Outcomes and Metrics for Improvement",
+      "url": "https://www.nationalacademies.org/publications/25745",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/26635",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medication-Assisted Treatment for Opioid Use Disorder: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/25322",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_topic",
+      "text": "Narcan (naloxone) access for opioid overdose reversal",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "date": "2026-02-25T11:00:00"
+    }
+  ]
+}

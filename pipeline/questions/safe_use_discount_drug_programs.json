@@ -1,0 +1,73 @@
+{
+  "id": "safe_use_discount_drug_programs",
+  "question": "Is it safe to use discount drug programs like GoodRx instead of insurance?",
+  "topic": "Provides evidence-based guidance on when discount programs are beneficial versus when insurance is b",
+  "tags": [
+    "Health and Medicine",
+    "Healthcare Costs"
+  ],
+  "sources": [
+    {
+      "name": "Challenges for the FDA: The Future of Drug Safety: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/11969",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Stronger Food and Drug Regulatory Systems Abroad",
+      "url": "https://www.nationalacademies.org/publications/25651",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Measuring Success in Substance Use Grant Programs: Outcomes and Metrics for Improvement",
+      "url": "https://www.nationalacademies.org/publications/25745",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communities in Action: Pathways to Health Equity",
+      "url": "https://www.nationalacademies.org/publications/24624",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Paying the Price: The Status and Role of Insurance Against Natural Disasters in the United States",
+      "url": "https://www.nationalacademies.org/publications/5784",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/24742",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25048",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "TrumpRx prices are often similar to or higher than existing discount services like GoodRx and SingleCare - verify comparative pricing accuracy",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "date": "2026-02-25T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "GoodRx makes money by negotiating with pharmacy benefit managers and pocketing part of the savings - verify business model accuracy",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "date": "2026-02-25T11:00:00"
+    }
+  ]
+}

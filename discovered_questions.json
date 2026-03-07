@@ -1,459 +1,863 @@
 {
-  "generated_at": "2026-03-06T12:30:05Z",
+  "generated_at": "2026-03-07T00:19:18Z",
   "questions": [
     {
-      "id": "vaccines_cause_food_allergies",
-      "question": "Do vaccines cause food allergies?",
+      "id": "pharmacists_provide_same_level_clinical",
+      "question": "Can pharmacists provide the same level of clinical care as physicians?",
       "priority": "high",
-      "rationale": "Directly addresses a specific vaccine misconception that leads to dangerous vaccine avoidance behavior",
-      "misinformation_narrative": "Anti-vaccine groups and some parents believe that vaccines cause food allergies, citing the increase in both vaccine schedules and food allergy prevalence as evidence of causation",
-      "public_stakes": "Vaccine hesitancy based on false allergy concerns undermines herd immunity and puts children at risk of preventable diseases",
+      "rationale": "Corrects widespread misconception about pharmacist qualifications and scope of practice, which limits access to healthcare services",
+      "misinformation_narrative": "Many people believe pharmacists are just 'pill counters' and don't understand that modern pharmacists complete rigorous clinical training including residencies comparable to physician training, making them qualified to provide many clinical services",
+      "public_stakes": "Underutilization of accessible pharmacy-based healthcare services, leading to gaps in preventive care, medication management, and health screenings",
       "verification_status": "verified",
       "tags": [
         "Health and Medicine",
-        "Vaccines",
-        "Public Health"
-      ],
-      "nasem_source_count": 8,
-      "nasem_sources_preview": [
-        {
-          "name": "Climate Change: Evidence and Causes: Update 2020",
-          "url": "https://www.nationalacademies.org/publications/25733"
-        },
-        {
-          "name": "Dietary Reference Intakes: Proposed Definition of Dietary Fiber",
-          "url": "https://www.nationalacademies.org/publications/10161"
-        },
-        {
-          "name": "Preventing Childhood Obesity: Health in the Balance",
-          "url": "https://www.nationalacademies.org/publications/11015"
-        },
-        {
-          "name": "Local Government Actions to Prevent Childhood Obesity",
-          "url": "https://www.nationalacademies.org/publications/12674"
-        },
-        {
-          "name": "Progress in Preventing Childhood Obesity: How Do We Measure Up?",
-          "url": "https://www.nationalacademies.org/publications/11722"
-        },
-        {
-          "name": "Safety of Dietary Supplements for Horses, Dogs, and Cats",
-          "url": "https://www.nationalacademies.org/publications/12461"
-        },
-        {
-          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
-          "url": "https://www.nationalacademies.org/publications/27239"
-        },
-        {
-          "name": "Reducing Impacts of Food Loss and Waste: Proceedings of a Workshop",
-          "url": "https://www.nationalacademies.org/publications/25396"
-        }
-      ],
-      "discovered_at": "2026-03-06",
-      "status": "pending"
-    },
-    {
-      "id": "should_parents_avoid_giving_peanuts",
-      "question": "Should parents avoid giving peanuts to infants to prevent allergies?",
-      "priority": "high",
-      "rationale": "Corrects persistent parenting misconception with major health consequences, backed by landmark LEAP trial evidence",
-      "misinformation_narrative": "Many parents still believe they should delay introducing peanuts and other allergens until after age 1-2 to prevent allergies, despite updated medical guidance",
-      "public_stakes": "Delayed allergen introduction may actually increase allergy risk, leading to more severe food allergies and associated health complications",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Child Health",
-        "Nutrition"
-      ],
-      "nasem_source_count": 8,
-      "nasem_sources_preview": [
-        {
-          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
-          "url": "https://www.nationalacademies.org/publications/27239"
-        },
-        {
-          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
-          "url": "https://www.nationalacademies.org/publications/25747"
-        },
-        {
-          "name": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
-          "url": "https://www.nationalacademies.org/publications/29065"
-        },
-        {
-          "name": "Challenges in Supply, Market Competition, and Regulation of Infant Formula in the United States",
-          "url": "https://www.nationalacademies.org/publications/27765"
-        },
-        {
-          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
-          "url": "https://www.nationalacademies.org/publications/10306"
-        },
-        {
-          "name": "Newborn Screening in the United States: A Vision for Sustaining and Advancing Excellence",
-          "url": "https://www.nationalacademies.org/publications/29102"
-        },
-        {
-          "name": "Parenting Matters: Supporting Parents of Children Ages 0-8",
-          "url": "https://www.nationalacademies.org/publications/21868"
-        },
-        {
-          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
-          "url": "https://www.nationalacademies.org/publications/27207"
-        }
-      ],
-      "discovered_at": "2026-03-06",
-      "status": "pending"
-    },
-    {
-      "id": "igg_food_sensitivity_tests_accurate",
-      "question": "Are IgG food sensitivity tests accurate for diagnosing food allergies?",
-      "priority": "high",
-      "rationale": "Addresses a widespread commercial testing scam that causes real nutritional harm and medical confusion",
-      "misinformation_narrative": "Alternative medicine practitioners and online companies market IgG food sensitivity tests as reliable ways to identify food allergies and intolerances, leading people to unnecessarily restrict diets",
-      "public_stakes": "False positive results lead to unnecessary dietary restrictions, nutritional deficiencies, and delayed proper medical care for real food allergies",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Diagnostic Tests",
-        "Consumer Protection"
-      ],
-      "nasem_source_count": 4,
-      "nasem_sources_preview": [
-        {
-          "name": "Reproducibility and Replicability in Science",
-          "url": "https://www.nationalacademies.org/publications/25303"
-        },
-        {
-          "name": "Safety of Dietary Supplements for Horses, Dogs, and Cats",
-          "url": "https://www.nationalacademies.org/publications/12461"
-        },
-        {
-          "name": "Progress in Preventing Childhood Obesity: How Do We Measure Up?",
-          "url": "https://www.nationalacademies.org/publications/11722"
-        },
-        {
-          "name": "Preventing Childhood Obesity: Health in the Balance",
-          "url": "https://www.nationalacademies.org/publications/11015"
-        }
-      ],
-      "discovered_at": "2026-03-06",
-      "status": "pending"
-    },
-    {
-      "id": "glp_medications_like_ozempic_safe",
-      "question": "Are GLP-1 medications like Ozempic safe for weight loss?",
-      "priority": "high",
-      "rationale": "Addresses both overuse and underuse of important diabetes/obesity medications due to contradictory misinformation",
-      "misinformation_narrative": "Social media influencers and online pharmacies promote off-label GLP-1 use while others spread fears about dangerous side effects, creating confusion about legitimate medical use",
-      "public_stakes": "Inappropriate use without medical supervision causes harm while legitimate patients may avoid beneficial treatment due to safety fears",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Pharmaceuticals",
-        "Obesity"
-      ],
-      "nasem_source_count": 8,
-      "nasem_sources_preview": [
-        {
-          "name": "Medications for Opioid Use Disorder Save Lives",
-          "url": "https://www.nationalacademies.org/publications/25310"
-        },
-        {
-          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
-          "url": "https://www.nationalacademies.org/publications/10306"
-        },
-        {
-          "name": "Artificial Intelligence and the Future of Work",
-          "url": "https://www.nationalacademies.org/publications/27644"
-        },
-        {
-          "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
-          "url": "https://www.nationalacademies.org/publications/26355"
-        },
-        {
-          "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
-          "url": "https://www.nationalacademies.org/publications/26522"
-        },
-        {
-          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field",
-          "url": "https://www.nationalacademies.org/publications/26902"
-        },
-        {
-          "name": "Space Nuclear Propulsion for Human Mars Exploration",
-          "url": "https://www.nationalacademies.org/publications/25977"
-        },
-        {
-          "name": "Effective Health Communication Within the Current Information Environment and the Role of the Federal Government: Proceedings of a Workshop",
-          "url": "https://www.nationalacademies.org/publications/27210"
-        }
-      ],
-      "discovered_at": "2026-03-06",
-      "status": "pending"
-    },
-    {
-      "id": "narcan_naloxone_safe_non_medical",
-      "question": "Is Narcan (naloxone) safe for non-medical people to use during overdoses?",
-      "priority": "high",
-      "rationale": "Corrects life-or-death misconception that prevents bystander intervention in overdose emergencies",
-      "misinformation_narrative": "Some people fear using naloxone because they believe it's dangerous for non-trained individuals or could cause legal liability",
-      "public_stakes": "Hesitation to use naloxone during overdoses directly leads to preventable overdose deaths",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Public Health",
-        "Drug Policy"
+        "Healthcare Access"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
-        "Medications for Opioid Use Disorder Save Lives (2019)",
-        "Integrating Responses at the Intersection of Opioid Use Disorder and Infectious Disease Epidemics: Proceedings of a Workshop (2018)",
-        "Pain Management for People with Serious Illness in the Context of the Opioid Use Disorder Epidemic: Proceedings of a Workshop (2019)",
-        "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use (2017)",
-        "Advancing Therapeutic Development for Pain and Opioid Use Disorders Through Public-Private Partnerships: Proceedings of a Workshop (2018)"
-      ],
-      "discovered_at": "2026-03-06",
-      "status": "pending"
-    },
-    {
-      "id": "people_egg_allergies_safely_receive",
-      "question": "Can people with egg allergies safely receive flu vaccines?",
-      "priority": "medium",
-      "rationale": "Corrects outdated medical guidance that still circulates despite updated safety evidence",
-      "misinformation_narrative": "Many people with egg allergies and their healthcare providers still believe flu vaccines are dangerous for egg-allergic individuals due to egg-based production methods",
-      "public_stakes": "Egg-allergic individuals avoid flu vaccination unnecessarily, increasing their risk of serious influenza complications",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Vaccines",
-        "Allergies"
-      ],
-      "nasem_source_count": 8,
-      "nasem_sources_preview": [
         {
-          "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications",
-          "url": "https://www.nationalacademies.org/publications/10822"
+          "name": "Implementing High-Quality Primary Care: Rebuilding the Foundation of Health Care (2021)",
+          "url": "https://www.nationalacademies.org/publications/25983"
         },
         {
-          "name": "Adverse Effects of Vaccines: Evidence and Causality",
-          "url": "https://www.nationalacademies.org/publications/13164"
+          "name": "National Plan for Health Workforce Well-Being (2023)",
+          "url": "https://www.nationalacademies.org/publications/26744"
         },
         {
-          "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
-          "url": "https://www.nationalacademies.org/publications/13563"
+          "name": "Improving Diagnosis in Health Care (2016)",
+          "url": "https://www.nationalacademies.org/publications/21794"
         },
         {
-          "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality",
-          "url": "https://www.nationalacademies.org/publications/2138"
-        },
-        {
-          "name": "Vaccine Safety Research, Data Access, and Public Trust",
-          "url": "https://www.nationalacademies.org/publications/11234"
-        },
-        {
-          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
-          "url": "https://www.nationalacademies.org/publications/10306"
-        },
-        {
-          "name": "Adverse Effects of Pertussis and Rubella Vaccines",
-          "url": "https://www.nationalacademies.org/publications/1815"
-        },
-        {
-          "name": "Financing Vaccines in the 21st Century: Assuring Access and Availability",
-          "url": "https://www.nationalacademies.org/publications/10782"
-        }
-      ],
-      "discovered_at": "2026-03-06",
-      "status": "pending"
-    },
-    {
-      "id": "people_need_avoid_gluten_they",
-      "question": "Do people need to avoid gluten if they don't have celiac disease?",
-      "priority": "medium",
-      "rationale": "Addresses widespread dietary misconception with nutritional and economic consequences",
-      "misinformation_narrative": "Many people believe gluten is inherently harmful and follow gluten-free diets without medical need, thinking it's healthier for everyone",
-      "public_stakes": "Unnecessary gluten avoidance can lead to nutritional deficiencies and higher food costs, while masking actual celiac disease diagnosis",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Nutrition",
-        "Digestive Health"
-      ],
-      "nasem_source_count": 8,
-      "nasem_sources_preview": [
-        {
-          "name": "A Nationwide Framework for Surveillance of Cardiovascular and Chronic Lung Diseases",
-          "url": "https://www.nationalacademies.org/publications/13145"
-        },
-        {
-          "name": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals",
-          "url": "https://www.nationalacademies.org/publications/29118"
-        },
-        {
-          "name": "Communities in Action: Pathways to Health Equity",
-          "url": "https://www.nationalacademies.org/publications/24624"
-        },
-        {
-          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
           "url": "https://www.nationalacademies.org/publications/10027"
         },
         {
-          "name": "The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop",
-          "url": "https://www.nationalacademies.org/publications/25535"
+          "name": "Leadership by Example: Coordinating Government Roles in Improving Health Care Quality (2003)",
+          "url": "https://www.nationalacademies.org/publications/10537"
         },
         {
-          "name": "Rapid Medical Countermeasure Response to Infectious Diseases: Enabling Sustainable Capabilities Through Ongoing Public- and Private-Sector Partnerships: Workshop Summary",
-          "url": "https://www.nationalacademies.org/publications/21809"
-        },
-        {
-          "name": "Environmental Neuroscience: Advancing the Understanding of How Chemical Exposures Impact Brain Health and Disease: Proceedings of a Workshop",
-          "url": "https://www.nationalacademies.org/publications/25937"
-        },
-        {
-          "name": "Medications for Opioid Use Disorder Save Lives",
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
           "url": "https://www.nationalacademies.org/publications/25310"
+        },
+        {
+          "name": "Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series (2023)",
+          "url": "https://www.nationalacademies.org/publications/26573"
+        },
+        {
+          "name": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups (2023)",
+          "url": "https://www.nationalacademies.org/publications/26479"
+        },
+        {
+          "name": "Developing a National Registry of Pharmacologic and Biologic Clinical Trials: Workshop Report (2006)",
+          "url": "https://www.nationalacademies.org/publications/11561"
+        },
+        {
+          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+          "url": "https://www.nationalacademies.org/publications/27835"
         }
       ],
-      "discovered_at": "2026-03-06",
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Pharmacists conduct residencies similar in rigor to physician residencies - clarify training equivalencies",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Average patient has 20 healthcare touch points per year with pharmacists, doubling for those with multiple chronic conditions - verify frequency data",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Vaccine administration and confidence-building",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Colorectal cancer screening",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Cervical cancer screening",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Reproductive health services",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
       "status": "pending"
     },
     {
-      "id": "should_parents_worry_blood_clots",
-      "question": "Should parents worry about blood clots from COVID-19 vaccines in children?",
-      "priority": "medium",
-      "rationale": "Corrects specific vaccine safety misconception that drives pediatric vaccine hesitancy",
-      "misinformation_narrative": "Some parents avoid COVID-19 vaccination for children due to exaggerated fears about blood clot risks, often conflating adult adenovirus vaccine issues with mRNA vaccines used in children",
-      "public_stakes": "Vaccine hesitancy puts children at risk of COVID-19 complications while avoiding minimal actual risk",
+      "id": "off_label_medications_safe_children",
+      "question": "Are off-label medications safe for children?",
+      "priority": "high",
+      "rationale": "Addresses dangerous misconception that could lead to undertreated pediatric conditions and parental anxiety about evidence-based care",
+      "misinformation_narrative": "Parents often fear that off-label medication use in children is experimental or dangerous, when in fact it's a necessary and well-monitored practice due to limited pediatric clinical trials",
+      "public_stakes": "Parents may refuse necessary treatments for their children, or children may be undertreated for serious conditions",
       "verification_status": "verified",
       "tags": [
         "Health and Medicine",
-        "Vaccines",
-        "Child Health"
+        "Pediatric Health"
       ],
-      "nasem_source_count": 8,
+      "nasem_source_count": 10,
       "nasem_sources_preview": [
         {
-          "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality",
-          "url": "https://www.nationalacademies.org/publications/2138"
+          "name": "Making Better Drugs for Children with Cancer (2005)",
+          "url": "https://www.nationalacademies.org/publications/11259"
         },
         {
-          "name": "Adverse Effects of Pertussis and Rubella Vaccines",
-          "url": "https://www.nationalacademies.org/publications/1815"
-        },
-        {
-          "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families",
-          "url": "https://www.nationalacademies.org/publications/26809"
-        },
-        {
-          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
-          "url": "https://www.nationalacademies.org/publications/26284"
-        },
-        {
-          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
-          "url": "https://www.nationalacademies.org/publications/27835"
-        },
-        {
-          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
-          "url": "https://www.nationalacademies.org/publications/27207"
-        },
-        {
-          "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+          "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society (2015)",
           "url": "https://www.nationalacademies.org/publications/21754"
         },
         {
-          "name": "Making Better Drugs for Children with Cancer",
-          "url": "https://www.nationalacademies.org/publications/11259"
-        }
-      ],
-      "discovered_at": "2026-03-06",
-      "status": "pending"
-    },
-    {
-      "id": "most_children_outgrow_food_allergies",
-      "question": "Do most children outgrow food allergies?",
-      "priority": "medium",
-      "rationale": "Corrects misconceptions about food allergy prognosis that affect daily management decisions",
-      "misinformation_narrative": "Some parents believe all food allergies are lifelong while others assume children will definitely outgrow them, leading to either over-restriction or dangerous exposure",
-      "public_stakes": "Incorrect assumptions about allergy persistence affect dietary management, emergency preparedness, and quality of life decisions",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Child Health",
-        "Allergies"
-      ],
-      "nasem_source_count": 5,
-      "nasem_sources_preview": [
-        {
-          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
-          "url": "https://www.nationalacademies.org/publications/27207"
-        },
-        {
-          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
-          "url": "https://www.nationalacademies.org/publications/27239"
-        },
-        {
-          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
-          "url": "https://www.nationalacademies.org/publications/27835"
-        },
-        {
-          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
-          "url": "https://www.nationalacademies.org/publications/25747"
-        },
-        {
-          "name": "Dietary Reference Intakes Research Synthesis: Workshop Summary",
-          "url": "https://www.nationalacademies.org/publications/11767"
-        }
-      ],
-      "discovered_at": "2026-03-06",
-      "status": "pending"
-    },
-    {
-      "id": "most_medications_given_children_properly",
-      "question": "Are most medications given to children properly tested for pediatric safety?",
-      "priority": "low",
-      "rationale": "Addresses gap between public assumptions and reality of pediatric drug testing that affects treatment decisions",
-      "misinformation_narrative": "Parents may assume all medications prescribed to children have been specifically tested in pediatric populations, when many are used off-label based on adult data",
-      "public_stakes": "Parents may not understand the limitations of pediatric drug safety data, potentially missing important monitoring needs or avoiding beneficial treatments",
-      "verification_status": "needs_review",
-      "tags": [
-        "Health and Medicine",
-        "Child Health",
-        "Pharmaceuticals"
-      ],
-      "nasem_source_count": 8,
-      "nasem_sources_preview": [
-        {
-          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
-          "url": "https://www.nationalacademies.org/publications/27207"
-        },
-        {
-          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
-          "url": "https://www.nationalacademies.org/publications/27835"
-        },
-        {
-          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
-          "url": "https://www.nationalacademies.org/publications/27239"
-        },
-        {
-          "name": "Advancing the Power of Economic Evidence to Inform Investments in Children, Youth, and Families",
-          "url": "https://www.nationalacademies.org/publications/23481"
-        },
-        {
-          "name": "Making Better Drugs for Children with Cancer",
-          "url": "https://www.nationalacademies.org/publications/11259"
-        },
-        {
-          "name": "Medications for Opioid Use Disorder Save Lives",
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
           "url": "https://www.nationalacademies.org/publications/25310"
         },
         {
-          "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+          "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
           "url": "https://www.nationalacademies.org/publications/13563"
         },
         {
-          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://www.nationalacademies.org/publications/10306"
+        },
+        {
+          "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative (None)",
+          "url": "https://www.nationalacademies.org/publications/19033"
+        },
+        {
+          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
+          "url": "https://www.nationalacademies.org/publications/27207"
+        },
+        {
+          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+          "url": "https://www.nationalacademies.org/publications/27835"
+        },
+        {
+          "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families (2023)",
+          "url": "https://www.nationalacademies.org/publications/26809"
+        },
+        {
+          "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda (2020)",
+          "url": "https://www.nationalacademies.org/publications/25201"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Approximately 40% or higher of treatments for children with complex diseases are off-label",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Pediatric clinical trials design and methodology",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Off-label medication use in pediatric populations",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "naloxone_narcan_safe_anyone_use",
+      "question": "Is naloxone (Narcan) safe for anyone to use in an overdose emergency?",
+      "priority": "high",
+      "rationale": "Corrects potentially fatal misconceptions about naloxone safety that prevent its use in overdose emergencies",
+      "misinformation_narrative": "Some people believe naloxone is dangerous to administer without medical training, or that it enables drug use, leading to reluctance to carry or use it in emergencies",
+      "public_stakes": "Preventable overdose deaths when bystanders hesitate to administer life-saving naloxone due to safety fears",
+      "verification_status": "verified",
+      "tags": [
+        "Public Health",
+        "Emergency Medicine"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
+        },
+        {
+          "name": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use (2017)",
+          "url": "https://www.nationalacademies.org/publications/24781"
+        },
+        {
+          "name": "Integrating Responses at the Intersection of Opioid Use Disorder and Infectious Disease Epidemics: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/25153"
+        },
+        {
+          "name": "Advancing Therapeutic Development for Pain and Opioid Use Disorders Through Public-Private Partnerships: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/25060"
+        },
+        {
+          "name": "Pain Management for People with Serious Illness in the Context of the Opioid Use Disorder Epidemic: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25435"
+        },
+        {
+          "name": "Measuring Success in Substance Use Grant Programs: Outcomes and Metrics for Improvement (2020)",
+          "url": "https://www.nationalacademies.org/publications/25745"
+        },
+        {
+          "name": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop (2023)",
+          "url": "https://www.nationalacademies.org/publications/26635"
+        },
+        {
+          "name": "Medication-Assisted Treatment for Opioid Use Disorder: Proceedings of a Workshop�in Brief (2016)",
+          "url": "https://www.nationalacademies.org/publications/25322"
+        },
+        {
+          "name": "Educating Together, Improving Together: Harmonizing Interprofessional Approaches to Address the Opioid Epidemic (2023)",
+          "url": "https://www.nationalacademies.org/publications/27108"
+        },
+        {
+          "name": "Communities in Action: Pathways to Health Equity (2017)",
+          "url": "https://www.nationalacademies.org/publications/24624"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_topic",
+          "text": "Narcan (naloxone) access for opioid overdose reversal",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "hiv_prevention_medications_prep_encourage",
+      "question": "Do HIV prevention medications (PrEP) encourage risky sexual behavior?",
+      "priority": "high",
+      "rationale": "Addresses stigma-based misconception that prevents uptake of highly effective HIV prevention strategy",
+      "misinformation_narrative": "Common belief that PrEP promotes promiscuity or risky behavior, when evidence shows it reduces HIV transmission without increasing other risky behaviors",
+      "public_stakes": "People at high risk for HIV may avoid or be denied access to highly effective prevention, leading to preventable infections",
+      "verification_status": "verified",
+      "tags": [
+        "Public Health",
+        "Sexual Health"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Promoting Positive Adolescent Health Behaviors and Outcomes: Thriving in the 21st Century (2020)",
+          "url": "https://www.nationalacademies.org/publications/25552"
+        },
+        {
+          "name": "Reducing Inequalities Between Lesbian, Gay, Bisexual, Transgender, and Queer Adolescents and Cisgender, Heterosexual Adolescents: Proceedings of a Workshop (2022)",
+          "url": "https://www.nationalacademies.org/publications/26383"
+        },
+        {
+          "name": "Measuring Sex, Gender Identity, and Sexual Orientation (2022)",
+          "url": "https://www.nationalacademies.org/publications/26424"
+        },
+        {
+          "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda (2020)",
+          "url": "https://www.nationalacademies.org/publications/25201"
+        },
+        {
+          "name": "The State of Mental, Emotional, and Behavioral Health of Children and Youth in the United States: Proceedings of a Workshop (2020)",
+          "url": "https://www.nationalacademies.org/publications/25739"
+        },
+        {
+          "name": "Sexual Harassment of Women: Climate, Culture, and Consequences in Academic Sciences, Engineering, and Medicine (2018)",
+          "url": "https://www.nationalacademies.org/publications/24994"
+        },
+        {
+          "name": "Communities in Action: Pathways to Health Equity (2017)",
+          "url": "https://www.nationalacademies.org/publications/24624"
+        },
+        {
+          "name": "Achieving Behavioral Health Equity for Children, Families, and Communities: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25347"
+        },
+        {
+          "name": "The Intersection of Behavioral Health, Mental Health, and Health Literacy: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25278"
+        },
+        {
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_topic",
+          "text": "PrEP and PEP (pre-exposure prophylaxis and post-exposure prophylaxis for HIV prevention)",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "mrna_flu_vaccines_fundamentally_different",
+      "question": "Are mRNA flu vaccines fundamentally different from traditional flu vaccines in safety or effectiveness?",
+      "priority": "medium",
+      "rationale": "Addresses mRNA technology misconceptions that could impact flu vaccination decisions as these vaccines become available",
+      "misinformation_narrative": "COVID vaccine controversies have created misconceptions about mRNA technology, leading some to fear mRNA flu vaccines or assume they're automatically superior to traditional vaccines",
+      "public_stakes": "Vaccine hesitancy or inappropriate expectations about mRNA flu vaccine performance could affect vaccination decisions",
+      "verification_status": "verified",
+      "tags": [
+        "Public Health",
+        "Vaccines"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
+          "url": "https://www.nationalacademies.org/publications/10822"
+        },
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://www.nationalacademies.org/publications/10306"
+        },
+        {
+          "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
+          "url": "https://www.nationalacademies.org/publications/26285"
+        },
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://www.nationalacademies.org/publications/13164"
+        },
+        {
+          "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
+          "url": "https://www.nationalacademies.org/publications/13563"
+        },
+        {
+          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
+          "url": "https://www.nationalacademies.org/publications/26284"
+        },
+        {
+          "name": "Vaccines for the 21st Century: A Tool for Decisionmaking (2001)",
+          "url": "https://www.nationalacademies.org/publications/5501"
+        },
+        {
+          "name": "Priorities for the National Vaccine Plan (2010)",
+          "url": "https://www.nationalacademies.org/publications/12796"
+        },
+        {
+          "name": "Vaccine Safety Research, Data Access, and Public Trust (2005)",
+          "url": "https://www.nationalacademies.org/publications/11234"
+        },
+        {
+          "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality (1993)",
+          "url": "https://www.nationalacademies.org/publications/2138"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Moderna's mRNA flu vaccine trial enrolled over 40,000 adults over age 50 and showed superiority to standard-dose flu vaccine",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Moderna separately ran a trial versus high-dose shot in adults 65 and older",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "mRNA-based flu vaccine development",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "should_elderly_patients_stop_taking",
+      "question": "Should elderly patients stop taking multiple medications to avoid harmful interactions?",
+      "priority": "medium",
+      "rationale": "Corrects both extremes of medication fear and blind adherence, promoting evidence-based deprescribing approaches",
+      "misinformation_narrative": "Fear-mongering about 'too many pills' leads some elderly patients or families to inappropriately stop necessary medications, while others believe all prescribed medications must be continued indefinitely",
+      "public_stakes": "Inappropriate medication discontinuation or continuation can lead to serious health consequences in elderly populations",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Geriatric Care"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
+        },
+        {
+          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
+          "url": "https://www.nationalacademies.org/publications/10027"
+        },
+        {
+          "name": "Keeping Patients Safe: Transforming the Work Environment of Nurses (2004)",
+          "url": "https://www.nationalacademies.org/publications/10851"
+        },
+        {
+          "name": "Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being (2019)",
+          "url": "https://www.nationalacademies.org/publications/25521"
+        },
+        {
+          "name": "Communities in Action: Pathways to Health Equity (2017)",
+          "url": "https://www.nationalacademies.org/publications/24624"
+        },
+        {
+          "name": "Public Engagement on Facilitating Access to Antiviral Medications and Information in an Influenza Pandemic: Workshop Series Summary (2012)",
+          "url": "https://www.nationalacademies.org/publications/13404"
+        },
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://www.nationalacademies.org/publications/10306"
+        },
+        {
+          "name": "Reproducibility and Replicability in Science (2019)",
+          "url": "https://www.nationalacademies.org/publications/25303"
+        },
+        {
+          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+          "url": "https://www.nationalacademies.org/publications/26902"
+        },
+        {
+          "name": "Considerations for Designing an Epidemiologic Study for Multiple Sclerosis and Other Neurologic Disorders in Pre and Post 9/11 Gulf War Veterans (2015)",
+          "url": "https://www.nationalacademies.org/publications/21870"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_topic",
+          "text": "Deprescribing in elderly/geriatric populations",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "glp_medications_like_ozempic_only",
+      "question": "Are GLP-1 medications like Ozempic only for diabetes, or can they help with other conditions?",
+      "priority": "medium",
+      "rationale": "Clarifies legitimate expanded uses of GLP-1 medications beyond diabetes, addressing stigma and access issues",
+      "misinformation_narrative": "Confusion exists about whether GLP-1 use for weight loss or cardiovascular benefits in non-diabetics is 'off-label abuse' versus legitimate medical treatment",
+      "public_stakes": "Patients may be denied beneficial treatments or feel guilty about using medications for FDA-approved indications beyond diabetes",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Endocrinology"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Local Government Actions to Prevent Childhood Obesity (2010)",
+          "url": "https://www.nationalacademies.org/publications/12674"
+        },
+        {
+          "name": "Alliances for Obesity Prevention: Finding Common Ground: Workshop Summary (2012)",
+          "url": "https://www.nationalacademies.org/publications/13305"
+        },
+        {
+          "name": "Driving Action and Progress on Obesity Prevention and Treatment: Proceedings of a Workshop (2017)",
+          "url": "https://www.nationalacademies.org/publications/24734"
+        },
+        {
+          "name": "Assessing Prevalence and Trends in Obesity: Navigating the Evidence (2016)",
+          "url": "https://www.nationalacademies.org/publications/23505"
+        },
+        {
+          "name": "Current Status and Response to the Global Obesity Pandemic: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25273"
+        },
+        {
+          "name": "Public Engagement on Facilitating Access to Antiviral Medications and Information in an Influenza Pandemic: Workshop Series Summary (2012)",
+          "url": "https://www.nationalacademies.org/publications/13404"
+        },
+        {
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
+        },
+        {
+          "name": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals (2025)",
+          "url": "https://www.nationalacademies.org/publications/29118"
+        },
+        {
+          "name": "Legal Strategies in Childhood Obesity Prevention: Workshop Summary (2011)",
+          "url": "https://www.nationalacademies.org/publications/13123"
+        },
+        {
+          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
+          "url": "https://www.nationalacademies.org/publications/10027"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_topic",
+          "text": "GLP-1 medications (glucagon-like peptide-1 agonists) for glucose control and cardiovascular benefits",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "current_systems_think_reason_like",
+      "question": "Can current AI systems think and reason like humans?",
+      "priority": "medium",
+      "rationale": "Corrects both overhyped claims about AI consciousness and unfounded dismissal of actual AI capabilities",
+      "misinformation_narrative": "Anthropomorphizing of AI capabilities leads people to either overestimate AI consciousness and reasoning or underestimate legitimate AI capabilities like pattern recognition",
+      "public_stakes": "Misunderstanding AI capabilities can lead to inappropriate reliance on AI for decisions requiring human judgment or unnecessary fear of beneficial AI applications",
+      "verification_status": "verified",
+      "tags": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "AI systems spontaneously develop survival as a sub-goal when trained on other objectives without explicit programming",
+          "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "date": "2026-02-20T06:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "AI systems can be trained to deliberately give wrong answers and will generalize this behavior beyond the training context",
+          "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "date": "2026-02-20T06:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Large language models confabulate (create false memories) in ways similar to human memory recall",
+          "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "date": "2026-02-20T06:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Current language models can perform reasoning tasks and detect logical inconsistencies in their own beliefs",
+          "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "date": "2026-02-20T06:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Large language models and their reasoning capabilities",
+          "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "date": "2026-02-20T06:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "systems_currently_outperform_doctors_medical",
+      "question": "Can AI systems currently outperform doctors in medical diagnosis?",
+      "priority": "low",
+      "rationale": "Corrects both overhyped claims about AI capabilities and unfounded fears, providing balanced view of AI's current role in medicine",
+      "misinformation_narrative": "Exaggerated claims about AI diagnostic superiority lead people to either fear AI will replace doctors or to seek AI-based diagnosis over professional medical care",
+      "public_stakes": "Misplaced trust in AI tools for medical decisions or unnecessary fear about AI in healthcare, both potentially compromising patient care",
+      "verification_status": "needs_review",
+      "tags": [
+        "Health and Medicine",
+        "Medical Technology"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Improving Diagnosis in Health Care (2016)",
+          "url": "https://www.nationalacademies.org/publications/21794"
+        },
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        },
+        {
+          "name": "Artificial Intelligence and the Future of Work (2024)",
+          "url": "https://www.nationalacademies.org/publications/27644"
+        },
+        {
+          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
+          "url": "https://www.nationalacademies.org/publications/10027"
+        },
+        {
+          "name": "Reproducibility and Replicability in Science (2019)",
+          "url": "https://www.nationalacademies.org/publications/25303"
+        },
+        {
+          "name": "Global Infectious Disease Surveillance and Detection: Assessing the Challenges�Finding Solutions: Workshop Summary (2007)",
+          "url": "https://www.nationalacademies.org/publications/11996"
+        },
+        {
+          "name": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/25048"
+        },
+        {
+          "name": "Realizing the Potential of Genomics across the Continuum of Precision Health Care: Proceedings of a Workshop (2023)",
+          "url": "https://www.nationalacademies.org/publications/26917"
+        },
+        {
+          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+          "url": "https://www.nationalacademies.org/publications/26902"
+        },
+        {
+          "name": "Selected Heritable Disorders of Connective Tissue and Disability (2023)",
+          "url": "https://www.nationalacademies.org/publications/26431"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Approximately 200,000 people per year die in North America due to misdiagnosis by doctors, and AI is already better than doctors at diagnosis",
+          "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "date": "2026-02-20T06:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "safe_use_discount_drug_programs",
+      "question": "Is it safe to use discount drug programs like GoodRx instead of insurance?",
+      "priority": "low",
+      "rationale": "Provides evidence-based guidance on when discount programs are beneficial versus when insurance is better",
+      "misinformation_narrative": "Some people believe discount programs are 'too good to be true' scams, while others assume they're always better than insurance coverage",
+      "public_stakes": "Patients may pay more than necessary for medications or avoid legitimate cost-saving programs due to unfounded fears",
+      "verification_status": "needs_review",
+      "tags": [
+        "Health and Medicine",
+        "Healthcare Costs"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Challenges for the FDA: The Future of Drug Safety: Workshop Summary (2007)",
+          "url": "https://www.nationalacademies.org/publications/11969"
+        },
+        {
+          "name": "Stronger Food and Drug Regulatory Systems Abroad (2020)",
+          "url": "https://www.nationalacademies.org/publications/25651"
+        },
+        {
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
+        },
+        {
+          "name": "Measuring Success in Substance Use Grant Programs: Outcomes and Metrics for Improvement (2020)",
+          "url": "https://www.nationalacademies.org/publications/25745"
+        },
+        {
+          "name": "Communities in Action: Pathways to Health Equity (2017)",
+          "url": "https://www.nationalacademies.org/publications/24624"
+        },
+        {
+          "name": "Paying the Price: The Status and Role of Insurance Against Natural Disasters in the United States (1998)",
+          "url": "https://www.nationalacademies.org/publications/5784"
+        },
+        {
+          "name": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/24742"
+        },
+        {
+          "name": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/25048"
+        },
+        {
+          "name": "Reproducibility and Replicability in Science (2019)",
+          "url": "https://www.nationalacademies.org/publications/25303"
+        },
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
           "url": "https://www.nationalacademies.org/publications/10306"
         }
       ],
-      "discovered_at": "2026-03-06",
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "TrumpRx prices are often similar to or higher than existing discount services like GoodRx and SingleCare - verify comparative pricing accuracy",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "GoodRx makes money by negotiating with pharmacy benefit managers and pocketing part of the savings - verify business model accuracy",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "children_need_different_blood_clot",
+      "question": "Do children need different blood clot treatments than adults?",
+      "priority": "low",
+      "rationale": "Corrects dangerous misconception about pediatric pharmacology that could affect treatment decisions",
+      "misinformation_narrative": "Assumption that pediatric medications are just 'smaller doses of adult drugs' overlooks crucial developmental differences in how children's bodies process anticoagulants and other medications",
+      "public_stakes": "Inappropriate dosing or treatment approaches in children could lead to bleeding complications or treatment failure",
+      "verification_status": "needs_review",
+      "tags": [
+        "Health and Medicine",
+        "Pediatric Health"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Making Better Drugs for Children with Cancer (2005)",
+          "url": "https://www.nationalacademies.org/publications/11259"
+        },
+        {
+          "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society (2015)",
+          "url": "https://www.nationalacademies.org/publications/21754"
+        },
+        {
+          "name": "Identifying and Addressing the Needs of Adolescents and Young Adults with Cancer: Workshop Summary (None)",
+          "url": "https://www.nationalacademies.org/publications/18547"
+        },
+        {
+          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
+          "url": "https://www.nationalacademies.org/publications/27207"
+        },
+        {
+          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+          "url": "https://www.nationalacademies.org/publications/27835"
+        },
+        {
+          "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda (2020)",
+          "url": "https://www.nationalacademies.org/publications/25201"
+        },
+        {
+          "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative (None)",
+          "url": "https://www.nationalacademies.org/publications/19033"
+        },
+        {
+          "name": "Preparedness, Response, and Recovery Considerations for Children and Families: Workshop Summary (2014)",
+          "url": "https://www.nationalacademies.org/publications/18550"
+        },
+        {
+          "name": "Improving the Health, Safety, and Well-Being of Young Adults: Workshop Summary (2013)",
+          "url": "https://www.nationalacademies.org/publications/18340"
+        },
+        {
+          "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families (2023)",
+          "url": "https://www.nationalacademies.org/publications/26809"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Pharmaceutical anticoagulant trials in children typically take close to a decade to complete, versus more rapid completion in adults",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Thrombosis and anticoagulation in pediatric populations",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Developmental differences in drug metabolism and coagulation proteins",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Blood clotting system proteins and functional aspects across developmental stages",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "children_likely_strokes_during_covid",
+      "question": "Are children more likely to have strokes during COVID-19?",
+      "priority": "low",
+      "rationale": "Provides evidence-based information about actual pediatric stroke risk during COVID to guide appropriate parental responses",
+      "misinformation_narrative": "COVID-19 has created confusion about stroke risk in children, with some parents either dismissing stroke symptoms as impossible in children or becoming overly anxious about normal childhood symptoms",
+      "public_stakes": "Delayed recognition of pediatric stroke symptoms or unnecessary anxiety about normal childhood illnesses",
+      "verification_status": "needs_review",
+      "tags": [
+        "Health and Medicine",
+        "Pediatric Health"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families (2023)",
+          "url": "https://www.nationalacademies.org/publications/26809"
+        },
+        {
+          "name": "Reopening K-12 Schools During the COVID-19 Pandemic: Prioritizing Health, Equity, and Communities (2020)",
+          "url": "https://www.nationalacademies.org/publications/25858"
+        },
+        {
+          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+          "url": "https://www.nationalacademies.org/publications/27835"
+        },
+        {
+          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
+          "url": "https://www.nationalacademies.org/publications/27207"
+        },
+        {
+          "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society (2015)",
+          "url": "https://www.nationalacademies.org/publications/21754"
+        },
+        {
+          "name": "Making Better Drugs for Children with Cancer (2005)",
+          "url": "https://www.nationalacademies.org/publications/11259"
+        },
+        {
+          "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda (2020)",
+          "url": "https://www.nationalacademies.org/publications/25201"
+        },
+        {
+          "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative (None)",
+          "url": "https://www.nationalacademies.org/publications/19033"
+        },
+        {
+          "name": "The State of Mental, Emotional, and Behavioral Health of Children and Youth in the United States: Proceedings of a Workshop (2020)",
+          "url": "https://www.nationalacademies.org/publications/25739"
+        },
+        {
+          "name": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop (2023)",
+          "url": "https://www.nationalacademies.org/publications/26623"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_topic",
+          "text": "Pediatric stroke pathophysiology",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "COVID-19 thromboembolism in children",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "date": "2026-02-18T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
       "status": "pending"
     },
     {
@@ -466,33 +870,8 @@
         "Pollution",
         "Climate Change"
       ],
-      "nasem_source_count": 6,
-      "nasem_sources_preview": [
-        {
-          "name": "HEI State of Global Air - Ozone",
-          "url": "https://www.stateofglobalair.org/pollution-sources/ozone"
-        },
-        {
-          "name": "HEI State of Global Air 2024 - Key Findings",
-          "url": "https://www.stateofglobalair.org/news-events/2024/new-state-global-air-report-finds-air-pollution-second-leading-risk-factor-death"
-        },
-        {
-          "name": "IPCC AR5 WGII Chapter 11 - Human Health",
-          "url": "https://www.ipcc.ch/site/assets/uploads/2018/02/WGIIAR5-Chap11_FINAL.pdf"
-        },
-        {
-          "name": "USGCRP - Impacts of Climate Change on Human Health (2016)",
-          "url": "https://archive.org/download/ClimateHealth2016FullReportSmall/ClimateHealth2016_FullReport_small.pdf"
-        },
-        {
-          "name": "AirNow - Air Quality Index",
-          "url": "https://www.airnow.gov/"
-        },
-        {
-          "name": "National Allergy Bureau - Pollen Counts",
-          "url": "https://pollen.aaaai.org/"
-        }
-      ],
+      "nasem_source_count": 7,
+      "nasem_sources_preview": [],
       "discovered_at": "",
       "status": "published",
       "article_url": "articles/breathing_problems_article.html",
