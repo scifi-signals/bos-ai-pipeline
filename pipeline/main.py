@@ -34,6 +34,11 @@ def cmd_run(args):
     evidence = extract_evidence(question_config)
     print(f"  Total: {evidence['total_findings']} findings from {evidence['sources_processed']} sources")
 
+    if evidence['total_findings'] == 0:
+        print(f"\n  HALTED: No evidence extracted from any source. Cannot generate article.")
+        print("  Check source URLs and content availability.")
+        sys.exit(1)
+
     # Step 2: Consensus building
     print(f"\n[2/7] Building consensus...")
     from consensus_builder import build_consensus
