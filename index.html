@@ -487,6 +487,39 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     // ========================================================================
     // One-Click Generation: Workflow Dispatch
     // ========================================================================
+    // Pipeline stages with approximate cumulative time offsets (seconds)
+    var PIPELINE_STAGES = [
+        { at: 0,   label: 'Queued — waiting for runner...' },
+        { at: 30,  label: 'Step 1/7 — Fetching and reading source documents...' },
+        { at: 90,  label: 'Step 2/7 — Extracting evidence from each source...' },
+        { at: 180, label: 'Step 3/7 — Building cross-source consensus...' },
+        { at: 240, label: 'Step 4/7 — Writing article draft (8th-grade level)...' },
+        { at: 330, label: 'Step 5/7 — Fact-checking every claim (independent model)...' },
+        { at: 420, label: 'Step 6/7 — Generating social media posts...' },
+        { at: 460, label: 'Step 7/7 — Rendering HTML and publishing...' },
+        { at: 510, label: 'Finishing up — should appear any moment...' },
+    ];
+
+    function updateProgressLabel(qid) {
+        var key = 'generating_' + qid;
+        var startTime = parseInt(localStorage.getItem(key), 10);
+        if (!startTime) return;
+
+        var elapsed = (Date.now() - startTime) / 1000;
+        var progressEl = document.getElementById('progress-' + qid);
+        if (!progressEl) return;
+
+        // Find current stage
+        var currentStage = PIPELINE_STAGES[0];
+        for (var i = PIPELINE_STAGES.length - 1; i >= 0; i--) {
+            if (elapsed >= PIPELINE_STAGES[i].at) {
+                currentStage = PIPELINE_STAGES[i];
+                break;
+            }
+        }
+        progressEl.textContent = currentStage.label;
+    }
+
     function generateArticle(questionId, btn) {
         btn.disabled = true;
         btn.textContent = 'Triggering...';
@@ -505,8 +538,16 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         }).then(function(response) {
             if (response.ok) {
                 btn.className = 'generate-btn generating';
-                btn.textContent = 'Generating... (~10 min)';
+                btn.innerHTML = '<span id="progress-' + questionId + '">Queued — waiting for runner...</span>';
                 localStorage.setItem('generating_' + questionId, Date.now().toString());
+                // Start progress ticker
+                var ticker = setInterval(function() {
+                    if (!localStorage.getItem('generating_' + questionId)) {
+                        clearInterval(ticker);
+                        return;
+                    }
+                    updateProgressLabel(questionId);
+                }, 5000);
             } else {
                 response.json().then(function(data) {
                     btn.disabled = false;
@@ -554,10 +595,17 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                         btn.style.color = 'white';
                     }
                 } else if (btn) {
-                    // Still in progress
+                    // Still in progress — show stage-based progress
                     btn.className = 'generate-btn generating';
-                    btn.textContent = 'Generating... (~10 min)';
                     btn.disabled = true;
+                    btn.innerHTML = '<span id="progress-' + qid + '"></span>';
+                    updateProgressLabel(qid);
+                    (function(id) {
+                        setInterval(function() {
+                            if (!localStorage.getItem('generating_' + id)) return;
+                            updateProgressLabel(id);
+                        }, 5000);
+                    })(qid);
                 }
             }
         }
