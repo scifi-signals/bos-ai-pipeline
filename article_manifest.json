@@ -1,17 +1,16 @@
 {
   "articles": [
     {
-      "id": "covid_vaccines_cause_dangerous_blood",
-      "title": "Do COVID-19 vaccines cause dangerous blood clots?",
-      "article_url": "articles/covid_vaccines_cause_dangerous_blood_article.html",
-      "evidence_url": "articles/covid_vaccines_cause_dangerous_blood_evidence.html",
+      "id": "climate_change_actually_accelerating_fast",
+      "title": "Is climate change actually accelerating as fast as scientists claim?",
+      "article_url": "articles/climate_change_actually_accelerating_fast_article.html",
+      "evidence_url": "articles/climate_change_actually_accelerating_fast_evidence.html",
       "tags": [
-        "Vaccines",
-        "COVID-19",
-        "Public Health"
+        "Climate Change",
+        "Environment"
       ],
       "sources_count": 8,
-      "findings_count": 3,
+      "findings_count": 27,
       "fact_check": "NEEDS_REVISION",
       "has_social": true
     },
@@ -29,6 +28,21 @@
       "findings_count": 63,
       "fact_check": "NEEDS_REVISION",
       "demo": true
+    },
+    {
+      "id": "covid_vaccines_cause_dangerous_blood",
+      "title": "Do COVID-19 vaccines cause dangerous blood clots?",
+      "article_url": "articles/covid_vaccines_cause_dangerous_blood_article.html",
+      "evidence_url": "articles/covid_vaccines_cause_dangerous_blood_evidence.html",
+      "tags": [
+        "Vaccines",
+        "COVID-19",
+        "Public Health"
+      ],
+      "sources_count": 8,
+      "findings_count": 3,
+      "fact_check": "NEEDS_REVISION",
+      "has_social": true
     },
     {
       "id": "should_parents_avoid_giving_young",
