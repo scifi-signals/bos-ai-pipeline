@@ -123,6 +123,18 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 
 .published-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; background:var(--green-light); color:var(--green); }
 
+/* Queue tabs */
+.queue-tabs { display:flex; gap:0; border-bottom:2px solid var(--border); margin-bottom:16px; }
+.queue-tab { padding:10px 20px; font-size:14px; font-weight:500; color:var(--text-tertiary); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; background:none; border-top:none; border-left:none; border-right:none; font-family:'DM Sans',sans-serif; transition:color 0.15s; }
+.queue-tab:hover { color:var(--text-secondary); }
+.queue-tab.active { color:var(--accent); border-bottom-color:var(--accent); }
+.queue-tab .tab-count { display:inline-block; min-width:18px; height:18px; line-height:18px; text-align:center; border-radius:9px; font-size:11px; font-weight:700; margin-left:6px; padding:0 5px; }
+.queue-tab.active .tab-count { background:var(--accent-light); color:var(--accent); }
+.queue-tab:not(.active) .tab-count { background:var(--bg); color:var(--text-tertiary); }
+.queue-tab-gap .tab-count { background:#F0F0FF !important; color:#6366F1 !important; }
+.queue-tab-panel { display:none; }
+.queue-tab-panel.active { display:block; }
+
 /* NASEM Gap styling */
 .gap-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; background:#F0F0FF; color:#6366F1; border:1px solid #C7D2FE; }
 .gap-box { background:#F0F0FF; border:1px solid #C7D2FE; border-radius:var(--radius-sm); padding:12px 16px; margin-bottom:10px; font-size:13px; line-height:1.6; }
@@ -214,6 +226,14 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             <div id="discovery-queue">
                 <p style="color:var(--text-tertiary); font-size:14px;">Loading discovery queue...</p>
             </div>
+        </div>
+
+        <div class="card queue-section" id="gaps-section" style="display:none;">
+            <div class="card-label">NASEM Coverage Gaps</div>
+            <p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px; line-height:1.6;">
+                Trending misinformation topics where the National Academies has no published research. Alternative authoritative sources are listed for each gap. These represent opportunities for new NASEM coverage.
+            </p>
+            <div id="gaps-queue"></div>
         </div>
 
         <div class="card">
@@ -348,7 +368,6 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             return;
         }
 
-        var html = '';
         var questions = discoveryData.questions;
 
         // Client-side status: cross-reference with manifest
@@ -358,30 +377,32 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             }
         });
 
-        var pendingCount = questions.filter(function(q) { return q.status === 'pending'; }).length;
-        var gapCount = questions.filter(function(q) { return q.status === 'nasem_gap'; }).length;
-        var publishedCount = questions.filter(function(q) { return q.status === 'published'; }).length;
+        var pendingQuestions = questions.filter(function(q) { return q.status === 'pending'; });
+        var gapQuestions = questions.filter(function(q) { return q.status === 'nasem_gap'; });
+        var publishedQuestions = questions.filter(function(q) { return q.status === 'published'; });
 
-        var countParts = [pendingCount + ' ready to generate'];
-        if (gapCount > 0) countParts.push(gapCount + ' NASEM gap' + (gapCount !== 1 ? 's' : ''));
-        if (publishedCount > 0) countParts.push(publishedCount + ' published');
-
-        html += '<p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px;">' +
-            countParts.join(' &middot; ') +
+        // Render main queue (pending + published)
+        var html = '<p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px;">' +
+            pendingQuestions.length + ' ready to generate' +
+            (publishedQuestions.length > 0 ? ' &middot; ' + publishedQuestions.length + ' published' : '') +
             (discoveryData.generated_at ? ' &middot; Last updated: ' + new Date(discoveryData.generated_at).toLocaleDateString() : '') +
             '</p>';
 
-        questions.forEach(function(q) {
-            if (q.status === 'published') {
-                html += renderPublishedQueueItem(q);
-            } else if (q.status === 'nasem_gap') {
-                html += renderGapQueueItem(q);
-            } else {
-                html += renderPendingQueueItem(q);
-            }
-        });
+        pendingQuestions.forEach(function(q) { html += renderPendingQueueItem(q); });
+        publishedQuestions.forEach(function(q) { html += renderPublishedQueueItem(q); });
 
         container.innerHTML = html;
+
+        // Render gaps section
+        if (gapQuestions.length > 0) {
+            var gapsSection = document.getElementById('gaps-section');
+            gapsSection.style.display = 'block';
+            var gapsHtml = '<p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px;">' +
+                gapQuestions.length + ' topic' + (gapQuestions.length !== 1 ? 's' : '') + ' with no NASEM coverage' +
+                '</p>';
+            gapQuestions.forEach(function(q) { gapsHtml += renderGapQueueItem(q); });
+            document.getElementById('gaps-queue').innerHTML = gapsHtml;
+        }
 
         // Check for in-flight generations
         checkGenerationStatus();
