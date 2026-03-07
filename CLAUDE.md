@@ -37,8 +37,10 @@ python main.py serve                    # Browse output at localhost:8080
 
 ## Discovery Pipeline
 
-- `question_discoverer.py` — Mines questions from STM trending topics + podcast claims
+- `question_discoverer.py` — Mines questions from STM trending topics, podcast claims, Reddit, and Google Trends
 - `nasem_sourcer.py` — Finds relevant NASEM publications via keyword scoring + optional LLM rerank
+- `reddit_sourcer.py` — Mines Reddit science/health subreddits for public questions and misconceptions (PRAW, free tier)
+- `trends_sourcer.py` — Mines Google Trends for rising science/health searches (pytrends, no API key)
 - `alternative_sourcer.py` — Finds CDC/WHO/IPCC/Cochrane sources when NASEM has no coverage (gap analysis)
 - `run_discovery.py` — Orchestrates discovery: find questions → NASEM sources → alternative sources for gaps → write configs + queue
 - Data paths (`STM_DIR`, `PODCAST_DIR`) configurable via env vars for CI
@@ -59,6 +61,8 @@ python main.py serve                    # Browse output at localhost:8080
 Loaded from env vars or local text files:
 - `ANTHROPIC_API_KEY` — env var only, Claude (evidence, consensus, article, social, discovery)
 - `OPENAI_API_KEY` — env var only, GPT-4o (fact-checking)
+- `REDDIT_CLIENT_ID` — env var only, Reddit API (discovery, free tier OAuth)
+- `REDDIT_CLIENT_SECRET` — env var only, Reddit API (discovery, free tier OAuth)
 
 ## Key Design Decisions
 

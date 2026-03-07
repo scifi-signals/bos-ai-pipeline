@@ -198,7 +198,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             <div class="how-it-works-body">
                 <p>This tool finds science questions where <strong>misinformation is actively circulating</strong> and generates evidence-based articles to combat it.</p>
                 <ol>
-                    <li><strong>Discovery</strong> — Every day, the pipeline scans science news and podcasts for trending claims that contradict established research. Those become candidate questions in the queue below.</li>
+                    <li><strong>Discovery</strong> — Every day, the pipeline scans science news, podcasts, Reddit questions, and Google Trends for claims that contradict established research. Those become candidate questions in the queue below.</li>
                     <li><strong>Review</strong> — An editor reviews the queue. Each question shows the misinformation narrative, why it matters, and what NASEM sources are available. Questions marked "needs review" haven't been editorially confirmed yet.</li>
                     <li><strong>Generate</strong> — Clicking "Generate Article" kicks off a 7-step pipeline that takes <strong>3–5 minutes</strong>. It fetches and reads the source documents, extracts evidence, builds a consensus analysis, writes a draft at an 8th-grade reading level, then independently fact-checks every claim using a separate AI model. The result is a published article with a full evidence package you can inspect.</li>
                 </ol>
@@ -215,7 +215,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         <div class="queue-tab-panel active" id="tab-queue">
             <div class="card queue-section">
                 <p style="font-size:13px; color:var(--text-secondary); margin-bottom:16px; line-height:1.6;">
-                    Questions discovered daily from trending science topics and podcast claims. Each is matched to National Academies research and ranked by priority.
+                    Questions discovered daily from trending science topics, podcast claims, Reddit questions, and Google Trends. Each is matched to National Academies research and ranked by priority.
                 </p>
                 <div id="discovery-queue">
                     <p style="color:var(--text-tertiary); font-size:14px;">Loading discovery queue...</p>
@@ -505,8 +505,10 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                     realSources.length + ' signals from ' + uniqueCount + ' source' + (uniqueCount !== 1 ? 's' : '') :
                     realSources.length + ' signal' + (realSources.length !== 1 ? 's' : '');
                 var dsItems = realSources.map(function(ds) {
-                    var icon = ds.type === 'podcast_claim' ? '🎙' : ds.type === 'podcast_topic' ? '🎙' : '📈';
-                    var label = ds.type === 'podcast_claim' ? 'Podcast claim' : ds.type === 'podcast_topic' ? 'Podcast topic' : 'Trending topic';
+                    var typeMap = {podcast_claim:'🎙 Podcast claim', podcast_topic:'🎙 Podcast topic', trending_article:'📈 Trending topic', trending_topic:'📈 Trending topic', reddit:'💬 Reddit', trends:'📊 Google Trends'};
+                    var mapped = typeMap[ds.type] || '📄 ' + ds.type;
+                    var icon = mapped.split(' ')[0];
+                    var label = mapped.substring(mapped.indexOf(' ') + 1);
                     var line = icon + ' <strong>' + label + ':</strong> ' + escHtml(ds.text);
                     if (ds.origin) {
                         if (ds.url) {
@@ -639,8 +641,10 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                     realSources.length + ' signals from ' + uniqueCount + ' source' + (uniqueCount !== 1 ? 's' : '') :
                     realSources.length + ' signal' + (realSources.length !== 1 ? 's' : '');
                 var dsItems = realSources.map(function(ds) {
-                    var icon = ds.type === 'podcast_claim' ? '🎙' : ds.type === 'podcast_topic' ? '🎙' : '📈';
-                    var label = ds.type === 'podcast_claim' ? 'Podcast claim' : ds.type === 'podcast_topic' ? 'Podcast topic' : 'Trending topic';
+                    var typeMap = {podcast_claim:'🎙 Podcast claim', podcast_topic:'🎙 Podcast topic', trending_article:'📈 Trending topic', trending_topic:'📈 Trending topic', reddit:'💬 Reddit', trends:'📊 Google Trends'};
+                    var mapped = typeMap[ds.type] || '📄 ' + ds.type;
+                    var icon = mapped.split(' ')[0];
+                    var label = mapped.substring(mapped.indexOf(' ') + 1);
                     var line = icon + ' <strong>' + label + ':</strong> ' + escHtml(ds.text);
                     if (ds.origin) {
                         if (ds.url) {

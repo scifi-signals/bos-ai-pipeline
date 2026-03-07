@@ -1,4 +1,4 @@
-"""Discover potential BoS questions from STM trending topics and podcast claims."""
+"""Discover potential BoS questions from STM trends, podcasts, Reddit, and Google Trends."""
 
 import json
 import os
@@ -30,10 +30,20 @@ def discover_questions(max_questions=10):
     trending_qs = _mine_trending_topics()
     print(f"  Trending topics: {len(trending_qs)} candidates")
 
-    # Interleave sources so both get represented in the candidate cap
+    # Source 3: Reddit science questions + misconceptions
+    reddit_qs = _mine_reddit()
+    print(f"  Reddit posts: {len(reddit_qs)} candidates")
+
+    # Source 4: Google Trends rising searches
+    trends_qs = _mine_google_trends()
+    print(f"  Google Trends: {len(trends_qs)} candidates")
+
+    # Interleave sources so all get represented in the candidate cap
     # Give STM articles priority slots since they're outnumbered by podcasts
     raw_questions.extend(trending_qs)
+    raw_questions.extend(reddit_qs)
     raw_questions.extend(podcast_qs)
+    raw_questions.extend(trends_qs)
 
     if not raw_questions:
         print("  No candidates found. Check STM and podcast monitor data paths.")
@@ -88,6 +98,26 @@ def _mine_podcast_claims():
                 })
 
     return candidates
+
+
+def _mine_reddit():
+    """Pull science questions and misconceptions from Reddit."""
+    try:
+        from reddit_sourcer import mine_reddit_questions
+        return mine_reddit_questions()
+    except Exception as e:
+        print(f"    Reddit mining failed: {e}")
+        return []
+
+
+def _mine_google_trends():
+    """Pull trending science/health searches from Google Trends."""
+    try:
+        from trends_sourcer import mine_trending_searches
+        return mine_trending_searches()
+    except Exception as e:
+        print(f"    Google Trends mining failed: {e}")
+        return []
 
 
 def _mine_trending_topics():
@@ -167,7 +197,7 @@ def _rank_and_refine(raw_questions, max_questions):
         candidates_text += f"{i+1}. [{q['source_type']}] {q['raw_text']}\n"
         candidates_text += f"   Source: {q['source']}\n"
 
-    prompt = f"""I have {len(raw_questions)} candidate topics/claims from science podcasts and news trends.
+    prompt = f"""I have {len(raw_questions)} candidate topics/claims from science podcasts, news trends, Reddit questions, and Google Trends searches.
 Convert the best ones into "Based on Science" article questions.
 
 The "Based on Science" series exists to COMBAT MISINFORMATION — to provide authoritative,
