@@ -518,8 +518,15 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         var statusIcon = verStatus === 'verified' ? '✓' : verStatus === 'needs_review' ? '⚠' : '?';
         var statusLine = verText ? '<div style="font-size:12px; color:' + statusColor + '; margin-bottom:8px;">' + statusIcon + ' ' + verText + '</div>' : '';
 
+        // Readiness summary — explains why this question is ranked here
+        var readinessHtml = '';
+        if (q.readiness_summary) {
+            readinessHtml = '<div style="font-size:12px; color:var(--text-secondary); margin-bottom:8px; padding:6px 10px; background:var(--bg); border-radius:var(--radius-sm); line-height:1.5;">' + escHtml(q.readiness_summary) + '</div>';
+        }
+
         return '<div class="queue-item" id="queue-' + q.id + '">' +
             '<h3 style="margin-bottom:4px;">' + escHtml(q.question) + '</h3>' +
+            readinessHtml +
             statusLine +
             (rationale ? '<div class="queue-item-rationale">' + escHtml(rationale) + '</div>' : '') +
             discoveryHtml +

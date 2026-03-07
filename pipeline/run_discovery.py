@@ -330,6 +330,64 @@ Respond for all {len(narratives)} items:"""
     return questions
 
 
+def _extract_source_years(sources_preview):
+    """Extract publication years from source preview names like 'Title (2024)'."""
+    years = []
+    for s in sources_preview:
+        name = s.get("name", "") if isinstance(s, dict) else str(s)
+        match = re.search(r'\((\d{4})\)', name)
+        if match:
+            years.append(int(match.group(1)))
+    return years
+
+
+def _build_readiness_summary(entry):
+    """Build a plain-English explanation of why a question is ranked where it is."""
+    parts = []
+    status = entry.get("status", "pending")
+
+    if status == "nasem_gap":
+        alt_count = len(entry.get("alternative_sources", []))
+        if alt_count:
+            parts.append(f"No NASEM coverage — {alt_count} alternative sources identified")
+        else:
+            parts.append("No NASEM coverage and no alternative sources found")
+        return ". ".join(parts)
+
+    if status == "published":
+        return ""
+
+    # Source strength
+    src_count = entry.get("nasem_source_count", 0)
+    newest = entry.get("newest_source_year", 0)
+    if src_count == 0:
+        parts.append("No NASEM sources")
+    elif newest >= 2020:
+        parts.append(f"{src_count} NASEM source{'s' if src_count != 1 else ''}, most recent {newest}")
+    elif newest >= 2010:
+        parts.append(f"{src_count} NASEM source{'s' if src_count != 1 else ''}, most recent {newest} — moderately dated")
+    else:
+        parts.append(f"{src_count} NASEM source{'s' if src_count != 1 else ''}, most recent {newest} — sources are old")
+
+    # Verification
+    ver = entry.get("verification_status", "")
+    if ver == "verified":
+        parts.append("confirmed misinformation")
+    elif ver == "needs_review":
+        parts.append("misinformation narrative not yet confirmed")
+
+    # Signal count
+    signals = entry.get("signal_count", 0)
+    if signals >= 10:
+        parts.append(f"{signals} discovery signals (strong trending)")
+    elif signals >= 5:
+        parts.append(f"{signals} discovery signals")
+    elif signals > 0:
+        parts.append(f"{signals} discovery signal{'s' if signals != 1 else ''}")
+
+    return " · ".join(parts)
+
+
 def _write_discovery_queue(questions):
     """Write discovered_questions.json, merging with article manifest for status."""
     # Load article manifest to identify published articles
@@ -376,6 +434,13 @@ def _write_discovery_queue(questions):
             "discovered_at": today,
             "status": "published" if is_published else q.get("status", "pending"),
         }
+
+        # Compute ranking metadata
+        source_years = _extract_source_years(q.get("nasem_sources_preview", []))
+        signal_count = len(q.get("raw_sources", q.get("discovery_sources", [])))
+        entry["newest_source_year"] = max(source_years) if source_years else 0
+        entry["signal_count"] = signal_count
+        entry["readiness_summary"] = _build_readiness_summary(entry)
         if is_published:
             pub = published_data[qid]
             entry["article_url"] = pub.get("article_url", "")
@@ -401,8 +466,7 @@ def _write_discovery_queue(questions):
             })
 
     # Sort: pending first, then gaps, then published.
-    # Within pending: priority tier, then verification status, then source count (desc).
-    # This puts well-sourced, verified, high-priority questions at the top.
+    # Within pending: priority, verification, source recency, source count, signal count.
     status_order = {"pending": 0, "nasem_gap": 1, "published": 2}
     priority_order = {"high": 0, "medium": 1, "low": 2, "n/a": 3}
     verification_order = {"verified": 0, "unverified": 1, "needs_review": 2, "no_narrative": 3}
@@ -410,7 +474,9 @@ def _write_discovery_queue(questions):
         status_order.get(e["status"], 1),
         priority_order.get(e["priority"], 2),
         verification_order.get(e.get("verification_status", ""), 2),
-        -e.get("nasem_source_count", 0),  # more sources = higher rank
+        -e.get("newest_source_year", 0),   # newer sources = higher rank
+        -e.get("nasem_source_count", 0),   # more sources = higher rank
+        -e.get("signal_count", 0),         # more signals = higher rank
     ))
 
     output = {
