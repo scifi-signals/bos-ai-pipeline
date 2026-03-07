@@ -224,6 +224,25 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
     question = evidence_package["question"]
     question_id = evidence_package["question_id"]
 
+    # Build source name → URL lookup from evidence package
+    source_urls = {}
+    for src in evidence_package.get("evidence", []):
+        name = src.get("source", "")
+        url = src.get("url", "")
+        if name and url:
+            source_urls[name] = url
+
+    def _lookup_source_url(name):
+        """Fuzzy source URL lookup — handles consensus using shortened names."""
+        if name in source_urls:
+            return source_urls[name]
+        # Check if name is a substring of any evidence source (or vice versa)
+        name_lower = name.lower()
+        for src_name, url in source_urls.items():
+            if name_lower in src_name.lower() or src_name.lower() in name_lower:
+                return url
+        return ""
+
     body_html = ""
 
     # Consensus overview
@@ -245,7 +264,13 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
             if claim.get("key_data_points"):
                 body_html += '<ul style="margin:8px 0 0 20px;">'
                 for dp in claim["key_data_points"]:
-                    body_html += f'<li style="font-size:13px;">{html_lib.escape(dp.get("point", ""))} <span style="color:var(--text-tertiary);">— {html_lib.escape(dp.get("source", ""))}</span></li>'
+                    src_name = dp.get("source", "")
+                    src_url = _lookup_source_url(src_name)
+                    if src_url:
+                        src_html = f'<a href="{html_lib.escape(src_url)}" target="_blank" rel="noopener">{html_lib.escape(src_name)}</a>'
+                    else:
+                        src_html = html_lib.escape(src_name)
+                    body_html += f'<li style="font-size:13px;">{html_lib.escape(dp.get("point", ""))} <span style="color:var(--text-tertiary);">— {src_html}</span></li>'
                 body_html += '</ul>'
             body_html += '</div>'
         body_html += '</div>'
