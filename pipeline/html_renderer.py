@@ -84,6 +84,15 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 .strength-moderate { color:var(--amber); font-weight:600; }
 .strength-limited { color:var(--text-tertiary); font-weight:600; }
 
+.consensus-detail { font-size:12px; color:var(--text-secondary); margin-top:10px; }
+.consensus-detail summary { cursor:pointer; list-style:none; display:flex; align-items:center; gap:6px; font-size:12px; color:var(--text-tertiary); }
+.consensus-detail summary::before { content:"\25B6"; font-size:9px; transition:transform 0.15s; }
+.consensus-detail[open] summary::before { transform:rotate(90deg); }
+.consensus-detail summary::-webkit-details-marker { display:none; }
+.consensus-detail-body { margin-top:8px; padding:12px 16px; background:var(--bg); border-radius:var(--radius-sm); font-size:13px; line-height:1.6; }
+.consensus-detail-body a { color:var(--accent); text-decoration:none; }
+.consensus-detail-body a:hover { text-decoration:underline; }
+
 .consensus-bar { display:flex; align-items:center; gap:8px; margin:8px 0; }
 .consensus-level { padding:3px 10px; border-radius:4px; font-size:12px; font-weight:600; text-transform:uppercase; }
 .consensus-strong { background:var(--green-light); color:var(--green); }
@@ -262,53 +271,16 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
         for claim in consensus["primary_claims"]:
             level = claim.get("consensus_level", "limited")
             css_class = f"consensus-{level}"
-
-            # Build concrete explanation of why this level was assigned
+            data_points = claim.get("key_data_points", [])
             supporting = claim.get("supporting_sources", [])
             contradicting = claim.get("contradicting_sources", [])
-            data_points = claim.get("key_data_points", [])
             uncertainties = claim.get("uncertainties", [])
             confidence_note = claim.get("confidence_note", "")
 
-            # Confidence note is the real explanation — lead with it
-            why_lines = []
-            if confidence_note:
-                why_lines.append(f'<strong>Why {level}:</strong> {html_lib.escape(confidence_note)}')
-
-            # Source detail line
-            src_parts = []
-            if supporting:
-                src_descs = []
-                for s in supporting:
-                    name = s.get("source", "")
-                    tier = s.get("tier", 0)
-                    tier_desc = tier_labels.get(tier, "")
-                    src_url = _lookup_source_url(name)
-                    if src_url:
-                        src_link = f'<a href="{html_lib.escape(src_url)}" target="_blank" rel="noopener">{html_lib.escape(name)}</a>'
-                    else:
-                        src_link = html_lib.escape(name)
-                    src_descs.append(f"{src_link} ({tier_desc})" if tier_desc else src_link)
-                src_parts.append(f"Sources: {', '.join(src_descs)}")
-            if contradicting:
-                src_parts.append(f"{len(contradicting)} contradicting")
-            if data_points:
-                src_parts.append(f"{len(data_points)} data point{'s' if len(data_points) != 1 else ''}")
-            if uncertainties:
-                unc_text = "; ".join(html_lib.escape(u) for u in uncertainties)
-                src_parts.append(f"Caveats: {unc_text}")
-            if src_parts:
-                why_lines.append(" · ".join(src_parts))
-
-            why_html = '<div style="font-size:12px; color:var(--text-secondary); margin-top:4px; line-height:1.6;">' + '<br>'.join(why_lines) + '</div>' if why_lines else ""
-
+            # Claim + data points first
             body_html += f"""
             <div style="margin:16px 0; padding:12px 0; border-top:1px solid var(--border-light);">
-                <div class="consensus-bar">
-                    <span class="consensus-level {css_class}">{level}</span>
-                    <strong>{html_lib.escape(claim.get('claim', ''))}</strong>
-                </div>
-                {why_html}
+                <strong>{html_lib.escape(claim.get('claim', ''))}</strong>
             """
             if data_points:
                 body_html += '<ul style="margin:8px 0 0 20px;">'
@@ -321,6 +293,55 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
                         src_html = html_lib.escape(src_name)
                     body_html += f'<li style="font-size:13px;">{html_lib.escape(dp.get("point", ""))} <span style="color:var(--text-tertiary);">— {src_html}</span></li>'
                 body_html += '</ul>'
+
+            # Confidence assessment as collapsible footnote below the evidence
+            detail_lines = []
+            if confidence_note:
+                detail_lines.append(f'<p style="margin:0 0 8px;"><strong>Assessment:</strong> {html_lib.escape(confidence_note)}</p>')
+            if supporting:
+                for s in supporting:
+                    name = s.get("source", "")
+                    tier = s.get("tier", 0)
+                    tier_desc = tier_labels.get(tier, "")
+                    finding = s.get("key_finding", "")
+                    src_url = _lookup_source_url(name)
+                    if src_url:
+                        src_link = f'<a href="{html_lib.escape(src_url)}" target="_blank" rel="noopener">{html_lib.escape(name)}</a>'
+                    else:
+                        src_link = html_lib.escape(name)
+                    line = f'<p style="margin:0 0 4px;"><strong>Source:</strong> {src_link}'
+                    if tier_desc:
+                        line += f' <span style="color:var(--text-tertiary);">({tier_desc})</span>'
+                    line += '</p>'
+                    if finding:
+                        line += f'<p style="margin:0 0 8px; padding-left:12px; font-style:italic; color:var(--text-secondary);">{html_lib.escape(finding)}</p>'
+                    detail_lines.append(line)
+            if contradicting:
+                for s in contradicting:
+                    name = s.get("source", "")
+                    finding = s.get("key_finding", "")
+                    src_url = _lookup_source_url(name)
+                    if src_url:
+                        src_link = f'<a href="{html_lib.escape(src_url)}" target="_blank" rel="noopener">{html_lib.escape(name)}</a>'
+                    else:
+                        src_link = html_lib.escape(name)
+                    detail_lines.append(f'<p style="margin:0 0 4px; color:var(--red);"><strong>Contradicting:</strong> {src_link}</p>')
+                    if finding:
+                        detail_lines.append(f'<p style="margin:0 0 8px; padding-left:12px; font-style:italic; color:var(--text-secondary);">{html_lib.escape(finding)}</p>')
+            if uncertainties:
+                unc_items = "".join(f'<li>{html_lib.escape(u)}</li>' for u in uncertainties)
+                detail_lines.append(f'<p style="margin:8px 0 4px;"><strong>Caveats:</strong></p><ul style="margin:0 0 0 20px; color:var(--text-secondary);">{unc_items}</ul>')
+
+            if detail_lines:
+                body_html += f"""
+                <details class="consensus-detail">
+                    <summary><span class="consensus-level {css_class}">{level}</span> confidence — click for details</summary>
+                    <div class="consensus-detail-body">
+                        {''.join(detail_lines)}
+                    </div>
+                </details>
+                """
+
             body_html += '</div>'
         body_html += '</div>'
 
