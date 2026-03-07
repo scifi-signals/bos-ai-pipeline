@@ -270,7 +270,13 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
             uncertainties = claim.get("uncertainties", [])
             confidence_note = claim.get("confidence_note", "")
 
-            why_parts = []
+            # Confidence note is the real explanation — lead with it
+            why_lines = []
+            if confidence_note:
+                why_lines.append(f'<strong>Why {level}:</strong> {html_lib.escape(confidence_note)}')
+
+            # Source detail line
+            src_parts = []
             if supporting:
                 src_descs = []
                 for s in supporting:
@@ -283,19 +289,18 @@ def render_evidence_html(evidence_package, consensus=None, fact_check_result=Non
                     else:
                         src_link = html_lib.escape(name)
                     src_descs.append(f"{src_link} ({tier_desc})" if tier_desc else src_link)
-                why_parts.append(f"Supported by {', '.join(src_descs)}")
-            if data_points:
-                why_parts.append(f"{len(data_points)} quantified data point{'s' if len(data_points) != 1 else ''}")
+                src_parts.append(f"Sources: {', '.join(src_descs)}")
             if contradicting:
-                why_parts.append(f"{len(contradicting)} contradicting source{'s' if len(contradicting) != 1 else ''}")
-            elif not contradicting:
-                why_parts.append("no contradicting sources")
+                src_parts.append(f"{len(contradicting)} contradicting")
+            if data_points:
+                src_parts.append(f"{len(data_points)} data point{'s' if len(data_points) != 1 else ''}")
             if uncertainties:
-                why_parts.append(f"{len(uncertainties)} noted {'uncertainties' if len(uncertainties) != 1 else 'uncertainty'}")
-            if confidence_note:
-                why_parts.append(html_lib.escape(confidence_note))
+                unc_text = "; ".join(html_lib.escape(u) for u in uncertainties)
+                src_parts.append(f"Caveats: {unc_text}")
+            if src_parts:
+                why_lines.append(" · ".join(src_parts))
 
-            why_html = f'<div style="font-size:12px; color:var(--text-secondary); margin-top:4px; line-height:1.5;">{". ".join(why_parts)}.</div>'
+            why_html = '<div style="font-size:12px; color:var(--text-secondary); margin-top:4px; line-height:1.6;">' + '<br>'.join(why_lines) + '</div>' if why_lines else ""
 
             body_html += f"""
             <div style="margin:16px 0; padding:12px 0; border-top:1px solid var(--border-light);">
