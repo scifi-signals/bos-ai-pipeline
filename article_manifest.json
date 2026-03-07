@@ -1,19 +1,19 @@
 {
   "articles": [
     {
-      "id": "breathing_problems",
-      "title": "Does global warming cause breathing problems?",
-      "article_url": "articles/breathing_problems_article.html",
-      "evidence_url": "articles/breathing_problems_evidence.html",
+      "id": "should_parents_avoid_giving_young",
+      "title": "Should parents avoid giving young children common allergens like peanuts to prevent food allergies?",
+      "article_url": "articles/should_parents_avoid_giving_young_article.html",
+      "evidence_url": "articles/should_parents_avoid_giving_young_evidence.html",
       "tags": [
         "Health and Medicine",
-        "Pollution",
-        "Climate Change"
+        "Child Health",
+        "Public Health"
       ],
-      "sources_count": 7,
-      "findings_count": 63,
-      "fact_check": "NEEDS_REVISION",
-      "demo": true
+      "sources_count": 2,
+      "findings_count": 2,
+      "fact_check": "PASS",
+      "has_social": true
     }
   ]
 }
