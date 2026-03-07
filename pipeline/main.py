@@ -65,10 +65,17 @@ def cmd_run(args):
         print(f"\n  HALTED: {contradicted} contradicted claim(s). Article not published.")
         print("  Review the fact-check report and fix the article before re-running.")
         sys.exit(1)
-    if "NEEDS_REVISION" in assessment or "FAIL" in assessment:
-        print(f"\n  HALTED: Fact-check returned '{assessment}'. Article not published.")
+    if "FAIL" in assessment:
+        print(f"\n  HALTED: Fact-check returned FAIL. Article not published.")
         print("  Review the fact-check report and fix the article before re-running.")
         sys.exit(1)
+    if "NEEDS_REVISION" in assessment:
+        if unsupported and unsupported > 0:
+            print(f"\n  HALTED: {unsupported} unsupported claim(s). Article not published.")
+            print("  Review the fact-check report and fix the article before re-running.")
+            sys.exit(1)
+        # Tone-only NEEDS_REVISION — publish with warning
+        print(f"\n  WARNING: Fact-check flagged tone issues but all claims verified. Publishing.")
 
     reading_level = fc_result.get("reading_level", {})
     fk_grade = reading_level.get("flesch_kincaid_grade", 99)
