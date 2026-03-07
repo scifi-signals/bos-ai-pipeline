@@ -1,0 +1,82 @@
+{
+  "id": "evolution_just_theory_major_gaps",
+  "question": "Is evolution 'just a theory' with major gaps in evidence?",
+  "topic": "Addresses persistent misconceptions about evolutionary evidence that affect science education",
+  "tags": [
+    "Education",
+    "Evolution",
+    "Science Literacy"
+  ],
+  "sources": [
+    {
+      "name": "Science, Evolution, and Creationism",
+      "url": "https://www.nationalacademies.org/publications/11876",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Teaching About Evolution and the Nature of Science",
+      "url": "https://www.nationalacademies.org/publications/5787",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_topic",
+      "text": "Evolution & Paleontology",
+      "origin": "STM (10 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Did ancient Greek priestesses brew a mind-bending potion drunk by Cicero and Marcus Aurelius?",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/did-ancient-greek-priestesses-brew-mind-bending-potion-drunk-cicero-and-marcus-aurelius",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Scientists just looked inside Darwin’s 200-year-old specimen jars without opening them",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260303145720.htm",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Ancient mystery on K’gari: World’s largest sand island lakes dried up during rainy era",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260302030644.htm",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Re-creating the complex cuisine of prehistoric Europeans",
+      "origin": "STM — Ars Technica Science",
+      "url": "https://arstechnica.com/science/2026/03/recreating-the-complex-cuisine-of-prehistoric-europeans/",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: The ancient human ancestor ‘Little Foot’ gets a new face",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/human-ancestor-little-foot-new-face",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: A 4,000-year-old sheep reveals the secret of an ancient plague",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260306224232.htm",
+      "date": "2026-03-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: This ancient sea creature may already have had a brain",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260305223208.htm",
+      "date": "2026-03-07"
+    }
+  ]
+}

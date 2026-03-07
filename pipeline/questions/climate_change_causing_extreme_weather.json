@@ -1,0 +1,60 @@
+{
+  "id": "climate_change_causing_extreme_weather",
+  "question": "Is climate change causing more extreme weather events?",
+  "topic": "Addresses specific climate denial argument that affects disaster preparedness and policy",
+  "tags": [
+    "Environment",
+    "Climate Change",
+    "Weather"
+  ],
+  "sources": [
+    {
+      "name": "Facilitating Climate Change Responses: A Report of Two Workshops on Knowledge from the Social and Behavioral Sciences",
+      "url": "https://www.nationalacademies.org/publications/12996",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adapting to the Impacts of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12783",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing the Science of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12782",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_topic",
+      "text": "Climate Change",
+      "origin": "STM (5 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate change is speeding up — the pace nearly doubled in ten years",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00745-z",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate change and geopolitics threaten water supplies — but disaster is not inevitable",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00659-w",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate models may be missing massive carbon emissions from boreal wildfires",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260303201755.htm",
+      "date": "2026-03-06"
+    }
+  ]
+}
