@@ -52,16 +52,6 @@ def publish():
         dest_article = ARTICLES_DIR / article_path.name
         html = article_path.read_text(encoding="utf-8")
 
-        # Fix evidence link: same directory (both in articles/)
-        html = html.replace(
-            f'href="{question_id}_evidence.html"',
-            f'href="{question_id}_evidence.html"'
-        )
-        # Add "Back to Home" link in header
-        html = html.replace(
-            '<div class="header-right">',
-            '<div class="header-right"><a href="../index.html">Home</a> &nbsp;|&nbsp; '
-        )
         dest_article.write_text(html, encoding="utf-8")
         print(f"  Published: articles/{article_path.name}")
 
@@ -69,16 +59,6 @@ def publish():
         if evidence_path.exists():
             dest_evidence = ARTICLES_DIR / evidence_path.name
             ehtml = evidence_path.read_text(encoding="utf-8")
-            # Fix article link
-            ehtml = ehtml.replace(
-                f'href="{question_id}_article.html"',
-                f'href="{question_id}_article.html"'
-            )
-            # Add "Back to Home" link
-            ehtml = ehtml.replace(
-                '<div class="header-right">',
-                '<div class="header-right"><a href="../index.html">Home</a> &nbsp;|&nbsp; '
-            )
             dest_evidence.write_text(ehtml, encoding="utf-8")
             print(f"  Published: articles/{evidence_path.name}")
 
