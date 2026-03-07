@@ -439,15 +439,16 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         var rationale = q.rationale || '';
         if (rationale.length > 200) rationale = rationale.substring(0, 200) + '...';
 
-        // Verification status — plain text explanation, not a cryptic badge
+        // Verification status — show reasoning so human can confirm
         var verStatus = q.verification_status || '';
+        var verReason = q.verification_reason || '';
         var verText = '';
         if (verStatus === 'verified') {
-            verText = 'Discovery signals confirmed — real misinformation identified with NASEM sources available';
+            verText = verReason ? verReason : 'Misinformation narrative confirmed as real';
         } else if (verStatus === 'needs_review') {
-            verText = 'AI-discovered — editorial review needed to confirm the misinformation narrative is real';
+            verText = verReason ? verReason : 'Editorial review needed — misinformation narrative may not be real';
         } else if (verStatus === 'unverified') {
-            verText = 'Not yet reviewed — may be a real misinfo target or a false positive';
+            verText = 'Not yet reviewed';
         }
 
         // Misinformation narrative box
@@ -496,6 +497,13 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         if (q.discovery_sources && q.discovery_sources.length > 0) {
             var realSources = q.discovery_sources.filter(function(ds) { return ds.text && ds.text.trim(); });
             if (realSources.length > 0) {
+                // Count unique origins for the summary label
+                var origins = {};
+                realSources.forEach(function(ds) { if (ds.origin) origins[ds.origin] = true; });
+                var uniqueCount = Object.keys(origins).length;
+                var signalLabel = uniqueCount < realSources.length ?
+                    realSources.length + ' signals from ' + uniqueCount + ' source' + (uniqueCount !== 1 ? 's' : '') :
+                    realSources.length + ' signal' + (realSources.length !== 1 ? 's' : '');
                 var dsItems = realSources.map(function(ds) {
                     var icon = ds.type === 'podcast_claim' ? '🎙' : ds.type === 'podcast_topic' ? '🎙' : '📈';
                     var label = ds.type === 'podcast_claim' ? 'Podcast claim' : ds.type === 'podcast_topic' ? 'Podcast topic' : 'Trending topic';
@@ -511,7 +519,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                     return '<li>' + line + '</li>';
                 }).join('');
                 discoveryHtml = '<details class="queue-item-discovery">' +
-                    '<summary><strong>Discovery signals (' + realSources.length + ')</strong></summary>' +
+                    '<summary><strong>Discovery signals (' + signalLabel + ')</strong></summary>' +
                     '<ul>' + dsItems + '</ul>' +
                 '</details>';
             }
@@ -560,6 +568,19 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     function renderGapQueueItem(q) {
         var rationale = q.rationale || '';
         if (rationale.length > 200) rationale = rationale.substring(0, 200) + '...';
+
+        // Verification reasoning
+        var verStatus = q.verification_status || '';
+        var verReason = q.verification_reason || '';
+        var verText = '';
+        if (verStatus === 'verified') {
+            verText = verReason ? verReason : 'Misinformation narrative confirmed as real';
+        } else if (verStatus === 'needs_review') {
+            verText = verReason ? verReason : 'Editorial review needed — misinformation narrative may not be real';
+        }
+        var statusColor = verStatus === 'verified' ? 'var(--green)' : verStatus === 'needs_review' ? 'var(--amber)' : 'var(--text-tertiary)';
+        var statusIcon = verStatus === 'verified' ? '✓' : verStatus === 'needs_review' ? '⚠' : '?';
+        var statusLine = verText ? '<div style="font-size:12px; color:' + statusColor + '; margin-bottom:8px;">' + statusIcon + ' ' + verText + '</div>' : '';
 
         // Misinformation narrative box
         var misinfoHtml = '';
@@ -611,6 +632,12 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         if (q.discovery_sources && q.discovery_sources.length > 0) {
             var realSources = q.discovery_sources.filter(function(ds) { return ds.text && ds.text.trim(); });
             if (realSources.length > 0) {
+                var origins = {};
+                realSources.forEach(function(ds) { if (ds.origin) origins[ds.origin] = true; });
+                var uniqueCount = Object.keys(origins).length;
+                var signalLabel = uniqueCount < realSources.length ?
+                    realSources.length + ' signals from ' + uniqueCount + ' source' + (uniqueCount !== 1 ? 's' : '') :
+                    realSources.length + ' signal' + (realSources.length !== 1 ? 's' : '');
                 var dsItems = realSources.map(function(ds) {
                     var icon = ds.type === 'podcast_claim' ? '🎙' : ds.type === 'podcast_topic' ? '🎙' : '📈';
                     var label = ds.type === 'podcast_claim' ? 'Podcast claim' : ds.type === 'podcast_topic' ? 'Podcast topic' : 'Trending topic';
@@ -625,7 +652,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                     return '<li>' + line + '</li>';
                 }).join('');
                 discoveryHtml = '<details class="queue-item-discovery">' +
-                    '<summary><strong>Discovery signals (' + realSources.length + ')</strong></summary>' +
+                    '<summary><strong>Discovery signals (' + signalLabel + ')</strong></summary>' +
                     '<ul>' + dsItems + '</ul>' +
                 '</details>';
             }
@@ -637,6 +664,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                 '<span class="gap-badge">NASEM Gap</span>' +
             '</div>' +
             '<div style="font-size:12px; color:#6366F1; margin-bottom:8px;">NASEM has no publications on this topic — alternative sources identified below</div>' +
+            statusLine +
             (rationale ? '<div class="queue-item-rationale">' + escHtml(rationale) + '</div>' : '') +
             discoveryHtml +
             misinfoHtml +

@@ -57,8 +57,8 @@
       "discovered_at": "2026-03-07",
       "status": "pending",
       "newest_source_year": 2016,
-      "signal_count": 4,
-      "readiness_summary": "2 NASEM sources, most recent 2016 — moderately dated · confirmed misinformation · 4 discovery signals"
+      "signal_count": 3,
+      "readiness_summary": "2 NASEM sources, most recent 2016 — moderately dated · confirmed misinformation · 3 unique sources"
     },
     {
       "id": "blood_tests_cancer_screening_accurate",
@@ -112,7 +112,7 @@
       "status": "pending",
       "newest_source_year": 2016,
       "signal_count": 3,
-      "readiness_summary": "2 NASEM sources, most recent 2016 — moderately dated · confirmed misinformation · 3 discovery signals"
+      "readiness_summary": "2 NASEM sources, most recent 2016 — moderately dated · confirmed misinformation · 3 unique sources"
     },
     {
       "id": "covid_vaccines_cause_dangerous_blood",
@@ -189,8 +189,8 @@
       "discovered_at": "2026-03-07",
       "status": "pending",
       "newest_source_year": 2012,
-      "signal_count": 7,
-      "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 7 discovery signals"
+      "signal_count": 4,
+      "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 4 unique sources"
     },
     {
       "id": "vaccines_cause_food_allergies_children",
@@ -278,8 +278,8 @@
       "discovered_at": "2026-03-07",
       "status": "pending",
       "newest_source_year": 1993,
-      "signal_count": 8,
-      "readiness_summary": "2 NASEM sources, most recent 1993 — sources are old · confirmed misinformation · 8 discovery signals"
+      "signal_count": 7,
+      "readiness_summary": "confirmed misinformation · 7 unique sources"
     },
     {
       "id": "people_egg_allergies_safely_receive",
@@ -329,7 +329,7 @@
       "status": "pending",
       "newest_source_year": 2012,
       "signal_count": 3,
-      "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 3 discovery signals"
+      "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 3 unique sources"
     },
     {
       "id": "igg_food_sensitivity_tests_reliable",
@@ -425,7 +425,7 @@
       "discovered_at": "2026-03-07",
       "status": "nasem_gap",
       "newest_source_year": 0,
-      "signal_count": 4,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -513,7 +513,7 @@
       "discovered_at": "2026-03-07",
       "status": "nasem_gap",
       "newest_source_year": 0,
-      "signal_count": 4,
+      "signal_count": 3,
       "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
@@ -594,161 +594,8 @@
       "discovered_at": "2026-03-07",
       "status": "nasem_gap",
       "newest_source_year": 0,
-      "signal_count": 3,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
-    },
-    {
-      "id": "pharmacists_qualified_provide_medical_services",
-      "question": "Are pharmacists qualified to provide medical services beyond dispensing drugs?",
-      "priority": "low",
-      "rationale": "Corrects misconceptions about pharmacist qualifications that limit healthcare utilization",
-      "misinformation_narrative": "Many patients don't realize pharmacists have extensive clinical training and can provide vaccinations, health screenings, and medication management",
-      "public_stakes": "Underutilizing pharmacist expertise limits healthcare access, especially in underserved areas",
-      "verification_status": "needs_review",
-      "tags": [
-        "Health and Medicine",
-        "Healthcare Access"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Over 70% of all Americans receive vaccinations from pharmacies or pharmacists - verify current vaccination administration statistics",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_claim",
-          "text": "Most Americans live within five miles of a community pharmacy - verify geographic accessibility data",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_claim",
-          "text": "Pharmacists conduct residencies similar in rigor to physician residencies - clarify training equivalencies",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_claim",
-          "text": "Average patient has 20 healthcare touch points per year with pharmacists, doubling for those with multiple chronic conditions - verify frequency data",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "PrEP and PEP (pre-exposure prophylaxis and post-exposure prophylaxis for HIV prevention)",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Narcan (naloxone) access for opioid overdose reversal",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Suboxone (buprenorphine) for opioid use disorder treatment",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Deprescribing in elderly/geriatric populations",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Vaccine administration and confidence-building",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Colorectal cancer screening",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Cervical cancer screening",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Reproductive health services",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "tier": 2,
-          "resource_name": "Pharmacist Services: A Key Component of Public Health",
-          "description": "CDC guidance on expanded pharmacy services including immunizations, health screenings, and chronic disease management",
-          "relevance": "Documents CDC's recognition of pharmacists' qualifications for clinical services beyond dispensing"
-        },
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "tier": 2,
-          "resource_name": "FDA's Drug Supply Chain Security Act - Pharmacist Qualifications and Services",
-          "description": "FDA regulations and guidance on pharmacist qualifications for various healthcare services",
-          "relevance": "Provides regulatory framework for pharmacist scope of practice beyond traditional dispensing"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "tier": 2,
-          "resource_name": "The Role of the Pharmacist in the Health Care System",
-          "description": "WHO technical report on pharmacists' expanding role in primary healthcare delivery",
-          "relevance": "International perspective on pharmacist qualifications for clinical care services"
-        },
-        {
-          "organization": "Cochrane",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "tier": 1,
-          "resource_name": "Pharmacist-led medication review in different settings",
-          "description": "Systematic review examining effectiveness of pharmacist-provided clinical services",
-          "relevance": "Evidence-based assessment of pharmacist competency in providing healthcare services beyond dispensing"
-        },
-        {
-          "organization": "NIH/NCBI",
-          "organization_full": "NIH/NCBI",
-          "base_url": "https://www.nih.gov",
-          "tier": 3,
-          "resource_name": "Clinical Pharmacy Services: A Systematic Review of Evidence",
-          "description": "Comprehensive review published in PubMed of clinical outcomes from pharmacist-provided healthcare services",
-          "relevance": "Scientific evidence supporting pharmacist qualifications and effectiveness in expanded clinical roles"
-        }
-      ],
-      "discovered_at": "2026-03-07",
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 12,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "children_need_same_medications_adults",
@@ -858,89 +705,8 @@
       "discovered_at": "2026-03-07",
       "status": "nasem_gap",
       "newest_source_year": 0,
-      "signal_count": 6,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "identical_twins_truly_genetically_identical",
-      "question": "Are identical twins truly genetically identical?",
-      "priority": "low",
-      "rationale": "Corrects fundamental genetic misconception with legal and scientific implications",
-      "misinformation_narrative": "Common belief that identical twins have exactly the same DNA, but new testing methods can distinguish them",
-      "public_stakes": "Legal and forensic implications when twin DNA evidence is involved in criminal cases",
-      "verification_status": "needs_review",
-      "tags": [
-        "Genetics",
-        "Forensics"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Genetics & Genomics: Daily briefing: How DNA testing can tell identical twins apart",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-00754-y",
-          "date": "2026-03-06"
-        },
-        {
-          "type": "trending_article",
-          "text": "Genetics & Genomics: Identical twins on trial: can DNA testing tell them apart?",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-00521-z",
-          "date": "2026-03-06"
-        },
-        {
-          "type": "trending_topic",
-          "text": "Genetics & Genomics",
-          "origin": "STM (5 sources)",
-          "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
-          "date": "2026-03-05"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "NIH National Institute of General Medical Sciences",
-          "organization_full": "NIH National Institute of General Medical Sciences",
-          "base_url": "https://www.nih.gov",
-          "tier": 3,
-          "resource_name": "The New Genetics: Twins and Genetic Research",
-          "description": "NIH publication explaining genetic similarities and differences between identical twins, including discussion of somatic mutations and epigenetic variations",
-          "relevance": "Directly addresses the genetic identity question with scientific evidence about twin genetics"
-        },
-        {
-          "organization": "NIH National Human Genome Research Institute",
-          "organization_full": "NIH National Human Genome Research Institute",
-          "base_url": "https://www.nih.gov",
-          "tier": 3,
-          "resource_name": "Frequently Asked Questions About Genetic and Genomic Science: Are identical twins really identical?",
-          "description": "NHGRI FAQ section that specifically addresses whether identical twins are genetically identical, discussing copy number variations and mutations",
-          "relevance": "Directly answers the question with current genomic research findings"
-        },
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "tier": 2,
-          "resource_name": "Public Health Genomics: Twin Studies",
-          "description": "CDC resource explaining how twin studies work and the genetic relationship between identical twins",
-          "relevance": "Provides evidence-based information about the genetic similarities and differences in identical twins"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library",
-          "base_url": "https://www.cochranelibrary.com",
-          "tier": 3,
-          "resource_name": "Twin studies in medical research: can they tell us whether genes and environment determine behaviour?",
-          "description": "Cochrane systematic review examining the assumptions and methodology of twin studies, including genetic identity assumptions",
-          "relevance": "Provides systematic review evidence about the genetic relationship between twins in research contexts"
-        }
-      ],
-      "discovered_at": "2026-03-07",
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 3,
-      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "breathing_problems",
@@ -957,7 +723,8 @@
       "discovered_at": "",
       "status": "published",
       "article_url": "articles/breathing_problems_article.html",
-      "evidence_url": "articles/breathing_problems_evidence.html"
+      "evidence_url": "articles/breathing_problems_evidence.html",
+      "signal_count": 0
     }
   ]
 }

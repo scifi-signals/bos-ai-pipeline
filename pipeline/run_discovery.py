@@ -289,11 +289,13 @@ A narrative is SUSPECT if:
 {chr(10).join(narratives)}
 
 For each numbered item, respond with ONLY:
-- The number, then REAL or SUSPECT, then a brief reason (1 sentence)
+- The number, then REAL or SUSPECT, then a brief reason (1 sentence) explaining WHERE this
+  misinformation actually circulates (name specific platforms, communities, or media) or
+  WHY you think it's fabricated.
 
 Example:
-1. REAL — Anti-vax communities on Facebook actively claim vaccines cause autism.
-2. SUSPECT — No significant public group believes MRI scans are getting slower.
+1. REAL — Anti-vax communities on Facebook and X actively claim vaccines cause autism, with millions of posts.
+2. SUSPECT — No significant public group believes MRI scans are getting slower; this is a straw man.
 
 Respond for all {len(narratives)} items:"""
 
@@ -305,18 +307,29 @@ Respond for all {len(narratives)} items:"""
             line = line.strip()
             if not line:
                 continue
-            match = re.match(r'(\d+)\.\s*(REAL|SUSPECT)', line, re.IGNORECASE)
+            match = re.match(r'(\d+)\.\s*(REAL|SUSPECT)\s*[—–-]\s*(.*)', line, re.IGNORECASE)
             if match:
                 idx = int(match.group(1)) - 1
                 verdict = match.group(2).upper()
-                verdicts[idx] = verdict
+                reason = match.group(3).strip()
+                verdicts[idx] = (verdict, reason)
+            else:
+                # Try without reason
+                match2 = re.match(r'(\d+)\.\s*(REAL|SUSPECT)', line, re.IGNORECASE)
+                if match2:
+                    idx = int(match2.group(1)) - 1
+                    verdict = match2.group(2).upper()
+                    verdicts[idx] = (verdict, "")
 
         for i, q in enumerate(questions):
             if i in verdicts:
-                if verdicts[i] == "REAL":
+                verdict, reason = verdicts[i]
+                if verdict == "REAL":
                     q["verification_status"] = "verified"
+                    q["verification_reason"] = reason
                 else:
                     q["verification_status"] = "needs_review"
+                    q["verification_reason"] = reason
                     q["priority"] = "low"  # Demote suspect narratives
                     print(f"    SUSPECT: {q['question'][:60]}...")
             else:
@@ -417,6 +430,7 @@ def _write_discovery_queue(questions):
             "misinformation_narrative": q.get("misinformation_narrative", ""),
             "public_stakes": q.get("public_stakes", ""),
             "verification_status": q.get("verification_status", ""),
+            "verification_reason": q.get("verification_reason", ""),
             "tags": q.get("tags", _infer_tags(q)),
             "nasem_source_count": q.get("nasem_source_count", 0),
             "nasem_sources_preview": q.get("nasem_sources_preview", []),
@@ -437,7 +451,14 @@ def _write_discovery_queue(questions):
 
         # Compute ranking metadata
         source_years = _extract_source_years(q.get("nasem_sources_preview", []))
-        signal_count = len(q.get("raw_sources", q.get("discovery_sources", [])))
+        raw_sources = q.get("raw_sources", q.get("discovery_sources", []))
+        # Count unique sources (by origin), not individual claims from same episode
+        unique_origins = set()
+        for rs in raw_sources:
+            origin = rs.get("source", rs.get("origin", ""))
+            if origin:
+                unique_origins.add(origin)
+        signal_count = len(unique_origins) if unique_origins else len(raw_sources)
         entry["newest_source_year"] = max(source_years) if source_years else 0
         entry["signal_count"] = signal_count
         entry["readiness_summary"] = _build_readiness_summary(entry)
