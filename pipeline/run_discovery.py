@@ -400,11 +400,17 @@ def _write_discovery_queue(questions):
                 "evidence_url": article.get("evidence_url", ""),
             })
 
-    # Sort: pending (high → medium → low) first, then published
+    # Sort: pending first, then gaps, then published.
+    # Within pending: priority tier, then verification status, then source count (desc).
+    # This puts well-sourced, verified, high-priority questions at the top.
+    status_order = {"pending": 0, "nasem_gap": 1, "published": 2}
     priority_order = {"high": 0, "medium": 1, "low": 2, "n/a": 3}
+    verification_order = {"verified": 0, "unverified": 1, "needs_review": 2, "no_narrative": 3}
     entries.sort(key=lambda e: (
-        0 if e["status"] == "pending" else 1,
+        status_order.get(e["status"], 1),
         priority_order.get(e["priority"], 2),
+        verification_order.get(e.get("verification_status", ""), 2),
+        -e.get("nasem_source_count", 0),  # more sources = higher rank
     ))
 
     output = {

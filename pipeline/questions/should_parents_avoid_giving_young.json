@@ -1,7 +1,7 @@
 {
   "id": "should_parents_avoid_giving_young",
-  "question": "Should parents avoid giving young babies common allergens like peanuts?",
-  "topic": "Corrects persistent outdated beliefs about allergy prevention that contradict current medical eviden",
+  "question": "Should parents avoid giving young children common allergens like peanuts to prevent food allergies?",
+  "topic": "Corrects persistent outdated beliefs about allergy prevention that contradict current medical evidence",
   "tags": [
     "Health and Medicine",
     "Child Health",
@@ -15,44 +15,8 @@
       "tier": 1
     },
     {
-      "name": "Parenting Matters: Supporting Parents of Children Ages 0-8",
-      "url": "https://www.nationalacademies.org/publications/21868",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
-      "url": "https://www.nationalacademies.org/publications/10306",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Newborn Screening in the United States: A Vision for Sustaining and Advancing Excellence",
-      "url": "https://www.nationalacademies.org/publications/29102",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Strategies to Limit Sugar-Sweetened Beverage Consumption in Young Children: Proceedings of a Workshop�in Brief",
-      "url": "https://www.nationalacademies.org/publications/24897",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Alliances for Obesity Prevention: Finding Common Ground: Workshop Summary",
-      "url": "https://www.nationalacademies.org/publications/13305",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Medications for Opioid Use Disorder Save Lives",
-      "url": "https://www.nationalacademies.org/publications/25310",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Communities in Action: Pathways to Health Equity",
-      "url": "https://www.nationalacademies.org/publications/24624",
+      "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
+      "url": "https://www.nationalacademies.org/publications/25747",
       "type": "web",
       "tier": 1
     }
