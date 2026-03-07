@@ -351,15 +351,15 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         var rationale = q.rationale || '';
         if (rationale.length > 200) rationale = rationale.substring(0, 200) + '...';
 
-        // Verification badge
-        var verBadge = '';
+        // Verification status — plain text explanation, not a cryptic badge
         var verStatus = q.verification_status || '';
+        var verText = '';
         if (verStatus === 'verified') {
-            verBadge = ' <span class="verification-badge verification-verified">Verified</span>';
+            verText = 'Discovery signals confirmed — real misinformation identified with NASEM sources available';
         } else if (verStatus === 'needs_review') {
-            verBadge = ' <span class="verification-badge verification-needs_review">Needs Review</span>';
+            verText = 'AI-discovered — editorial review needed to confirm the misinformation narrative is real';
         } else if (verStatus === 'unverified') {
-            verBadge = ' <span class="verification-badge verification-unverified">Unverified</span>';
+            verText = 'Not yet reviewed — may be a real misinfo target or a false positive';
         }
 
         // Misinformation narrative box
@@ -429,11 +429,14 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             }
         }
 
+        // Status line combining verification + priority context
+        var statusColor = verStatus === 'verified' ? 'var(--green)' : verStatus === 'needs_review' ? 'var(--amber)' : 'var(--text-tertiary)';
+        var statusIcon = verStatus === 'verified' ? '✓' : verStatus === 'needs_review' ? '⚠' : '?';
+        var statusLine = verText ? '<div style="font-size:12px; color:' + statusColor + '; margin-bottom:8px;">' + statusIcon + ' ' + verText + '</div>' : '';
+
         return '<div class="queue-item" id="queue-' + q.id + '">' +
-            '<div style="display:flex; justify-content:space-between; align-items:flex-start; margin-bottom:4px;">' +
-                '<h3>' + escHtml(q.question) + '</h3>' +
-                '<span class="priority-badge ' + priorityClass + '">' + (q.priority || 'medium') + verBadge + '</span>' +
-            '</div>' +
+            '<h3 style="margin-bottom:4px;">' + escHtml(q.question) + '</h3>' +
+            statusLine +
             (rationale ? '<div class="queue-item-rationale">' + escHtml(rationale) + '</div>' : '') +
             discoveryHtml +
             misinfoHtml +
