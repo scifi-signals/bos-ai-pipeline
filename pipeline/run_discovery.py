@@ -72,6 +72,12 @@ def run_discovery(max_questions=15):
         except (json.JSONDecodeError, UnicodeDecodeError):
             pass
 
+    # Load NASEM's published BoS articles to avoid duplicating their work
+    nasem_bos = _load_nasem_bos_articles()
+    nasem_bos_titles = [a["title"] for a in nasem_bos]
+    if nasem_bos_titles:
+        print(f"  Checking against {len(nasem_bos_titles)} existing NASEM BoS articles")
+
     new_questions = []
     batch_questions = []  # Track questions within this batch too
     for q in questions:
@@ -81,6 +87,21 @@ def run_discovery(max_questions=15):
         # Exact slug match
         if qid in existing_configs:
             print(f"  SKIP (exists): {qid}")
+            continue
+
+        # Check against NASEM's published BoS articles
+        nasem_match = _find_similar(q["question"], nasem_bos_titles, threshold=0.50)
+        if nasem_match:
+            # Find the URL for the matched article
+            match_url = ""
+            for a in nasem_bos:
+                if a["title"] == nasem_match:
+                    match_url = a["url"]
+                    break
+            print(f"  SKIP (NASEM already published: '{nasem_match[:50]}...'): {qid}")
+            q["status"] = "nasem_covered"
+            q["nasem_bos_url"] = match_url
+            q["nasem_bos_title"] = nasem_match
             continue
 
         # Semantic similarity check against existing + batch
@@ -182,6 +203,18 @@ def run_discovery(max_questions=15):
     publishable = questions  # Keep all — gaps shown differently in UI
     _write_discovery_queue(publishable)
     print("\nDiscovery complete.")
+
+
+def _load_nasem_bos_articles():
+    """Load the list of NASEM's published 'Based on Science' articles."""
+    bos_path = Path(__file__).parent / "nasem_bos_articles.json"
+    if not bos_path.exists():
+        return []
+    try:
+        data = json.loads(bos_path.read_text(encoding="utf-8"))
+        return data.get("articles", [])
+    except (json.JSONDecodeError, UnicodeDecodeError):
+        return []
 
 
 def _infer_tags(question_data):
@@ -359,6 +392,10 @@ def _build_readiness_summary(entry):
     parts = []
     status = entry.get("status", "pending")
 
+    if status == "nasem_covered":
+        title = entry.get("nasem_bos_title", "")
+        return f"NASEM already published a BoS article on this topic: \"{title}\""
+
     if status == "nasem_gap":
         alt_count = len(entry.get("alternative_sources", []))
         if alt_count:
@@ -462,6 +499,10 @@ def _write_discovery_queue(questions):
         entry["newest_source_year"] = max(source_years) if source_years else 0
         entry["signal_count"] = signal_count
         entry["readiness_summary"] = _build_readiness_summary(entry)
+        # NASEM-covered: link to existing NASEM article
+        if q.get("status") == "nasem_covered":
+            entry["nasem_bos_url"] = q.get("nasem_bos_url", "")
+            entry["nasem_bos_title"] = q.get("nasem_bos_title", "")
         if is_published:
             pub = published_data[qid]
             entry["article_url"] = pub.get("article_url", "")
@@ -486,9 +527,9 @@ def _write_discovery_queue(questions):
                 "evidence_url": article.get("evidence_url", ""),
             })
 
-    # Sort: pending first, then gaps, then published.
+    # Sort: pending first, then gaps, then NASEM-covered, then published.
     # Within pending: priority, verification, source recency, source count, signal count.
-    status_order = {"pending": 0, "nasem_gap": 1, "published": 2}
+    status_order = {"pending": 0, "nasem_gap": 1, "nasem_covered": 2, "published": 3}
     priority_order = {"high": 0, "medium": 1, "low": 2, "n/a": 3}
     verification_order = {"verified": 0, "unverified": 1, "needs_review": 2, "no_narrative": 3}
     entries.sort(key=lambda e: (

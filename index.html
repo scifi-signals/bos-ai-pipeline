@@ -405,6 +405,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 
         var pendingQuestions = questions.filter(function(q) { return q.status === 'pending'; });
         var gapQuestions = questions.filter(function(q) { return q.status === 'nasem_gap'; });
+        var coveredQuestions = questions.filter(function(q) { return q.status === 'nasem_covered'; });
 
         // Update tab counts
         document.getElementById('tab-count-queue').textContent = pendingQuestions.length;
@@ -420,6 +421,22 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                 (discoveryData.generated_at ? ' &middot; Last updated: ' + new Date(discoveryData.generated_at).toLocaleDateString() : '') +
                 '</p>';
             pendingQuestions.forEach(function(q) { html += renderPendingQueueItem(q); });
+        }
+        // Append "Already covered by NASEM" section if any
+        if (coveredQuestions.length > 0) {
+            html += '<details style="margin-top:24px;"><summary style="cursor:pointer;font-size:14px;font-weight:600;color:var(--text-secondary);">' +
+                coveredQuestions.length + ' topic' + (coveredQuestions.length !== 1 ? 's' : '') +
+                ' already covered by NASEM BoS</summary><div style="margin-top:12px;">';
+            coveredQuestions.forEach(function(q) {
+                var bosUrl = q.nasem_bos_url || '';
+                var bosTitle = q.nasem_bos_title || 'existing article';
+                html += '<div style="padding:12px 16px;border:1px solid var(--border-light);border-radius:var(--radius-sm);margin-bottom:8px;background:var(--surface);">' +
+                    '<div style="font-weight:500;font-size:14px;">' + escHtml(q.question) + '</div>' +
+                    '<div style="font-size:13px;color:var(--text-secondary);margin-top:4px;">NASEM published: ' +
+                    (bosUrl ? '<a href="' + bosUrl + '" target="_blank" style="color:var(--accent);">' + escHtml(bosTitle) + '</a>' : escHtml(bosTitle)) +
+                    '</div></div>';
+            });
+            html += '</div></details>';
         }
         container.innerHTML = html;
 
