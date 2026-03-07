@@ -54,6 +54,17 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 .info-box strong { color:var(--text-primary); }
 .info-box a { color:var(--accent); text-decoration:none; }
 
+.how-it-works { margin-bottom:16px; }
+.how-it-works summary { cursor:pointer; list-style:none; font-size:13px; color:var(--text-tertiary); font-weight:500; display:flex; align-items:center; gap:6px; padding:8px 0; }
+.how-it-works summary::before { content:"\25B6"; font-size:9px; transition:transform 0.15s; }
+.how-it-works[open] summary::before { transform:rotate(90deg); }
+.how-it-works summary::-webkit-details-marker { display:none; }
+.how-it-works-body { background:var(--surface); border:1px solid var(--border); border-radius:var(--radius); padding:24px 28px; margin-top:8px; font-size:14px; color:var(--text-secondary); line-height:1.7; }
+.how-it-works-body p { margin-bottom:12px; }
+.how-it-works-body ol { margin:12px 0; padding-left:24px; }
+.how-it-works-body li { margin-bottom:8px; }
+.how-it-works-body strong { color:var(--text-primary); }
+
 .archive-list { list-style:none; padding:0; }
 .archive-item { display:flex; justify-content:space-between; align-items:center; padding:12px 0; border-bottom:1px solid var(--border-light); }
 .archive-item:last-child { border-bottom:none; }
@@ -160,6 +171,19 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
     </div>
 
     <div class="container">
+        <details class="how-it-works">
+            <summary>New here? How this tool works</summary>
+            <div class="how-it-works-body">
+                <p>This tool finds science questions where <strong>misinformation is actively circulating</strong> and generates evidence-based articles to combat it.</p>
+                <ol>
+                    <li><strong>Discovery</strong> — Every day, the pipeline scans science news and podcasts for trending claims that contradict established research. Those become candidate questions in the queue below.</li>
+                    <li><strong>Review</strong> — An editor reviews the queue. Each question shows the misinformation narrative, why it matters, and what NASEM sources are available. Questions marked "needs review" haven't been editorially confirmed yet.</li>
+                    <li><strong>Generate</strong> — Clicking "Generate Article" kicks off a 7-step pipeline that takes <strong>3–5 minutes</strong>. It fetches and reads the source documents, extracts evidence, builds a consensus analysis, writes a draft at an 8th-grade reading level, then independently fact-checks every claim using a separate AI model. The result is a published article with a full evidence package you can inspect.</li>
+                </ol>
+                <p style="margin-bottom:0;">The generation button is not instant because it's doing real work — reading PDFs, cross-referencing sources, and verifying claims. <a href="methodology.html" style="color:var(--accent); text-decoration:none; font-weight:500;">Full methodology &rarr;</a></p>
+            </div>
+        </details>
+
         <div class="card">
             <div class="card-label">Latest Article</div>
             <div id="latest-article">
