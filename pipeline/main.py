@@ -98,7 +98,8 @@ def cmd_run(args):
     print(f"\n[6/7] Rendering HTML...")
     from html_renderer import render_article_html, render_evidence_html
     render_article_html(article_result["article_markdown"], args.question_id,
-                        tags=question_config.get("tags", []))
+                        tags=question_config.get("tags", []),
+                        evidence=evidence, fact_check_result=fc_result)
     render_evidence_html(evidence, consensus=consensus, fact_check_result=fc_result)
 
     # Step 7: Evaluation (if reference exists)
@@ -146,7 +147,8 @@ def cmd_generate(args):
 
     from html_renderer import render_article_html
     render_article_html(article_result["article_markdown"], args.question_id,
-                        tags=question_config.get("tags", []))
+                        tags=question_config.get("tags", []),
+                        evidence=evidence)
     print("\nDone.")
 
 
