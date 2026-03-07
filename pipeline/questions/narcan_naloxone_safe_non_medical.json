@@ -1,0 +1,69 @@
+{
+  "id": "narcan_naloxone_safe_non_medical",
+  "question": "Is Narcan (naloxone) safe for non-medical people to use in overdose emergencies?",
+  "topic": "Corrects misconceptions that prevent bystander naloxone administration during opioid overdoses",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Emergency Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Integrating Responses at the Intersection of Opioid Use Disorder and Infectious Disease Epidemics: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25153",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/26635",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use",
+      "url": "https://www.nationalacademies.org/publications/24781",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Pain Management for People with Serious Illness in the Context of the Opioid Use Disorder Epidemic: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25435",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Framing Opioid Prescribing Guidelines for Acute Pain: Developing the Evidence",
+      "url": "https://www.nationalacademies.org/publications/25555",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Measuring Success in Substance Use Grant Programs: Outcomes and Metrics for Improvement",
+      "url": "https://www.nationalacademies.org/publications/25745",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Role of Nonpharmacological Approaches to Pain Management: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25406",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_topic",
+      "text": "Narcan (naloxone) access for opioid overdose reversal",
+      "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+      "date": "2026-02-25T11:00:00"
+    }
+  ]
+}

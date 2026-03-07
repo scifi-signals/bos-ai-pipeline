@@ -58,6 +58,7 @@ def _mine_podcast_claims():
         podcast = data.get("podcast_name", summary_file.stem.split("_")[0])
         episode = data.get("episode_title", "")
         published = data.get("published", "")
+        episode_url = data.get("episode_url", "")
 
         # Extract claims that need verification
         claims = data.get("claims_to_note", [])
@@ -67,6 +68,7 @@ def _mine_podcast_claims():
                     "raw_text": claim,
                     "source_type": "podcast_claim",
                     "source": f"{podcast}: {episode}",
+                    "source_url": episode_url,
                     "date": published,
                 })
 
@@ -78,6 +80,7 @@ def _mine_podcast_claims():
                     "raw_text": topic,
                     "source_type": "podcast_topic",
                     "source": f"{podcast}: {episode}",
+                    "source_url": episode_url,
                     "date": published,
                 })
 
@@ -118,6 +121,7 @@ def _mine_trending_topics():
                     "raw_text": name,
                     "source_type": "trending_topic",
                     "source": f"STM ({source_count} sources)",
+                    "source_url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
                     "date": timestamp[:10] if timestamp else "",
                     "momentum": source_count,
                 })

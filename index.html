@@ -92,6 +92,8 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 .queue-item-discovery summary::-webkit-details-marker { display:none; }
 .queue-item-discovery ul { list-style:none; padding:0; margin-top:6px; }
 .queue-item-discovery li { padding:2px 0; line-height:1.5; }
+.queue-item-discovery a { color:var(--accent); text-decoration:none; }
+.queue-item-discovery a:hover { text-decoration:underline; }
 
 .priority-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:0.3px; }
 .priority-high { background:var(--red-light); color:var(--red); }
@@ -410,7 +412,13 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
                     var icon = ds.type === 'podcast_claim' ? '🎙' : ds.type === 'podcast_topic' ? '🎙' : '📈';
                     var label = ds.type === 'podcast_claim' ? 'Podcast claim' : ds.type === 'podcast_topic' ? 'Podcast topic' : 'Trending topic';
                     var line = icon + ' <strong>' + label + ':</strong> ' + escHtml(ds.text);
-                    if (ds.origin) line += ' <span style="color:var(--text-tertiary);">— ' + escHtml(ds.origin) + '</span>';
+                    if (ds.origin) {
+                        if (ds.url) {
+                            line += ' <span style="color:var(--text-tertiary);">— <a href="' + escHtml(ds.url) + '" target="_blank" rel="noopener" style="color:var(--accent);">' + escHtml(ds.origin) + '</a></span>';
+                        } else {
+                            line += ' <span style="color:var(--text-tertiary);">— ' + escHtml(ds.origin) + '</span>';
+                        }
+                    }
                     if (ds.date) line += ' <span style="color:var(--text-tertiary);">(' + escHtml(ds.date) + ')</span>';
                     return '<li>' + line + '</li>';
                 }).join('');

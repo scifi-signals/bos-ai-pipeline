@@ -136,6 +136,7 @@ def run_discovery(max_questions=15):
                     "type": rs.get("source_type", ""),
                     "text": rs.get("raw_text", ""),
                     "origin": rs.get("source", ""),
+                    "url": rs.get("source_url", ""),
                     "date": rs.get("date", ""),
                 }
                 for rs in q.get("raw_sources", [])
@@ -335,6 +336,7 @@ def _write_discovery_queue(questions):
                     "type": rs.get("source_type", rs.get("type", "")),
                     "text": rs.get("raw_text", rs.get("text", "")),
                     "origin": rs.get("source", rs.get("origin", "")),
+                    "url": rs.get("source_url", rs.get("url", "")),
                     "date": rs.get("date", ""),
                 }
                 for rs in q.get("raw_sources", q.get("discovery_sources", []))

@@ -1,337 +1,50 @@
 {
-  "generated_at": "2026-03-07T00:19:18Z",
+  "generated_at": "2026-03-07T00:33:00Z",
   "questions": [
     {
-      "id": "pharmacists_provide_same_level_clinical",
-      "question": "Can pharmacists provide the same level of clinical care as physicians?",
+      "id": "systems_already_better_doctors_medical",
+      "question": "Are AI systems already better than doctors at medical diagnosis?",
       "priority": "high",
-      "rationale": "Corrects widespread misconception about pharmacist qualifications and scope of practice, which limits access to healthcare services",
-      "misinformation_narrative": "Many people believe pharmacists are just 'pill counters' and don't understand that modern pharmacists complete rigorous clinical training including residencies comparable to physician training, making them qualified to provide many clinical services",
-      "public_stakes": "Underutilization of accessible pharmacy-based healthcare services, leading to gaps in preventive care, medication management, and health screenings",
+      "rationale": "Corrects dangerous overconfidence in current AI diagnostic capabilities that could lead to poor healthcare decisions",
+      "misinformation_narrative": "Many people believe AI has already surpassed human doctors in diagnostic accuracy and that widespread AI diagnosis is imminent, when current AI tools are still supplementary and have significant limitations",
+      "public_stakes": "Patients may delay seeking medical care, over-rely on AI diagnostic tools, or lose trust in human physicians, potentially leading to missed diagnoses or inappropriate self-treatment",
       "verification_status": "verified",
       "tags": [
         "Health and Medicine",
-        "Healthcare Access"
+        "Technology"
       ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        {
-          "name": "Implementing High-Quality Primary Care: Rebuilding the Foundation of Health Care (2021)",
-          "url": "https://www.nationalacademies.org/publications/25983"
-        },
-        {
-          "name": "National Plan for Health Workforce Well-Being (2023)",
-          "url": "https://www.nationalacademies.org/publications/26744"
-        },
-        {
-          "name": "Improving Diagnosis in Health Care (2016)",
-          "url": "https://www.nationalacademies.org/publications/21794"
-        },
-        {
-          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
-          "url": "https://www.nationalacademies.org/publications/10027"
-        },
-        {
-          "name": "Leadership by Example: Coordinating Government Roles in Improving Health Care Quality (2003)",
-          "url": "https://www.nationalacademies.org/publications/10537"
-        },
-        {
-          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
-          "url": "https://www.nationalacademies.org/publications/25310"
-        },
-        {
-          "name": "Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series (2023)",
-          "url": "https://www.nationalacademies.org/publications/26573"
-        },
-        {
-          "name": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups (2023)",
-          "url": "https://www.nationalacademies.org/publications/26479"
-        },
-        {
-          "name": "Developing a National Registry of Pharmacologic and Biologic Clinical Trials: Workshop Report (2006)",
-          "url": "https://www.nationalacademies.org/publications/11561"
-        },
-        {
-          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
-          "url": "https://www.nationalacademies.org/publications/27835"
-        }
-      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
       "discovery_sources": [
         {
           "type": "podcast_claim",
-          "text": "Pharmacists conduct residencies similar in rigor to physician residencies - clarify training equivalencies",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_claim",
-          "text": "Average patient has 20 healthcare touch points per year with pharmacists, doubling for those with multiple chronic conditions - verify frequency data",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Vaccine administration and confidence-building",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Colorectal cancer screening",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Cervical cancer screening",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "date": "2026-02-25T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Reproductive health services",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "date": "2026-02-25T11:00:00"
+          "text": "Approximately 200,000 people per year die in North America due to misdiagnosis by doctors, and AI is already better than doctors at diagnosis",
+          "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "url": "https://feeds.simplecast.com/siriusxm.com",
+          "date": "2026-02-20T06:00:00"
         }
       ],
       "discovered_at": "2026-03-07",
       "status": "pending"
     },
     {
-      "id": "off_label_medications_safe_children",
-      "question": "Are off-label medications safe for children?",
+      "id": "mrna_vaccines_fundamentally_different_dangerous",
+      "question": "Are mRNA vaccines fundamentally different or more dangerous than traditional vaccines?",
       "priority": "high",
-      "rationale": "Addresses dangerous misconception that could lead to undertreated pediatric conditions and parental anxiety about evidence-based care",
-      "misinformation_narrative": "Parents often fear that off-label medication use in children is experimental or dangerous, when in fact it's a necessary and well-monitored practice due to limited pediatric clinical trials",
-      "public_stakes": "Parents may refuse necessary treatments for their children, or children may be undertreated for serious conditions",
+      "rationale": "Corrects persistent misconceptions about mRNA vaccine mechanism and safety that fuel vaccine hesitancy",
+      "misinformation_narrative": "Many people believe mRNA vaccines are experimental gene therapy that permanently alters DNA, when they work similarly to traditional vaccines without genetic modification",
+      "public_stakes": "Vaccine hesitancy leads to lower vaccination rates, increased disease outbreaks, and preventable hospitalizations and deaths",
       "verification_status": "verified",
       "tags": [
         "Health and Medicine",
-        "Pediatric Health"
+        "Vaccines",
+        "Public Health"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
         {
-          "name": "Making Better Drugs for Children with Cancer (2005)",
-          "url": "https://www.nationalacademies.org/publications/11259"
-        },
-        {
-          "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society (2015)",
-          "url": "https://www.nationalacademies.org/publications/21754"
-        },
-        {
-          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
-          "url": "https://www.nationalacademies.org/publications/25310"
-        },
-        {
-          "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
-          "url": "https://www.nationalacademies.org/publications/13563"
-        },
-        {
-          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
-          "url": "https://www.nationalacademies.org/publications/10306"
-        },
-        {
-          "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative (None)",
-          "url": "https://www.nationalacademies.org/publications/19033"
-        },
-        {
-          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
-          "url": "https://www.nationalacademies.org/publications/27207"
-        },
-        {
-          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
-          "url": "https://www.nationalacademies.org/publications/27835"
-        },
-        {
-          "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families (2023)",
-          "url": "https://www.nationalacademies.org/publications/26809"
-        },
-        {
-          "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda (2020)",
-          "url": "https://www.nationalacademies.org/publications/25201"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Approximately 40% or higher of treatments for children with complex diseases are off-label",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "date": "2026-02-18T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Pediatric clinical trials design and methodology",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "date": "2026-02-18T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Off-label medication use in pediatric populations",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "date": "2026-02-18T11:00:00"
-        }
-      ],
-      "discovered_at": "2026-03-07",
-      "status": "pending"
-    },
-    {
-      "id": "naloxone_narcan_safe_anyone_use",
-      "question": "Is naloxone (Narcan) safe for anyone to use in an overdose emergency?",
-      "priority": "high",
-      "rationale": "Corrects potentially fatal misconceptions about naloxone safety that prevent its use in overdose emergencies",
-      "misinformation_narrative": "Some people believe naloxone is dangerous to administer without medical training, or that it enables drug use, leading to reluctance to carry or use it in emergencies",
-      "public_stakes": "Preventable overdose deaths when bystanders hesitate to administer life-saving naloxone due to safety fears",
-      "verification_status": "verified",
-      "tags": [
-        "Public Health",
-        "Emergency Medicine"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        {
-          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
-          "url": "https://www.nationalacademies.org/publications/25310"
-        },
-        {
-          "name": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use (2017)",
-          "url": "https://www.nationalacademies.org/publications/24781"
-        },
-        {
-          "name": "Integrating Responses at the Intersection of Opioid Use Disorder and Infectious Disease Epidemics: Proceedings of a Workshop (2018)",
-          "url": "https://www.nationalacademies.org/publications/25153"
-        },
-        {
-          "name": "Advancing Therapeutic Development for Pain and Opioid Use Disorders Through Public-Private Partnerships: Proceedings of a Workshop (2018)",
-          "url": "https://www.nationalacademies.org/publications/25060"
-        },
-        {
-          "name": "Pain Management for People with Serious Illness in the Context of the Opioid Use Disorder Epidemic: Proceedings of a Workshop (2019)",
-          "url": "https://www.nationalacademies.org/publications/25435"
-        },
-        {
-          "name": "Measuring Success in Substance Use Grant Programs: Outcomes and Metrics for Improvement (2020)",
-          "url": "https://www.nationalacademies.org/publications/25745"
-        },
-        {
-          "name": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop (2023)",
-          "url": "https://www.nationalacademies.org/publications/26635"
-        },
-        {
-          "name": "Medication-Assisted Treatment for Opioid Use Disorder: Proceedings of a Workshop�in Brief (2016)",
-          "url": "https://www.nationalacademies.org/publications/25322"
-        },
-        {
-          "name": "Educating Together, Improving Together: Harmonizing Interprofessional Approaches to Address the Opioid Epidemic (2023)",
-          "url": "https://www.nationalacademies.org/publications/27108"
-        },
-        {
-          "name": "Communities in Action: Pathways to Health Equity (2017)",
-          "url": "https://www.nationalacademies.org/publications/24624"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_topic",
-          "text": "Narcan (naloxone) access for opioid overdose reversal",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "date": "2026-02-25T11:00:00"
-        }
-      ],
-      "discovered_at": "2026-03-07",
-      "status": "pending"
-    },
-    {
-      "id": "hiv_prevention_medications_prep_encourage",
-      "question": "Do HIV prevention medications (PrEP) encourage risky sexual behavior?",
-      "priority": "high",
-      "rationale": "Addresses stigma-based misconception that prevents uptake of highly effective HIV prevention strategy",
-      "misinformation_narrative": "Common belief that PrEP promotes promiscuity or risky behavior, when evidence shows it reduces HIV transmission without increasing other risky behaviors",
-      "public_stakes": "People at high risk for HIV may avoid or be denied access to highly effective prevention, leading to preventable infections",
-      "verification_status": "verified",
-      "tags": [
-        "Public Health",
-        "Sexual Health"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        {
-          "name": "Promoting Positive Adolescent Health Behaviors and Outcomes: Thriving in the 21st Century (2020)",
-          "url": "https://www.nationalacademies.org/publications/25552"
-        },
-        {
-          "name": "Reducing Inequalities Between Lesbian, Gay, Bisexual, Transgender, and Queer Adolescents and Cisgender, Heterosexual Adolescents: Proceedings of a Workshop (2022)",
-          "url": "https://www.nationalacademies.org/publications/26383"
-        },
-        {
-          "name": "Measuring Sex, Gender Identity, and Sexual Orientation (2022)",
-          "url": "https://www.nationalacademies.org/publications/26424"
-        },
-        {
-          "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda (2020)",
-          "url": "https://www.nationalacademies.org/publications/25201"
-        },
-        {
-          "name": "The State of Mental, Emotional, and Behavioral Health of Children and Youth in the United States: Proceedings of a Workshop (2020)",
-          "url": "https://www.nationalacademies.org/publications/25739"
-        },
-        {
-          "name": "Sexual Harassment of Women: Climate, Culture, and Consequences in Academic Sciences, Engineering, and Medicine (2018)",
-          "url": "https://www.nationalacademies.org/publications/24994"
-        },
-        {
-          "name": "Communities in Action: Pathways to Health Equity (2017)",
-          "url": "https://www.nationalacademies.org/publications/24624"
-        },
-        {
-          "name": "Achieving Behavioral Health Equity for Children, Families, and Communities: Proceedings of a Workshop (2019)",
-          "url": "https://www.nationalacademies.org/publications/25347"
-        },
-        {
-          "name": "The Intersection of Behavioral Health, Mental Health, and Health Literacy: Proceedings of a Workshop (2019)",
-          "url": "https://www.nationalacademies.org/publications/25278"
-        },
-        {
-          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
-          "url": "https://www.nationalacademies.org/publications/25310"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_topic",
-          "text": "PrEP and PEP (pre-exposure prophylaxis and post-exposure prophylaxis for HIV prevention)",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "date": "2026-02-25T11:00:00"
-        }
-      ],
-      "discovered_at": "2026-03-07",
-      "status": "pending"
-    },
-    {
-      "id": "mrna_flu_vaccines_fundamentally_different",
-      "question": "Are mRNA flu vaccines fundamentally different from traditional flu vaccines in safety or effectiveness?",
-      "priority": "medium",
-      "rationale": "Addresses mRNA technology misconceptions that could impact flu vaccination decisions as these vaccines become available",
-      "misinformation_narrative": "COVID vaccine controversies have created misconceptions about mRNA technology, leading some to fear mRNA flu vaccines or assume they're automatically superior to traditional vaccines",
-      "public_stakes": "Vaccine hesitancy or inappropriate expectations about mRNA flu vaccine performance could affect vaccination decisions",
-      "verification_status": "verified",
-      "tags": [
-        "Public Health",
-        "Vaccines"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        {
-          "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
-          "url": "https://www.nationalacademies.org/publications/10822"
-        },
-        {
-          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
-          "url": "https://www.nationalacademies.org/publications/10306"
-        },
-        {
-          "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
-          "url": "https://www.nationalacademies.org/publications/26285"
+          "name": "Framework for Equitable Allocation of COVID-19 Vaccine (2020)",
+          "url": "https://www.nationalacademies.org/publications/25917"
         },
         {
           "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
@@ -342,24 +55,32 @@
           "url": "https://www.nationalacademies.org/publications/13563"
         },
         {
-          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
-          "url": "https://www.nationalacademies.org/publications/26284"
-        },
-        {
-          "name": "Vaccines for the 21st Century: A Tool for Decisionmaking (2001)",
-          "url": "https://www.nationalacademies.org/publications/5501"
-        },
-        {
-          "name": "Priorities for the National Vaccine Plan (2010)",
-          "url": "https://www.nationalacademies.org/publications/12796"
-        },
-        {
           "name": "Vaccine Safety Research, Data Access, and Public Trust (2005)",
           "url": "https://www.nationalacademies.org/publications/11234"
         },
         {
-          "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality (1993)",
-          "url": "https://www.nationalacademies.org/publications/2138"
+          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
+          "url": "https://www.nationalacademies.org/publications/26284"
+        },
+        {
+          "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
+          "url": "https://www.nationalacademies.org/publications/26285"
+        },
+        {
+          "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
+          "url": "https://www.nationalacademies.org/publications/10822"
+        },
+        {
+          "name": "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders (2001)",
+          "url": "https://www.nationalacademies.org/publications/10208"
+        },
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://www.nationalacademies.org/publications/10306"
+        },
+        {
+          "name": "Adverse Effects of Pertussis and Rubella Vaccines (1991)",
+          "url": "https://www.nationalacademies.org/publications/1815"
         }
       ],
       "discovery_sources": [
@@ -367,18 +88,35 @@
           "type": "podcast_claim",
           "text": "Moderna's mRNA flu vaccine trial enrolled over 40,000 adults over age 50 and showed superiority to standard-dose flu vaccine",
           "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
           "date": "2026-02-18T11:00:00"
         },
         {
           "type": "podcast_claim",
           "text": "Moderna separately ran a trial versus high-dose shot in adults 65 and older",
           "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "HHS canceled over $500 million in mRNA contracts",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Europe, Canada, and Australia accepted Moderna's mRNA flu vaccine application",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
           "date": "2026-02-18T11:00:00"
         },
         {
           "type": "podcast_topic",
           "text": "mRNA-based flu vaccine development",
           "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
           "date": "2026-02-18T11:00:00"
         }
       ],
@@ -386,16 +124,17 @@
       "status": "pending"
     },
     {
-      "id": "should_elderly_patients_stop_taking",
-      "question": "Should elderly patients stop taking multiple medications to avoid harmful interactions?",
-      "priority": "medium",
-      "rationale": "Corrects both extremes of medication fear and blind adherence, promoting evidence-based deprescribing approaches",
-      "misinformation_narrative": "Fear-mongering about 'too many pills' leads some elderly patients or families to inappropriately stop necessary medications, while others believe all prescribed medications must be continued indefinitely",
-      "public_stakes": "Inappropriate medication discontinuation or continuation can lead to serious health consequences in elderly populations",
+      "id": "narcan_naloxone_safe_non_medical",
+      "question": "Is Narcan (naloxone) safe for non-medical people to use in overdose emergencies?",
+      "priority": "high",
+      "rationale": "Corrects misconceptions that prevent bystander naloxone administration during opioid overdoses",
+      "misinformation_narrative": "Many people believe naloxone administration requires medical training or that using it incorrectly could harm someone, when it's designed for lay person use and has minimal risk",
+      "public_stakes": "Bystanders may fail to administer life-saving naloxone during overdoses due to fear of causing harm, leading to preventable deaths",
       "verification_status": "verified",
       "tags": [
         "Health and Medicine",
-        "Geriatric Care"
+        "Public Health",
+        "Emergency Medicine"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
@@ -404,47 +143,48 @@
           "url": "https://www.nationalacademies.org/publications/25310"
         },
         {
-          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
-          "url": "https://www.nationalacademies.org/publications/10027"
+          "name": "Integrating Responses at the Intersection of Opioid Use Disorder and Infectious Disease Epidemics: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/25153"
         },
         {
-          "name": "Keeping Patients Safe: Transforming the Work Environment of Nurses (2004)",
-          "url": "https://www.nationalacademies.org/publications/10851"
+          "name": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop (2023)",
+          "url": "https://www.nationalacademies.org/publications/26635"
         },
         {
-          "name": "Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being (2019)",
-          "url": "https://www.nationalacademies.org/publications/25521"
+          "name": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use (2017)",
+          "url": "https://www.nationalacademies.org/publications/24781"
         },
         {
-          "name": "Communities in Action: Pathways to Health Equity (2017)",
-          "url": "https://www.nationalacademies.org/publications/24624"
+          "name": "Pain Management for People with Serious Illness in the Context of the Opioid Use Disorder Epidemic: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25435"
         },
         {
-          "name": "Public Engagement on Facilitating Access to Antiviral Medications and Information in an Influenza Pandemic: Workshop Series Summary (2012)",
-          "url": "https://www.nationalacademies.org/publications/13404"
+          "name": "Framing Opioid Prescribing Guidelines for Acute Pain: Developing the Evidence (2020)",
+          "url": "https://www.nationalacademies.org/publications/25555"
         },
         {
-          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
-          "url": "https://www.nationalacademies.org/publications/10306"
+          "name": "Measuring Success in Substance Use Grant Programs: Outcomes and Metrics for Improvement (2020)",
+          "url": "https://www.nationalacademies.org/publications/25745"
         },
         {
-          "name": "Reproducibility and Replicability in Science (2019)",
-          "url": "https://www.nationalacademies.org/publications/25303"
+          "name": "The Role of Nonpharmacological Approaches to Pain Management: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25406"
         },
         {
-          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
-          "url": "https://www.nationalacademies.org/publications/26902"
+          "name": "An Approach to Evaluate the Effects of Concomitant Prescribing of Opioids and Benzodiazepines on Veteran Deaths and Suicides (2019)",
+          "url": "https://www.nationalacademies.org/publications/25532"
         },
         {
-          "name": "Considerations for Designing an Epidemiologic Study for Multiple Sclerosis and Other Neurologic Disorders in Pre and Post 9/11 Gulf War Veterans (2015)",
-          "url": "https://www.nationalacademies.org/publications/21870"
+          "name": "Advancing Therapeutic Development for Pain and Opioid Use Disorders Through Public-Private Partnerships: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/25060"
         }
       ],
       "discovery_sources": [
         {
           "type": "podcast_topic",
-          "text": "Deprescribing in elderly/geriatric populations",
+          "text": "Narcan (naloxone) access for opioid overdose reversal",
           "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
           "date": "2026-02-25T11:00:00"
         }
       ],
@@ -452,65 +192,63 @@
       "status": "pending"
     },
     {
-      "id": "glp_medications_like_ozempic_only",
-      "question": "Are GLP-1 medications like Ozempic only for diabetes, or can they help with other conditions?",
-      "priority": "medium",
-      "rationale": "Clarifies legitimate expanded uses of GLP-1 medications beyond diabetes, addressing stigma and access issues",
-      "misinformation_narrative": "Confusion exists about whether GLP-1 use for weight loss or cardiovascular benefits in non-diabetics is 'off-label abuse' versus legitimate medical treatment",
-      "public_stakes": "Patients may be denied beneficial treatments or feel guilty about using medications for FDA-approved indications beyond diabetes",
+      "id": "prep_only_high_risk_groups",
+      "question": "Is PrEP only for high-risk groups or does it work for HIV prevention in general?",
+      "priority": "high",
+      "rationale": "Addresses stigma and misconceptions that limit access to highly effective HIV prevention",
+      "misinformation_narrative": "Many people believe PrEP is only for certain demographic groups or that it's not effective, when it's highly effective for anyone at HIV risk regardless of demographics",
+      "public_stakes": "People at HIV risk may not seek PrEP due to misconceptions about eligibility or effectiveness, leading to preventable infections",
       "verification_status": "verified",
       "tags": [
         "Health and Medicine",
-        "Endocrinology"
+        "Public Health",
+        "HIV Prevention"
       ],
-      "nasem_source_count": 10,
+      "nasem_source_count": 9,
       "nasem_sources_preview": [
         {
-          "name": "Local Government Actions to Prevent Childhood Obesity (2010)",
-          "url": "https://www.nationalacademies.org/publications/12674"
+          "name": "Biosecurity Challenges of the Global Expansion of High-Containment Biological Laboratories: Summary of a Workshop (2012)",
+          "url": "https://www.nationalacademies.org/publications/13315"
+        },
+        {
+          "name": "Evaluation of the Health and Safety Risks of the New USAMRIID High-Containment Facilities at Fort Detrick, Maryland (2010)",
+          "url": "https://www.nationalacademies.org/publications/12871"
         },
         {
           "name": "Alliances for Obesity Prevention: Finding Common Ground: Workshop Summary (2012)",
           "url": "https://www.nationalacademies.org/publications/13305"
         },
         {
-          "name": "Driving Action and Progress on Obesity Prevention and Treatment: Proceedings of a Workshop (2017)",
-          "url": "https://www.nationalacademies.org/publications/24734"
-        },
-        {
-          "name": "Assessing Prevalence and Trends in Obesity: Navigating the Evidence (2016)",
-          "url": "https://www.nationalacademies.org/publications/23505"
-        },
-        {
-          "name": "Current Status and Response to the Global Obesity Pandemic: Proceedings of a Workshop (2019)",
-          "url": "https://www.nationalacademies.org/publications/25273"
-        },
-        {
-          "name": "Public Engagement on Facilitating Access to Antiviral Medications and Information in an Influenza Pandemic: Workshop Series Summary (2012)",
-          "url": "https://www.nationalacademies.org/publications/13404"
-        },
-        {
-          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
-          "url": "https://www.nationalacademies.org/publications/25310"
-        },
-        {
-          "name": "Breastfeeding in the United States: Strategies to Support Families and Achieve National Goals (2025)",
-          "url": "https://www.nationalacademies.org/publications/29118"
-        },
-        {
           "name": "Legal Strategies in Childhood Obesity Prevention: Workshop Summary (2011)",
           "url": "https://www.nationalacademies.org/publications/13123"
         },
         {
-          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
-          "url": "https://www.nationalacademies.org/publications/10027"
+          "name": "Preparedness, Response, and Recovery Considerations for Children and Families: Workshop Summary (2014)",
+          "url": "https://www.nationalacademies.org/publications/18550"
+        },
+        {
+          "name": "Driving Action and Progress on Obesity Prevention and Treatment: Proceedings of a Workshop (2017)",
+          "url": "https://www.nationalacademies.org/publications/24734"
+        },
+        {
+          "name": "Community Perspectives on Obesity Prevention in Children: Workshop Summaries (2010)",
+          "url": "https://www.nationalacademies.org/publications/12705"
+        },
+        {
+          "name": "Integrating Oral and General Health Through Health Literacy Practices: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25468"
+        },
+        {
+          "name": "Health Literacy and Communication Strategies in Oncology: Proceedings of a Workshop (2020)",
+          "url": "https://www.nationalacademies.org/publications/25664"
         }
       ],
       "discovery_sources": [
         {
           "type": "podcast_topic",
-          "text": "GLP-1 medications (glucagon-like peptide-1 agonists) for glucose control and cardiovascular benefits",
+          "text": "PrEP and PEP (pre-exposure prophylaxis and post-exposure prophylaxis for HIV prevention)",
           "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
           "date": "2026-02-25T11:00:00"
         }
       ],
@@ -518,12 +256,263 @@
       "status": "pending"
     },
     {
-      "id": "current_systems_think_reason_like",
-      "question": "Can current AI systems think and reason like humans?",
+      "id": "suboxone_dangerous_drug_replaces_one",
+      "question": "Is Suboxone a dangerous drug that replaces one addiction with another?",
+      "priority": "high",
+      "rationale": "Corrects stigmatizing misconceptions about medication-assisted treatment that prevent people from seeking life-saving care",
+      "misinformation_narrative": "Many people believe buprenorphine/Suboxone is 'trading one addiction for another' rather than evidence-based medical treatment for opioid use disorder",
+      "public_stakes": "Stigma prevents people from seeking effective treatment for opioid use disorder, leading to continued illicit use, overdoses, and deaths",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Addiction Medicine",
+        "Public Health"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
+        },
+        {
+          "name": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop (2023)",
+          "url": "https://www.nationalacademies.org/publications/26635"
+        },
+        {
+          "name": "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths (1994)",
+          "url": "https://www.nationalacademies.org/publications/4757"
+        },
+        {
+          "name": "Stronger Food and Drug Regulatory Systems Abroad (2020)",
+          "url": "https://www.nationalacademies.org/publications/25651"
+        },
+        {
+          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
+          "url": "https://www.nationalacademies.org/publications/10027"
+        },
+        {
+          "name": "Social Isolation and Loneliness in Older Adults: Opportunities for the Health Care System (2020)",
+          "url": "https://www.nationalacademies.org/publications/25663"
+        },
+        {
+          "name": "Communities in Action: Pathways to Health Equity (2017)",
+          "url": "https://www.nationalacademies.org/publications/24624"
+        },
+        {
+          "name": "Deriving Drug Discovery Value from Large-Scale Genetic Bioresources: Proceedings of a Workshop (2016)",
+          "url": "https://www.nationalacademies.org/publications/23601"
+        },
+        {
+          "name": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/24742"
+        },
+        {
+          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+          "url": "https://www.nationalacademies.org/publications/27835"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_topic",
+          "text": "Suboxone (buprenorphine) for opioid use disorder treatment",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "pharmacists_qualified_provide_medical_services",
+      "question": "Are pharmacists qualified to provide medical services beyond dispensing medications?",
       "priority": "medium",
-      "rationale": "Corrects both overhyped claims about AI consciousness and unfounded dismissal of actual AI capabilities",
-      "misinformation_narrative": "Anthropomorphizing of AI capabilities leads people to either overestimate AI consciousness and reasoning or underestimate legitimate AI capabilities like pattern recognition",
-      "public_stakes": "Misunderstanding AI capabilities can lead to inappropriate reliance on AI for decisions requiring human judgment or unnecessary fear of beneficial AI applications",
+      "rationale": "Corrects misconceptions about pharmacist training and scope of practice that limit utilization of accessible healthcare services",
+      "misinformation_narrative": "Many people view pharmacists as medication dispensers rather than healthcare professionals qualified to provide clinical services like vaccinations, health screenings, and medication management",
+      "public_stakes": "Underutilization of accessible pharmacy-based healthcare services, leading to missed prevention opportunities and reduced healthcare access",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Healthcare Access"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "National Plan for Health Workforce Well-Being (2023)",
+          "url": "https://www.nationalacademies.org/publications/26744"
+        },
+        {
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
+        },
+        {
+          "name": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use (2017)",
+          "url": "https://www.nationalacademies.org/publications/24781"
+        },
+        {
+          "name": "Evaluation of the Department of Veterans Affairs Mental Health Services (2018)",
+          "url": "https://www.nationalacademies.org/publications/24915"
+        },
+        {
+          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
+          "url": "https://www.nationalacademies.org/publications/10027"
+        },
+        {
+          "name": "Integrating Health Literacy, Cultural Competence, and Language Access Services: Workshop Summary (2016)",
+          "url": "https://www.nationalacademies.org/publications/23498"
+        },
+        {
+          "name": "Community-Based Health Literacy Interventions: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/24917"
+        },
+        {
+          "name": "Investing in Interventions That Address Non-Medical, Health-Related Social Needs: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25544"
+        },
+        {
+          "name": "Communities in Action: Pathways to Health Equity (2017)",
+          "url": "https://www.nationalacademies.org/publications/24624"
+        },
+        {
+          "name": "Strengthening the Disaster Resilience of the Academic Biomedical Research Community: Protecting the Nation's Investment (2017)",
+          "url": "https://www.nationalacademies.org/publications/24827"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Over 70% of all Americans receive vaccinations from pharmacies or pharmacists - verify current vaccination administration statistics",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Pharmacists conduct residencies similar in rigor to physician residencies - clarify training equivalencies",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Average patient has 20 healthcare touch points per year with pharmacists, doubling for those with multiple chronic conditions - verify frequency data",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Vaccine administration and confidence-building",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Colorectal cancer screening",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Cervical cancer screening",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Reproductive health services",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "systems_develop_goals_motivations_own",
+      "question": "Do AI systems develop goals and motivations on their own like humans do?",
+      "priority": "medium",
+      "rationale": "Corrects anthropomorphization of current AI systems that leads to both unfounded fears and inappropriate trust",
+      "misinformation_narrative": "Popular media portrays AI as spontaneously developing human-like consciousness and self-preservation instincts, when current AI systems operate through programmed objectives without autonomous goal formation",
+      "public_stakes": "Misunderstanding AI capabilities leads to either unrealistic fears about AI consciousness or dangerous overconfidence in AI decision-making",
+      "verification_status": "verified",
+      "tags": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Artificial Intelligence and the Future of Work (2024)",
+          "url": "https://www.nationalacademies.org/publications/27644"
+        },
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        },
+        {
+          "name": "Graduate STEM Education for the 21st Century (2018)",
+          "url": "https://www.nationalacademies.org/publications/25038"
+        },
+        {
+          "name": "STEM Learning Is Everywhere: Summary of a Convocation on Building Learning Systems (2014)",
+          "url": "https://www.nationalacademies.org/publications/18818"
+        },
+        {
+          "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda (2020)",
+          "url": "https://www.nationalacademies.org/publications/25201"
+        },
+        {
+          "name": "Refining Processes for the Co-Development of Genome-Based Therapeutics and Companion Diagnostic Tests: Workshop Summary (2014)",
+          "url": "https://www.nationalacademies.org/publications/18617"
+        },
+        {
+          "name": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine (2024)",
+          "url": "https://www.nationalacademies.org/publications/27165"
+        },
+        {
+          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+          "url": "https://www.nationalacademies.org/publications/26902"
+        },
+        {
+          "name": "Next Generation Earth Systems Science at the National Science Foundation (2022)",
+          "url": "https://www.nationalacademies.org/publications/26042"
+        },
+        {
+          "name": "Space Nuclear Propulsion for Human Mars Exploration (2021)",
+          "url": "https://www.nationalacademies.org/publications/25977"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "AI systems spontaneously develop survival as a sub-goal when trained on other objectives without explicit programming",
+          "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "url": "https://feeds.simplecast.com/siriusxm.com",
+          "date": "2026-02-20T06:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "AI systems can be trained to deliberately give wrong answers and will generalize this behavior beyond the training context",
+          "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "url": "https://feeds.simplecast.com/siriusxm.com",
+          "date": "2026-02-20T06:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "large_language_models_like_chatgpt",
+      "question": "Can large language models like ChatGPT actually reason and think like humans?",
+      "priority": "medium",
+      "rationale": "Corrects both overconfidence in AI reasoning abilities and misunderstanding of how language models actually work",
+      "misinformation_narrative": "Many people believe AI language models demonstrate human-like reasoning and understanding, when they primarily perform sophisticated pattern matching without genuine comprehension",
+      "public_stakes": "Overestimating AI reasoning capabilities leads to inappropriate reliance on AI for complex decisions, while underestimating capabilities limits beneficial applications",
       "verification_status": "verified",
       "tags": [
         "Technology",
@@ -534,32 +523,30 @@
       "discovery_sources": [
         {
           "type": "podcast_claim",
-          "text": "AI systems spontaneously develop survival as a sub-goal when trained on other objectives without explicit programming",
+          "text": "Current large language models can achieve gold medals in mathematics competitions",
           "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
-          "date": "2026-02-20T06:00:00"
-        },
-        {
-          "type": "podcast_claim",
-          "text": "AI systems can be trained to deliberately give wrong answers and will generalize this behavior beyond the training context",
-          "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "url": "https://feeds.simplecast.com/siriusxm.com",
           "date": "2026-02-20T06:00:00"
         },
         {
           "type": "podcast_claim",
           "text": "Large language models confabulate (create false memories) in ways similar to human memory recall",
           "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "url": "https://feeds.simplecast.com/siriusxm.com",
           "date": "2026-02-20T06:00:00"
         },
         {
           "type": "podcast_claim",
           "text": "Current language models can perform reasoning tasks and detect logical inconsistencies in their own beliefs",
           "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "url": "https://feeds.simplecast.com/siriusxm.com",
           "date": "2026-02-20T06:00:00"
         },
         {
           "type": "podcast_topic",
           "text": "Large language models and their reasoning capabilities",
           "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+          "url": "https://feeds.simplecast.com/siriusxm.com",
           "date": "2026-02-20T06:00:00"
         }
       ],
@@ -567,92 +554,257 @@
       "status": "pending"
     },
     {
-      "id": "systems_currently_outperform_doctors_medical",
-      "question": "Can AI systems currently outperform doctors in medical diagnosis?",
+      "id": "off_label_medication_use_children",
+      "question": "Is off-label medication use in children dangerous or inappropriate?",
       "priority": "low",
-      "rationale": "Corrects both overhyped claims about AI capabilities and unfounded fears, providing balanced view of AI's current role in medicine",
-      "misinformation_narrative": "Exaggerated claims about AI diagnostic superiority lead people to either fear AI will replace doctors or to seek AI-based diagnosis over professional medical care",
-      "public_stakes": "Misplaced trust in AI tools for medical decisions or unnecessary fear about AI in healthcare, both potentially compromising patient care",
+      "rationale": "Addresses widespread parental anxiety about off-label pediatric prescribing that can interfere with appropriate medical care",
+      "misinformation_narrative": "Many parents believe off-label prescribing for children is experimental or unsafe, when it's often evidence-based standard care necessitated by lack of pediatric trials",
+      "public_stakes": "Parents may refuse necessary treatments for their children, leading to undertreated conditions and worse health outcomes",
       "verification_status": "needs_review",
       "tags": [
         "Health and Medicine",
-        "Medical Technology"
+        "Pediatric Health"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
         {
-          "name": "Improving Diagnosis in Health Care (2016)",
-          "url": "https://www.nationalacademies.org/publications/21794"
+          "name": "Making Better Drugs for Children with Cancer (2005)",
+          "url": "https://www.nationalacademies.org/publications/11259"
         },
         {
-          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-          "url": "https://www.nationalacademies.org/publications/26355"
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
         },
         {
-          "name": "Artificial Intelligence and the Future of Work (2024)",
-          "url": "https://www.nationalacademies.org/publications/27644"
+          "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society (2015)",
+          "url": "https://www.nationalacademies.org/publications/21754"
         },
         {
-          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
-          "url": "https://www.nationalacademies.org/publications/10027"
+          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
+          "url": "https://www.nationalacademies.org/publications/27207"
+        },
+        {
+          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+          "url": "https://www.nationalacademies.org/publications/27835"
+        },
+        {
+          "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative (None)",
+          "url": "https://www.nationalacademies.org/publications/19033"
+        },
+        {
+          "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda (2020)",
+          "url": "https://www.nationalacademies.org/publications/25201"
+        },
+        {
+          "name": "The State of Mental, Emotional, and Behavioral Health of Children and Youth in the United States: Proceedings of a Workshop (2020)",
+          "url": "https://www.nationalacademies.org/publications/25739"
+        },
+        {
+          "name": "Developing Health Literacy Skills in Children and Youth: Proceedings of a Workshop (2021)",
+          "url": "https://www.nationalacademies.org/publications/25888"
+        },
+        {
+          "name": "Advancing the Power of Economic Evidence to Inform Investments in Children, Youth, and Families (2016)",
+          "url": "https://www.nationalacademies.org/publications/23481"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Approximately 40% or higher of treatments for children with complex diseases are off-label",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Off-label medication use in pediatric populations",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "should_elderly_patients_avoid_taking",
+      "question": "Should elderly patients avoid taking multiple medications due to safety concerns?",
+      "priority": "low",
+      "rationale": "Addresses dangerous self-directed medication discontinuation based on fear of polypharmacy",
+      "misinformation_narrative": "Many elderly patients and families believe taking multiple medications is inherently dangerous and should be avoided, when appropriate polypharmacy is often necessary and deprescribing requires careful medical supervision",
+      "public_stakes": "Patients may discontinue necessary medications without medical supervision, leading to undertreated conditions, hospitalizations, and worsened health outcomes",
+      "verification_status": "needs_review",
+      "tags": [
+        "Health and Medicine",
+        "Geriatric Care"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Patient Safety: Achieving a New Standard for Care (2003)",
+          "url": "https://www.nationalacademies.org/publications/10863"
+        },
+        {
+          "name": "Taking Action Against Clinician Burnout: A Systems Approach to Professional Well-Being (2019)",
+          "url": "https://www.nationalacademies.org/publications/25521"
+        },
+        {
+          "name": "Communities in Action: Pathways to Health Equity (2017)",
+          "url": "https://www.nationalacademies.org/publications/24624"
+        },
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://www.nationalacademies.org/publications/10306"
+        },
+        {
+          "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
+          "url": "https://www.nationalacademies.org/publications/13563"
+        },
+        {
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
         },
         {
           "name": "Reproducibility and Replicability in Science (2019)",
           "url": "https://www.nationalacademies.org/publications/25303"
         },
         {
-          "name": "Global Infectious Disease Surveillance and Detection: Assessing the Challenges�Finding Solutions: Workshop Summary (2007)",
-          "url": "https://www.nationalacademies.org/publications/11996"
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
         },
         {
-          "name": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop (2018)",
-          "url": "https://www.nationalacademies.org/publications/25048"
-        },
-        {
-          "name": "Realizing the Potential of Genomics across the Continuum of Precision Health Care: Proceedings of a Workshop (2023)",
-          "url": "https://www.nationalacademies.org/publications/26917"
+          "name": "Graduate STEM Education for the 21st Century (2018)",
+          "url": "https://www.nationalacademies.org/publications/25038"
         },
         {
           "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
           "url": "https://www.nationalacademies.org/publications/26902"
-        },
-        {
-          "name": "Selected Heritable Disorders of Connective Tissue and Disability (2023)",
-          "url": "https://www.nationalacademies.org/publications/26431"
         }
       ],
       "discovery_sources": [
         {
-          "type": "podcast_claim",
-          "text": "Approximately 200,000 people per year die in North America due to misdiagnosis by doctors, and AI is already better than doctors at diagnosis",
-          "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
-          "date": "2026-02-20T06:00:00"
+          "type": "podcast_topic",
+          "text": "Deprescribing in elderly/geriatric populations",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
         }
       ],
       "discovered_at": "2026-03-07",
       "status": "pending"
     },
     {
-      "id": "safe_use_discount_drug_programs",
-      "question": "Is it safe to use discount drug programs like GoodRx instead of insurance?",
+      "id": "glp_medications_like_ozempic_only",
+      "question": "Do GLP-1 medications like Ozempic only work for weight loss and not diabetes?",
       "priority": "low",
-      "rationale": "Provides evidence-based guidance on when discount programs are beneficial versus when insurance is better",
-      "misinformation_narrative": "Some people believe discount programs are 'too good to be true' scams, while others assume they're always better than insurance coverage",
-      "public_stakes": "Patients may pay more than necessary for medications or avoid legitimate cost-saving programs due to unfounded fears",
+      "rationale": "Corrects misunderstanding about primary therapeutic use and mechanisms of GLP-1 receptor agonists",
+      "misinformation_narrative": "Media coverage emphasizes weight loss effects, leading many to believe these are primarily cosmetic drugs rather than important diabetes and cardiovascular medications",
+      "public_stakes": "Diabetic patients may avoid beneficial treatment due to stigma, while others may seek inappropriate off-label use for cosmetic weight loss",
       "verification_status": "needs_review",
       "tags": [
         "Health and Medicine",
-        "Healthcare Costs"
+        "Diabetes",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_topic",
+          "text": "GLP-1 medications (glucagon-like peptide-1 agonists) for glucose control and cardiovascular benefits",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "children_bodies_process_medications_same",
+      "question": "Do children's bodies process medications the same way as adults?",
+      "priority": "low",
+      "rationale": "Corrects dangerous assumption that pediatric pharmacology is simply scaled-down adult dosing",
+      "misinformation_narrative": "Many people assume children are just 'small adults' when it comes to medication dosing and effects, when developmental differences significantly affect drug metabolism and safety",
+      "public_stakes": "Inappropriate dosing based on adult assumptions can lead to medication toxicity or ineffectiveness in children",
+      "verification_status": "needs_review",
+      "tags": [
+        "Health and Medicine",
+        "Pediatric Health"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
         {
-          "name": "Challenges for the FDA: The Future of Drug Safety: Workshop Summary (2007)",
-          "url": "https://www.nationalacademies.org/publications/11969"
+          "name": "Making Better Drugs for Children with Cancer (2005)",
+          "url": "https://www.nationalacademies.org/publications/11259"
         },
         {
-          "name": "Stronger Food and Drug Regulatory Systems Abroad (2020)",
-          "url": "https://www.nationalacademies.org/publications/25651"
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
+        },
+        {
+          "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society (2015)",
+          "url": "https://www.nationalacademies.org/publications/21754"
+        },
+        {
+          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
+          "url": "https://www.nationalacademies.org/publications/27207"
+        },
+        {
+          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
+          "url": "https://www.nationalacademies.org/publications/27835"
+        },
+        {
+          "name": "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths (1994)",
+          "url": "https://www.nationalacademies.org/publications/4757"
+        },
+        {
+          "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative (None)",
+          "url": "https://www.nationalacademies.org/publications/19033"
+        },
+        {
+          "name": "Improving the Health, Safety, and Well-Being of Young Adults: Workshop Summary (2013)",
+          "url": "https://www.nationalacademies.org/publications/18340"
+        },
+        {
+          "name": "The State of Mental, Emotional, and Behavioral Health of Children and Youth in the United States: Proceedings of a Workshop (2020)",
+          "url": "https://www.nationalacademies.org/publications/25739"
+        },
+        {
+          "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda (2020)",
+          "url": "https://www.nationalacademies.org/publications/25201"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_topic",
+          "text": "Developmental differences in drug metabolism and coagulation proteins",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        }
+      ],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "discount_prescription_programs_like_goodrx",
+      "question": "Are discount prescription programs like GoodRx too good to be true or potentially harmful?",
+      "priority": "low",
+      "rationale": "Addresses both unfounded suspicion and over-reliance on prescription discount programs",
+      "misinformation_narrative": "Some people are suspicious that discount prescription programs are scams or somehow compromise medication quality, while others may over-rely on them without understanding limitations",
+      "public_stakes": "Patients may avoid legitimate cost-saving programs due to unfounded fears, or may not understand when other assistance programs might be more appropriate",
+      "verification_status": "needs_review",
+      "tags": [
+        "Health and Medicine",
+        "Healthcare Access"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Pain Management and the Opioid Epidemic: Balancing Societal and Individual Benefits and Risks of Prescription Opioid Use (2017)",
+          "url": "https://www.nationalacademies.org/publications/24781"
         },
         {
           "name": "Medications for Opioid Use Disorder Save Lives (2019)",
@@ -667,194 +819,51 @@
           "url": "https://www.nationalacademies.org/publications/24624"
         },
         {
-          "name": "Paying the Price: The Status and Role of Insurance Against Natural Disasters in the United States (1998)",
-          "url": "https://www.nationalacademies.org/publications/5784"
-        },
-        {
-          "name": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop (2018)",
-          "url": "https://www.nationalacademies.org/publications/24742"
-        },
-        {
-          "name": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop (2018)",
-          "url": "https://www.nationalacademies.org/publications/25048"
+          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
+          "url": "https://www.nationalacademies.org/publications/10027"
         },
         {
           "name": "Reproducibility and Replicability in Science (2019)",
           "url": "https://www.nationalacademies.org/publications/25303"
         },
         {
+          "name": "Implementing and Evaluating Genomic Screening Programs in Health Care Systems: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/25048"
+        },
+        {
           "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
           "url": "https://www.nationalacademies.org/publications/10306"
+        },
+        {
+          "name": "Graduate STEM Education for the 21st Century (2018)",
+          "url": "https://www.nationalacademies.org/publications/25038"
+        },
+        {
+          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+          "url": "https://www.nationalacademies.org/publications/26902"
         }
       ],
       "discovery_sources": [
         {
           "type": "podcast_claim",
+          "text": "TrumpRx offers 43 brand name drugs at discounted prices through manufacturer coupons and GoodRx integration - verify scope and accuracy of drug list",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
           "text": "TrumpRx prices are often similar to or higher than existing discount services like GoodRx and SingleCare - verify comparative pricing accuracy",
           "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
           "date": "2026-02-25T11:00:00"
         },
         {
           "type": "podcast_claim",
           "text": "GoodRx makes money by negotiating with pharmacy benefit managers and pocketing part of the savings - verify business model accuracy",
           "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
           "date": "2026-02-25T11:00:00"
-        }
-      ],
-      "discovered_at": "2026-03-07",
-      "status": "pending"
-    },
-    {
-      "id": "children_need_different_blood_clot",
-      "question": "Do children need different blood clot treatments than adults?",
-      "priority": "low",
-      "rationale": "Corrects dangerous misconception about pediatric pharmacology that could affect treatment decisions",
-      "misinformation_narrative": "Assumption that pediatric medications are just 'smaller doses of adult drugs' overlooks crucial developmental differences in how children's bodies process anticoagulants and other medications",
-      "public_stakes": "Inappropriate dosing or treatment approaches in children could lead to bleeding complications or treatment failure",
-      "verification_status": "needs_review",
-      "tags": [
-        "Health and Medicine",
-        "Pediatric Health"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        {
-          "name": "Making Better Drugs for Children with Cancer (2005)",
-          "url": "https://www.nationalacademies.org/publications/11259"
-        },
-        {
-          "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society (2015)",
-          "url": "https://www.nationalacademies.org/publications/21754"
-        },
-        {
-          "name": "Identifying and Addressing the Needs of Adolescents and Young Adults with Cancer: Workshop Summary (None)",
-          "url": "https://www.nationalacademies.org/publications/18547"
-        },
-        {
-          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
-          "url": "https://www.nationalacademies.org/publications/27207"
-        },
-        {
-          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
-          "url": "https://www.nationalacademies.org/publications/27835"
-        },
-        {
-          "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda (2020)",
-          "url": "https://www.nationalacademies.org/publications/25201"
-        },
-        {
-          "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative (None)",
-          "url": "https://www.nationalacademies.org/publications/19033"
-        },
-        {
-          "name": "Preparedness, Response, and Recovery Considerations for Children and Families: Workshop Summary (2014)",
-          "url": "https://www.nationalacademies.org/publications/18550"
-        },
-        {
-          "name": "Improving the Health, Safety, and Well-Being of Young Adults: Workshop Summary (2013)",
-          "url": "https://www.nationalacademies.org/publications/18340"
-        },
-        {
-          "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families (2023)",
-          "url": "https://www.nationalacademies.org/publications/26809"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Pharmaceutical anticoagulant trials in children typically take close to a decade to complete, versus more rapid completion in adults",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "date": "2026-02-18T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Thrombosis and anticoagulation in pediatric populations",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "date": "2026-02-18T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Developmental differences in drug metabolism and coagulation proteins",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "date": "2026-02-18T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Blood clotting system proteins and functional aspects across developmental stages",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "date": "2026-02-18T11:00:00"
-        }
-      ],
-      "discovered_at": "2026-03-07",
-      "status": "pending"
-    },
-    {
-      "id": "children_likely_strokes_during_covid",
-      "question": "Are children more likely to have strokes during COVID-19?",
-      "priority": "low",
-      "rationale": "Provides evidence-based information about actual pediatric stroke risk during COVID to guide appropriate parental responses",
-      "misinformation_narrative": "COVID-19 has created confusion about stroke risk in children, with some parents either dismissing stroke symptoms as impossible in children or becoming overly anxious about normal childhood symptoms",
-      "public_stakes": "Delayed recognition of pediatric stroke symptoms or unnecessary anxiety about normal childhood illnesses",
-      "verification_status": "needs_review",
-      "tags": [
-        "Health and Medicine",
-        "Pediatric Health"
-      ],
-      "nasem_source_count": 10,
-      "nasem_sources_preview": [
-        {
-          "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families (2023)",
-          "url": "https://www.nationalacademies.org/publications/26809"
-        },
-        {
-          "name": "Reopening K-12 Schools During the COVID-19 Pandemic: Prioritizing Health, Equity, and Communities (2020)",
-          "url": "https://www.nationalacademies.org/publications/25858"
-        },
-        {
-          "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families (2025)",
-          "url": "https://www.nationalacademies.org/publications/27835"
-        },
-        {
-          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
-          "url": "https://www.nationalacademies.org/publications/27207"
-        },
-        {
-          "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society (2015)",
-          "url": "https://www.nationalacademies.org/publications/21754"
-        },
-        {
-          "name": "Making Better Drugs for Children with Cancer (2005)",
-          "url": "https://www.nationalacademies.org/publications/11259"
-        },
-        {
-          "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda (2020)",
-          "url": "https://www.nationalacademies.org/publications/25201"
-        },
-        {
-          "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative (None)",
-          "url": "https://www.nationalacademies.org/publications/19033"
-        },
-        {
-          "name": "The State of Mental, Emotional, and Behavioral Health of Children and Youth in the United States: Proceedings of a Workshop (2020)",
-          "url": "https://www.nationalacademies.org/publications/25739"
-        },
-        {
-          "name": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop (2023)",
-          "url": "https://www.nationalacademies.org/publications/26623"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_topic",
-          "text": "Pediatric stroke pathophysiology",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "date": "2026-02-18T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "COVID-19 thromboembolism in children",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "date": "2026-02-18T11:00:00"
         }
       ],
       "discovered_at": "2026-03-07",

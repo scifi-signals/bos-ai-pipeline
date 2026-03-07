@@ -1,0 +1,68 @@
+{
+  "id": "children_bodies_process_medications_same",
+  "question": "Do children's bodies process medications the same way as adults?",
+  "topic": "Corrects dangerous assumption that pediatric pharmacology is simply scaled-down adult dosing",
+  "tags": [
+    "Health and Medicine",
+    "Pediatric Health"
+  ],
+  "sources": [
+    {
+      "name": "Making Better Drugs for Children with Cancer",
+      "url": "https://www.nationalacademies.org/publications/11259",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Comprehensive Cancer Care for Children and Their Families: Summary of a Joint Workshop by the Institute of Medicine and the American Cancer Society",
+      "url": "https://www.nationalacademies.org/publications/21754",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents",
+      "url": "https://www.nationalacademies.org/publications/27207",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Launching Lifelong Health by Improving Health Care for Children, Youth, and Families",
+      "url": "https://www.nationalacademies.org/publications/27835",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Growing Up Tobacco Free: Preventing Nicotine Addiction in Children and Youths",
+      "url": "https://www.nationalacademies.org/publications/4757",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative",
+      "url": "https://www.nationalacademies.org/publications/19033",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Improving the Health, Safety, and Well-Being of Young Adults: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/18340",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_topic",
+      "text": "Developmental differences in drug metabolism and coagulation proteins",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    }
+  ]
+}

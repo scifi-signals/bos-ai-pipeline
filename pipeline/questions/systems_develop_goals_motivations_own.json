@@ -1,0 +1,75 @@
+{
+  "id": "systems_develop_goals_motivations_own",
+  "question": "Do AI systems develop goals and motivations on their own like humans do?",
+  "topic": "Corrects anthropomorphization of current AI systems that leads to both unfounded fears and inappropr",
+  "tags": [
+    "Technology",
+    "Artificial Intelligence"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and the Future of Work",
+      "url": "https://www.nationalacademies.org/publications/27644",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://www.nationalacademies.org/publications/26355",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Graduate STEM Education for the 21st Century",
+      "url": "https://www.nationalacademies.org/publications/25038",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "STEM Learning Is Everywhere: Summary of a Convocation on Building Learning Systems",
+      "url": "https://www.nationalacademies.org/publications/18818",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda",
+      "url": "https://www.nationalacademies.org/publications/25201",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Refining Processes for the Co-Development of Genome-Based Therapeutics and Companion Diagnostic Tests: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/18617",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Charting a Future for Sequencing RNA and Its Modifications: A New Era for Biology and Medicine",
+      "url": "https://www.nationalacademies.org/publications/27165",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field",
+      "url": "https://www.nationalacademies.org/publications/26902",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "AI systems spontaneously develop survival as a sub-goal when trained on other objectives without explicit programming",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "url": "https://feeds.simplecast.com/siriusxm.com",
+      "date": "2026-02-20T06:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "AI systems can be trained to deliberately give wrong answers and will generalize this behavior beyond the training context",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "url": "https://feeds.simplecast.com/siriusxm.com",
+      "date": "2026-02-20T06:00:00"
+    }
+  ]
+}
