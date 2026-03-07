@@ -39,7 +39,8 @@ python main.py serve                    # Browse output at localhost:8080
 
 - `question_discoverer.py` — Mines questions from STM trending topics + podcast claims
 - `nasem_sourcer.py` — Finds relevant NASEM publications via keyword scoring + optional LLM rerank
-- `run_discovery.py` — Orchestrates discovery: find questions → NASEM sources → write configs + queue
+- `alternative_sourcer.py` — Finds CDC/WHO/IPCC/Cochrane sources when NASEM has no coverage (gap analysis)
+- `run_discovery.py` — Orchestrates discovery: find questions → NASEM sources → alternative sources for gaps → write configs + queue
 - Data paths (`STM_DIR`, `PODCAST_DIR`) configurable via env vars for CI
 
 ## Workflows
@@ -49,7 +50,7 @@ python main.py serve                    # Browse output at localhost:8080
 
 ## Landing Page Features
 
-- Discovery Queue: shows pending questions with priority badges, NASEM source counts
+- Discovery Queue: shows pending questions (ready to generate), NASEM gaps (with alternative sources), and published articles
 - One-Click Generation: "Generate Article" button triggers workflow via GitHub API dispatch
 - Social Posts: short-form (X/Bluesky) + long-form (LinkedIn/Facebook) copy-paste cards
 

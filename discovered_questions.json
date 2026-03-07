@@ -1,19 +1,18 @@
 {
-  "generated_at": "2026-03-07T02:25:00Z",
+  "generated_at": "2026-03-07T02:42:14Z",
   "questions": [
     {
       "id": "vaccines_cause_food_allergies_children",
       "question": "Do vaccines cause food allergies in children?",
       "priority": "high",
-      "rationale": "This directly addresses a specific vaccine misinformation claim that influences parent vaccination decisions",
-      "misinformation_narrative": "Many parents believe vaccines trigger food allergies in their children, leading some to delay or refuse vaccinations",
-      "public_stakes": "Vaccine hesitancy based on this false belief puts children at risk of preventable diseases while providing no protection against food allergies",
+      "rationale": "Directly addresses a specific vaccine misinformation claim that affects vaccination decisions and child health outcomes",
+      "misinformation_narrative": "Many parents believe vaccines cause their children's food allergies, leading to vaccine hesitancy and delayed immunizations",
+      "public_stakes": "Vaccine hesitancy puts children at risk of preventable diseases while parents avoid proven-safe vaccines based on false beliefs about allergy causation",
       "verification_status": "verified",
       "tags": [
         "Health and Medicine",
         "Public Health",
-        "Vaccines",
-        "Pediatrics"
+        "Vaccines"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -75,23 +74,31 @@
           "origin": "STM — RealClearScience",
           "url": "https://www.realclearscience.com/2026/03/06/rand_pauls_bill_could_take_away_a_lot_of_vaccines_1168921.html",
           "date": "2026-03-06"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Vaccine administration and confidence-building",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
         }
       ],
+      "alternative_sources": [],
       "discovered_at": "2026-03-07",
       "status": "pending"
     },
     {
-      "id": "igg_food_sensitivity_tests_reliable",
-      "question": "Are IgG food sensitivity tests reliable for diagnosing food allergies?",
+      "id": "igg_food_sensitivity_tests_accurate",
+      "question": "Are IgG food sensitivity tests accurate for diagnosing food allergies?",
       "priority": "high",
-      "rationale": "Addresses widespread commercial misinformation about unvalidated food sensitivity testing",
-      "misinformation_narrative": "Commercial IgG testing is widely marketed to consumers as a way to identify food sensitivities and allergies, despite lack of scientific validity",
-      "public_stakes": "People waste money on unreliable tests and may unnecessarily restrict diets or miss real food allergies that require medical attention",
+      "rationale": "Addresses widespread commercial misinformation about unvalidated food sensitivity testing that leads to harmful dietary decisions",
+      "misinformation_narrative": "Commercial IgG food sensitivity tests are heavily marketed as diagnostic tools, leading people to unnecessarily restrict diets based on false positives",
+      "public_stakes": "Unnecessary dietary restrictions can cause nutritional deficiencies, especially in children, while people avoid proper medical evaluation for real food allergies",
       "verification_status": "verified",
       "tags": [
         "Health and Medicine",
-        "Consumer Health",
-        "Diagnostic Testing"
+        "Nutrition",
+        "Consumer Health"
       ],
       "nasem_source_count": 10,
       "nasem_sources_preview": [
@@ -116,8 +123,8 @@
           "url": "https://www.nationalacademies.org/publications/5776"
         },
         {
-          "name": "Dietary Reference Intakes: Proposed Definition of Dietary Fiber (2001)",
-          "url": "https://www.nationalacademies.org/publications/10161"
+          "name": "Dietary Reference Intakes: Applications in Dietary Assessment (2001)",
+          "url": "https://www.nationalacademies.org/publications/9956"
         },
         {
           "name": "Dietary Reference Intakes for Sodium and Potassium (2019)",
@@ -159,51 +166,114 @@
           "date": "2026-03-04T11:00:00"
         }
       ],
+      "alternative_sources": [],
       "discovered_at": "2026-03-07",
       "status": "pending"
     },
     {
-      "id": "climate_change_happening_faster_slower",
-      "question": "Is climate change happening faster or slower than scientists predicted?",
+      "id": "should_people_egg_allergies_avoid",
+      "question": "Should people with egg allergies avoid flu vaccines?",
       "priority": "high",
-      "rationale": "Addresses confusion about climate change projections versus observed reality, affecting policy support",
-      "misinformation_narrative": "Climate skeptics claim warming is happening slower than predicted, while others believe scientists have been too conservative in their projections",
-      "public_stakes": "Misunderstanding the pace of climate change affects public support for urgent mitigation and adaptation measures",
+      "rationale": "Corrects persistent medical misinformation that prevents a vulnerable population from receiving important preventive care",
+      "misinformation_narrative": "Many egg-allergic individuals and their doctors still avoid flu vaccines due to outdated concerns about egg-based manufacturing",
+      "public_stakes": "Egg-allergic people remain unprotected against influenza, facing higher risk of serious complications from a preventable disease",
       "verification_status": "verified",
       "tags": [
-        "Climate Science",
+        "Health and Medicine",
+        "Vaccines",
+        "Allergies"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
+          "url": "https://www.nationalacademies.org/publications/10822"
+        },
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://www.nationalacademies.org/publications/13164"
+        },
+        {
+          "name": "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders (2001)",
+          "url": "https://www.nationalacademies.org/publications/10208"
+        },
+        {
+          "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
+          "url": "https://www.nationalacademies.org/publications/26285"
+        },
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://www.nationalacademies.org/publications/10306"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Egg-allergic individuals can safely receive any flu vaccine regardless of egg-based formulation - claim presented as current medical guidance",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "",
+          "date": "2026-03-04T11:00:00"
+        },
+        {
+          "type": "trending_topic",
+          "text": "Vaccines & Immunization",
+          "origin": "STM (5 sources)",
+          "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Vaccine administration and confidence-building",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "climate_change_actually_accelerating_reports",
+      "question": "Is climate change actually accelerating, or are reports exaggerated?",
+      "priority": "high",
+      "rationale": "Addresses persistent climate denialism that undermines support for necessary mitigation and adaptation measures",
+      "misinformation_narrative": "Climate skeptics claim that reports of accelerating climate change are exaggerated or manipulated, leading to public complacency about urgent action",
+      "public_stakes": "Delayed climate action due to false beliefs about the pace of change will result in more severe environmental and human consequences",
+      "verification_status": "verified",
+      "tags": [
         "Environment",
-        "Public Policy"
+        "Climate Change"
       ],
       "nasem_source_count": 8,
       "nasem_sources_preview": [
-        {
-          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
-          "url": "https://www.nationalacademies.org/publications/25733"
-        },
-        {
-          "name": "Characterizing Risk in Climate Change Assessments: Proceedings of a Workshop (2016)",
-          "url": "https://www.nationalacademies.org/publications/23569"
-        },
         {
           "name": "Abrupt Impacts of Climate Change: Anticipating Surprises (2013)",
           "url": "https://www.nationalacademies.org/publications/18373"
         },
         {
-          "name": "Improving Characterization of Anthropogenic Methane Emissions in the United States (2018)",
-          "url": "https://www.nationalacademies.org/publications/24987"
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Attribution of Extreme Weather Events in the Context of Climate Change (2016)",
+          "url": "https://www.nationalacademies.org/publications/21852"
+        },
+        {
+          "name": "Limiting the Magnitude of Future Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12785"
         },
         {
           "name": "Adapting to the Impacts of Climate Change (2011)",
           "url": "https://www.nationalacademies.org/publications/12783"
         },
         {
-          "name": "Describing Socioeconomic Futures for Climate Change Research and Assessment: Report of a Workshop (2011)",
-          "url": "https://www.nationalacademies.org/publications/13007"
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
         },
         {
-          "name": "Attribution of Extreme Weather Events in the Context of Climate Change (2016)",
-          "url": "https://www.nationalacademies.org/publications/21852"
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
         },
         {
           "name": "Monitoring Climate Change Impacts: Metrics at the Intersection of the Human and Earth Systems (2010)",
@@ -241,184 +311,41 @@
         },
         {
           "type": "trending_article",
+          "text": "Climate Change: Ants capture carbon dioxide from the air and turn it into armour",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2517419-ants-capture-carbon-dioxide-from-the-air-and-turn-it-into-armour/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
           "text": "Climate Change: Climate models may be missing massive carbon emissions from boreal wildfires",
           "origin": "STM — ScienceDaily",
           "url": "https://www.sciencedaily.com/releases/2026/03/260303201755.htm",
           "date": "2026-03-06"
         }
       ],
+      "alternative_sources": [],
       "discovered_at": "2026-03-07",
       "status": "pending"
     },
     {
-      "id": "covid_vaccines_cause_blood_clots",
-      "question": "Do COVID-19 vaccines cause blood clots?",
+      "id": "cancer_blood_tests_reliable_early",
+      "question": "Are cancer blood tests reliable for early detection and screening?",
       "priority": "high",
-      "rationale": "Addresses specific safety concern that has significantly impacted vaccine uptake",
-      "misinformation_narrative": "Fear of blood clots from COVID vaccines has led to widespread vaccine hesitancy, despite the much higher clotting risk from COVID infection itself",
-      "public_stakes": "Vaccine hesitancy based on exaggerated clotting fears puts people at much higher risk from COVID infection",
+      "rationale": "Addresses commercial misinformation about unvalidated cancer screening tests that can harm both cancer detection and patient wellbeing",
+      "misinformation_narrative": "Direct-to-consumer cancer blood tests are marketed as reliable screening tools, leading people to believe they can replace standard screening or provide definitive cancer detection",
+      "public_stakes": "False security from unreliable tests may delay proper screening, while false positives cause unnecessary anxiety and procedures",
       "verification_status": "verified",
       "tags": [
         "Health and Medicine",
-        "Vaccines",
-        "Public Health",
-        "COVID-19"
+        "Cancer",
+        "Screening"
       ],
       "nasem_source_count": 4,
       "nasem_sources_preview": [
         {
-          "name": "The Arctic in the Anthropocene: Emerging Research Questions (2014)",
-          "url": "https://www.nationalacademies.org/publications/18726"
-        },
-        {
-          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
-          "url": "https://www.nationalacademies.org/publications/13164"
-        },
-        {
-          "name": "Evolving Crisis Standards of Care and Ongoing Lessons from COVID-19: Proceedings of a Workshop Series (2023)",
-          "url": "https://www.nationalacademies.org/publications/26573"
-        },
-        {
-          "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families (2023)",
-          "url": "https://www.nationalacademies.org/publications/26809"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Adenovirus-based vaccines (AstraZeneca, J&J) occurred at ~1 in 200,000 rate of thrombotic complications - figure cited from Science article discussed",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "",
-          "date": "2026-03-04T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Adenovirus-based COVID-19 vaccine adverse events and thrombotic mechanisms",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "",
-          "date": "2026-03-04T11:00:00"
-        },
-        {
-          "type": "trending_topic",
-          "text": "Vaccines & Immunization",
-          "origin": "STM (5 sources)",
-          "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
-          "date": "2026-03-06"
-        }
-      ],
-      "discovered_at": "2026-03-07",
-      "status": "pending"
-    },
-    {
-      "id": "people_egg_allergies_safely_get",
-      "question": "Can people with egg allergies safely get flu vaccines?",
-      "priority": "medium",
-      "rationale": "Corrects outdated medical guidance that still influences patient and provider decisions",
-      "misinformation_narrative": "Many people with egg allergies believe they cannot receive flu vaccines because some are made using eggs",
-      "public_stakes": "Egg-allergic individuals may skip flu vaccination unnecessarily, increasing their risk of serious influenza illness",
-      "verification_status": "verified",
-      "tags": [
-        "Health and Medicine",
-        "Vaccines",
-        "Allergies"
-      ],
-      "nasem_source_count": 3,
-      "nasem_sources_preview": [
-        {
-          "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
-          "url": "https://www.nationalacademies.org/publications/10822"
-        },
-        {
-          "name": "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders (2001)",
-          "url": "https://www.nationalacademies.org/publications/10208"
-        },
-        {
-          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
-          "url": "https://www.nationalacademies.org/publications/13164"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Egg-allergic individuals can safely receive any flu vaccine regardless of egg-based formulation - claim presented as current medical guidance",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "",
-          "date": "2026-03-04T11:00:00"
-        },
-        {
-          "type": "trending_topic",
-          "text": "Vaccines & Immunization",
-          "origin": "STM (5 sources)",
-          "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
-          "date": "2026-03-06"
-        }
-      ],
-      "discovered_at": "2026-03-07",
-      "status": "pending"
-    },
-    {
-      "id": "anti_aging_supplements_safe_effective",
-      "question": "Are anti-aging supplements safe and effective for longevity?",
-      "priority": "low",
-      "rationale": "Addresses growing consumer misinformation about anti-aging supplement safety",
-      "misinformation_narrative": "Popular anti-aging compounds are heavily marketed as safe longevity enhancers, despite evidence some may increase cancer risk",
-      "public_stakes": "People may take potentially harmful supplements believing they're extending lifespan when they could be increasing disease risk",
-      "verification_status": "needs_review",
-      "tags": [
-        "Health and Medicine",
-        "Consumer Health",
-        "Supplements",
-        "Cancer"
-      ],
-      "nasem_source_count": 2,
-      "nasem_sources_preview": [
-        {
-          "name": "Safety of Dietary Supplements for Horses, Dogs, and Cats (2009)",
-          "url": "https://www.nationalacademies.org/publications/12461"
-        },
-        {
-          "name": "Global Roadmap for Healthy Longevity (2023)",
-          "url": "https://www.nationalacademies.org/publications/26144"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Aging & Longevity: Scientists reveal why a popular anti-aging compound may also fuel cancer",
-          "origin": "STM — ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
-          "date": "2026-03-06"
-        },
-        {
-          "type": "trending_topic",
-          "text": "Aging & Longevity",
-          "origin": "STM (3 sources)",
-          "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
-          "date": "2026-03-05"
-        }
-      ],
-      "discovered_at": "2026-03-07",
-      "status": "pending"
-    },
-    {
-      "id": "cancer_blood_tests_accurate_enough",
-      "question": "Are cancer blood tests accurate enough to replace standard screening?",
-      "priority": "low",
-      "rationale": "Addresses misleading marketing of unproven cancer screening technologies",
-      "misinformation_narrative": "Direct-to-consumer cancer blood tests are marketed as comprehensive cancer screening tools, potentially replacing proven screening methods",
-      "public_stakes": "People may skip proven cancer screenings in favor of unvalidated blood tests, missing early cancer detection opportunities",
-      "verification_status": "needs_review",
-      "tags": [
-        "Health and Medicine",
-        "Cancer",
-        "Screening",
-        "Consumer Health"
-      ],
-      "nasem_source_count": 8,
-      "nasem_sources_preview": [
-        {
-          "name": "Newborn Screening in the United States: A Vision for Sustaining and Advancing Excellence (2026)",
-          "url": "https://www.nationalacademies.org/publications/29102"
+          "name": "Ovarian Cancers: Evolving Paradigms in Research and Care (2016)",
+          "url": "https://www.nationalacademies.org/publications/21841"
         },
         {
           "name": "Refining Processes for the Co-Development of Genome-Based Therapeutics and Companion Diagnostic Tests: Workshop Summary (2014)",
@@ -429,24 +356,8 @@
           "url": "https://www.nationalacademies.org/publications/21692"
         },
         {
-          "name": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop (2018)",
-          "url": "https://www.nationalacademies.org/publications/24742"
-        },
-        {
-          "name": "Ovarian Cancers: Evolving Paradigms in Research and Care (2016)",
-          "url": "https://www.nationalacademies.org/publications/21841"
-        },
-        {
-          "name": "Improving Diagnosis in Health Care (2016)",
-          "url": "https://www.nationalacademies.org/publications/21794"
-        },
-        {
-          "name": "Guiding Cancer Control: A Path to Transformation (2019)",
-          "url": "https://www.nationalacademies.org/publications/25438"
-        },
-        {
-          "name": "Long-Term Survivorship Care After Cancer Treatment: Proceedings of a Workshop (2018)",
-          "url": "https://www.nationalacademies.org/publications/25043"
+          "name": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine (2016)",
+          "url": "https://www.nationalacademies.org/publications/21860"
         }
       ],
       "discovery_sources": [
@@ -465,24 +376,196 @@
           "date": "2026-03-05"
         }
       ],
+      "alternative_sources": [],
       "discovered_at": "2026-03-07",
       "status": "pending"
     },
     {
-      "id": "quantum_effects_play_significant_role",
-      "question": "Do quantum effects play a significant role in biological processes?",
-      "priority": "low",
-      "rationale": "Corrects misapplication of legitimate quantum biology research to unproven health claims",
-      "misinformation_narrative": "Quantum biology is hyped in alternative medicine circles as explaining everything from consciousness to healing, despite limited evidence",
-      "public_stakes": "Quantum pseudoscience is used to sell unproven health products and treatments to vulnerable consumers",
+      "id": "mrna_vaccines_new_untested_technology",
+      "question": "Are mRNA vaccines a new, untested technology?",
+      "priority": "high",
+      "rationale": "Addresses persistent misinformation about mRNA vaccine development timeline and safety that affects vaccine acceptance",
+      "misinformation_narrative": "Many people believe mRNA vaccines were rushed to market without proper testing and represent dangerous new technology",
+      "public_stakes": "mRNA vaccine hesitancy reduces uptake of safe, effective vaccines for COVID-19, flu, and future diseases",
       "verification_status": "verified",
       "tags": [
-        "Physics",
-        "Biology",
-        "Consumer Health",
-        "Pseudoscience"
+        "Health and Medicine",
+        "Vaccines",
+        "Technology"
       ],
-      "nasem_source_count": 9,
+      "nasem_source_count": 8,
+      "nasem_sources_preview": [
+        {
+          "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
+          "url": "https://www.nationalacademies.org/publications/10822"
+        },
+        {
+          "name": "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders (2001)",
+          "url": "https://www.nationalacademies.org/publications/10208"
+        },
+        {
+          "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
+          "url": "https://www.nationalacademies.org/publications/26285"
+        },
+        {
+          "name": "Artificial Intelligence and the Future of Work (2024)",
+          "url": "https://www.nationalacademies.org/publications/27644"
+        },
+        {
+          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+          "url": "https://www.nationalacademies.org/publications/26902"
+        },
+        {
+          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
+          "url": "https://www.nationalacademies.org/publications/26284"
+        },
+        {
+          "name": "Immunization Safety Review: Vaccines and Autism (None)",
+          "url": "https://www.nationalacademies.org/publications/10997"
+        },
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://www.nationalacademies.org/publications/10306"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Moderna's mRNA flu vaccine trial enrolled over 40,000 adults over age 50 and showed superiority to standard-dose flu vaccine",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Moderna separately ran a trial versus high-dose shot in adults 65 and older",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "HHS canceled over $500 million in mRNA contracts",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Europe, Canada, and Australia accepted Moderna's mRNA flu vaccine application",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "mRNA-based flu vaccine development",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "off_label_medication_use_children",
+      "question": "Is off-label medication use in children dangerous or inappropriate?",
+      "priority": "medium",
+      "rationale": "Corrects misconceptions about standard pediatric practice that can interfere with appropriate medical care",
+      "misinformation_narrative": "Parents often fear off-label prescriptions for their children, believing they're experimental or unsafe, leading to treatment refusal",
+      "public_stakes": "Children may be denied effective treatments due to parental misconceptions about off-label prescribing practices",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Pediatrics",
+        "Medications"
+      ],
+      "nasem_source_count": 10,
+      "nasem_sources_preview": [
+        {
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
+        },
+        {
+          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+          "url": "https://www.nationalacademies.org/publications/26902"
+        },
+        {
+          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
+          "url": "https://www.nationalacademies.org/publications/27207"
+        },
+        {
+          "name": "Dietary Reference Intakes: Guiding Principles for Nutrition Labeling and Fortification (2004)",
+          "url": "https://www.nationalacademies.org/publications/10872"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Reducing Inequalities Between Lesbian, Gay, Bisexual, Transgender, and Queer Adolescents and Cisgender, Heterosexual Adolescents: Proceedings of a Workshop (2022)",
+          "url": "https://www.nationalacademies.org/publications/26383"
+        },
+        {
+          "name": "Medication-Assisted Treatment for Opioid Use Disorder: Proceedings of a Workshop�in Brief (2016)",
+          "url": "https://www.nationalacademies.org/publications/25322"
+        },
+        {
+          "name": "Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop (2025)",
+          "url": "https://www.nationalacademies.org/publications/27473"
+        },
+        {
+          "name": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop (2023)",
+          "url": "https://www.nationalacademies.org/publications/26635"
+        },
+        {
+          "name": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare (2025)",
+          "url": "https://www.nationalacademies.org/publications/29239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Approximately 40% or higher of treatments for children with complex diseases are off-label",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Pediatric clinical trials design and methodology",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Off-label medication use in pediatric populations",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "quantum_physics_prove_consciousness_creates",
+      "question": "Does quantum physics prove that consciousness creates reality?",
+      "priority": "medium",
+      "rationale": "Corrects pervasive misunderstanding of quantum physics that's exploited by pseudoscience promoters",
+      "misinformation_narrative": "Quantum mechanics is widely misinterpreted to support mystical claims that human consciousness directly affects physical reality",
+      "public_stakes": "Quantum mysticism undermines scientific literacy and promotes magical thinking that can lead to poor decision-making in health and other areas",
+      "verification_status": "verified",
+      "tags": [
+        "Science and Technology",
+        "Physics",
+        "Misinformation"
+      ],
+      "nasem_source_count": 10,
       "nasem_sources_preview": [
         {
           "name": "Quantum Computing: Progress and Prospects (2019)",
@@ -493,28 +576,32 @@
           "url": "https://www.nationalacademies.org/publications/25977"
         },
         {
-          "name": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop (2021)",
-          "url": "https://www.nationalacademies.org/publications/26139"
+          "name": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States (2020)",
+          "url": "https://www.nationalacademies.org/publications/25613"
+        },
+        {
+          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+          "url": "https://www.nationalacademies.org/publications/26902"
         },
         {
           "name": "Artificial Intelligence and the Future of Work (2024)",
           "url": "https://www.nationalacademies.org/publications/27644"
         },
         {
-          "name": "Controlling the Quantum World: The Science of Atoms, Molecules, and Photons (2007)",
-          "url": "https://www.nationalacademies.org/publications/11705"
-        },
-        {
-          "name": "The Role of Net Metering in the Evolving Electricity System (2024)",
-          "url": "https://www.nationalacademies.org/publications/26704"
-        },
-        {
           "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States (2023)",
           "url": "https://www.nationalacademies.org/publications/26850"
         },
         {
-          "name": "Effective Health Communication Within the Current Information Environment and the Role of the Federal Government: Proceedings of a Workshop (2024)",
-          "url": "https://www.nationalacademies.org/publications/27210"
+          "name": "Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop (2025)",
+          "url": "https://www.nationalacademies.org/publications/27473"
+        },
+        {
+          "name": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop (2021)",
+          "url": "https://www.nationalacademies.org/publications/26139"
+        },
+        {
+          "name": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space (2025)",
+          "url": "https://www.nationalacademies.org/publications/27938"
         },
         {
           "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop (2019)",
@@ -530,6 +617,34 @@
           "date": "2026-03-06"
         },
         {
+          "type": "trending_article",
+          "text": "Quantum Science: Phantom codes could help quantum computers avoid errors",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2517490-phantom-codes-could-help-quantum-computers-avoid-errors/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Inside the company selling quantum entanglement",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2516591-inside-the-company-selling-quantum-entanglement/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: For the first time, light mimics a Nobel Prize quantum effect",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/02/260228093446.htm",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Material previously thought to be quantum is actually a new, non-quantum state of matter",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-material-previously-thought-quantum-state.html",
+          "date": "2026-03-06"
+        },
+        {
           "type": "trending_topic",
           "text": "Quantum Science",
           "origin": "STM (3 sources)",
@@ -537,6 +652,240 @@
           "date": "2026-03-05"
         }
       ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "pharmacists_qualified_provide_medical_care",
+      "question": "Are pharmacists qualified to provide medical care beyond dispensing medications?",
+      "priority": "medium",
+      "rationale": "Corrects misconceptions about pharmacist training and scope of practice that limit access to convenient healthcare services",
+      "misinformation_narrative": "Many patients believe pharmacists lack sufficient training to provide clinical services like vaccinations, health screenings, or medication management",
+      "public_stakes": "Underutilization of pharmacist services reduces healthcare access, especially in underserved areas, and limits preventive care opportunities",
+      "verification_status": "verified",
+      "tags": [
+        "Health and Medicine",
+        "Healthcare Access",
+        "Professional Practice"
+      ],
+      "nasem_source_count": 9,
+      "nasem_sources_preview": [
+        {
+          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
+          "url": "https://www.nationalacademies.org/publications/25310"
+        },
+        {
+          "name": "Graduate STEM Education for the 21st Century (2018)",
+          "url": "https://www.nationalacademies.org/publications/25038"
+        },
+        {
+          "name": "Artificial Intelligence and the Future of Work (2024)",
+          "url": "https://www.nationalacademies.org/publications/27644"
+        },
+        {
+          "name": "Advancing Antiracism, Diversity, Equity, and Inclusion in STEMM Organizations: Beyond Broadening Participation (2023)",
+          "url": "https://www.nationalacademies.org/publications/26803"
+        },
+        {
+          "name": "Community-Driven Relocation: Recommendations for the U.S. Gulf Coast Region and Beyond (2024)",
+          "url": "https://www.nationalacademies.org/publications/27213"
+        },
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        },
+        {
+          "name": "Space Nuclear Propulsion for Human Mars Exploration (2021)",
+          "url": "https://www.nationalacademies.org/publications/25977"
+        },
+        {
+          "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26522"
+        },
+        {
+          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+          "url": "https://www.nationalacademies.org/publications/26902"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Over 70% of all Americans receive vaccinations from pharmacies or pharmacists - verify current vaccination administration statistics",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Most Americans live within five miles of a community pharmacy - verify geographic accessibility data",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Pharmacists conduct residencies similar in rigor to physician residencies - clarify training equivalencies",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Average patient has 20 healthcare touch points per year with pharmacists, doubling for those with multiple chronic conditions - verify frequency data",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "GLP-1 medications (glucagon-like peptide-1 agonists) for glucose control and cardiovascular benefits",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "PrEP and PEP (pre-exposure prophylaxis and post-exposure prophylaxis for HIV prevention)",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Narcan (naloxone) access for opioid overdose reversal",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Suboxone (buprenorphine) for opioid use disorder treatment",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Deprescribing in elderly/geriatric populations",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Vaccine administration and confidence-building",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Colorectal cancer screening",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Cervical cancer screening",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Reproductive health services",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "artificial_intelligence_replace_human_doctors",
+      "question": "Will artificial intelligence replace human doctors and scientists?",
+      "priority": "medium",
+      "rationale": "Addresses both technophobic and technophilic misinformation about AI in healthcare and research",
+      "misinformation_narrative": "Exaggerated claims about AI capabilities lead to both unrealistic fears about job displacement and unrealistic expectations about AI replacing human expertise",
+      "public_stakes": "Misunderstanding AI limitations could lead to over-reliance on AI tools in critical decisions or unnecessary fear about technological advancement",
+      "verification_status": "verified",
+      "tags": [
+        "Technology",
+        "Health and Medicine",
+        "Artificial Intelligence"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Artificial Intelligence and the Future of Work (2024)",
+          "url": "https://www.nationalacademies.org/publications/27644"
+        },
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        },
+        {
+          "name": "AI for Scientific Discovery: Proceedings of a Workshop (2024)",
+          "url": "https://www.nationalacademies.org/publications/27457"
+        },
+        {
+          "name": "Automated Research Workflows for Accelerated Discovery: Closing the Knowledge Discovery Loop (2023)",
+          "url": "https://www.nationalacademies.org/publications/26532"
+        },
+        {
+          "name": "Space Nuclear Propulsion for Human Mars Exploration (2021)",
+          "url": "https://www.nationalacademies.org/publications/25977"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The first ‘AI societies’ are taking shape: how human-like are they?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00070-5",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: How AI is shaping the war in Iran — and what’s next for future conflicts",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00710-w",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Advancing operational global aerosol forecasting with machine learning",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10234-y",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI can write genomes — how long until it creates synthetic life?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00681-y",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Radiology AI makes consistent diagnoses using 3D images from different health centres",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00645-2",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_topic",
+          "text": "Artificial Intelligence",
+          "origin": "STM (16 sources)",
+          "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+          "date": "2026-03-05"
+        }
+      ],
+      "alternative_sources": [],
       "discovered_at": "2026-03-07",
       "status": "pending"
     },
@@ -544,14 +893,14 @@
       "id": "identical_twins_distinguished_through_dna",
       "question": "Can identical twins be distinguished through DNA testing?",
       "priority": "low",
-      "rationale": "Addresses widespread misconception about twin genetics with legal and forensic implications",
-      "misinformation_narrative": "Many people believe identical twins have completely identical DNA and cannot be distinguished through genetic testing",
-      "public_stakes": "This misconception affects understanding of forensic evidence and paternity testing in legal cases involving twins",
+      "rationale": "Corrects widespread misconception about forensic DNA testing capabilities that has real legal consequences",
+      "misinformation_narrative": "Many people, including some in law enforcement, believe identical twins cannot be distinguished by DNA testing, potentially affecting criminal investigations and paternity cases",
+      "public_stakes": "Incorrect beliefs about DNA testing limitations could lead to wrongful convictions or dismissed cases when twin identification is crucial",
       "verification_status": "needs_review",
       "tags": [
+        "Science and Technology",
         "Genetics",
-        "Forensics",
-        "Legal Science"
+        "Legal"
       ],
       "nasem_source_count": 3,
       "nasem_sources_preview": [
@@ -591,252 +940,428 @@
           "date": "2026-03-05"
         }
       ],
+      "alternative_sources": [],
       "discovered_at": "2026-03-07",
       "status": "pending"
     },
     {
-      "id": "off_label_medication_use_children",
-      "question": "Is off-label medication use in children safe?",
+      "id": "modern_humans_still_evolving_evolution",
+      "question": "Are modern humans still evolving, or has evolution stopped?",
       "priority": "low",
-      "rationale": "Addresses parental misconceptions about standard pediatric prescribing practices",
-      "misinformation_narrative": "Parents often fear off-label medication use in children, believing it means the treatment is experimental or unsafe",
-      "public_stakes": "Unnecessary fear of off-label prescribing may lead parents to refuse beneficial treatments for their children",
+      "rationale": "Corrects common misconception about human evolution that affects understanding of current health and genetic research",
+      "misinformation_narrative": "Many people believe human evolution stopped with modern civilization and medicine, not understanding that evolution continues in response to current pressures",
+      "public_stakes": "Misunderstanding evolution limits public appreciation for ongoing research on human adaptation, disease resistance, and population genetics",
       "verification_status": "needs_review",
+      "tags": [
+        "Science and Technology",
+        "Evolution",
+        "Human Biology"
+      ],
+      "nasem_source_count": 7,
+      "nasem_sources_preview": [
+        {
+          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+          "url": "https://www.nationalacademies.org/publications/26902"
+        },
+        {
+          "name": "Science, Evolution, and Creationism (2008)",
+          "url": "https://www.nationalacademies.org/publications/11876"
+        },
+        {
+          "name": "In the Light of Evolution: Volume I: Adaptation and Complex Design (2007)",
+          "url": "https://www.nationalacademies.org/publications/11790"
+        },
+        {
+          "name": "Teaching About Evolution and the Nature of Science (1998)",
+          "url": "https://www.nationalacademies.org/publications/5787"
+        },
+        {
+          "name": "In the Light of Evolution: Volume III: Two Centuries of Darwin (2009)",
+          "url": "https://www.nationalacademies.org/publications/12692"
+        },
+        {
+          "name": "Understanding Climate's Influence on Human Evolution (2010)",
+          "url": "https://www.nationalacademies.org/publications/12825"
+        },
+        {
+          "name": "In the Light of Evolution: Volume VI: Brain and Behavior (2013)",
+          "url": "https://www.nationalacademies.org/publications/13462"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Did ancient Greek priestesses brew a mind-bending potion drunk by Cicero and Marcus Aurelius?",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/did-ancient-greek-priestesses-brew-mind-bending-potion-drunk-cicero-and-marcus-aurelius",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Scientists just looked inside Darwin’s 200-year-old specimen jars without opening them",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260303145720.htm",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Ancient mystery on K’gari: World’s largest sand island lakes dried up during rainy era",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260302030644.htm",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Re-creating the complex cuisine of prehistoric Europeans",
+          "origin": "STM — Ars Technica Science",
+          "url": "https://arstechnica.com/science/2026/03/recreating-the-complex-cuisine-of-prehistoric-europeans/",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: The ancient human ancestor ‘Little Foot’ gets a new face",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/human-ancestor-little-foot-new-face",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_topic",
+          "text": "Evolution & Paleontology",
+          "origin": "STM (11 sources)",
+          "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+          "date": "2026-03-05"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-07",
+      "status": "pending"
+    },
+    {
+      "id": "early_introduction_allergenic_foods_prevent",
+      "question": "Do early introduction of allergenic foods prevent or cause food allergies?",
+      "priority": "high",
+      "rationale": "Corrects widespread parenting misinformation that contradicts current evidence-based feeding guidelines",
+      "misinformation_narrative": "Many parents still follow outdated advice to delay introducing allergenic foods, believing early exposure causes allergies rather than prevents them",
+      "public_stakes": "Delayed allergen introduction increases children's risk of developing food allergies that could have been prevented with early exposure",
+      "verification_status": "verified",
       "tags": [
         "Health and Medicine",
         "Pediatrics",
-        "Pharmaceuticals"
+        "Nutrition"
       ],
-      "nasem_source_count": 9,
-      "nasem_sources_preview": [
-        {
-          "name": "Medications for Opioid Use Disorder Save Lives (2019)",
-          "url": "https://www.nationalacademies.org/publications/25310"
-        },
-        {
-          "name": "Preventing Medication Errors (2007)",
-          "url": "https://www.nationalacademies.org/publications/11623"
-        },
-        {
-          "name": "The Future Pediatric Subspecialty Physician Workforce: Meeting the Needs of Infants, Children, and Adolescents (2024)",
-          "url": "https://www.nationalacademies.org/publications/27207"
-        },
-        {
-          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
-          "url": "https://www.nationalacademies.org/publications/10306"
-        },
-        {
-          "name": "Medication-Assisted Treatment for Opioid Use Disorder: Proceedings of a Workshop�in Brief (2016)",
-          "url": "https://www.nationalacademies.org/publications/25322"
-        },
-        {
-          "name": "Methadone Treatment for Opioid Use Disorder: Improving Access Through Regulatory and Legal Change: Proceedings of a Workshop (2023)",
-          "url": "https://www.nationalacademies.org/publications/26635"
-        },
-        {
-          "name": "Occupational Health and Safety in the Care and Use of Research Animals (1997)",
-          "url": "https://www.nationalacademies.org/publications/4988"
-        },
-        {
-          "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
-          "url": "https://www.nationalacademies.org/publications/13563"
-        },
-        {
-          "name": "Macondo Well Deepwater Horizon Blowout: Lessons for Improving Offshore Drilling Safety (2012)",
-          "url": "https://www.nationalacademies.org/publications/13273"
-        }
-      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
       "discovery_sources": [
         {
           "type": "podcast_claim",
-          "text": "Approximately 40% or higher of treatments for children with complex diseases are off-label",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
-          "date": "2026-02-18T11:00:00"
+          "text": "Early allergen introduction reduces allergy development risk - consistent with LEAP trial and subsequent research",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "",
+          "date": "2026-03-04T11:00:00"
         },
         {
           "type": "podcast_topic",
-          "text": "Off-label medication use in pediatric populations",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
-          "date": "2026-02-18T11:00:00"
+          "text": "LEAP trial findings on early allergen introduction in infants",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "",
+          "date": "2026-03-04T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "80% of children outgrow egg and milk allergies by early elementary school - plausible figure, warrants verification",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "",
+          "date": "2026-03-04T11:00:00"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "Only 20% of children outgrow peanut allergies, barely 10% outgrow tree nut allergies - specific percentages should be verified against current literature",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "",
+          "date": "2026-03-04T11:00:00"
         },
         {
           "type": "podcast_topic",
-          "text": "Pediatric clinical trials design and methodology",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
-          "date": "2026-02-18T11:00:00"
+          "text": "Atopic march (eczema-allergies-asthma progression)",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "",
+          "date": "2026-03-04T11:00:00"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Skin barrier disruption in eczema and food allergy risk",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics (AAP)",
+          "organization_full": "American Academy of Pediatrics (AAP)",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "Clinical Report: The Effects of Early Nutritional Interventions on the Development of Atopic Disease in Infants and Children",
+          "description": "AAP clinical report examining evidence on early food introduction and allergy prevention",
+          "relevance": "Provides clinical guidance on timing of allergenic food introduction based on systematic evidence review"
+        },
+        {
+          "organization": "National Institute of Allergy and Infectious Diseases (NIAID)",
+          "organization_full": "National Institute of Allergy and Infectious Diseases (NIAID)",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "Guidelines for the Prevention of Peanut Allergy in the United States",
+          "description": "Evidence-based clinical practice guidelines on early peanut introduction to prevent peanut allergy",
+          "relevance": "Directly addresses early allergenic food introduction with specific recommendations based on clinical trials"
+        },
+        {
+          "organization": "Cochrane Collaboration",
+          "organization_full": "Cochrane Collaboration",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "Timing of allergenic food introduction to the infant diet and risk of allergic or autoimmune disease: a systematic review and meta-analysis",
+          "description": "Systematic review and meta-analysis of studies on timing of allergenic food introduction",
+          "relevance": "Provides comprehensive evidence synthesis on whether early vs. delayed introduction affects allergy development"
+        },
+        {
+          "organization": "European Academy of Allergy and Clinical Immunology (EAACI)",
+          "organization_full": "European Academy of Allergy and Clinical Immunology (EAACI)",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "EAACI Guidelines on Allergen Immunotherapy: Prevention of allergy",
+          "description": "Evidence-based guidelines on allergy prevention including early food introduction strategies",
+          "relevance": "International clinical guidelines addressing prevention strategies including early allergenic food exposure"
+        },
+        {
+          "organization": "World Allergy Organization (WAO)",
+          "organization_full": "World Allergy Organization (WAO)",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "WAO Guidelines for Management of Food Allergies",
+          "description": "International consensus guidelines on food allergy management including prevention recommendations",
+          "relevance": "Global expert consensus on food allergy prevention including evidence on early introduction timing"
         }
       ],
       "discovered_at": "2026-03-07",
-      "status": "pending"
+      "status": "nasem_gap"
     },
     {
-      "id": "mrna_flu_vaccines_effective_traditional",
-      "question": "Are mRNA flu vaccines more effective than traditional flu shots?",
-      "priority": "low",
-      "rationale": "Addresses emerging misconceptions about new vaccine technology applications",
-      "misinformation_narrative": "Some believe mRNA vaccines are always superior while others fear they're experimental, creating confusion about flu vaccine options",
-      "public_stakes": "Misinformation about mRNA flu vaccines could affect vaccination decisions and public health preparedness",
-      "verification_status": "needs_review",
+      "id": "anti_aging_supplements_safe_effective",
+      "question": "Are anti-aging supplements safe and effective for extending lifespan?",
+      "priority": "medium",
+      "rationale": "Addresses commercial misinformation about unregulated anti-aging products that could cause harm while providing false hope",
+      "misinformation_narrative": "Anti-aging compounds and supplements are heavily marketed as safe longevity solutions, but may actually increase cancer risk or have other dangerous effects",
+      "public_stakes": "People may take potentially harmful supplements believing they're safe anti-aging treatments, while avoiding proven health behaviors",
+      "verification_status": "verified",
       "tags": [
         "Health and Medicine",
-        "Vaccines",
-        "Influenza"
+        "Aging",
+        "Consumer Health"
       ],
-      "nasem_source_count": 6,
-      "nasem_sources_preview": [
-        {
-          "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications (2004)",
-          "url": "https://www.nationalacademies.org/publications/10822"
-        },
-        {
-          "name": "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders (2001)",
-          "url": "https://www.nationalacademies.org/publications/10208"
-        },
-        {
-          "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
-          "url": "https://www.nationalacademies.org/publications/26285"
-        },
-        {
-          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
-          "url": "https://www.nationalacademies.org/publications/10306"
-        },
-        {
-          "name": "Calling the Shots: Immunization Finance Policies and Practices (2000)",
-          "url": "https://www.nationalacademies.org/publications/9836"
-        },
-        {
-          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
-          "url": "https://www.nationalacademies.org/publications/26284"
-        }
-      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
       "discovery_sources": [
         {
-          "type": "podcast_claim",
-          "text": "Moderna's mRNA flu vaccine trial enrolled over 40,000 adults over age 50 and showed superiority to standard-dose flu vaccine",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
-          "date": "2026-02-18T11:00:00"
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists reveal why a popular anti-aging compound may also fuel cancer",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+          "date": "2026-03-06"
         },
         {
-          "type": "podcast_claim",
-          "text": "HHS canceled over $500 million in mRNA contracts",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
-          "date": "2026-02-18T11:00:00"
+          "type": "trending_topic",
+          "text": "Aging & Longevity",
+          "origin": "STM (3 sources)",
+          "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+          "date": "2026-03-05"
         },
         {
-          "type": "podcast_claim",
-          "text": "Europe, Canada, and Australia accepted Moderna's mRNA flu vaccine application",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
-          "date": "2026-02-18T11:00:00"
+          "type": "trending_article",
+          "text": "Aging & Longevity: Young cancer survivors face faster aging and possible early dementia",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260302030652.htm",
+          "date": "2026-03-06"
         },
         {
-          "type": "podcast_topic",
-          "text": "mRNA-based flu vaccine development",
-          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
-          "date": "2026-02-18T11:00:00"
+          "type": "trending_article",
+          "text": "Aging & Longevity: Telehealth is widely used by older adults insured by Medicare, new research shows",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/telehealth-is-widely-used-by-older-adults-insured-by-medicare-new-research-shows-276566",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Stem Cells From Young Can Help Older Adults Gain Mobility",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/03/06/stem_cells_from_young_can_help_older_adults_gain_mobility_1168924.html",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Aging Doesn't Always Mean Physical and Cognitive Decline",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/03/06/aging_doesnt_always_mean_physical_and_cognitive_decline_1168848.html",
+          "date": "2026-03-06"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "tier": 2,
+          "resource_name": "FDA Consumer Updates: Anti-Aging Products and Claims",
+          "description": "FDA guidance on regulatory status and safety concerns of anti-aging supplements and unproven longevity claims",
+          "relevance": "Directly addresses regulatory oversight and safety of anti-aging supplements marketed in the US"
+        },
+        {
+          "organization": "NIH National Institute on Aging",
+          "organization_full": "NIH National Institute on Aging",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "Anti-Aging: What We Know",
+          "description": "NIA's evidence-based overview of anti-aging interventions, supplements, and current research on longevity",
+          "relevance": "Provides authoritative scientific perspective on effectiveness of anti-aging approaches including supplements"
+        },
+        {
+          "organization": "Cochrane Collaboration",
+          "organization_full": "Cochrane Collaboration",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases",
+          "description": "Systematic review examining mortality outcomes from antioxidant supplements commonly marketed for anti-aging",
+          "relevance": "Meta-analysis of randomized trials examining whether common anti-aging supplements affect lifespan"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "WHO Technical Report Series on Quality Control Methods for Herbal Medicines",
+          "description": "WHO guidance on safety and quality standards for herbal and dietary supplements including those marketed for longevity",
+          "relevance": "Addresses safety considerations for supplement categories that include anti-aging products"
+        },
+        {
+          "organization": "Federal Trade Commission",
+          "organization_full": "Federal Trade Commission",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "FTC Consumer Alert: Anti-Aging Claims",
+          "description": "FTC enforcement actions and consumer guidance on deceptive marketing of anti-aging supplements and longevity products",
+          "relevance": "Documents regulatory enforcement against unsubstantiated anti-aging supplement claims"
         }
       ],
       "discovered_at": "2026-03-07",
-      "status": "pending"
+      "status": "nasem_gap"
     },
     {
-      "id": "pharmacists_provide_same_quality_care",
-      "question": "Can pharmacists provide the same quality care as doctors for routine health services?",
+      "id": "mass_extinctions_mean_conservation_efforts",
+      "question": "Do mass extinctions mean conservation efforts are futile?",
       "priority": "low",
-      "rationale": "Addresses misconceptions about healthcare provider capabilities that affect healthcare access",
-      "misinformation_narrative": "Many patients believe only doctors can provide quality healthcare, underutilizing accessible pharmacy services",
-      "public_stakes": "Underutilization of pharmacy services reduces healthcare access and increases costs, particularly for preventive care",
+      "rationale": "Addresses both denialism and fatalism about biodiversity loss that undermines conservation action",
+      "misinformation_narrative": "Some people believe current extinction rates mean conservation is hopeless, while others deny extinction severity, both leading to reduced support for conservation",
+      "public_stakes": "Fatalism or denial about extinction reduces public support for conservation efforts that can still prevent species loss and ecosystem collapse",
       "verification_status": "needs_review",
       "tags": [
-        "Health and Medicine",
-        "Healthcare Access",
-        "Public Health"
+        "Environment",
+        "Conservation",
+        "Biodiversity"
       ],
-      "nasem_source_count": 4,
-      "nasem_sources_preview": [
-        {
-          "name": "Crossing the Quality Chasm: A New Health System for the 21st Century (2001)",
-          "url": "https://www.nationalacademies.org/publications/10027"
-        },
-        {
-          "name": "Abrupt Impacts of Climate Change: Anticipating Surprises (2013)",
-          "url": "https://www.nationalacademies.org/publications/18373"
-        },
-        {
-          "name": "Evaluation of the Department of Veterans Affairs Mental Health Services (2018)",
-          "url": "https://www.nationalacademies.org/publications/24915"
-        },
-        {
-          "name": "Communities in Action: Pathways to Health Equity (2017)",
-          "url": "https://www.nationalacademies.org/publications/24624"
-        }
-      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
       "discovery_sources": [
         {
-          "type": "podcast_claim",
-          "text": "Over 70% of all Americans receive vaccinations from pharmacies or pharmacists - verify current vaccination administration statistics",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: How these koalas bounced back from the brink of extinction",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00746-y",
+          "date": "2026-03-06"
         },
         {
-          "type": "podcast_claim",
-          "text": "Most Americans live within five miles of a community pharmacy - verify geographic accessibility data",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: ‘Insane’ images depict ant species in stunning 3D",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/insane-images-depict-ant-species-stunning-3-d",
+          "date": "2026-03-06"
         },
         {
-          "type": "podcast_claim",
-          "text": "Pharmacists conduct residencies similar in rigor to physician residencies - clarify training equivalencies",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Top predators still prowled the seas after the biggest mass extinction",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2517930-top-predators-still-prowled-the-seas-after-the-biggest-mass-extinction/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-06"
         },
         {
-          "type": "podcast_claim",
-          "text": "Average patient has 20 healthcare touch points per year with pharmacists, doubling for those with multiple chronic conditions - verify frequency data",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: For every known vertebrate species, two more may be hiding in plain sight",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260303050621.htm",
+          "date": "2026-03-06"
         },
         {
-          "type": "podcast_topic",
-          "text": "Vaccine administration and confidence-building",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: From Endangered Plants Come Whiffs of Inspiration",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/03/06/fashion/from-endangered-plants-come-whiffs-of-inspiration.html",
+          "date": "2026-03-06"
         },
         {
-          "type": "podcast_topic",
-          "text": "Colorectal cancer screening",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
+          "type": "trending_topic",
+          "text": "Biodiversity & Conservation",
+          "origin": "STM (5 sources)",
+          "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+          "date": "2026-03-05"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Summary for Policymakers",
+          "description": "IPCC Working Group II report that addresses biodiversity loss, extinction risks, and the effectiveness of conservation and adaptation strategies",
+          "relevance": "Provides evidence on how conservation efforts can mitigate extinction risks even under climate change scenarios"
         },
         {
-          "type": "podcast_topic",
-          "text": "Cervical cancer screening",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
+          "organization": "IUCN",
+          "organization_full": "IUCN",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "IUCN Red List of Threatened Species - Global Species Assessment",
+          "description": "Comprehensive assessment of species extinction risk and conservation status, including success stories of species recovery",
+          "relevance": "Documents both extinction risks and conservation successes, demonstrating that targeted efforts can prevent extinctions"
         },
         {
-          "type": "podcast_topic",
-          "text": "Reproductive health services",
-          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
-          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
-          "date": "2026-02-25T11:00:00"
+          "organization": "CBD Secretariat",
+          "organization_full": "CBD Secretariat",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "Global Biodiversity Outlook 5",
+          "description": "UN Convention on Biological Diversity's flagship report assessing progress toward biodiversity targets and conservation effectiveness",
+          "relevance": "Evaluates conservation outcomes and provides evidence for what works in preventing biodiversity loss"
+        },
+        {
+          "organization": "UNEP",
+          "organization_full": "UNEP",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "Making Peace with Nature: A scientific blueprint to tackle the climate, biodiversity and pollution emergencies",
+          "description": "UN Environment Programme report on addressing biodiversity crisis through conservation and restoration",
+          "relevance": "Outlines evidence-based pathways for effective conservation despite ongoing biodiversity threats"
+        },
+        {
+          "organization": "WWF",
+          "organization_full": "WWF",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "Living Planet Report 2022",
+          "description": "Biennial report tracking global wildlife population trends and conservation effectiveness",
+          "relevance": "Documents both population declines and conservation success stories, showing mixed but meaningful results from conservation efforts"
         }
       ],
       "discovered_at": "2026-03-07",
-      "status": "pending"
+      "status": "nasem_gap"
     },
     {
       "id": "breathing_problems",

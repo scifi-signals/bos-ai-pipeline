@@ -1,0 +1,98 @@
+{
+  "id": "modern_humans_still_evolving_evolution",
+  "question": "Are modern humans still evolving, or has evolution stopped?",
+  "topic": "Corrects common misconception about human evolution that affects understanding of current health and",
+  "tags": [
+    "Science and Technology",
+    "Evolution",
+    "Human Biology"
+  ],
+  "sources": [
+    {
+      "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field",
+      "url": "https://www.nationalacademies.org/publications/26902",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Science, Evolution, and Creationism",
+      "url": "https://www.nationalacademies.org/publications/11876",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "In the Light of Evolution: Volume I: Adaptation and Complex Design",
+      "url": "https://www.nationalacademies.org/publications/11790",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Teaching About Evolution and the Nature of Science",
+      "url": "https://www.nationalacademies.org/publications/5787",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "In the Light of Evolution: Volume III: Two Centuries of Darwin",
+      "url": "https://www.nationalacademies.org/publications/12692",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Understanding Climate's Influence on Human Evolution",
+      "url": "https://www.nationalacademies.org/publications/12825",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "In the Light of Evolution: Volume VI: Brain and Behavior",
+      "url": "https://www.nationalacademies.org/publications/13462",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Did ancient Greek priestesses brew a mind-bending potion drunk by Cicero and Marcus Aurelius?",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/did-ancient-greek-priestesses-brew-mind-bending-potion-drunk-cicero-and-marcus-aurelius",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Scientists just looked inside Darwin’s 200-year-old specimen jars without opening them",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260303145720.htm",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Ancient mystery on K’gari: World’s largest sand island lakes dried up during rainy era",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260302030644.htm",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Re-creating the complex cuisine of prehistoric Europeans",
+      "origin": "STM — Ars Technica Science",
+      "url": "https://arstechnica.com/science/2026/03/recreating-the-complex-cuisine-of-prehistoric-europeans/",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: The ancient human ancestor ‘Little Foot’ gets a new face",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/human-ancestor-little-foot-new-face",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_topic",
+      "text": "Evolution & Paleontology",
+      "origin": "STM (11 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-05"
+    }
+  ]
+}

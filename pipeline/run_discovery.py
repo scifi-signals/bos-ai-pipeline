@@ -43,7 +43,7 @@ def run_discovery(max_questions=15):
     print("=" * 60)
 
     # Step 1: Discover questions
-    print("\n[1/5] Discovering questions from STM + podcasts...")
+    print("\n[1/6] Discovering questions from STM + podcasts...")
     from question_discoverer import discover_questions
     questions = discover_questions(max_questions=max_questions)
     if not questions:
@@ -53,14 +53,14 @@ def run_discovery(max_questions=15):
     print(f"  Found {len(questions)} questions")
 
     # Step 2: Verify misinformation narratives are real (not hallucinated)
-    print(f"\n[2/5] Verifying misinformation narratives...")
+    print(f"\n[2/6] Verifying misinformation narratives...")
     questions = _verify_narratives(questions)
     verified_count = sum(1 for q in questions if q.get("verification_status") == "verified")
     flagged_count = sum(1 for q in questions if q.get("verification_status") == "needs_review")
     print(f"  Verified: {verified_count}, Needs review: {flagged_count}")
 
     # Step 3: Generate IDs and deduplicate
-    print("\n[3/5] Generating IDs and deduplicating...")
+    print("\n[3/6] Generating IDs and deduplicating...")
     existing_configs = {p.stem for p in QUESTIONS_DIR.glob("*.json")}
 
     # Load existing question texts for semantic dedup
@@ -95,7 +95,7 @@ def run_discovery(max_questions=15):
         print(f"  NEW: {qid}")
 
     # Step 4: Find NASEM sources for each question
-    print(f"\n[4/5] Finding NASEM sources for {len(questions)} questions...")
+    print(f"\n[4/6] Finding NASEM sources for {len(questions)} questions...")
     from nasem_sourcer import find_nasem_sources
     for q in questions:
         print(f"\n  Sourcing: {q['question'][:60]}...")
@@ -113,15 +113,37 @@ def run_discovery(max_questions=15):
             q["nasem_sources_preview"] = []
             q["nasem_sources_full"] = []
 
-    # Step 5a: Write question configs for new questions (only if they have sources)
-    print(f"\n[5/5] Writing outputs...")
+    # Step 5: Find alternative sources for NASEM gaps
+    gap_questions = [q for q in questions if q.get("nasem_source_count", 0) == 0]
+    if gap_questions:
+        print(f"\n[5/6] Finding alternative sources for {len(gap_questions)} NASEM gaps...")
+        from alternative_sourcer import find_alternative_sources
+        for q in gap_questions:
+            print(f"  Gap: {q['question'][:60]}...")
+            try:
+                alt_sources = find_alternative_sources(q["question"])
+                q["alternative_sources"] = alt_sources
+                q["status"] = "nasem_gap"
+                if alt_sources:
+                    print(f"    Found {len(alt_sources)} alternative sources")
+                else:
+                    print(f"    No alternatives found either")
+            except Exception as e:
+                print(f"    ERROR: {e}")
+                q["alternative_sources"] = []
+                q["status"] = "nasem_gap"
+    else:
+        print(f"\n[5/6] No NASEM gaps to fill — all questions have sources.")
+
+    # Step 6a: Write question configs for new questions (only if they have sources)
+    print(f"\n[6/6] Writing outputs...")
     QUESTIONS_DIR.mkdir(parents=True, exist_ok=True)
     skipped_no_sources = 0
     for q in new_questions:
         source_count = q.get("nasem_source_count", 0)
         if source_count == 0:
             skipped_no_sources += 1
-            print(f"  SKIP (0 NASEM sources): {q['id']}")
+            print(f"  SKIP config (NASEM gap): {q['id']}")
             continue
         config = {
             "id": q["id"],
@@ -154,13 +176,10 @@ def run_discovery(max_questions=15):
         )
         print(f"  Config: pipeline/questions/{q['id']}.json")
     if skipped_no_sources:
-        print(f"  ({skipped_no_sources} questions dropped — no NASEM sources found)")
+        print(f"  ({skipped_no_sources} NASEM gaps — no config written, shown as gaps in queue)")
 
-    # Step 5b: Build discovered_questions.json (exclude 0-source questions)
-    publishable = [q for q in questions if q.get("nasem_source_count", 0) > 0]
-    dropped = len(questions) - len(publishable)
-    if dropped:
-        print(f"  Queue: dropping {dropped} questions with 0 sources")
+    # Step 6b: Build discovered_questions.json (include gap questions now)
+    publishable = questions  # Keep all — gaps shown differently in UI
     _write_discovery_queue(publishable)
     print("\nDiscovery complete.")
 
@@ -353,8 +372,9 @@ def _write_discovery_queue(questions):
                 }
                 for rs in q.get("raw_sources", q.get("discovery_sources", []))
             ],
+            "alternative_sources": q.get("alternative_sources", []),
             "discovered_at": today,
-            "status": "published" if is_published else "pending",
+            "status": "published" if is_published else q.get("status", "pending"),
         }
         if is_published:
             pub = published_data[qid]

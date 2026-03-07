@@ -1,0 +1,104 @@
+{
+  "id": "quantum_physics_prove_consciousness_creates",
+  "question": "Does quantum physics prove that consciousness creates reality?",
+  "topic": "Corrects pervasive misunderstanding of quantum physics that's exploited by pseudoscience promoters",
+  "tags": [
+    "Science and Technology",
+    "Physics",
+    "Misinformation"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Space Nuclear Propulsion for Human Mars Exploration",
+      "url": "https://www.nationalacademies.org/publications/25977",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States",
+      "url": "https://www.nationalacademies.org/publications/25613",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field",
+      "url": "https://www.nationalacademies.org/publications/26902",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Artificial Intelligence and the Future of Work",
+      "url": "https://www.nationalacademies.org/publications/27644",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+      "url": "https://www.nationalacademies.org/publications/26850",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Greenhouse Gas Emissions from Wildland Fires: Toward Improved Monitoring, Modeling, and Management: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/27473",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Quantum Science Concepts in Enhancing Sensing and Imaging Technologies: Applications for Biology: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/26139",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Why ‘quantum proteins’ could be the next big thing in biology",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00662-1",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Phantom codes could help quantum computers avoid errors",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2517490-phantom-codes-could-help-quantum-computers-avoid-errors/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Inside the company selling quantum entanglement",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2516591-inside-the-company-selling-quantum-entanglement/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: For the first time, light mimics a Nobel Prize quantum effect",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/02/260228093446.htm",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Material previously thought to be quantum is actually a new, non-quantum state of matter",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-material-previously-thought-quantum-state.html",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_topic",
+      "text": "Quantum Science",
+      "origin": "STM (3 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-05"
+    }
+  ]
+}
