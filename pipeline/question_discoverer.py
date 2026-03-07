@@ -142,7 +142,7 @@ def _rank_and_refine(raw_questions, max_questions):
     """Use Claude to rank candidates and convert to BoS-style questions."""
     # Format candidates for Claude
     candidates_text = ""
-    for i, q in enumerate(raw_questions[:60]):  # Cap at 60 to avoid token overflow
+    for i, q in enumerate(raw_questions[:120]):  # Cap at 120 candidates
         candidates_text += f"{i+1}. [{q['source_type']}] {q['raw_text']}\n"
         candidates_text += f"   Source: {q['source']}\n"
 
@@ -182,13 +182,18 @@ Return a JSON array:
     "misinformation_narrative": "The specific wrong belief (e.g., 'Many people believe X when in fact Y')",
     "public_stakes": "What happens if people keep believing the wrong thing",
     "rationale": "Why this is a good BoS question — what misconception does it correct?",
-    "source_indices": [1, 5, 12],
+    "source_indices": [1, 5, 12, 34, 47],
     "estimated_sources": "What types of authoritative sources likely exist",
     "priority": "high|medium|low",
     "tags": ["Health and Medicine", "Public Health"]
   }}
 ]
 ```
+
+IMPORTANT: For source_indices, include ALL candidate numbers that relate to the question —
+every podcast claim, topic, or trending signal that supports or relates to this question.
+More source indices = stronger provenance. A question backed by 5+ independent signals
+is much stronger than one backed by 1.
 
 Return ONLY the JSON array. Do NOT include questions where you cannot identify a specific,
 real misinformation narrative. It is better to return fewer high-quality questions than to

@@ -1,16 +1,31 @@
 {
-  "id": "large_language_models_like_chatgpt",
-  "question": "Can large language models like ChatGPT actually reason and think like humans?",
-  "topic": "Corrects both overconfidence in AI reasoning abilities and misunderstanding of how language models a",
+  "id": "large_language_models_actually_understand",
+  "question": "Do large language models actually understand and reason like humans do?",
+  "topic": "Addresses fundamental misconceptions about AI that affect public policy and individual decision-maki",
   "tags": [
     "Technology",
-    "Artificial Intelligence"
+    "Artificial Intelligence",
+    "Cognitive Science"
   ],
   "sources": [],
   "discovery_sources": [
     {
       "type": "podcast_claim",
       "text": "Current large language models can achieve gold medals in mathematics competitions",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "url": "https://feeds.simplecast.com/siriusxm.com",
+      "date": "2026-02-20T06:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "AI systems spontaneously develop survival as a sub-goal when trained on other objectives without explicit programming",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "url": "https://feeds.simplecast.com/siriusxm.com",
+      "date": "2026-02-20T06:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "AI systems can be trained to deliberately give wrong answers and will generalize this behavior beyond the training context",
       "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
       "url": "https://feeds.simplecast.com/siriusxm.com",
       "date": "2026-02-20T06:00:00"
@@ -32,6 +47,13 @@
     {
       "type": "podcast_topic",
       "text": "Large language models and their reasoning capabilities",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "url": "https://feeds.simplecast.com/siriusxm.com",
+      "date": "2026-02-20T06:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Confabulation versus hallucination in language models",
       "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
       "url": "https://feeds.simplecast.com/siriusxm.com",
       "date": "2026-02-20T06:00:00"

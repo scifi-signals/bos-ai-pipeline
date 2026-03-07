@@ -1,0 +1,90 @@
+{
+  "id": "teenagers_getting_enough_sleep_just",
+  "question": "Are teenagers getting enough sleep, and is it just about screen time?",
+  "topic": "Corrects oversimplified explanations for teen sleep deprivation that prevent implementation of effec",
+  "tags": [
+    "Health and Medicine",
+    "Child Health",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Social Media and Adolescent Health",
+      "url": "https://www.nationalacademies.org/publications/27396",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Impact of Juvenile Justice System Involvement on the Health and Well-Being of Youth, Families, and Communities of Color: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/26623",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Communities in Action: Pathways to Health Equity",
+      "url": "https://www.nationalacademies.org/publications/24624",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Juvenile Crime, Juvenile Justice",
+      "url": "https://www.nationalacademies.org/publications/9747",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Behavioral Economics: Policy Impact and Future Directions",
+      "url": "https://www.nationalacademies.org/publications/26874",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Graduate STEM Education for the 21st Century",
+      "url": "https://www.nationalacademies.org/publications/25038",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+      "url": "https://www.nationalacademies.org/publications/10027",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "More than three-quarters of high school students are getting less than seven hours of sleep per night (data from 2007-2023)",
+      "origin": "Short Wave: Teen sleep is getting wrecked by more than just phones",
+      "url": "",
+      "date": "2026-03-06T08:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Some high school students are getting less than five hours of sleep per night",
+      "origin": "Short Wave: Teen sleep is getting wrecked by more than just phones",
+      "url": "",
+      "date": "2026-03-06T08:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Insufficient sleep in teens correlates with increased depression, car accidents, worse school performance, and diminished life outcomes",
+      "origin": "Short Wave: Teen sleep is getting wrecked by more than just phones",
+      "url": "",
+      "date": "2026-03-06T08:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Adolescent sleep deprivation and sleep duration trends in high school students",
+      "origin": "Short Wave: Teen sleep is getting wrecked by more than just phones",
+      "url": "",
+      "date": "2026-03-06T08:00:00"
+    }
+  ]
+}

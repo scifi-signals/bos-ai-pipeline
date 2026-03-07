@@ -1,0 +1,69 @@
+{
+  "id": "should_newborns_routinely_receive_hepatitis",
+  "question": "Should newborns routinely receive hepatitis B vaccination?",
+  "topic": "Addresses vaccine hesitancy about a specific childhood vaccine with clear public health benefits",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines",
+    "Child Health"
+  ],
+  "sources": [
+    {
+      "name": "Immunization Safety Review: Hepatitis B Vaccine and Demyelinating Neurological Disorders",
+      "url": "https://www.nationalacademies.org/publications/10393",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Hepatitis and Liver Cancer: A National Strategy for Prevention and Control of Hepatitis B and C",
+      "url": "https://www.nationalacademies.org/publications/12793",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Eliminating the Public Health Problem of Hepatitis B and C in the United States: Phase One Report",
+      "url": "https://www.nationalacademies.org/publications/23407",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://www.nationalacademies.org/publications/13563",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Priorities for the National Vaccine Plan",
+      "url": "https://www.nationalacademies.org/publications/12796",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality",
+      "url": "https://www.nationalacademies.org/publications/2138",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adverse Effects of Pertussis and Rubella Vaccines",
+      "url": "https://www.nationalacademies.org/publications/1815",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders",
+      "url": "https://www.nationalacademies.org/publications/10208",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "CDC advisors voted to stop routine hepatitis B vaccination at birth for all U.S. newborns, citing potential harm — described as lacking supporting research; external medical groups cite studies showing vaccine is very safe and credit it with 99% reduction in young children with hepatitis B since 1991",
+      "origin": "Short Wave: The global fallout of RFK Jr.'s vaccine policies",
+      "url": "https://www.npr.org/2026/03/04/nx-s1-5701334/vaccine-health-hepatitis",
+      "date": "2026-03-04T08:00:00"
+    }
+  ]
+}

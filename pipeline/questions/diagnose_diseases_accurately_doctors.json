@@ -1,0 +1,27 @@
+{
+  "id": "diagnose_diseases_accurately_doctors",
+  "question": "Can AI diagnose diseases more accurately than doctors?",
+  "topic": "Addresses polarized misconceptions about AI in medicine that could affect healthcare delivery and pa",
+  "tags": [
+    "Health and Medicine",
+    "Artificial Intelligence",
+    "Medical Technology"
+  ],
+  "sources": [],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Approximately 200,000 people per year die in North America due to misdiagnosis by doctors, and AI is already better than doctors at diagnosis",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "url": "https://feeds.simplecast.com/siriusxm.com",
+      "date": "2026-02-20T06:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "AI medical diagnosis and drug design applications",
+      "origin": "StarTalk Radio: The Origins of Artificial Intelligence with Geoffrey Hinton",
+      "url": "https://feeds.simplecast.com/siriusxm.com",
+      "date": "2026-02-20T06:00:00"
+    }
+  ]
+}

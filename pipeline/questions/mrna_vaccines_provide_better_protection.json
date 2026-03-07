@@ -1,16 +1,46 @@
 {
-  "id": "mrna_vaccines_fundamentally_different_dangerous",
-  "question": "Are mRNA vaccines fundamentally different or more dangerous than traditional vaccines?",
-  "topic": "Corrects persistent misconceptions about mRNA vaccine mechanism and safety that fuel vaccine hesitan",
+  "id": "mrna_vaccines_provide_better_protection",
+  "question": "Do mRNA vaccines provide better protection against flu than traditional vaccines?",
+  "topic": "Addresses emerging vaccine technology misconceptions as mRNA flu vaccines enter the market",
   "tags": [
     "Health and Medicine",
     "Vaccines",
-    "Public Health"
+    "Medical Technology"
   ],
   "sources": [
     {
-      "name": "Framework for Equitable Allocation of COVID-19 Vaccine",
-      "url": "https://www.nationalacademies.org/publications/25917",
+      "name": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+      "url": "https://www.nationalacademies.org/publications/26282",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines",
+      "url": "https://www.nationalacademies.org/publications/26285",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+      "url": "https://www.nationalacademies.org/publications/26284",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Domestic and International Impacts of the 2009-H1N1 Influenza A Pandemic: Global Challenges, Global Solutions: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/12799",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications",
+      "url": "https://www.nationalacademies.org/publications/10822",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://www.nationalacademies.org/publications/10306",
       "type": "web",
       "tier": 1
     },
@@ -23,36 +53,6 @@
     {
       "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
       "url": "https://www.nationalacademies.org/publications/13563",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Vaccine Safety Research, Data Access, and Public Trust",
-      "url": "https://www.nationalacademies.org/publications/11234",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
-      "url": "https://www.nationalacademies.org/publications/26284",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines",
-      "url": "https://www.nationalacademies.org/publications/26285",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Immunization Safety Review: Influenza Vaccines and Neurological Complications",
-      "url": "https://www.nationalacademies.org/publications/10822",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Immunization Safety Review: Thimerosal-Containing Vaccines and Neurodevelopmental Disorders",
-      "url": "https://www.nationalacademies.org/publications/10208",
       "type": "web",
       "tier": 1
     }
@@ -68,13 +68,6 @@
     {
       "type": "podcast_claim",
       "text": "Moderna separately ran a trial versus high-dose shot in adults 65 and older",
-      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
-      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
-      "date": "2026-02-18T11:00:00"
-    },
-    {
-      "type": "podcast_claim",
-      "text": "HHS canceled over $500 million in mRNA contracts",
       "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
       "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
       "date": "2026-02-18T11:00:00"

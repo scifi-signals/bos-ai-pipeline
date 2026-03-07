@@ -1,0 +1,76 @@
+{
+  "id": "igg_food_sensitivity_tests_reliable",
+  "question": "Are IgG food sensitivity tests reliable for diagnosing food allergies or intolerances?",
+  "topic": "Addresses widespread commercial misinformation about food allergy testing that affects dietary choic",
+  "tags": [
+    "Health and Medicine",
+    "Nutrition",
+    "Medical Testing"
+  ],
+  "sources": [
+    {
+      "name": "Safety of Dietary Supplements for Horses, Dogs, and Cats",
+      "url": "https://www.nationalacademies.org/publications/12461",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Preventing Childhood Obesity: Health in the Balance",
+      "url": "https://www.nationalacademies.org/publications/11015",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Local Government Actions to Prevent Childhood Obesity",
+      "url": "https://www.nationalacademies.org/publications/12674",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Progress in Preventing Childhood Obesity: How Do We Measure Up?",
+      "url": "https://www.nationalacademies.org/publications/11722",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+      "url": "https://www.nationalacademies.org/publications/27239",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Sustainable Diets, Food, and Nutrition: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25192",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Reducing Impacts of Food Loss and Waste: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25396",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Reproducibility and Replicability in Science",
+      "url": "https://www.nationalacademies.org/publications/25303",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "IgG testing has high false positive rate for food reactions - claim made but no specific statistics provided",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "IgG antibody testing for food sensitivities (commercialized testing)",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "",
+      "date": "2026-03-04T11:00:00"
+    }
+  ]
+}

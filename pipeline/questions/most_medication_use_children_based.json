@@ -1,10 +1,11 @@
 {
-  "id": "off_label_medication_use_children",
-  "question": "Is off-label medication use in children dangerous or inappropriate?",
-  "topic": "Addresses widespread parental anxiety about off-label pediatric prescribing that can interfere with ",
+  "id": "most_medication_use_children_based",
+  "question": "Is most medication use in children based on adult studies rather than pediatric testing?",
+  "topic": "Exposes a gap in medical knowledge that affects parental decision-making about children's treatments",
   "tags": [
     "Health and Medicine",
-    "Pediatric Health"
+    "Child Health",
+    "Pharmaceutical"
   ],
   "sources": [
     {
@@ -16,6 +17,18 @@
     {
       "name": "Medications for Opioid Use Disorder Save Lives",
       "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://www.nationalacademies.org/publications/13563",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Protein Quality and Growth Monitoring Studies: Quality Factor Requirements for Infant Formula",
+      "url": "https://www.nationalacademies.org/publications/29065",
       "type": "web",
       "tier": 1
     },
@@ -40,18 +53,6 @@
     {
       "name": "Research on Children and Adolescents With Mental, Behavioral, and Developmental Disorders: Mobilizing a National Initiative",
       "url": "https://www.nationalacademies.org/publications/19033",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "Fostering Healthy Mental, Emotional, and Behavioral Development in Children and Youth: A National Agenda",
-      "url": "https://www.nationalacademies.org/publications/25201",
-      "type": "web",
-      "tier": 1
-    },
-    {
-      "name": "The State of Mental, Emotional, and Behavioral Health of Children and Youth in the United States: Proceedings of a Workshop",
-      "url": "https://www.nationalacademies.org/publications/25739",
       "type": "web",
       "tier": 1
     }
