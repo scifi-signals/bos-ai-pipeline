@@ -74,9 +74,8 @@ def run_discovery(max_questions=15):
 
     # Load NASEM's published BoS articles to avoid duplicating their work
     nasem_bos = _load_nasem_bos_articles()
-    nasem_bos_titles = [a["title"] for a in nasem_bos]
-    if nasem_bos_titles:
-        print(f"  Checking against {len(nasem_bos_titles)} existing NASEM BoS articles")
+    if nasem_bos:
+        print(f"  Checking against {len(nasem_bos)} existing NASEM BoS articles")
 
     new_questions = []
     batch_questions = []  # Track questions within this batch too
@@ -89,19 +88,14 @@ def run_discovery(max_questions=15):
             print(f"  SKIP (exists): {qid}")
             continue
 
-        # Check against NASEM's published BoS articles
-        nasem_match = _find_similar(q["question"], nasem_bos_titles, threshold=0.50)
+        # Check against NASEM's published BoS articles (lower threshold since
+        # NASEM titles phrase things differently; also check topic keywords)
+        nasem_match = _find_nasem_bos_match(q["question"], nasem_bos)
         if nasem_match:
-            # Find the URL for the matched article
-            match_url = ""
-            for a in nasem_bos:
-                if a["title"] == nasem_match:
-                    match_url = a["url"]
-                    break
-            print(f"  SKIP (NASEM already published: '{nasem_match[:50]}...'): {qid}")
+            print(f"  SKIP (NASEM already published: '{nasem_match['title'][:50]}...'): {qid}")
             q["status"] = "nasem_covered"
-            q["nasem_bos_url"] = match_url
-            q["nasem_bos_title"] = nasem_match
+            q["nasem_bos_url"] = nasem_match.get("url", "")
+            q["nasem_bos_title"] = nasem_match["title"]
             continue
 
         # Semantic similarity check against existing + batch
@@ -215,6 +209,40 @@ def _load_nasem_bos_articles():
         return data.get("articles", [])
     except (json.JSONDecodeError, UnicodeDecodeError):
         return []
+
+
+def _find_nasem_bos_match(question, nasem_bos_articles):
+    """Check if a question overlaps with a known NASEM BoS article.
+
+    Uses two strategies:
+    1. Title similarity (Jaccard at 0.45 — lower threshold since NASEM
+       phrases things differently than our discovery pipeline)
+    2. Topic keyword overlap from the article's keywords field
+
+    Returns the matched article dict, or None.
+    """
+    # Strategy 1: Title similarity
+    match_title = _find_similar(
+        question,
+        [a["title"] for a in nasem_bos_articles],
+        threshold=0.45
+    )
+    if match_title:
+        for a in nasem_bos_articles:
+            if a["title"] == match_title:
+                return a
+
+    # Strategy 2: Keyword overlap — catch topics even if phrased differently
+    q_lower = question.lower()
+    for article in nasem_bos_articles:
+        keywords = article.get("keywords", [])
+        if not keywords:
+            continue
+        matches = sum(1 for kw in keywords if kw.lower() in q_lower)
+        if matches >= 2:  # At least 2 keyword hits
+            return article
+
+    return None
 
 
 def _infer_tags(question_data):

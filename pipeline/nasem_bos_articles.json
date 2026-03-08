@@ -1,130 +1,161 @@
 {
-  "_note": "Known NASEM 'Based on Science' articles. Used to prevent duplicating topics NASEM has already covered. Update periodically by checking https://www.nationalacademies.org/based-on-science",
+  "_note": "Known NASEM 'Based on Science' articles. Used to prevent duplicating topics NASEM has already covered. Update periodically by checking https://www.nationalacademies.org/based-on-science (97 items, ~60 English, across 6 pages of JS-paginated content). Keywords field enables fuzzy matching even when we don't have the exact title.",
   "_last_updated": "2026-03-07",
   "articles": [
     {
       "title": "Does global warming cause breathing problems?",
-      "url": "https://www.nationalacademies.org/news/does-global-warming-cause-breathing-problems"
+      "url": "https://www.nationalacademies.org/news/does-global-warming-cause-breathing-problems",
+      "keywords": ["global warming", "breathing", "respiratory", "air quality"]
     },
     {
       "title": "Do wildfires pose serious risks to human health?",
-      "url": "https://www.nationalacademies.org/news/do-wildfires-pose-serious-risks-to-human-health"
+      "url": "https://www.nationalacademies.org/news/do-wildfires-pose-serious-risks-to-human-health",
+      "keywords": ["wildfires", "health risks", "smoke", "air quality"]
     },
     {
       "title": "Are contrails harmful to the environment?",
-      "url": "https://www.nationalacademies.org/news/are-contrails-harmful-to-the-environment"
+      "url": "https://www.nationalacademies.org/news/are-contrails-harmful-to-the-environment",
+      "keywords": ["contrails", "aviation", "environment", "chemtrails"]
     },
     {
       "title": "Can vitamin A help prevent measles?",
-      "url": "https://www.nationalacademies.org/news/can-vitamin-a-help-prevent-measles"
+      "url": "https://www.nationalacademies.org/news/can-vitamin-a-help-prevent-measles",
+      "keywords": ["vitamin A", "measles", "prevention"]
     },
     {
       "title": "Why are native seeds important?",
-      "url": "https://www.nationalacademies.org/news/why-are-native-seeds-important"
+      "url": "https://www.nationalacademies.org/news/why-are-native-seeds-important",
+      "keywords": ["native seeds", "restoration", "ecology"]
     },
     {
       "title": "Do vitamin C and zinc help prevent or cure RSV?",
-      "url": "https://www.nationalacademies.org/news/do-vitamin-c-and-zinc-help-prevent-or-cure-rsv"
+      "url": "https://www.nationalacademies.org/news/do-vitamin-c-and-zinc-help-prevent-or-cure-rsv",
+      "keywords": ["vitamin C", "zinc", "RSV", "respiratory"]
     },
     {
       "title": "Does zinc help fight the coronavirus?",
-      "url": "https://www.nationalacademies.org/news/covid-19-zinc"
+      "url": "https://www.nationalacademies.org/news/covid-19-zinc",
+      "keywords": ["zinc", "coronavirus", "COVID-19", "supplement"]
     },
     {
       "title": "Does sunscreen cause skin cancer?",
-      "url": "https://www.nationalacademies.org/news/sunscreen-does-not-cause-skin-cancer"
+      "url": "https://www.nationalacademies.org/news/sunscreen-does-not-cause-skin-cancer",
+      "keywords": ["sunscreen", "skin cancer", "UV"]
     },
     {
       "title": "Would solar geoengineering help slow global warming?",
-      "url": "https://www.nationalacademies.org/news/would-solar-geoengineering-help-slow-global-warming"
+      "url": "https://www.nationalacademies.org/news/would-solar-geoengineering-help-slow-global-warming",
+      "keywords": ["solar geoengineering", "global warming", "climate intervention"]
     },
     {
       "title": "How can you tell if you have COVID-19, RSV, or the flu?",
-      "url": "https://www.nationalacademies.org/news/how-can-you-tell-if-you-have-covid-19-rsv-or-the-flu"
+      "url": "https://www.nationalacademies.org/news/how-can-you-tell-if-you-have-covid-19-rsv-or-the-flu",
+      "keywords": ["COVID-19", "RSV", "flu", "symptoms", "diagnosis"]
     },
     {
       "title": "Is it possible for the flu shot to cause type 1 diabetes?",
-      "url": "https://www.nationalacademies.org/news/is-it-possible-for-the-flu-shot-to-cause-type-1-diabetes"
+      "url": "https://www.nationalacademies.org/news/is-it-possible-for-the-flu-shot-to-cause-type-1-diabetes",
+      "keywords": ["flu shot", "diabetes", "vaccine", "type 1 diabetes"]
     },
     {
       "title": "Are all microbes dangerous?",
-      "url": "https://www.nationalacademies.org/news/are-all-microbes-dangerous"
+      "url": "https://www.nationalacademies.org/news/are-all-microbes-dangerous",
+      "keywords": ["microbes", "bacteria", "microbiome", "germs"]
     },
     {
       "title": "Does ginger prevent or cure COVID-19?",
-      "url": "https://www.nationalacademies.org/news/covid-ginger"
+      "url": "https://www.nationalacademies.org/news/covid-ginger",
+      "keywords": ["ginger", "COVID-19", "cure", "natural remedy"]
     },
     {
       "title": "Human-driven climate change is causing sea levels to rise",
-      "url": "https://www.nationalacademies.org/news/human-driven-climate-change-is-causing-sea-levels-to-rise"
+      "url": "https://www.nationalacademies.org/news/human-driven-climate-change-is-causing-sea-levels-to-rise",
+      "keywords": ["sea level rise", "climate change", "flooding"]
     },
     {
       "title": "In an increasingly warming world, is it still cold?",
-      "url": "https://www.nationalacademies.org/news/en-un-mundo-cada-vez-mas-recalentado-sigue-haciendo-tiempo-frio"
+      "url": "https://www.nationalacademies.org/based-on-science",
+      "keywords": ["cold weather", "global warming", "winter", "climate change"]
     },
     {
       "title": "Is it possible to achieve net-zero emissions?",
-      "url": "https://www.nationalacademies.org/news/es-posible-lograr-cero-emisiones-netas"
+      "url": "https://www.nationalacademies.org/based-on-science",
+      "keywords": ["net-zero", "emissions", "carbon neutral", "decarbonization"]
     },
     {
       "title": "Can copper supplements fight COVID-19?",
-      "url": "https://www.nationalacademies.org/news/pueden-los-suplementos-de-cobre-combatir-el-covid-19"
+      "url": "https://www.nationalacademies.org/based-on-science",
+      "keywords": ["copper", "supplement", "COVID-19"]
     },
     {
       "title": "Does climate change increase the spread of infectious diseases?",
-      "url": "https://www.nationalacademies.org/news/el-cambio-climatico-aumenta-la-propagacion-de-enfermedades-infecciosas"
+      "url": "https://www.nationalacademies.org/based-on-science",
+      "keywords": ["climate change", "infectious disease", "spread", "vector-borne"]
     },
     {
       "title": "Does witch hazel kill the coronavirus?",
-      "url": "https://www.nationalacademies.org/news/el-hamamelis-mata-el-coronavirus"
+      "url": "https://www.nationalacademies.org/based-on-science",
+      "keywords": ["witch hazel", "coronavirus", "natural remedy"]
     },
     {
       "title": "Why arctic permafrost is thawing and how it affects the whole planet",
-      "url": "https://www.nationalacademies.org/news/why-arctic-permafrost-is-thawing-and-how-it-affects-the-whole-planet"
+      "url": "https://www.nationalacademies.org/news/why-arctic-permafrost-is-thawing-and-how-it-affects-the-whole-planet",
+      "keywords": ["permafrost", "arctic", "thawing", "methane"]
     },
     {
       "title": "Few health problems are caused by vaccines",
-      "url": "https://www.nationalacademies.org/news/few-health-problems-are-caused-by-vaccines-iom-report-finds"
+      "url": "https://www.nationalacademies.org/news/few-health-problems-are-caused-by-vaccines-iom-report-finds",
+      "keywords": ["vaccine safety", "side effects", "vaccine injury"]
     },
     {
       "title": "Does climate change cause extreme weather?",
-      "url": "https://www.nationalacademies.org/news/attribution-of-extreme-weather-events-in-the-context-of-climate-change-new-report"
+      "url": "https://www.nationalacademies.org/news/attribution-of-extreme-weather-events-in-the-context-of-climate-change-new-report",
+      "keywords": ["extreme weather", "climate change", "hurricanes", "attribution"]
     },
     {
       "title": "Health effects of marijuana and cannabis-derived products",
-      "url": "https://www.nationalacademies.org/news/health-effects-of-marijuana-and-cannabis-derived-products-presented-in-new-report"
+      "url": "https://www.nationalacademies.org/news/health-effects-of-marijuana-and-cannabis-derived-products-presented-in-new-report",
+      "keywords": ["marijuana", "cannabis", "health effects", "CBD", "THC"]
     },
     {
       "title": "E-cigarettes may lead youth to start smoking",
-      "url": "https://www.nationalacademies.org/news/new-report-one-of-most-comprehensive-studies-on-health-effects-of-e-cigarettes-finds-that-using-e-cigarettes-may-lead-youth-to-start-smoking-adults-to-stop-smoking"
+      "url": "https://www.nationalacademies.org/news/new-report-one-of-most-comprehensive-studies-on-health-effects-of-e-cigarettes-finds-that-using-e-cigarettes-may-lead-youth-to-start-smoking-adults-to-stop-smoking",
+      "keywords": ["e-cigarettes", "vaping", "youth smoking", "tobacco"]
     },
     {
       "title": "Link between ozone air pollution and premature death confirmed",
-      "url": "https://www.nationalacademies.org/news/link-between-ozone-air-pollution-and-premature-death-confirmed"
+      "url": "https://www.nationalacademies.org/news/link-between-ozone-air-pollution-and-premature-death-confirmed",
+      "keywords": ["ozone", "air pollution", "premature death"]
     },
     {
       "title": "Genetically engineered crops: experiences and prospects",
-      "url": "https://www.nationalacademies.org/news/genetically-engineered-crops-experiences-and-prospects-new-report"
+      "url": "https://www.nationalacademies.org/news/genetically-engineered-crops-experiences-and-prospects-new-report",
+      "keywords": ["GMO", "genetically engineered", "crops", "agriculture"]
     },
     {
       "title": "COVID-19 testing: what it measures, who gets it, and how much is needed",
-      "url": "https://www.nationalacademies.org/news/covid-19-testing-what-it-measures-who-gets-it-and-how-much-is-needed"
+      "url": "https://www.nationalacademies.org/news/covid-19-testing-what-it-measures-who-gets-it-and-how-much-is-needed",
+      "keywords": ["COVID-19 testing", "PCR", "antigen test"]
     },
     {
       "title": "Potential harms of COVID-19 vaccination examined",
-      "url": "https://www.nationalacademies.org/news/new-comprehensive-review-examines-potential-harms-of-covid-19-vaccination-and-intramuscular-vaccination"
+      "url": "https://www.nationalacademies.org/news/new-comprehensive-review-examines-potential-harms-of-covid-19-vaccination-and-intramuscular-vaccination",
+      "keywords": ["COVID-19 vaccine", "vaccine harms", "side effects", "myocarditis"]
     },
     {
       "title": "The future of sports: protecting athletes amid new climate realities",
-      "url": "https://www.nationalacademies.org/news/the-future-of-sports-protecting-athletes-amid-new-climate-realities"
+      "url": "https://www.nationalacademies.org/news/the-future-of-sports-protecting-athletes-amid-new-climate-realities",
+      "keywords": ["sports", "athletes", "heat", "climate"]
     },
     {
       "title": "Fluoride in drinking water",
-      "url": "https://www.nationalacademies.org/news/epa-standard-for-fluoride-in-drinking-water-is-not-protective-tooth-enamel-loss-bone-fractures-of-concern-at-high-levels"
+      "url": "https://www.nationalacademies.org/news/epa-standard-for-fluoride-in-drinking-water-is-not-protective-tooth-enamel-loss-bone-fractures-of-concern-at-high-levels",
+      "keywords": ["fluoride", "drinking water", "dental", "bone"]
     },
     {
       "title": "Fluoride exposure and neurodevelopmental effects",
-      "url": "https://www.nationalacademies.org/news/national-academies-complete-review-of-national-toxicology-programs-second-draft-monograph-on-fluoride-exposure-and-neurodevelopmental-and-cognitive-effects"
+      "url": "https://www.nationalacademies.org/news/national-academies-complete-review-of-national-toxicology-programs-second-draft-monograph-on-fluoride-exposure-and-neurodevelopmental-and-cognitive-effects",
+      "keywords": ["fluoride", "neurodevelopment", "IQ", "brain"]
     }
   ]
 }
