@@ -1,0 +1,41 @@
+{
+  "id": "identical_twins_distinguished_through_dna",
+  "question": "Can identical twins be distinguished through DNA testing?",
+  "topic": "Sources 36-37 specifically address DNA testing distinguishing identical twins - challenges widesprea",
+  "tags": [
+    "Genetics",
+    "Forensics",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "Direct-to-Consumer Genetic Testing: Summary of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/13021",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_topic",
+      "text": "Genetics & Genomics",
+      "origin": "STM (5 sources)",
+      "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Daily briefing: How DNA testing can tell identical twins apart",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00754-y",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Identical twins on trial: can DNA testing tell them apart?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00521-z",
+      "date": "2026-03-06"
+    }
+  ]
+}

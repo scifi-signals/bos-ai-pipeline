@@ -1,0 +1,61 @@
+{
+  "id": "anti_aging_supplements_scientifically_proven",
+  "question": "Are anti-aging supplements scientifically proven to extend lifespan?",
+  "topic": "Sources mention anti-aging compounds and longevity research - addresses huge commercial misinformati",
+  "tags": [
+    "Health and Medicine",
+    "Aging",
+    "Consumer Health"
+  ],
+  "sources": [
+    {
+      "name": "Safety of Dietary Supplements for Horses, Dogs, and Cats",
+      "url": "https://www.nationalacademies.org/publications/12461",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Global Roadmap for Healthy Longevity",
+      "url": "https://www.nationalacademies.org/publications/26144",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists reveal why a popular anti-aging compound may also fuel cancer",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Young cancer survivors face faster aging and possible early dementia",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260302030652.htm",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Stem Cells From Young Can Help Older Adults Gain Mobility",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/06/stem_cells_from_young_can_help_older_adults_gain_mobility_1168924.html",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Aging Doesn't Always Mean Physical and Cognitive Decline",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/06/aging_doesnt_always_mean_physical_and_cognitive_decline_1168848.html",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: The Longevity Regimen That Stands Above the Rest",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/07/the_longevity_regiment_that_stands_above_the_rest_1169104.html",
+      "date": "2026-03-07"
+    }
+  ]
+}

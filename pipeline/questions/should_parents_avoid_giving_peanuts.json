@@ -1,0 +1,54 @@
+{
+  "id": "should_parents_avoid_giving_peanuts",
+  "question": "Should parents avoid giving peanuts to infants to prevent peanut allergies?",
+  "topic": "LEAP trial findings directly contradict long-standing parental beliefs about allergen avoidance - ma",
+  "tags": [
+    "Health and Medicine",
+    "Pediatric Health",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+      "url": "https://www.nationalacademies.org/publications/27239",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
+      "url": "https://www.nationalacademies.org/publications/25747",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Early allergen introduction reduces allergy development risk - consistent with LEAP trial and subsequent research",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "LEAP trial findings on early allergen introduction in infants",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Skin barrier disruption in eczema and food allergy risk",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    }
+  ]
+}
