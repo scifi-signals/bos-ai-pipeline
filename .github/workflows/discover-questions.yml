@@ -34,6 +34,7 @@ jobs:
           STM_DIR: /tmp/stm
           PODCAST_DIR: /tmp/podcast
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          PYTHONIOENCODING: utf-8
 
       - name: Commit and push
         run: |

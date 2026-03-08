@@ -9,6 +9,7 @@ Graceful fallback if Google blocks requests.
 
 import json
 import re
+import time
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -64,16 +65,23 @@ def mine_trending_searches():
     today = datetime.utcnow().strftime("%Y-%m-%d")
 
     try:
-        pytrends = TrendReq(hl="en-US", tz=300, retries=2, backoff_factor=1.0)
+        pytrends = TrendReq(hl="en-US", tz=300, retries=3, backoff_factor=2.0)
     except Exception as e:
         print(f"    Google Trends init failed: {e}")
         return []
 
+    consecutive_failures = 0
+
     # Strategy 1: Related queries for seed terms (finds what people are ACTUALLY searching)
     for seed in SEED_QUERIES:
+        if consecutive_failures >= 3:
+            print(f"    3 consecutive failures — Google likely blocking this IP. Stopping.")
+            break
         try:
+            time.sleep(2)  # Rate limit between queries
             pytrends.build_payload([seed], timeframe="now 7-d", geo="US")
             related = pytrends.related_queries()
+            consecutive_failures = 0  # Reset on success
 
             for term_data in related.values():
                 # "rising" queries show what's spiking — most valuable
@@ -113,29 +121,31 @@ def mine_trending_searches():
                             })
 
         except Exception as e:
-            # Google may rate-limit or block — this is expected
-            print(f"    Trends query '{seed}' failed: {e}")
+            consecutive_failures += 1
+            print(f"    Trends query '{seed}' failed ({consecutive_failures}/3): {e}")
             continue
 
     # Strategy 2: Trending searches (daily trending topics)
-    try:
-        trending = pytrends.trending_searches(pn="united_states")
-        if trending is not None and not trending.empty:
-            for _, row in trending.head(20).iterrows():
-                query = str(row.iloc[0]).strip() if len(row) > 0 else ""
-                if query and query.lower() not in seen_queries and _is_science_health(query):
-                    seen_queries.add(query.lower())
-                    candidates.append({
-                        "raw_text": query,
-                        "source_type": "trends",
-                        "source": "Google Trends (daily trending)",
-                        "source_url": _build_trends_url(query),
-                        "date": today,
-                        "signal_strength": 50,  # Trending but no specific score
-                        "trend_type": "daily",
-                    })
-    except Exception as e:
-        print(f"    Daily trending failed: {e}")
+    if consecutive_failures < 3:
+        try:
+            time.sleep(2)
+            trending = pytrends.trending_searches(pn="united_states")
+            if trending is not None and not trending.empty:
+                for _, row in trending.head(20).iterrows():
+                    query = str(row.iloc[0]).strip() if len(row) > 0 else ""
+                    if query and query.lower() not in seen_queries and _is_science_health(query):
+                        seen_queries.add(query.lower())
+                        candidates.append({
+                            "raw_text": query,
+                            "source_type": "trends",
+                            "source": "Google Trends (daily trending)",
+                            "source_url": _build_trends_url(query),
+                            "date": today,
+                            "signal_strength": 50,  # Trending but no specific score
+                            "trend_type": "daily",
+                        })
+        except Exception as e:
+            print(f"    Daily trending failed: {e}")
 
     # Sort by signal strength
     candidates.sort(key=lambda c: c.get("signal_strength", 0), reverse=True)

@@ -240,9 +240,8 @@ RESULT: [numbers or NONE]"""
             print("  LLM returned no valid publication numbers")
             return []
     except Exception as e:
-        print(f"  LLM reranking failed ({e}), using keyword scores")
-
-    return candidates[:max_results]
+        print(f"  LLM reranking failed ({e}), returning empty (keyword matches unreliable)")
+        return []
 
 
 def _load_catalog():

@@ -123,6 +123,10 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
 
 .published-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; background:var(--green-light); color:var(--green); }
 
+.approve-btn { display:inline-block; padding:4px 12px; border-radius:4px; font-size:12px; font-weight:600; background:var(--amber-light); color:var(--amber); border:1px solid var(--amber); cursor:pointer; margin-left:8px; font-family:'DM Sans',sans-serif; transition:all 0.15s; }
+.approve-btn:hover { background:var(--amber); color:#fff; }
+.approved-badge { display:inline-block; padding:2px 8px; border-radius:4px; font-size:11px; font-weight:700; text-transform:uppercase; background:var(--green-light); color:var(--green); margin-left:8px; }
+
 /* Queue tabs */
 .queue-tabs { display:flex; gap:0; border-bottom:2px solid var(--border); margin-bottom:16px; }
 .queue-tab { padding:10px 20px; font-size:14px; font-weight:500; color:var(--text-tertiary); cursor:pointer; border-bottom:2px solid transparent; margin-bottom:-2px; background:none; border-top:none; border-left:none; border-right:none; font-family:'DM Sans',sans-serif; transition:color 0.15s; }
@@ -404,6 +408,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         });
 
         var pendingQuestions = questions.filter(function(q) { return q.status === 'pending'; });
+        window._pendingQuestions = pendingQuestions;
         var gapQuestions = questions.filter(function(q) { return q.status === 'nasem_gap'; });
         var coveredQuestions = questions.filter(function(q) { return q.status === 'nasem_covered'; });
 
@@ -544,10 +549,23 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             }
         }
 
+        // Check if editorially approved via localStorage
+        var isApproved = localStorage.getItem('approved_' + q.id);
+        if (isApproved) {
+            verStatus = 'verified';
+            verText = 'Editorially approved';
+        }
+
         // Status line combining verification + priority context
         var statusColor = verStatus === 'verified' ? 'var(--green)' : verStatus === 'needs_review' ? 'var(--amber)' : 'var(--text-tertiary)';
-        var statusIcon = verStatus === 'verified' ? '✓' : verStatus === 'needs_review' ? '⚠' : '?';
-        var statusLine = verText ? '<div style="font-size:12px; color:' + statusColor + '; margin-bottom:8px;">' + statusIcon + ' ' + verText + '</div>' : '';
+        var statusIcon = verStatus === 'verified' ? '&#10003;' : verStatus === 'needs_review' ? '&#9888;' : '?';
+        var approveBtn = '';
+        if (!isApproved && q.verification_status === 'needs_review') {
+            approveBtn = ' <button class="approve-btn" onclick="approveQuestion(\'' + q.id + '\', this)">Approve</button>';
+        } else if (isApproved) {
+            approveBtn = ' <span class="approved-badge">Approved</span>';
+        }
+        var statusLine = verText ? '<div style="font-size:12px; color:' + statusColor + '; margin-bottom:8px;">' + statusIcon + ' ' + verText + approveBtn + '</div>' : '';
 
         // Readiness summary — explains why this question is ranked here
         var readinessHtml = '';
@@ -729,6 +747,20 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             }
         }
         progressEl.textContent = currentStage.label;
+    }
+
+    function approveQuestion(questionId, btn) {
+        localStorage.setItem('approved_' + questionId, Date.now().toString());
+        // Re-render the queue item in place
+        var el = document.getElementById('queue-' + questionId);
+        if (el) {
+            var q = window._pendingQuestions && window._pendingQuestions.find(function(q) { return q.id === questionId; });
+            if (q) {
+                var tmp = document.createElement('div');
+                tmp.innerHTML = renderPendingQueueItem(q);
+                el.replaceWith(tmp.firstChild);
+            }
+        }
     }
 
     function generateArticle(questionId, btn) {
