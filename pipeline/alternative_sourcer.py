@@ -144,8 +144,8 @@ def find_alternative_sources(question, max_results=5):
     """Find authoritative non-NASEM sources for a question.
 
     Returns a list of suggested sources with organization, description,
-    and search guidance. Does NOT fabricate URLs — provides organization
-    base URLs and specific document/page names to search for.
+    and verified URLs. Claude suggests specific page URLs which are then
+    verified with HEAD requests. Unverified URLs fall back to org base URL.
     """
     prompt = f"""Question: {question}
 
@@ -157,7 +157,8 @@ RULES:
 - Only suggest sources you are CONFIDENT actually exist (published reports, fact sheets, guidelines)
 - Prefer: CDC, WHO, EPA, FDA, NIH, IPCC, Cochrane systematic reviews, USGCRP, major meta-analyses
 - Be SPECIFIC — name the actual document, page, or guideline (not just "CDC has info on this")
-- Do NOT invent URLs — just name the organization and the specific resource
+- Include the full URL to the specific page if you know it
+- If you're not sure of the exact URL, provide your best guess — it will be verified
 - If you can't identify real specific sources, return NONE
 
 Return as JSON array:
@@ -165,6 +166,7 @@ Return as JSON array:
   {{
     "organization": "CDC",
     "resource_name": "Vaccines and Immunization: Myths and Facts",
+    "url": "https://www.cdc.gov/vaccines/vac-gen/6mishome.htm",
     "description": "CDC's fact sheet directly addresses common vaccine misconceptions",
     "relevance": "Directly rebuts the specific misinformation claim with evidence"
   }}
@@ -173,7 +175,7 @@ Return as JSON array:
 Or if no reliable alternatives exist: NONE"""
 
     try:
-        response = ask_claude(prompt, max_tokens=1000)
+        response = ask_claude(prompt, max_tokens=1500)
         stripped = response.strip()
 
         if "NONE" in stripped.upper() and len(stripped) < 20:
@@ -189,10 +191,20 @@ Or if no reliable alternatives exist: NONE"""
         for s in sources[:max_results]:
             org = s.get("organization", "")
             authority = _match_authority(org)
+            base_url = authority.get("base_url", "")
+
+            # Try to verify the suggested URL
+            suggested_url = s.get("url", "")
+            verified_url = ""
+            if suggested_url:
+                verified_url = _verify_url(suggested_url)
+
             results.append({
                 "organization": org,
                 "organization_full": authority.get("full_name", org),
-                "base_url": authority.get("base_url", ""),
+                "base_url": base_url,
+                "url": verified_url or base_url,
+                "url_verified": bool(verified_url),
                 "tier": authority.get("tier", 3),
                 "resource_name": s.get("resource_name", ""),
                 "description": s.get("description", ""),
@@ -203,3 +215,16 @@ Or if no reliable alternatives exist: NONE"""
     except Exception as e:
         print(f"    Alternative sourcing failed: {e}")
         return []
+
+
+def _verify_url(url):
+    """Verify a URL is reachable. Returns the URL if valid, empty string if not."""
+    import httpx
+    try:
+        resp = httpx.head(url, follow_redirects=True, timeout=10,
+                          headers={"User-Agent": "BoS-Pipeline/1.0 (research)"})
+        if resp.status_code < 400:
+            return str(resp.url)  # Return final URL after redirects
+    except Exception:
+        pass
+    return ""

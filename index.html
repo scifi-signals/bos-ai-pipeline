@@ -649,12 +649,16 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         var altHtml = '';
         if (q.alternative_sources && q.alternative_sources.length > 0) {
             var altItems = q.alternative_sources.map(function(s) {
-                var orgLink = s.base_url ?
-                    '<a href="' + escHtml(s.base_url) + '" target="_blank" rel="noopener" class="alt-source-org">' + escHtml(s.organization) + '</a>' :
+                var sourceUrl = s.url || s.base_url || '';
+                var orgLink = sourceUrl ?
+                    '<a href="' + escHtml(sourceUrl) + '" target="_blank" rel="noopener" class="alt-source-org">' + escHtml(s.organization) + '</a>' :
                     '<span class="alt-source-org">' + escHtml(s.organization) + '</span>';
+                var nameHtml = sourceUrl && s.url ?
+                    '<a href="' + escHtml(sourceUrl) + '" target="_blank" rel="noopener" class="alt-source-name">' + escHtml(s.resource_name) + '</a>' :
+                    '<span class="alt-source-name">' + escHtml(s.resource_name) + '</span>';
                 return '<div class="alt-source-item">' +
-                    orgLink +
-                    ' &mdash; <span class="alt-source-name">' + escHtml(s.resource_name) + '</span>' +
+                    orgLink + ' &mdash; ' + nameHtml +
+                    (s.url_verified ? ' <span style="color:var(--green);font-size:10px;" title="URL verified">&#10003;</span>' : '') +
                     (s.relevance ? '<div class="alt-source-relevance">' + escHtml(s.relevance) + '</div>' : '') +
                 '</div>';
             }).join('');
@@ -710,6 +714,9 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             stakesHtml +
             tagsHtml +
             altHtml +
+            ((q.alternative_sources && q.alternative_sources.length > 0) ?
+                '<button class="generate-btn" onclick="generateArticle(\'' + q.id + '\', this)" id="gen-btn-' + q.id + '" style="background:linear-gradient(135deg,#6366F1,#818CF8);">Generate from Alternative Sources</button>' :
+                '') +
         '</div>';
     }
 

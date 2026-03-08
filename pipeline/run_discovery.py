@@ -157,12 +157,13 @@ def run_discovery(max_questions=15):
     configs_written = 0
     configs_upgraded = 0
 
-    # Write configs for new questions (only if they have sources)
+    # Write configs for new questions (NASEM sources or alternative sources)
     for q in new_questions:
-        source_count = q.get("nasem_source_count", 0)
-        if source_count == 0:
+        nasem_count = q.get("nasem_source_count", 0)
+        alt_count = len([s for s in q.get("alternative_sources", []) if s.get("base_url")])
+        if nasem_count == 0 and alt_count == 0:
             skipped_no_sources += 1
-            print(f"  SKIP config (NASEM gap): {q['id']}")
+            print(f"  SKIP config (no sources at all): {q['id']}")
             continue
         config = _build_question_config(q)
         config_path = QUESTIONS_DIR / f"{q['id']}.json"
@@ -170,7 +171,8 @@ def run_discovery(max_questions=15):
             json.dumps(config, indent=2, ensure_ascii=False), encoding="utf-8"
         )
         configs_written += 1
-        print(f"  NEW config: pipeline/questions/{q['id']}.json")
+        source_label = f"{nasem_count} NASEM" if nasem_count else f"{alt_count} alternative"
+        print(f"  NEW config ({source_label}): pipeline/questions/{q['id']}.json")
 
     # Upgrade existing configs if this run found more NASEM sources
     for q in questions:
@@ -216,21 +218,42 @@ def run_discovery(max_questions=15):
 
 
 def _build_question_config(q):
-    """Build a question config dict for pipeline/questions/{id}.json."""
+    """Build a question config dict for pipeline/questions/{id}.json.
+
+    Uses NASEM sources when available, falls back to alternative sources
+    (CDC, WHO, IPCC, etc.) for NASEM gap questions.
+    """
+    # NASEM sources (tier 1)
+    nasem_sources = [
+        {
+            "name": s["name"],
+            "url": s["url"],
+            "type": s.get("type", "web"),
+            "tier": s.get("tier", 1),
+        }
+        for s in q.get("nasem_sources_full", [])[:8]
+    ]
+
+    # Alternative sources for gap questions
+    alt_sources = [
+        {
+            "name": f"{s.get('resource_name', '')} — {s.get('organization', '')}",
+            "url": s.get("url", s.get("base_url", "")),
+            "type": "web",
+            "tier": s.get("tier", 2),
+        }
+        for s in q.get("alternative_sources", [])
+        if s.get("url") or s.get("base_url")  # skip sources without any URL
+    ]
+
+    sources = nasem_sources if nasem_sources else alt_sources[:8]
+
     return {
         "id": q["id"],
         "question": q["question"],
         "topic": q.get("rationale", "")[:100],
         "tags": q.get("tags", _infer_tags(q)),
-        "sources": [
-            {
-                "name": s["name"],
-                "url": s["url"],
-                "type": s.get("type", "web"),
-                "tier": s.get("tier", 1),
-            }
-            for s in q.get("nasem_sources_full", [])[:8]
-        ],
+        "sources": sources,
         "discovery_sources": [
             {
                 "type": rs.get("source_type", ""),
