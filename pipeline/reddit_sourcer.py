@@ -3,12 +3,14 @@
 Searches science/health subreddits for posts that indicate public confusion
 or misinformation. Every signal has a permanent Reddit URL for verification.
 
-Requires REDDIT_CLIENT_ID and REDDIT_CLIENT_SECRET env vars (free tier OAuth).
+Uses Reddit's public JSON API (no authentication required).
+Rate-limited to ~1 request/second to stay within unauthenticated limits.
 """
 
 import json
-import os
 import time
+import urllib.request
+import urllib.error
 from datetime import datetime, timedelta
 from pathlib import Path
 
@@ -46,6 +48,9 @@ MIN_UPVOTES = 10
 MAX_POST_AGE_DAYS = 30
 MAX_RESULTS_PER_QUERY = 10
 
+USER_AGENT = "BoS-Pipeline/1.0 (science misinformation research)"
+REQUEST_DELAY = 1.5  # seconds between requests to respect rate limits
+
 
 def mine_reddit_questions():
     """Extract science questions/misconceptions from Reddit.
@@ -58,50 +63,22 @@ def mine_reddit_questions():
     - date: post date
     - signal_strength: based on upvotes/comments
     """
-    # Check if PRAW credentials are available
-    client_id = os.environ.get("REDDIT_CLIENT_ID", "")
-    client_secret = os.environ.get("REDDIT_CLIENT_SECRET", "")
-
-    if not client_id or not client_secret:
-        print("    REDDIT_CLIENT_ID/SECRET not set — skipping Reddit source")
-        return []
-
     # Check cache
     cached = _load_cache()
     if cached is not None:
         print(f"    Using cached Reddit data ({len(cached)} posts)")
         return cached
 
-    try:
-        import praw
-    except ImportError:
-        print("    praw not installed — skipping Reddit source (pip install praw)")
-        return []
-
-    try:
-        reddit = praw.Reddit(
-            client_id=client_id,
-            client_secret=client_secret,
-            user_agent="BoS-Pipeline/1.0 (science misinformation research)",
-        )
-        # Verify connection with read-only mode
-        reddit.read_only = True
-    except Exception as e:
-        print(f"    Reddit auth failed: {e}")
-        return []
-
     candidates = []
     seen_urls = set()
     cutoff = datetime.utcnow() - timedelta(days=MAX_POST_AGE_DAYS)
 
     # Strategy 1: Search across subreddits with misinformation-related queries
+    multi_sub = "+".join(SUBREDDITS)
     for query in SEARCH_QUERIES:
         try:
-            results = reddit.subreddit("+".join(SUBREDDITS)).search(
-                query, sort="relevance", time_filter="month",
-                limit=MAX_RESULTS_PER_QUERY
-            )
-            for post in results:
+            posts = _reddit_search(multi_sub, query)
+            for post in posts[:MAX_RESULTS_PER_QUERY]:
                 _process_post(post, candidates, seen_urls, cutoff)
         except Exception as e:
             print(f"    Search '{query}' failed: {e}")
@@ -110,8 +87,8 @@ def mine_reddit_questions():
     # Strategy 2: Hot posts from key subreddits
     for sub_name in ["IsItBullshit", "askscience", "nutrition"]:
         try:
-            subreddit = reddit.subreddit(sub_name)
-            for post in subreddit.hot(limit=25):
+            posts = _reddit_hot(sub_name, limit=25)
+            for post in posts:
                 _process_post(post, candidates, seen_urls, cutoff)
         except Exception as e:
             print(f"    r/{sub_name} hot failed: {e}")
@@ -123,62 +100,102 @@ def mine_reddit_questions():
     # Cache results
     _save_cache(candidates)
 
+    print(f"    Reddit: {len(candidates)} posts found")
     return candidates
 
 
+def _reddit_get(url):
+    """Fetch a Reddit JSON endpoint with rate limiting and error handling."""
+    time.sleep(REQUEST_DELAY)
+    req = urllib.request.Request(url, headers={"User-Agent": USER_AGENT})
+    try:
+        with urllib.request.urlopen(req, timeout=15) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as e:
+        if e.code == 429:
+            # Rate limited — wait and retry once
+            retry_after = int(e.headers.get("Retry-After", "10"))
+            print(f"    Reddit rate limited, waiting {retry_after}s...")
+            time.sleep(retry_after)
+            with urllib.request.urlopen(req, timeout=15) as resp:
+                return json.loads(resp.read().decode("utf-8"))
+        raise
+
+
+def _reddit_search(subreddit, query):
+    """Search a subreddit (or multi-sub) via public JSON API."""
+    encoded_query = urllib.request.quote(query)
+    url = f"https://www.reddit.com/r/{subreddit}/search.json?q={encoded_query}&sort=relevance&t=month&restrict_sr=on&limit=25"
+    data = _reddit_get(url)
+    return [child["data"] for child in data.get("data", {}).get("children", [])]
+
+
+def _reddit_hot(subreddit, limit=25):
+    """Get hot posts from a subreddit via public JSON API."""
+    url = f"https://www.reddit.com/r/{subreddit}/hot.json?limit={limit}"
+    data = _reddit_get(url)
+    return [child["data"] for child in data.get("data", {}).get("children", [])]
+
+
 def _process_post(post, candidates, seen_urls, cutoff):
-    """Process a single Reddit post into a candidate if it meets criteria."""
-    # Skip if already seen, too old, or too low engagement
-    url = f"https://www.reddit.com{post.permalink}"
+    """Process a single Reddit post dict into a candidate if it meets criteria."""
+    permalink = post.get("permalink", "")
+    url = f"https://www.reddit.com{permalink}"
     if url in seen_urls:
         return
     seen_urls.add(url)
 
-    if post.score < MIN_UPVOTES:
+    score = post.get("score", 0)
+    if score < MIN_UPVOTES:
         return
 
-    created = datetime.utcfromtimestamp(post.created_utc)
+    created_utc = post.get("created_utc", 0)
+    created = datetime.utcfromtimestamp(created_utc)
     if created < cutoff:
         return
 
     # Skip pinned/stickied moderator posts
-    if post.stickied:
+    if post.get("stickied", False):
         return
 
-    title = post.title.strip()
+    title = (post.get("title") or "").strip()
     if len(title) < 15:
         return
 
     # Combine title + selftext for context (truncated)
     raw_text = title
-    if post.selftext and len(post.selftext) > 20:
-        body_preview = post.selftext[:200].replace("\n", " ").strip()
+    selftext = (post.get("selftext") or "").strip()
+    if len(selftext) > 20:
+        body_preview = selftext[:200].replace("\n", " ").strip()
         raw_text = f"{title} — {body_preview}"
+
+    num_comments = post.get("num_comments", 0)
+    upvote_ratio = post.get("upvote_ratio", 1.0)
+    subreddit_name = post.get("subreddit", "unknown")
 
     candidates.append({
         "raw_text": raw_text,
         "source_type": "reddit",
-        "source": f"r/{post.subreddit.display_name}",
+        "source": f"r/{subreddit_name}",
         "source_url": url,
         "date": created.strftime("%Y-%m-%d"),
-        "signal_strength": _compute_signal_strength(post),
-        "upvotes": post.score,
-        "comments": post.num_comments,
+        "signal_strength": _compute_signal_strength(score, num_comments, upvote_ratio),
+        "upvotes": score,
+        "comments": num_comments,
     })
 
 
-def _compute_signal_strength(post):
+def _compute_signal_strength(score, num_comments, upvote_ratio):
     """Score a post's relevance based on engagement metrics."""
-    # Upvotes matter most, but high comment counts indicate active debate
-    score = post.score
-    if post.num_comments > 50:
-        score *= 1.5
-    if post.num_comments > 200:
-        score *= 2.0
+    strength = score
+    if num_comments > 50:
+        strength *= 1.5
+    if num_comments > 200:
+        strength *= 2.0
     # Upvote ratio < 0.7 means controversial (people disagree = confusion)
-    if hasattr(post, 'upvote_ratio') and post.upvote_ratio < 0.7:
-        score *= 1.3
-    return round(score)
+    if upvote_ratio < 0.7:
+        strength *= 1.3
+    return round(strength)
 
 
 def _load_cache():

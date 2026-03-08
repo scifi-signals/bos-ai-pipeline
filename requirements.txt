@@ -6,5 +6,4 @@ PyPDF2
 readability-lxml
 textstat
 lxml
-praw
 pytrends
