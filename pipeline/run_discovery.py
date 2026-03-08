@@ -150,22 +150,46 @@ def run_discovery(max_questions=15):
     else:
         print(f"\n[5/6] No NASEM gaps to fill — all questions have sources.")
 
-    # Step 6a: Write question configs for new questions (only if they have sources)
+    # Step 6a: Write/update question configs
     print(f"\n[6/6] Writing outputs...")
     QUESTIONS_DIR.mkdir(parents=True, exist_ok=True)
     skipped_no_sources = 0
+    configs_written = 0
+    configs_upgraded = 0
+
+    # Write configs for new questions (only if they have sources)
     for q in new_questions:
         source_count = q.get("nasem_source_count", 0)
         if source_count == 0:
             skipped_no_sources += 1
             print(f"  SKIP config (NASEM gap): {q['id']}")
             continue
-        config = {
-            "id": q["id"],
-            "question": q["question"],
-            "topic": q.get("rationale", "")[:100],
-            "tags": q.get("tags", _infer_tags(q)),
-            "sources": [
+        config = _build_question_config(q)
+        config_path = QUESTIONS_DIR / f"{q['id']}.json"
+        config_path.write_text(
+            json.dumps(config, indent=2, ensure_ascii=False), encoding="utf-8"
+        )
+        configs_written += 1
+        print(f"  NEW config: pipeline/questions/{q['id']}.json")
+
+    # Upgrade existing configs if this run found more NASEM sources
+    for q in questions:
+        if q in new_questions:
+            continue  # already handled above
+        qid = q.get("id", "")
+        config_path = QUESTIONS_DIR / f"{qid}.json"
+        if not config_path.exists():
+            continue
+        new_source_count = q.get("nasem_source_count", 0)
+        if new_source_count == 0:
+            continue
+        try:
+            existing_config = json.loads(config_path.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, UnicodeDecodeError):
+            continue
+        old_source_count = len(existing_config.get("sources", []))
+        if new_source_count > old_source_count:
+            existing_config["sources"] = [
                 {
                     "name": s["name"],
                     "url": s["url"],
@@ -173,30 +197,51 @@ def run_discovery(max_questions=15):
                     "tier": s.get("tier", 1),
                 }
                 for s in q.get("nasem_sources_full", [])[:8]
-            ],
-            "discovery_sources": [
-                {
-                    "type": rs.get("source_type", ""),
-                    "text": rs.get("raw_text", ""),
-                    "origin": rs.get("source", ""),
-                    "url": rs.get("source_url", ""),
-                    "date": rs.get("date", ""),
-                }
-                for rs in q.get("raw_sources", [])
-            ],
-        }
-        config_path = QUESTIONS_DIR / f"{q['id']}.json"
-        config_path.write_text(
-            json.dumps(config, indent=2, ensure_ascii=False), encoding="utf-8"
-        )
-        print(f"  Config: pipeline/questions/{q['id']}.json")
+            ]
+            config_path.write_text(
+                json.dumps(existing_config, indent=2, ensure_ascii=False), encoding="utf-8"
+            )
+            configs_upgraded += 1
+            print(f"  UPGRADED config ({old_source_count}→{new_source_count} sources): {qid}")
+
     if skipped_no_sources:
         print(f"  ({skipped_no_sources} NASEM gaps — no config written, shown as gaps in queue)")
+    if configs_upgraded:
+        print(f"  ({configs_upgraded} existing configs upgraded with better NASEM sources)")
 
     # Step 6b: Build discovered_questions.json (include gap questions now)
     publishable = questions  # Keep all — gaps shown differently in UI
     _write_discovery_queue(publishable)
     print("\nDiscovery complete.")
+
+
+def _build_question_config(q):
+    """Build a question config dict for pipeline/questions/{id}.json."""
+    return {
+        "id": q["id"],
+        "question": q["question"],
+        "topic": q.get("rationale", "")[:100],
+        "tags": q.get("tags", _infer_tags(q)),
+        "sources": [
+            {
+                "name": s["name"],
+                "url": s["url"],
+                "type": s.get("type", "web"),
+                "tier": s.get("tier", 1),
+            }
+            for s in q.get("nasem_sources_full", [])[:8]
+        ],
+        "discovery_sources": [
+            {
+                "type": rs.get("source_type", ""),
+                "text": rs.get("raw_text", ""),
+                "origin": rs.get("source", ""),
+                "url": rs.get("source_url", ""),
+                "date": rs.get("date", ""),
+            }
+            for rs in q.get("raw_sources", [])
+        ],
+    }
 
 
 def _load_nasem_bos_articles():
@@ -466,8 +511,62 @@ def _build_readiness_summary(entry):
     return " · ".join(parts)
 
 
+def _load_existing_queue():
+    """Load the existing discovered_questions.json as a dict keyed by ID."""
+    queue_path = ROOT / "discovered_questions.json"
+    if not queue_path.exists():
+        return {}
+    try:
+        data = json.loads(queue_path.read_text(encoding="utf-8"))
+        return {q["id"]: q for q in data.get("questions", []) if q.get("id")}
+    except (json.JSONDecodeError, UnicodeDecodeError):
+        return {}
+
+
+def _merge_discovery_sources(existing_sources, new_sources):
+    """Merge discovery sources, deduplicating by URL (or by origin+text if no URL)."""
+    seen = set()
+    merged = []
+    for src in existing_sources + new_sources:
+        # Deduplicate by URL first, fall back to origin+text
+        key = src.get("url", "").strip()
+        if not key:
+            key = f"{src.get('origin', '')}|{src.get('text', '')[:80]}"
+        if key and key not in seen:
+            seen.add(key)
+            merged.append(src)
+    return merged
+
+
+def _better_verification(old_status, new_status):
+    """Return the better (more confirmed) verification status. Never downgrade."""
+    rank = {"verified": 0, "unverified": 1, "no_narrative": 2, "needs_review": 3, "": 4}
+    if rank.get(new_status, 4) < rank.get(old_status, 4):
+        return new_status
+    return old_status
+
+
+def _higher_priority(old_priority, new_priority):
+    """Return the higher priority. Never downgrade."""
+    rank = {"high": 0, "medium": 1, "low": 2, "n/a": 3, "": 4}
+    if rank.get(new_priority, 4) < rank.get(old_priority, 4):
+        return new_priority
+    return old_priority
+
+
 def _write_discovery_queue(questions):
-    """Write discovered_questions.json, merging with article manifest for status."""
+    """Write discovered_questions.json, merging with previous discoveries and article manifest.
+
+    Questions accumulate over runs:
+    - Discovery sources merge (deduped by URL) — more signals = higher ranking
+    - NASEM sources keep the better set (whichever run found more)
+    - Verification status never downgrades
+    - Questions not re-discovered persist in the queue
+    - Tracks discovered_at (first seen), last_seen, times_seen
+    """
+    # Load existing queue for merging
+    existing_queue = _load_existing_queue()
+
     # Load article manifest to identify published articles
     manifest_path = ROOT / "article_manifest.json"
     published_ids = set()
@@ -482,65 +581,132 @@ def _write_discovery_queue(questions):
     now = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
 
+    # Build entries from current run, merging with existing data
+    current_ids = set()
     entries = []
     for q in questions:
         qid = q["id"]
+        current_ids.add(qid)
         is_published = qid in published_ids
+        prev = existing_queue.get(qid, {})
+
+        # Build new discovery sources from this run
+        new_discovery_sources = [
+            {
+                "type": rs.get("source_type", rs.get("type", "")),
+                "text": rs.get("raw_text", rs.get("text", "")),
+                "origin": rs.get("source", rs.get("origin", "")),
+                "url": rs.get("source_url", rs.get("url", "")),
+                "date": rs.get("date", ""),
+            }
+            for rs in q.get("raw_sources", q.get("discovery_sources", []))
+        ]
+
+        # Merge discovery sources with previous runs
+        prev_sources = prev.get("discovery_sources", [])
+        merged_sources = _merge_discovery_sources(prev_sources, new_discovery_sources)
+
+        # NASEM sources: keep whichever run found more
+        new_nasem_count = q.get("nasem_source_count", 0)
+        prev_nasem_count = prev.get("nasem_source_count", 0)
+        if new_nasem_count >= prev_nasem_count:
+            nasem_count = new_nasem_count
+            nasem_preview = q.get("nasem_sources_preview", [])
+        else:
+            nasem_count = prev_nasem_count
+            nasem_preview = prev.get("nasem_sources_preview", [])
+
+        # Alternative sources: merge (dedup by URL)
+        prev_alt = prev.get("alternative_sources", [])
+        new_alt = q.get("alternative_sources", [])
+        alt_seen = set()
+        merged_alt = []
+        for s in prev_alt + new_alt:
+            url = s.get("url", "")
+            if url and url not in alt_seen:
+                alt_seen.add(url)
+                merged_alt.append(s)
+            elif not url:
+                merged_alt.append(s)
+
+        # Verification: never downgrade
+        ver_status = _better_verification(
+            prev.get("verification_status", ""),
+            q.get("verification_status", "")
+        )
+        # Keep the reason from whichever status won
+        if ver_status == q.get("verification_status", ""):
+            ver_reason = q.get("verification_reason", "") or prev.get("verification_reason", "")
+        else:
+            ver_reason = prev.get("verification_reason", "")
+
+        # Priority: never downgrade
+        priority = _higher_priority(
+            prev.get("priority", ""),
+            q.get("priority", "medium")
+        )
+
+        # Status: upgrade nasem_gap → pending if sources were found
+        new_status = q.get("status", "pending")
+        if prev.get("status") == "nasem_gap" and nasem_count > 0:
+            new_status = "pending"
 
         entry = {
             "id": qid,
             "question": q["question"],
-            "priority": q.get("priority", "medium"),
-            "rationale": q.get("rationale", ""),
-            "misinformation_narrative": q.get("misinformation_narrative", ""),
-            "public_stakes": q.get("public_stakes", ""),
-            "verification_status": q.get("verification_status", ""),
-            "verification_reason": q.get("verification_reason", ""),
-            "tags": q.get("tags", _infer_tags(q)),
-            "nasem_source_count": q.get("nasem_source_count", 0),
-            "nasem_sources_preview": q.get("nasem_sources_preview", []),
-            "discovery_sources": [
-                {
-                    "type": rs.get("source_type", rs.get("type", "")),
-                    "text": rs.get("raw_text", rs.get("text", "")),
-                    "origin": rs.get("source", rs.get("origin", "")),
-                    "url": rs.get("source_url", rs.get("url", "")),
-                    "date": rs.get("date", ""),
-                }
-                for rs in q.get("raw_sources", q.get("discovery_sources", []))
-            ],
-            "alternative_sources": q.get("alternative_sources", []),
-            "discovered_at": today,
-            "status": "published" if is_published else q.get("status", "pending"),
+            "priority": priority,
+            "rationale": q.get("rationale", "") or prev.get("rationale", ""),
+            "misinformation_narrative": q.get("misinformation_narrative", "") or prev.get("misinformation_narrative", ""),
+            "public_stakes": q.get("public_stakes", "") or prev.get("public_stakes", ""),
+            "verification_status": ver_status,
+            "verification_reason": ver_reason,
+            "tags": q.get("tags", prev.get("tags", _infer_tags(q))),
+            "nasem_source_count": nasem_count,
+            "nasem_sources_preview": nasem_preview,
+            "discovery_sources": merged_sources,
+            "alternative_sources": merged_alt,
+            "discovered_at": prev.get("discovered_at", today),
+            "last_seen": today,
+            "times_seen": prev.get("times_seen", 0) + 1,
+            "status": "published" if is_published else new_status,
         }
 
         # Compute ranking metadata
-        source_years = _extract_source_years(q.get("nasem_sources_preview", []))
-        raw_sources = q.get("raw_sources", q.get("discovery_sources", []))
+        source_years = _extract_source_years(nasem_preview)
         # Count unique sources (by origin), not individual claims from same episode
         unique_origins = set()
-        for rs in raw_sources:
-            origin = rs.get("source", rs.get("origin", ""))
+        for rs in merged_sources:
+            origin = rs.get("origin", "")
             if origin:
                 unique_origins.add(origin)
-        signal_count = len(unique_origins) if unique_origins else len(raw_sources)
+        signal_count = len(unique_origins) if unique_origins else len(merged_sources)
         entry["newest_source_year"] = max(source_years) if source_years else 0
         entry["signal_count"] = signal_count
         entry["readiness_summary"] = _build_readiness_summary(entry)
         # NASEM-covered: link to existing NASEM article
-        if q.get("status") == "nasem_covered":
-            entry["nasem_bos_url"] = q.get("nasem_bos_url", "")
-            entry["nasem_bos_title"] = q.get("nasem_bos_title", "")
+        if new_status == "nasem_covered" or q.get("status") == "nasem_covered":
+            entry["nasem_bos_url"] = q.get("nasem_bos_url", prev.get("nasem_bos_url", ""))
+            entry["nasem_bos_title"] = q.get("nasem_bos_title", prev.get("nasem_bos_title", ""))
         if is_published:
             pub = published_data[qid]
             entry["article_url"] = pub.get("article_url", "")
             entry["evidence_url"] = pub.get("evidence_url", "")
         entries.append(entry)
 
-    # Also include published articles not in discovery results
-    discovered_ids = {q["id"] for q in questions}
+    # Carry forward questions from previous runs that weren't re-discovered
+    for qid, prev in existing_queue.items():
+        if qid in current_ids or qid in published_ids:
+            continue
+        # Preserve the entry as-is, just don't update last_seen
+        prev_status = prev.get("status", "pending")
+        if prev_status == "published":
+            continue  # handled below with manifest
+        entries.append(prev)
+
+    # Also include published articles not in discovery results or existing queue
+    all_entry_ids = {e["id"] for e in entries}
     for aid, article in published_data.items():
-        if aid not in discovered_ids:
+        if aid not in all_entry_ids:
             entries.append({
                 "id": aid,
                 "question": article.get("title", ""),
@@ -578,7 +744,9 @@ def _write_discovery_queue(questions):
     out_path.write_text(
         json.dumps(output, indent=2, ensure_ascii=False), encoding="utf-8"
     )
-    print(f"  Queue: discovered_questions.json ({len(entries)} questions)")
+    new_count = sum(1 for e in entries if e.get("id") not in existing_queue)
+    carried = sum(1 for e in entries if e.get("id") in existing_queue)
+    print(f"  Queue: discovered_questions.json ({len(entries)} total — {new_count} new, {carried} carried forward)")
 
 
 if __name__ == "__main__":
