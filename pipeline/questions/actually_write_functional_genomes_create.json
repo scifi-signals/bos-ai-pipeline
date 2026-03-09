@@ -1,0 +1,59 @@
+{
+  "id": "actually_write_functional_genomes_create",
+  "question": "Can AI actually write functional genomes and create synthetic life?",
+  "topic": "Emerging technology with significant implications that's often misrepresented in both directions",
+  "tags": [
+    "Artificial Intelligence",
+    "Synthetic Biology",
+    "Biotechnology"
+  ],
+  "sources": [
+    {
+      "name": "Synthetic Biology: What Is It and What Does It Mean for Human Health? — NIH/National Human Genome Research Institute",
+      "url": "https://www.genome.gov/about-genomics/policy-issues/Synthetic-Biology",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Regulation of Biotechnology Products — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Synthetic Biology Research — NIH/National Institute of General Medical Sciences",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Regulation of Biotechnology Under TSCA — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI can write genomes — how long until it creates synthetic life?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00681-y",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Genome modelling and design across all domains of life with Evo 2",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10176-5",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Exapted CRISPR–Cas12f homologues drive RNA-guided transcription",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10166-7",
+      "date": "2026-03-06"
+    }
+  ]
+}

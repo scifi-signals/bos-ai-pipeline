@@ -1,67 +1,205 @@
 {
-  "generated_at": "2026-03-08T12:25:42Z",
+  "generated_at": "2026-03-09T12:37:46Z",
   "questions": [
     {
-      "id": "should_parents_avoid_giving_peanuts",
-      "question": "Should parents avoid giving peanuts to infants to prevent peanut allergies?",
+      "id": "anti_aging_supplements_compounds_actually",
+      "question": "Can anti-aging supplements and compounds actually extend human lifespan?",
       "priority": "high",
-      "rationale": "LEAP trial findings directly contradict long-standing parental beliefs about allergen avoidance - major paradigm shift not yet fully adopted by public",
-      "misinformation_narrative": "Many parents still believe they should avoid giving peanuts to babies to prevent allergies, despite evidence showing early introduction reduces allergy risk",
-      "public_stakes": "Continued avoidance of early allergen introduction perpetuates the very problem parents are trying to prevent, increasing allergy rates",
+      "rationale": "Huge market for anti-aging supplements with aggressive marketing claims not supported by human longevity data",
+      "misinformation_narrative": "The anti-aging supplement industry promotes compounds like NAD+ boosters, resveratrol, and others as proven longevity enhancers, despite limited human evidence",
+      "public_stakes": "People spend billions on unproven supplements, may delay proven health interventions, and some anti-aging compounds may actually increase cancer risk",
       "verification_status": "verified",
-      "verification_reason": "Parenting forums, older pediatric advice, and many grandparents still advocate peanut avoidance despite updated 2015 guidelines recommending early introduction.",
+      "verification_reason": "The longevity supplement industry aggressively markets NAD+ boosters and resveratrol on social media, podcasts, and wellness sites with unproven anti-aging claims.",
       "tags": [
-        "Health and Medicine",
-        "Pediatric Health",
-        "Nutrition"
+        "Aging",
+        "Supplements",
+        "Consumer Protection"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
         {
-          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
-          "url": "https://www.nationalacademies.org/publications/27239"
+          "name": "Dietary Reference Intakes: Proposed Definition and Plan for Review of Dietary Antioxidants and Related Compounds (1998)",
+          "url": "https://www.nationalacademies.org/publications/6252"
         },
         {
-          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
-          "url": "https://www.nationalacademies.org/publications/25747"
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
         }
       ],
       "discovery_sources": [
         {
-          "type": "podcast_claim",
-          "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists reveal why a popular anti-aging compound may also fuel cancer",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+          "date": "2026-03-06"
         },
         {
-          "type": "podcast_claim",
-          "text": "Early allergen introduction reduces allergy development risk - consistent with LEAP trial and subsequent research",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
+          "type": "trending_article",
+          "text": "Aging & Longevity: Young cancer survivors face faster aging and possible early dementia",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260302030652.htm",
+          "date": "2026-03-06"
         },
         {
-          "type": "podcast_topic",
-          "text": "LEAP trial findings on early allergen introduction in infants",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
+          "type": "trending_article",
+          "text": "Aging & Longevity: Stem Cells From Young Can Help Older Adults Gain Mobility",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/03/06/stem_cells_from_young_can_help_older_adults_gain_mobility_1168924.html",
+          "date": "2026-03-06"
         },
         {
-          "type": "podcast_topic",
-          "text": "Skin barrier disruption in eczema and food allergy risk",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
+          "type": "trending_article",
+          "text": "Aging & Longevity: Aging Doesn't Always Mean Physical and Cognitive Decline",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/03/06/aging_doesnt_always_mean_physical_and_cognitive_decline_1168848.html",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: The Longevity Regimen That Stands Above the Rest",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/03/07/the_longevity_regiment_that_stands_above_the_rest_1169104.html",
+          "date": "2026-03-07"
         }
       ],
       "alternative_sources": [],
-      "discovered_at": "2026-03-08",
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
       "status": "pending",
-      "newest_source_year": 2024,
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "2 NASEM sources, most recent 2023 · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "climate_change_actually_speeding_fast",
+      "question": "Is climate change actually speeding up, and how fast are we losing time to act?",
+      "priority": "high",
+      "rationale": "Recent evidence shows climate change is accelerating faster than many realize, countering both denial and fatalism with urgent but actionable timeline data",
+      "misinformation_narrative": "Climate denial narratives often claim climate change is slowing down or not accelerating, while others promote fatalistic 'it's too late' messaging that discourages action",
+      "public_stakes": "Underestimating acceleration leads to inadequate mitigation efforts, while fatalism leads to inaction when rapid decarbonization could still limit warming",
+      "verification_status": "verified",
+      "verification_reason": "Climate denial websites and social media accounts promote \"pause\" narratives claiming warming has slowed, while doomer communities on Reddit and TikTok spread \"we're too late\" fatalism.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Abrupt Impacts of Climate Change: Anticipating Surprises (2013)",
+          "url": "https://www.nationalacademies.org/publications/18373"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Informing an Effective Response to Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12784"
+        },
+        {
+          "name": "Limiting the Magnitude of Future Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12785"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate change is speeding up — the pace nearly doubled in ten years",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00745-z",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate change and geopolitics threaten water supplies — but disaster is not inevitable",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00659-w",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Spreading crushed rock on farms could absorb 1 billion tonnes of CO2",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2517484-spreading-crushed-rock-on-farms-could-absorb-1-billion-tonnes-of-co2/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Ants capture carbon dioxide from the air and turn it into armour",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2517419-ants-capture-carbon-dioxide-from-the-air-and-turn-it-into-armour/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate models may be missing massive carbon emissions from boreal wildfires",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260303201755.htm",
+          "date": "2026-03-06"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 3,
+      "readiness_summary": "5 NASEM sources, most recent 2020 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "cancer_blood_tests_actually_work",
+      "question": "Do cancer blood tests actually work for early detection and screening?",
+      "priority": "high",
+      "rationale": "Major misconception about the current state of cancer blood test technology, with significant clinical and financial implications for patients",
+      "misinformation_narrative": "Aggressive marketing of liquid biopsy and multi-cancer early detection tests leads people to believe these tests are proven screening tools, when evidence is still limited",
+      "public_stakes": "People may rely on unproven tests instead of established screening methods, experience unnecessary anxiety from false positives, or delay proper medical care",
+      "verification_status": "verified",
+      "verification_reason": "Companies like Galleri and Grail market multi-cancer blood tests directly to consumers with misleading claims about screening effectiveness, creating public confusion about their proven utility.",
+      "tags": [
+        "Cancer",
+        "Medical Testing",
+        "Screening"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Refining Processes for the Co-Development of Genome-Based Therapeutics and Companion Diagnostic Tests: Workshop Summary (2014)",
+          "url": "https://www.nationalacademies.org/publications/18617"
+        },
+        {
+          "name": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary (2015)",
+          "url": "https://www.nationalacademies.org/publications/21692"
+        },
+        {
+          "name": "Genome-Based Diagnostics: Demonstrating Clinical Utility in Oncology: Workshop Summary (None)",
+          "url": "https://www.nationalacademies.org/publications/18275"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Cancer blood tests are everywhere. Do they really work?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00661-2",
+          "date": "2026-03-06"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2015,
       "signal_count": 1,
-      "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
+      "readiness_summary": "3 NASEM sources, most recent 2015 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "vaccines_cause_food_allergies",
@@ -143,6 +281,91 @@
       "readiness_summary": "1 NASEM source, most recent 2004 — sources are old · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "vaccines_cause_food_allergies_children",
+      "question": "Do vaccines cause food allergies in children?",
+      "priority": "high",
+      "rationale": "Directly addresses vaccine misinformation that affects both vaccination rates and food allergy management, with clear scientific evidence refuting the link",
+      "misinformation_narrative": "Many parents believe vaccines cause or trigger food allergies in their children, leading to vaccine hesitancy and delayed immunizations",
+      "public_stakes": "Parents may delay or skip essential vaccines, leaving children vulnerable to preventable diseases while also missing opportunities for proper food allergy prevention through early introduction",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and parenting forums frequently link vaccines to rising food allergy rates, especially on pages like \"Children's Health Defense.\"",
+      "tags": [
+        "Vaccines",
+        "Food Safety",
+        "Pediatric Health"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Adverse Effects of Pertussis and Rubella Vaccines (1991)",
+          "url": "https://www.nationalacademies.org/publications/1815"
+        },
+        {
+          "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality (1993)",
+          "url": "https://www.nationalacademies.org/publications/2138"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Vaccines do not cause food allergies - stated as established fact with no scientific support presented for the claim being rebutted",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Opinion: What’s so religious about opposing vaccines?",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/03/06/religious-exemption-vaccines-amish-vaccination-hesitancy-examined/?utm_campaign=rss",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Divisive F.D.A. Vaccine Regulator Resigns",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/03/06/health/fda-prasad-resigns.html",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: As Kennedy Turns From Vaccines, MAHA Allies See a ‘Betrayal’",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/03/02/health/kennedy-maha-vaccines.html",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: We Lost the Lyme Vaccine. Under Rand Paul's New Vaccine Liability Bill, We'll Lose More.",
+          "origin": "STM — Reason Magazine",
+          "url": "https://reason.com/2026/03/05/we-lost-the-lyme-vaccine-under-rand-pauls-new-vaccine-liability-bill-well-lose-more/",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Rand Paul's Bill Could Take Away a Lot of Vaccines",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/03/06/rand_pauls_bill_could_take_away_a_lot_of_vaccines_1168921.html",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Vaccine administration and confidence-building",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 1993,
+      "signal_count": 6,
+      "readiness_summary": "2 NASEM sources, most recent 1993 — sources are old · confirmed misinformation · 6 discovery signals"
+    },
+    {
       "id": "anti_aging_supplements_scientifically_proven",
       "question": "Are anti-aging supplements scientifically proven to extend lifespan?",
       "priority": "medium",
@@ -206,6 +429,52 @@
       "newest_source_year": 2023,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2023 · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "identical_twins_actually_identical_dna",
+      "question": "Do identical twins actually have identical DNA that makes them impossible to distinguish?",
+      "priority": "medium",
+      "rationale": "Recent advances in DNA sequencing reveal that identical twins actually accumulate genetic differences over time, contradicting common assumptions",
+      "misinformation_narrative": "Popular belief holds that identical twins have completely identical DNA making them genetically indistinguishable, which has implications for forensics and paternity testing",
+      "public_stakes": "Misconceptions affect legal proceedings, forensic investigations, and understanding of genetic inheritance and disease risk in twins",
+      "verification_status": "verified",
+      "verification_reason": "Crime shows, social media, and popular science content frequently perpetuate the myth that identical twins have completely identical DNA, affecting public understanding of forensics.",
+      "tags": [
+        "Genetics",
+        "Forensics",
+        "Medical Testing"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Using Population Descriptors in Genetics and Genomics Research: A New Framework for an Evolving Field (2023)",
+          "url": "https://www.nationalacademies.org/publications/26902"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Daily briefing: How DNA testing can tell identical twins apart",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00754-y",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Identical twins on trial: can DNA testing tell them apart?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00521-z",
+          "date": "2026-03-06"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "people_egg_allergies_need_avoid",
@@ -351,6 +620,52 @@
       "newest_source_year": 2008,
       "signal_count": 6,
       "readiness_summary": "2 NASEM sources, most recent 2008 — sources are old · confirmed misinformation · 6 discovery signals"
+    },
+    {
+      "id": "did_nasa_really_change_asteroid",
+      "question": "Did NASA really change an asteroid's orbit, and what does this mean for planetary defense?",
+      "priority": "low",
+      "rationale": "Major space achievement that's subject to both conspiracy theories and overoptimistic interpretations",
+      "misinformation_narrative": "Some people believe the DART mission was staged or exaggerated, while others think it proves we can easily deflect any asteroid threat",
+      "public_stakes": "Skepticism undermines support for planetary defense funding, while overconfidence could reduce urgency for developing more robust defense systems",
+      "verification_status": "needs_review",
+      "verification_reason": "While some conspiracy theorists might question NASA missions, there isn't significant public confusion specifically about the DART asteroid mission's legitimacy or implications.",
+      "tags": [
+        "Space Science",
+        "Planetary Defense",
+        "Conspiracy Theories"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26522"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: NASA changed an asteroid's orbit around the sun for the first time",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518205-nasa-changed-an-asteroids-orbit-around-the-sun-for-the-first-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: NASA DART mission reveals asteroids throw “cosmic snowballs” at each other",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260307213226.htm",
+          "date": "2026-03-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
       "id": "quantum_effects_play_meaningful_role",
@@ -642,18 +957,117 @@
       "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
-      "id": "igg_food_sensitivity_tests_reliable",
-      "question": "Are IgG food sensitivity tests reliable for diagnosing food allergies?",
+      "id": "should_parents_avoid_giving_peanuts",
+      "question": "Should parents avoid giving peanuts and other allergens to babies to prevent food allergies?",
       "priority": "high",
-      "rationale": "Direct podcast claim about IgG testing having high false positive rates - this is a widespread commercial testing scam targeting worried parents",
-      "misinformation_narrative": "Commercial IgG testing is widely marketed to consumers as a way to identify food sensitivities and allergies, despite high false positive rates",
-      "public_stakes": "People eliminate nutritious foods unnecessarily, waste money on unreliable tests, and may miss real allergic conditions requiring proper medical evaluation",
+      "rationale": "The LEAP trial and subsequent research completely reversed previous recommendations, but many parents and even some healthcare providers haven't updated their practices",
+      "misinformation_narrative": "Many parents still believe they should delay introducing allergenic foods like peanuts, eggs, and milk to prevent allergies, despite updated guidelines recommending early introduction",
+      "public_stakes": "Delayed allergen introduction actually increases allergy risk, potentially causing lifelong food allergies that could have been prevented",
       "verification_status": "verified",
-      "verification_reason": "Companies like Everlywell and naturopathic practitioners heavily market IgG food sensitivity tests direct-to-consumer online and in wellness clinics.",
+      "verification_reason": "Many parents still follow outdated advice to delay allergen introduction, commonly discussed in parenting groups on Reddit, Facebook, and mommy blogs despite updated pediatric guidelines.",
       "tags": [
-        "Health and Medicine",
-        "Consumer Health",
-        "Diagnostics"
+        "Food Safety",
+        "Pediatric Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        },
+        {
+          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+          "url": "https://www.nationalacademies.org/publications/25747"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics (AAP)",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://pediatrics.aappublications.org/content/143/4/e20190281",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Clinical Report: The Effects of Early Nutritional Interventions on the Development of Atopic Disease in Infants and Children",
+          "description": "AAP clinical report providing evidence-based recommendations on early introduction of allergenic foods including peanuts",
+          "relevance": "Directly addresses timing of allergen introduction and prevention strategies based on clinical evidence"
+        },
+        {
+          "organization": "National Institute of Allergy and Infectious Diseases (NIAID)",
+          "organization_full": "National Institute of Allergy and Infectious Diseases (NIAID)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Addendum Guidelines for the Prevention of Peanut Allergy in the United States",
+          "description": "NIAID's official guidelines on early peanut introduction based on the LEAP study results",
+          "relevance": "Provides specific, evidence-based recommendations on when and how to introduce peanuts to prevent allergies"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Food Allergies: What You Need to Know",
+          "description": "FDA comprehensive resource on food allergies including prevention guidance",
+          "relevance": "Federal guidance on food allergen management and prevention strategies"
+        },
+        {
+          "organization": "World Health Organization (WHO)",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Complementary Feeding: Family Foods for Breastfed Children",
+          "description": "WHO guidance on complementary feeding practices including allergen introduction",
+          "relevance": "International evidence-based recommendations on introducing potentially allergenic foods during complementary feeding"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Timing of allergenic food introduction to the infant diet and risk of allergic or autoimmune disease: A systematic review and meta-analysis",
+          "description": "Systematic review examining evidence on timing of allergenic food introduction",
+          "relevance": "Comprehensive systematic review and meta-analysis of studies on allergen introduction timing and allergy prevention"
+        }
+      ],
+      "discovered_at": "2026-03-08",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "igg_food_sensitivity_tests_reliable",
+      "question": "Are IgG food sensitivity tests reliable for diagnosing food allergies or intolerances?",
+      "priority": "high",
+      "rationale": "Commercial food sensitivity testing is a lucrative industry preying on people seeking answers, but IgG testing has high false positive rates and no scientific validity for food sensitivity diagnosis",
+      "misinformation_narrative": "Many people use expensive commercial IgG tests to identify food 'sensitivities' and unnecessarily eliminate foods from their diets based on unreliable results",
+      "public_stakes": "People waste money on ineffective tests, unnecessarily restrict their diets causing nutritional deficiencies, and may miss real medical conditions requiring proper diagnosis",
+      "verification_status": "verified",
+      "verification_reason": "Alternative health practitioners and wellness influencers heavily promote IgG food sensitivity tests on Instagram, TikTok, and wellness websites, leading to widespread dietary restrictions.",
+      "tags": [
+        "Food Safety",
+        "Medical Testing",
+        "Consumer Protection"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -661,20 +1075,6 @@
         {
           "type": "podcast_claim",
           "text": "IgG testing has high false positive rate for food reactions - claim made but no specific statistics provided",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "IgG antibody testing for food sensitivities (commercialized testing)",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
-        },
-        {
-          "type": "podcast_topic",
-          "text": "Celiac disease diagnosis and gluten sensitivity",
           "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
           "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
           "date": "2026-03-04T11:00:00"
@@ -725,13 +1125,70 @@
           "resource_name": "WAO White Book on Allergy: Update 2013",
           "description": "Comprehensive global report on allergy diagnosis and management including testing methodologies",
           "relevance": "International consensus document that addresses appropriate diagnostic approaches for food allergies and reliability of testing methods"
+        },
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "url": "https://www.aaaai.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Food Allergy Testing Position Statement",
+          "description": "AAAAI position statement specifically addressing IgG food testing and why it's not recommended for diagnosing food allergies",
+          "relevance": "Directly addresses the reliability and clinical utility of IgG food sensitivity tests"
+        },
+        {
+          "organization": "European Academy of Allergy and Clinical Immunology (EAACI)",
+          "organization_full": "European Academy of Allergy and Clinical Immunology",
+          "base_url": "https://www.eaaci.org",
+          "url": "https://www.eaaci.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Food Allergy and Anaphylaxis Guidelines",
+          "description": "EAACI guidelines on food allergy diagnosis that include recommendations against IgG testing",
+          "relevance": "International clinical guidelines specifically addressing appropriate food allergy testing methods"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Food Allergy Diagnosis and Testing Guidelines",
+          "description": "ACAAI clinical guidance on appropriate food allergy testing methods and criticism of unproven tests",
+          "relevance": "Professional medical organization guidance on evidence-based food allergy testing"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Diagnostic tests for food allergy with a focus on oral food challenges: a systematic review",
+          "description": "Systematic review examining the evidence for various food allergy diagnostic tests including IgG testing",
+          "relevance": "High-quality systematic review of diagnostic test accuracy for food allergies"
+        },
+        {
+          "organization": "World Allergy Organization (WAO)",
+          "organization_full": "World Allergy Organization (WAO)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "WAO White Book on Allergy: Update 2013",
+          "description": "Comprehensive global review of allergy diagnosis and management including sections on inappropriate testing methods",
+          "relevance": "International consensus document addressing evidence-based allergy testing practices"
         }
       ],
       "discovered_at": "2026-03-08",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 10 alternative sources identified"
     },
     {
       "id": "mrna_vaccines_experimental_gene_therapy",
@@ -960,6 +1417,186 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "pharmacists_qualified_provide_medical_services",
+      "question": "Are pharmacists qualified to provide medical services beyond dispensing medications?",
+      "priority": "medium",
+      "rationale": "Significant public misunderstanding of pharmacist training and capabilities affects healthcare access and utilization",
+      "misinformation_narrative": "Many people view pharmacists as simply pill counters and don't realize their extensive training and scope of practice for clinical services",
+      "public_stakes": "Underutilization of pharmacist expertise leads to missed opportunities for medication optimization, preventive care, and accessible healthcare services",
+      "verification_status": "verified",
+      "verification_reason": "Public perception of pharmacists as \"pill counters\" is widespread and discussed in healthcare forums, limiting utilization of expanded pharmacy services like vaccinations and consultations.",
+      "tags": [
+        "Healthcare Access",
+        "Pharmacy",
+        "Medical Practice"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Over 70% of all Americans receive vaccinations from pharmacies or pharmacists - verify current vaccination administration statistics",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pharmacy-Based Immunization Programs",
+          "description": "CDC guidance on pharmacist roles in vaccination services and immunization programs",
+          "relevance": "Documents expanded scope of pharmacy practice beyond dispensing to include clinical services like vaccinations"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Clinical Pharmacist Services",
+          "description": "FDA information on clinical pharmacy services and pharmacist qualifications for patient care activities",
+          "relevance": "Defines FDA perspective on pharmacist qualifications for clinical services beyond traditional dispensing"
+        },
+        {
+          "organization": "HRSA",
+          "organization_full": "HRSA",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Health Professional Shortage Areas: Pharmacists",
+          "description": "HRSA guidelines on pharmacist roles in addressing healthcare workforce shortages and providing clinical services",
+          "relevance": "Establishes pharmacists as healthcare providers capable of addressing medical service gaps"
+        },
+        {
+          "organization": "CMS",
+          "organization_full": "CMS",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Medicare Part B Coverage of Clinical Pharmacist Services",
+          "description": "CMS coverage determinations for pharmacist-provided clinical services under Medicare",
+          "relevance": "Federal recognition and reimbursement of pharmacist medical services beyond dispensing"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Pharmacist-led medication review in different healthcare settings",
+          "description": "Systematic review of evidence on pharmacist-provided clinical medication management services",
+          "relevance": "Evidence-based assessment of pharmacist effectiveness in providing clinical services beyond dispensing"
+        }
+      ],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "covid_vaccines_linked_thrombotic_events",
+      "question": "Are COVID-19 vaccines linked to thrombotic events, and how do the risks compare?",
+      "priority": "medium",
+      "rationale": "Specific adverse event that requires careful risk-benefit communication to counter both overestimation and dismissal",
+      "misinformation_narrative": "Some groups vastly overestimate COVID vaccine clotting risks while others dismiss rare but real adverse events, creating confusion about relative risks",
+      "public_stakes": "Risk misperception leads to either vaccine avoidance despite net benefits or failure to recognize legitimate rare adverse events requiring medical attention",
+      "verification_status": "verified",
+      "verification_reason": "COVID vaccine clotting risks are heavily debated across social media platforms, with anti-vaccine groups exaggerating risks while others minimize rare adverse events.",
+      "tags": [
+        "Vaccines",
+        "Blood Disorders",
+        "Risk Assessment"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Adenovirus-based vaccines (AstraZeneca, J&J) occurred at ~1 in 200,000 rate of thrombotic complications - figure cited from Science article discussed",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccine Safety Update: Primary Series and Booster Doses",
+          "description": "ACIP presentation containing comprehensive safety data on thrombotic events including rates and risk analysis",
+          "relevance": "Contains specific data on thrombosis with thrombocytopenia syndrome (TTS) rates and comparative risk assessments"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Janssen COVID-19 Vaccine EUA Fact Sheet for Healthcare Providers",
+          "description": "Official FDA fact sheet detailing thrombosis with thrombocytopenia syndrome risks for J&J vaccine",
+          "relevance": "Provides specific risk rates, clinical presentation, and management of TTS associated with adenoviral vaccines"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Statement of the WHO Global Advisory Committee on Vaccine Safety on AstraZeneca COVID-19 vaccine",
+          "description": "WHO's official assessment of thrombotic events with AstraZeneca vaccine including risk-benefit analysis",
+          "relevance": "Provides international perspective on vaccine-induced thrombotic thrombocytopenia and comparative risk assessment"
+        },
+        {
+          "organization": "EMA (European Medicines Agency)",
+          "organization_full": "EMA (European Medicines Agency)",
+          "base_url": "",
+          "url": "https://www.ema.europa.eu/en/news/astrazenecas-covid-19-vaccine-ema-finds-possible-link-very-rare-cases-unusual-blood-clots-low-blood-platelets",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "AstraZeneca's COVID-19 vaccine: EMA finds possible link to very rare cases of unusual blood clots",
+          "description": "European regulatory assessment establishing causal link between certain COVID vaccines and rare thrombotic events",
+          "relevance": "Authoritative regulatory finding on vaccine-thrombosis link with detailed risk characterization"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochrane.org/evidence/CD015477_what-are-benefits-and-risks-vaccines-preventing-covid-19",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "COVID-19 vaccines: effectiveness and adverse events",
+          "description": "Systematic review examining COVID-19 vaccine safety including thrombotic adverse events",
+          "relevance": "Evidence-based systematic review methodology analyzing thrombotic event rates across vaccine types"
+        }
+      ],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "you_boost_immune_system_supplements",
       "question": "Can you 'boost' your immune system with supplements to prevent illness?",
       "priority": "medium",
@@ -1036,6 +1673,350 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "quantum_effects_actually_play_meaningful",
+      "question": "Do quantum effects actually play a meaningful role in biological systems?",
+      "priority": "low",
+      "rationale": "Field generates both excessive hype and reflexive dismissal, requiring clear boundaries between legitimate quantum biology and quantum pseudoscience",
+      "misinformation_narrative": "Quantum biology is often overhyped in popular media as explaining consciousness, healing, or mystical properties of life, while others dismiss all quantum biology as pseudoscience",
+      "public_stakes": "Overhype leads to quantum pseudoscience in alternative medicine, while dismissal ignores legitimate research areas like photosynthesis and navigation",
+      "verification_status": "verified",
+      "verification_reason": "New Age wellness communities, alternative health websites, and quantum mysticism groups on social media heavily promote quantum consciousness and healing theories.",
+      "tags": [
+        "Quantum Science",
+        "Biology",
+        "Pseudoscience"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Why ‘quantum proteins’ could be the next big thing in biology",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00662-1",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: For the first time, light mimics a Nobel Prize quantum effect",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/02/260228093446.htm",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Material previously thought to be quantum is actually a new, non-quantum state of matter",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-material-previously-thought-quantum-state.html",
+          "date": "2026-03-06"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "was_yuri_gagarin_really_first",
+      "question": "Was Yuri Gagarin really the first human in space?",
+      "priority": "low",
+      "rationale": "Long-standing conspiracy theory about space history that can be definitively addressed with declassified documents and evidence",
+      "misinformation_narrative": "Conspiracy theories claim other cosmonauts died in secret missions before Gagarin, or that the Soviet space program covered up earlier failures with human casualties",
+      "public_stakes": "Historical misinformation undermines trust in space agencies and scientific achievements, while conspiracy thinking can extend to other areas of science",
+      "verification_status": "needs_review",
+      "verification_reason": "While some conspiracy theorists question Soviet space history, the specific \"lost cosmonaut\" theory isn't a major circulating public misconception today.",
+      "tags": [
+        "Space Science",
+        "History",
+        "Conspiracy Theories"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Why Yuri Gagarin wasn’t the first in space – and who beat him to it",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2517964-why-yuri-gagarin-wasnt-the-first-in-space-and-who-beat-him-to-it/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-06"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "mrna_flu_vaccines_better_traditional",
+      "question": "Are mRNA flu vaccines better than traditional flu vaccines?",
+      "priority": "low",
+      "rationale": "Major transition in flu vaccine technology with both overhype and unfounded fears creating public confusion",
+      "misinformation_narrative": "Both mRNA technology hype and mRNA vaccine skepticism create confusion about whether mRNA flu vaccines are revolutionary breakthroughs or dangerous experiments",
+      "public_stakes": "Misinformation could lead to either unrealistic expectations or unnecessary avoidance of potentially improved vaccines",
+      "verification_status": "needs_review",
+      "verification_reason": "There isn't significant public confusion specifically about mRNA flu vaccines versus traditional ones; most people aren't even aware mRNA flu vaccines exist yet.",
+      "tags": [
+        "Vaccines",
+        "Influenza",
+        "Biotechnology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Moderna's mRNA flu vaccine trial enrolled over 40,000 adults over age 50 and showed superiority to standard-dose flu vaccine",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Approves First Respiratory Syncytial Virus (RSV) Vaccine",
+          "description": "FDA press releases and guidance documents on mRNA vaccine approvals and clinical trial data",
+          "relevance": "Contains regulatory review data comparing efficacy and safety of mRNA vs traditional vaccine platforms"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Seasonal Influenza Vaccine Effectiveness Studies",
+          "description": "CDC's annual influenza vaccine effectiveness monitoring and studies",
+          "relevance": "Provides comparative effectiveness data for different influenza vaccine types and platforms"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WHO Technical Advisory Group on COVID-19 Vaccine Composition (TAG-CO-VAC)",
+          "description": "WHO expert group reports on mRNA vaccine platform performance and recommendations",
+          "relevance": "Contains expert analysis comparing mRNA vaccine platforms to traditional approaches for respiratory viruses"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing influenza in healthy adults",
+          "description": "Systematic review of influenza vaccine effectiveness across different vaccine types",
+          "relevance": "Provides evidence-based comparison of different influenza vaccine platforms including emerging technologies"
+        }
+      ],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "safe_children_take_adult_medications",
+      "question": "Is it safe for children to take adult medications at adjusted doses?",
+      "priority": "low",
+      "rationale": "Widespread practice of pediatric off-label prescribing based on adult data, despite known developmental differences in drug metabolism",
+      "misinformation_narrative": "Many parents and even healthcare providers assume adult medications can be safely used in children by simply adjusting doses, not realizing fundamental developmental differences",
+      "public_stakes": "Off-label prescribing without proper pediatric data can lead to ineffective treatment, unexpected side effects, or serious adverse events in children",
+      "verification_status": "needs_review",
+      "verification_reason": "This reflects a knowledge gap among some healthcare providers but isn't a widespread public misinformation narrative that circulates in identifiable communities.",
+      "tags": [
+        "Pediatric Health",
+        "Drug Safety",
+        "Medical Practice"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Approximately 40% or higher of treatments for children with complex diseases are off-label",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pediatric Drug Development and Dosing",
+          "description": "FDA guidance on pediatric drug development, dosing considerations, and safety issues when adult medications are used in children",
+          "relevance": "Directly addresses regulatory perspective on pediatric use of adult medications and safety considerations"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Policy Statement: Off-Label Use of Drugs in Children",
+          "description": "AAP policy statement on off-label drug use in pediatric patients, including risks and considerations for dose adjustments",
+          "relevance": "Provides clinical guidance on the safety and appropriateness of using adult medications in children"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WHO Model Formulary for Children",
+          "description": "WHO guidelines on appropriate medications and dosing for pediatric populations",
+          "relevance": "Addresses safety considerations and appropriate medication selection for children versus adult formulations"
+        },
+        {
+          "organization": "NIH/NICHD",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Best Pharmaceuticals for Children Act (BPCA) Reports",
+          "description": "NICHD reports on pediatric drug safety and efficacy studies required under BPCA legislation",
+          "relevance": "Contains evidence on safety differences between adult and pediatric medication use and dosing"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Pediatric drug dosing and safety systematic reviews",
+          "description": "Systematic reviews examining evidence for pediatric medication safety and dosing approaches",
+          "relevance": "Provides evidence-based analysis of safety outcomes when adult medications are used in pediatric populations"
+        }
+      ],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "actually_write_functional_genomes_create",
+      "question": "Can AI actually write functional genomes and create synthetic life?",
+      "priority": "low",
+      "rationale": "Emerging technology with significant implications that's often misrepresented in both directions",
+      "misinformation_narrative": "Sensationalized coverage suggests AI can already create synthetic life forms, while others dismiss AI's capabilities in genomics entirely",
+      "public_stakes": "Misconceptions could lead to either unfounded fears about AI-created organisms or underestimation of legitimate biosecurity concerns",
+      "verification_status": "needs_review",
+      "verification_reason": "While AI genomics capabilities are sometimes overhyped in media, there isn't a major public misinformation narrative specifically about AI creating synthetic life.",
+      "tags": [
+        "Artificial Intelligence",
+        "Synthetic Biology",
+        "Biotechnology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI can write genomes — how long until it creates synthetic life?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00681-y",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genome modelling and design across all domains of life with Evo 2",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10176-5",
+          "date": "2026-03-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Exapted CRISPR–Cas12f homologues drive RNA-guided transcription",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10166-7",
+          "date": "2026-03-06"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/National Human Genome Research Institute",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.genome.gov/about-genomics/policy-issues/Synthetic-Biology",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Synthetic Biology: What Is It and What Does It Mean for Human Health?",
+          "description": "NHGRI's overview of synthetic biology capabilities, including genome synthesis and creation of synthetic organisms",
+          "relevance": "Directly addresses current state of synthetic genome creation and artificial life forms"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Regulation of Biotechnology Products",
+          "description": "FDA's regulatory framework for biotechnology products including synthetically created organisms",
+          "relevance": "Provides regulatory perspective on what synthetic biology applications are currently feasible and being reviewed"
+        },
+        {
+          "organization": "NIH/National Institute of General Medical Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Synthetic Biology Research",
+          "description": "NIGMS fact sheet on synthetic biology research including genome engineering and synthetic organism creation",
+          "relevance": "Explains current capabilities and limitations in synthetic genome design and artificial life creation"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Regulation of Biotechnology Under TSCA",
+          "description": "EPA's approach to regulating synthetic organisms and biotechnology products under environmental law",
+          "relevance": "Addresses regulatory oversight of synthetically created organisms, indicating current technological capabilities"
+        }
+      ],
+      "discovered_at": "2026-03-09",
+      "last_seen": "2026-03-09",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "pharmacists_provide_same_healthcare_services",

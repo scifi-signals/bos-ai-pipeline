@@ -1,0 +1,39 @@
+{
+  "id": "cancer_blood_tests_actually_work",
+  "question": "Do cancer blood tests actually work for early detection and screening?",
+  "topic": "Major misconception about the current state of cancer blood test technology, with significant clinic",
+  "tags": [
+    "Cancer",
+    "Medical Testing",
+    "Screening"
+  ],
+  "sources": [
+    {
+      "name": "Refining Processes for the Co-Development of Genome-Based Therapeutics and Companion Diagnostic Tests: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/18617",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/21692",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Genome-Based Diagnostics: Demonstrating Clinical Utility in Oncology: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/18275",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Cancer blood tests are everywhere. Do they really work?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00661-2",
+      "date": "2026-03-06"
+    }
+  ]
+}

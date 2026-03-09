@@ -1,0 +1,34 @@
+{
+  "id": "did_nasa_really_change_asteroid",
+  "question": "Did NASA really change an asteroid's orbit, and what does this mean for planetary defense?",
+  "topic": "Major space achievement that's subject to both conspiracy theories and overoptimistic interpretation",
+  "tags": [
+    "Space Science",
+    "Planetary Defense",
+    "Conspiracy Theories"
+  ],
+  "sources": [
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26522",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: NASA changed an asteroid's orbit around the sun for the first time",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2518205-nasa-changed-an-asteroids-orbit-around-the-sun-for-the-first-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: NASA DART mission reveals asteroids throw “cosmic snowballs” at each other",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260307213226.htm",
+      "date": "2026-03-08"
+    }
+  ]
+}
