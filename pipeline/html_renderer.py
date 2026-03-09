@@ -144,12 +144,18 @@ function toggleEvidence(id) {
 """
 
 SOCIAL_JS = """
+function replaceArticleUrls() {
+    var articleUrl = window.location.href;
+    document.querySelectorAll('.social-card-text').forEach(function(el) {
+        el.textContent = el.textContent.replace(/\\{\\{ARTICLE_URL\\}\\}/g, articleUrl);
+    });
+}
+document.addEventListener('DOMContentLoaded', replaceArticleUrls);
+
 function copyPost(elementId, btn) {
     var el = document.getElementById(elementId);
     if (!el) return;
-    var articleLink = document.querySelector('.header-right a[href$="_evidence.html"]');
-    var articleUrl = articleLink ? articleLink.href.replace('_evidence.html', '_article.html') : window.location.href;
-    var text = el.textContent.replace(/\\{\\{ARTICLE_URL\\}\\}/g, articleUrl);
+    var text = el.textContent;
     navigator.clipboard.writeText(text).then(function() {
         btn.textContent = 'Copied!';
         btn.className = 'copy-btn copied';
@@ -536,7 +542,12 @@ def _render_verification_card(question_id, evidence=None, fact_check_result=None
             rl = fact_check_result.get("reading_level", {})
             fk = rl.get("flesch_kincaid_grade", "?")
             parts.append(f'<span style="font-weight:600;">{confirmed}/{total}</span> claims independently verified')
-            parts.append(f'Reading level: grade <span style="font-weight:600;">{fk}</span>')
+            try:
+                fk_num = float(fk)
+                if fk_num <= 10:
+                    parts.append(f'Reading level: grade <span style="font-weight:600;">{fk}</span>')
+            except (ValueError, TypeError):
+                pass
 
     if not parts:
         return ""

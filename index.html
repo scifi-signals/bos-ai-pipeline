@@ -329,7 +329,7 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             if (latest.fact_check === 'PASS') {
                 badge = ' <span class="fact-check-badge badge-pass">VERIFIED</span>';
             } else if (latest.fact_check === 'NEEDS_REVISION') {
-                badge = ' <span class="fact-check-badge badge-pass">VERIFIED</span>';
+                badge = ' <span class="fact-check-badge" style="background:#FEF3C7;color:#D97706;">REVIEWED</span>';
             }
         }
 
@@ -372,8 +372,10 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
             if (a.demo) {
                 aBadge = ' <span class="fact-check-badge" style="background:var(--amber-light);color:var(--amber);">DEMO</span>';
             } else if (a.fact_check) {
-                if (a.fact_check === 'PASS' || a.fact_check === 'NEEDS_REVISION') {
+                if (a.fact_check === 'PASS') {
                     aBadge = ' <span class="fact-check-badge badge-pass">VERIFIED</span>';
+                } else if (a.fact_check === 'NEEDS_REVISION') {
+                    aBadge = ' <span class="fact-check-badge" style="background:#FEF3C7;color:#D97706;">REVIEWED</span>';
                 }
             }
             return '<li class="archive-item">' +

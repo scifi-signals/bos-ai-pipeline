@@ -248,10 +248,18 @@ body { font-family:'DM Sans',sans-serif; background:var(--bg); color:var(--text-
         AI-generated from authoritative sources, independently fact-checked. <a href="../methodology.html" style="color:var(--accent);">How it works</a>
     </div>
     <script>
+function replaceArticleUrls() {
+    var articleUrl = window.location.href;
+    document.querySelectorAll('.social-card-text').forEach(function(el) {
+        el.textContent = el.textContent.replace(/\{\{ARTICLE_URL\}\}/g, articleUrl);
+    });
+}
+document.addEventListener('DOMContentLoaded', replaceArticleUrls);
+
 function copyPost(elementId, btn) {
     var el = document.getElementById(elementId);
     if (!el) return;
-    var text = el.textContent.replace(/\{\{ARTICLE_URL\}\}/g, window.location.href);
+    var text = el.textContent;
     navigator.clipboard.writeText(text).then(function() {
         btn.textContent = 'Copied!';
         btn.className = 'copy-btn copied';

@@ -156,12 +156,8 @@
         "Aging",
         "Consumer Health"
       ],
-      "nasem_source_count": 2,
+      "nasem_source_count": 1,
       "nasem_sources_preview": [
-        {
-          "name": "Safety of Dietary Supplements for Horses, Dogs, and Cats (2009)",
-          "url": "https://www.nationalacademies.org/publications/12461"
-        },
         {
           "name": "Global Roadmap for Healthy Longevity (2023)",
           "url": "https://www.nationalacademies.org/publications/26144"
@@ -435,81 +431,6 @@
       "newest_source_year": 2021,
       "signal_count": 5,
       "readiness_summary": "3 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 5 discovery signals"
-    },
-    {
-      "id": "climate_change_happening_faster_predicted",
-      "question": "Is climate change happening faster than predicted?",
-      "priority": "low",
-      "rationale": "Source 41 specifically mentions climate change speeding up - addresses both skeptic and complacency narratives",
-      "misinformation_narrative": "Climate skeptics claim models are unreliable and exaggerate warming rates, while others believe it's slower than reality shows",
-      "public_stakes": "Underestimating climate change pace leads to inadequate preparation and mitigation efforts",
-      "verification_status": "needs_review",
-      "verification_reason": "This conflates two different positions and doesn't represent a single coherent public misconception that circulates in identifiable communities.",
-      "tags": [
-        "Environment",
-        "Climate Change"
-      ],
-      "nasem_source_count": 2,
-      "nasem_sources_preview": [
-        {
-          "name": "Abrupt Impacts of Climate Change: Anticipating Surprises (2013)",
-          "url": "https://www.nationalacademies.org/publications/18373"
-        },
-        {
-          "name": "Attribution of Extreme Weather Events in the Context of Climate Change (2016)",
-          "url": "https://www.nationalacademies.org/publications/21852"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "trending_topic",
-          "text": "Climate Change",
-          "origin": "STM (5 sources)",
-          "url": "https://scifi-signals.github.io/Science-Trend-Monitor-Agent/",
-          "date": "2026-03-06"
-        },
-        {
-          "type": "trending_article",
-          "text": "Climate Change: Climate change is speeding up — the pace nearly doubled in ten years",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-00745-z",
-          "date": "2026-03-06"
-        },
-        {
-          "type": "trending_article",
-          "text": "Climate Change: Climate change and geopolitics threaten water supplies — but disaster is not inevitable",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-00659-w",
-          "date": "2026-03-06"
-        },
-        {
-          "type": "trending_article",
-          "text": "Climate Change: Spreading crushed rock on farms could absorb 1 billion tonnes of CO2",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2517484-spreading-crushed-rock-on-farms-could-absorb-1-billion-tonnes-of-co2/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-03-06"
-        },
-        {
-          "type": "trending_article",
-          "text": "Climate Change: Ants capture carbon dioxide from the air and turn it into armour",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2517419-ants-capture-carbon-dioxide-from-the-air-and-turn-it-into-armour/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-03-06"
-        },
-        {
-          "type": "trending_article",
-          "text": "Climate Change: Climate models may be missing massive carbon emissions from boreal wildfires",
-          "origin": "STM — ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260303201755.htm",
-          "date": "2026-03-06"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-03-08",
-      "status": "pending",
-      "newest_source_year": 2016,
-      "signal_count": 4,
-      "readiness_summary": "2 NASEM sources, most recent 2016 — moderately dated · misinformation narrative not yet confirmed · 4 discovery signals"
     },
     {
       "id": "identical_twins_distinguished_through_dna",
