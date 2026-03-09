@@ -1,6 +1,7 @@
 {
-  "_note": "Known NASEM 'Based on Science' articles. Used to prevent duplicating topics NASEM has already covered. Update periodically by checking https://www.nationalacademies.org/based-on-science (97 items, ~60 English, across 6 pages of JS-paginated content). Keywords field enables fuzzy matching even when we don't have the exact title.",
-  "_last_updated": "2026-03-07",
+  "_note": "Known NASEM 'Based on Science' articles (English only). Used to prevent duplicating topics NASEM has already covered. The site reports 97 total items including ~35 Spanish translations across 6 pages of JS-paginated content. Keywords field enables fuzzy matching. Most articles have both /based-on-science/ and /news/ URL variants.",
+  "_last_updated": "2026-03-08",
+  "_stats": "76 unique English articles cataloged (was 31). The site reports 97 total items including ~21 Spanish translations.",
   "articles": [
     {
       "title": "Does global warming cause breathing problems?",
@@ -20,7 +21,7 @@
     {
       "title": "Can vitamin A help prevent measles?",
       "url": "https://www.nationalacademies.org/news/can-vitamin-a-help-prevent-measles",
-      "keywords": ["vitamin A", "measles", "prevention"]
+      "keywords": ["vitamin A", "measles", "prevention", "vaccine"]
     },
     {
       "title": "Why are native seeds important?",
@@ -40,7 +41,7 @@
     {
       "title": "Does sunscreen cause skin cancer?",
       "url": "https://www.nationalacademies.org/news/sunscreen-does-not-cause-skin-cancer",
-      "keywords": ["sunscreen", "skin cancer", "UV"]
+      "keywords": ["sunscreen", "skin cancer", "UV", "melanoma"]
     },
     {
       "title": "Would solar geoengineering help slow global warming?",
@@ -59,7 +60,7 @@
     },
     {
       "title": "Are all microbes dangerous?",
-      "url": "https://www.nationalacademies.org/news/are-all-microbes-dangerous",
+      "url": "https://www.nationalacademies.org/based-on-science/are-all-microbes-dangerous",
       "keywords": ["microbes", "bacteria", "microbiome", "germs"]
     },
     {
@@ -69,32 +70,32 @@
     },
     {
       "title": "Human-driven climate change is causing sea levels to rise",
-      "url": "https://www.nationalacademies.org/news/human-driven-climate-change-is-causing-sea-levels-to-rise",
-      "keywords": ["sea level rise", "climate change", "flooding"]
+      "url": "https://www.nationalacademies.org/based-on-science/human-driven-climate-change-is-causing-sea-levels-to-rise",
+      "keywords": ["sea level rise", "climate change", "flooding", "global warming"]
     },
     {
-      "title": "In an increasingly warming world, is it still cold?",
-      "url": "https://www.nationalacademies.org/based-on-science",
+      "title": "Will the earth still have cold weather in a warming world?",
+      "url": "https://www.nationalacademies.org/based-on-science/climate-change-cold-weather-still-happens-in-a-warming-world",
       "keywords": ["cold weather", "global warming", "winter", "climate change"]
     },
     {
       "title": "Is it possible to achieve net-zero emissions?",
-      "url": "https://www.nationalacademies.org/based-on-science",
+      "url": "https://www.nationalacademies.org/based-on-science/is-it-possible-to-achieve-net-zero-emissions",
       "keywords": ["net-zero", "emissions", "carbon neutral", "decarbonization"]
     },
     {
       "title": "Can copper supplements fight COVID-19?",
-      "url": "https://www.nationalacademies.org/based-on-science",
+      "url": "https://www.nationalacademies.org/news/covid-19-copper",
       "keywords": ["copper", "supplement", "COVID-19"]
     },
     {
       "title": "Does climate change increase the spread of infectious diseases?",
-      "url": "https://www.nationalacademies.org/based-on-science",
+      "url": "https://www.nationalacademies.org/based-on-science/does-climate-change-increase-the-spread-of-infectious-diseases",
       "keywords": ["climate change", "infectious disease", "spread", "vector-borne"]
     },
     {
       "title": "Does witch hazel kill the coronavirus?",
-      "url": "https://www.nationalacademies.org/based-on-science",
+      "url": "https://www.nationalacademies.org/news/covid-witch-hazel",
       "keywords": ["witch hazel", "coronavirus", "natural remedy"]
     },
     {
@@ -156,6 +157,231 @@
       "title": "Fluoride exposure and neurodevelopmental effects",
       "url": "https://www.nationalacademies.org/news/national-academies-complete-review-of-national-toxicology-programs-second-draft-monograph-on-fluoride-exposure-and-neurodevelopmental-and-cognitive-effects",
       "keywords": ["fluoride", "neurodevelopment", "IQ", "brain"]
+    },
+    {
+      "title": "Do vaccines cause autism?",
+      "url": "https://www.nationalacademies.org/based-on-science/vaccines-do-not-cause-autism",
+      "keywords": ["vaccines", "autism", "MMR", "vaccine safety"]
+    },
+    {
+      "title": "Can science help people make decisions?",
+      "url": "https://www.nationalacademies.org/based-on-science/can-science-help-people-make-decisions",
+      "keywords": ["science", "decision making", "evidence", "informed decisions"]
+    },
+    {
+      "title": "What if scientific studies disagree?",
+      "url": "https://www.nationalacademies.org/based-on-science/what-if-scientific-studies-disagree",
+      "keywords": ["scientific studies", "disagreement", "methodology", "research"]
+    },
+    {
+      "title": "Does ultraviolet (UV) light kill the coronavirus?",
+      "url": "https://www.nationalacademies.org/news/covid-19-does-ultraviolet-light-kill-the-coronavirus",
+      "keywords": ["UV light", "ultraviolet", "coronavirus", "disinfection"]
+    },
+    {
+      "title": "How long does coronavirus live on surfaces?",
+      "url": "https://www.nationalacademies.org/based-on-science/covid-19-how-long-does-coronavirus-live-on-surfaces",
+      "keywords": ["coronavirus", "surfaces", "transmission", "survival"]
+    },
+    {
+      "title": "Are there foods and supplements that can prevent you from getting COVID-19?",
+      "url": "https://www.nationalacademies.org/news/foods-and-supplements-cannot-prevent-you-from-getting-covid-19",
+      "keywords": ["foods", "supplements", "COVID-19", "prevention", "immunity"]
+    },
+    {
+      "title": "COVID-19 is different from the flu",
+      "url": "https://www.nationalacademies.org/based-on-science/covid-19-is-different-from-the-flu",
+      "keywords": ["COVID-19", "flu", "influenza", "differences"]
+    },
+    {
+      "title": "Does drinking lemon juice mixed with baking soda or aspirin kill COVID-19?",
+      "url": "https://www.nationalacademies.org/news/lemon-juice-does-not-cure-covid-19",
+      "keywords": ["lemon juice", "baking soda", "aspirin", "COVID-19", "cure"]
+    },
+    {
+      "title": "Can getting a flu shot cause false positive results for COVID-19?",
+      "url": "https://www.nationalacademies.org/news/covid-flu-vaccine",
+      "keywords": ["flu shot", "false positive", "COVID-19", "testing"]
+    },
+    {
+      "title": "Can probiotics help fight COVID-19?",
+      "url": "https://www.nationalacademies.org/news/covid-probiotics",
+      "keywords": ["probiotics", "COVID-19", "gut health", "immune system"]
+    },
+    {
+      "title": "Are vaccines safe?",
+      "url": "https://www.nationalacademies.org/based-on-science/vaccines-are-safe",
+      "keywords": ["vaccines", "safety", "testing", "side effects"]
+    },
+    {
+      "title": "Do most people in the world believe that vaccines are safe?",
+      "url": "https://www.nationalacademies.org/news/vaccine-hesitancy",
+      "keywords": ["vaccine hesitancy", "public opinion", "vaccine confidence"]
+    },
+    {
+      "title": "Does sunlight kill the coronavirus?",
+      "url": "https://www.nationalacademies.org/news/covid-sunscreen",
+      "keywords": ["sunlight", "coronavirus", "UV", "outdoor", "COVID-19"]
+    },
+    {
+      "title": "Are all crops that we eat genetically improved?",
+      "url": "https://www.nationalacademies.org/based-on-science/are-all-crops-that-we-eat-genetically-improved",
+      "keywords": ["crops", "genetic improvement", "agriculture", "breeding", "GMO"]
+    },
+    {
+      "title": "Do foods made with GMOs pose special health risks?",
+      "url": "https://www.nationalacademies.org/news/foods-made-with-gmos-do-not-pose-special-health-risks",
+      "keywords": ["GMO", "health risks", "genetically modified", "food safety"]
+    },
+    {
+      "title": "Do bleach and other disinfectants kill the coronavirus?",
+      "url": "https://www.nationalacademies.org/news/do-bleach-and-other-disinfectants-kill-the-coronavirus",
+      "keywords": ["bleach", "disinfectants", "coronavirus", "cleaning"]
+    },
+    {
+      "title": "Does hand sanitizer destroy the novel coronavirus that causes COVID-19?",
+      "url": "https://www.nationalacademies.org/news/does-hand-sanitizer-kill-the-coronavirus",
+      "keywords": ["hand sanitizer", "coronavirus", "COVID-19", "alcohol", "hygiene"]
+    },
+    {
+      "title": "Can you catch COVID-19 from food?",
+      "url": "https://www.nationalacademies.org/based-on-science/can-you-catch-covid-19-from-food",
+      "keywords": ["food", "COVID-19", "transmission", "food safety"]
+    },
+    {
+      "title": "Is there a link between extreme weather and global warming?",
+      "url": "https://www.nationalacademies.org/news/climate-change-global-warming-is-contributing-to-extreme-weather-events",
+      "keywords": ["extreme weather", "global warming", "heat waves", "storms"]
+    },
+    {
+      "title": "Is monkeypox related to chickenpox?",
+      "url": "https://www.nationalacademies.org/news/is-monkeypox-related-to-chickenpox",
+      "keywords": ["monkeypox", "mpox", "chickenpox", "virus"]
+    },
+    {
+      "title": "Is monkeypox spreading through the air like COVID-19?",
+      "url": "https://www.nationalacademies.org/news/is-monkeypox-spreading-through-the-air-like-covid-19",
+      "keywords": ["monkeypox", "mpox", "airborne", "transmission", "COVID-19"]
+    },
+    {
+      "title": "Is there a link between infections and cancer?",
+      "url": "https://www.nationalacademies.org/news/is-there-a-link-between-infections-and-cancer",
+      "keywords": ["infection", "cancer", "virus", "HPV", "oncology"]
+    },
+    {
+      "title": "Are all infectious diseases caused by viruses and bacteria?",
+      "url": "https://www.nationalacademies.org/news/are-all-infectious-diseases-caused-by-viruses-and-bacteria",
+      "keywords": ["infectious disease", "viruses", "bacteria", "parasites", "fungi"]
+    },
+    {
+      "title": "What is the difference between seasonal flu and pandemic flu?",
+      "url": "https://www.nationalacademies.org/news/what-is-the-difference-between-seasonal-flu-and-pandemic-flu",
+      "keywords": ["seasonal flu", "pandemic flu", "influenza", "epidemic"]
+    },
+    {
+      "title": "What is the connection between COVID-19 and sepsis?",
+      "url": "https://www.nationalacademies.org/news/what-is-the-connection-between-covid-19-and-sepsis",
+      "keywords": ["COVID-19", "sepsis", "infection", "organ failure"]
+    },
+    {
+      "title": "Does the spread of COVID-19 slow down when the weather is warmer?",
+      "url": "https://www.nationalacademies.org/news/change-in-seasons-may-or-may-not-affect-the-spread-of-covid-19",
+      "keywords": ["COVID-19", "weather", "warm", "seasonal", "spread"]
+    },
+    {
+      "title": "Will applying heat to your skin or throat kill the virus that causes COVID-19?",
+      "url": "https://www.nationalacademies.org/news/heating-your-skin-will-not-kill-the-coronavirus",
+      "keywords": ["heat", "skin", "throat", "COVID-19", "cure", "hot"]
+    },
+    {
+      "title": "Is it true that cannabis can treat diverse diseases ranging from Alzheimer's to cancer to PTSD?",
+      "url": "https://www.nationalacademies.org/news/cannabis-the-medicinal-benefits-of-cannabis-are-mostly-unknown",
+      "keywords": ["cannabis", "medicinal", "Alzheimer's", "cancer", "PTSD", "treatment"]
+    },
+    {
+      "title": "Can cannabis use cause schizophrenia?",
+      "url": "https://www.nationalacademies.org/news/cannabis-the-relationship-between-cannabis-use-and-schizophrenia-is-complex",
+      "keywords": ["cannabis", "schizophrenia", "mental health", "psychosis"]
+    },
+    {
+      "title": "Is it true that everyone who should get a vaccine can get one?",
+      "url": "https://www.nationalacademies.org/news/vaccine-access",
+      "keywords": ["vaccine access", "immunization", "equity", "availability"]
+    },
+    {
+      "title": "Does sunscreen cause vitamin D deficiency?",
+      "url": "https://www.nationalacademies.org/news/sunscreen-does-not-cause-vitamin-d-deficiency",
+      "keywords": ["sunscreen", "vitamin D", "deficiency", "UV"]
+    },
+    {
+      "title": "Can cancer be successfully treated by alternative therapies alone?",
+      "url": "https://www.nationalacademies.org/news/alternative-therapies-cannot-cure-cancer",
+      "keywords": ["cancer", "alternative therapy", "treatment", "cure"]
+    },
+    {
+      "title": "Can lemons cure cancer?",
+      "url": "https://www.nationalacademies.org/news/lemons-cannot-cure-cancer",
+      "keywords": ["lemons", "cancer", "cure", "natural remedy"]
+    },
+    {
+      "title": "Can cancer be cured by eating a healthy diet?",
+      "url": "https://www.nationalacademies.org/news/a-healthy-diet-alone-will-not-cure-cancer",
+      "keywords": ["cancer", "diet", "nutrition", "cure"]
+    },
+    {
+      "title": "Will dietary supplements cure cancer?",
+      "url": "https://www.nationalacademies.org/news/will-dietary-supplements-cure-cancer",
+      "keywords": ["dietary supplements", "cancer", "cure", "vitamins"]
+    },
+    {
+      "title": "Should all newborns get a vitamin K shot?",
+      "url": "https://www.nationalacademies.org/news/all-babies-should-get-a-vitamin-k-shot",
+      "keywords": ["vitamin K", "newborn", "infant", "bleeding"]
+    },
+    {
+      "title": "Can certain vitamins or supplements help with weight loss?",
+      "url": "https://www.nationalacademies.org/news/most-vitamins-and-supplements-do-not-help-with-weight-loss",
+      "keywords": ["vitamins", "supplements", "weight loss", "diet"]
+    },
+    {
+      "title": "Should everyone get a flu vaccine each year?",
+      "url": "https://www.nationalacademies.org/news/vaccines-everyone-should-get-a-flu-vaccine-each-year",
+      "keywords": ["flu vaccine", "influenza", "annual", "immunization"]
+    },
+    {
+      "title": "Does the HPV vaccine protect against cancer?",
+      "url": "https://www.nationalacademies.org/news/vaccines-the-hpv-vaccine-prevents-cancer",
+      "keywords": ["HPV", "vaccine", "cancer", "cervical cancer"]
+    },
+    {
+      "title": "What's the difference between type 1 diabetes and type 2 diabetes?",
+      "url": "https://www.nationalacademies.org/news/whats-the-difference-between-type-1-diabetes-and-type-2-diabetes",
+      "keywords": ["type 1 diabetes", "type 2 diabetes", "insulin", "blood sugar"]
+    },
+    {
+      "title": "What is the purpose of a tetanus shot?",
+      "url": "https://www.nationalacademies.org/news/what-is-the-purpose-of-a-tetanus-shot",
+      "keywords": ["tetanus", "vaccine", "shot", "wound"]
+    },
+    {
+      "title": "Does insulin resistance cause diabetes?",
+      "url": "https://www.nationalacademies.org/news/does-insulin-resistance-cause-diabetes",
+      "keywords": ["insulin resistance", "diabetes", "blood sugar", "metabolism"]
+    },
+    {
+      "title": "Can a COVID-19 test tell me if I'm contagious?",
+      "url": "https://www.nationalacademies.org/news/can-a-covid-19-test-tell-me-if-im-contagious",
+      "keywords": ["COVID-19", "test", "contagious", "infectious"]
+    },
+    {
+      "title": "What is the best type of COVID-19 test to get?",
+      "url": "https://www.nationalacademies.org/news/what-is-the-best-type-of-covid-19-test-to-get",
+      "keywords": ["COVID-19", "test", "PCR", "rapid", "antigen"]
+    },
+    {
+      "title": "Can a COVID-19 test tell me how sick I will get?",
+      "url": "https://www.nationalacademies.org/news/can-a-covid-19-test-tell-me-how-sick-i-will-get",
+      "keywords": ["COVID-19", "test", "severity", "prognosis"]
     }
   ]
 }
