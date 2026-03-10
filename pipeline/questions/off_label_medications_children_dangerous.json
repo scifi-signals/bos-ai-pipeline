@@ -1,0 +1,41 @@
+{
+  "id": "off_label_medications_children_dangerous",
+  "question": "Are off-label medications for children dangerous because they lack FDA approval?",
+  "topic": "Corrects misconception about off-label prescribing that affects pediatric treatment acceptance",
+  "tags": [
+    "Health and Medicine",
+    "Pediatrics",
+    "FDA Regulation"
+  ],
+  "sources": [
+    {
+      "name": "Challenges for the FDA: The Future of Drug Safety: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/11969",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Approximately 40% or higher of treatments for children with complex diseases are off-label",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Kids.Dot trial took 20 years from conception to publication and guideline change",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Pharmaceutical anticoagulant trials in children typically take close to a decade to complete, versus more rapid completion in adults",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    }
+  ]
+}

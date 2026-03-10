@@ -1,0 +1,65 @@
+{
+  "id": "popular_anti_aging_supplements_safe",
+  "question": "Are popular anti-aging supplements safe, or can they increase cancer risk?",
+  "topic": "Corrects dangerous misconception about supplement safety in the booming anti-aging market",
+  "tags": [
+    "Health and Medicine",
+    "Cancer Research",
+    "Supplements"
+  ],
+  "sources": [
+    {
+      "name": "Dietary Supplements: What You Need to Know — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Dietary Supplements for Older Adults — NIH Office of Dietary Supplements",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antioxidants and Cancer Prevention — National Cancer Institute (NCI)",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/antioxidants-fact-sheet",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "WHO Technical Report Series on Vitamin and Mineral Requirements — World Health Organization (WHO)",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists reveal why a popular anti-aging compound may also fuel cancer",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "date": "2026-03-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Young cancer survivors face faster aging and possible early dementia",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260302030652.htm",
+      "date": "2026-03-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Popular Anti-Aging Supplement May Fuel Cancer Growth",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/09/popular_anti-aging_supplement_may_fuel_cancer_growth_1169235.html",
+      "date": "2026-03-09"
+    }
+  ]
+}

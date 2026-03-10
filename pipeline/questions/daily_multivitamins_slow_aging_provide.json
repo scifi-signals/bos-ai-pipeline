@@ -1,0 +1,55 @@
+{
+  "id": "daily_multivitamins_slow_aging_provide",
+  "question": "Do daily multivitamins slow aging or provide anti-aging benefits?",
+  "topic": "Corrects exaggerated claims about multivitamin anti-aging effects while providing evidence-based con",
+  "tags": [
+    "Health and Medicine",
+    "Aging & Longevity",
+    "Supplements"
+  ],
+  "sources": [
+    {
+      "name": "Global Roadmap for Healthy Longevity",
+      "url": "https://www.nationalacademies.org/publications/26144",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists reveal why a popular anti-aging compound may also fuel cancer",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260302030657.htm",
+      "date": "2026-03-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: The Longevity Regimen That Stands Above the Rest",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/07/the_longevity_regiment_that_stands_above_the_rest_1169104.html",
+      "date": "2026-03-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Daily multivitamin slows signs of biological ageing",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00741-3",
+      "date": "2026-03-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Taking multivitamin daily could help to slow biological ageing, study suggests",
+      "origin": "STM — The Guardian Science",
+      "url": "https://www.theguardian.com/science/2026/mar/09/taking-multivitamin-daily-could-help-to-slow-biological-ageing-study-suggests",
+      "date": "2026-03-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Popular Anti-Aging Supplement May Fuel Cancer Growth",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/09/popular_anti-aging_supplement_may_fuel_cancer_growth_1169235.html",
+      "date": "2026-03-09"
+    }
+  ]
+}

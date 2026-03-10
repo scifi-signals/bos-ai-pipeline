@@ -1,0 +1,39 @@
+{
+  "id": "space_launches_actually_change_earth",
+  "question": "Do space launches actually change Earth's atmospheric chemistry in harmful ways?",
+  "topic": "Addresses emerging environmental concerns about space industry growth with scientific evidence",
+  "tags": [
+    "Environment",
+    "Space & Astronomy",
+    "Climate Change"
+  ],
+  "sources": [
+    {
+      "name": "Stratospheric Ozone Depletion and Climate Change — EPA",
+      "url": "https://www.epa.gov/ozone-layer-protection/basic-ozone-layer-science",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "State of the Climate Reports - Atmospheric Composition — NOAA",
+      "url": "https://www.noaa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Scientific Assessment of Ozone Depletion — WMO",
+      "url": "https://ozone.unep.org/science/assessment/sap",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Space launches are changing the chemistry of Earth's atmosphere, studies warn. Here's what can be done",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-space-chemistry-earth-atmosphere.html",
+      "date": "2026-03-09"
+    }
+  ]
+}

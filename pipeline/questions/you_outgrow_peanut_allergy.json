@@ -1,0 +1,53 @@
+{
+  "id": "you_outgrow_peanut_allergy",
+  "question": "Can you outgrow a peanut allergy?",
+  "topic": "Corrects misconception about permanence of peanut allergies that affects quality of life decisions",
+  "tags": [
+    "Health and Medicine",
+    "Pediatrics",
+    "Food Allergies"
+  ],
+  "sources": [
+    {
+      "name": "Peanut Allergy - Natural History and Prognosis — American Academy of Allergy, Asthma & Immunology (AAAAI)",
+      "url": "https://www.aaaai.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Peanut Allergy Facts and Statistics — Food Allergy Research & Education (FARE)",
+      "url": "https://www.foodallergy.org/living-food-allergy/food-allergy-essentials/common-allergens/peanut",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Systematic Reviews on Food Allergy Natural History — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Only 20% of children outgrow peanut allergies, barely 10% outgrow tree nut allergies - specific percentages should be verified against current literature",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "IgE-mediated food allergies (immune mechanisms)",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Oral and sublingual immunotherapy for food allergy treatment",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    }
+  ]
+}
