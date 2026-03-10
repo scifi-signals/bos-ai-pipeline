@@ -1,17 +1,23 @@
 """Mine Google Trends for trending science/health topics.
 
-Uses pytrends (unofficial) to detect search interest spikes in science
-and health categories. Every signal has a shareable Google Trends URL.
+Two strategies:
+1. Google Trends RSS feed (public, reliable, never blocked) — daily trending searches
+2. pytrends related queries (unofficial, often rate-limited) — rising queries for
+   science/health seed terms. Best-effort; returns 0 if Google blocks.
 
+Every signal has a shareable Google Trends URL.
 No API key required. Runs once daily with aggressive caching.
-Graceful fallback if Google blocks requests.
 """
 
 import json
 import re
 import time
+import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta
 from pathlib import Path
+from urllib.request import urlopen, Request
+from urllib.error import URLError
+from html import unescape
 
 # Cache file to avoid redundant API calls
 CACHE_DIR = Path(__file__).parent / "cache"
@@ -32,21 +38,11 @@ SEED_QUERIES = [
     "mental health",
 ]
 
-# Google Trends category IDs
-# 45 = Health, 174 = Science, 71 = Food & Drink
-CATEGORY_IDS = [45, 174]
-
 
 def mine_trending_searches():
     """Extract trending science/health topics from Google Trends.
 
-    Returns list of candidate dicts matching the discovery pipeline format:
-    - raw_text: the trending topic/query
-    - source_type: "trends"
-    - source: "Google Trends"
-    - source_url: shareable Google Trends URL
-    - date: today's date
-    - signal_strength: relative interest score
+    Returns list of candidate dicts matching the discovery pipeline format.
     """
     # Check cache
     cached = _load_cache()
@@ -54,37 +50,138 @@ def mine_trending_searches():
         print(f"    Using cached Trends data ({len(cached)} topics)")
         return cached
 
-    try:
-        from pytrends.request import TrendReq
-    except ImportError:
-        print("    pytrends not installed — skipping Google Trends (pip install pytrends)")
-        return []
-
     candidates = []
     seen_queries = set()
     today = datetime.utcnow().strftime("%Y-%m-%d")
 
+    # Strategy 1: RSS feed (reliable — never blocked by Google)
+    rss_candidates = _fetch_rss_trends(today, seen_queries)
+    candidates.extend(rss_candidates)
+    print(f"    Google Trends RSS: {len(rss_candidates)} science/health topics from daily trending")
+
+    # Strategy 2: pytrends related queries (best-effort — often rate-limited)
+    pytrends_candidates = _fetch_pytrends_related(today, seen_queries)
+    candidates.extend(pytrends_candidates)
+    print(f"    Google Trends pytrends: {len(pytrends_candidates)} related queries (best-effort)")
+
+    # Sort by signal strength
+    candidates.sort(key=lambda c: c.get("signal_strength", 0), reverse=True)
+
+    # Cap at top 30 to avoid noise
+    candidates = candidates[:30]
+
+    # Cache results (even if 0 — prevents re-hitting Google every run)
+    _save_cache(candidates)
+
+    return candidates
+
+
+def _fetch_rss_trends(today, seen_queries):
+    """Fetch daily trending searches from Google Trends RSS feed.
+
+    This is a public XML feed that never gets rate-limited.
+    Returns only items that pass the science/health filter.
+    """
+    candidates = []
+    url = "https://trends.google.com/trending/rss?geo=US"
+
     try:
-        pytrends = TrendReq(hl="en-US", tz=300, retries=3, backoff_factor=2.0)
+        req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
+        with urlopen(req, timeout=15) as resp:
+            xml_data = resp.read()
+
+        root = ET.fromstring(xml_data)
+
+        # RSS items are in channel/item
+        ns = {"ht": "https://trends.google.com/trending/rss"}
+        for item in root.findall(".//item"):
+            title_el = item.find("title")
+            if title_el is None or not title_el.text:
+                continue
+            title = unescape(title_el.text.strip())
+
+            # Get approximate traffic
+            traffic_el = item.find("ht:approx_traffic", ns)
+            traffic = 0
+            if traffic_el is not None and traffic_el.text:
+                traffic = int(re.sub(r"[^\d]", "", traffic_el.text) or "0")
+
+            # Get related news titles for better keyword matching
+            news_titles = []
+            for news_item in item.findall("ht:news_item", ns):
+                news_title_el = news_item.find("ht:news_item_title", ns)
+                if news_title_el is not None and news_title_el.text:
+                    news_titles.append(unescape(news_title_el.text.strip()))
+
+            # Check if the trend OR its related news are science/health
+            all_text = title + " " + " ".join(news_titles)
+            if title.lower() not in seen_queries and _is_science_health(all_text):
+                seen_queries.add(title.lower())
+                candidates.append({
+                    "raw_text": title,
+                    "source_type": "trends",
+                    "source": "Google Trends (daily trending)",
+                    "source_url": _build_trends_url(title),
+                    "date": today,
+                    "signal_strength": max(traffic // 100, 50),
+                    "trend_type": "daily",
+                })
+
+    except (URLError, ET.ParseError) as e:
+        print(f"    Google Trends RSS failed: {e}")
     except Exception as e:
-        print(f"    Google Trends init failed: {e}")
+        print(f"    Google Trends RSS unexpected error: {e}")
+
+    return candidates
+
+
+def _fetch_pytrends_related(today, seen_queries):
+    """Best-effort: use pytrends to get related queries for science seed terms.
+
+    Often rate-limited by Google (429). Returns empty list on failure.
+    Uses longer delays between queries to reduce blocking.
+    """
+    try:
+        from pytrends.request import TrendReq
+    except ImportError:
+        return []
+
+    # Patch urllib3 compatibility: pytrends uses deprecated 'method_whitelist'
+    # which was removed in urllib3 2.x (renamed to 'allowed_methods')
+    try:
+        import urllib3
+        _orig_retry_init = urllib3.Retry.__init__
+
+        def _patched_retry_init(self, *args, **kwargs):
+            if "method_whitelist" in kwargs:
+                kwargs["allowed_methods"] = kwargs.pop("method_whitelist")
+            return _orig_retry_init(self, *args, **kwargs)
+
+        urllib3.Retry.__init__ = _patched_retry_init
+    except Exception:
+        pass
+
+    candidates = []
+
+    try:
+        pytrends = TrendReq(hl="en-US", tz=300, retries=2, backoff_factor=1.0)
+    except Exception as e:
+        print(f"    pytrends init failed: {e}")
         return []
 
     consecutive_failures = 0
 
-    # Strategy 1: Related queries for seed terms (finds what people are ACTUALLY searching)
     for seed in SEED_QUERIES:
-        if consecutive_failures >= 3:
-            print(f"    3 consecutive failures — Google likely blocking this IP. Stopping.")
+        if consecutive_failures >= 2:
+            print(f"    pytrends: 2 consecutive failures, stopping (likely rate-limited)")
             break
         try:
-            time.sleep(2)  # Rate limit between queries
+            time.sleep(5)  # Longer delay to reduce rate limiting
             pytrends.build_payload([seed], timeframe="now 7-d", geo="US")
             related = pytrends.related_queries()
-            consecutive_failures = 0  # Reset on success
+            consecutive_failures = 0
 
             for term_data in related.values():
-                # "rising" queries show what's spiking — most valuable
                 rising = term_data.get("rising")
                 if rising is not None and not rising.empty:
                     for _, row in rising.head(5).iterrows():
@@ -102,7 +199,6 @@ def mine_trending_searches():
                                 "trend_type": "rising",
                             })
 
-                # "top" queries show sustained interest
                 top = term_data.get("top")
                 if top is not None and not top.empty:
                     for _, row in top.head(3).iterrows():
@@ -122,39 +218,9 @@ def mine_trending_searches():
 
         except Exception as e:
             consecutive_failures += 1
-            print(f"    Trends query '{seed}' failed ({consecutive_failures}/3): {e}")
+            err_short = str(e).split("(Caused by")[0].strip() if "(Caused by" in str(e) else str(e)[:80]
+            print(f"    pytrends '{seed}' failed ({consecutive_failures}/2): {err_short}")
             continue
-
-    # Strategy 2: Trending searches (daily trending topics)
-    if consecutive_failures < 3:
-        try:
-            time.sleep(2)
-            trending = pytrends.trending_searches(pn="united_states")
-            if trending is not None and not trending.empty:
-                for _, row in trending.head(20).iterrows():
-                    query = str(row.iloc[0]).strip() if len(row) > 0 else ""
-                    if query and query.lower() not in seen_queries and _is_science_health(query):
-                        seen_queries.add(query.lower())
-                        candidates.append({
-                            "raw_text": query,
-                            "source_type": "trends",
-                            "source": "Google Trends (daily trending)",
-                            "source_url": _build_trends_url(query),
-                            "date": today,
-                            "signal_strength": 50,  # Trending but no specific score
-                            "trend_type": "daily",
-                        })
-        except Exception as e:
-            print(f"    Daily trending failed: {e}")
-
-    # Sort by signal strength
-    candidates.sort(key=lambda c: c.get("signal_strength", 0), reverse=True)
-
-    # Cap at top 30 to avoid noise
-    candidates = candidates[:30]
-
-    # Cache results
-    _save_cache(candidates)
 
     return candidates
 
@@ -197,7 +263,6 @@ def _is_science_health(query):
         if re.search(pattern, query_lower):
             return True
 
-    # If no strong signal either way, reject (reduces noise)
     return False
 
 
