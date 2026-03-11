@@ -1,0 +1,50 @@
+{
+  "id": "anti_aging_supplements_safe_some",
+  "question": "Are anti-aging supplements safe, or can some actually fuel cancer growth?",
+  "topic": "Addresses dangerous misconceptions about supplement safety in the context of cancer risk",
+  "tags": [
+    "Health and Medicine",
+    "Cancer Research"
+  ],
+  "sources": [
+    {
+      "name": "Antioxidants and Cancer Prevention — National Cancer Institute (NIH)",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/antioxidants-fact-sheet",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Dietary Supplements: What You Need to Know — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Supplements: What You Need to Know — NIH Office of Dietary Supplements",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Diet, nutrition and the prevention of chronic diseases (WHO Technical Report Series 916) — World Health Organization",
+      "url": "https://www.who.int/publications/i/item/924120916X",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Popular Anti-Aging Supplement May Fuel Cancer Growth",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/09/popular_anti-aging_supplement_may_fuel_cancer_growth_1169235.html",
+      "date": "2026-03-09"
+    }
+  ]
+}

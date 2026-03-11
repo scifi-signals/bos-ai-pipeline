@@ -1,0 +1,50 @@
+{
+  "id": "recent_pandemic_viruses_require_extensive",
+  "question": "Do recent pandemic viruses require extensive adaptation to jump from animals to humans?",
+  "topic": "Provides evidence-based explanation of natural virus adaptation that counters both conspiracy theori",
+  "tags": [
+    "Infectious Disease",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Disease Outbreak News and Technical Reports on Zoonotic Influenza — WHO",
+      "url": "https://www.who.int/emergencies/disease-outbreak-news/item/2023-DON498",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Influenza Risk Assessment Tool (IRAT) Technical Reports — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Strategic Plan for COVID-19 Research - Origins and Viral Evolution — NIH/NIAID",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "WHO Technical Brief: SARS-CoV-2 Evolution and Adaptation — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "One Health Zoonotic Disease Prioritization Workshops Report — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Recent pandemic viruses jumped to humans without prior adaptation, study finds",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-pandemic-viruses-humans-prior.html",
+      "date": "2026-03-09"
+    }
+  ]
+}

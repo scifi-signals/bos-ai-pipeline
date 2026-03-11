@@ -1,0 +1,40 @@
+{
+  "id": "should_parents_introduce_allergenic_foods",
+  "question": "Should parents introduce allergenic foods early to prevent food allergies in infants?",
+  "topic": "The LEAP trial revolutionized allergy prevention guidance, but old beliefs persist among parents and",
+  "tags": [
+    "Pediatric Health",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+      "url": "https://www.nationalacademies.org/publications/27239",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Early allergen introduction reduces allergy development risk - consistent with LEAP trial and subsequent research",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "LEAP trial findings on early allergen introduction in infants",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "daily_multivitamins_actually_slow_aging",
+  "question": "Do daily multivitamins actually slow aging or extend lifespan?",
+  "topic": "Recent studies showing modest biological aging effects need to be contextualized against widespread ",
+  "tags": [
+    "Health and Medicine",
+    "Consumer Health"
+  ],
+  "sources": [
+    {
+      "name": "Global Roadmap for Healthy Longevity",
+      "url": "https://www.nationalacademies.org/publications/26144",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Daily multivitamin slows signs of biological ageing",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00741-3",
+      "date": "2026-03-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Taking multivitamin daily could help to slow biological ageing, study suggests",
+      "origin": "STM — The Guardian Science",
+      "url": "https://www.theguardian.com/science/2026/mar/09/taking-multivitamin-daily-could-help-to-slow-biological-ageing-study-suggests",
+      "date": "2026-03-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: A daily multivitamin may slightly slow rates of ageing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2518607-a-daily-multivitamin-may-slightly-slow-rates-of-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-10"
+    }
+  ]
+}

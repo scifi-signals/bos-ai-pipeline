@@ -1,0 +1,38 @@
+{
+  "id": "blood_tests_accurately_diagnose_cancer",
+  "question": "Do blood tests accurately diagnose cancer, and how reliable are current screening methods?",
+  "topic": "Addresses confusion about cancer screening accuracy amid marketing hype for new blood-based tests",
+  "tags": [
+    "Cancer Research",
+    "Health and Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/21692",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Refining Processes for the Co-Development of Genome-Based Therapeutics and Companion Diagnostic Tests: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/18617",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+      "url": "https://www.nationalacademies.org/publications/21860",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Cancer blood tests are everywhere. Do they really work?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00661-2",
+      "date": "2026-03-08"
+    }
+  ]
+}
