@@ -1,0 +1,45 @@
+{
+  "id": "geoengineering_safely_reverse_climate_change",
+  "question": "Can geoengineering safely reverse climate change?",
+  "topic": "Addresses both premature optimism and fear about climate intervention technologies with current scie",
+  "tags": [
+    "Climate Change",
+    "Environment",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Mitigation of Climate Change - Chapter 12: Cross-sectoral perspectives — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg3/downloads/report/IPCC_AR6_WGIII_Chapter12.pdf",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Fourth National Climate Assessment Volume II: Impacts, Risks, and Adaptation - Appendix 5: Frequently Asked Questions — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Climate Change and Social Vulnerability in the United States: A Focus on Six Impacts - Technical Documentation — EPA",
+      "url": "https://www.epa.gov/system/files/documents/2021-09/climate-vulnerability_september-2021_508.pdf",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Emissions Gap Report 2022: The Closing Window — UNEP",
+      "url": "https://www.unep.org/resources/emissions-gap-report-2022",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Controversial geoengineering project sees scientists pump 65,000 litres of chemicals into the ocean to stop global warming",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15631303/Controversial-geoengineering-project-chemicals-ocean.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-03-10"
+    }
+  ]
+}

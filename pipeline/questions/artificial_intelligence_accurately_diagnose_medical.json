@@ -1,0 +1,51 @@
+{
+  "id": "artificial_intelligence_accurately_diagnose_medical",
+  "question": "Can artificial intelligence accurately diagnose medical conditions from images?",
+  "topic": "Addresses hype around medical AI by clarifying current capabilities and limitations based on clinica",
+  "tags": [
+    "Health and Medicine",
+    "Technology",
+    "Artificial Intelligence"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and Machine Learning in Software as Medical Devices — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Artificial Intelligence in Cancer Imaging — NIH/National Cancer Institute",
+      "url": "https://www.cancer.gov/research/infrastructure/artificial-intelligence",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Ethics and Governance of Artificial Intelligence for Health — WHO",
+      "url": "https://www.who.int/publications/i/item/9789240029200",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Computer-aided diagnosis techniques (dermoscopy and spectroscopy-based) for diagnosing skin cancer in adults — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Artificial Intelligence for Medical Imaging — NIH/National Institute of Biomedical Imaging and Bioengineering",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Radiology AI makes consistent diagnoses using 3D images from different health centres",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00645-2",
+      "date": "2026-03-09"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "pandemic_viruses_becoming_dangerous_through",
+  "question": "Are pandemic viruses becoming more dangerous through genetic adaptation?",
+  "topic": "Corrects misconceptions about how pandemic viruses emerge and evolve that affect preparedness strate",
+  "tags": [
+    "Public Health",
+    "Infectious Disease",
+    "Virology"
+  ],
+  "sources": [
+    {
+      "name": "Tracking SARS-CoV-2 variants — WHO",
+      "url": "https://www.who.int/activities/tracking-SARS-CoV-2-variants",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "SARS-CoV-2 Variant Classifications and Definitions — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "The evolution of SARS-CoV-2 — Nature",
+      "url": "https://www.nature.com/articles/s41579-023-00878-2",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Influenza Virus Evolution and Pandemic Preparedness — NIH/NIAID",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Physical interventions to interrupt or reduce the spread of respiratory viruses — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Recent pandemic viruses jumped to humans without prior adaptation, study finds",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-pandemic-viruses-humans-prior.html",
+      "date": "2026-03-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Viral Outbreaks Take a Common Path from Animals to People, Study Finds",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/09/science/covid-coronavirus-evolution.html",
+      "date": "2026-03-11"
+    }
+  ]
+}

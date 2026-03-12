@@ -1,0 +1,45 @@
+{
+  "id": "eating_less_protein_slow_cancer",
+  "question": "Does eating less protein slow cancer growth?",
+  "topic": "Addresses dangerous dietary misconception among cancer patients that could worsen outcomes",
+  "tags": [
+    "Health and Medicine",
+    "Cancer",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "Diet and Cancer Risk Fact Sheet — National Cancer Institute (NIH)",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Diet, Nutrition, Physical Activity and Cancer: A Global Perspective (Third Expert Report) — World Cancer Research Fund International",
+      "url": "https://www.wcrf.org/research-policy/",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Diet and Physical Activity: What's the Cancer Connection? — American Cancer Society",
+      "url": "https://www.cancer.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Dietary interventions for cancer patients — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Eating less protein may slow liver cancer growth, study finds",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260305223240.htm",
+      "date": "2026-03-09"
+    }
+  ]
+}

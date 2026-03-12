@@ -1,0 +1,39 @@
+{
+  "id": "cancer_blood_tests_provide_accurate",
+  "question": "Do cancer blood tests provide accurate early detection for most cancers?",
+  "topic": "Addresses marketing claims about emerging cancer screening tests that may mislead consumers about th",
+  "tags": [
+    "Health and Medicine",
+    "Cancer",
+    "Diagnostic Testing"
+  ],
+  "sources": [
+    {
+      "name": "Improving Diagnosis in Health Care",
+      "url": "https://www.nationalacademies.org/publications/21794",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+      "url": "https://www.nationalacademies.org/publications/21860",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/21692",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Cancer blood tests are everywhere. Do they really work?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00661-2",
+      "date": "2026-03-09"
+    }
+  ]
+}
