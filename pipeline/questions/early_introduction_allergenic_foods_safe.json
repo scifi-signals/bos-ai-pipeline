@@ -1,0 +1,59 @@
+{
+  "id": "early_introduction_allergenic_foods_safe",
+  "question": "Is early introduction of allergenic foods safe for preventing food allergies?",
+  "topic": "Addresses outdated allergy prevention advice that contradicts current evidence-based recommendations",
+  "tags": [
+    "Health and Medicine",
+    "Pediatrics",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "Clinical Report: The Effects of Early Nutritional Interventions on the Development of Atopic Disease in Infants and Children — American Academy of Pediatrics (AAP)",
+      "url": "https://www.aap.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Timing of allergenic food introduction to the infant diet and risk of allergic or autoimmune disease — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Complementary feeding: family foods for breastfed children — World Health Organization (WHO)",
+      "url": "https://www.who.int/publications/i/item/9789241506328",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Food Allergies: What You Need to Know — U.S. Food and Drug Administration (FDA)",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Early allergen introduction reduces allergy development risk - consistent with LEAP trial and subsequent research",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "80% of children outgrow egg and milk allergies by early elementary school - plausible figure, warrants verification",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-12T12:36:02Z",
+  "generated_at": "2026-03-13T12:34:16Z",
   "questions": [
     {
       "id": "should_parents_avoid_giving_young",
@@ -513,14 +513,15 @@
       "id": "vaccines_cause_food_allergies_children",
       "question": "Do vaccines cause food allergies in children?",
       "priority": "high",
-      "rationale": "Corrects a specific vaccine misconception that drives hesitancy and has clear authoritative evidence to refute",
-      "misinformation_narrative": "Parents widely believe that vaccines cause or increase the risk of food allergies in their children, leading some to delay or refuse vaccinations",
-      "public_stakes": "Vaccine hesitancy based on false food allergy fears puts children at risk of preventable diseases while not actually protecting them from allergies",
+      "rationale": "Addresses a specific vaccine-allergy misconception that contributes to vaccine hesitancy despite lack of scientific support",
+      "misinformation_narrative": "Some parents believe vaccines are responsible for the rising rates of food allergies in children, when scientific evidence shows no causal link",
+      "public_stakes": "Parents may refuse vaccines based on false allergy fears, leaving children vulnerable to serious infectious diseases while not preventing food allergies",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and wellness blogs frequently link vaccines to rising food allergy rates, particularly around the \"peanut oil in vaccines\" theory.",
+      "verification_reason": "This belief circulates widely in parenting groups on Facebook, Reddit's r/conspiracy, and anti-vaccine websites that blame vaccines for rising allergy rates.",
       "tags": [
-        "Vaccines & Immunization",
-        "Public Health"
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -586,8 +587,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-09",
-      "last_seen": "2026-03-11",
-      "times_seen": 3,
+      "last_seen": "2026-03-13",
+      "times_seen": 4,
       "status": "pending",
       "newest_source_year": 1993,
       "signal_count": 6,
@@ -659,6 +660,65 @@
       "newest_source_year": 2023,
       "signal_count": 4,
       "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 4 discovery signals"
+    },
+    {
+      "id": "multivitamins_slow_aging_extend_lifespan",
+      "question": "Do multivitamins slow aging and extend lifespan?",
+      "priority": "medium",
+      "rationale": "Multiple sources show trending interest in multivitamin anti-aging claims, but evidence is weak and public is being misled by supplement marketing",
+      "misinformation_narrative": "Many people believe daily multivitamins can significantly slow aging and extend life, when evidence shows minimal to no anti-aging benefits for healthy adults",
+      "public_stakes": "People may rely on supplements instead of proven longevity interventions like exercise, diet, and medical care, while wasting money on ineffective products",
+      "verification_status": "verified",
+      "verification_reason": "This misconception is perpetuated by supplement marketing across social media, health influencer content on Instagram/YouTube, and is a common belief among older adults.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Daily multivitamin slows signs of biological ageing",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00741-3",
+          "date": "2026-03-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: A daily multivitamin may slightly slow rates of ageing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518607-a-daily-multivitamin-may-slightly-slow-rates-of-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Taking multivitamin daily could help to slow biological ageing, study suggests",
+          "origin": "STM — The Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/mar/09/taking-multivitamin-daily-could-help-to-slow-biological-ageing-study-suggests",
+          "date": "2026-03-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Daily briefing: A daily multivitamin slows the signs of biological ageing",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00792-6",
+          "date": "2026-03-11"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 3,
+      "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "daily_multivitamins_actually_slow_aging",
@@ -1406,6 +1466,74 @@
       "readiness_summary": "5 NASEM sources, most recent 2020 · misinformation narrative not yet confirmed · 4 discovery signals"
     },
     {
+      "id": "global_warming_recently_accelerated_unprecedented",
+      "question": "Has global warming recently accelerated at an unprecedented rate?",
+      "priority": "low",
+      "rationale": "Multiple sources show conflicting narratives about climate acceleration that need authoritative clarification from IPCC data",
+      "misinformation_narrative": "Some claim global warming has suddenly accelerated beyond climate models' predictions, while others deny any acceleration - both views misrepresent the actual evidence of measured warming trends",
+      "public_stakes": "Misunderstanding warming rates leads to either climate anxiety or complacency, affecting support for appropriate climate policies and personal preparedness",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents a false \"both sides\" framing that doesn't reflect how climate misinformation actually circulates; real climate denial focuses on questioning warming existence, not acceleration nuances.",
+      "tags": [
+        "Climate Change",
+        "Environment"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Stabilization Targets: Emissions, Concentrations, and Impacts over Decades to Millennia (2011)",
+          "url": "https://www.nationalacademies.org/publications/12877"
+        },
+        {
+          "name": "Abrupt Impacts of Climate Change: Anticipating Surprises (2013)",
+          "url": "https://www.nationalacademies.org/publications/18373"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Improving Characterization of Anthropogenic Methane Emissions in the United States (2018)",
+          "url": "https://www.nationalacademies.org/publications/24987"
+        },
+        {
+          "name": "Attribution of Extreme Weather Events in the Context of Climate Change (2016)",
+          "url": "https://www.nationalacademies.org/publications/21852"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate change is speeding up — the pace nearly doubled in ten years",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00745-z",
+          "date": "2026-03-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Scientists detect a sudden acceleration in global warming",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260309183208.htm",
+          "date": "2026-03-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Global warming has accelerated 'significantly' since 2015, study reveals - as scientists call for urgent action to curb CO2 emissions",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15620681/Global-warming-accelerated-significantly-2015.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 3,
+      "readiness_summary": "5 NASEM sources, most recent 2020 · misinformation narrative not yet confirmed · 3 discovery signals"
+    },
+    {
       "id": "blood_tests_accurately_diagnose_cancer",
       "question": "Do blood tests accurately diagnose cancer, and how reliable are current screening methods?",
       "priority": "low",
@@ -1450,6 +1578,93 @@
       "newest_source_year": 2016,
       "signal_count": 1,
       "readiness_summary": "3 NASEM sources, most recent 2016 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "geoengineering_safe_solution_stop_global",
+      "question": "Is geoengineering a safe solution to stop global warming?",
+      "priority": "low",
+      "rationale": "Addresses misconceptions about controversial geoengineering approaches that are being sensationalized in media",
+      "misinformation_narrative": "Some believe large-scale geoengineering projects like ocean chemical injection are proven safe climate solutions, when they remain highly experimental with unknown risks",
+      "public_stakes": "Public support for unproven geoengineering could divert resources from proven climate solutions or lead to environmental disasters",
+      "verification_status": "needs_review",
+      "verification_reason": "Very few people actually know what geoengineering is, let alone hold strong misconceptions about \"ocean chemical injection\" specifically; this seems like an invented technical straw man.",
+      "tags": [
+        "Climate Change",
+        "Technology"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Intervention: Reflecting Sunlight to Cool Earth (2015)",
+          "url": "https://www.nationalacademies.org/publications/18988"
+        },
+        {
+          "name": "Climate Intervention: Carbon Dioxide Removal and Reliable Sequestration (2015)",
+          "url": "https://www.nationalacademies.org/publications/18805"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Controversial geoengineering project sees scientists pump 65,000 litres of chemicals into the ocean to stop global warming",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15631303/Controversial-geoengineering-project-chemicals-ocean.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2015,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2015 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "dna_testing_reliably_tell_identical",
+      "question": "Can DNA testing reliably tell identical twins apart?",
+      "priority": "low",
+      "rationale": "Addresses a common misconception about genetic identity that has legal and medical implications",
+      "misinformation_narrative": "Many people believe identical twins have completely identical DNA and cannot be distinguished genetically, when advanced techniques can actually differentiate them",
+      "public_stakes": "Misunderstanding could affect criminal justice cases, paternity disputes, and medical diagnoses involving identical twins",
+      "verification_status": "needs_review",
+      "verification_reason": "This is more about lack of public knowledge than a widespread misconception; most people simply don't think about twin DNA differences rather than actively believing they're identical.",
+      "tags": [
+        "Genetics",
+        "Forensics"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Direct-to-Consumer Genetic Testing: Summary of a Workshop (2010)",
+          "url": "https://www.nationalacademies.org/publications/13021"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Daily briefing: How DNA testing can tell identical twins apart",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00754-y",
+          "date": "2026-03-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Identical twins on trial: can DNA testing tell them apart?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00521-z",
+          "date": "2026-03-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2010,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2010 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "current_extinction_rates_exaggerated_environmental",
@@ -1744,6 +1959,175 @@
       "times_seen": 1,
       "status": "nasem_gap",
       "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
+      "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
+      "priority": "high",
+      "rationale": "This directly addresses a specific conspiracy theory that drives vaccine hesitancy - the false belief that doctors profit from pharmaceutical companies for giving vaccines",
+      "misinformation_narrative": "Many people believe pediatricians are financially incentivized by pharmaceutical companies to over-vaccinate children through kickbacks or bonuses, when in fact such payments are illegal and don't occur",
+      "public_stakes": "Parents may delay or refuse vaccines for their children based on false beliefs about financial corruption, leading to increased risk of vaccine-preventable diseases",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Children's Health Defense actively promote claims about pediatricians receiving pharmaceutical kickbacks for vaccinations.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Claim: Pediatricians receive large financial bonuses from pharmaceutical companies for vaccinating children - DEBUNKED by hosts as illegal and not occurring",
+          "origin": "Unbiased Science: Pediatricians: Not About The Benjamins, Baby",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pediatricians-not-about-the-benjamins-baby/",
+          "date": "2026-03-11T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Provider Resources for Vaccine Conversations with Parents",
+          "description": "CDC resources for healthcare providers addressing vaccine hesitancy and common misconceptions",
+          "relevance": "Contains information about addressing vaccine misinformation including financial incentive claims"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Policy Statement on Vaccine Safety and Effectiveness",
+          "description": "AAP's official position on vaccines and addressing safety concerns",
+          "relevance": "Professional pediatric organization's stance on vaccine practices and addressing misconceptions"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Vaccine Safety and Availability - Common Misconceptions",
+          "description": "FDA fact sheet addressing frequently cited vaccine misconceptions",
+          "relevance": "Federal regulatory agency's response to vaccine misinformation including healthcare provider incentives"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Addressing Vaccine Hesitancy",
+          "description": "WHO guidance on vaccine hesitancy including addressing misinformation",
+          "relevance": "International health authority's approach to countering vaccine misinformation"
+        }
+      ],
+      "discovered_at": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "early_introduction_allergenic_foods_safe",
+      "question": "Is early introduction of allergenic foods safe for preventing food allergies?",
+      "priority": "high",
+      "rationale": "Addresses outdated allergy prevention advice that contradicts current evidence-based recommendations",
+      "misinformation_narrative": "Many parents still believe they should delay introducing allergenic foods like peanuts to prevent allergies, when research shows early introduction actually reduces allergy risk",
+      "public_stakes": "Delayed allergen introduction based on outdated advice increases children's risk of developing food allergies",
+      "verification_status": "verified",
+      "verification_reason": "Many parents still follow outdated advice about delaying peanut introduction, a belief reinforced by older pediatric guidance and circulated in parenting forums and among family members.",
+      "tags": [
+        "Health and Medicine",
+        "Pediatrics",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics (AAP)",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Clinical Report: The Effects of Early Nutritional Interventions on the Development of Atopic Disease in Infants and Children",
+          "description": "AAP clinical report reviewing evidence on early introduction of allergenic foods and atopic disease prevention",
+          "relevance": "Provides pediatric medical guidance on timing of allergenic food introduction based on current evidence"
+        },
+        {
+          "organization": "National Institute of Allergy and Infectious Diseases (NIAID/NIH)",
+          "organization_full": "National Institute of Allergy and Infectious Diseases (NIAID/NIH)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Addendum Guidelines for the Prevention of Peanut Allergy in the United States",
+          "description": "NIAID guidelines specifically addressing early peanut introduction for allergy prevention",
+          "relevance": "Federal health agency's evidence-based recommendations on early allergenic food introduction"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Timing of allergenic food introduction to the infant diet and risk of allergic or autoimmune disease",
+          "description": "Systematic review examining timing of allergenic food introduction and allergy outcomes",
+          "relevance": "Comprehensive systematic review of randomized controlled trials on early allergenic food introduction"
+        },
+        {
+          "organization": "World Health Organization (WHO)",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241506328",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Complementary feeding: family foods for breastfed children",
+          "description": "WHO guidance on complementary feeding practices including introduction of potentially allergenic foods",
+          "relevance": "International health organization's recommendations on safe introduction of foods to infants"
+        },
+        {
+          "organization": "U.S. Food and Drug Administration (FDA)",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Food Allergies: What You Need to Know",
+          "description": "FDA consumer information on food allergies including guidance on introduction of allergenic foods",
+          "relevance": "Federal regulatory agency's guidance on food allergy prevention and management"
+        }
+      ],
+      "discovered_at": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
@@ -2881,6 +3265,60 @@
       "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
+      "id": "all_female_fish_species_evolutionarily",
+      "question": "Are all-female fish species evolutionarily doomed to extinction?",
+      "priority": "low",
+      "rationale": "Multiple sources highlight surprising findings that challenge common evolutionary assumptions",
+      "misinformation_narrative": "Basic evolutionary theory suggests asexual reproduction leads to genetic dead ends, but some all-female species have mechanisms that allow long-term evolutionary success",
+      "public_stakes": "Misunderstanding evolution affects biodiversity conservation strategies and public support for protecting unusual reproductive strategies",
+      "verification_status": "needs_review",
+      "verification_reason": "This is an obscure biological concept that the general public doesn't have opinions about; it's an academic nuance dressed up as public misinformation.",
+      "tags": [
+        "Evolution",
+        "Biology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Gene conversion empowers natural selection in a clonal fish species",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10180-9",
+          "date": "2026-03-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: How an all-female fish species defies evolutionary expectations",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00493-0",
+          "date": "2026-03-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: A genetic trick helps this all-female fish species escape evolutionary doom",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/genetic-trick-helps-all-female-fish-species-escape-evolutionary-doom",
+          "date": "2026-03-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: This fish shouldn’t exist — the weird genetics of clonal vertebrates",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00798-0",
+          "date": "2026-03-11"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
       "id": "pandemic_viruses_becoming_dangerous_through",
       "question": "Are pandemic viruses becoming more dangerous through genetic adaptation?",
       "priority": "low",
@@ -3080,6 +3518,120 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "should_use_weapons_warfare_before",
+      "question": "Should we use AI weapons in warfare before international laws are established?",
+      "priority": "low",
+      "rationale": "Addresses polarized views on AI weapons that lack scientific risk assessment perspective",
+      "misinformation_narrative": "Some believe AI weapons are just advanced tools that can be safely deployed immediately, while others see them as inherently uncontrollable - both views miss the nuanced risk assessment needed",
+      "public_stakes": "Premature deployment of autonomous weapons could lead to unintended casualties and destabilize international security",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents an artificial \"both sides\" academic debate rather than reflecting actual public misconceptions about AI weapons, which most people know little about.",
+      "tags": [
+        "Technology",
+        "Ethics"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Stop the use of AI in war until laws can be agreed",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00762-y",
+          "date": "2026-03-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: How AI is shaping the war in Iran — and what’s next for future conflicts",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00710-w",
+          "date": "2026-03-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "gut_bacteria_cause_memory_loss",
+      "question": "Do gut bacteria cause memory loss in older adults?",
+      "priority": "low",
+      "rationale": "Addresses oversimplification of gut-brain research that could mislead aging adults about memory protection",
+      "misinformation_narrative": "Some claim gut bacteria directly cause age-related memory problems, when research shows complex interactions that don't establish simple causation",
+      "public_stakes": "Oversimplified gut-brain claims could lead people to rely on probiotics instead of proven dementia prevention strategies",
+      "verification_status": "needs_review",
+      "verification_reason": "While gut health is trendy, this specific claim about gut bacteria directly causing memory loss isn't a widespread public belief I can identify.",
+      "tags": [
+        "Health and Medicine",
+        "Aging"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Memory loss is fuelled by gut microbes in ageing mice",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00768-6",
+          "date": "2026-03-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Gut microbes affect cognition during ageing",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00492-1",
+          "date": "2026-03-11"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH National Institute on Aging",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Alzheimer's Disease Research Centers Program",
+          "description": "NIH research program studying various factors including microbiome influences on cognitive decline and Alzheimer's disease",
+          "relevance": "Contains research findings on gut-brain axis and its relationship to memory and cognitive function in aging"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Global Action Plan on the Public Health Response to Dementia 2017-2025",
+          "description": "WHO's comprehensive plan addressing risk factors for dementia and cognitive decline",
+          "relevance": "Discusses various biological and environmental factors that may contribute to memory loss in older adults"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Healthy Aging Reports and Publications",
+          "description": "CDC collection of research on healthy aging including factors affecting cognitive health",
+          "relevance": "May contain studies examining the relationship between gut health and cognitive function in older populations"
+        }
+      ],
+      "discovered_at": "2026-03-13",
+      "last_seen": "2026-03-13",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
     },
     {
       "id": "igg_food_sensitivity_tests_accurate",

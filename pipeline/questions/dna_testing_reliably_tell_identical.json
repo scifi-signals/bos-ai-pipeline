@@ -1,0 +1,33 @@
+{
+  "id": "dna_testing_reliably_tell_identical",
+  "question": "Can DNA testing reliably tell identical twins apart?",
+  "topic": "Addresses a common misconception about genetic identity that has legal and medical implications",
+  "tags": [
+    "Genetics",
+    "Forensics"
+  ],
+  "sources": [
+    {
+      "name": "Direct-to-Consumer Genetic Testing: Summary of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/13021",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Daily briefing: How DNA testing can tell identical twins apart",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00754-y",
+      "date": "2026-03-10"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Identical twins on trial: can DNA testing tell them apart?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00521-z",
+      "date": "2026-03-10"
+    }
+  ]
+}

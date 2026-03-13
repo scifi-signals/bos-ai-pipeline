@@ -1,0 +1,45 @@
+{
+  "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
+  "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
+  "topic": "This directly addresses a specific conspiracy theory that drives vaccine hesitancy - the false belie",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "Provider Resources for Vaccine Conversations with Parents — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Policy Statement on Vaccine Safety and Effectiveness — American Academy of Pediatrics",
+      "url": "https://www.aap.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaccine Safety and Availability - Common Misconceptions — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Addressing Vaccine Hesitancy — World Health Organization",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Claim: Pediatricians receive large financial bonuses from pharmaceutical companies for vaccinating children - DEBUNKED by hosts as illegal and not occurring",
+      "origin": "Unbiased Science: Pediatricians: Not About The Benjamins, Baby",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pediatricians-not-about-the-benjamins-baby/",
+      "date": "2026-03-11T10:00:00"
+    }
+  ]
+}

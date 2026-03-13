@@ -1,0 +1,32 @@
+{
+  "id": "geoengineering_safe_solution_stop_global",
+  "question": "Is geoengineering a safe solution to stop global warming?",
+  "topic": "Addresses misconceptions about controversial geoengineering approaches that are being sensationalize",
+  "tags": [
+    "Climate Change",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "Climate Intervention: Reflecting Sunlight to Cool Earth",
+      "url": "https://www.nationalacademies.org/publications/18988",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Intervention: Carbon Dioxide Removal and Reliable Sequestration",
+      "url": "https://www.nationalacademies.org/publications/18805",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Controversial geoengineering project sees scientists pump 65,000 litres of chemicals into the ocean to stop global warming",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15631303/Controversial-geoengineering-project-chemicals-ocean.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-03-10"
+    }
+  ]
+}

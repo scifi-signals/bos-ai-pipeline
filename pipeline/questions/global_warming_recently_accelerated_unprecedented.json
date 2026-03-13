@@ -1,0 +1,64 @@
+{
+  "id": "global_warming_recently_accelerated_unprecedented",
+  "question": "Has global warming recently accelerated at an unprecedented rate?",
+  "topic": "Multiple sources show conflicting narratives about climate acceleration that need authoritative clar",
+  "tags": [
+    "Climate Change",
+    "Environment"
+  ],
+  "sources": [
+    {
+      "name": "Climate Stabilization Targets: Emissions, Concentrations, and Impacts over Decades to Millennia",
+      "url": "https://www.nationalacademies.org/publications/12877",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+      "url": "https://www.nationalacademies.org/publications/18373",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://www.nationalacademies.org/publications/25733",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Improving Characterization of Anthropogenic Methane Emissions in the United States",
+      "url": "https://www.nationalacademies.org/publications/24987",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Attribution of Extreme Weather Events in the Context of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/21852",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate change is speeding up — the pace nearly doubled in ten years",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00745-z",
+      "date": "2026-03-10"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Scientists detect a sudden acceleration in global warming",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260309183208.htm",
+      "date": "2026-03-10"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Global warming has accelerated 'significantly' since 2015, study reveals - as scientists call for urgent action to curb CO2 emissions",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15620681/Global-warming-accelerated-significantly-2015.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-03-10"
+    }
+  ]
+}
