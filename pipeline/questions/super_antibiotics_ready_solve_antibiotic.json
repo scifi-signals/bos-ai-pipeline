@@ -1,0 +1,51 @@
+{
+  "id": "super_antibiotics_ready_solve_antibiotic",
+  "question": "Are 'super antibiotics' ready to solve antibiotic resistance without disrupting beneficial bacteria?",
+  "topic": "Provides realistic assessment of antibiotic development progress against overly optimistic media cov",
+  "tags": [
+    "Infectious Disease",
+    "Antimicrobial Resistance",
+    "Drug Development"
+  ],
+  "sources": [
+    {
+      "name": "Global Action Plan on Antimicrobial Resistance — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241509763",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antibiotic Resistance Threats in the United States — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antibacterial Drug Development: Scientific and Regulatory Challenges — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "NIAID's Antibacterial Resistance Program: Current Status and Future Directions — NIH/NIAID",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Interventions to improve antibiotic prescribing practices for hospital inpatients — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: New \"super antibiotic\" stops deadly gut infection without destroying the microbiome",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260311004824.htm",
+      "date": "2026-03-12"
+    }
+  ]
+}

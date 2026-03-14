@@ -1,0 +1,65 @@
+{
+  "id": "daily_multivitamin_supplements_effective_slowing",
+  "question": "Are daily multivitamin supplements effective at slowing biological aging?",
+  "topic": "Addresses common anti-aging supplement marketing claims with realistic assessment of current evidenc",
+  "tags": [
+    "Aging & Longevity",
+    "Nutrition",
+    "Consumer Health"
+  ],
+  "sources": [
+    {
+      "name": "Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Supplements for Older Adults — NIH/National Institute on Aging",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Questions and Answers on Dietary Supplements — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Multivitamin/mineral Supplements Fact Sheet for Health Professionals — NIH/Office of Dietary Supplements",
+      "url": "https://ods.od.nih.gov/factsheets/MVMS-HealthProfessional/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Healthy Diet Fact Sheet — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Daily briefing: A daily multivitamin slows the signs of biological ageing",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00792-6",
+      "date": "2026-03-11"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Daily multivitamin slows signs of biological ageing",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00741-3",
+      "date": "2026-03-11"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: A daily multivitamin may slightly slow rates of ageing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2518607-a-daily-multivitamin-may-slightly-slow-rates-of-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-13"
+    }
+  ]
+}

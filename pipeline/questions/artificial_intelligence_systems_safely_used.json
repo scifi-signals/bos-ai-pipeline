@@ -1,0 +1,33 @@
+{
+  "id": "artificial_intelligence_systems_safely_used",
+  "question": "Can artificial intelligence systems be safely used in children's toys without privacy and safety risks?",
+  "topic": "Addresses emerging consumer safety issue where marketing claims exceed regulatory oversight and safe",
+  "tags": [
+    "Technology Safety",
+    "Child Protection",
+    "Consumer Safety"
+  ],
+  "sources": [
+    {
+      "name": "Children's Online Privacy Protection Rule (COPPA) — FTC",
+      "url": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "AI Risk Management Framework (AI RMF 1.0) — NIST",
+      "url": "https://www.nist.gov/itl/ai-risk-management-framework",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: We don’t know if AI-powered toys are safe, but they’re here anyway",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2518741-we-dont-know-if-ai-powered-toys-are-safe-but-theyre-here-anyway/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-13"
+    }
+  ]
+}

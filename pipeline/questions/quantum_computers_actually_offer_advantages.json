@@ -1,0 +1,47 @@
+{
+  "id": "quantum_computers_actually_offer_advantages",
+  "question": "Do quantum computers actually offer advantages over classical computers for practical problems?",
+  "topic": "Corrects widespread overhyping of quantum computing capabilities with realistic assessment of curren",
+  "tags": [
+    "Technology",
+    "Computing",
+    "Research Innovation"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25499",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-13"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-13"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Quantum computers must overcome major technical hurdles before tackling quantum chemistry problems",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-quantum-major-technical-hurdles-tackling.html",
+      "date": "2026-03-13"
+    }
+  ]
+}

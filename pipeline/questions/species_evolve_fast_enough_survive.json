@@ -1,0 +1,51 @@
+{
+  "id": "species_evolve_fast_enough_survive",
+  "question": "Can species evolve fast enough to survive rapid climate change?",
+  "topic": "Corrects misconceptions about evolutionary adaptation rates relative to climate change speed",
+  "tags": [
+    "Climate Change",
+    "Evolution",
+    "Conservation Biology"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 2: Terrestrial and Freshwater Ecosystems and Their Services — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-2/",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change Impacts on Ecosystems — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fourth National Climate Assessment - Chapter 7: Ecosystems, Ecosystem Services, and Biodiversity — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Species and Climate Change: More than Just the Polar Bear — IUCN",
+      "url": "https://iucn.org/resources",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Climate.gov: How fast is evolution? — NOAA",
+      "url": "https://www.noaa.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Can species evolve fast enough to survive as the planet heats up?",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519241-can-species-evolve-fast-enough-to-survive-as-the-planet-heats-up/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-13"
+    }
+  ]
+}

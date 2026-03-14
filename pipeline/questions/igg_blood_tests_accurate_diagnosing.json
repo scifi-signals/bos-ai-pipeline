@@ -1,0 +1,66 @@
+{
+  "id": "igg_blood_tests_accurate_diagnosing",
+  "question": "Are IgG blood tests accurate for diagnosing food allergies and sensitivities?",
+  "topic": "Addresses widespread commercial misinformation about food allergy testing that leads to misdiagnosis",
+  "tags": [
+    "Food Safety",
+    "Medical Testing",
+    "Consumer Health"
+  ],
+  "sources": [
+    {
+      "name": "Position Statement: IgG and IgG4 Testing for Food Allergies — American Academy of Allergy, Asthma & Immunology (AAAAI)",
+      "url": "https://www.aaaai.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Food Allergy and Anaphylaxis Guidelines — European Academy of Allergy and Clinical Immunology (EAACI)",
+      "url": "https://www.eaaci.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Diagnostic tests for food allergy with or without gastrointestinal symptoms in adults — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Guidelines for the Diagnosis and Management of Food Allergy in the United States — NIH National Institute of Allergy and Infectious Diseases (NIAID)",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "IgG testing has high false positive rate for food reactions - claim made but no specific statistics provided",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "IgE-mediated food allergies (immune mechanisms)",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "IgG antibody testing for food sensitivities (commercialized testing)",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Celiac disease diagnosis and gluten sensitivity",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    }
+  ]
+}
