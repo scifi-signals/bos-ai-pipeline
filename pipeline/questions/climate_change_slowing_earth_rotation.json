@@ -1,0 +1,51 @@
+{
+  "id": "climate_change_slowing_earth_rotation",
+  "question": "Is climate change slowing Earth's rotation at an unprecedented rate?",
+  "topic": "Addresses misconceptions about the scale and scope of climate change impacts beyond just temperature",
+  "tags": [
+    "Climate Change",
+    "Earth Science"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2021: The Physical Science Basis (AR6 Working Group I) — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Earth's Rotation and Climate Change — NASA",
+      "url": "https://science.nasa.gov/climate-change/evidence/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Global Climate Report — NOAA",
+      "url": "https://www.ncei.noaa.gov/access/monitoring/products/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fourth National Climate Assessment Volume I: Climate Science Special Report — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate change is slowing Earth's spin at unprecedented rate compared to past 3.6 million years",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-climate-earth-unprecedented-million-years.html",
+      "date": "2026-03-12"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Days really are dragging! Length of days on Earth is increasing at an 'unprecedented' rate - and scientists say climate change is to blame",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15642669/Length-days-increasing-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-03-13"
+    }
+  ]
+}

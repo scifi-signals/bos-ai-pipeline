@@ -1,0 +1,46 @@
+{
+  "id": "quantum_computers_ready_solve_real",
+  "question": "Are quantum computers ready to solve real-world chemistry problems?",
+  "topic": "Addresses widespread overhyping of quantum computing capabilities versus current reality",
+  "tags": [
+    "Quantum Science",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+      "url": "https://www.nationalacademies.org/publications/26850",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-13"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-13"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Quantum computers must overcome major technical hurdles before tackling quantum chemistry problems",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-quantum-major-technical-hurdles-tackling.html",
+      "date": "2026-03-13"
+    }
+  ]
+}

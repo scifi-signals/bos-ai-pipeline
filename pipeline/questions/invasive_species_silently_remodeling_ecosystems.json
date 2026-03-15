@@ -1,0 +1,33 @@
+{
+  "id": "invasive_species_silently_remodeling_ecosystems",
+  "question": "Are invasive species silently remodeling ecosystems in harmful ways?",
+  "topic": "Addresses public underestimation of invasive species impacts on ecosystem stability",
+  "tags": [
+    "Biodiversity",
+    "Conservation",
+    "Environment"
+  ],
+  "sources": [
+    {
+      "name": "Twenty-First Century Ecosystems: Managing the Living World Two Centuries After Darwin: Report of a Symposium",
+      "url": "https://www.nationalacademies.org/publications/13109",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change and Ecosystems",
+      "url": "https://www.nationalacademies.org/publications/25504",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: How biological invasions are silently remodeling ecosystems",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-biological-invasions-silently-remodeling-ecosystems.html",
+      "date": "2026-03-12"
+    }
+  ]
+}

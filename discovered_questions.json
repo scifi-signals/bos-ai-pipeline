@@ -1,6 +1,69 @@
 {
-  "generated_at": "2026-03-14T12:30:07Z",
+  "generated_at": "2026-03-15T12:32:12Z",
   "questions": [
+    {
+      "id": "global_warming_accelerated_significantly_since",
+      "question": "Has global warming accelerated significantly since 2015?",
+      "priority": "high",
+      "rationale": "Addresses climate denial narratives about warming trends using recent authoritative data",
+      "misinformation_narrative": "Climate skeptics often claim global warming has slowed or paused in recent years, contradicting evidence of accelerating warming trends",
+      "public_stakes": "Underestimating the pace of climate change leads to inadequate mitigation and adaptation efforts",
+      "verification_status": "verified",
+      "verification_reason": "Climate denial communities on X, YouTube, and sites like WattsUpWithThat consistently promote claims about global warming \"pauses\" or slowdowns.",
+      "tags": [
+        "Climate Change",
+        "Environment"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "A Research Agenda Toward Atmospheric Methane Removal (2025)",
+          "url": "https://www.nationalacademies.org/publications/27157"
+        },
+        {
+          "name": "Accelerating Decarbonization in the United States: Technology, Policy, and Societal Dimensions (2024)",
+          "url": "https://www.nationalacademies.org/publications/25931"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Scientists detect a sudden acceleration in global warming",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260309183208.htm",
+          "date": "2026-03-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Global warming has accelerated 'significantly' since 2015, study reveals - as scientists call for urgent action to curb CO2 emissions",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15620681/Global-warming-accelerated-significantly-2015.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why we fail to notice climate change",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/climate-change-binary-frozen-weather",
+          "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Days really are dragging! Length of days on Earth is increasing at an 'unprecedented' rate - and scientists say climate change is to blame",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15642669/Length-days-increasing-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 3,
+      "readiness_summary": "2 NASEM sources, most recent 2025 · confirmed misinformation · 3 discovery signals"
+    },
     {
       "id": "should_parents_avoid_giving_young",
       "question": "Should parents avoid giving young children peanuts and other allergens to prevent food allergies?",
@@ -43,44 +106,6 @@
       "newest_source_year": 2024,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
-    },
-    {
-      "id": "should_parents_introduce_allergenic_foods",
-      "question": "Should parents introduce allergenic foods early to prevent food allergies in infants?",
-      "priority": "high",
-      "rationale": "The LEAP trial revolutionized allergy prevention guidance, but old beliefs persist among parents and some healthcare providers",
-      "misinformation_narrative": "Many parents still follow outdated guidance to delay introducing allergenic foods like peanuts, believing early introduction causes allergies when evidence shows it prevents them",
-      "public_stakes": "Delayed allergen introduction based on old guidelines may actually increase children's risk of developing severe food allergies",
-      "verification_status": "verified",
-      "verification_reason": "Parenting forums, older pediatric advice websites, and many grandparents still advocate delaying peanut introduction despite updated guidelines.",
-      "tags": [
-        "Pediatric Health",
-        "Public Health"
-      ],
-      "nasem_source_count": 1,
-      "nasem_sources_preview": [
-        {
-          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
-          "url": "https://www.nationalacademies.org/publications/27239"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-03-11",
-      "last_seen": "2026-03-11",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2024,
-      "signal_count": 1,
-      "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "anti_aging_supplements_compounds_actually",
@@ -472,6 +497,145 @@
       "readiness_summary": "3 NASEM sources, most recent 2015 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "people_egg_allergies_safely_receive",
+      "question": "Can people with egg allergies safely receive flu vaccines?",
+      "priority": "high",
+      "rationale": "Corrects a specific medical myth that prevents a vulnerable population from receiving recommended preventive care",
+      "misinformation_narrative": "Many people with egg allergies believe they cannot receive flu vaccines because vaccines are grown in eggs, leading them to skip this important annual protection",
+      "public_stakes": "Egg-allergic individuals may unnecessarily avoid flu vaccination, increasing their risk of serious influenza complications",
+      "verification_status": "verified",
+      "verification_reason": "This misconception is widespread among people with egg allergies and discussed on allergy support forums and medical Q&A sites like WebMD.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "Allergies"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://www.nationalacademies.org/publications/13164"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Egg-allergic individuals can safely receive any flu vaccine regardless of egg-based formulation - claim presented as current medical guidance",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/flu/prevent/egg-allergies.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Seasonal Influenza Vaccine and People with Egg Allergies",
+          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
+          "relevance": "Directly addresses the safety of flu vaccines for people with egg allergies with current clinical recommendations"
+        },
+        {
+          "organization": "ACIP (Advisory Committee on Immunization Practices)",
+          "organization_full": "ACIP (Advisory Committee on Immunization Practices)",
+          "base_url": "",
+          "url": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7202a1.htm",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of the Advisory Committee on Immunization Practices",
+          "description": "Official ACIP recommendations published in MMWR that include specific guidance on egg allergies and influenza vaccination",
+          "relevance": "Contains the authoritative clinical recommendations for flu vaccination in people with egg allergies"
+        },
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "url": "https://www.aaaai.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Egg Allergy and the Influenza Vaccine",
+          "description": "AAAAI's patient education resource on egg allergies and flu vaccination safety",
+          "relevance": "Provides expert allergist perspective on the safety of flu vaccines for egg-allergic individuals"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Approves First Seasonal Influenza Vaccine Manufactured Using Cell Culture Technology",
+          "description": "FDA announcement about egg-free flu vaccine options and regulatory perspective",
+          "relevance": "Provides information about egg-free vaccine alternatives and FDA's regulatory stance on vaccine safety for egg-allergic individuals"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing influenza in people with asthma",
+          "description": "Systematic review that includes analysis of influenza vaccine safety in people with allergies and asthma",
+          "relevance": "Provides systematic review evidence on influenza vaccine safety in populations that may include people with egg allergies"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/flu/protect/vaccine/egg-allergies.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Seasonal Influenza Vaccine and Persons with Egg Allergies",
+          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
+          "relevance": "Directly addresses the safety and recommendations for flu vaccines in egg-allergic individuals"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://pediatrics.aappublications.org/content/early/2021/09/02/peds.2021-053745",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Recommendations for Prevention and Control of Influenza in Children",
+          "description": "AAP policy statement that includes guidance on influenza vaccination in children with egg allergies",
+          "relevance": "Provides clinical recommendations specifically for egg-allergic patients receiving flu vaccines"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology",
+          "organization_full": "American College of Allergy, Asthma & Immunology",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Egg Allergy and Vaccines",
+          "description": "ACAAI guidance on vaccination considerations for patients with egg allergies",
+          "relevance": "Provides expert allergy specialist perspective on safe vaccination practices for egg-allergic patients"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Vaccines against influenza WHO position paper",
+          "description": "WHO's comprehensive position paper on influenza vaccines including contraindications and precautions",
+          "relevance": "International health authority guidance on influenza vaccine safety considerations including egg allergies"
+        }
+      ],
+      "discovered_at": "2026-03-11",
+      "last_seen": "2026-03-15",
+      "times_seen": 4,
+      "status": "pending",
+      "newest_source_year": 2012,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "vaccines_cause_food_allergies",
       "question": "Do vaccines cause food allergies?",
       "priority": "high",
@@ -521,15 +685,15 @@
       "id": "vaccines_cause_food_allergies_children",
       "question": "Do vaccines cause food allergies in children?",
       "priority": "high",
-      "rationale": "Corrects a specific vaccine-allergy misconception that affects both vaccination decisions and understanding of allergy causation",
-      "misinformation_narrative": "Some parents believe vaccines trigger food allergies, when extensive research shows no causal relationship between vaccination and food allergy development",
-      "public_stakes": "Parents may delay or refuse vaccines based on false allergy fears, increasing risk of preventable diseases while not addressing actual allergy risk factors",
+      "rationale": "Addresses a specific vaccine-allergy causation myth that affects both vaccination rates and allergy management",
+      "misinformation_narrative": "Some parents believe vaccines trigger or cause food allergies, leading them to delay or refuse vaccination to protect their children from developing allergies",
+      "public_stakes": "Vaccine hesitancy based on allergy fears can lead to disease outbreaks while also preventing proper allergy prevention strategies",
       "verification_status": "verified",
-      "verification_reason": "Parenting forums, alternative health websites, and some anti-vaccine groups actively promote the belief that vaccines trigger food allergies.",
+      "verification_reason": "Anti-vaccine groups and some parenting forums on Facebook and Reddit frequently discuss vaccines causing food allergies, often citing debunked studies.",
       "tags": [
-        "Vaccines & Immunization",
-        "Food Safety",
-        "Pediatric Health"
+        "Health and Medicine",
+        "Vaccines",
+        "Allergies"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -616,8 +780,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-09",
-      "last_seen": "2026-03-14",
-      "times_seen": 5,
+      "last_seen": "2026-03-15",
+      "times_seen": 6,
       "status": "pending",
       "newest_source_year": 1993,
       "signal_count": 7,
@@ -843,6 +1007,52 @@
       "newest_source_year": 2023,
       "signal_count": 3,
       "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "multivitamin_supplements_slow_biological_aging",
+      "question": "Do multivitamin supplements slow biological aging?",
+      "priority": "medium",
+      "rationale": "Addresses widespread supplement misconceptions using recent aging research",
+      "misinformation_narrative": "Supplement marketing often overstates anti-aging benefits while consumers believe daily multivitamins provide significant longevity benefits",
+      "public_stakes": "People may rely on supplements instead of proven health behaviors, or waste money on ineffective interventions",
+      "verification_status": "verified",
+      "verification_reason": "This belief is pervasive among supplement users and heavily promoted through wellness influencers on Instagram and supplement marketing materials.",
+      "tags": [
+        "Health and Medicine",
+        "Aging",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Daily briefing: A daily multivitamin slows the signs of biological ageing",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00792-6",
+          "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: A daily multivitamin may slightly slow rates of ageing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518607-a-daily-multivitamin-may-slightly-slow-rates-of-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "anti_aging_supplements_scientifically_proven",
@@ -1193,6 +1403,62 @@
       "newest_source_year": 2008,
       "signal_count": 6,
       "readiness_summary": "2 NASEM sources, most recent 2008 — sources are old · confirmed misinformation · 6 discovery signals"
+    },
+    {
+      "id": "quantum_computers_ready_solve_real",
+      "question": "Are quantum computers ready to solve real-world chemistry problems?",
+      "priority": "low",
+      "rationale": "Addresses widespread overhyping of quantum computing capabilities versus current reality",
+      "misinformation_narrative": "Quantum computing is often overhyped as being ready to revolutionize drug discovery and chemistry, when significant technical hurdles remain",
+      "public_stakes": "Unrealistic expectations may lead to misallocation of research resources and disappointed investors",
+      "verification_status": "verified",
+      "verification_reason": "Tech media, startup marketing, and science journalism often overhype quantum computing's current capabilities for chemistry applications.",
+      "tags": [
+        "Quantum Science",
+        "Technology"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States (2023)",
+          "url": "https://www.nationalacademies.org/publications/26850"
+        },
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers must overcome major technical hurdles before tackling quantum chemistry problems",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-quantum-major-technical-hurdles-tackling.html",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "2 NASEM sources, most recent 2023 · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "daily_multivitamins_slow_aging_extend",
@@ -1708,6 +1974,49 @@
       "readiness_summary": "2 NASEM sources, most recent 2015 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
+      "id": "invasive_species_silently_remodeling_ecosystems",
+      "question": "Are invasive species silently remodeling ecosystems in harmful ways?",
+      "priority": "low",
+      "rationale": "Addresses public underestimation of invasive species impacts on ecosystem stability",
+      "misinformation_narrative": "Many people underestimate the ecological impact of invasive species, viewing them as minor nuisances rather than major ecosystem disruptors",
+      "public_stakes": "Inadequate response to invasive species can lead to irreversible ecosystem damage and biodiversity loss",
+      "verification_status": "needs_review",
+      "verification_reason": "This is more about lack of awareness than active misinformation; people aren't specifically believing invasive species are harmless in organized communities.",
+      "tags": [
+        "Biodiversity",
+        "Conservation",
+        "Environment"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Twenty-First Century Ecosystems: Managing the Living World Two Centuries After Darwin: Report of a Symposium (2012)",
+          "url": "https://www.nationalacademies.org/publications/13109"
+        },
+        {
+          "name": "Climate Change and Ecosystems (None)",
+          "url": "https://www.nationalacademies.org/publications/25504"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: How biological invasions are silently remodeling ecosystems",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-biological-invasions-silently-remodeling-ecosystems.html",
+          "date": "2026-03-12"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2012,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2012 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "dna_testing_reliably_tell_identical",
       "question": "Can DNA testing reliably tell identical twins apart?",
       "priority": "low",
@@ -2049,30 +2358,30 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
-      "id": "people_egg_allergies_safely_receive",
-      "question": "Can people with egg allergies safely receive flu vaccines?",
+      "id": "should_parents_introduce_allergenic_foods",
+      "question": "Should parents introduce allergenic foods early to prevent food allergies?",
       "priority": "high",
-      "rationale": "Updates public understanding based on evolved medical guidance that contradicts persistent safety myths",
-      "misinformation_narrative": "Many people believe egg-allergic individuals cannot receive flu vaccines because they're made using eggs, when current medical guidance states all egg-allergic people can safely receive any flu vaccine",
-      "public_stakes": "Egg-allergic individuals may forego important flu vaccination based on outdated safety concerns, increasing their risk of serious influenza complications",
+      "rationale": "Corrects outdated but persistent parenting advice that contradicts current evidence-based guidelines",
+      "misinformation_narrative": "Many parents believe avoiding allergenic foods in infancy prevents allergies, contradicting current evidence-based recommendations for early introduction",
+      "public_stakes": "Delayed allergen introduction may increase allergy risk, while early introduction could prevent food allergies",
       "verification_status": "verified",
-      "verification_reason": "Parents with egg-allergic children frequently express this concern on allergy support forums and to pediatricians, reflecting outdated guidance.",
+      "verification_reason": "Many parenting forums, older pediatric advice, and well-meaning relatives still promote delayed introduction of allergenic foods despite updated guidelines.",
       "tags": [
-        "Vaccines & Immunization",
-        "Food Safety",
-        "Public Health"
+        "Health and Medicine",
+        "Allergies",
+        "Child Health"
       ],
       "nasem_source_count": 1,
       "nasem_sources_preview": [
         {
-          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
-          "url": "https://www.nationalacademies.org/publications/13164"
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
         }
       ],
       "discovery_sources": [
         {
           "type": "podcast_claim",
-          "text": "Egg-allergic individuals can safely receive any flu vaccine regardless of egg-based formulation - claim presented as current medical guidance",
+          "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
           "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
           "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
           "date": "2026-03-04T11:00:00"
@@ -2080,126 +2389,82 @@
       ],
       "alternative_sources": [
         {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov/flu/prevent/egg-allergies.htm",
-          "url_verified": true,
+          "organization": "American Academy of Pediatrics (AAP)",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
           "tier": 2,
-          "resource_name": "Seasonal Influenza Vaccine and People with Egg Allergies",
-          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
-          "relevance": "Directly addresses the safety of flu vaccines for people with egg allergies with current clinical recommendations"
+          "resource_name": "Clinical Report: The Effects of Early Nutritional Interventions on the Development of Atopic Disease",
+          "description": "AAP clinical report reviewing evidence on early introduction of allergenic foods and prevention of food allergies",
+          "relevance": "Provides comprehensive clinical guidance on timing of allergenic food introduction based on current evidence"
         },
         {
-          "organization": "ACIP (Advisory Committee on Immunization Practices)",
-          "organization_full": "ACIP (Advisory Committee on Immunization Practices)",
+          "organization": "National Institute of Allergy and Infectious Diseases (NIAID)",
+          "organization_full": "National Institute of Allergy and Infectious Diseases (NIAID)",
           "base_url": "",
-          "url": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7202a1.htm",
-          "url_verified": true,
+          "url": "",
+          "url_verified": false,
           "tier": 3,
-          "resource_name": "Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of the Advisory Committee on Immunization Practices",
-          "description": "Official ACIP recommendations published in MMWR that include specific guidance on egg allergies and influenza vaccination",
-          "relevance": "Contains the authoritative clinical recommendations for flu vaccination in people with egg allergies"
+          "resource_name": "Guidelines for the Prevention of Peanut Allergy in the United States",
+          "description": "NIAID evidence-based guidelines specifically addressing early peanut introduction to prevent peanut allergy",
+          "relevance": "Provides specific recommendations on early introduction of peanuts based on landmark clinical trials"
         },
         {
-          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
-          "organization_full": "American Academy of Allergy, Asthma & Immunology",
-          "base_url": "https://www.aaaai.org",
-          "url": "https://www.aaaai.org",
-          "url_verified": false,
+          "organization": "World Health Organization (WHO)",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241550086",
+          "url_verified": true,
           "tier": 2,
-          "resource_name": "Egg Allergy and the Influenza Vaccine",
-          "description": "AAAAI's patient education resource on egg allergies and flu vaccination safety",
-          "relevance": "Provides expert allergist perspective on the safety of flu vaccines for egg-allergic individuals"
+          "resource_name": "Complementary feeding: family foods for breastfed children",
+          "description": "WHO guidelines on complementary feeding including recommendations on introducing potentially allergenic foods",
+          "relevance": "International health organization guidance on timing and approach to introducing allergenic foods during complementary feeding"
         },
         {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "FDA Approves First Seasonal Influenza Vaccine Manufactured Using Cell Culture Technology",
-          "description": "FDA announcement about egg-free flu vaccine options and regulatory perspective",
-          "relevance": "Provides information about egg-free vaccine alternatives and FDA's regulatory stance on vaccine safety for egg-allergic individuals"
-        },
-        {
-          "organization": "Cochrane Library",
+          "organization": "Cochrane Collaboration",
           "organization_full": "Cochrane Library (systematic reviews)",
           "base_url": "https://www.cochranelibrary.com",
           "url": "https://www.cochranelibrary.com",
           "url_verified": false,
           "tier": 1,
-          "resource_name": "Vaccines for preventing influenza in people with asthma",
-          "description": "Systematic review that includes analysis of influenza vaccine safety in people with allergies and asthma",
-          "relevance": "Provides systematic review evidence on influenza vaccine safety in populations that may include people with egg allergies"
+          "resource_name": "Maternal dietary antigens avoidance during pregnancy or lactation, or both, for preventing or treating atopic disease in the child",
+          "description": "Cochrane systematic review examining evidence on maternal avoidance and early introduction strategies for allergy prevention",
+          "relevance": "Systematic review of randomized controlled trials on dietary interventions for food allergy prevention"
         },
         {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov/flu/protect/vaccine/egg-allergies.htm",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Seasonal Influenza Vaccine and Persons with Egg Allergies",
-          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
-          "relevance": "Directly addresses the safety and recommendations for flu vaccines in egg-allergic individuals"
-        },
-        {
-          "organization": "American Academy of Pediatrics",
-          "organization_full": "American Academy of Pediatrics",
-          "base_url": "https://www.aap.org",
-          "url": "https://pediatrics.aappublications.org/content/early/2021/09/02/peds.2021-053745",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Recommendations for Prevention and Control of Influenza in Children",
-          "description": "AAP policy statement that includes guidance on influenza vaccination in children with egg allergies",
-          "relevance": "Provides clinical recommendations specifically for egg-allergic patients receiving flu vaccines"
-        },
-        {
-          "organization": "American College of Allergy, Asthma & Immunology",
-          "organization_full": "American College of Allergy, Asthma & Immunology",
+          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
           "base_url": "",
           "url": "",
           "url_verified": false,
           "tier": 3,
-          "resource_name": "Egg Allergy and Vaccines",
-          "description": "ACAAI guidance on vaccination considerations for patients with egg allergies",
-          "relevance": "Provides expert allergy specialist perspective on safe vaccination practices for egg-allergic patients"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Vaccines against influenza WHO position paper",
-          "description": "WHO's comprehensive position paper on influenza vaccines including contraindications and precautions",
-          "relevance": "International health authority guidance on influenza vaccine safety considerations including egg allergies"
+          "resource_name": "Food Allergy: A Practice Parameter Update - 2014",
+          "description": "Evidence-based practice parameter on food allergies including prevention strategies and early introduction recommendations",
+          "relevance": "Specialist organization's evidence-based guidelines on food allergy prevention including early introduction strategies"
         }
       ],
       "discovered_at": "2026-03-11",
-      "last_seen": "2026-03-14",
-      "times_seen": 3,
+      "last_seen": "2026-03-15",
+      "times_seen": 2,
       "status": "nasem_gap",
-      "newest_source_year": 2012,
+      "newest_source_year": 2024,
       "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 9 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
       "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
       "priority": "high",
-      "rationale": "Directly addresses a specific vaccine conspiracy theory that undermines trust in medical professionals and vaccination programs",
-      "misinformation_narrative": "Many people believe pediatricians are financially incentivized by pharmaceutical companies to over-vaccinate children, when in fact this practice is illegal and doesn't occur",
-      "public_stakes": "Vaccine hesitancy based on false financial conspiracy theories leads to decreased vaccination rates and preventable disease outbreaks",
+      "rationale": "This directly addresses a widespread conspiracy theory that undermines vaccine confidence and pediatric care trust",
+      "misinformation_narrative": "Many parents believe pediatricians are financially incentivized by Big Pharma to over-vaccinate children through direct bonuses or kickbacks, making vaccination recommendations untrustworthy",
+      "public_stakes": "Parents may refuse vaccines for their children, leading to outbreaks of preventable diseases and putting vulnerable populations at risk",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and wellness blogs frequently claim pediatricians get kickbacks from Big Pharma for vaccinating.",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Children's Health Defense regularly promote this conspiracy theory about pediatrician financial incentives.",
       "tags": [
-        "Vaccines & Immunization",
-        "Public Health",
-        "Medical Ethics"
+        "Health and Medicine",
+        "Vaccines",
+        "Public Health"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -2284,15 +2549,227 @@
           "resource_name": "Addressing Vaccine Hesitancy",
           "description": "WHO guidance on vaccine hesitancy including addressing misinformation",
           "relevance": "International health authority's approach to countering vaccine misinformation"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/vaccines/hcp/conversations/understanding-vacc-work.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Vaccine Safety: Addressing Common Concerns",
+          "description": "CDC resource for healthcare providers addressing vaccine safety concerns and common misconceptions",
+          "relevance": "Provides evidence-based responses to vaccine misinformation including financial incentive claims"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.vaccinesafetynet.org/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Vaccine Safety Net",
+          "description": "WHO's global network providing reliable information on vaccine safety",
+          "relevance": "Addresses vaccine misinformation and provides factual information about vaccine safety and healthcare practices"
         }
       ],
       "discovered_at": "2026-03-13",
-      "last_seen": "2026-03-14",
-      "times_seen": 2,
+      "last_seen": "2026-03-15",
+      "times_seen": 3,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 4,
-      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 6 alternative sources identified"
+    },
+    {
+      "id": "igg_food_sensitivity_tests_reliable",
+      "question": "Are IgG food sensitivity tests reliable for diagnosing food reactions?",
+      "priority": "high",
+      "rationale": "Addresses widespread misconceptions about commercial food sensitivity testing that can harm nutrition and delay proper diagnosis",
+      "misinformation_narrative": "Many people believe commercial IgG food tests can diagnose food sensitivities and intolerances, leading to unnecessary dietary restrictions",
+      "public_stakes": "People may unnecessarily restrict diets, potentially causing nutritional deficiencies, while missing actual food allergies or medical conditions",
+      "verification_status": "verified",
+      "verification_reason": "Alternative health communities, wellness bloggers, and functional medicine practitioners actively promote IgG food sensitivity tests despite their unreliability.",
+      "tags": [
+        "Health and Medicine",
+        "Allergies",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "IgG testing has high false positive rate for food reactions - claim made but no specific statistics provided",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "tier": 2,
+          "resource_name": "Position Statement on IgG and IgG4 Testing for Food Allergies",
+          "description": "AAAAI's official position statement specifically addressing the lack of clinical validity of IgG food testing",
+          "relevance": "Directly addresses the reliability of IgG food sensitivity tests and recommends against their use for diagnosing food allergies"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "Food Allergy: A Practice Parameter Update-2014",
+          "description": "Comprehensive clinical practice guidelines that discuss appropriate and inappropriate testing methods for food allergies",
+          "relevance": "Provides evidence-based recommendations on food allergy testing and specifically addresses IgG testing limitations"
+        },
+        {
+          "organization": "European Academy of Allergy and Clinical Immunology (EAACI)",
+          "organization_full": "European Academy of Allergy and Clinical Immunology",
+          "base_url": "https://www.eaaci.org",
+          "tier": 2,
+          "resource_name": "Food Allergy and Anaphylaxis Guidelines",
+          "description": "EAACI guidelines on food allergy diagnosis and management that address testing methodologies",
+          "relevance": "International clinical guidelines that discuss evidence-based approaches to food allergy testing and reliability of different test methods"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "tier": 1,
+          "resource_name": "Skin prick tests and blood tests for identifying food allergy in children",
+          "description": "Systematic review examining the diagnostic accuracy of various food allergy tests",
+          "relevance": "Provides systematic review evidence comparing different testing methods for food allergies, including discussion of IgG testing"
+        },
+        {
+          "organization": "World Allergy Organization (WAO)",
+          "organization_full": "World Allergy Organization (WAO)",
+          "base_url": "",
+          "tier": 3,
+          "resource_name": "WAO White Book on Allergy: Update 2013",
+          "description": "Comprehensive global report on allergy diagnosis and management including testing methodologies",
+          "relevance": "International consensus document that addresses appropriate diagnostic approaches for food allergies and reliability of testing methods"
+        },
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "url": "https://www.aaaai.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Food Allergy Testing Position Statement",
+          "description": "AAAAI position statement specifically addressing IgG food testing and why it's not recommended for diagnosing food allergies",
+          "relevance": "Directly addresses the reliability and clinical utility of IgG food sensitivity tests"
+        },
+        {
+          "organization": "European Academy of Allergy and Clinical Immunology (EAACI)",
+          "organization_full": "European Academy of Allergy and Clinical Immunology",
+          "base_url": "https://www.eaaci.org",
+          "url": "https://www.eaaci.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Food Allergy and Anaphylaxis Guidelines",
+          "description": "EAACI guidelines on food allergy diagnosis that include recommendations against IgG testing",
+          "relevance": "International clinical guidelines specifically addressing appropriate food allergy testing methods"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Food Allergy Diagnosis and Testing Guidelines",
+          "description": "ACAAI clinical guidance on appropriate food allergy testing methods and criticism of unproven tests",
+          "relevance": "Professional medical organization guidance on evidence-based food allergy testing"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Diagnostic tests for food allergy with a focus on oral food challenges: a systematic review",
+          "description": "Systematic review examining the evidence for various food allergy diagnostic tests including IgG testing",
+          "relevance": "High-quality systematic review of diagnostic test accuracy for food allergies"
+        },
+        {
+          "organization": "World Allergy Organization (WAO)",
+          "organization_full": "World Allergy Organization (WAO)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "WAO White Book on Allergy: Update 2013",
+          "description": "Comprehensive global review of allergy diagnosis and management including sections on inappropriate testing methods",
+          "relevance": "International consensus document addressing evidence-based allergy testing practices"
+        },
+        {
+          "organization": "Canadian Society of Allergy and Clinical Immunology (CSACI)",
+          "organization_full": "Canadian Society of Allergy and Clinical Immunology (CSACI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "CSACI Position Statement on IgG Food Testing",
+          "description": "Position paper specifically evaluating the evidence for IgG food sensitivity testing",
+          "relevance": "Directly examines the scientific evidence behind IgG food testing reliability"
+        },
+        {
+          "organization": "NIH National Institute of Allergy and Infectious Diseases",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Guidelines for the Diagnosis and Management of Food Allergy in the United States",
+          "description": "Comprehensive federal guidelines on food allergy diagnosis including evaluation of diagnostic tests",
+          "relevance": "Authoritative federal guidance on appropriate diagnostic methods for food allergies and intolerances"
+        },
+        {
+          "organization": "Canadian Society of Allergy and Clinical Immunology (CSACI)",
+          "organization_full": "Canadian Society of Allergy and Clinical Immunology (CSACI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Position Statement on IgG Testing for Food Allergies",
+          "description": "Official position statement specifically addressing IgG food testing from Canadian allergy specialists",
+          "relevance": "Provides clinical evidence and recommendations specifically about IgG food sensitivity testing reliability"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Food Allergy Testing Guidelines",
+          "description": "Clinical guidelines on appropriate food allergy testing methods",
+          "relevance": "Discusses evidence-based diagnostic approaches and addresses limitations of various testing methods including IgG"
+        },
+        {
+          "organization": "World Allergy Organization (WAO)",
+          "organization_full": "World Allergy Organization (WAO)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "WAO White Book on Allergy: Update 2013",
+          "description": "Comprehensive global review of allergy diagnosis and management including food allergy testing methods",
+          "relevance": "International expert consensus on evidence-based approaches to food allergy diagnosis"
+        }
+      ],
+      "discovered_at": "2026-03-08",
+      "last_seen": "2026-03-15",
+      "times_seen": 4,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 15 alternative sources identified"
     },
     {
       "id": "igg_blood_tests_accurate_diagnosing",
@@ -2565,184 +3042,6 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
-      "id": "igg_food_sensitivity_tests_reliable",
-      "question": "Are IgG food sensitivity tests reliable for diagnosing food allergies or intolerances?",
-      "priority": "high",
-      "rationale": "Addresses widespread commercial misinformation about unvalidated medical tests with clear clinical evidence",
-      "misinformation_narrative": "Consumers widely believe commercial IgG food sensitivity tests can diagnose food allergies or guide elimination diets, when these tests have high false positive rates and lack clinical validity",
-      "public_stakes": "People spend hundreds of dollars on unreliable tests and unnecessarily restrict their diets, potentially causing nutritional deficiencies while missing real food allergies",
-      "verification_status": "verified",
-      "verification_reason": "Alternative health practitioners and direct-to-consumer companies like Everlywell heavily market IgG tests on Instagram and wellness websites, with many consumers believing these diagnose food sensitivities.",
-      "tags": [
-        "Health and Medicine",
-        "Consumer Health"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "IgG testing has high false positive rate for food reactions - claim made but no specific statistics provided",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
-          "organization_full": "American Academy of Allergy, Asthma & Immunology",
-          "base_url": "https://www.aaaai.org",
-          "tier": 2,
-          "resource_name": "Position Statement on IgG and IgG4 Testing for Food Allergies",
-          "description": "AAAAI's official position statement specifically addressing the lack of clinical validity of IgG food testing",
-          "relevance": "Directly addresses the reliability of IgG food sensitivity tests and recommends against their use for diagnosing food allergies"
-        },
-        {
-          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
-          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
-          "base_url": "",
-          "tier": 3,
-          "resource_name": "Food Allergy: A Practice Parameter Update-2014",
-          "description": "Comprehensive clinical practice guidelines that discuss appropriate and inappropriate testing methods for food allergies",
-          "relevance": "Provides evidence-based recommendations on food allergy testing and specifically addresses IgG testing limitations"
-        },
-        {
-          "organization": "European Academy of Allergy and Clinical Immunology (EAACI)",
-          "organization_full": "European Academy of Allergy and Clinical Immunology",
-          "base_url": "https://www.eaaci.org",
-          "tier": 2,
-          "resource_name": "Food Allergy and Anaphylaxis Guidelines",
-          "description": "EAACI guidelines on food allergy diagnosis and management that address testing methodologies",
-          "relevance": "International clinical guidelines that discuss evidence-based approaches to food allergy testing and reliability of different test methods"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "tier": 1,
-          "resource_name": "Skin prick tests and blood tests for identifying food allergy in children",
-          "description": "Systematic review examining the diagnostic accuracy of various food allergy tests",
-          "relevance": "Provides systematic review evidence comparing different testing methods for food allergies, including discussion of IgG testing"
-        },
-        {
-          "organization": "World Allergy Organization (WAO)",
-          "organization_full": "World Allergy Organization (WAO)",
-          "base_url": "",
-          "tier": 3,
-          "resource_name": "WAO White Book on Allergy: Update 2013",
-          "description": "Comprehensive global report on allergy diagnosis and management including testing methodologies",
-          "relevance": "International consensus document that addresses appropriate diagnostic approaches for food allergies and reliability of testing methods"
-        },
-        {
-          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
-          "organization_full": "American Academy of Allergy, Asthma & Immunology",
-          "base_url": "https://www.aaaai.org",
-          "url": "https://www.aaaai.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Food Allergy Testing Position Statement",
-          "description": "AAAAI position statement specifically addressing IgG food testing and why it's not recommended for diagnosing food allergies",
-          "relevance": "Directly addresses the reliability and clinical utility of IgG food sensitivity tests"
-        },
-        {
-          "organization": "European Academy of Allergy and Clinical Immunology (EAACI)",
-          "organization_full": "European Academy of Allergy and Clinical Immunology",
-          "base_url": "https://www.eaaci.org",
-          "url": "https://www.eaaci.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Food Allergy and Anaphylaxis Guidelines",
-          "description": "EAACI guidelines on food allergy diagnosis that include recommendations against IgG testing",
-          "relevance": "International clinical guidelines specifically addressing appropriate food allergy testing methods"
-        },
-        {
-          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
-          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Food Allergy Diagnosis and Testing Guidelines",
-          "description": "ACAAI clinical guidance on appropriate food allergy testing methods and criticism of unproven tests",
-          "relevance": "Professional medical organization guidance on evidence-based food allergy testing"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Diagnostic tests for food allergy with a focus on oral food challenges: a systematic review",
-          "description": "Systematic review examining the evidence for various food allergy diagnostic tests including IgG testing",
-          "relevance": "High-quality systematic review of diagnostic test accuracy for food allergies"
-        },
-        {
-          "organization": "World Allergy Organization (WAO)",
-          "organization_full": "World Allergy Organization (WAO)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "WAO White Book on Allergy: Update 2013",
-          "description": "Comprehensive global review of allergy diagnosis and management including sections on inappropriate testing methods",
-          "relevance": "International consensus document addressing evidence-based allergy testing practices"
-        },
-        {
-          "organization": "Canadian Society of Allergy and Clinical Immunology (CSACI)",
-          "organization_full": "Canadian Society of Allergy and Clinical Immunology (CSACI)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "CSACI Position Statement on IgG Food Testing",
-          "description": "Position paper specifically evaluating the evidence for IgG food sensitivity testing",
-          "relevance": "Directly examines the scientific evidence behind IgG food testing reliability"
-        },
-        {
-          "organization": "NIH National Institute of Allergy and Infectious Diseases",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Guidelines for the Diagnosis and Management of Food Allergy in the United States",
-          "description": "Comprehensive federal guidelines on food allergy diagnosis including evaluation of diagnostic tests",
-          "relevance": "Authoritative federal guidance on appropriate diagnostic methods for food allergies and intolerances"
-        },
-        {
-          "organization": "Canadian Society of Allergy and Clinical Immunology (CSACI)",
-          "organization_full": "Canadian Society of Allergy and Clinical Immunology (CSACI)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Position Statement on IgG Testing for Food Allergies",
-          "description": "Official position statement specifically addressing IgG food testing from Canadian allergy specialists",
-          "relevance": "Provides clinical evidence and recommendations specifically about IgG food sensitivity testing reliability"
-        },
-        {
-          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
-          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Food Allergy Testing Guidelines",
-          "description": "Clinical guidelines on appropriate food allergy testing methods",
-          "relevance": "Discusses evidence-based diagnostic approaches and addresses limitations of various testing methods including IgG"
-        }
-      ],
-      "discovered_at": "2026-03-08",
-      "last_seen": "2026-03-11",
-      "times_seen": 3,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 14 alternative sources identified"
-    },
-    {
       "id": "mrna_vaccines_experimental_gene_therapy",
       "question": "Are mRNA vaccines experimental gene therapy?",
       "priority": "high",
@@ -2967,6 +3266,154 @@
       "newest_source_year": 0,
       "signal_count": 3,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "powered_educational_tools_replace_human",
+      "question": "Can AI-powered educational tools replace human teachers effectively?",
+      "priority": "medium",
+      "rationale": "Addresses both overhyped expectations and unfounded fears about AI in education",
+      "misinformation_narrative": "Some believe AI can fully replace human instruction while others fear it will completely undermine education quality",
+      "public_stakes": "Poor implementation of AI in education could harm student learning outcomes and teacher effectiveness",
+      "verification_status": "verified",
+      "verification_reason": "Education technology debates on LinkedIn, Twitter, and education forums feature both extreme positions about AI replacing teachers entirely.",
+      "tags": [
+        "Artificial Intelligence",
+        "Education"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: ‘Einstein‘ bot sharpens debate over AI in the classroom",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00764-w",
+          "date": "2026-03-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI can ‘same-ify’ human expression — can some brains resist its pull?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00781-9",
+          "date": "2026-03-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: We don’t know if AI-powered toys are safe, but they’re here anyway",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518741-we-dont-know-if-ai-powered-toys-are-safe-but-theyre-here-anyway/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "species_evolve_fast_enough_survive",
+      "question": "Can species evolve fast enough to survive rapid climate change?",
+      "priority": "medium",
+      "rationale": "Addresses misconceptions about evolutionary response rates to rapid environmental change",
+      "misinformation_narrative": "Some assume evolution will naturally save species from climate change, while others believe no adaptation is possible",
+      "public_stakes": "Misunderstanding evolutionary timescales may lead to inadequate conservation efforts or false confidence in natural adaptation",
+      "verification_status": "verified",
+      "verification_reason": "Climate change discussions often feature people on both extremes making these assumptions about evolutionary adaptation speed on social media and forums.",
+      "tags": [
+        "Evolution",
+        "Climate Change",
+        "Conservation"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Can species evolve fast enough to survive as the planet heats up?",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519241-can-species-evolve-fast-enough-to-survive-as-the-planet-heats-up/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-2/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 2: Terrestrial and Freshwater Ecosystems and Their Services",
+          "description": "IPCC AR6 Working Group II report chapter examining ecosystem responses to climate change, including species adaptation rates and evolutionary responses",
+          "relevance": "Provides comprehensive assessment of species' capacity for evolutionary adaptation under rapid climate change scenarios"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate Change Impacts on Ecosystems",
+          "description": "EPA's assessment of climate change effects on ecosystems, including species migration and adaptation capabilities",
+          "relevance": "Documents observed ecosystem changes and species responses to recent climate shifts"
+        },
+        {
+          "organization": "USGCRP",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment - Chapter 7: Ecosystems, Ecosystem Services, and Biodiversity",
+          "description": "Comprehensive U.S. government assessment of climate impacts on biodiversity and ecosystem function, including species adaptation potential",
+          "relevance": "Evaluates rates of climate change versus species adaptation capacity in U.S. ecosystems"
+        },
+        {
+          "organization": "IUCN",
+          "organization_full": "IUCN",
+          "base_url": "",
+          "url": "https://iucn.org/resources",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Species and Climate Change: More than Just the Polar Bear",
+          "description": "IUCN issue brief examining climate change impacts across species and their adaptive capacity",
+          "relevance": "Provides species-specific examples of evolutionary responses and limits to adaptation under climate change"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.noaa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate.gov: How fast is evolution?",
+          "description": "NOAA's examination of evolutionary timescales compared to climate change rates",
+          "relevance": "Addresses the fundamental question of whether evolutionary processes can keep pace with anthropogenic climate change"
+        },
+        {
+          "organization": "USGS",
+          "organization_full": "USGS",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Climate Adaptation Science Centers - Species Response to Climate Change",
+          "description": "USGS research on how species respond to climate change through range shifts, phenology changes, and adaptation",
+          "relevance": "Provides scientific evidence on observed and projected species responses to rapid environmental change"
+        }
+      ],
+      "discovered_at": "2026-03-14",
+      "last_seen": "2026-03-15",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 6 alternative sources identified"
     },
     {
       "id": "artificial_intelligence_accurately_diagnose_medical",
@@ -3550,14 +3997,14 @@
       "id": "was_yuri_gagarin_actually_first",
       "question": "Was Yuri Gagarin actually the first human in space?",
       "priority": "low",
-      "rationale": "Corrects persistent space history myths with authoritative historical evidence",
-      "misinformation_narrative": "Alternative histories and conspiracy theories claim other cosmonauts reached space before Gagarin, when historical evidence clearly establishes his priority",
-      "public_stakes": "Historical misinformation undermines accurate understanding of space exploration milestones and Soviet space program achievements",
+      "rationale": "Addresses persistent space conspiracy theories with authoritative historical evidence",
+      "misinformation_narrative": "Conspiracy theories claim other cosmonauts preceded Gagarin but died or were covered up by the Soviet Union",
+      "public_stakes": "Historical misinformation undermines trust in space agencies and scientific achievements",
       "verification_status": "verified",
-      "verification_reason": "Conspiracy theory communities and some alternative history channels promote claims about secret earlier Soviet space flights.",
+      "verification_reason": "This conspiracy theory circulates in space enthusiast forums, conspiracy theory websites, and occasionally surfaces on Reddit and YouTube.",
       "tags": [
-        "Space History",
-        "Historical Accuracy"
+        "Space Science",
+        "History"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -3572,102 +4019,12 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-12",
-      "last_seen": "2026-03-14",
-      "times_seen": 2,
+      "last_seen": "2026-03-15",
+      "times_seen": 3,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
-    },
-    {
-      "id": "species_evolve_fast_enough_survive",
-      "question": "Can species evolve fast enough to survive rapid climate change?",
-      "priority": "low",
-      "rationale": "Corrects misconceptions about evolutionary adaptation rates relative to climate change speed",
-      "misinformation_narrative": "Some climate change denial arguments suggest species will simply adapt to warming, when evolutionary timescales typically far exceed the pace of current climate change",
-      "public_stakes": "Underestimating extinction risks may reduce support for conservation efforts and climate action when species protection is urgent",
-      "verification_status": "verified",
-      "verification_reason": "Climate denial arguments frequently claim \"nature will adapt\" on conservative media platforms and climate skeptic websites.",
-      "tags": [
-        "Climate Change",
-        "Evolution",
-        "Conservation Biology"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Biodiversity & Conservation: Can species evolve fast enough to survive as the planet heats up?",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2519241-can-species-evolve-fast-enough-to-survive-as-the-planet-heats-up/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-03-13"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "IPCC",
-          "organization_full": "Intergovernmental Panel on Climate Change",
-          "base_url": "https://www.ipcc.ch",
-          "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-2/",
-          "url_verified": true,
-          "tier": 1,
-          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 2: Terrestrial and Freshwater Ecosystems and Their Services",
-          "description": "IPCC AR6 Working Group II report chapter examining ecosystem responses to climate change, including species adaptation rates and evolutionary responses",
-          "relevance": "Provides comprehensive assessment of species' capacity for evolutionary adaptation under rapid climate change scenarios"
-        },
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Climate Change Impacts on Ecosystems",
-          "description": "EPA's assessment of climate change effects on ecosystems, including species migration and adaptation capabilities",
-          "relevance": "Documents observed ecosystem changes and species responses to recent climate shifts"
-        },
-        {
-          "organization": "USGCRP",
-          "organization_full": "U.S. Global Change Research Program",
-          "base_url": "https://www.globalchange.gov",
-          "url": "https://www.globalchange.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Fourth National Climate Assessment - Chapter 7: Ecosystems, Ecosystem Services, and Biodiversity",
-          "description": "Comprehensive U.S. government assessment of climate impacts on biodiversity and ecosystem function, including species adaptation potential",
-          "relevance": "Evaluates rates of climate change versus species adaptation capacity in U.S. ecosystems"
-        },
-        {
-          "organization": "IUCN",
-          "organization_full": "IUCN",
-          "base_url": "",
-          "url": "https://iucn.org/resources",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Species and Climate Change: More than Just the Polar Bear",
-          "description": "IUCN issue brief examining climate change impacts across species and their adaptive capacity",
-          "relevance": "Provides species-specific examples of evolutionary responses and limits to adaptation under climate change"
-        },
-        {
-          "organization": "NOAA",
-          "organization_full": "National Oceanic and Atmospheric Administration",
-          "base_url": "https://www.noaa.gov",
-          "url": "https://www.noaa.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Climate.gov: How fast is evolution?",
-          "description": "NOAA's examination of evolutionary timescales compared to climate change rates",
-          "relevance": "Addresses the fundamental question of whether evolutionary processes can keep pace with anthropogenic climate change"
-        }
-      ],
-      "discovered_at": "2026-03-14",
-      "last_seen": "2026-03-14",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "yuri_gagarin_really_first_human",
@@ -3797,6 +4154,91 @@
       "times_seen": 1,
       "status": "nasem_gap",
       "newest_source_year": 2010,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "climate_change_slowing_earth_rotation",
+      "question": "Is climate change slowing Earth's rotation at an unprecedented rate?",
+      "priority": "low",
+      "rationale": "Addresses misconceptions about the scale and scope of climate change impacts beyond just temperature",
+      "misinformation_narrative": "Some dismiss this as natural variation or exaggerated climate impacts, not understanding the unprecedented scale of current changes",
+      "public_stakes": "Underestimating the broad impacts of climate change may reduce support for mitigation efforts",
+      "verification_status": "needs_review",
+      "verification_reason": "This is too obscure and technical; most climate skeptics aren't specifically addressing Earth's rotation changes in their arguments.",
+      "tags": [
+        "Climate Change",
+        "Earth Science"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate change is slowing Earth's spin at unprecedented rate compared to past 3.6 million years",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-climate-earth-unprecedented-million-years.html",
+          "date": "2026-03-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Days really are dragging! Length of days on Earth is increasing at an 'unprecedented' rate - and scientists say climate change is to blame",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15642669/Length-days-increasing-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2021: The Physical Science Basis (AR6 Working Group I)",
+          "description": "IPCC's comprehensive assessment of physical climate science including sea level rise and ice mass changes",
+          "relevance": "Contains evidence on ice sheet mass loss and sea level rise which affect Earth's rotation through mass redistribution"
+        },
+        {
+          "organization": "NASA",
+          "organization_full": "National Aeronautics and Space Administration",
+          "base_url": "https://www.nasa.gov",
+          "url": "https://science.nasa.gov/climate-change/evidence/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Earth's Rotation and Climate Change",
+          "description": "NASA's climate change evidence documentation including Earth system interactions",
+          "relevance": "NASA tracks Earth's rotation changes and their relationship to climate phenomena like ice mass redistribution"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.ncei.noaa.gov/access/monitoring/products/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Global Climate Report",
+          "description": "NOAA's comprehensive climate monitoring including sea level and ice mass changes",
+          "relevance": "Documents climate-related changes in ice mass and sea level that influence Earth's rotation rate"
+        },
+        {
+          "organization": "USGCRP",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment Volume I: Climate Science Special Report",
+          "description": "Comprehensive U.S. government assessment of climate science including sea level rise and ice sheet dynamics",
+          "relevance": "Addresses climate-driven changes in ice mass distribution that affect Earth's moment of inertia and rotation"
+        }
+      ],
+      "discovered_at": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
@@ -4053,6 +4495,164 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "severe_covid_flu_increase_lung",
+      "question": "Can severe COVID-19 or flu increase lung cancer risk years later?",
+      "priority": "low",
+      "rationale": "Addresses misconceptions about long-term consequences of respiratory infections that could affect screening and prevention behaviors",
+      "misinformation_narrative": "Many people dismiss COVID-19 as having only short-term effects, not understanding potential long-term cancer risks from severe respiratory infections",
+      "public_stakes": "People may not seek appropriate follow-up care or take prevention seriously if they don't understand long-term risks",
+      "verification_status": "needs_review",
+      "verification_reason": "While some minimize COVID's long-term effects, the specific belief about increased lung cancer risk isn't a widespread public misconception being actively disputed.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer",
+        "Infectious Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Severe COVID or flu may raise lung cancer risk years later",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260313055130.htm",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "National Cancer Institute (NCI)",
+          "organization_full": "National Cancer Institute (NCI)",
+          "base_url": "",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/infectious-agents",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Cancer Causes and Prevention - Infectious Agents",
+          "description": "NCI's comprehensive overview of how infections can contribute to cancer development, including mechanisms of chronic inflammation",
+          "relevance": "Provides scientific framework for understanding infection-cancer relationships, though may not specifically address COVID-19 or influenza lung cancer risk"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Post-COVID Conditions",
+          "description": "CDC's fact sheet on long-term health effects following COVID-19 infection",
+          "relevance": "May contain information about persistent lung damage and ongoing research into long-term consequences, though specific cancer risk data may be limited"
+        },
+        {
+          "organization": "World Health Organization (WHO)",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Infections as a cause of cancer",
+          "description": "WHO fact sheet on cancer that includes section on infectious causes",
+          "relevance": "Provides global perspective on infection-cancer relationships and established mechanisms, though unlikely to have specific data on COVID-19/flu lung cancer risk"
+        }
+      ],
+      "discovered_at": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
+    },
+    {
+      "id": "most_americans_now_receive_vaccines",
+      "question": "Do most Americans now receive vaccines from pharmacists rather than doctors?",
+      "priority": "low",
+      "rationale": "Addresses misconceptions about pharmacist qualifications and vaccine safety across different providers",
+      "misinformation_narrative": "Some people believe pharmacist vaccination is less safe or legitimate than physician-administered vaccines",
+      "public_stakes": "Vaccine hesitancy based on provider type could reduce vaccination rates and access",
+      "verification_status": "needs_review",
+      "verification_reason": "While some may prefer doctor-administered vaccines, there isn't a significant public belief that pharmacist vaccination is unsafe or illegitimate.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "Healthcare Access"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Over 70% of all Americans receive vaccinations from pharmacies or pharmacists - verify current vaccination administration statistics",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Vaccination Coverage and Provider Data from the National Immunization Survey",
+          "description": "CDC's annual surveillance data on vaccination coverage including provider type information",
+          "relevance": "Contains data on where Americans receive vaccines, broken down by provider type including pharmacies vs. healthcare providers"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7206a1.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Adult Vaccination Coverage - United States, 2021",
+          "description": "MMWR report on adult vaccination coverage with provider setting data",
+          "relevance": "Recent surveillance data that includes information about vaccination provider types and settings"
+        },
+        {
+          "organization": "American Pharmacists Association (APhA)",
+          "organization_full": "American Pharmacists Association (APhA)",
+          "base_url": "",
+          "url": "https://www.pharmacist.com/Practice/Patient-Care-Services/Immunizations",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Pharmacy-Based Immunization Delivery Annual Report",
+          "description": "Annual data on immunizations administered in pharmacy settings",
+          "relevance": "Provides statistics on the volume and types of vaccines administered by pharmacists"
+        },
+        {
+          "organization": "HHS/ASPE",
+          "organization_full": "HHS/ASPE",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Issue Brief: Expanding Access to COVID-19 Vaccines Through Retail Pharmacies",
+          "description": "Federal analysis of pharmacy-based vaccination programs and access patterns",
+          "relevance": "Documents the role of pharmacies in vaccine delivery and trends in vaccine administration sites"
+        },
+        {
+          "organization": "NACCHO",
+          "organization_full": "NACCHO",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "2022 National Profile of Local Health Departments - Immunization Services",
+          "description": "Survey data on immunization service delivery across different provider types",
+          "relevance": "Provides data on vaccination delivery patterns across different healthcare settings including comparison of pharmacy vs. traditional medical settings"
+        }
+      ],
+      "discovered_at": "2026-03-15",
+      "last_seen": "2026-03-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
