@@ -1,0 +1,45 @@
+{
+  "id": "don_people_notice_gradual_climate",
+  "question": "Why don't people notice gradual climate change happening around them?",
+  "topic": "This explains why direct observation isn't reliable for detecting climate change, countering a commo",
+  "tags": [
+    "Climate Science",
+    "Psychology",
+    "Risk Perception"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Summary for Policymakers — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change Indicators in the United States — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fourth National Climate Assessment - Volume II: Impacts, Risks, and Adaptation in the United States — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Climate.gov: Climate Change Impacts — NOAA",
+      "url": "https://www.noaa.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Why we fail to notice climate change",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/climate-change-binary-frozen-weather",
+      "date": "2026-03-13"
+    }
+  ]
+}

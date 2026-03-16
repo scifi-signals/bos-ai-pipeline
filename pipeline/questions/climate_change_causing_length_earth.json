@@ -1,0 +1,50 @@
+{
+  "id": "climate_change_causing_length_earth",
+  "question": "Is climate change causing the length of Earth's days to increase?",
+  "topic": "This demonstrates how climate change affects Earth systems in unexpected ways that skeptics might di",
+  "tags": [
+    "Climate Science",
+    "Earth Sciences"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2021: The Physical Science Basis (Working Group I) — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg1/",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Earth Orientation Parameters and Space Geodesy — NASA Goddard Space Flight Center",
+      "url": "https://www.nasa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Earth Orientation Parameters — International Earth Rotation and Reference Systems Service (IERS)",
+      "url": "https://www.iers.org/IERS/EN/DataProducts/EarthOrientationData/eop.html",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Global Climate Change Indicators — NOAA National Centers for Environmental Information",
+      "url": "https://www.ncei.noaa.gov/data/oceans/woa/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fourth National Climate Assessment — U.S. Global Change Research Program (USGCRP)",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Days really are dragging! Length of days on Earth is increasing at an 'unprecedented' rate - and scientists say climate change is to blame",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15642669/Length-days-increasing-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-03-13"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-15T12:32:12Z",
+  "generated_at": "2026-03-16T12:47:34Z",
   "questions": [
     {
       "id": "global_warming_accelerated_significantly_since",
@@ -106,6 +106,45 @@
       "newest_source_year": 2024,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "should_parents_avoid_introducing_common",
+      "question": "Should parents avoid introducing common allergens like peanuts to infants to prevent food allergies?",
+      "priority": "high",
+      "rationale": "This corrects widespread parenting advice that directly contradicts established medical evidence from the LEAP trial",
+      "misinformation_narrative": "Many parents believe they should delay introducing peanuts, eggs, and other allergens to babies to prevent allergies, when evidence shows early introduction actually reduces allergy risk",
+      "public_stakes": "Delayed allergen introduction increases food allergy rates, leading to lifelong medical conditions and potential fatal reactions",
+      "verification_status": "verified",
+      "verification_reason": "This was widespread medical advice until recently, with many parents and even some healthcare providers still believing delayed allergen introduction is safer.",
+      "tags": [
+        "Health and Medicine",
+        "Pediatrics",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "anti_aging_supplements_compounds_actually",
@@ -497,145 +536,6 @@
       "readiness_summary": "3 NASEM sources, most recent 2015 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
-      "id": "people_egg_allergies_safely_receive",
-      "question": "Can people with egg allergies safely receive flu vaccines?",
-      "priority": "high",
-      "rationale": "Corrects a specific medical myth that prevents a vulnerable population from receiving recommended preventive care",
-      "misinformation_narrative": "Many people with egg allergies believe they cannot receive flu vaccines because vaccines are grown in eggs, leading them to skip this important annual protection",
-      "public_stakes": "Egg-allergic individuals may unnecessarily avoid flu vaccination, increasing their risk of serious influenza complications",
-      "verification_status": "verified",
-      "verification_reason": "This misconception is widespread among people with egg allergies and discussed on allergy support forums and medical Q&A sites like WebMD.",
-      "tags": [
-        "Health and Medicine",
-        "Vaccines",
-        "Allergies"
-      ],
-      "nasem_source_count": 1,
-      "nasem_sources_preview": [
-        {
-          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
-          "url": "https://www.nationalacademies.org/publications/13164"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Egg-allergic individuals can safely receive any flu vaccine regardless of egg-based formulation - claim presented as current medical guidance",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov/flu/prevent/egg-allergies.htm",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Seasonal Influenza Vaccine and People with Egg Allergies",
-          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
-          "relevance": "Directly addresses the safety of flu vaccines for people with egg allergies with current clinical recommendations"
-        },
-        {
-          "organization": "ACIP (Advisory Committee on Immunization Practices)",
-          "organization_full": "ACIP (Advisory Committee on Immunization Practices)",
-          "base_url": "",
-          "url": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7202a1.htm",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of the Advisory Committee on Immunization Practices",
-          "description": "Official ACIP recommendations published in MMWR that include specific guidance on egg allergies and influenza vaccination",
-          "relevance": "Contains the authoritative clinical recommendations for flu vaccination in people with egg allergies"
-        },
-        {
-          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
-          "organization_full": "American Academy of Allergy, Asthma & Immunology",
-          "base_url": "https://www.aaaai.org",
-          "url": "https://www.aaaai.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Egg Allergy and the Influenza Vaccine",
-          "description": "AAAAI's patient education resource on egg allergies and flu vaccination safety",
-          "relevance": "Provides expert allergist perspective on the safety of flu vaccines for egg-allergic individuals"
-        },
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "FDA Approves First Seasonal Influenza Vaccine Manufactured Using Cell Culture Technology",
-          "description": "FDA announcement about egg-free flu vaccine options and regulatory perspective",
-          "relevance": "Provides information about egg-free vaccine alternatives and FDA's regulatory stance on vaccine safety for egg-allergic individuals"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Vaccines for preventing influenza in people with asthma",
-          "description": "Systematic review that includes analysis of influenza vaccine safety in people with allergies and asthma",
-          "relevance": "Provides systematic review evidence on influenza vaccine safety in populations that may include people with egg allergies"
-        },
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov/flu/protect/vaccine/egg-allergies.htm",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Seasonal Influenza Vaccine and Persons with Egg Allergies",
-          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
-          "relevance": "Directly addresses the safety and recommendations for flu vaccines in egg-allergic individuals"
-        },
-        {
-          "organization": "American Academy of Pediatrics",
-          "organization_full": "American Academy of Pediatrics",
-          "base_url": "https://www.aap.org",
-          "url": "https://pediatrics.aappublications.org/content/early/2021/09/02/peds.2021-053745",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Recommendations for Prevention and Control of Influenza in Children",
-          "description": "AAP policy statement that includes guidance on influenza vaccination in children with egg allergies",
-          "relevance": "Provides clinical recommendations specifically for egg-allergic patients receiving flu vaccines"
-        },
-        {
-          "organization": "American College of Allergy, Asthma & Immunology",
-          "organization_full": "American College of Allergy, Asthma & Immunology",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Egg Allergy and Vaccines",
-          "description": "ACAAI guidance on vaccination considerations for patients with egg allergies",
-          "relevance": "Provides expert allergy specialist perspective on safe vaccination practices for egg-allergic patients"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Vaccines against influenza WHO position paper",
-          "description": "WHO's comprehensive position paper on influenza vaccines including contraindications and precautions",
-          "relevance": "International health authority guidance on influenza vaccine safety considerations including egg allergies"
-        }
-      ],
-      "discovered_at": "2026-03-11",
-      "last_seen": "2026-03-15",
-      "times_seen": 4,
-      "status": "pending",
-      "newest_source_year": 2012,
-      "signal_count": 1,
-      "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 1 discovery signal"
-    },
-    {
       "id": "vaccines_cause_food_allergies",
       "question": "Do vaccines cause food allergies?",
       "priority": "high",
@@ -685,15 +585,15 @@
       "id": "vaccines_cause_food_allergies_children",
       "question": "Do vaccines cause food allergies in children?",
       "priority": "high",
-      "rationale": "Addresses a specific vaccine-allergy causation myth that affects both vaccination rates and allergy management",
-      "misinformation_narrative": "Some parents believe vaccines trigger or cause food allergies, leading them to delay or refuse vaccination to protect their children from developing allergies",
-      "public_stakes": "Vaccine hesitancy based on allergy fears can lead to disease outbreaks while also preventing proper allergy prevention strategies",
+      "rationale": "This corrects a specific vaccine-related myth that contributes to vaccine hesitancy",
+      "misinformation_narrative": "Some parents believe vaccines are responsible for the rise in childhood food allergies, leading them to refuse vaccination",
+      "public_stakes": "Vaccine refusal based on this false belief leaves children vulnerable to preventable diseases while not preventing food allergies",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine groups and some parenting forums on Facebook and Reddit frequently discuss vaccines causing food allergies, often citing debunked studies.",
+      "verification_reason": "Anti-vaccine groups on social media platforms frequently blame vaccines for the rise in food allergies and autoimmune conditions.",
       "tags": [
         "Health and Medicine",
         "Vaccines",
-        "Allergies"
+        "Pediatrics"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -780,8 +680,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-09",
-      "last_seen": "2026-03-15",
-      "times_seen": 6,
+      "last_seen": "2026-03-16",
+      "times_seen": 7,
       "status": "pending",
       "newest_source_year": 1993,
       "signal_count": 7,
@@ -829,6 +729,70 @@
       "newest_source_year": 2024,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "quantum_computers_ready_solve_real",
+      "question": "Are quantum computers ready to solve real-world problems in chemistry and drug discovery?",
+      "priority": "medium",
+      "rationale": "This corrects widespread misconceptions about the current state and capabilities of quantum computing",
+      "misinformation_narrative": "Media hype suggests quantum computers are already revolutionizing drug discovery and chemistry, when current systems cannot yet outperform classical computers for practical problems",
+      "public_stakes": "Overestimating quantum computing capabilities may lead to misallocation of research funding and unrealistic expectations about medical breakthroughs",
+      "verification_status": "verified",
+      "verification_reason": "Tech media and quantum computing companies routinely oversell current quantum capabilities in press releases and investor presentations.",
+      "tags": [
+        "Technology",
+        "Computing",
+        "Research"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States (2023)",
+          "url": "https://www.nationalacademies.org/publications/26850"
+        },
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers must overcome major technical hurdles before tackling quantum chemistry problems",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-quantum-major-technical-hurdles-tackling.html",
+          "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computing meets the Möbius molecule",
+          "origin": "STM — Ars Technica Science",
+          "url": "https://arstechnica.com/science/2026/03/quantum-computing-meets-the-mobius-molecule/",
+          "date": "2026-03-14"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-15",
+      "last_seen": "2026-03-16",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 3,
+      "readiness_summary": "2 NASEM sources, most recent 2023 · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "daily_multivitamins_slow_aging_provide",
@@ -1405,62 +1369,6 @@
       "readiness_summary": "2 NASEM sources, most recent 2008 — sources are old · confirmed misinformation · 6 discovery signals"
     },
     {
-      "id": "quantum_computers_ready_solve_real",
-      "question": "Are quantum computers ready to solve real-world chemistry problems?",
-      "priority": "low",
-      "rationale": "Addresses widespread overhyping of quantum computing capabilities versus current reality",
-      "misinformation_narrative": "Quantum computing is often overhyped as being ready to revolutionize drug discovery and chemistry, when significant technical hurdles remain",
-      "public_stakes": "Unrealistic expectations may lead to misallocation of research resources and disappointed investors",
-      "verification_status": "verified",
-      "verification_reason": "Tech media, startup marketing, and science journalism often overhype quantum computing's current capabilities for chemistry applications.",
-      "tags": [
-        "Quantum Science",
-        "Technology"
-      ],
-      "nasem_source_count": 2,
-      "nasem_sources_preview": [
-        {
-          "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States (2023)",
-          "url": "https://www.nationalacademies.org/publications/26850"
-        },
-        {
-          "name": "Quantum Computing: Progress and Prospects (2019)",
-          "url": "https://www.nationalacademies.org/publications/25196"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-03-13"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-03-13"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: Quantum computers must overcome major technical hurdles before tackling quantum chemistry problems",
-          "origin": "STM — Phys.org",
-          "url": "https://phys.org/news/2026-03-quantum-major-technical-hurdles-tackling.html",
-          "date": "2026-03-13"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-03-15",
-      "last_seen": "2026-03-15",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2023,
-      "signal_count": 2,
-      "readiness_summary": "2 NASEM sources, most recent 2023 · confirmed misinformation · 2 discovery signals"
-    },
-    {
       "id": "daily_multivitamins_slow_aging_extend",
       "question": "Do daily multivitamins slow aging and extend lifespan?",
       "priority": "low",
@@ -1521,6 +1429,52 @@
       "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 3 discovery signals"
     },
     {
+      "id": "daily_multivitamins_slow_biological_aging",
+      "question": "Do daily multivitamins slow biological aging?",
+      "priority": "low",
+      "rationale": "This balances inflated marketing claims against emerging evidence of real but limited benefits",
+      "misinformation_narrative": "Anti-aging supplement marketing often oversells multivitamin benefits, while people may dismiss modest but real anti-aging effects shown in recent research",
+      "public_stakes": "Either excessive supplement spending based on exaggerated claims or missing real but modest health benefits",
+      "verification_status": "needs_review",
+      "verification_reason": "This conflates marketing hype with public misinformation and treats uncertain research findings as established facts people are wrongly dismissing.",
+      "tags": [
+        "Health and Medicine",
+        "Aging",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Daily briefing: A daily multivitamin slows the signs of biological ageing",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00792-6",
+          "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: A daily multivitamin may slightly slow rates of ageing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518607-a-daily-multivitamin-may-slightly-slow-rates-of-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
       "id": "did_nasa_really_change_asteroid",
       "question": "Did NASA really change an asteroid's orbit, and what does this mean for planetary defense?",
       "priority": "low",
@@ -1565,6 +1519,45 @@
       "newest_source_year": 2023,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "did_nasa_successfully_change_asteroid",
+      "question": "Did NASA successfully change an asteroid's orbit for planetary defense?",
+      "priority": "low",
+      "rationale": "This demonstrates that asteroid deflection is now proven technology, not science fiction",
+      "misinformation_narrative": "Some people may dismiss planetary defense efforts as science fiction or government waste, not realizing NASA has demonstrated real capability to deflect asteroids",
+      "public_stakes": "Undervaluing planetary defense programs could reduce support for protecting Earth from asteroid impacts",
+      "verification_status": "needs_review",
+      "verification_reason": "While some dismiss space programs generally, there's no significant community specifically denying or misunderstanding the DART mission's success.",
+      "tags": [
+        "Space Science",
+        "Planetary Defense",
+        "Technology"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26522"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: NASA changed an asteroid's orbit around the sun for the first time",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518205-nasa-changed-an-asteroids-orbit-around-the-sun-for-the-first-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "ocean_geoengineering_projects_safely_combat",
@@ -2134,6 +2127,49 @@
       "readiness_summary": "1 NASEM source, most recent 2008 — sources are old · misinformation narrative not yet confirmed · 6 discovery signals"
     },
     {
+      "id": "off_label_prescribing_children_unsafe",
+      "question": "Is off-label prescribing for children unsafe because the drugs aren't FDA-approved for pediatric use?",
+      "priority": "low",
+      "rationale": "This corrects misconceptions about a common and often necessary pediatric medical practice",
+      "misinformation_narrative": "Parents may fear off-label pediatric prescriptions as dangerous experimental treatments, not understanding this is often standard medical practice due to limited pediatric drug testing",
+      "public_stakes": "Parents may refuse necessary treatments for their children based on misunderstanding of off-label prescribing safety",
+      "verification_status": "needs_review",
+      "verification_reason": "While some parents may have concerns about off-label prescribing, this isn't a major organized misinformation narrative with specific communities promoting it.",
+      "tags": [
+        "Health and Medicine",
+        "Pediatrics",
+        "Drug Safety"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Challenges for the FDA: The Future of Drug Safety: Workshop Summary (2007)",
+          "url": "https://www.nationalacademies.org/publications/11969"
+        },
+        {
+          "name": "Making Better Drugs for Children with Cancer (2005)",
+          "url": "https://www.nationalacademies.org/publications/11259"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Approximately 40% or higher of treatments for children with complex diseases are off-label",
+          "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+          "date": "2026-02-18T11:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2007,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2007 — sources are old · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "off_label_medications_children_dangerous",
       "question": "Are off-label medications for children dangerous because they lack FDA approval?",
       "priority": "low",
@@ -2453,18 +2489,179 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
-      "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
-      "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
+      "id": "people_egg_allergies_safely_receive",
+      "question": "Can people with egg allergies safely receive flu vaccines?",
       "priority": "high",
-      "rationale": "This directly addresses a widespread conspiracy theory that undermines vaccine confidence and pediatric care trust",
-      "misinformation_narrative": "Many parents believe pediatricians are financially incentivized by Big Pharma to over-vaccinate children through direct bonuses or kickbacks, making vaccination recommendations untrustworthy",
-      "public_stakes": "Parents may refuse vaccines for their children, leading to outbreaks of preventable diseases and putting vulnerable populations at risk",
+      "rationale": "This corrects an outdated medical concern that prevents people from getting protective vaccination",
+      "misinformation_narrative": "Many people with egg allergies believe they cannot receive flu vaccines because some are grown in eggs, when current medical guidance shows they can safely receive any flu vaccine",
+      "public_stakes": "People with egg allergies may skip flu vaccination, leaving them vulnerable to serious illness when safe vaccination is possible",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Children's Health Defense regularly promote this conspiracy theory about pediatrician financial incentives.",
+      "verification_reason": "This misconception is widespread among people with egg allergies and discussed on allergy support forums and medical Q&A sites like WebMD.",
       "tags": [
         "Health and Medicine",
         "Vaccines",
-        "Public Health"
+        "Allergies"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://www.nationalacademies.org/publications/13164"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Egg-allergic individuals can safely receive any flu vaccine regardless of egg-based formulation - claim presented as current medical guidance",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/flu/prevent/egg-allergies.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Seasonal Influenza Vaccine and People with Egg Allergies",
+          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
+          "relevance": "Directly addresses the safety of flu vaccines for people with egg allergies with current clinical recommendations"
+        },
+        {
+          "organization": "ACIP (Advisory Committee on Immunization Practices)",
+          "organization_full": "ACIP (Advisory Committee on Immunization Practices)",
+          "base_url": "",
+          "url": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7202a1.htm",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of the Advisory Committee on Immunization Practices",
+          "description": "Official ACIP recommendations published in MMWR that include specific guidance on egg allergies and influenza vaccination",
+          "relevance": "Contains the authoritative clinical recommendations for flu vaccination in people with egg allergies"
+        },
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "url": "https://www.aaaai.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Egg Allergy and the Influenza Vaccine",
+          "description": "AAAAI's patient education resource on egg allergies and flu vaccination safety",
+          "relevance": "Provides expert allergist perspective on the safety of flu vaccines for egg-allergic individuals"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Approves First Seasonal Influenza Vaccine Manufactured Using Cell Culture Technology",
+          "description": "FDA announcement about egg-free flu vaccine options and regulatory perspective",
+          "relevance": "Provides information about egg-free vaccine alternatives and FDA's regulatory stance on vaccine safety for egg-allergic individuals"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing influenza in people with asthma",
+          "description": "Systematic review that includes analysis of influenza vaccine safety in people with allergies and asthma",
+          "relevance": "Provides systematic review evidence on influenza vaccine safety in populations that may include people with egg allergies"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/flu/protect/vaccine/egg-allergies.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Seasonal Influenza Vaccine and Persons with Egg Allergies",
+          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
+          "relevance": "Directly addresses the safety and recommendations for flu vaccines in egg-allergic individuals"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://pediatrics.aappublications.org/content/early/2021/09/02/peds.2021-053745",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Recommendations for Prevention and Control of Influenza in Children",
+          "description": "AAP policy statement that includes guidance on influenza vaccination in children with egg allergies",
+          "relevance": "Provides clinical recommendations specifically for egg-allergic patients receiving flu vaccines"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology",
+          "organization_full": "American College of Allergy, Asthma & Immunology",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Egg Allergy and Vaccines",
+          "description": "ACAAI guidance on vaccination considerations for patients with egg allergies",
+          "relevance": "Provides expert allergy specialist perspective on safe vaccination practices for egg-allergic patients"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Vaccines against influenza WHO position paper",
+          "description": "WHO's comprehensive position paper on influenza vaccines including contraindications and precautions",
+          "relevance": "International health authority guidance on influenza vaccine safety considerations including egg allergies"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/flu/professionals/vaccination/index.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Seasonal Influenza Vaccination Resources for Health Professionals",
+          "description": "CDC's comprehensive guidance for healthcare professionals on flu vaccination, including contraindications and precautions for people with egg allergies",
+          "relevance": "Contains specific recommendations for administering flu vaccines to people with egg allergies"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Flu Shot and Egg Allergy",
+          "description": "Clinical guidance from allergy specialists on flu vaccination recommendations for egg-allergic patients",
+          "relevance": "Evidence-based clinical recommendations from board-certified allergists addressing this specific safety concern"
+        }
+      ],
+      "discovered_at": "2026-03-11",
+      "last_seen": "2026-03-16",
+      "times_seen": 5,
+      "status": "nasem_gap",
+      "newest_source_year": 2012,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 11 alternative sources identified"
+    },
+    {
+      "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
+      "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
+      "priority": "high",
+      "rationale": "This addresses a specific anti-vaccine conspiracy theory that undermines trust in healthcare providers and vaccination programs",
+      "misinformation_narrative": "Many vaccine-hesitant parents believe pediatricians are financially incentivized by Big Pharma to over-vaccinate children through kickbacks and bonuses",
+      "public_stakes": "Parents may delay or refuse vaccines for their children, leading to preventable diseases and potential outbreaks",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Children's Health Defense regularly promote claims about pediatricians receiving pharmaceutical kickbacks.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -2503,6 +2700,13 @@
           "origin": "STM — NY Times Science",
           "url": "https://www.nytimes.com/2026/03/06/health/fda-prasad-resigns.html",
           "date": "2026-03-12"
+        },
+        {
+          "type": "podcast_topic",
+          "text": "Vaccine administration and confidence-building",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
         }
       ],
       "alternative_sources": [
@@ -2571,29 +2775,40 @@
           "resource_name": "Vaccine Safety Net",
           "description": "WHO's global network providing reliable information on vaccine safety",
           "relevance": "Addresses vaccine misinformation and provides factual information about vaccine safety and healthcare practices"
+        },
+        {
+          "organization": "Immunization Action Coalition",
+          "organization_full": "Immunization Action Coalition",
+          "base_url": "",
+          "url": "https://www.immunize.org/wp-content/uploads/catg.d/p2070.pdf",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Misconceptions about Vaccines",
+          "description": "Comprehensive fact sheet addressing vaccine misconceptions and myths",
+          "relevance": "Directly addresses common vaccine misinformation including claims about financial incentives"
         }
       ],
       "discovered_at": "2026-03-13",
-      "last_seen": "2026-03-15",
-      "times_seen": 3,
+      "last_seen": "2026-03-16",
+      "times_seen": 4,
       "status": "nasem_gap",
       "newest_source_year": 0,
-      "signal_count": 4,
-      "readiness_summary": "No NASEM coverage — 6 alternative sources identified"
+      "signal_count": 5,
+      "readiness_summary": "No NASEM coverage — 7 alternative sources identified"
     },
     {
       "id": "igg_food_sensitivity_tests_reliable",
-      "question": "Are IgG food sensitivity tests reliable for diagnosing food reactions?",
+      "question": "Are IgG food sensitivity tests reliable for diagnosing food allergies or intolerances?",
       "priority": "high",
-      "rationale": "Addresses widespread misconceptions about commercial food sensitivity testing that can harm nutrition and delay proper diagnosis",
-      "misinformation_narrative": "Many people believe commercial IgG food tests can diagnose food sensitivities and intolerances, leading to unnecessary dietary restrictions",
-      "public_stakes": "People may unnecessarily restrict diets, potentially causing nutritional deficiencies, while missing actual food allergies or medical conditions",
+      "rationale": "This addresses a lucrative alternative health scam that exploits people's desire to understand digestive issues",
+      "misinformation_narrative": "Many people pay for expensive IgG food sensitivity tests believing they accurately identify problem foods, when these tests have high false positive rates and are not medically valid",
+      "public_stakes": "People unnecessarily restrict diets based on invalid tests, potentially causing nutritional deficiencies and wasting money on unproven treatments",
       "verification_status": "verified",
-      "verification_reason": "Alternative health communities, wellness bloggers, and functional medicine practitioners actively promote IgG food sensitivity tests despite their unreliability.",
+      "verification_reason": "Alternative health practitioners and wellness influencers on Instagram and TikTok heavily promote IgG food sensitivity tests despite lack of scientific validity.",
       "tags": [
         "Health and Medicine",
-        "Allergies",
-        "Nutrition"
+        "Alternative Medicine",
+        "Diagnostics"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -2761,15 +2976,37 @@
           "resource_name": "WAO White Book on Allergy: Update 2013",
           "description": "Comprehensive global review of allergy diagnosis and management including food allergy testing methods",
           "relevance": "International expert consensus on evidence-based approaches to food allergy diagnosis"
+        },
+        {
+          "organization": "Canadian Society of Allergy and Clinical Immunology (CSACI)",
+          "organization_full": "Canadian Society of Allergy and Clinical Immunology (CSACI)",
+          "base_url": "",
+          "url": "https://csaci.ca/guidelines/",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Guidelines for the Diagnosis and Management of Food Allergy",
+          "description": "Canadian clinical practice guidelines that address inappropriate use of IgG food testing",
+          "relevance": "National medical society guidance on evidence-based food allergy testing"
+        },
+        {
+          "organization": "World Allergy Organization (WAO)",
+          "organization_full": "World Allergy Organization (WAO)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "WAO White Book on Allergy: Update 2013",
+          "description": "Comprehensive global review of allergy diagnosis and management, including food allergy testing methods",
+          "relevance": "International expert consensus on appropriate allergy testing, including food sensitivities"
         }
       ],
       "discovered_at": "2026-03-08",
-      "last_seen": "2026-03-15",
-      "times_seen": 4,
+      "last_seen": "2026-03-16",
+      "times_seen": 5,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 15 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 17 alternative sources identified"
     },
     {
       "id": "igg_blood_tests_accurate_diagnosing",
@@ -3313,6 +3550,85 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "don_people_notice_gradual_climate",
+      "question": "Why don't people notice gradual climate change happening around them?",
+      "priority": "medium",
+      "rationale": "This explains why direct observation isn't reliable for detecting climate change, countering a common skeptic argument",
+      "misinformation_narrative": "Climate skeptics argue that if climate change were real, people would notice obvious changes, not understanding psychological and perceptual barriers to detecting gradual environmental shifts",
+      "public_stakes": "Failure to recognize climate impacts may reduce personal climate action and support for adaptation measures",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptics on conservative media and social platforms frequently argue that climate change would be more obvious if it were real.",
+      "tags": [
+        "Climate Science",
+        "Psychology",
+        "Risk Perception"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why we fail to notice climate change",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/climate-change-binary-frozen-weather",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Summary for Policymakers",
+          "description": "IPCC's assessment includes discussion of detection and attribution of climate change impacts, including challenges in perceiving gradual changes",
+          "relevance": "Addresses scientific understanding of climate change detection and human perception of gradual environmental changes"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate Change Indicators in the United States",
+          "description": "EPA's comprehensive report documenting long-term climate trends and indicators, with discussion of baseline shifting and detection challenges",
+          "relevance": "Provides context on why gradual climate changes may be difficult to detect without long-term data analysis"
+        },
+        {
+          "organization": "USGCRP",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment - Volume II: Impacts, Risks, and Adaptation in the United States",
+          "description": "National climate assessment that discusses challenges in climate change detection and attribution, including human perception issues",
+          "relevance": "Government assessment that addresses barriers to climate change perception and detection at local and regional scales"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.noaa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate.gov: Climate Change Impacts",
+          "description": "NOAA resource explaining climate change detection challenges and the role of natural variability in masking long-term trends",
+          "relevance": "Explains scientific challenges in detecting climate signals that parallel human perception challenges"
+        }
+      ],
+      "discovered_at": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "species_evolve_fast_enough_survive",
@@ -4499,17 +4815,17 @@
     },
     {
       "id": "severe_covid_flu_increase_lung",
-      "question": "Can severe COVID-19 or flu increase lung cancer risk years later?",
+      "question": "Does severe COVID-19 or flu increase lung cancer risk years later?",
       "priority": "low",
-      "rationale": "Addresses misconceptions about long-term consequences of respiratory infections that could affect screening and prevention behaviors",
-      "misinformation_narrative": "Many people dismiss COVID-19 as having only short-term effects, not understanding potential long-term cancer risks from severe respiratory infections",
-      "public_stakes": "People may not seek appropriate follow-up care or take prevention seriously if they don't understand long-term risks",
+      "rationale": "This addresses misconceptions about the long-term health impacts of respiratory infections",
+      "misinformation_narrative": "Many people dismiss the long-term health consequences of COVID-19 and flu, not understanding these infections may increase cancer risk through chronic inflammation",
+      "public_stakes": "Underestimating infection risks may lead to poor prevention practices and delayed cancer screening for high-risk individuals",
       "verification_status": "needs_review",
-      "verification_reason": "While some minimize COVID's long-term effects, the specific belief about increased lung cancer risk isn't a widespread public misconception being actively disputed.",
+      "verification_reason": "This frames dismissal of long-term COVID effects as \"misinformation\" when the cancer connection is speculative research, not established fact people are denying.",
       "tags": [
         "Health and Medicine",
-        "Cancer",
-        "Infectious Disease"
+        "Infectious Disease",
+        "Cancer"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -4520,6 +4836,13 @@
           "origin": "STM — ScienceDaily",
           "url": "https://www.sciencedaily.com/releases/2026/03/260313055130.htm",
           "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists tested vitamin D for COVID and found an unexpected long COVID clue",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315001845.htm",
+          "date": "2026-03-15"
         }
       ],
       "alternative_sources": [
@@ -4558,12 +4881,304 @@
         }
       ],
       "discovered_at": "2026-03-15",
-      "last_seen": "2026-03-15",
-      "times_seen": 1,
+      "last_seen": "2026-03-16",
+      "times_seen": 2,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
+    },
+    {
+      "id": "climate_change_causing_length_earth",
+      "question": "Is climate change causing the length of Earth's days to increase?",
+      "priority": "low",
+      "rationale": "This demonstrates how climate change affects Earth systems in unexpected ways that skeptics might dismiss",
+      "misinformation_narrative": "Some climate skeptics dismiss unusual climate effects as impossible, not realizing that climate change can affect Earth's rotation through ice sheet melting and mass redistribution",
+      "public_stakes": "Underestimating the scope of climate impacts may reduce support for climate action and adaptation measures",
+      "verification_status": "needs_review",
+      "verification_reason": "Climate skeptics don't typically argue about Earth's rotation; this appears to be an obscure scientific finding dressed up as addressing common misconceptions.",
+      "tags": [
+        "Climate Science",
+        "Earth Sciences"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Days really are dragging! Length of days on Earth is increasing at an 'unprecedented' rate - and scientists say climate change is to blame",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15642669/Length-days-increasing-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg1/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2021: The Physical Science Basis (Working Group I)",
+          "description": "IPCC's comprehensive assessment of physical climate science including changes to Earth's rotation and polar ice mass distribution",
+          "relevance": "Contains scientific evidence on how climate change affects Earth's mass distribution and rotational dynamics"
+        },
+        {
+          "organization": "NASA Goddard Space Flight Center",
+          "organization_full": "National Aeronautics and Space Administration",
+          "base_url": "https://www.nasa.gov",
+          "url": "https://www.nasa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Earth Orientation Parameters and Space Geodesy",
+          "description": "NASA's data and research on Earth orientation changes including day length variations due to mass redistribution",
+          "relevance": "Provides direct measurements and analysis of changes in Earth's rotation rate and day length"
+        },
+        {
+          "organization": "International Earth Rotation and Reference Systems Service (IERS)",
+          "organization_full": "International Earth Rotation and Reference Systems Service (IERS)",
+          "base_url": "",
+          "url": "https://www.iers.org/IERS/EN/DataProducts/EarthOrientationData/eop.html",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Earth Orientation Parameters",
+          "description": "Official international service monitoring Earth's rotation including length of day variations",
+          "relevance": "Authoritative source for precise measurements of day length changes over time"
+        },
+        {
+          "organization": "NOAA National Centers for Environmental Information",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.ncei.noaa.gov/data/oceans/woa/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Global Climate Change Indicators",
+          "description": "NOAA's comprehensive climate indicators including ocean mass distribution changes",
+          "relevance": "Provides data on climate-related changes in mass distribution that affect Earth's rotation"
+        },
+        {
+          "organization": "U.S. Global Change Research Program (USGCRP)",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment",
+          "description": "Comprehensive U.S. climate assessment including physical changes to Earth systems",
+          "relevance": "May contain information on how climate change affects Earth's physical properties including rotation"
+        }
+      ],
+      "discovered_at": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "adenovirus_based_covid_vaccines_astrazeneca",
+      "question": "Are adenovirus-based COVID vaccines (J&J, AstraZeneca) more dangerous than mRNA vaccines?",
+      "priority": "low",
+      "rationale": "This provides balanced information about real but rare vaccine complications that became politically charged",
+      "misinformation_narrative": "Some people believe adenovirus vaccines are inherently more dangerous, while others dismiss the rare but real thrombotic complications these vaccines can cause",
+      "public_stakes": "Either avoiding safe vaccines due to exaggerated fears or not recognizing real but rare risks that require medical attention",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents nuanced vaccine safety discussions as simple misinformation when both benefits and risks are legitimate medical considerations.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Adenovirus-based vaccines (AstraZeneca, J&J) occurred at ~1 in 200,000 rate of thrombotic complications - figure cited from Science article discussed",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccine Safety Update",
+          "description": "CDC's comprehensive safety monitoring data for all authorized COVID-19 vaccines including mRNA and viral vector vaccines",
+          "relevance": "Provides comparative safety data and adverse event monitoring for both vaccine types"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Coronavirus (COVID-19) Update: FDA Limits Use of Janssen COVID-19 Vaccine to Certain Individuals",
+          "description": "FDA press release on restricting J&J vaccine use due to thrombosis with thrombocytopenia syndrome (TTS) risk",
+          "relevance": "Official FDA guidance on specific safety concerns with adenovirus-based J&J vaccine"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Statement of the WHO Global Advisory Committee on Vaccine Safety (GACVS) COVID-19 subcommittee on safety signals related to the AstraZeneca COVID-19 vaccine",
+          "description": "WHO's safety assessment of AstraZeneca vaccine and rare blood clotting events",
+          "relevance": "International health authority's evaluation of adenovirus vaccine safety concerns"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing COVID-19 in healthy adults: an overview of reviews",
+          "description": "Cochrane systematic review comparing efficacy and safety of different COVID-19 vaccine types",
+          "relevance": "Evidence-based comparison of safety profiles across different vaccine platforms including mRNA and viral vector"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Thrombosis with thrombocytopenia syndrome (TTS) following Janssen COVID-19 vaccine",
+          "description": "CDC's specific guidance on TTS risk associated with J&J adenovirus vaccine",
+          "relevance": "Detailed analysis of the specific rare adverse event linked to adenovirus-based vaccines"
+        }
+      ],
+      "discovered_at": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "powered_toys_safely_interact_children",
+      "question": "Can AI-powered toys safely interact with children?",
+      "priority": "low",
+      "rationale": "This addresses a blind spot in child safety as AI toys proliferate without safety standards",
+      "misinformation_narrative": "Parents may assume AI toys are safe because they're sold commercially, not realizing there are no established safety standards for AI interactions with children",
+      "public_stakes": "Children may be exposed to inappropriate content, privacy violations, or psychological manipulation through unregulated AI systems",
+      "verification_status": "needs_review",
+      "verification_reason": "Parents generally aren't debating AI toy safety standards; this appears to anticipate a problem rather than address current widespread misconceptions.",
+      "tags": [
+        "Technology",
+        "Child Safety",
+        "Artificial Intelligence"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: We don’t know if AI-powered toys are safe, but they’re here anyway",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518741-we-dont-know-if-ai-powered-toys-are-safe-but-theyre-here-anyway/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "most_americans_now_getting_vaccines",
+      "question": "Are most Americans now getting their vaccines from pharmacies instead of doctors?",
+      "priority": "low",
+      "rationale": "This corrects outdated assumptions about where vaccines are available",
+      "misinformation_narrative": "Some people may not realize pharmacies have become major vaccination providers, leading them to think vaccines are less accessible than they actually are",
+      "public_stakes": "Underestimating vaccine accessibility may prevent people from getting needed immunizations",
+      "verification_status": "needs_review",
+      "verification_reason": "Confusion about where vaccines are available doesn't constitute a meaningful misinformation narrative that people actively promote or debate.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Healthcare Access"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Over 70% of all Americans receive vaccinations from pharmacies or pharmacists - verify current vaccination administration statistics",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Vaccination Coverage and Provider Data",
+          "description": "CDC's adult vaccination coverage reports that include data on vaccination provider types",
+          "relevance": "Contains survey data on where adults receive vaccinations, including pharmacy vs. healthcare provider settings"
+        },
+        {
+          "organization": "HHS",
+          "organization_full": "HHS",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "National Vaccine Plan Annual Reports",
+          "description": "Department of Health and Human Services reports on vaccine delivery infrastructure",
+          "relevance": "Tracks trends in vaccine administration sites and healthcare delivery models"
+        },
+        {
+          "organization": "NCHS",
+          "organization_full": "NCHS",
+          "base_url": "",
+          "url": "https://www.cdc.gov/nchs/nhis/index.htm",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "National Health Interview Survey (NHIS) Vaccination Data",
+          "description": "National Center for Health Statistics survey data on healthcare utilization including vaccination locations",
+          "relevance": "Contains population-level data on where Americans receive healthcare services including vaccinations"
+        },
+        {
+          "organization": "AMA",
+          "organization_full": "American Medical Association",
+          "base_url": "https://www.ama-assn.org",
+          "url": "https://www.ama-assn.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Practice Management and Health Policy Research Reports",
+          "description": "American Medical Association studies on healthcare delivery trends and practice patterns",
+          "relevance": "May contain data on shifts in vaccination delivery from physician offices to retail pharmacy settings"
+        }
+      ],
+      "discovered_at": "2026-03-16",
+      "last_seen": "2026-03-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "most_americans_now_receive_vaccines",

@@ -1,0 +1,58 @@
+{
+  "id": "adenovirus_based_covid_vaccines_astrazeneca",
+  "question": "Are adenovirus-based COVID vaccines (J&J, AstraZeneca) more dangerous than mRNA vaccines?",
+  "topic": "This provides balanced information about real but rare vaccine complications that became politically",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "COVID-19 Vaccine Safety Update — CDC",
+      "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Coronavirus (COVID-19) Update: FDA Limits Use of Janssen COVID-19 Vaccine to Certain Individuals — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Statement of the WHO Global Advisory Committee on Vaccine Safety (GACVS) COVID-19 subcommittee on safety signals related to the AstraZeneca COVID-19 vaccine — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaccines for preventing COVID-19 in healthy adults: an overview of reviews — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Thrombosis with thrombocytopenia syndrome (TTS) following Janssen COVID-19 vaccine — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Adenovirus-based vaccines (AstraZeneca, J&J) occurred at ~1 in 200,000 rate of thrombotic complications - figure cited from Science article discussed",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Adenovirus-based COVID-19 vaccine adverse events and thrombotic mechanisms",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    }
+  ]
+}

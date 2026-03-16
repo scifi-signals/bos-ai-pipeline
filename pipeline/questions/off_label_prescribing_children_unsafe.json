@@ -1,0 +1,40 @@
+{
+  "id": "off_label_prescribing_children_unsafe",
+  "question": "Is off-label prescribing for children unsafe because the drugs aren't FDA-approved for pediatric use?",
+  "topic": "This corrects misconceptions about a common and often necessary pediatric medical practice",
+  "tags": [
+    "Health and Medicine",
+    "Pediatrics",
+    "Drug Safety"
+  ],
+  "sources": [
+    {
+      "name": "Challenges for the FDA: The Future of Drug Safety: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/11969",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Making Better Drugs for Children with Cancer",
+      "url": "https://www.nationalacademies.org/publications/11259",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Approximately 40% or higher of treatments for children with complex diseases are off-label",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Kids.Dot trial took 20 years from conception to publication and guideline change",
+      "origin": "Unbiased Science: Kid Tested, FDA Approved: The Science of Pediatric Clinical Trials",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/kid-tested-fda-approved-the-science-of-pediatric-clinical-trials/",
+      "date": "2026-02-18T11:00:00"
+    }
+  ]
+}
