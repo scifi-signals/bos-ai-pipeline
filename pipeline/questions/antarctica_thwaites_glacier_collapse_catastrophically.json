@@ -1,0 +1,39 @@
+{
+  "id": "antarctica_thwaites_glacier_collapse_catastrophically",
+  "question": "Is Antarctica's Thwaites Glacier about to collapse catastrophically?",
+  "topic": "Clarifies sensationalized climate reporting that creates either false alarm or dangerous complacency",
+  "tags": [
+    "Climate Change",
+    "Sea Level Rise"
+  ],
+  "sources": [
+    {
+      "name": "Mid-Term Assessment of Progress on the 2015 Strategic Vision for Antarctic and Southern Ocean Research",
+      "url": "https://www.nationalacademies.org/publications/26338",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research",
+      "url": "https://www.nationalacademies.org/publications/27160",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Models warn Thwaites Glacier could rival entire Antarctic ice loss by 2067",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-thwaites-glacier-rival-entire-antarctic.html",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Is Antarctica's Doomsday Glacier about to COLLAPSE? Shocking study predicts Thwaites could shed 200 gigatonnes of ice per year by 2067 - with devastating consequences",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15649811/Antarctica-Doomsday-Glacier-COLLAPSE-2067.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-03-16"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "ocean_geoengineering_projects_combat_climate",
+  "question": "Are ocean geoengineering projects to combat climate change safe and effective?",
+  "topic": "Addresses polarized misconceptions about controversial climate intervention technologies",
+  "tags": [
+    "Climate Change",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration",
+      "url": "https://www.nationalacademies.org/publications/26278",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Controversial geoengineering project sees scientists pump 65,000 litres of chemicals into the ocean to stop global warming",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15631303/Controversial-geoengineering-project-chemicals-ocean.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-03-15"
+    }
+  ]
+}

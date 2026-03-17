@@ -1,0 +1,34 @@
+{
+  "id": "did_covid_vaccine_officials_ignore",
+  "question": "Did COVID-19 vaccine officials ignore most available safety data when making recommendations?",
+  "topic": "Addresses specific allegation about data transparency that fuels broader vaccine misinformation",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines",
+    "COVID-19"
+  ],
+  "sources": [
+    {
+      "name": "Vaccine Safety Research, Data Access, and Public Trust",
+      "url": "https://www.nationalacademies.org/publications/11234",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Officials ‘missed 99% of data’ on Covid vaccines before making recommendation, memos reveal",
+      "origin": "STM — The Guardian Science",
+      "url": "https://www.theguardian.com/us-news/2026/mar/16/covid-vaccine-recommendation-kids-pregnant-people-data",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Officials ‘missed 99% of data’ before ending Covid vaccine recommendation, memos reveal",
+      "origin": "STM — The Guardian Science",
+      "url": "https://www.theguardian.com/us-news/2026/mar/16/covid-vaccine-recommendation-kids-pregnant-people-data",
+      "date": "2026-03-16"
+    }
+  ]
+}

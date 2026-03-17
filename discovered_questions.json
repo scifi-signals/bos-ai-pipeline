@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-16T12:47:34Z",
+  "generated_at": "2026-03-17T12:44:58Z",
   "questions": [
     {
       "id": "global_warming_accelerated_significantly_since",
@@ -63,6 +63,49 @@
       "newest_source_year": 2025,
       "signal_count": 3,
       "readiness_summary": "2 NASEM sources, most recent 2025 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "early_introduction_allergenic_foods_like",
+      "question": "Does early introduction of allergenic foods like peanuts increase or decrease allergy risk in infants?",
+      "priority": "high",
+      "rationale": "Corrects persistent misconception based on outdated medical advice that contradicts current evidence",
+      "misinformation_narrative": "Many parents still believe they should delay introducing allergenic foods to prevent allergies, following outdated advice that has been reversed by current evidence",
+      "public_stakes": "Delayed allergen introduction may actually increase allergy development, missing the critical window for tolerance induction",
+      "verification_status": "verified",
+      "verification_reason": "Parenting forums, older pediatric advice websites, and grandparent communities still widely promote delayed introduction of allergenic foods despite updated guidelines.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition",
+        "Pediatrics"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        },
+        {
+          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+          "url": "https://www.nationalacademies.org/publications/25747"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Early allergen introduction reduces allergy development risk - consistent with LEAP trial and subsequent research",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "should_parents_avoid_giving_young",
@@ -536,6 +579,45 @@
       "readiness_summary": "3 NASEM sources, most recent 2015 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "did_covid_vaccine_officials_ignore",
+      "question": "Did COVID-19 vaccine officials ignore most available safety data when making recommendations?",
+      "priority": "high",
+      "rationale": "Addresses specific allegation about data transparency that fuels broader vaccine misinformation",
+      "misinformation_narrative": "Claims that authorities ignored safety data fuel broader vaccine hesitancy and distrust in public health institutions",
+      "public_stakes": "Undermined trust in vaccine safety monitoring reduces vaccination rates and weakens pandemic preparedness",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Truth Social, Telegram, and conspiracy websites regularly claim vaccine safety data was ignored or hidden by authorities.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "COVID-19"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Vaccine Safety Research, Data Access, and Public Trust (2005)",
+          "url": "https://www.nationalacademies.org/publications/11234"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Officials ‘missed 99% of data’ on Covid vaccines before making recommendation, memos reveal",
+          "origin": "STM — The Guardian Science",
+          "url": "https://www.theguardian.com/us-news/2026/mar/16/covid-vaccine-recommendation-kids-pregnant-people-data",
+          "date": "2026-03-16"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "vaccines_cause_food_allergies",
       "question": "Do vaccines cause food allergies?",
       "priority": "high",
@@ -583,17 +665,17 @@
     },
     {
       "id": "vaccines_cause_food_allergies_children",
-      "question": "Do vaccines cause food allergies in children?",
+      "question": "Can vaccines cause food allergies in children?",
       "priority": "high",
-      "rationale": "This corrects a specific vaccine-related myth that contributes to vaccine hesitancy",
-      "misinformation_narrative": "Some parents believe vaccines are responsible for the rise in childhood food allergies, leading them to refuse vaccination",
-      "public_stakes": "Vaccine refusal based on this false belief leaves children vulnerable to preventable diseases while not preventing food allergies",
+      "rationale": "Corrects a specific misconception linking vaccines to allergies that drives vaccine hesitancy",
+      "misinformation_narrative": "Parents increasingly believe vaccines trigger food allergies, leading them to delay vaccination or seek 'safer' vaccine schedules despite no scientific evidence supporting this connection",
+      "public_stakes": "Vaccine hesitancy based on allergy fears reduces immunization rates and increases disease outbreaks while not actually protecting children from developing allergies",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine groups on social media platforms frequently blame vaccines for the rise in food allergies and autoimmune conditions.",
+      "verification_reason": "Parent groups on Facebook and alternative health forums frequently discuss vaccine-allergy connections, with many seeking delayed schedules based on this fear.",
       "tags": [
         "Health and Medicine",
         "Vaccines",
-        "Pediatrics"
+        "Allergies"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -680,8 +762,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-09",
-      "last_seen": "2026-03-16",
-      "times_seen": 7,
+      "last_seen": "2026-03-17",
+      "times_seen": 8,
       "status": "pending",
       "newest_source_year": 1993,
       "signal_count": 7,
@@ -1369,6 +1451,55 @@
       "readiness_summary": "2 NASEM sources, most recent 2008 — sources are old · confirmed misinformation · 6 discovery signals"
     },
     {
+      "id": "antarctica_thwaites_glacier_collapse_catastrophically",
+      "question": "Is Antarctica's Thwaites Glacier about to collapse catastrophically?",
+      "priority": "low",
+      "rationale": "Clarifies sensationalized climate reporting that creates either false alarm or dangerous complacency",
+      "misinformation_narrative": "Conflicting reports either dismiss glacier collapse as alarmist or sensationalize immediate catastrophic collapse, creating confusion about actual timeline and risks",
+      "public_stakes": "Misunderstanding glacier collapse timeline affects support for climate action and coastal community planning",
+      "verification_status": "needs_review",
+      "verification_reason": "While glacier reporting varies, there's no clear widespread public misconception specifically about Thwaites Glacier collapse timeline.",
+      "tags": [
+        "Climate Change",
+        "Sea Level Rise"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Mid-Term Assessment of Progress on the 2015 Strategic Vision for Antarctic and Southern Ocean Research (2022)",
+          "url": "https://www.nationalacademies.org/publications/26338"
+        },
+        {
+          "name": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research (2024)",
+          "url": "https://www.nationalacademies.org/publications/27160"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Models warn Thwaites Glacier could rival entire Antarctic ice loss by 2067",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-thwaites-glacier-rival-entire-antarctic.html",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Is Antarctica's Doomsday Glacier about to COLLAPSE? Shocking study predicts Thwaites could shed 200 gigatonnes of ice per year by 2067 - with devastating consequences",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15649811/Antarctica-Doomsday-Glacier-COLLAPSE-2067.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-16"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 2,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
       "id": "daily_multivitamins_slow_aging_extend",
       "question": "Do daily multivitamins slow aging and extend lifespan?",
       "priority": "low",
@@ -1558,6 +1689,44 @@
       "newest_source_year": 2023,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "ocean_geoengineering_projects_combat_climate",
+      "question": "Are ocean geoengineering projects to combat climate change safe and effective?",
+      "priority": "low",
+      "rationale": "Addresses polarized misconceptions about controversial climate intervention technologies",
+      "misinformation_narrative": "Sensationalized reporting may either promote geoengineering as a 'silver bullet' solution or dismiss it as dangerous without nuanced understanding of research and risks",
+      "public_stakes": "Misunderstanding geoengineering could lead to overconfidence in untested solutions or rejection of legitimate research into climate interventions",
+      "verification_status": "needs_review",
+      "verification_reason": "Ocean geoengineering is too niche and technical for widespread public misconceptions; most people haven't heard of it at all.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "A Research Strategy for Ocean-based Carbon Dioxide Removal and Sequestration (2022)",
+          "url": "https://www.nationalacademies.org/publications/26278"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Controversial geoengineering project sees scientists pump 65,000 litres of chemicals into the ocean to stop global warming",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15631303/Controversial-geoengineering-project-chemicals-ocean.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-15"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2022,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2022 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "ocean_geoengineering_projects_safely_combat",
@@ -2653,11 +2822,11 @@
       "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
       "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
       "priority": "high",
-      "rationale": "This addresses a specific anti-vaccine conspiracy theory that undermines trust in healthcare providers and vaccination programs",
-      "misinformation_narrative": "Many vaccine-hesitant parents believe pediatricians are financially incentivized by Big Pharma to over-vaccinate children through kickbacks and bonuses",
-      "public_stakes": "Parents may delay or refuse vaccines for their children, leading to preventable diseases and potential outbreaks",
+      "rationale": "Directly addresses a specific, harmful misconception about physician financial incentives that undermines vaccine confidence",
+      "misinformation_narrative": "Anti-vaccine activists commonly claim that pediatricians are financially incentivized to over-vaccinate children through bonuses or kickbacks from pharmaceutical companies, making vaccination recommendations untrustworthy",
+      "public_stakes": "This false belief leads parents to distrust medical advice, delay or refuse vaccines, and puts children and communities at risk of preventable diseases",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Children's Health Defense regularly promote claims about pediatricians receiving pharmaceutical kickbacks.",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Children's Health Defense actively promote claims about pediatrician financial incentives from Big Pharma.",
       "tags": [
         "Health and Medicine",
         "Public Health",
@@ -2789,8 +2958,8 @@
         }
       ],
       "discovered_at": "2026-03-13",
-      "last_seen": "2026-03-16",
-      "times_seen": 4,
+      "last_seen": "2026-03-17",
+      "times_seen": 5,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 5,
@@ -2800,15 +2969,15 @@
       "id": "igg_food_sensitivity_tests_reliable",
       "question": "Are IgG food sensitivity tests reliable for diagnosing food allergies or intolerances?",
       "priority": "high",
-      "rationale": "This addresses a lucrative alternative health scam that exploits people's desire to understand digestive issues",
-      "misinformation_narrative": "Many people pay for expensive IgG food sensitivity tests believing they accurately identify problem foods, when these tests have high false positive rates and are not medically valid",
-      "public_stakes": "People unnecessarily restrict diets based on invalid tests, potentially causing nutritional deficiencies and wasting money on unproven treatments",
+      "rationale": "Addresses widespread misuse of commercially available but scientifically questionable testing",
+      "misinformation_narrative": "Commercial IgG tests are heavily marketed as accurate ways to identify food sensitivities, leading people to unnecessarily restrict diets based on unreliable results",
+      "public_stakes": "People waste money on expensive tests and follow restrictive diets that may be nutritionally inadequate, while missing actual food allergies or underlying health conditions",
       "verification_status": "verified",
-      "verification_reason": "Alternative health practitioners and wellness influencers on Instagram and TikTok heavily promote IgG food sensitivity tests despite lack of scientific validity.",
+      "verification_reason": "IgG food sensitivity tests are heavily marketed on Instagram, wellness websites, and naturopathic clinics, with thousands paying for unreliable results.",
       "tags": [
         "Health and Medicine",
-        "Alternative Medicine",
-        "Diagnostics"
+        "Diagnostics",
+        "Nutrition"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -2998,15 +3167,138 @@
           "resource_name": "WAO White Book on Allergy: Update 2013",
           "description": "Comprehensive global review of allergy diagnosis and management, including food allergy testing methods",
           "relevance": "International expert consensus on appropriate allergy testing, including food sensitivities"
+        },
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "IgG Food Testing Position Statement",
+          "description": "Official position statement on IgG food testing from the leading allergy professional organization",
+          "relevance": "Directly addresses the reliability and clinical utility of IgG food sensitivity tests"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Food Allergy Testing Fact Sheet",
+          "description": "Educational resource explaining appropriate food allergy testing methods",
+          "relevance": "Discusses validated vs non-validated food allergy testing approaches including IgG tests"
+        },
+        {
+          "organization": "World Allergy Organization (WAO)",
+          "organization_full": "World Allergy Organization (WAO)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "WAO White Book on Allergy: Update 2013 - Food Allergy Chapter",
+          "description": "Comprehensive global review of allergy conditions including food allergies and diagnostic approaches",
+          "relevance": "International perspective on food allergy diagnosis and testing methods"
         }
       ],
       "discovered_at": "2026-03-08",
-      "last_seen": "2026-03-16",
-      "times_seen": 5,
+      "last_seen": "2026-03-17",
+      "times_seen": 6,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 17 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 20 alternative sources identified"
+    },
+    {
+      "id": "was_origin_covid_covered_suppressed",
+      "question": "Was the origin of COVID-19 covered up or suppressed by authorities?",
+      "priority": "high",
+      "rationale": "Addresses major conspiracy theory that damages trust in public health and scientific institutions",
+      "misinformation_narrative": "Conspiracy theories claim deliberate suppression of lab leak evidence, fueling distrust in public health authorities and scientific institutions",
+      "public_stakes": "Origin conspiracy theories undermine trust in pandemic response, scientific research, and international cooperation on health threats",
+      "verification_status": "verified",
+      "verification_reason": "Lab leak conspiracy theories circulate widely on Twitter/X, YouTube, and conspiracy forums, claiming deliberate suppression by authorities.",
+      "tags": [
+        "Health and Medicine",
+        "COVID-19",
+        "Misinformation"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: A forgotten social media post may hold key clues to COVID-19’s origin",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/forgotten-social-media-post-may-hold-key-clues-covid-19-s-origin",
+          "date": "2026-03-16"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO-convened Global Study of Origins of SARS-CoV-2: China Part",
+          "description": "WHO's official report on their investigation into COVID-19 origins, including discussion of data access and transparency issues",
+          "relevance": "Documents the WHO team's access to data and any limitations they encountered during the origins investigation"
+        },
+        {
+          "organization": "U.S. Intelligence Community",
+          "organization_full": "U.S. Intelligence Community",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Declassified Intelligence Community Assessment on COVID-19 Origins",
+          "description": "Declassified U.S. intelligence assessment examining COVID-19 origins and information availability",
+          "relevance": "Official U.S. intelligence evaluation of evidence and any information gaps or restrictions encountered"
+        },
+        {
+          "organization": "U.S. House of Representatives",
+          "organization_full": "U.S. House of Representatives",
+          "base_url": "",
+          "url": "https://docs.house.gov/committee/Error/Error.aspx?Code=404",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Select Subcommittee on the Coronavirus Pandemic Final Report",
+          "description": "Congressional investigation report examining COVID-19 origins and government response",
+          "relevance": "Congressional findings on transparency and information sharing regarding COVID-19 origins"
+        },
+        {
+          "organization": "The Lancet",
+          "organization_full": "The Lancet",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "The Lancet COVID-19 Commission Final Report",
+          "description": "Independent commission's comprehensive report on COVID-19, including origins investigation",
+          "relevance": "Independent scientific assessment of evidence quality and accessibility in origins research"
+        },
+        {
+          "organization": "NIH",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FOIA Documents on EcoHealth Alliance Grants and Wuhan Research",
+          "description": "Freedom of Information Act releases regarding NIH-funded research and correspondence",
+          "relevance": "Primary documents showing what information was available when and any communication about research transparency"
+        }
+      ],
+      "discovered_at": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "igg_blood_tests_accurate_diagnosing",
@@ -3550,6 +3842,186 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "should_people_egg_allergies_avoid",
+      "question": "Should people with egg allergies avoid flu vaccines?",
+      "priority": "medium",
+      "rationale": "Corrects outdated safety concern that prevents needed vaccination in vulnerable population",
+      "misinformation_narrative": "Many people with egg allergies believe they cannot safely receive flu vaccines because they were historically made using eggs, despite current safety evidence",
+      "public_stakes": "Egg-allergic individuals may skip flu vaccination unnecessarily, increasing their risk of influenza complications",
+      "verification_status": "verified",
+      "verification_reason": "People with egg allergies commonly express this concern on health forums and to pharmacists during flu season, based on outdated warnings.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "Allergies"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Egg-allergic individuals can safely receive any flu vaccine regardless of egg-based formulation - claim presented as current medical guidance",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/flu/prevent/egg-allergies.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Influenza (Flu) Vaccination: People with Egg Allergies",
+          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
+          "relevance": "Directly addresses the question with current CDC recommendations for egg-allergic individuals"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Egg Allergies and Influenza Vaccines",
+          "description": "FDA guidance on flu vaccine safety for individuals with egg allergies",
+          "relevance": "Provides regulatory perspective on vaccine safety for egg-allergic patients"
+        },
+        {
+          "organization": "ACIP (CDC)",
+          "organization_full": "ACIP (CDC)",
+          "base_url": "",
+          "url": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7202a1.htm",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of the Advisory Committee on Immunization Practices",
+          "description": "Official ACIP recommendations including specific guidance on egg allergies and flu vaccination",
+          "relevance": "Contains authoritative clinical recommendations for healthcare providers on managing egg-allergic patients"
+        },
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "url": "https://www.aaaai.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Egg Allergy and Flu Vaccine",
+          "description": "Clinical guidance from allergy specialists on flu vaccination for egg-allergic individuals",
+          "relevance": "Provides specialist medical perspective on managing flu vaccination in egg-allergic patients"
+        },
+        {
+          "organization": "World Health Organization (WHO)",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Influenza vaccines WHO position paper",
+          "description": "WHO's position paper on influenza vaccines including contraindications and precautions",
+          "relevance": "International health authority guidance on flu vaccine safety considerations including egg allergies"
+        }
+      ],
+      "discovered_at": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "vitamin_supplementation_effectively_prevent_treat",
+      "question": "Does vitamin D supplementation effectively prevent or treat COVID-19?",
+      "priority": "medium",
+      "rationale": "Addresses specific supplement-based misinformation that could delay proper medical care",
+      "misinformation_narrative": "Social media and alternative health sources promote vitamin D as a COVID prevention or treatment, leading people to rely on supplements instead of proven interventions",
+      "public_stakes": "False confidence in vitamin D may lead to avoiding vaccines, masks, or medical treatment when infected with COVID-19",
+      "verification_status": "verified",
+      "verification_reason": "Alternative health influencers on YouTube, Facebook, and wellness websites extensively promoted vitamin D as COVID protection throughout the pandemic.",
+      "tags": [
+        "Health and Medicine",
+        "COVID-19",
+        "Supplements"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists tested vitamin D for COVID and found an unexpected long COVID clue",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315001845.htm",
+          "date": "2026-03-15"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Treatment Guidelines: Vitamin D",
+          "description": "NIH's official treatment guidelines specifically address vitamin D supplementation for COVID-19 prevention and treatment",
+          "relevance": "Provides evidence-based recommendations on vitamin D use for COVID-19 based on clinical trial data"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vitamin D supplementation to prevent acute respiratory tract infections",
+          "description": "Systematic review examining vitamin D supplementation for respiratory infections, updated to include COVID-19 studies",
+          "relevance": "Comprehensive meta-analysis of randomized controlled trials on vitamin D and respiratory infections including COVID-19"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Therapeutics and COVID-19: living guideline",
+          "description": "WHO's living guidelines on COVID-19 therapeutics that addresses various treatments including vitamin D",
+          "relevance": "International health authority's evidence-based position on vitamin D as COVID-19 treatment"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Know Your Treatment Options for COVID-19",
+          "description": "FDA consumer guidance that addresses approved vs. unproven COVID-19 treatments including supplements",
+          "relevance": "Regulatory authority's position on vitamin D and other supplements for COVID-19 treatment"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19: People with Certain Medical Conditions",
+          "description": "CDC guidance on medical conditions and COVID-19 risk factors, including discussion of vitamin D deficiency",
+          "relevance": "Addresses relationship between vitamin D status and COVID-19 outcomes based on epidemiological evidence"
+        }
+      ],
+      "discovered_at": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "don_people_notice_gradual_climate",
@@ -4815,16 +5287,16 @@
     },
     {
       "id": "severe_covid_flu_increase_lung",
-      "question": "Does severe COVID-19 or flu increase lung cancer risk years later?",
+      "question": "Can severe COVID-19 or flu increase lung cancer risk years later?",
       "priority": "low",
-      "rationale": "This addresses misconceptions about the long-term health impacts of respiratory infections",
-      "misinformation_narrative": "Many people dismiss the long-term health consequences of COVID-19 and flu, not understanding these infections may increase cancer risk through chronic inflammation",
-      "public_stakes": "Underestimating infection risks may lead to poor prevention practices and delayed cancer screening for high-risk individuals",
+      "rationale": "Clarifies emerging health risk that requires balanced public understanding for appropriate medical follow-up",
+      "misinformation_narrative": "People may dismiss persistent respiratory symptoms after severe COVID/flu as 'just long COVID' rather than seeking appropriate screening, or conversely, become excessively worried about cancer risk",
+      "public_stakes": "Either underestimating or overestimating cancer risk could lead to missed diagnoses or unnecessary anxiety and testing",
       "verification_status": "needs_review",
-      "verification_reason": "This frames dismissal of long-term COVID effects as \"misinformation\" when the cancer connection is speculative research, not established fact people are denying.",
+      "verification_reason": "This appears to conflate two opposite misconceptions without identifying where people actually hold either specific belief about COVID/flu and lung cancer.",
       "tags": [
         "Health and Medicine",
-        "Infectious Disease",
+        "COVID-19",
         "Cancer"
       ],
       "nasem_source_count": 0,
@@ -4881,12 +5353,78 @@
         }
       ],
       "discovered_at": "2026-03-15",
-      "last_seen": "2026-03-16",
-      "times_seen": 2,
+      "last_seen": "2026-03-17",
+      "times_seen": 3,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
+    },
+    {
+      "id": "climate_change_causing_earth_days",
+      "question": "Is climate change causing Earth's days to get longer?",
+      "priority": "low",
+      "rationale": "Addresses surprising climate impact that may be dismissed as misinformation when it's actually scientifically documented",
+      "misinformation_narrative": "This counterintuitive claim may be dismissed as fake news or climate alarmism, preventing understanding of real geophysical impacts of climate change",
+      "public_stakes": "Misunderstanding geophysical climate impacts undermines credibility of climate science and comprehensive climate education",
+      "verification_status": "needs_review",
+      "verification_reason": "There's no evidence of a significant public misconception about climate change affecting day length; most people simply don't know about this connection.",
+      "tags": [
+        "Climate Change",
+        "Earth Sciences"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Days really are dragging! Length of days on Earth is increasing at an 'unprecedented' rate - and scientists say climate change is to blame",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15642669/Length-days-increasing-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-14"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "discount_prescription_drug_programs_like",
+      "question": "Do discount prescription drug programs like GoodRx actually save patients money?",
+      "priority": "low",
+      "rationale": "Addresses misconceptions about pharmaceutical pricing tools that affect healthcare access and costs",
+      "misinformation_narrative": "Patients may believe discount programs always offer the best prices, not realizing they may sometimes pay more than insurance copays or other options",
+      "public_stakes": "Misinformed patients may choose more expensive medication options, affecting medication adherence due to cost",
+      "verification_status": "needs_review",
+      "verification_reason": "Most people using discount drug programs are grateful for savings; there's no significant misconception that they always offer best prices.",
+      "tags": [
+        "Health and Medicine",
+        "Healthcare Economics"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "TrumpRx offers 43 brand name drugs at discounted prices through manufacturer coupons and GoodRx integration - verify scope and accuracy of drug list",
+          "origin": "Unbiased Science: Pharmacists' Role In Public Health: Side Effects May Include Hope",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pharmacists-role-in-public-health-side-effects-may-include-hope/",
+          "date": "2026-02-25T11:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-17",
+      "last_seen": "2026-03-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "climate_change_causing_length_earth",

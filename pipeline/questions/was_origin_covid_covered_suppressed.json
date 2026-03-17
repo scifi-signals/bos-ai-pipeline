@@ -1,0 +1,39 @@
+{
+  "id": "was_origin_covid_covered_suppressed",
+  "question": "Was the origin of COVID-19 covered up or suppressed by authorities?",
+  "topic": "Addresses major conspiracy theory that damages trust in public health and scientific institutions",
+  "tags": [
+    "Health and Medicine",
+    "COVID-19",
+    "Misinformation"
+  ],
+  "sources": [
+    {
+      "name": "WHO-convened Global Study of Origins of SARS-CoV-2: China Part — WHO",
+      "url": "https://www.who.int/publications/i/item/who-convened-global-study-of-origins-of-sars-cov-2-china-part",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Select Subcommittee on the Coronavirus Pandemic Final Report — U.S. House of Representatives",
+      "url": "https://docs.house.gov/committee/Error/Error.aspx?Code=404",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "FOIA Documents on EcoHealth Alliance Grants and Wuhan Research — NIH",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: A forgotten social media post may hold key clues to COVID-19’s origin",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/forgotten-social-media-post-may-hold-key-clues-covid-19-s-origin",
+      "date": "2026-03-16"
+    }
+  ]
+}
