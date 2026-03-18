@@ -1,0 +1,86 @@
+{
+  "id": "covid_vaccines_associated_increased_long",
+  "question": "Are COVID-19 vaccines associated with increased long-term health risks?",
+  "topic": "Addresses ongoing vaccine hesitancy based on safety concerns that contradict established safety data",
+  "tags": [
+    "Vaccines & Immunization",
+    "Public Health",
+    "COVID-19"
+  ],
+  "sources": [
+    {
+      "name": "COVID-19 Vaccine Safety and Monitoring — CDC",
+      "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "COVID-19 Vaccine Safety Surveillance — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters — WHO",
+      "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaccines for preventing COVID-19 in healthy adults — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "COVID-19, SARS-CoV-2 and the COVID-19 vaccines — NIH/NIAID",
+      "url": "https://www.niaid.nih.gov/node/7937?404message&requested_url=/diseases-conditions/covid-19-vaccines",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists tested vitamin D for COVID and found an unexpected long COVID clue",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315001845.htm",
+      "date": "2026-03-15"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Officials ‘missed 99% of data’ on Covid vaccines before making recommendation, memos reveal",
+      "origin": "STM — The Guardian Science",
+      "url": "https://www.theguardian.com/us-news/2026/mar/16/covid-vaccine-recommendation-kids-pregnant-people-data",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Officials ‘missed 99% of data’ before ending Covid vaccine recommendation, memos reveal",
+      "origin": "STM — The Guardian Science",
+      "url": "https://www.theguardian.com/us-news/2026/mar/16/covid-vaccine-recommendation-kids-pregnant-people-data",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Federal judge stalls health secretary RFK Jr.’s overhaul of vaccine policy",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/03/16/kennedy-childhood-vaccine-changes-blocked-judge/?utm_campaign=rss",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: STAT+: Judge deals blow to RFK Jr.’s vaccine reforms",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/03/17/rfk-jr-maha-vaccine-policy-rejected-judge-acip-postponed-dc-diagnosis/?utm_campaign=rss",
+      "date": "2026-03-17"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-17T12:44:58Z",
+  "generated_at": "2026-03-18T12:15:51Z",
   "questions": [
     {
       "id": "global_warming_accelerated_significantly_since",
@@ -63,6 +63,56 @@
       "newest_source_year": 2025,
       "signal_count": 3,
       "readiness_summary": "2 NASEM sources, most recent 2025 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "antarctica_thwaites_glacier_actually_collapse",
+      "question": "Is Antarctica's Thwaites Glacier actually about to collapse catastrophically?",
+      "priority": "high",
+      "rationale": "Provides measured scientific assessment of glacier collapse timeline and consequences",
+      "misinformation_narrative": "Either dismissal that glacier collapse poses any real threat, or panic that complete collapse is imminent and unstoppable",
+      "public_stakes": "Underestimation could lead to inadequate coastal planning; panic could cause unnecessary anxiety and poor policy decisions",
+      "verification_status": "verified",
+      "verification_reason": "Climate denial blogs dismiss glacier collapse risks while climate activists on social media often claim imminent catastrophic collapse.",
+      "tags": [
+        "Climate Change",
+        "Arctic & Polar Science",
+        "Sea Level Rise"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Mid-Term Assessment of Progress on the 2015 Strategic Vision for Antarctic and Southern Ocean Research (2022)",
+          "url": "https://www.nationalacademies.org/publications/26338"
+        },
+        {
+          "name": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research (2024)",
+          "url": "https://www.nationalacademies.org/publications/27160"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Models warn Thwaites Glacier could rival entire Antarctic ice loss by 2067",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-thwaites-glacier-rival-entire-antarctic.html",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Is Antarctica's Doomsday Glacier about to COLLAPSE? Shocking study predicts Thwaites could shed 200 gigatonnes of ice per year by 2067 - with devastating consequences",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15649811/Antarctica-Doomsday-Glacier-COLLAPSE-2067.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-16"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 2,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "early_introduction_allergenic_foods_like",
@@ -1258,6 +1308,120 @@
       "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "quantum_computers_actually_pose_threat",
+      "question": "Do quantum computers actually pose a threat to current encryption and cybersecurity?",
+      "priority": "medium",
+      "rationale": "Provides realistic timeline and threat assessment for quantum computing security implications",
+      "misinformation_narrative": "Either dismissal that quantum computers are realistic threats to cybersecurity, or panic that quantum computers will immediately break all encryption",
+      "public_stakes": "Underestimation could leave critical systems vulnerable; overestimation could cause premature and costly security overhauls",
+      "verification_status": "verified",
+      "verification_reason": "Both cybersecurity dismissal and quantum panic appear in tech forums, LinkedIn, and mainstream media coverage of quantum computing.",
+      "tags": [
+        "Quantum Science",
+        "Cybersecurity",
+        "Technology"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Decrypting the Encryption Debate: A Framework for Decision Makers (2018)",
+          "url": "https://www.nationalacademies.org/publications/25010"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computing meets the Möbius molecule",
+          "origin": "STM — Ars Technica Science",
+          "url": "https://arstechnica.com/science/2026/03/quantum-computing-meets-the-mobius-molecule/",
+          "date": "2026-03-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: A strange new quantum state appears when atoms get “frustrated”",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315225137.htm",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Ultrafast laser pulses bring diamond-based quantum internet closer to reality",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-ultrafast-laser-pulses-diamond-based.html",
+          "date": "2026-03-17"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 4,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
+    },
+    {
+      "id": "geoengineering_safe_solution_stop_global",
+      "question": "Is geoengineering a safe solution to stop global warming?",
+      "priority": "medium",
+      "rationale": "Addresses polarized views about geoengineering risks and benefits with current research evidence",
+      "misinformation_narrative": "Either that geoengineering is a simple technological fix that eliminates the need for emissions reduction, or that all geoengineering is inherently dangerous and should never be researched",
+      "public_stakes": "Overconfidence in geoengineering could delay necessary emissions reductions; excessive fear could prevent beneficial research",
+      "verification_status": "verified",
+      "verification_reason": "Both extreme positions circulate widely on climate Twitter, environmental blogs, and policy debates about geoengineering research.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science",
+        "Technology"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Intervention: Reflecting Sunlight to Cool Earth (2015)",
+          "url": "https://www.nationalacademies.org/publications/18988"
+        },
+        {
+          "name": "Climate Intervention: Carbon Dioxide Removal and Reliable Sequestration (2015)",
+          "url": "https://www.nationalacademies.org/publications/18805"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Controversial geoengineering project sees scientists pump 65,000 litres of chemicals into the ocean to stop global warming",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15631303/Controversial-geoengineering-project-chemicals-ocean.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-13",
+      "last_seen": "2026-03-18",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2015,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2015 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "people_egg_allergies_need_avoid",
       "question": "Do people with egg allergies need to avoid flu vaccines?",
       "priority": "medium",
@@ -1449,6 +1613,56 @@
       "newest_source_year": 2008,
       "signal_count": 6,
       "readiness_summary": "2 NASEM sources, most recent 2008 — sources are old · confirmed misinformation · 6 discovery signals"
+    },
+    {
+      "id": "life_earth_recovered_quickly_mass",
+      "question": "Has life on Earth recovered quickly from mass extinction events?",
+      "priority": "low",
+      "rationale": "Provides evidence-based timeline for post-extinction recovery to inform current conservation efforts",
+      "misinformation_narrative": "Either that mass extinctions inevitably lead to permanent ecological collapse, or that life always bounces back quickly without lasting consequences",
+      "public_stakes": "Misunderstanding could affect conservation urgency and expectations about ecosystem recovery from current biodiversity crisis",
+      "verification_status": "needs_review",
+      "verification_reason": "This academic distinction about extinction recovery timescales isn't a widespread public debate or misconception.",
+      "tags": [
+        "Evolution & Paleontology",
+        "Biodiversity & Conservation",
+        "Extinction"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26522"
+        },
+        {
+          "name": "Progress and Priorities in Ocean Drilling: In Search of Earth's Past and Future (2024)",
+          "url": "https://www.nationalacademies.org/publications/27414"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Earth’s first major extinction was worse than we thought",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/earth-s-first-major-extinction-was-worse-we-thought",
+          "date": "2026-03-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Life rebounded shockingly fast after the asteroid that killed the dinosaurs",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315004414.htm",
+          "date": "2026-03-16"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 2,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
       "id": "antarctica_thwaites_glacier_collapse_catastrophically",
@@ -1689,6 +1903,66 @@
       "newest_source_year": 2023,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "artificial_intelligence_reliably_predict_extreme",
+      "question": "Can artificial intelligence reliably predict extreme weather events better than traditional methods?",
+      "priority": "low",
+      "rationale": "Addresses both AI hype and skepticism around weather prediction capabilities with measurable accuracy data",
+      "misinformation_narrative": "Either overconfidence that AI weather prediction is completely reliable, or dismissal that AI can't improve weather forecasting at all",
+      "public_stakes": "Over-reliance on or dismissal of AI weather tools could lead to inadequate disaster preparation or false confidence in predictions",
+      "verification_status": "needs_review",
+      "verification_reason": "This frames a nuanced technical debate as public misinformation; most people don't have strong opinions about AI vs traditional weather forecasting.",
+      "tags": [
+        "Artificial Intelligence",
+        "Climate Science",
+        "Weather Prediction"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Machine Learning and Artificial Intelligence to Advance Earth System Science: Opportunities and Challenges: Proceedings of a Workshop (2022)",
+          "url": "https://www.nationalacademies.org/publications/26566"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Can AI models reliably forecast extreme weather events?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00842-z",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Rethinking AI’s role in survey research: from threat to collaboration",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00862-9",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AlphaFold hits ‘next level’: the AI database now includes protein pairing",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00787-3",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI is programmed to hijack human empathy — we must resist that",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00834-z",
+          "date": "2026-03-17"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2022,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2022 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "ocean_geoengineering_projects_combat_climate",
@@ -2092,48 +2366,6 @@
       "newest_source_year": 2016,
       "signal_count": 1,
       "readiness_summary": "3 NASEM sources, most recent 2016 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
-    },
-    {
-      "id": "geoengineering_safe_solution_stop_global",
-      "question": "Is geoengineering a safe solution to stop global warming?",
-      "priority": "low",
-      "rationale": "Addresses misconceptions about controversial geoengineering approaches that are being sensationalized in media",
-      "misinformation_narrative": "Some believe large-scale geoengineering projects like ocean chemical injection are proven safe climate solutions, when they remain highly experimental with unknown risks",
-      "public_stakes": "Public support for unproven geoengineering could divert resources from proven climate solutions or lead to environmental disasters",
-      "verification_status": "needs_review",
-      "verification_reason": "Very few people actually know what geoengineering is, let alone hold strong misconceptions about \"ocean chemical injection\" specifically; this seems like an invented technical straw man.",
-      "tags": [
-        "Climate Change",
-        "Technology"
-      ],
-      "nasem_source_count": 2,
-      "nasem_sources_preview": [
-        {
-          "name": "Climate Intervention: Reflecting Sunlight to Cool Earth (2015)",
-          "url": "https://www.nationalacademies.org/publications/18988"
-        },
-        {
-          "name": "Climate Intervention: Carbon Dioxide Removal and Reliable Sequestration (2015)",
-          "url": "https://www.nationalacademies.org/publications/18805"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Climate Change: Controversial geoengineering project sees scientists pump 65,000 litres of chemicals into the ocean to stop global warming",
-          "origin": "STM — Daily Mail Science",
-          "url": "https://www.dailymail.co.uk/sciencetech/article-15631303/Controversial-geoengineering-project-chemicals-ocean.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
-          "date": "2026-03-10"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-03-13",
-      "last_seen": "2026-03-13",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2015,
-      "signal_count": 1,
-      "readiness_summary": "2 NASEM sources, most recent 2015 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "invasive_species_silently_remodeling_ecosystems",
@@ -2822,15 +3054,15 @@
       "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
       "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
       "priority": "high",
-      "rationale": "Directly addresses a specific, harmful misconception about physician financial incentives that undermines vaccine confidence",
-      "misinformation_narrative": "Anti-vaccine activists commonly claim that pediatricians are financially incentivized to over-vaccinate children through bonuses or kickbacks from pharmaceutical companies, making vaccination recommendations untrustworthy",
-      "public_stakes": "This false belief leads parents to distrust medical advice, delay or refuse vaccines, and puts children and communities at risk of preventable diseases",
+      "rationale": "This directly addresses a specific conspiracy theory that undermines vaccine confidence and pediatric care trust",
+      "misinformation_narrative": "Many people believe pediatricians are financially incentivized by pharmaceutical companies to over-vaccinate children, receiving large bonuses or kickbacks for each vaccine administered",
+      "public_stakes": "Parents may delay or refuse vaccines for their children, leading to increased risk of preventable diseases and potential outbreaks",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Children's Health Defense actively promote claims about pediatrician financial incentives from Big Pharma.",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Children's Health Defense actively promote claims about pediatrician vaccine kickbacks.",
       "tags": [
-        "Health and Medicine",
+        "Vaccines & Immunization",
         "Public Health",
-        "Vaccines"
+        "Healthcare Economics"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -2955,15 +3187,259 @@
           "resource_name": "Misconceptions about Vaccines",
           "description": "Comprehensive fact sheet addressing vaccine misconceptions and myths",
           "relevance": "Directly addresses common vaccine misinformation including claims about financial incentives"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/vaccines-for-children/about/index.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Vaccines for Children (VFC) Program",
+          "description": "Official information about the federal vaccine program and how providers are reimbursed",
+          "relevance": "Details the actual payment structure for childhood vaccinations, showing standard reimbursement rather than bonuses"
+        },
+        {
+          "organization": "American Medical Association (AMA)",
+          "organization_full": "American Medical Association",
+          "base_url": "https://www.ama-assn.org",
+          "url": "https://code-medical-ethics.ama-assn.org/ethics-opinions/gifts-physicians-industry",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "AMA Code of Medical Ethics: Gifts to Physicians from Industry",
+          "description": "Professional ethics guidelines governing physician relationships with pharmaceutical companies",
+          "relevance": "Establishes ethical standards that would prohibit inappropriate financial incentives for vaccination"
         }
       ],
       "discovered_at": "2026-03-13",
-      "last_seen": "2026-03-17",
-      "times_seen": 5,
+      "last_seen": "2026-03-18",
+      "times_seen": 6,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 5,
-      "readiness_summary": "No NASEM coverage — 7 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 9 alternative sources identified"
+    },
+    {
+      "id": "covid_vaccines_associated_increased_long",
+      "question": "Are COVID-19 vaccines associated with increased long-term health risks?",
+      "priority": "high",
+      "rationale": "Addresses ongoing vaccine hesitancy based on safety concerns that contradict established safety data",
+      "misinformation_narrative": "Widespread belief that COVID vaccines cause long-term health problems, fertility issues, or immune system damage based on incomplete or misinterpreted safety data",
+      "public_stakes": "Reduced vaccination rates leading to increased hospitalizations, deaths, and transmission of COVID variants",
+      "verification_status": "verified",
+      "verification_reason": "Widespread on Twitter/X, Facebook groups, and alternative health websites with millions sharing concerns about fertility and immune damage from COVID vaccines.",
+      "tags": [
+        "Vaccines & Immunization",
+        "Public Health",
+        "COVID-19"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists tested vitamin D for COVID and found an unexpected long COVID clue",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315001845.htm",
+          "date": "2026-03-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Officials ‘missed 99% of data’ on Covid vaccines before making recommendation, memos reveal",
+          "origin": "STM — The Guardian Science",
+          "url": "https://www.theguardian.com/us-news/2026/mar/16/covid-vaccine-recommendation-kids-pregnant-people-data",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Federal judge stalls health secretary RFK Jr.’s overhaul of vaccine policy",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/03/16/kennedy-childhood-vaccine-changes-blocked-judge/?utm_campaign=rss",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: STAT+: Judge deals blow to RFK Jr.’s vaccine reforms",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/03/17/rfk-jr-maha-vaccine-policy-rejected-judge-acip-postponed-dc-diagnosis/?utm_campaign=rss",
+          "date": "2026-03-17"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccine Safety and Monitoring",
+          "description": "Comprehensive overview of COVID-19 vaccine safety data including long-term monitoring systems and adverse event reporting",
+          "relevance": "Directly addresses vaccine safety concerns with ongoing surveillance data"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccine Safety Surveillance",
+          "description": "FDA's official monitoring and safety assessment of COVID-19 vaccines including post-market surveillance",
+          "relevance": "Provides regulatory perspective on long-term safety monitoring and findings"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters",
+          "description": "WHO's evidence-based responses to COVID-19 vaccine misinformation and safety concerns",
+          "relevance": "International health authority's assessment of vaccine safety claims"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing COVID-19 in healthy adults",
+          "description": "Systematic review of COVID-19 vaccine efficacy and safety data from clinical trials",
+          "relevance": "Independent systematic review of available evidence on vaccine safety profiles"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niaid.nih.gov/node/7937?404message&requested_url=/diseases-conditions/covid-19-vaccines",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "COVID-19, SARS-CoV-2 and the COVID-19 vaccines",
+          "description": "National Institute of Allergy and Infectious Diseases overview of COVID-19 vaccine development, safety, and efficacy",
+          "relevance": "Research institute perspective on vaccine safety based on clinical studies and ongoing research"
+        }
+      ],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 4,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "mrna_cancer_vaccines_actually_safe",
+      "question": "Are mRNA cancer vaccines actually safe and effective?",
+      "priority": "high",
+      "rationale": "Addresses mRNA vaccine skepticism specifically in cancer treatment context",
+      "misinformation_narrative": "Fear that mRNA technology in cancer vaccines poses similar risks as falsely attributed to COVID vaccines, or unrealistic expectations about cancer vaccine effectiveness",
+      "public_stakes": "Vaccine hesitancy could prevent access to promising cancer treatments; unrealistic expectations could lead to treatment delays",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine groups on Telegram and Facebook are applying COVID vaccine fears to mRNA cancer treatments.",
+      "tags": [
+        "Vaccines & Immunization",
+        "Cancer Research",
+        "Medical Treatment"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: DNA origami vaccines could be the next leap beyond mRNA",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317015933.htm",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Engineered lipid nanoparticles reprogram immune metabolism for better mRNA vaccines",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-lipid-nanoparticles-reprogram-immune-metabolism.html",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+          "date": "2026-03-17"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Approval of mRNA Cancer Vaccines and Clinical Trial Data",
+          "description": "FDA's official page on cancer vaccines including approved treatments and clinical trial requirements",
+          "relevance": "Provides regulatory approval status and safety/efficacy data for mRNA cancer vaccines"
+        },
+        {
+          "organization": "National Cancer Institute (NCI/NIH)",
+          "organization_full": "National Cancer Institute (NCI/NIH)",
+          "base_url": "",
+          "url": "https://www.cancer.gov/about-cancer/treatment/types/immunotherapy",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Cancer Vaccines Fact Sheet",
+          "description": "NCI's comprehensive fact sheet on cancer vaccines including mechanism, safety, and clinical evidence",
+          "relevance": "Authoritative source on cancer vaccine safety and effectiveness from the leading cancer research institute"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WHO Position Paper on Therapeutic Cancer Vaccines",
+          "description": "WHO's official position and recommendations on therapeutic cancer vaccines",
+          "relevance": "Global health authority assessment of cancer vaccine safety and efficacy evidence"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Cochrane Reviews on Cancer Vaccines",
+          "description": "Systematic reviews and meta-analyses of cancer vaccine clinical trials",
+          "relevance": "Gold standard evidence synthesis on cancer vaccine effectiveness and safety from clinical trials"
+        },
+        {
+          "organization": "American Cancer Society",
+          "organization_full": "American Cancer Society",
+          "base_url": "https://www.cancer.org",
+          "url": "https://www.cancer.org/cancer/managing-cancer/treatment-types/immunotherapy/cancer-vaccines.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Cancer Vaccines and Immunotherapy Guidelines",
+          "description": "ACS evidence-based information on cancer vaccines including current approved treatments and research",
+          "relevance": "Authoritative clinical guidance on cancer vaccine safety, effectiveness, and current status"
+        }
+      ],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "igg_food_sensitivity_tests_reliable",
@@ -3842,6 +4318,186 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "current_lupus_treatments_ineffective_leaving",
+      "question": "Are current lupus treatments ineffective, leaving patients with no good options?",
+      "priority": "medium",
+      "rationale": "Corrects outdated perceptions about lupus treatment availability and effectiveness",
+      "misinformation_narrative": "Belief that lupus is essentially untreatable or that no significant advances have been made in lupus therapy",
+      "public_stakes": "Patients may avoid seeking treatment or lose hope, missing out on newer effective therapies including emerging cell therapies",
+      "verification_status": "verified",
+      "verification_reason": "Lupus patient forums and social media groups often express frustration and belief that no effective treatments exist.",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Disorders",
+        "Medical Treatment"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "No FDA-approved lupus treatments existed for 50 years until first approval ~20 years ago",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Lupus: Basic Information and Treatment",
+          "description": "CDC's overview of current lupus treatment options and their effectiveness",
+          "relevance": "Provides authoritative information on available lupus treatments and outcomes"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA-Approved Treatments for Lupus",
+          "description": "FDA's list of approved medications and therapies for lupus treatment",
+          "relevance": "Shows regulatory-approved effective treatment options available to patients"
+        },
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus) - Treatment",
+          "description": "National Institute of Arthritis and Musculoskeletal Diseases detailed treatment information",
+          "relevance": "Comprehensive medical information on current treatment approaches and effectiveness"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Immunosuppressive agents for treating systemic lupus erythematosus",
+          "description": "Systematic review of evidence for immunosuppressive treatments in lupus",
+          "relevance": "Evidence-based analysis of treatment effectiveness from randomized controlled trials"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Essential Medicines List - Medicines for diseases of joints",
+          "description": "WHO's list of essential medicines including treatments for autoimmune conditions",
+          "relevance": "International recognition of effective treatments available for lupus and similar conditions"
+        }
+      ],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "vitamin_supplementation_actually_help_prevent",
+      "question": "Does vitamin D supplementation actually help prevent or treat COVID-19?",
+      "priority": "medium",
+      "rationale": "Clarifies the actual evidence on vitamin D's role in COVID outcomes versus prevention/treatment claims",
+      "misinformation_narrative": "Claims that vitamin D is either a miracle cure for COVID or completely ineffective, based on misinterpretation of correlation versus causation in studies",
+      "public_stakes": "Over-reliance on vitamin D could delay proper medical treatment; dismissal could miss potential supportive benefits",
+      "verification_status": "verified",
+      "verification_reason": "Health influencers on Instagram, YouTube, and alternative medicine websites heavily promote vitamin D as COVID cure or dismiss it entirely.",
+      "tags": [
+        "Health and Medicine",
+        "COVID-19",
+        "Nutritional Supplements"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists tested vitamin D for COVID and found an unexpected long COVID clue",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315001845.htm",
+          "date": "2026-03-15"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/National Institute of Health",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Treatment Guidelines: Vitamin D",
+          "description": "NIH's official treatment guidelines section specifically addressing vitamin D supplementation for COVID-19 prevention and treatment",
+          "relevance": "Direct authoritative guidance on vitamin D efficacy for COVID-19 based on clinical evidence review"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters",
+          "description": "WHO's myth-busting page that addresses various COVID-19 prevention claims including supplements",
+          "relevance": "Addresses common misconceptions about COVID-19 prevention methods including vitamin supplementation"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vitamin D supplementation to prevent acute respiratory tract infections: systematic review and meta-analysis",
+          "description": "Cochrane systematic review examining vitamin D supplementation for respiratory infections",
+          "relevance": "Provides high-quality systematic review evidence on vitamin D's role in respiratory infection prevention"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA advises consumers to be cautious of products claiming to treat or prevent COVID-19",
+          "description": "FDA consumer advisory about unproven COVID-19 treatments and supplements",
+          "relevance": "Official FDA position on supplements and treatments claiming COVID-19 prevention benefits"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19: How to Protect Yourself & Others",
+          "description": "CDC's official prevention guidance that addresses proven vs. unproven prevention methods",
+          "relevance": "Establishes evidence-based prevention methods and context for evaluating supplement claims"
+        }
+      ],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "should_people_egg_allergies_avoid",
@@ -4782,6 +5438,74 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "potatoes_other_earth_crops_actually",
+      "question": "Can potatoes or other Earth crops actually grow in lunar soil?",
+      "priority": "low",
+      "rationale": "Corrects oversimplified portrayals of space agriculture with actual soil and plant growth research",
+      "misinformation_narrative": "Popular media often oversimplifies space agriculture, suggesting Earth crops can easily grow on the Moon without addressing soil toxicity and resource challenges",
+      "public_stakes": "Unrealistic expectations about space colonization and food security could affect space program planning and public support",
+      "verification_status": "verified",
+      "verification_reason": "Science fiction media and popular articles about Mars colonization regularly oversimplify space agriculture challenges.",
+      "tags": [
+        "Space Science",
+        "Agriculture",
+        "Space Exploration"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Can potatoes grow on the Moon?",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/can-potatoes-grow-moon",
+          "date": "2026-03-17"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NASA",
+          "organization_full": "National Aeronautics and Space Administration",
+          "base_url": "https://www.nasa.gov",
+          "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-microgravity-grades-k-4/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Growing Plants in Space",
+          "description": "NASA's educational resources on space agriculture and plant growth experiments",
+          "relevance": "NASA has conducted extensive research on growing plants in space environments including lunar soil simulants"
+        },
+        {
+          "organization": "University of Florida Institute of Food and Agricultural Sciences",
+          "organization_full": "University of Florida Institute of Food and Agricultural Sciences",
+          "base_url": "",
+          "url": "https://www.nature.com/articles/s42003-022-03334-8",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Plants grown in Apollo lunar regolith present stress-associated transcriptomes",
+          "description": "Peer-reviewed research published in Nature Communications Biology on growing Arabidopsis plants in actual Apollo lunar soil samples",
+          "relevance": "Direct experimental evidence of Earth plants growing in real lunar soil with documented stress responses"
+        },
+        {
+          "organization": "European Space Agency (ESA)",
+          "organization_full": "European Space Agency (ESA)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "MELiSSA - Micro-Ecological Life Support System Alternative",
+          "description": "ESA's research program on closed-loop life support systems including plant cultivation for space missions",
+          "relevance": "Contains research on growing food crops in extraterrestrial environments including lunar conditions"
+        }
+      ],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
+    },
+    {
       "id": "was_yuri_gagarin_actually_first",
       "question": "Was Yuri Gagarin actually the first human in space?",
       "priority": "low",
@@ -5284,6 +6008,164 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "epstein_barr_virus_cause_lupus",
+      "question": "Does the Epstein-Barr virus cause lupus?",
+      "priority": "low",
+      "rationale": "Clarifies the complex relationship between viral triggers and autoimmune disease development",
+      "misinformation_narrative": "Confusion about whether EBV directly causes lupus versus being a risk factor, leading to either over-attribution of lupus to viral infection or dismissal of viral triggers",
+      "public_stakes": "Misunderstanding could lead to inappropriate treatment expectations or avoidance of legitimate medical care",
+      "verification_status": "needs_review",
+      "verification_reason": "This is an academic/medical nuance about causation vs risk factors, not a widespread public misconception.",
+      "tags": [
+        "Health and Medicine",
+        "Infectious Disease",
+        "Autoimmune Disorders"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Epstein-Barr Virus and Infectious Mononucleosis",
+          "description": "CDC's comprehensive information page on EBV, including associated diseases and complications",
+          "relevance": "Provides authoritative information on diseases associated with EBV infection"
+        },
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus)",
+          "description": "National Institute of Arthritis and Musculoskeletal and Skin Diseases fact sheet on lupus causes and risk factors",
+          "relevance": "Official NIH resource detailing known causes and triggers of lupus"
+        },
+        {
+          "organization": "NIH/NINDS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Autoimmune Diseases Research",
+          "description": "NIH information on autoimmune diseases including potential viral triggers",
+          "relevance": "Addresses the relationship between viral infections and autoimmune disease development"
+        },
+        {
+          "organization": "Lupus Foundation of America",
+          "organization_full": "Lupus Foundation of America",
+          "base_url": "",
+          "url": "https://www.lupus.org/resources/what-causes-lupus",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "What Causes Lupus?",
+          "description": "Evidence-based resource from the national lupus organization on lupus causes and triggers",
+          "relevance": "Authoritative source specifically addressing potential causes and triggers of lupus, including viral infections"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Epstein-Barr Virus Fact Sheet",
+          "description": "WHO's official fact sheet on EBV transmission, symptoms, and associated conditions",
+          "relevance": "International health authority's documentation of diseases and conditions associated with EBV"
+        }
+      ],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "severe_covid_flu_infections_increase",
+      "question": "Do severe COVID or flu infections increase cancer risk years later?",
+      "priority": "low",
+      "rationale": "Provides evidence-based perspective on emerging research about infection-cancer links",
+      "misinformation_narrative": "Either dismissal that infections could have long-term cancer consequences, or excessive fear that any severe infection inevitably leads to cancer",
+      "public_stakes": "Underestimation could miss important screening opportunities; overestimation could cause unnecessary anxiety and medical testing",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents both sides of a scientific uncertainty as misinformation rather than identifying actual widespread beliefs.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer",
+        "Infectious Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Severe COVID or flu may raise lung cancer risk years later",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260313055130.htm",
+          "date": "2026-03-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-14",
+      "last_seen": "2026-03-18",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "actually_missing_alien_signals_due",
+      "question": "Are we actually missing alien signals due to space weather interference?",
+      "priority": "low",
+      "rationale": "Provides scientific perspective on the technical challenges and limitations of alien signal detection",
+      "misinformation_narrative": "Either dismissal that technical factors could affect alien signal detection, or overconfidence that we would definitely detect alien communications if they existed",
+      "public_stakes": "Misunderstanding could affect public support for SETI research and realistic expectations about alien signal detection",
+      "verification_status": "needs_review",
+      "verification_reason": "This technical SETI issue isn't a widespread public debate; most people don't have opinions about space weather affecting alien signals.",
+      "tags": [
+        "Space & Astronomy",
+        "SETI",
+        "Radio Astronomy"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: SETI may have missed alien signals because of space weather",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518324-seti-may-have-missed-alien-signals-because-of-space-weather/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-15"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "severe_covid_flu_increase_lung",
@@ -5987,40 +6869,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "severe_covid_flu_infections_increase",
-      "question": "Do severe COVID-19 or flu infections increase long-term cancer risk?",
-      "priority": "low",
-      "rationale": "Addresses an emerging health risk that the public needs to understand for informed healthcare decisions",
-      "misinformation_narrative": "The potential long-term cancer implications of severe respiratory infections are largely unknown to the public, who may not understand these emerging health risks",
-      "public_stakes": "People may not take appropriate preventive measures or seek proper follow-up care if unaware of potential long-term cancer risks from severe infections",
-      "verification_status": "needs_review",
-      "verification_reason": "This describes public ignorance of emerging research rather than people believing the opposite of what's true.",
-      "tags": [
-        "Infectious Disease",
-        "Cancer Research",
-        "Long-term Health Effects"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Infectious Disease: Severe COVID or flu may raise lung cancer risk years later",
-          "origin": "STM — ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260313055130.htm",
-          "date": "2026-03-13"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-03-14",
-      "last_seen": "2026-03-14",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "super_antibiotics_ready_solve_antibiotic",
@@ -7735,6 +8583,98 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "climate_change_actually_causing_rate",
+      "question": "Is climate change actually causing the rate of global warming to accelerate?",
+      "priority": "high",
+      "rationale": "Counters persistent climate denial narratives with current acceleration data",
+      "misinformation_narrative": "Climate skeptics claim global warming has slowed or paused, or that current warming rates are natural and not accelerating due to human activities",
+      "public_stakes": "Delayed climate action leading to more severe environmental and economic consequences, inadequate preparation for climate impacts",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptic blogs, conservative media outlets, and social media accounts frequently claim global warming has \"paused\" or is natural variation.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 7,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Stabilization Targets: Emissions, Concentrations, and Impacts over Decades to Millennia (2011)",
+          "url": "https://www.nationalacademies.org/publications/12877"
+        },
+        {
+          "name": "Abrupt Impacts of Climate Change: Anticipating Surprises (2013)",
+          "url": "https://www.nationalacademies.org/publications/18373"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        },
+        {
+          "name": "Climate Change: Evidence, Impacts, and Choices: PDF Booklet (2012)",
+          "url": "https://www.nationalacademies.org/publications/14673"
+        },
+        {
+          "name": "Informing an Effective Response to Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12784"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why we fail to notice climate change",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/climate-change-binary-frozen-weather",
+          "date": "2026-03-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Austrian glaciers disintegrating due to climate change, say scientists",
+          "origin": "STM — BBC Science",
+          "url": "https://www.bbc.com/news/articles/cd038pgrr1yo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-03-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Days really are dragging! Length of days on Earth is increasing at an 'unprecedented' rate - and scientists say climate change is to blame",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15642669/Length-days-increasing-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why global warming is accelerating and what it means for the future",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519386-why-global-warming-is-accelerating-and-what-it-means-for-the-future/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Terrifying study predicts exactly how many people will DIE by 2050 if we don't take urgent action to curb climate change",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15650027/Terrifying-study-predicts-people-DIE-2050-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-17"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-18",
+      "last_seen": "2026-03-18",
+      "times_seen": 1,
+      "status": "nasem_covered",
+      "newest_source_year": 2020,
+      "signal_count": 4,
+      "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
+      "nasem_bos_url": "https://www.nationalacademies.org/based-on-science/human-driven-climate-change-is-causing-sea-levels-to-rise",
+      "nasem_bos_title": "Human-driven climate change is causing sea levels to rise"
     },
     {
       "id": "should_people_covid_other_recent",

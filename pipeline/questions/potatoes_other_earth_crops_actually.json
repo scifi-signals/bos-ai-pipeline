@@ -1,0 +1,33 @@
+{
+  "id": "potatoes_other_earth_crops_actually",
+  "question": "Can potatoes or other Earth crops actually grow in lunar soil?",
+  "topic": "Corrects oversimplified portrayals of space agriculture with actual soil and plant growth research",
+  "tags": [
+    "Space Science",
+    "Agriculture",
+    "Space Exploration"
+  ],
+  "sources": [
+    {
+      "name": "Growing Plants in Space — NASA",
+      "url": "https://www.nasa.gov/learning-resources/for-kids-and-students/what-is-microgravity-grades-k-4/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Plants grown in Apollo lunar regolith present stress-associated transcriptomes — University of Florida Institute of Food and Agricultural Sciences",
+      "url": "https://www.nature.com/articles/s42003-022-03334-8",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Can potatoes grow on the Moon?",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/can-potatoes-grow-moon",
+      "date": "2026-03-17"
+    }
+  ]
+}

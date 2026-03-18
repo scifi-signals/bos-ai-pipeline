@@ -1,0 +1,58 @@
+{
+  "id": "epstein_barr_virus_cause_lupus",
+  "question": "Does the Epstein-Barr virus cause lupus?",
+  "topic": "Clarifies the complex relationship between viral triggers and autoimmune disease development",
+  "tags": [
+    "Health and Medicine",
+    "Infectious Disease",
+    "Autoimmune Disorders"
+  ],
+  "sources": [
+    {
+      "name": "Epstein-Barr Virus and Infectious Mononucleosis — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Systemic Lupus Erythematosus (Lupus) — NIH/NIAMS",
+      "url": "https://www.niams.nih.gov/health-topics/lupus",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Autoimmune Diseases Research — NIH/NINDS",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "What Causes Lupus? — Lupus Foundation of America",
+      "url": "https://www.lupus.org/resources/what-causes-lupus",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Epstein-Barr Virus Fact Sheet — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Epstein-Barr virus (EBV) infection as lupus trigger",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

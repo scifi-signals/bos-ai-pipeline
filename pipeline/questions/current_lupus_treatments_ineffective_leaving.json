@@ -1,0 +1,107 @@
+{
+  "id": "current_lupus_treatments_ineffective_leaving",
+  "question": "Are current lupus treatments ineffective, leaving patients with no good options?",
+  "topic": "Corrects outdated perceptions about lupus treatment availability and effectiveness",
+  "tags": [
+    "Health and Medicine",
+    "Autoimmune Disorders",
+    "Medical Treatment"
+  ],
+  "sources": [
+    {
+      "name": "Lupus: Basic Information and Treatment — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "FDA-Approved Treatments for Lupus — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Systemic Lupus Erythematosus (Lupus) - Treatment — NIH/NIAMS",
+      "url": "https://www.niams.nih.gov/health-topics/lupus",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Immunosuppressive agents for treating systemic lupus erythematosus — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Essential Medicines List - Medicines for diseases of joints — WHO",
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "No FDA-approved lupus treatments existed for 50 years until first approval ~20 years ago",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Three additional FDA-approved lupus interventions approved in recent years, with possibly two more in current year (2026)",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "First CAR-T cell therapy lupus patient in New England treated in 2023, still lupus-free and treatment-free after ~3 years",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Approximately 150 ongoing clinical trials for lupus and lupus nephritis worldwide",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "40+ clinical trials currently underway testing cell therapy modalities for lupus",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "CAR-T therapy achieves 'clinical cure' (disease-free, drug-free remission) but not complete cure due to persistent genetic predisposition",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "CAR-T cell therapy and cellular immunotherapy for lupus",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Immune system reset mechanisms and immune reconstitution",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

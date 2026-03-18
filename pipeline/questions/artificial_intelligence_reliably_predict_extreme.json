@@ -1,0 +1,48 @@
+{
+  "id": "artificial_intelligence_reliably_predict_extreme",
+  "question": "Can artificial intelligence reliably predict extreme weather events better than traditional methods?",
+  "topic": "Addresses both AI hype and skepticism around weather prediction capabilities with measurable accurac",
+  "tags": [
+    "Artificial Intelligence",
+    "Climate Science",
+    "Weather Prediction"
+  ],
+  "sources": [
+    {
+      "name": "Machine Learning and Artificial Intelligence to Advance Earth System Science: Opportunities and Challenges: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/26566",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Can AI models reliably forecast extreme weather events?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00842-z",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Rethinking AI’s role in survey research: from threat to collaboration",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00862-9",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AlphaFold hits ‘next level’: the AI database now includes protein pairing",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00787-3",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI is programmed to hijack human empathy — we must resist that",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00834-z",
+      "date": "2026-03-17"
+    }
+  ]
+}
