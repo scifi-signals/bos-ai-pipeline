@@ -1,0 +1,40 @@
+{
+  "id": "actually_predict_extreme_weather_better",
+  "question": "Can AI actually predict extreme weather better than traditional methods?",
+  "topic": "Mixed messages about AI weather capabilities create dangerous confusion about what forecasting tools",
+  "tags": [
+    "Technology",
+    "Weather",
+    "Public Safety"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence Strategic Plan — NOAA/National Weather Service",
+      "url": "https://www.noaa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fifth National Climate Assessment - Chapter on Prediction and Projection — U.S. Global Change Research Program (USGCRP)",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Can AI models reliably forecast extreme weather events?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00842-z",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI set to map risks of future climate disasters",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00835-y",
+      "date": "2026-03-18"
+    }
+  ]
+}

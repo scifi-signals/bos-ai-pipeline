@@ -1,0 +1,85 @@
+{
+  "id": "quantum_computers_actually_solve_problems",
+  "question": "Can quantum computers actually solve problems classical computers cannot?",
+  "topic": "Hype cycles around quantum computing create unrealistic expectations that could undermine legitimate",
+  "tags": [
+    "Technology",
+    "Physics"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+      "url": "https://www.nationalacademies.org/publications/26850",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States",
+      "url": "https://www.nationalacademies.org/publications/25613",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Controlling the Quantum World: The Science of Atoms, Molecules, and Photons",
+      "url": "https://www.nationalacademies.org/publications/11705",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Controlling the Quantum World of Atoms, Molecules, and Photons: An Interim Report",
+      "url": "https://www.nationalacademies.org/publications/11482",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Ultrafast laser pulses bring diamond-based quantum internet closer to reality",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-ultrafast-laser-pulses-diamond-based.html",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Major Turing computing award goes to quantum science for first time",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00818-z",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Computer science’s ‘Nobel Prize’ goes quantum",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/computer-science-s-nobel-prize-goes-quantum",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: MIT scientists finally see hidden quantum “jiggling” inside superconductors",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260317064509.htm",
+      "date": "2026-03-18"
+    }
+  ]
+}

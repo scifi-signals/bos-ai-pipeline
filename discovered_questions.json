@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-18T12:15:51Z",
+  "generated_at": "2026-03-19T12:11:05Z",
   "questions": [
     {
       "id": "global_warming_accelerated_significantly_since",
@@ -311,6 +311,84 @@
       "readiness_summary": "2 NASEM sources, most recent 2023 · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "covid_vaccines_still_necessary_effective",
+      "question": "Are COVID vaccines still necessary and effective given recent policy changes?",
+      "priority": "high",
+      "rationale": "Active misinformation from political figures and misinterpreted data is causing vaccine hesitancy despite strong evidence of continued vaccine benefits",
+      "misinformation_narrative": "Many people believe COVID vaccines are no longer needed or effective due to recent political rhetoric and policy reversals, with claims that officials 'missed 99% of data' when making vaccine recommendations",
+      "public_stakes": "Reduced vaccination rates could lead to increased hospitalizations, deaths, and long COVID cases, particularly among vulnerable populations",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Truth Social, Telegram, and conservative media actively promote claims that COVID vaccines are unnecessary due to policy changes and data manipulation.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Framework for Equitable Allocation of COVID-19 Vaccine (2020)",
+          "url": "https://www.nationalacademies.org/publications/25917"
+        },
+        {
+          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
+          "url": "https://www.nationalacademies.org/publications/26284"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: STAT+: White House says it’s ‘done’ with vaccines. MAHA begs to differ",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/03/13/trump-rfk-jr-vaccines-growing-divide-maga-maha/?utm_campaign=rss",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Officials ‘missed 99% of data’ before ending Covid vaccine recommendation, memos reveal",
+          "origin": "STM — The Guardian Science",
+          "url": "https://www.theguardian.com/us-news/2026/mar/16/covid-vaccine-recommendation-kids-pregnant-people-data",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: In Talking to Parents About Vaccines, Pediatricians Navigate a Sea of Misinformation",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/03/11/health/pediatricians-vaccines-cdc-kennedy.html",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Federal judge stalls health secretary RFK Jr.’s overhaul of vaccine policy",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/03/16/kennedy-childhood-vaccine-changes-blocked-judge/?utm_campaign=rss",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: STAT+: Judge deals blow to RFK Jr.’s vaccine reforms",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/03/17/rfk-jr-maha-vaccine-policy-rejected-judge-acip-postponed-dc-diagnosis/?utm_campaign=rss",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Judge Strikes Down RFK Jr.’s Vaccine Policies in Blow to Trump’s Health Agenda",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/03/16/health/childhood-vaccines-lawsuit-kennedy.html",
+          "date": "2026-03-18"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 3,
+      "readiness_summary": "2 NASEM sources, most recent 2021 · confirmed misinformation · 3 discovery signals"
+    },
+    {
       "id": "climate_change_actually_accelerating_recent",
       "question": "Is climate change actually accelerating, or are recent claims exaggerated?",
       "priority": "high",
@@ -494,6 +572,91 @@
       "newest_source_year": 2020,
       "signal_count": 3,
       "readiness_summary": "5 NASEM sources, most recent 2020 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "climate_change_actually_accelerating_warming",
+      "question": "Is climate change actually accelerating, or is warming slowing down?",
+      "priority": "high",
+      "rationale": "Active denial of accelerating climate change undermines urgent action needed to prevent worst-case scenarios",
+      "misinformation_narrative": "Climate skeptics claim global warming has paused or slowed, contradicting evidence of accelerating climate change impacts",
+      "public_stakes": "Delayed climate action due to false beliefs about slowing warming could lead to catastrophic temperature increases and ecosystem collapse",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptic websites, conservative blogs, and social media communities regularly claim global warming has \"paused\" despite evidence of acceleration.",
+      "tags": [
+        "Climate Change",
+        "Environment"
+      ],
+      "nasem_source_count": 4,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Attribution of Extreme Weather Events in the Context of Climate Change (2016)",
+          "url": "https://www.nationalacademies.org/publications/21852"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why global warming is accelerating and what it means for the future",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519386-why-global-warming-is-accelerating-and-what-it-means-for-the-future/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why we fail to notice climate change",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/climate-change-binary-frozen-weather",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Austrian glaciers disintegrating due to climate change, say scientists",
+          "origin": "STM — BBC Science",
+          "url": "https://www.bbc.com/news/articles/cd038pgrr1yo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Terrifying study predicts exactly how many people will DIE by 2050 if we don't take urgent action to curb climate change",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15650027/Terrifying-study-predicts-people-DIE-2050-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: A strong constraint on radiative forcing of well-mixed greenhouse gases",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10289-x",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Ice core reveals low CO2 during warm spell 3 million years ago",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519771-ice-core-reveals-low-co2-during-warm-spell-3-million-years-ago/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-18"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 5,
+      "readiness_summary": "4 NASEM sources, most recent 2020 · confirmed misinformation · 5 discovery signals"
     },
     {
       "id": "cancer_blood_tests_provide_accurate",
@@ -1379,6 +1542,58 @@
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
+      "id": "antarctica_ice_loss_actually_accelerating",
+      "question": "Is Antarctica's ice loss actually accelerating toward collapse?",
+      "priority": "medium",
+      "rationale": "Polarized messaging about Antarctic ice creates confusion about realistic sea level rise timelines",
+      "misinformation_narrative": "Climate skeptics downplay Antarctic ice loss while alarmists exaggerate immediate collapse risks, creating confusion about actual timeline and severity",
+      "public_stakes": "Either underestimating or catastrophizing sea level rise impacts hampers appropriate coastal planning and climate adaptation",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptic communities downplay ice loss while climate activist groups sometimes exaggerate immediate collapse risks on social media and blogs.",
+      "tags": [
+        "Climate Change",
+        "Sea Level Rise"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Antarctic Sea Ice Variability in the Southern Ocean-Climate System: Proceedings of a Workshop (2017)",
+          "url": "https://www.nationalacademies.org/publications/24696"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Models warn Thwaites Glacier could rival entire Antarctic ice loss by 2067",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-thwaites-glacier-rival-entire-antarctic.html",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: In layers of melting glacier ice, scientists find a story of pre-industrial pollution",
+          "origin": "STM — NPR Science",
+          "url": "https://www.npr.org/2026/03/13/nx-s1-5745007/in-layers-of-melting-glacier-ice-scientists-find-a-story-of-pre-industrial-pollution",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Is Antarctica's Doomsday Glacier about to COLLAPSE? Shocking study predicts Thwaites could shed 200 gigatonnes of ice per year by 2067 - with devastating consequences",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15649811/Antarctica-Doomsday-Glacier-COLLAPSE-2067.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-16"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2017,
+      "signal_count": 3,
+      "readiness_summary": "1 NASEM source, most recent 2017 — moderately dated · confirmed misinformation · 3 discovery signals"
+    },
+    {
       "id": "geoengineering_safe_solution_stop_global",
       "question": "Is geoengineering a safe solution to stop global warming?",
       "priority": "medium",
@@ -1712,6 +1927,95 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "quantum_computers_actually_solve_problems",
+      "question": "Can quantum computers actually solve problems classical computers cannot?",
+      "priority": "low",
+      "rationale": "Hype cycles around quantum computing create unrealistic expectations that could undermine legitimate research",
+      "misinformation_narrative": "Overhyped claims about quantum computing capabilities conflict with reports that applications like chemistry may not be 'killer apps,' creating confusion about realistic potential",
+      "public_stakes": "Misallocated research funding and unrealistic investment expectations could slow genuine quantum computing progress",
+      "verification_status": "needs_review",
+      "verification_reason": "Public confusion about quantum computing exists, but not specifically the \"killer apps\" framing or chemistry applications mentioned.",
+      "tags": [
+        "Technology",
+        "Physics"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States (2023)",
+          "url": "https://www.nationalacademies.org/publications/26850"
+        },
+        {
+          "name": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States (2020)",
+          "url": "https://www.nationalacademies.org/publications/25613"
+        },
+        {
+          "name": "Controlling the Quantum World: The Science of Atoms, Molecules, and Photons (2007)",
+          "url": "https://www.nationalacademies.org/publications/11705"
+        },
+        {
+          "name": "Controlling the Quantum World of Atoms, Molecules, and Photons: An Interim Report (2005)",
+          "url": "https://www.nationalacademies.org/publications/11482"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Ultrafast laser pulses bring diamond-based quantum internet closer to reality",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-ultrafast-laser-pulses-diamond-based.html",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Major Turing computing award goes to quantum science for first time",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00818-z",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Computer science’s ‘Nobel Prize’ goes quantum",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/computer-science-s-nobel-prize-goes-quantum",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: MIT scientists finally see hidden quantum “jiggling” inside superconductors",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317064509.htm",
+          "date": "2026-03-18"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 5,
+      "readiness_summary": "5 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 5 discovery signals"
     },
     {
       "id": "daily_multivitamins_slow_aging_extend",
@@ -2122,6 +2426,62 @@
       "readiness_summary": "3 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 5 discovery signals"
     },
     {
+      "id": "crispr_gene_editing_safely_used",
+      "question": "Can CRISPR gene editing be safely used inside the human body?",
+      "priority": "low",
+      "rationale": "Gene editing fears based on science fiction rather than evidence could block access to proven therapies",
+      "misinformation_narrative": "Public fears about gene editing safety conflict with advancing in-vivo CRISPR therapies, creating barriers to potentially life-saving treatments",
+      "public_stakes": "Unfounded fears could prevent patients from accessing breakthrough genetic treatments for serious diseases",
+      "verification_status": "needs_review",
+      "verification_reason": "General fears about gene editing exist, but not specific public confusion about in-vivo CRISPR safety versus advancing therapies.",
+      "tags": [
+        "Health and Medicine",
+        "Gene Therapy"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Heritable Human Genome Editing (2021)",
+          "url": "https://www.nationalacademies.org/publications/25665"
+        },
+        {
+          "name": "Human Genome Editing: Science, Ethics, and Governance (2017)",
+          "url": "https://www.nationalacademies.org/publications/24623"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00857-6",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genome editing that avoids immune detection to integrate large DNA sequences",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00730-6",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: A gene-editing method generates immunotherapeutic CAR T cells in the body",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00634-5",
+          "date": "2026-03-18"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "global_warming_accelerating_faster_climate",
       "question": "Is global warming accelerating faster than climate models predicted?",
       "priority": "low",
@@ -2409,6 +2769,44 @@
       "newest_source_year": 2012,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2012 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "dental_infections_actually_linked_heart",
+      "question": "Are dental infections actually linked to heart disease and diabetes?",
+      "priority": "low",
+      "rationale": "Underestimation of oral health importance undermines preventive care and overall health outcomes",
+      "misinformation_narrative": "Skepticism about oral health connections to systemic diseases conflicts with emerging evidence of significant health links",
+      "public_stakes": "Neglecting dental care due to disbelief in systemic connections could worsen cardiovascular and diabetic outcomes",
+      "verification_status": "needs_review",
+      "verification_reason": "While some skepticism exists, there's no major public misinformation campaign specifically denying oral health-systemic disease connections.",
+      "tags": [
+        "Health and Medicine",
+        "Dental Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Improving Access to Oral Health Care for Vulnerable and Underserved Populations (2012)",
+          "url": "https://www.nationalacademies.org/publications/13116"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Fixing a tooth infection may improve blood sugar and heart health",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315225156.htm",
+          "date": "2026-03-17"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2012,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "dna_testing_reliably_tell_identical",
@@ -3442,6 +3840,103 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "mrna_vaccines_cause_cancer_alter",
+      "question": "Do mRNA vaccines cause cancer or alter DNA?",
+      "priority": "high",
+      "rationale": "Misinformation about mRNA technology is preventing acceptance of breakthrough cancer treatments that could save lives",
+      "misinformation_narrative": "Widespread false claims that mRNA vaccines can modify human DNA or cause cancer, threatening acceptance of new cancer vaccines and other mRNA therapies",
+      "public_stakes": "Cancer patients may refuse potentially life-saving mRNA-based cancer vaccines due to unfounded fears about DNA modification",
+      "verification_status": "verified",
+      "verification_reason": "Widespread belief on Facebook groups, anti-vaccine websites, and platforms like Rumble that mRNA vaccines alter DNA or cause cancer, with millions sharing such content.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer",
+        "Vaccines"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: DNA origami vaccines could be the next leap beyond mRNA",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317015933.htm",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+          "date": "2026-03-17"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Myths and Facts about COVID-19 Vaccines",
+          "description": "CDC fact sheet that directly addresses whether mRNA vaccines alter DNA or cause cancer",
+          "relevance": "Specifically refutes claims about mRNA vaccines altering DNA and addresses cancer concerns"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Briefing Document - Pfizer-BioNTech COVID-19 Vaccine",
+          "description": "FDA's comprehensive safety and efficacy analysis for Pfizer mRNA vaccine approval",
+          "relevance": "Contains detailed safety data and mechanism of action showing no DNA integration or cancer risk"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters",
+          "description": "WHO's myth-busting page addressing COVID-19 vaccine misconceptions",
+          "relevance": "Addresses false claims about mRNA vaccines and genetic modification"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niaid.nih.gov/node/7937?404message&requested_url=/diseases-conditions/covid-19-mrna-vaccines",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "mRNA Vaccines: What to Know About the COVID-19 mRNA Vaccines",
+          "description": "NIH explanation of how mRNA vaccines work and their safety profile",
+          "relevance": "Explains the mechanism showing mRNA doesn't enter cell nucleus or alter DNA"
+        },
+        {
+          "organization": "Nature Medicine",
+          "organization_full": "Nature Medicine",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "COVID-19 vaccine safety in real-world evidence studies: a systematic review",
+          "description": "Systematic review of real-world safety data for COVID-19 vaccines",
+          "relevance": "Comprehensive safety analysis showing no increased cancer risk or genetic modification"
+        }
+      ],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "igg_food_sensitivity_tests_reliable",
       "question": "Are IgG food sensitivity tests reliable for diagnosing food allergies or intolerances?",
       "priority": "high",
@@ -4317,6 +4812,129 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "lupus_take_years_diagnose_because",
+      "question": "Does lupus take years to diagnose because doctors don't understand it?",
+      "priority": "medium",
+      "rationale": "Misunderstanding why lupus diagnosis is difficult creates harmful mistrust and unrealistic expectations",
+      "misinformation_narrative": "Patients believe diagnostic delays are due to medical ignorance or bias, when complex symptom patterns and lack of specific tests are the main barriers",
+      "public_stakes": "Distrust of medical system could delay seeking care, while unrealistic expectations about quick diagnosis cause patient-doctor conflicts",
+      "verification_status": "verified",
+      "verification_reason": "Lupus patient support groups on Facebook, Reddit, and patient forums frequently express frustration that diagnostic delays are due to doctor ignorance or bias.",
+      "tags": [
+        "Health and Medicine",
+        "Diagnosis"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Lupus diagnosis currently takes months to years; previously took 2-3 years to diagnose (improved from past decade)",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (SLE) - Arthritis-Related Statistics",
+          "description": "CDC data on lupus diagnosis patterns and healthcare utilization",
+          "relevance": "Contains epidemiological data on lupus diagnosis timelines and healthcare encounters"
+        },
+        {
+          "organization": "NIH - National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus) - Information for Patients",
+          "description": "NIAMS comprehensive overview of lupus including diagnostic challenges",
+          "relevance": "Addresses diagnostic complexity and reasons for delayed diagnosis in lupus"
+        },
+        {
+          "organization": "Lupus Foundation of America",
+          "organization_full": "Lupus Foundation of America",
+          "base_url": "",
+          "url": "https://www.lupus.org/resources/diagnosing-lupus",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Diagnosing Lupus - Medical Guidelines and Statistics",
+          "description": "Evidence-based information on lupus diagnostic timelines and barriers",
+          "relevance": "Provides specific data on average time to diagnosis and contributing factors"
+        },
+        {
+          "organization": "American College of Rheumatology",
+          "organization_full": "American College of Rheumatology",
+          "base_url": "",
+          "url": "https://rheumatology.org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "2019 EULAR/ACR Classification Criteria for Systemic Lupus Erythematosus",
+          "description": "Clinical guidelines addressing diagnostic criteria and challenges in lupus",
+          "relevance": "Explains the medical complexity that contributes to diagnostic delays"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Diagnostic tests for systemic lupus erythematosus",
+          "description": "Systematic review of diagnostic accuracy studies for lupus testing",
+          "relevance": "Provides evidence-based analysis of diagnostic test performance and limitations"
+        }
+      ],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "really_programmed_manipulate_human_emotions",
+      "question": "Can AI really be programmed to manipulate human emotions?",
+      "priority": "medium",
+      "rationale": "Confusion about AI emotional capabilities hampers appropriate regulation and user protection",
+      "misinformation_narrative": "Conflicting views on AI emotional manipulation, from dismissing concerns to apocalyptic fears, affecting AI regulation and adoption",
+      "public_stakes": "Inadequate protection against AI manipulation could undermine mental health and democratic processes",
+      "verification_status": "verified",
+      "verification_reason": "Tech communities, privacy advocates, and AI ethics discussions on Twitter, Reddit, and policy forums actively debate AI emotional manipulation capabilities and risks.",
+      "tags": [
+        "Technology",
+        "AI Ethics",
+        "Mental Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI is programmed to hijack human empathy — we must resist that",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00834-z",
+          "date": "2026-03-17"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
@@ -5670,6 +6288,109 @@
       "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
+      "id": "new_cancer_treatments_like_car",
+      "question": "Are new cancer treatments like CAR-T therapy actual cures?",
+      "priority": "low",
+      "rationale": "Misleading 'cure' language around cancer treatments creates harmful misconceptions about treatment outcomes",
+      "misinformation_narrative": "Confusion about whether breakthrough cancer treatments represent 'cures' versus extended remission, affecting patient expectations and treatment decisions",
+      "public_stakes": "Unrealistic expectations about cancer 'cures' could lead to treatment abandonment or dangerous delay in proven therapies",
+      "verification_status": "needs_review",
+      "verification_reason": "While patients may have unrealistic expectations, there's no widespread public misinformation specifically about CAR-T therapy being marketed as \"cures.\"",
+      "tags": [
+        "Health and Medicine",
+        "Cancer"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists inject one tumor and watch cancer vanish across the body",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315225121.htm",
+          "date": "2026-03-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00857-6",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "CAR T Cell Therapy and Its Side Effects",
+          "description": "FDA's official information on CAR-T therapy including efficacy data and treatment outcomes",
+          "relevance": "Provides regulatory perspective on CAR-T therapy effectiveness and whether it constitutes a cure"
+        },
+        {
+          "organization": "National Cancer Institute (NIH)",
+          "organization_full": "National Cancer Institute (NIH)",
+          "base_url": "",
+          "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "CAR T Cells: Engineering Patients' Immune Cells to Treat Their Cancers",
+          "description": "NCI's comprehensive overview of CAR-T cell therapy including clinical trial results and long-term outcomes",
+          "relevance": "Authoritative medical source discussing CAR-T therapy outcomes and cure rates"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Chimeric antigen receptor T cell therapy for haematological malignancies",
+          "description": "Systematic review examining the effectiveness and safety of CAR-T therapy for blood cancers",
+          "relevance": "Evidence-based systematic review assessing cure rates and long-term remission data"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WHO Technical Report Series on Cell and Gene Therapies",
+          "description": "WHO's technical guidance on advanced cell and gene therapies including CAR-T",
+          "relevance": "International health authority perspective on CAR-T therapy outcomes and cure potential"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Cancer Statistics and Data - Treatment Outcomes",
+          "description": "CDC data on cancer treatment outcomes including newer immunotherapies",
+          "relevance": "Population-level data on cancer cure rates including advanced treatments like CAR-T"
+        }
+      ],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "climate_change_slowing_earth_rotation",
       "question": "Is climate change slowing Earth's rotation at an unprecedented rate?",
       "priority": "low",
@@ -6008,6 +6729,356 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "actually_predict_extreme_weather_better",
+      "question": "Can AI actually predict extreme weather better than traditional methods?",
+      "priority": "low",
+      "rationale": "Mixed messages about AI weather capabilities create dangerous confusion about what forecasting tools to trust",
+      "misinformation_narrative": "Public confusion about AI weather prediction capabilities, with some believing AI is overhyped while others think it's already revolutionizing forecasts",
+      "public_stakes": "Misunderstanding AI weather prediction limits could lead to poor emergency preparedness or overreliance on unvalidated systems",
+      "verification_status": "needs_review",
+      "verification_reason": "While there's debate about AI capabilities, there's no significant public confusion specifically about AI weather prediction being overhyped versus revolutionary.",
+      "tags": [
+        "Technology",
+        "Weather",
+        "Public Safety"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Can AI models reliably forecast extreme weather events?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00842-z",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI set to map risks of future climate disasters",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00835-y",
+          "date": "2026-03-18"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NOAA/National Weather Service",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.noaa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Artificial Intelligence Strategic Plan",
+          "description": "NOAA's strategic framework for integrating AI into weather prediction operations, including extreme weather forecasting capabilities",
+          "relevance": "Official assessment of AI applications in weather prediction from the primary U.S. weather forecasting agency"
+        },
+        {
+          "organization": "World Meteorological Organization (WMO)",
+          "organization_full": "World Meteorological Organization (WMO)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Guidelines on Machine Learning for Weather, Climate and Water",
+          "description": "WMO technical guidelines examining machine learning applications in meteorological prediction, including extreme weather events",
+          "relevance": "International meteorological authority's evaluation of AI/ML effectiveness compared to traditional forecasting methods"
+        },
+        {
+          "organization": "European Centre for Medium-Range Weather Forecasts (ECMWF)",
+          "organization_full": "European Centre for Medium-Range Weather Forecasts (ECMWF)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Machine Learning for Weather and Climate Modelling",
+          "description": "ECMWF's research findings on machine learning integration into numerical weather prediction models",
+          "relevance": "Leading weather center's comparative analysis of AI-enhanced versus traditional forecasting performance"
+        },
+        {
+          "organization": "U.S. Global Change Research Program (USGCRP)",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fifth National Climate Assessment - Chapter on Prediction and Projection",
+          "description": "Federal assessment of climate prediction capabilities including emerging AI technologies for extreme weather forecasting",
+          "relevance": "Comprehensive federal evaluation of current and emerging prediction methods for extreme weather and climate events"
+        },
+        {
+          "organization": "American Meteorological Society",
+          "organization_full": "American Meteorological Society",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "State of the Science Report on Artificial Intelligence in Weather Prediction",
+          "description": "Professional meteorological society's peer-reviewed assessment of AI performance in weather forecasting applications",
+          "relevance": "Scientific community consensus on AI effectiveness compared to traditional numerical weather prediction methods"
+        }
+      ],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "covid_infection_actually_increase_lung",
+      "question": "Does COVID infection actually increase lung cancer risk years later?",
+      "priority": "low",
+      "rationale": "Emerging evidence of COVID-cancer links challenges prevailing beliefs about COVID being 'just flu-like'",
+      "misinformation_narrative": "Dismissal of long-term COVID effects conflicts with emerging evidence of increased cancer risks, affecting post-COVID monitoring decisions",
+      "public_stakes": "Ignoring potential cancer risks could delay early detection, while overreacting could cause unnecessary anxiety and testing",
+      "verification_status": "needs_review",
+      "verification_reason": "This conflates academic uncertainty with public misinformation; most people aren't actively dismissing COVID-cancer links in meaningful numbers.",
+      "tags": [
+        "Health and Medicine",
+        "COVID-19",
+        "Cancer"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists tested vitamin D for COVID and found an unexpected long COVID clue",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315001845.htm",
+          "date": "2026-03-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Severe COVID or flu may raise lung cancer risk years later",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260313055130.htm",
+          "date": "2026-03-18"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "species_evolving_fast_enough_survive",
+      "question": "Are species evolving fast enough to survive climate change?",
+      "priority": "low",
+      "rationale": "Confusion about evolution and climate change timescales undermines effective conservation strategies",
+      "misinformation_narrative": "Conflicting claims about whether evolution can keep pace with climate change, from overoptimistic assumptions to complete pessimism",
+      "public_stakes": "Misunderstanding evolutionary timescales could lead to inadequate conservation efforts or abandoning species protection entirely",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes scientific uncertainty rather than public misinformation; most people don't hold strong beliefs about evolutionary adaptation rates.",
+      "tags": [
+        "Evolution",
+        "Climate Change",
+        "Conservation"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Can species evolve fast enough to survive as the planet heats up?",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519241-can-species-evolve-fast-enough-to-survive-as-the-planet-heats-up/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-16"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Working Group II Contribution to the Sixth Assessment Report",
+          "description": "IPCC's comprehensive assessment includes chapters on terrestrial and freshwater ecosystems examining species' adaptive capacity and evolutionary responses to climate change",
+          "relevance": "Provides authoritative scientific assessment of ecosystem responses and species adaptation to climate change"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate Change Indicators: Ecosystems",
+          "description": "EPA's climate indicators tracking changes in species distributions, phenology, and ecosystem responses to climate change",
+          "relevance": "Documents observed changes in species behavior and distributions that indicate adaptive responses to climate change"
+        },
+        {
+          "organization": "USGCRP",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment Volume II: Impacts, Risks, and Adaptation in the United States - Chapter 7: Ecosystems, Ecosystem Services, and Biodiversity",
+          "description": "US Global Change Research Program's assessment of how climate change affects ecosystems and species adaptive capacity",
+          "relevance": "Examines species' ability to adapt through migration, phenological shifts, and evolutionary responses to climate pressures"
+        },
+        {
+          "organization": "CBD (Convention on Biological Diversity)",
+          "organization_full": "CBD (Convention on Biological Diversity)",
+          "base_url": "",
+          "url": "https://www.cbd.int/gbo5",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Global Biodiversity Outlook 5",
+          "description": "UN's comprehensive assessment of biodiversity trends including analysis of species responses to climate change and adaptive capacity",
+          "relevance": "Provides global perspective on biodiversity loss and species' ability to respond to environmental changes including climate"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.fisheries.noaa.gov/topic/climate-change",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Climate Change Impacts on Marine Ecosystems",
+          "description": "NOAA's assessment of climate impacts on marine species including adaptation strategies and evolutionary responses",
+          "relevance": "Documents marine species responses to climate change including shifts in distribution and adaptation mechanisms"
+        }
+      ],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "epstein_barr_virus_actually_linked",
+      "question": "Is the Epstein-Barr virus actually linked to autoimmune diseases like lupus?",
+      "priority": "low",
+      "rationale": "Mixed messages about virus-autoimmune links create confusion about disease causation and treatment",
+      "misinformation_narrative": "Confusion about EBV's role in autoimmune disease, with some dismissing viral connections while others blame all autoimmune issues on infections",
+      "public_stakes": "Misunderstanding viral triggers could affect treatment approaches and prevention strategies for autoimmune diseases",
+      "verification_status": "needs_review",
+      "verification_reason": "EBV-autoimmune connections aren't a major public debate; this appears to be academic nuance presented as widespread confusion.",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus) - Information for Patients",
+          "description": "NIH's comprehensive information on lupus including environmental triggers and viral associations",
+          "relevance": "Addresses potential viral triggers including EBV in lupus development"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/epstein-barr/about/index.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Epstein-Barr Virus and Infectious Mononucleosis",
+          "description": "CDC's fact sheet on EBV including complications and associated conditions",
+          "relevance": "Provides official information on EBV's role in various diseases including autoimmune conditions"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Epstein-Barr virus and systemic autoimmune diseases - Systematic Review",
+          "description": "Systematic review examining evidence for EBV's role in autoimmune disease development",
+          "relevance": "Provides high-quality systematic review evidence on the EBV-autoimmune disease connection"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://monographs.iarc.who.int/agents-classified-by-the-iarc/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "International Agency for Research on Cancer - EBV Monograph",
+          "description": "IARC's evaluation of Epstein-Barr virus as a carcinogenic agent and associated diseases",
+          "relevance": "Comprehensive review of EBV's role in various diseases including immune system effects"
+        },
+        {
+          "organization": "NIH/NCBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "PubMed Clinical Queries - EBV and Lupus",
+          "description": "Clinical evidence database with systematic reviews and clinical trials on EBV-lupus association",
+          "relevance": "Repository of peer-reviewed clinical evidence on the relationship between EBV and autoimmune diseases"
+        }
+      ],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "did_life_really_rebound_quickly",
+      "question": "Did life really rebound quickly after the dinosaur extinction?",
+      "priority": "low",
+      "rationale": "Outdated assumptions about extinction recovery affect understanding of ecosystem resilience",
+      "misinformation_narrative": "Popular belief that recovery from mass extinctions takes millions of years conflicts with evidence of rapid biological rebounds",
+      "public_stakes": "Misconceptions about recovery timescales could affect expectations about ecosystem resilience and climate change impacts",
+      "verification_status": "needs_review",
+      "verification_reason": "Mass extinction recovery timelines aren't a topic of significant public debate or misinformation.",
+      "tags": [
+        "Evolution",
+        "Paleontology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Life rebounded shockingly fast after the asteroid that killed the dinosaurs",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315004414.htm",
+          "date": "2026-03-16"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "epstein_barr_virus_cause_lupus",

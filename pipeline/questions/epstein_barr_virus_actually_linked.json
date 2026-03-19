@@ -1,0 +1,50 @@
+{
+  "id": "epstein_barr_virus_actually_linked",
+  "question": "Is the Epstein-Barr virus actually linked to autoimmune diseases like lupus?",
+  "topic": "Mixed messages about virus-autoimmune links create confusion about disease causation and treatment",
+  "tags": [
+    "Health and Medicine",
+    "Autoimmune Disease"
+  ],
+  "sources": [
+    {
+      "name": "Systemic Lupus Erythematosus (Lupus) - Information for Patients — NIH/NIAMS",
+      "url": "https://www.niams.nih.gov/health-topics/lupus",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Epstein-Barr Virus and Infectious Mononucleosis — CDC",
+      "url": "https://www.cdc.gov/epstein-barr/about/index.html",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Epstein-Barr virus and systemic autoimmune diseases - Systematic Review — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "International Agency for Research on Cancer - EBV Monograph — WHO",
+      "url": "https://monographs.iarc.who.int/agents-classified-by-the-iarc/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "PubMed Clinical Queries - EBV and Lupus — NIH/NCBI",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

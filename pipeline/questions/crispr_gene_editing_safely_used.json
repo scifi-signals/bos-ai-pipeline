@@ -1,0 +1,53 @@
+{
+  "id": "crispr_gene_editing_safely_used",
+  "question": "Can CRISPR gene editing be safely used inside the human body?",
+  "topic": "Gene editing fears based on science fiction rather than evidence could block access to proven therap",
+  "tags": [
+    "Health and Medicine",
+    "Gene Therapy"
+  ],
+  "sources": [
+    {
+      "name": "Heritable Human Genome Editing",
+      "url": "https://www.nationalacademies.org/publications/25665",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human Genome Editing: Science, Ethics, and Governance",
+      "url": "https://www.nationalacademies.org/publications/24623",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00857-6",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Genome editing that avoids immune detection to integrate large DNA sequences",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00730-6",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: A gene-editing method generates immunotherapeutic CAR T cells in the body",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00634-5",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00857-6",
+      "date": "2026-03-18"
+    }
+  ]
+}

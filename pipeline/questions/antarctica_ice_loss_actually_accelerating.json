@@ -1,0 +1,40 @@
+{
+  "id": "antarctica_ice_loss_actually_accelerating",
+  "question": "Is Antarctica's ice loss actually accelerating toward collapse?",
+  "topic": "Polarized messaging about Antarctic ice creates confusion about realistic sea level rise timelines",
+  "tags": [
+    "Climate Change",
+    "Sea Level Rise"
+  ],
+  "sources": [
+    {
+      "name": "Antarctic Sea Ice Variability in the Southern Ocean-Climate System: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/24696",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Models warn Thwaites Glacier could rival entire Antarctic ice loss by 2067",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-thwaites-glacier-rival-entire-antarctic.html",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: In layers of melting glacier ice, scientists find a story of pre-industrial pollution",
+      "origin": "STM — NPR Science",
+      "url": "https://www.npr.org/2026/03/13/nx-s1-5745007/in-layers-of-melting-glacier-ice-scientists-find-a-story-of-pre-industrial-pollution",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Is Antarctica's Doomsday Glacier about to COLLAPSE? Shocking study predicts Thwaites could shed 200 gigatonnes of ice per year by 2067 - with devastating consequences",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15649811/Antarctica-Doomsday-Glacier-COLLAPSE-2067.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-03-16"
+    }
+  ]
+}

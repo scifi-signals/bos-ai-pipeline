@@ -1,0 +1,78 @@
+{
+  "id": "lupus_take_years_diagnose_because",
+  "question": "Does lupus take years to diagnose because doctors don't understand it?",
+  "topic": "Misunderstanding why lupus diagnosis is difficult creates harmful mistrust and unrealistic expectati",
+  "tags": [
+    "Health and Medicine",
+    "Diagnosis"
+  ],
+  "sources": [
+    {
+      "name": "Systemic Lupus Erythematosus (SLE) - Arthritis-Related Statistics — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Systemic Lupus Erythematosus (Lupus) - Information for Patients — NIH - National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "url": "https://www.niams.nih.gov/health-topics/lupus",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Diagnosing Lupus - Medical Guidelines and Statistics — Lupus Foundation of America",
+      "url": "https://www.lupus.org/resources/diagnosing-lupus",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "2019 EULAR/ACR Classification Criteria for Systemic Lupus Erythematosus — American College of Rheumatology",
+      "url": "https://rheumatology.org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Diagnostic tests for systemic lupus erythematosus — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Lupus diagnosis currently takes months to years; previously took 2-3 years to diagnose (improved from past decade)",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "30% concordance rate in identical twins indicates strong but incomplete genetic component",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Approximately 9 out of 10 lupus patients are women (90% female predominance)",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Systemic lupus erythematosus (SLE) pathogenesis and multi-organ involvement",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

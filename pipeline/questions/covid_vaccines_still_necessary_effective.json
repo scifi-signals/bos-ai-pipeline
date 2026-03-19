@@ -1,0 +1,68 @@
+{
+  "id": "covid_vaccines_still_necessary_effective",
+  "question": "Are COVID vaccines still necessary and effective given recent policy changes?",
+  "topic": "Active misinformation from political figures and misinterpreted data is causing vaccine hesitancy de",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "Framework for Equitable Allocation of COVID-19 Vaccine",
+      "url": "https://www.nationalacademies.org/publications/25917",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+      "url": "https://www.nationalacademies.org/publications/26284",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: STAT+: White House says it’s ‘done’ with vaccines. MAHA begs to differ",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/03/13/trump-rfk-jr-vaccines-growing-divide-maga-maha/?utm_campaign=rss",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Officials ‘missed 99% of data’ before ending Covid vaccine recommendation, memos reveal",
+      "origin": "STM — The Guardian Science",
+      "url": "https://www.theguardian.com/us-news/2026/mar/16/covid-vaccine-recommendation-kids-pregnant-people-data",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: In Talking to Parents About Vaccines, Pediatricians Navigate a Sea of Misinformation",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/11/health/pediatricians-vaccines-cdc-kennedy.html",
+      "date": "2026-03-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Federal judge stalls health secretary RFK Jr.’s overhaul of vaccine policy",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/03/16/kennedy-childhood-vaccine-changes-blocked-judge/?utm_campaign=rss",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: STAT+: Judge deals blow to RFK Jr.’s vaccine reforms",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/03/17/rfk-jr-maha-vaccine-policy-rejected-judge-acip-postponed-dc-diagnosis/?utm_campaign=rss",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Judge Strikes Down RFK Jr.’s Vaccine Policies in Blow to Trump’s Health Agenda",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/16/health/childhood-vaccines-lawsuit-kennedy.html",
+      "date": "2026-03-18"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "dental_infections_actually_linked_heart",
+  "question": "Are dental infections actually linked to heart disease and diabetes?",
+  "topic": "Underestimation of oral health importance undermines preventive care and overall health outcomes",
+  "tags": [
+    "Health and Medicine",
+    "Dental Health"
+  ],
+  "sources": [
+    {
+      "name": "Improving Access to Oral Health Care for Vulnerable and Underserved Populations",
+      "url": "https://www.nationalacademies.org/publications/13116",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Fixing a tooth infection may improve blood sugar and heart health",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315225156.htm",
+      "date": "2026-03-17"
+    }
+  ]
+}
