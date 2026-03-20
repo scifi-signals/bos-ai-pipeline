@@ -1,0 +1,94 @@
+{
+  "id": "should_people_avoid_medical_treatments",
+  "question": "Should people avoid medical treatments due to concerns about side effects?",
+  "topic": "Helps people understand relative risks and benefits of medical interventions using evidence-based da",
+  "tags": [
+    "Health and Medicine",
+    "Medical Decision Making",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Medications for Opioid Use Disorder Save Lives",
+      "url": "https://www.nationalacademies.org/publications/25310",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://www.nationalacademies.org/publications/13563",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Crossing the Quality Chasm: A New Health System for the 21st Century",
+      "url": "https://www.nationalacademies.org/publications/10027",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://www.nationalacademies.org/publications/10306",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Judge Strikes Down RFK Jr.’s Vaccine Policies in Blow to Trump’s Health Agenda",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/16/health/childhood-vaccines-lawsuit-kennedy.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Fox News AI Newsletter: FDA rolls out AI-powered vaccine platform",
+      "origin": "STM — Fox News SciTech",
+      "url": "https://www.foxnews.com/tech/ai-newsletter-fda-rolls-out-ai-powered-vaccine-platform",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: The indirect — and sometimes surprising — benefits of vaccines",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/03/19/vaccine-success-widespread-hidden-benefits-make-skepticism-possible/?utm_campaign=rss",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "No FDA-approved lupus treatments existed for 50 years until first approval ~20 years ago",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Three additional FDA-approved lupus interventions approved in recent years, with possibly two more in current year (2026)",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "First CAR-T cell therapy lupus patient in New England treated in 2023, still lupus-free and treatment-free after ~3 years",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

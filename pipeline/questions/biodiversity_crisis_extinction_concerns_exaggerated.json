@@ -1,0 +1,103 @@
+{
+  "id": "biodiversity_crisis_extinction_concerns_exaggerated",
+  "question": "Are we in a biodiversity crisis, or are extinction concerns exaggerated?",
+  "topic": "Addresses denial of biodiversity crisis that undermines support for conservation policies and fundin",
+  "tags": [
+    "Environment",
+    "Biodiversity",
+    "Conservation"
+  ],
+  "sources": [
+    {
+      "name": "In the Light of Evolution: Volume II: Biodiversity and Extinction",
+      "url": "https://www.nationalacademies.org/publications/12501",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Biodiversity at Risk: Today's Choices Matter",
+      "url": "https://www.nationalacademies.org/publications/26384",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Gene conversion empowers natural selection in a clonal fish species",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10180-9",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: How an all-female fish species defies evolutionary expectations",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00493-0",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Earth’s first major extinction was worse than we thought",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/earth-s-first-major-extinction-was-worse-we-thought",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Can species evolve fast enough to survive as the planet heats up?",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519241-can-species-evolve-fast-enough-to-survive-as-the-planet-heats-up/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Endangered smalltooth sawfish make a comeback in a historical Florida nursery",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-endangered-smalltooth-sawfish-comeback-historical.html",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: The fish species that knows when you are watching them",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-fish-species.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: New palm tree species discovered in Colombian Amazon",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-palm-tree-species-colombian-amazon.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Paleontologists uncover a new ‘Spinosaurus’ species by following a clue from a decades-old book into the Sahara Desert",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/paleontologists-uncover-a-new-spinosaurus-species-by-following-a-clue-from-a-decades-old-book-into-the-sahara-desert-274182",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: How To Bring a Bird’s Song Back from the Edge of Extinction",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/17/science/birds-honeyeater-birdsong-conservation.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Mosquitoes may hold the key to saving endangered Australian wildlife",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-mosquitoes-key-endangered-australian-wildlife.html",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Fossil X-ray reveals new species of baby dino named for iconic Korean cartoon",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-fossil-ray-reveals-species-baby.html",
+      "date": "2026-03-19"
+    }
+  ]
+}

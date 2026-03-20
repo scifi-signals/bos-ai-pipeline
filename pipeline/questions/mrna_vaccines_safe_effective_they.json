@@ -1,0 +1,100 @@
+{
+  "id": "mrna_vaccines_safe_effective_they",
+  "question": "Are mRNA vaccines safe and effective, or do they pose serious health risks?",
+  "topic": "Combats persistent anti-vaccine misinformation that undermines public health initiatives and threate",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "COVID-19 Vaccine Safety and Effectiveness — CDC",
+      "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "FDA Brief Document: Pfizer-BioNTech COVID-19 Vaccine — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Statement on the safety of COVID-19 vaccines — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaccines for preventing COVID-19 — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "COVID-19 Treatment Guidelines: COVID-19 Vaccines — NIH",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: STAT+: Judge deals blow to RFK Jr.’s vaccine reforms",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/03/17/rfk-jr-maha-vaccine-policy-rejected-judge-acip-postponed-dc-diagnosis/?utm_campaign=rss",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI set to map risks of future climate disasters",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00835-y",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Federal judge stalls health secretary RFK Jr.’s overhaul of vaccine policy",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/03/16/kennedy-childhood-vaccine-changes-blocked-judge/?utm_campaign=rss",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: DNA origami vaccines could be the next leap beyond mRNA",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260317015933.htm",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Judge Strikes Down RFK Jr.’s Vaccine Policies in Blow to Trump’s Health Agenda",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/16/health/childhood-vaccines-lawsuit-kennedy.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Fox News AI Newsletter: FDA rolls out AI-powered vaccine platform",
+      "origin": "STM — Fox News SciTech",
+      "url": "https://www.foxnews.com/tech/ai-newsletter-fda-rolls-out-ai-powered-vaccine-platform",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: The indirect — and sometimes surprising — benefits of vaccines",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/03/19/vaccine-success-widespread-hidden-benefits-make-skepticism-possible/?utm_campaign=rss",
+      "date": "2026-03-19"
+    }
+  ]
+}

@@ -1,0 +1,89 @@
+{
+  "id": "artificial_intelligence_systems_actually_threaten",
+  "question": "Do artificial intelligence systems actually threaten human jobs and society?",
+  "topic": "Balances realistic assessment of AI capabilities and limitations against both catastrophic fears and",
+  "tags": [
+    "Technology",
+    "Artificial Intelligence",
+    "Society"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and the Future of Work",
+      "url": "https://www.nationalacademies.org/publications/27644",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://www.nationalacademies.org/publications/26355",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Rethinking AI’s role in survey research: from threat to collaboration",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00862-9",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AlphaFold hits ‘next level’: the AI database now includes protein pairing",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00787-3",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI is programmed to hijack human empathy — we must resist that",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00834-z",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI and the PhD student: friend or foe?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00843-y",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Can AI models reliably forecast extreme weather events?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00842-z",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI set to map risks of future climate disasters",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00835-y",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: AI model predicts chemical effects on gene expression, speeding drug discovery",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-ai-chemical-effects-gene-drug.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Integrated photonic neural network with on-chip backpropagation training",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10262-8",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AlphaFold database hits ‘next level’: the AI system now includes protein pairing",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00787-3",
+      "date": "2026-03-19"
+    }
+  ]
+}

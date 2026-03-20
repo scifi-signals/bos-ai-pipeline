@@ -1,0 +1,125 @@
+{
+  "id": "infectious_diseases_pose_serious_ongoing",
+  "question": "Do infectious diseases pose serious ongoing threats in the modern world?",
+  "topic": "Balances understanding of genuine infectious disease threats against both overconfidence and excessi",
+  "tags": [
+    "Public Health",
+    "Infectious Disease",
+    "Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Rapid Medical Countermeasure Response to Infectious Diseases: Enabling Sustainable Capabilities Through Ongoing Public- and Private-Sector Partnerships: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/21809",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Convergence of Infectious Diseases and Noncommunicable Diseases: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25535",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Global Climate Change and Extreme Weather Events: Understanding the Contributions to Infectious Disease Emergence: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/12435",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Global Infectious Disease Surveillance and Detection: Assessing the Challenges�Finding Solutions: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/11996",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Influence of Global Environmental Change on Infectious Disease Dynamics: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/18800",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Understanding and Responding to Global Health Security Risks from Microbial Threats in the Arctic: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25887",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Global Health and the Future Role of the United States",
+      "url": "https://www.nationalacademies.org/publications/24737",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Perspectives on Research with H5N1 Avian Influenza: Scientific Inquiry, Communication, Controversy: Summary of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/18255",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Capturing dynamic phage–pathogen coevolution by clinical surveillance",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10136-z",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: A forgotten social media post may hold key clues to COVID-19’s origin",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/forgotten-social-media-post-may-hold-key-clues-covid-19-s-origin",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Fixing a tooth infection may improve blood sugar and heart health",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315225156.htm",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: MIT scientists discover gut protein that traps and kills dangerous bacteria",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315004403.htm",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists tested vitamin D for COVID and found an unexpected long COVID clue",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315001845.htm",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: A donut-shaped protein breaks apart to start bacterial cell division",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260314030457.htm",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Severe COVID or flu may raise lung cancer risk years later",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260313055130.htm",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: An enzyme inside the bacterial-cell membrane chops up viral DNA on entry",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00732-4",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: An enzyme inside the bacterial-cell membrane chops up viral DNA on entry",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00732-4",
+      "date": "2026-03-18"
+    }
+  ]
+}

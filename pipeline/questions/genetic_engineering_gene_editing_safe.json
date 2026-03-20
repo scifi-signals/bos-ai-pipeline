@@ -1,0 +1,128 @@
+{
+  "id": "genetic_engineering_gene_editing_safe",
+  "question": "Is genetic engineering and gene editing safe for humans and the environment?",
+  "topic": "Provides balanced assessment of genetic engineering benefits and risks based on scientific evidence",
+  "tags": [
+    "Biotechnology",
+    "Genetics",
+    "Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Human Gene Therapy and Cell-Based Therapy Considerations — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Human Genome Editing: A Framework for Governance — WHO",
+      "url": "https://www.who.int/publications/i/item/9789240030060",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Biotechnology Risk Assessment Guidelines — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Guidelines for Research Involving Recombinant or Synthetic Nucleic Acid Molecules — NIH",
+      "url": "https://osp.od.nih.gov/wp-content/uploads/NIH_Guidelines.pdf",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Gene therapy for haemophilia: systematic review — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Author Correction: Gut stem cell necroptosis by genome instability triggers bowel inflammation",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10302-3",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: This fish shouldn’t exist — the weird genetics of clonal vertebrates",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00798-0",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Immune evasive DNA donors and recombinases license kilobase-scale writing",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10241-z",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Gene conversion empowers natural selection in a clonal fish species",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10180-9",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: DNA origami vaccines could be the next leap beyond mRNA",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260317015933.htm",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Scientists discover ALS protein that links DNA repair to cancer and dementia",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260314030507.htm",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Scientists discover ancient DNA “switches” hidden in plants for 400 million years",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260313062533.htm",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: AI model predicts chemical effects on gene expression, speeding drug discovery",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-ai-chemical-effects-gene-drug.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Adaptive evolution of gene regulatory networks in mammalian neocortex",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10226-y",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Genome editing that avoids immune detection to integrate large DNA sequences",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00730-6",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: A gene-editing method generates immunotherapeutic CAR T cells in the body",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00634-5",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00857-6",
+      "date": "2026-03-18"
+    }
+  ]
+}

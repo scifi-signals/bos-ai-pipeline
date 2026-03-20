@@ -1,0 +1,110 @@
+{
+  "id": "evolution_just_theory_scientifically_proven",
+  "question": "Is evolution 'just a theory' or is it scientifically proven fact?",
+  "topic": "Addresses fundamental misunderstanding of scientific theory vs. hypothesis and persistent creationis",
+  "tags": [
+    "Science Education",
+    "Evolution",
+    "Biology"
+  ],
+  "sources": [
+    {
+      "name": "Science, Evolution, and Creationism",
+      "url": "https://www.nationalacademies.org/publications/11876",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Teaching About Evolution and the Nature of Science",
+      "url": "https://www.nationalacademies.org/publications/5787",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Gene conversion empowers natural selection in a clonal fish species",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10180-9",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: How an all-female fish species defies evolutionary expectations",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00493-0",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Ancient DNA reshapes the story of early Pacific migrations",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/ancient-dna-reshapes-story-early-pacific-migrations",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Ancient DNA reshapes the story of early Pacific migrations",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/ancient-dna-reshapes-story-early-pacific-migrations",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Earth’s first major extinction was worse than we thought",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/earth-s-first-major-extinction-was-worse-we-thought",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Can species evolve fast enough to survive as the planet heats up?",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519241-can-species-evolve-fast-enough-to-survive-as-the-planet-heats-up/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Adaptive evolution of gene regulatory networks in mammalian neocortex",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10226-y",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Evolution",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00612-x",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Climate snapshots trapped in ancient ice tell a surprising story",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00636-3",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Fossil X-ray reveals new species of baby dino named for iconic Korean cartoon",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-fossil-ray-reveals-species-baby.html",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Ancient brines helped build Idaho's Silver Valley and Cobalt belt",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-ancient-brines-idaho-silver-valley.html",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Fossil X-ray reveals new species of baby dino named for iconic Korean cartoon",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-fossil-ray-reveals-species-baby.html",
+      "date": "2026-03-19"
+    }
+  ]
+}

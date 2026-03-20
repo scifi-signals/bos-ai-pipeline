@@ -1,0 +1,106 @@
+{
+  "id": "alone_universe_evidence_extraterrestrial_life",
+  "question": "Are we alone in the universe, or is there evidence of extraterrestrial life?",
+  "topic": "Separates legitimate astrobiology research from UFO speculation and conspiracy theories",
+  "tags": [
+    "Space Science",
+    "Astrobiology",
+    "Science Education"
+  ],
+  "sources": [
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26522",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Evaluating the Biological Potential in Samples Returned from Planetary Satellites and Small Solar System Bodies: Framework for Decision Making",
+      "url": "https://www.nationalacademies.org/publications/6281",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Quarantine and Certification of Martian Samples",
+      "url": "https://www.nationalacademies.org/publications/10138",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Mars Sample Return: Issues and Recommendations",
+      "url": "https://www.nationalacademies.org/publications/5563",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Searching for Life Across Space and Time: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/24860",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Astrophysical Context of Life",
+      "url": "https://www.nationalacademies.org/publications/11316",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Briefing chat: ‘Can it run <i>Doom</i>?’ — why scientists got brain cells and a satellite to play the classic game",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00845-w",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Can potatoes grow on the Moon?",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/can-potatoes-grow-moon",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: The asteroid Ryugu has all of the main ingredients for life",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519423-the-asteroid-ryugu-has-all-of-the-main-ingredients-for-life/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Life rebounded shockingly fast after the asteroid that killed the dinosaurs",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315004414.htm",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Observing the tidal pulse of rivers from wide-swath satellite altimetry",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10287-z",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Fluorescent ruby-like gems have been found on Mars for the first time",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519933-fluorescent-ruby-like-gems-have-been-found-on-mars-for-the-first-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: It's time to monetise the moon! Definitely! Maybe?",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/mg26935873-700-its-time-to-monetise-the-moon-definitely-maybe/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Scientists discover tiny rocket engines inside malaria parasites",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260318033111.htm",
+      "date": "2026-03-19"
+    }
+  ]
+}

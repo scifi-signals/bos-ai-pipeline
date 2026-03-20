@@ -1,0 +1,128 @@
+{
+  "id": "climate_change_really_accelerating_recent",
+  "question": "Is climate change really accelerating, or are recent warming trends normal?",
+  "topic": "Addresses persistent climate denial that undermines policy support and individual behavior change ne",
+  "tags": [
+    "Climate Change",
+    "Environment"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://www.nationalacademies.org/publications/25733",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+      "url": "https://www.nationalacademies.org/publications/18373",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence and Causes",
+      "url": "https://www.nationalacademies.org/publications/18730",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence, Impacts, and Choices: PDF Booklet",
+      "url": "https://www.nationalacademies.org/publications/14673",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Why global warming is accelerating and what it means for the future",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519386-why-global-warming-is-accelerating-and-what-it-means-for-the-future/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Why we fail to notice climate change",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/climate-change-binary-frozen-weather",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Austrian glaciers disintegrating due to climate change, say scientists",
+      "origin": "STM — BBC Science",
+      "url": "https://www.bbc.com/news/articles/cd038pgrr1yo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Trump admin sues California over vehicle emission, greenhouse gas rules",
+      "origin": "STM — The Hill Tech",
+      "url": "https://thehill.com/homenews/nexstar_media_wire/5782056-trump-admin-sues-california-over-vehicle-emission-greenhouse-gas-rules/",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Terrifying study predicts exactly how many people will DIE by 2050 if we don't take urgent action to curb climate change",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15650027/Terrifying-study-predicts-people-DIE-2050-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-03-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Light-activated material offers new approach to carbon dioxide conversion",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-material-approach-carbon-dioxide-conversion.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Using cow dung for sustainable carbon dioxide capture",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-cow-dung-sustainable-carbon-dioxide.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Decline in Japanese chum salmon linked to climate change",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-decline-japanese-chum-salmon-linked.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: A strong constraint on radiative forcing of well-mixed greenhouse gases",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10289-x",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Ice core reveals low CO2 during warm spell 3 million years ago",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519771-ice-core-reveals-low-co2-during-warm-spell-3-million-years-ago/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate change could pose a major risk to cassava in Africa: Study sets out what can be done now",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-climate-pose-major-cassava-africa.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: New ice core studies expand histories of greenhouse gases and ocean temperature to 3 million years",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-ice-core-histories-greenhouse-gases.html",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Updated plan aims to boost NI's resilience to climate change",
+      "origin": "STM — BBC Science",
+      "url": "https://www.bbc.com/news/articles/cgqgq11409lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-03-19"
+    }
+  ]
+}
