@@ -1,0 +1,61 @@
+{
+  "id": "humans_grow_food_moon_mars",
+  "question": "Can humans grow food on the Moon or Mars for space colonization?",
+  "topic": "Clarifies the actual scientific challenges and possibilities for space agriculture",
+  "tags": [
+    "Space",
+    "Agriculture",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26750",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26522",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Can potatoes grow on the Moon?",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/can-potatoes-grow-moon",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Fluorescent ruby-like gems have been found on Mars for the first time",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519933-fluorescent-ruby-like-gems-have-been-found-on-mars-for-the-first-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: It's time to monetise the moon! Definitely! Maybe?",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/mg26935873-700-its-time-to-monetise-the-moon-definitely-maybe/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: First science from private Moon lander challenges lunar divide",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/first-science-private-moon-lander-challenges-lunar-divide",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Private company to land on asteroid Apophis as it flies close to Earth",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520020-private-company-to-land-on-asteroid-apophis-as-it-flies-close-to-earth/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-20"
+    }
+  ]
+}

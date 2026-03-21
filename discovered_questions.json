@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-20T12:08:43Z",
+  "generated_at": "2026-03-21T12:07:30Z",
   "questions": [
     {
       "id": "global_warming_accelerated_significantly_since",
@@ -1091,15 +1091,16 @@
     },
     {
       "id": "vaccines_cause_food_allergies_children",
-      "question": "Can vaccines cause food allergies in children?",
+      "question": "Do vaccines cause food allergies in children?",
       "priority": "high",
-      "rationale": "Corrects a specific misconception linking vaccines to allergies that drives vaccine hesitancy",
-      "misinformation_narrative": "Parents increasingly believe vaccines trigger food allergies, leading them to delay vaccination or seek 'safer' vaccine schedules despite no scientific evidence supporting this connection",
-      "public_stakes": "Vaccine hesitancy based on allergy fears reduces immunization rates and increases disease outbreaks while not actually protecting children from developing allergies",
+      "rationale": "Counters a growing misconception linking vaccines to food allergies when evidence shows no causal relationship",
+      "misinformation_narrative": "Parents increasingly blame vaccines for rising food allergy rates, leading some to delay or refuse immunizations to 'prevent' allergies",
+      "public_stakes": "Vaccine hesitancy based on false allergy fears puts children at risk of preventable diseases while delaying evidence-based allergy prevention strategies",
       "verification_status": "verified",
-      "verification_reason": "Parent groups on Facebook and alternative health forums frequently discuss vaccine-allergy connections, with many seeking delayed schedules based on this fear.",
+      "verification_reason": "Parent groups on Facebook and anti-vaccine websites like NVIC frequently link vaccines to food allergies and eczema increases.",
       "tags": [
         "Health and Medicine",
+        "Public Health",
         "Vaccines",
         "Allergies"
       ],
@@ -1188,8 +1189,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-09",
-      "last_seen": "2026-03-17",
-      "times_seen": 8,
+      "last_seen": "2026-03-21",
+      "times_seen": 9,
       "status": "pending",
       "newest_source_year": 1993,
       "signal_count": 7,
@@ -1887,6 +1888,215 @@
       "newest_source_year": 2022,
       "signal_count": 6,
       "readiness_summary": "2 NASEM sources, most recent 2022 · confirmed misinformation · 6 discovery signals"
+    },
+    {
+      "id": "crispr_gene_editing_technologies_safe",
+      "question": "Are CRISPR and gene editing technologies safe for human use?",
+      "priority": "medium",
+      "rationale": "Separates evidence-based gene editing safety data from science fiction fears and hype",
+      "misinformation_narrative": "Fears about 'designer babies' and genetic disasters compete with overoptimistic claims about genetic cures, creating public confusion",
+      "public_stakes": "Misinformation could halt beneficial genetic therapies or lead to inadequate safety oversight of genetic modifications",
+      "verification_status": "verified",
+      "verification_reason": "Anti-GMO groups and religious communities express CRISPR fears on social media while biotech promoters do oversell genetic cures in mainstream media.",
+      "tags": [
+        "Health and Medicine",
+        "Genetics",
+        "Biotechnology"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Heritable Human Genome Editing (2021)",
+          "url": "https://www.nationalacademies.org/publications/25665"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00857-6",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10376-z",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genome editing that avoids immune detection to integrate large DNA sequences",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00730-6",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: A gene-editing method generates immunotherapeutic CAR T cells in the body",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00634-5",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: An enzyme inside the bacterial-cell membrane chops up viral DNA on entry",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00732-4",
+          "date": "2026-03-18"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2021 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "cancer_rates_increasing_due_environmental",
+      "question": "Are cancer rates increasing due to environmental toxins and chemicals?",
+      "priority": "medium",
+      "rationale": "Addresses misconceptions about cancer trends and environmental causes with epidemiological evidence",
+      "misinformation_narrative": "Social media claims that cancer rates are skyrocketing due to 'toxins everywhere' while ignoring the roles of aging populations and better detection",
+      "public_stakes": "Chemophobia leads to avoiding beneficial treatments while missing actual cancer prevention strategies",
+      "verification_status": "verified",
+      "verification_reason": "Wellness influencers on Instagram and alternative health websites regularly blame cancer increases on environmental toxins while ignoring other factors.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer",
+        "Environment"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Environmental Chemicals, the Human Microbiome, and Health Risk: A Research Strategy (2018)",
+          "url": "https://www.nationalacademies.org/publications/24960"
+        },
+        {
+          "name": "Environmental Neuroscience: Advancing the Understanding of How Chemical Exposures Impact Brain Health and Disease: Proceedings of a Workshop (2020)",
+          "url": "https://www.nationalacademies.org/publications/25937"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: The surprising cancer link between cats and humans",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260318033143.htm",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Gum disease bacterium linked to breast cancer growth and spread",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044719.htm",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2020 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "quantum_computers_threaten_break_all",
+      "question": "Do quantum computers threaten to break all current encryption and cybersecurity?",
+      "priority": "medium",
+      "rationale": "Clarifies realistic timeline and scope of quantum computing threats to encryption",
+      "misinformation_narrative": "Sensationalized reports claim quantum computers will soon make all current encryption useless, creating unnecessary panic about cybersecurity",
+      "public_stakes": "Premature security changes waste resources while delayed preparation for actual quantum threats leaves systems vulnerable",
+      "verification_status": "verified",
+      "verification_reason": "Tech media and cybersecurity forums often sensationalize quantum computing threats with \"encryption apocalypse\" headlines creating public anxiety.",
+      "tags": [
+        "Technology",
+        "Cybersecurity",
+        "Quantum Science"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Decrypting the Encryption Debate: A Framework for Decision Makers (2018)",
+          "url": "https://www.nationalacademies.org/publications/25010"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Bistable superlattice switching in a quantum spin Hall insulator",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10309-w",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Major Turing computing award goes to quantum science for first time",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00818-z",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Computer science’s ‘Nobel Prize’ goes quantum",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/computer-science-s-nobel-prize-goes-quantum",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: UK bets big on homegrown fusion and quantum — can it lead the world?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00877-2",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: MIT scientists finally see hidden quantum “jiggling” inside superconductors",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317064509.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists used 7,000 GPUs to simulate a tiny quantum chip in extreme detail",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317064504.htm",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 4,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
       "id": "quantum_computers_actually_pose_threat",
@@ -2650,6 +2860,77 @@
       "readiness_summary": "5 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 5 discovery signals"
     },
     {
+      "id": "humans_grow_food_moon_mars",
+      "question": "Can humans grow food on the Moon or Mars for space colonization?",
+      "priority": "low",
+      "rationale": "Clarifies the actual scientific challenges and possibilities for space agriculture",
+      "misinformation_narrative": "Space colonization enthusiasts overstate the feasibility of lunar/Martian agriculture while skeptics claim it's impossible, creating unrealistic expectations",
+      "public_stakes": "Misinformation affects space program funding priorities and public understanding of colonization challenges",
+      "verification_status": "needs_review",
+      "verification_reason": "This frames legitimate scientific debate about space agriculture as \"misinformation\" rather than identifying actual false beliefs.",
+      "tags": [
+        "Space",
+        "Agriculture",
+        "Technology"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26750"
+        },
+        {
+          "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26522"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Can potatoes grow on the Moon?",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/can-potatoes-grow-moon",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Fluorescent ruby-like gems have been found on Mars for the first time",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519933-fluorescent-ruby-like-gems-have-been-found-on-mars-for-the-first-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: It's time to monetise the moon! Definitely! Maybe?",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/mg26935873-700-its-time-to-monetise-the-moon-definitely-maybe/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: First science from private Moon lander challenges lunar divide",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/first-science-private-moon-lander-challenges-lunar-divide",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Private company to land on asteroid Apophis as it flies close to Earth",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520020-private-company-to-land-on-asteroid-apophis-as-it-flies-close-to-earth/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "2 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
       "id": "daily_multivitamins_slow_aging_extend",
       "question": "Do daily multivitamins slow aging and extend lifespan?",
       "priority": "low",
@@ -3379,6 +3660,87 @@
       "newest_source_year": 2020,
       "signal_count": 3,
       "readiness_summary": "5 NASEM sources, most recent 2020 · misinformation narrative not yet confirmed · 3 discovery signals"
+    },
+    {
+      "id": "climate_change_accelerating_beyond_scientists",
+      "question": "Is climate change accelerating beyond what scientists predicted?",
+      "priority": "low",
+      "rationale": "Clarifies actual observed vs. predicted climate change rates amid competing false narratives",
+      "misinformation_narrative": "Both climate deniers claim warming is slower than predicted and climate activists claim it's much faster, creating confusion about actual rates and timelines",
+      "public_stakes": "Misinformation about climate pace affects policy decisions, personal preparation, and public support for mitigation efforts",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents both sides as equally misinformed, but the actual misinformation is primarily climate denial, not confusion about acceleration rates.",
+      "tags": [
+        "Climate Change",
+        "Environment"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Abrupt Impacts of Climate Change: Anticipating Surprises (2013)",
+          "url": "https://www.nationalacademies.org/publications/18373"
+        },
+        {
+          "name": "Attribution of Extreme Weather Events in the Context of Climate Change (2016)",
+          "url": "https://www.nationalacademies.org/publications/21852"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: A strong constraint on radiative forcing of well-mixed greenhouse gases",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10289-x",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Ice core reveals low CO2 during warm spell 3 million years ago",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519771-ice-core-reveals-low-co2-during-warm-spell-3-million-years-ago/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why global warming is accelerating and what it means for the future",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519386-why-global-warming-is-accelerating-and-what-it-means-for-the-future/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why we fail to notice climate change",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/climate-change-binary-frozen-weather",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: New ice core studies expand histories of greenhouse gases and ocean temperature to 3 million years",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-ice-core-histories-greenhouse-gases.html",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Updated plan aims to boost NI's resilience to climate change",
+          "origin": "STM — BBC Science",
+          "url": "https://www.bbc.com/news/articles/cgqgq11409lo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-03-19"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 5,
+      "readiness_summary": "3 NASEM sources, most recent 2020 · misinformation narrative not yet confirmed · 5 discovery signals"
     },
     {
       "id": "quantum_computers_actually_revolutionary_just",
@@ -4453,15 +4815,15 @@
       "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
       "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
       "priority": "high",
-      "rationale": "This directly addresses a specific conspiracy theory that undermines vaccine confidence and pediatric care trust",
-      "misinformation_narrative": "Many people believe pediatricians are financially incentivized by pharmaceutical companies to over-vaccinate children, receiving large bonuses or kickbacks for each vaccine administered",
-      "public_stakes": "Parents may delay or refuse vaccines for their children, leading to increased risk of preventable diseases and potential outbreaks",
+      "rationale": "Directly addresses a specific debunked claim that undermines vaccine confidence and pediatric care relationships",
+      "misinformation_narrative": "Anti-vaccine activists claim pediatricians are financially incentivized by 'big pharma' bonuses to over-vaccinate children, making vaccination decisions about profit rather than health",
+      "public_stakes": "Parents may refuse vaccines or switch providers based on false financial conspiracy theories, leading to preventable disease outbreaks and child deaths",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Children's Health Defense actively promote claims about pediatrician vaccine kickbacks.",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and sites like Children's Health Defense regularly promote claims about pediatrician financial incentives.",
       "tags": [
-        "Vaccines & Immunization",
+        "Health and Medicine",
         "Public Health",
-        "Healthcare Economics"
+        "Vaccines"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -4608,15 +4970,152 @@
           "resource_name": "AMA Code of Medical Ethics: Gifts to Physicians from Industry",
           "description": "Professional ethics guidelines governing physician relationships with pharmaceutical companies",
           "relevance": "Establishes ethical standards that would prohibit inappropriate financial incentives for vaccination"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://openpaymentsdata.cms.gov/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Physician Payments Sunshine Act Database",
+          "description": "Federal database of payments from pharmaceutical companies to healthcare providers",
+          "relevance": "Contains actual data on financial relationships between pharmaceutical companies and physicians, allowing verification of payment patterns"
         }
       ],
       "discovered_at": "2026-03-13",
-      "last_seen": "2026-03-18",
-      "times_seen": 6,
+      "last_seen": "2026-03-21",
+      "times_seen": 7,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 5,
-      "readiness_summary": "No NASEM coverage — 9 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 10 alternative sources identified"
+    },
+    {
+      "id": "mrna_covid_vaccines_dangerous_causing",
+      "question": "Are mRNA COVID vaccines dangerous and causing widespread harm?",
+      "priority": "high",
+      "rationale": "Addresses persistent misinformation about mRNA vaccine safety despite extensive real-world safety data",
+      "misinformation_narrative": "Social media campaigns claim mRNA vaccines are experimental, unsafe, and causing mass deaths or disabilities, leading to vaccine refusal",
+      "public_stakes": "Continued vaccine hesitancy prolongs pandemic impacts, increases hospitalizations and deaths, and threatens future vaccine-preventable disease control",
+      "verification_status": "verified",
+      "verification_reason": "Widespread on Twitter/X, Telegram, and platforms like Rumble with influencers like Steve Kirsch claiming mRNA vaccine deaths and injuries.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines",
+        "COVID-19"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: STAT+: Judge deals blow to RFK Jr.’s vaccine reforms",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/03/17/rfk-jr-maha-vaccine-policy-rejected-judge-acip-postponed-dc-diagnosis/?utm_campaign=rss",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Judge Strikes Down RFK Jr.’s Vaccine Policies in Blow to Trump’s Health Agenda",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/03/16/health/childhood-vaccines-lawsuit-kennedy.html",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Fox News AI Newsletter: FDA rolls out AI-powered vaccine platform",
+          "origin": "STM — Fox News SciTech",
+          "url": "https://www.foxnews.com/tech/ai-newsletter-fda-rolls-out-ai-powered-vaccine-platform",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: What the Health? From KFF Health News: RFK Jr.’s Vaccine Schedule Changes Blocked — For Now",
+          "origin": "STM — KFF Health News",
+          "url": "https://kffhealthnews.org/news/podcast/what-the-health-438-rfk-vaccine-schedule-changes-blocked-obamacare-midterms-march-19-2026/",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Federal judge temporarily blocks RFK Jr.’s vaccine agenda – an epidemiologist answers questions parents may have",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/federal-judge-temporarily-blocks-rfk-jr-s-vaccine-agenda-an-epidemiologist-answers-questions-parents-may-have-278709",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/safety-of-vaccines.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccine Safety and Monitoring",
+          "description": "CDC's comprehensive overview of COVID-19 vaccine safety monitoring systems and adverse event data",
+          "relevance": "Provides official safety data and monitoring results for mRNA COVID vaccines"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccine Safety Surveillance",
+          "description": "FDA's official safety surveillance data and analysis for authorized COVID-19 vaccines",
+          "relevance": "Contains regulatory agency's assessment of vaccine safety signals and adverse events"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters",
+          "description": "WHO's fact-checking resource that addresses COVID-19 vaccine misinformation",
+          "relevance": "Directly addresses false claims about COVID-19 vaccine dangers with scientific evidence"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing COVID-19",
+          "description": "Cochrane systematic review analyzing efficacy and safety of COVID-19 vaccines",
+          "relevance": "Independent systematic review of clinical trial data on mRNA vaccine safety and efficacy"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Vaccine Adverse Event Reporting System (VAERS)",
+          "description": "CDC's official adverse event monitoring system with searchable database and analysis reports",
+          "relevance": "Provides transparent access to adverse event reports and CDC's analysis of safety signals"
+        }
+      ],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 5,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "covid_vaccines_associated_increased_long",
@@ -5981,6 +6480,175 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "vitamin_deficiency_causing_worsening_covid",
+      "question": "Is vitamin D deficiency causing or worsening COVID-19 outcomes?",
+      "priority": "medium",
+      "rationale": "Clarifies the actual evidence on vitamin D and COVID outcomes amid supplement marketing claims",
+      "misinformation_narrative": "Claims that vitamin D supplements can prevent or treat COVID-19, leading people to rely on supplements instead of vaccines or proven treatments",
+      "public_stakes": "False confidence in vitamin D supplementation may delay seeking appropriate medical care for COVID-19",
+      "verification_status": "verified",
+      "verification_reason": "Health influencers on social media and alternative medicine websites promoted vitamin D as COVID prevention/treatment throughout the pandemic.",
+      "tags": [
+        "Health and Medicine",
+        "COVID-19",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists tested vitamin D for COVID and found an unexpected long COVID clue",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315001845.htm",
+          "date": "2026-03-18"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Treatment Guidelines - Vitamin D",
+          "description": "NIH's official treatment guidelines specifically address vitamin D supplementation for COVID-19 prevention and treatment",
+          "relevance": "Directly evaluates the evidence for vitamin D's role in COVID-19 outcomes based on clinical trials"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochrane.org/evidence/CD007470_vitamin-d-supplementation-prevention-mortality-adults",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Vitamin D supplementation to prevent acute respiratory tract infections",
+          "description": "Cochrane systematic review examining vitamin D's role in preventing respiratory infections",
+          "relevance": "Provides high-quality meta-analysis evidence on vitamin D's effects on respiratory infections including COVID-19"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters",
+          "description": "WHO's fact sheet addressing various COVID-19 myths and unproven treatments",
+          "relevance": "Addresses claims about various supplements and treatments, including vitamin D"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "People with Certain Medical Conditions",
+          "description": "CDC guidance on medical conditions that may increase risk for severe COVID-19",
+          "relevance": "May address nutritional deficiencies as risk factors and provide evidence-based recommendations"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA advises consumers to be cautious of products claiming to treat or prevent COVID-19",
+          "description": "FDA warnings about unproven COVID-19 treatments and supplements",
+          "relevance": "Addresses regulatory perspective on vitamin D and other supplement claims for COVID-19"
+        }
+      ],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "bird_flu_likely_cause_next",
+      "question": "Is bird flu likely to cause the next pandemic?",
+      "priority": "medium",
+      "rationale": "Provides evidence-based assessment of avian influenza pandemic risk",
+      "misinformation_narrative": "Competing claims that bird flu is either an overblown media scare or an imminent pandemic threat create confusion about actual risk levels",
+      "public_stakes": "Misinformation affects preparedness efforts, agricultural practices, and public health response to emerging threats",
+      "verification_status": "verified",
+      "verification_reason": "Bird flu generates polarized coverage with some media outlets fear-mongering while others dismiss pandemic preparedness discussions entirely.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Infectious Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Bird flu risk to Danish cattle: New tool can warn farmers before infection spreads",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-bird-flu-danish-cattle-tool.html",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Avian Influenza A(H5N1) Virus",
+          "description": "CDC's comprehensive overview of H5N1 avian influenza, including pandemic potential and current risk assessments",
+          "relevance": "Provides current CDC assessment of H5N1 pandemic risk and surveillance data"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic)",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Avian influenza A(H5N1) - Human infection",
+          "description": "WHO fact sheet on avian influenza including H5N1, covering transmission, pandemic preparedness, and risk factors",
+          "relevance": "International health authority's assessment of avian flu pandemic potential"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pandemic Influenza Preparedness and Response: A WHO Guidance Document",
+          "description": "WHO's comprehensive guidance on pandemic influenza preparedness, including assessment criteria for pandemic potential",
+          "relevance": "Establishes framework for evaluating pandemic potential of influenza viruses like H5N1"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Avian Influenza Research",
+          "description": "NIAID's research overview on avian influenza including H5N1, covering virology, pathogenesis, and pandemic preparedness research",
+          "relevance": "Scientific research perspective on avian flu pandemic potential and ongoing studies"
+        }
+      ],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "lupus_take_years_diagnose_because",
@@ -7456,6 +8124,131 @@
       "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
+      "id": "mass_extinction_event_caused_human",
+      "question": "Are we in a mass extinction event caused by human activity?",
+      "priority": "low",
+      "rationale": "Provides evidence-based assessment of current extinction rates and human impacts",
+      "misinformation_narrative": "Some claim current extinction rates are exaggerated while others claim we're past the point of no return, creating confusion about conservation urgency",
+      "public_stakes": "Inaccurate extinction messaging affects conservation funding, policy support, and individual environmental actions",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents false balance; the misinformation is primarily extinction denialism, not confusion between two extreme positions.",
+      "tags": [
+        "Environment",
+        "Biodiversity",
+        "Conservation"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Can species evolve fast enough to survive as the planet heats up?",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519241-can-species-evolve-fast-enough-to-survive-as-the-planet-heats-up/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: The fish species that knows when you are watching them",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-fish-species.html",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Paleontologists uncover a new ‘Spinosaurus’ species by following a clue from a decades-old book into the Sahara Desert",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/paleontologists-uncover-a-new-spinosaurus-species-by-following-a-clue-from-a-decades-old-book-into-the-sahara-desert-274182",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: How To Bring a Bird’s Song Back from the Edge of Extinction",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/03/17/science/birds-honeyeater-birdsong-conservation.html",
+          "date": "2026-03-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Mosquitoes may hold the key to saving endangered Australian wildlife",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-mosquitoes-key-endangered-australian-wildlife.html",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Fossil X-ray reveals new species of baby dino named for iconic Korean cartoon",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-fossil-ray-reveals-species-baby.html",
+          "date": "2026-03-19"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Summary for Policymakers",
+          "description": "IPCC's comprehensive assessment of climate impacts on biodiversity and ecosystems, including species extinction risks",
+          "relevance": "Provides authoritative evidence on human-caused climate impacts driving species loss and extinction risks"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate Change Indicators: Leaf and Bloom Dates",
+          "description": "EPA's climate indicators tracking ecosystem changes and their impacts on species",
+          "relevance": "Documents environmental changes that contribute to habitat loss and species decline"
+        },
+        {
+          "organization": "USGCRP",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment - Volume II: Impacts, Risks, and Adaptation in the United States",
+          "description": "Comprehensive U.S. government assessment including chapters on ecosystems and biodiversity impacts from climate change",
+          "relevance": "Official U.S. government assessment documenting human-caused environmental changes affecting species survival"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/biodiversity",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Biodiversity and Health",
+          "description": "WHO fact sheet on the relationship between biodiversity loss and human health impacts",
+          "relevance": "Addresses the health consequences of biodiversity loss and species extinction driven by human activities"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate Change and Human Health",
+          "description": "NIEHS overview of climate change impacts including effects on ecosystems and biodiversity",
+          "relevance": "Documents the connection between human activities, environmental change, and ecosystem disruption"
+        }
+      ],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 4,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "new_cancer_treatments_like_car",
       "question": "Are new cancer treatments like CAR-T therapy actual cures?",
       "priority": "low",
@@ -7896,6 +8689,254 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "artificial_intelligence_programmed_manipulate_human",
+      "question": "Can artificial intelligence be programmed to manipulate human emotions and empathy?",
+      "priority": "low",
+      "rationale": "Separates legitimate AI ethics concerns from conspiracy theories about emotional manipulation",
+      "misinformation_narrative": "Fears that AI is being designed to deliberately hijack human emotions for corporate or political manipulation, leading to calls for AI bans",
+      "public_stakes": "Uninformed AI panic could halt beneficial applications while failing to address actual AI risks that need regulation",
+      "verification_status": "needs_review",
+      "verification_reason": "While AI concerns exist, the specific framing of \"emotional manipulation programming\" isn't a major circulating conspiracy theory.",
+      "tags": [
+        "Technology",
+        "Artificial Intelligence",
+        "Psychology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI is programmed to hijack human empathy — we must resist that",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00834-z",
+          "date": "2026-03-18"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "dental_infections_affect_heart_health",
+      "question": "Do dental infections affect heart health and diabetes?",
+      "priority": "low",
+      "rationale": "Clarifies evidence for links between oral health and systemic diseases",
+      "misinformation_narrative": "Some dismiss the oral-systemic health connection as dental marketing while others overstate it, creating confusion about oral health importance",
+      "public_stakes": "Underestimating oral health connections delays treatment while overestimating them causes unnecessary anxiety",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents professional disagreement about oral-systemic connections as public misinformation when most people aren't aware of this debate.",
+      "tags": [
+        "Health and Medicine",
+        "Dental Health",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Fixing a tooth infection may improve blood sugar and heart health",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315225156.htm",
+          "date": "2026-03-18"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org/en/news/2018/07/30/gum-disease-and-heart-disease",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Gum Disease and Heart Disease",
+          "description": "AHA's comprehensive review of the relationship between periodontal disease and cardiovascular health",
+          "relevance": "Directly addresses the connection between dental infections and heart health with evidence-based analysis"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Oral Health and Overall Health: What's the Connection?",
+          "description": "CDC's overview of how oral health conditions including infections relate to systemic diseases",
+          "relevance": "Provides authoritative information on dental infection impacts on diabetes and cardiovascular disease"
+        },
+        {
+          "organization": "American Diabetes Association",
+          "organization_full": "American Diabetes Association",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Diabetes and Oral Health",
+          "description": "ADA's guidance on the bidirectional relationship between diabetes and oral health conditions",
+          "relevance": "Explains how dental infections can affect diabetes management and blood sugar control"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Periodontal therapy for the management of cardiovascular disease in patients with chronic periodontitis",
+          "description": "Systematic review examining evidence for periodontal treatment effects on cardiovascular outcomes",
+          "relevance": "Provides high-quality evidence synthesis on the relationship between dental infections and heart health"
+        },
+        {
+          "organization": "NIH National Institute of Dental and Craniofacial Research",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nidcr.nih.gov/health-info/gum-disease",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Periodontal (Gum) Disease",
+          "description": "NIDCR's comprehensive information on periodontal disease including systemic health connections",
+          "relevance": "Authoritative source on how gum disease and dental infections relate to diabetes and heart disease"
+        }
+      ],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "having_negative_attitude_toward_aging",
+      "question": "Does having a negative attitude toward aging actually accelerate the aging process?",
+      "priority": "low",
+      "rationale": "Clarifies research on psychological factors and biological aging processes",
+      "misinformation_narrative": "Anti-aging industry promotes 'positive thinking' as longevity strategy while skeptics dismiss mind-body connections, confusing evidence on psychological aging effects",
+      "public_stakes": "Misinformation leads to either over-reliance on mindset or dismissal of legitimate psychological health factors in aging",
+      "verification_status": "needs_review",
+      "verification_reason": "This conflates legitimate research on psychological aging with anti-aging industry claims in a way that doesn't reflect actual public confusion.",
+      "tags": [
+        "Health and Medicine",
+        "Aging",
+        "Psychology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "lupus_now_curable_new_car",
+      "question": "Is lupus now curable with new CAR-T cell therapy?",
+      "priority": "low",
+      "rationale": "Clarifies the difference between promising early results and established cures in autoimmune disease treatment",
+      "misinformation_narrative": "Early CAR-T success stories are being misrepresented as proof of a 'lupus cure,' creating unrealistic expectations for patients",
+      "public_stakes": "False cure claims may lead patients to delay or abandon proven treatments while pursuing experimental therapies",
+      "verification_status": "needs_review",
+      "verification_reason": "Too recent and specific; early CAR-T lupus results haven't had time to generate widespread \"cure\" misinformation campaigns yet.",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Disease",
+        "Cell Therapy"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Approvals and Safety Notifications for CAR-T Cell Therapies",
+          "description": "FDA's official list of approved CAR-T cell therapies and their indicated uses",
+          "relevance": "Shows currently approved CAR-T therapies and whether lupus is among approved indications"
+        },
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Lupus - Diagnosis and Treatment",
+          "description": "NIH's National Institute of Arthritis and Musculoskeletal and Skin Diseases overview of current lupus treatments",
+          "relevance": "Provides authoritative information on established lupus treatments and whether cure is possible"
+        },
+        {
+          "organization": "NIH/NCI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "CAR T-Cell Therapy and Its Side Effects",
+          "description": "National Cancer Institute's comprehensive overview of CAR-T cell therapy applications and current uses",
+          "relevance": "Details what conditions CAR-T therapy is currently approved to treat"
+        },
+        {
+          "organization": "Lupus Foundation of America",
+          "organization_full": "Lupus Foundation of America",
+          "base_url": "",
+          "url": "https://www.lupus.org/resources/understanding-lupus-research",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Understanding Lupus Research and Treatment Options",
+          "description": "Leading lupus organization's current information on research developments and treatment advances",
+          "relevance": "Provides up-to-date information on experimental lupus treatments including any CAR-T trials"
+        },
+        {
+          "organization": "ClinicalTrials.gov",
+          "organization_full": "ClinicalTrials.gov",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Clinical Trials Database - CAR-T Cell Therapy for Lupus",
+          "description": "NIH database of clinical trials investigating CAR-T therapy for lupus",
+          "relevance": "Shows current research status and trial phases for CAR-T therapy in lupus treatment"
+        }
+      ],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {

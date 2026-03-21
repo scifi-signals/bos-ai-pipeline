@@ -1,0 +1,40 @@
+{
+  "id": "cancer_rates_increasing_due_environmental",
+  "question": "Are cancer rates increasing due to environmental toxins and chemicals?",
+  "topic": "Addresses misconceptions about cancer trends and environmental causes with epidemiological evidence",
+  "tags": [
+    "Health and Medicine",
+    "Cancer",
+    "Environment"
+  ],
+  "sources": [
+    {
+      "name": "Environmental Chemicals, the Human Microbiome, and Health Risk: A Research Strategy",
+      "url": "https://www.nationalacademies.org/publications/24960",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Environmental Neuroscience: Advancing the Understanding of How Chemical Exposures Impact Brain Health and Disease: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25937",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: The surprising cancer link between cats and humans",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260318033143.htm",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Gum disease bacterium linked to breast cancer growth and spread",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260319044719.htm",
+      "date": "2026-03-20"
+    }
+  ]
+}

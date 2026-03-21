@@ -1,0 +1,51 @@
+{
+  "id": "bird_flu_likely_cause_next",
+  "question": "Is bird flu likely to cause the next pandemic?",
+  "topic": "Provides evidence-based assessment of avian influenza pandemic risk",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Infectious Disease"
+  ],
+  "sources": [
+    {
+      "name": "Avian Influenza A(H5N1) Virus — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Avian influenza A(H5N1) - Human infection — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic)",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Technical Report for Avian Influenza A(H5N1) Clade 2.3.4.4b — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pandemic Influenza Preparedness and Response: A WHO Guidance Document — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Avian Influenza Research — NIH/NIAID",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Bird flu risk to Danish cattle: New tool can warn farmers before infection spreads",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-bird-flu-danish-cattle-tool.html",
+      "date": "2026-03-20"
+    }
+  ]
+}

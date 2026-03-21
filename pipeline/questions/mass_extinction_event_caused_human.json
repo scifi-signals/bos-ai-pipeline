@@ -1,0 +1,86 @@
+{
+  "id": "mass_extinction_event_caused_human",
+  "question": "Are we in a mass extinction event caused by human activity?",
+  "topic": "Provides evidence-based assessment of current extinction rates and human impacts",
+  "tags": [
+    "Environment",
+    "Biodiversity",
+    "Conservation"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Summary for Policymakers — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change Indicators: Leaf and Bloom Dates — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fourth National Climate Assessment - Volume II: Impacts, Risks, and Adaptation in the United States — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Biodiversity and Health — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/biodiversity",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Climate Change and Human Health — NIH/NIEHS",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Can species evolve fast enough to survive as the planet heats up?",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519241-can-species-evolve-fast-enough-to-survive-as-the-planet-heats-up/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: The fish species that knows when you are watching them",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-fish-species.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Paleontologists uncover a new ‘Spinosaurus’ species by following a clue from a decades-old book into the Sahara Desert",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/paleontologists-uncover-a-new-spinosaurus-species-by-following-a-clue-from-a-decades-old-book-into-the-sahara-desert-274182",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: How To Bring a Bird’s Song Back from the Edge of Extinction",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/17/science/birds-honeyeater-birdsong-conservation.html",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Mosquitoes may hold the key to saving endangered Australian wildlife",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-mosquitoes-key-endangered-australian-wildlife.html",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Fossil X-ray reveals new species of baby dino named for iconic Korean cartoon",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-fossil-ray-reveals-species-baby.html",
+      "date": "2026-03-19"
+    }
+  ]
+}

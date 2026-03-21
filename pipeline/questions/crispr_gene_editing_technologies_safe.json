@@ -1,0 +1,62 @@
+{
+  "id": "crispr_gene_editing_technologies_safe",
+  "question": "Are CRISPR and gene editing technologies safe for human use?",
+  "topic": "Separates evidence-based gene editing safety data from science fiction fears and hype",
+  "tags": [
+    "Health and Medicine",
+    "Genetics",
+    "Biotechnology"
+  ],
+  "sources": [
+    {
+      "name": "Heritable Human Genome Editing",
+      "url": "https://www.nationalacademies.org/publications/25665",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00857-6",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Author Correction: SLAMF6 as a drug-targetable suppressor of T cell immunity against cancer",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10376-z",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Genome editing that avoids immune detection to integrate large DNA sequences",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00730-6",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: A gene-editing method generates immunotherapeutic CAR T cells in the body",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00634-5",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00857-6",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: An enzyme inside the bacterial-cell membrane chops up viral DNA on entry",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00732-4",
+      "date": "2026-03-18"
+    }
+  ]
+}

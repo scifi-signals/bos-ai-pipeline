@@ -1,0 +1,82 @@
+{
+  "id": "quantum_computers_threaten_break_all",
+  "question": "Do quantum computers threaten to break all current encryption and cybersecurity?",
+  "topic": "Clarifies realistic timeline and scope of quantum computing threats to encryption",
+  "tags": [
+    "Technology",
+    "Cybersecurity",
+    "Quantum Science"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Decrypting the Encryption Debate: A Framework for Decision Makers",
+      "url": "https://www.nationalacademies.org/publications/25010",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Bistable superlattice switching in a quantum spin Hall insulator",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10309-w",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Major Turing computing award goes to quantum science for first time",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00818-z",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Computer science’s ‘Nobel Prize’ goes quantum",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/computer-science-s-nobel-prize-goes-quantum",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: UK bets big on homegrown fusion and quantum — can it lead the world?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00877-2",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: MIT scientists finally see hidden quantum “jiggling” inside superconductors",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260317064509.htm",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Scientists used 7,000 GPUs to simulate a tiny quantum chip in extreme detail",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260317064504.htm",
+      "date": "2026-03-20"
+    }
+  ]
+}

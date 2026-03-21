@@ -1,0 +1,45 @@
+{
+  "id": "dental_infections_affect_heart_health",
+  "question": "Do dental infections affect heart health and diabetes?",
+  "topic": "Clarifies evidence for links between oral health and systemic diseases",
+  "tags": [
+    "Health and Medicine",
+    "Dental Health",
+    "Cardiovascular Health"
+  ],
+  "sources": [
+    {
+      "name": "Gum Disease and Heart Disease — American Heart Association",
+      "url": "https://www.heart.org/en/news/2018/07/30/gum-disease-and-heart-disease",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Oral Health and Overall Health: What's the Connection? — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Periodontal therapy for the management of cardiovascular disease in patients with chronic periodontitis — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Periodontal (Gum) Disease — NIH National Institute of Dental and Craniofacial Research",
+      "url": "https://www.nidcr.nih.gov/health-info/gum-disease",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Fixing a tooth infection may improve blood sugar and heart health",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315225156.htm",
+      "date": "2026-03-18"
+    }
+  ]
+}
