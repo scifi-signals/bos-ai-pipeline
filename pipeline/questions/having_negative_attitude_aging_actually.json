@@ -1,0 +1,27 @@
+{
+  "id": "having_negative_attitude_aging_actually",
+  "question": "Does having a negative attitude about aging actually make you age faster?",
+  "topic": "Distinguishes between legitimate research on attitude and health outcomes versus oversimplified clai",
+  "tags": [
+    "Health and Medicine",
+    "Aging",
+    "Psychology"
+  ],
+  "sources": [
+    {
+      "name": "Global Roadmap for Healthy Longevity",
+      "url": "https://www.nationalacademies.org/publications/26144",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-20"
+    }
+  ]
+}

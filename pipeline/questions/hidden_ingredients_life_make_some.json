@@ -1,0 +1,71 @@
+{
+  "id": "hidden_ingredients_life_make_some",
+  "question": "Are there 'hidden ingredients for life' that make some places in space more likely to harbor life?",
+  "topic": "Explains what scientists mean by 'ingredients for life' versus actual signs of life, managing expect",
+  "tags": [
+    "Space and Astronomy",
+    "Astrobiology"
+  ],
+  "sources": [
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26522",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Searching for Life Across Space and Time: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/24860",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Astrophysical Context of Life",
+      "url": "https://www.nationalacademies.org/publications/11316",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Limits of Organic Life in Planetary Systems",
+      "url": "https://www.nationalacademies.org/publications/11919",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Assessment of Planetary Protection Requirements for Spacecraft Missions to Icy Solar System Bodies",
+      "url": "https://www.nationalacademies.org/publications/13401",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Fluorescent ruby-like gems have been found on Mars for the first time",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519933-fluorescent-ruby-like-gems-have-been-found-on-mars-for-the-first-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: The asteroid Ryugu has all of the main ingredients for life",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519423-the-asteroid-ryugu-has-all-of-the-main-ingredients-for-life/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Captivating space images show how it has inspired us through the ages",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/mg26935870-200-captivating-space-images-show-how-it-has-inspired-us-through-the-ages/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: First science from private Moon lander challenges lunar divide",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/first-science-private-moon-lander-challenges-lunar-divide",
+      "date": "2026-03-20"
+    }
+  ]
+}

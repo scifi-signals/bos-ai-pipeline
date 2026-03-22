@@ -1,0 +1,27 @@
+{
+  "id": "easily_captured_turned_into_useful",
+  "question": "Can CO2 be easily captured and turned into useful fuels to solve climate change?",
+  "topic": "Provides realistic assessment of carbon capture potential while not dismissing legitimate research, ",
+  "tags": [
+    "Climate Change",
+    "Technology",
+    "Environment"
+  ],
+  "sources": [
+    {
+      "name": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+      "url": "https://www.nationalacademies.org/publications/27732",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Scientists turn CO2 into fuel using breakthrough single-atom catalyst",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260319044703.htm",
+      "date": "2026-03-20"
+    }
+  ]
+}

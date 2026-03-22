@@ -1,0 +1,73 @@
+{
+  "id": "mrna_vaccines_dangerous_because_they",
+  "question": "Are mRNA vaccines dangerous because they're experimental technology?",
+  "topic": "Directly addresses widespread mRNA vaccine misinformation with established safety data and explains ",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Vaccines",
+    "COVID-19"
+  ],
+  "sources": [
+    {
+      "name": "Understanding mRNA COVID-19 Vaccines — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "FDA Approval of Comirnaty (COVID-19 Vaccine, mRNA) — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "COVID-19 vaccines: safety surveillance manual — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "COVID-19 Vaccines — NIH",
+      "url": "https://www.nih.gov/news-events/news-releases/nih-begins-study-allergic-reactions-moderna-pfizer-biontech-covid-19-vaccines",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaccines for preventing COVID-19 — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Fox News AI Newsletter: FDA rolls out AI-powered vaccine platform",
+      "origin": "STM — Fox News SciTech",
+      "url": "https://www.foxnews.com/tech/ai-newsletter-fda-rolls-out-ai-powered-vaccine-platform",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: What the Health? From KFF Health News: RFK Jr.’s Vaccine Schedule Changes Blocked — For Now",
+      "origin": "STM — KFF Health News",
+      "url": "https://kffhealthnews.org/news/podcast/what-the-health-438-rfk-vaccine-schedule-changes-blocked-obamacare-midterms-march-19-2026/",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Federal judge temporarily blocks RFK Jr.’s vaccine agenda – an epidemiologist answers questions parents may have",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/federal-judge-temporarily-blocks-rfk-jr-s-vaccine-agenda-an-epidemiologist-answers-questions-parents-may-have-278709",
+      "date": "2026-03-20"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-21T12:07:30Z",
+  "generated_at": "2026-03-22T12:06:25Z",
   "questions": [
     {
       "id": "global_warming_accelerated_significantly_since",
@@ -1093,11 +1093,11 @@
       "id": "vaccines_cause_food_allergies_children",
       "question": "Do vaccines cause food allergies in children?",
       "priority": "high",
-      "rationale": "Counters a growing misconception linking vaccines to food allergies when evidence shows no causal relationship",
-      "misinformation_narrative": "Parents increasingly blame vaccines for rising food allergy rates, leading some to delay or refuse immunizations to 'prevent' allergies",
-      "public_stakes": "Vaccine hesitancy based on false allergy fears puts children at risk of preventable diseases while delaying evidence-based allergy prevention strategies",
+      "rationale": "Addresses a specific causal claim that's driving vaccine hesitancy, with established evidence from allergy and immunology research showing no causal relationship",
+      "misinformation_narrative": "Growing numbers of parents believe that childhood vaccines are responsible for the increase in food allergies, leading them to delay or refuse vaccinations",
+      "public_stakes": "This misconception leads to reduced vaccination rates while simultaneously causing parents to avoid evidence-based food allergy prevention strategies, potentially increasing both infectious disease risk and food allergy development",
       "verification_status": "verified",
-      "verification_reason": "Parent groups on Facebook and anti-vaccine websites like NVIC frequently link vaccines to food allergies and eczema increases.",
+      "verification_reason": "Parenting groups on Facebook and anti-vaccine websites like Children's Health Defense actively promote the belief that vaccines cause food allergies and autoimmune issues.",
       "tags": [
         "Health and Medicine",
         "Public Health",
@@ -1189,8 +1189,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-09",
-      "last_seen": "2026-03-21",
-      "times_seen": 9,
+      "last_seen": "2026-03-22",
+      "times_seen": 10,
       "status": "pending",
       "newest_source_year": 1993,
       "signal_count": 7,
@@ -2007,6 +2007,97 @@
       "readiness_summary": "2 NASEM sources, most recent 2020 · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "quantum_computers_revolutionize_everything",
+      "question": "Are quantum computers about to revolutionize everything?",
+      "priority": "medium",
+      "rationale": "Provides realistic timeline and capabilities of quantum computing while acknowledging genuine advances, correcting both overhype and dismissive attitudes",
+      "misinformation_narrative": "Media hype suggests quantum computers will soon solve all computational problems and break all encryption, creating unrealistic expectations and fear",
+      "public_stakes": "Unrealistic expectations lead to poor investment decisions, while cybersecurity fears may drive premature and costly system overhauls",
+      "verification_status": "verified",
+      "verification_reason": "Tech media and business publications regularly oversell quantum computing breakthroughs, creating public expectations of imminent revolutionary changes.",
+      "tags": [
+        "Technology",
+        "Physics"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25499"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: UK bets big on homegrown fusion and quantum — can it lead the world?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00877-2",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Major Turing computing award goes to quantum science for first time",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00818-z",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Computer science’s ‘Nobel Prize’ goes quantum",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/computer-science-s-nobel-prize-goes-quantum",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: MIT scientists finally see hidden quantum “jiggling” inside superconductors",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317064509.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists used 7,000 GPUs to simulate a tiny quantum chip in extreme detail",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317064504.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: You can now buy a DIY quantum computer",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists just found a hidden 48-dimensional world in quantum light",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260321012705.htm",
+          "date": "2026-03-21"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 4,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
+    },
+    {
       "id": "quantum_computers_threaten_break_all",
       "question": "Do quantum computers threaten to break all current encryption and cybersecurity?",
       "priority": "medium",
@@ -2672,6 +2763,45 @@
       "readiness_summary": "6 NASEM sources, most recent 2023 · confirmed misinformation · 4 discovery signals"
     },
     {
+      "id": "easily_captured_turned_into_useful",
+      "question": "Can CO2 be easily captured and turned into useful fuels to solve climate change?",
+      "priority": "low",
+      "rationale": "Provides realistic assessment of carbon capture potential while not dismissing legitimate research, correcting overly optimistic expectations",
+      "misinformation_narrative": "Headlines about breakthrough CO2-to-fuel technologies create unrealistic expectations that carbon capture can quickly reverse climate change without reducing emissions",
+      "public_stakes": "Overconfidence in unproven carbon capture technologies may reduce urgency for proven emission reduction strategies, delaying necessary climate action",
+      "verification_status": "needs_review",
+      "verification_reason": "While carbon capture gets overhyped in media, there's no significant public movement believing it alone can solve climate change without emission cuts.",
+      "tags": [
+        "Climate Change",
+        "Technology",
+        "Environment"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report (2025)",
+          "url": "https://www.nationalacademies.org/publications/27732"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Scientists turn CO2 into fuel using breakthrough single-atom catalyst",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044703.htm",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2025 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "life_earth_recovered_quickly_mass",
       "question": "Has life on Earth recovered quickly from mass extinction events?",
       "priority": "low",
@@ -2858,6 +2988,81 @@
       "newest_source_year": 2023,
       "signal_count": 5,
       "readiness_summary": "5 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 5 discovery signals"
+    },
+    {
+      "id": "hidden_ingredients_life_make_some",
+      "question": "Are there 'hidden ingredients for life' that make some places in space more likely to harbor life?",
+      "priority": "low",
+      "rationale": "Explains what scientists mean by 'ingredients for life' versus actual signs of life, managing expectations while maintaining scientific wonder",
+      "misinformation_narrative": "Sensationalized reporting about organic compounds found on asteroids and Mars creates unrealistic expectations about finding life, with people misunderstanding what 'ingredients for life' actually means",
+      "public_stakes": "Misunderstanding may lead to unrealistic expectations about space exploration discoveries and misallocation of scientific priorities and funding",
+      "verification_status": "needs_review",
+      "verification_reason": "The public rarely follows astrobiology discoveries closely enough to develop systematic misconceptions about \"ingredients for life\" terminology.",
+      "tags": [
+        "Space and Astronomy",
+        "Astrobiology"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26522"
+        },
+        {
+          "name": "Searching for Life Across Space and Time: Proceedings of a Workshop (2017)",
+          "url": "https://www.nationalacademies.org/publications/24860"
+        },
+        {
+          "name": "The Astrophysical Context of Life (2005)",
+          "url": "https://www.nationalacademies.org/publications/11316"
+        },
+        {
+          "name": "The Limits of Organic Life in Planetary Systems (2007)",
+          "url": "https://www.nationalacademies.org/publications/11919"
+        },
+        {
+          "name": "Assessment of Planetary Protection Requirements for Spacecraft Missions to Icy Solar System Bodies (2012)",
+          "url": "https://www.nationalacademies.org/publications/13401"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Fluorescent ruby-like gems have been found on Mars for the first time",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519933-fluorescent-ruby-like-gems-have-been-found-on-mars-for-the-first-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: The asteroid Ryugu has all of the main ingredients for life",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519423-the-asteroid-ryugu-has-all-of-the-main-ingredients-for-life/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Captivating space images show how it has inspired us through the ages",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/mg26935870-200-captivating-space-images-show-how-it-has-inspired-us-through-the-ages/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: First science from private Moon lander challenges lunar divide",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/first-science-private-moon-lander-challenges-lunar-divide",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "5 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
       "id": "humans_grow_food_moon_mars",
@@ -3081,6 +3286,45 @@
       "newest_source_year": 2023,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "having_negative_attitude_aging_actually",
+      "question": "Does having a negative attitude about aging actually make you age faster?",
+      "priority": "low",
+      "rationale": "Distinguishes between legitimate research on attitude and health outcomes versus oversimplified claims about mind-body connections",
+      "misinformation_narrative": "Self-help claims suggest that simply thinking positively about aging can significantly slow biological aging, leading people to blame themselves for age-related health issues or rely solely on mindset changes",
+      "public_stakes": "May cause people to neglect proven health interventions while focusing on attitude adjustment, or create self-blame for normal aging processes",
+      "verification_status": "needs_review",
+      "verification_reason": "This conflates wellness culture's positive aging messaging with specific false claims about attitude directly controlling biological aging rates.",
+      "tags": [
+        "Health and Medicine",
+        "Aging",
+        "Psychology"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "did_nasa_successfully_change_asteroid",
@@ -3337,6 +3581,49 @@
       "newest_source_year": 2021,
       "signal_count": 5,
       "readiness_summary": "3 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 5 discovery signals"
+    },
+    {
+      "id": "systems_programmed_manipulate_human_emotions",
+      "question": "Are AI systems programmed to manipulate human emotions?",
+      "priority": "low",
+      "rationale": "Clarifies the difference between AI systems designed for engagement versus manipulation, helping people make informed decisions about AI use",
+      "misinformation_narrative": "Claims that AI is deliberately programmed to 'hijack human empathy' and manipulate emotions create fear that all AI interactions are inherently deceptive",
+      "public_stakes": "May lead to rejection of beneficial AI applications in healthcare, education, and other domains, or conversely, insufficient caution about AI systems that do use manipulative techniques",
+      "verification_status": "needs_review",
+      "verification_reason": "While people worry about AI manipulation, the specific claim about \"hijacking empathy\" programming isn't a widespread public belief.",
+      "tags": [
+        "Technology",
+        "Artificial Intelligence",
+        "Ethics"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        },
+        {
+          "name": "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop�in Brief (None)",
+          "url": "https://www.nationalacademies.org/publications/26887"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI is programmed to hijack human empathy — we must resist that",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00834-z",
+          "date": "2026-03-19"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "crispr_gene_editing_safely_used",
@@ -5236,6 +5523,118 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "mrna_vaccines_dangerous_because_they",
+      "question": "Are mRNA vaccines dangerous because they're experimental technology?",
+      "priority": "high",
+      "rationale": "Directly addresses widespread mRNA vaccine misinformation with established safety data and explains the decades of research behind the technology",
+      "misinformation_narrative": "Many people believe mRNA vaccines are dangerous, untested experimental technology that was rushed to market without proper safety evaluation",
+      "public_stakes": "This fear prevents people from getting COVID-19 vaccines and may create hesitancy toward future mRNA-based vaccines for cancer and other diseases, reducing their effectiveness and uptake",
+      "verification_status": "verified",
+      "verification_reason": "Widespread belief on social media platforms, conservative media, and anti-vaccine groups that mRNA vaccines are \"experimental gene therapy\" that wasn't properly tested.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines",
+        "COVID-19"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Fox News AI Newsletter: FDA rolls out AI-powered vaccine platform",
+          "origin": "STM — Fox News SciTech",
+          "url": "https://www.foxnews.com/tech/ai-newsletter-fda-rolls-out-ai-powered-vaccine-platform",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: What the Health? From KFF Health News: RFK Jr.’s Vaccine Schedule Changes Blocked — For Now",
+          "origin": "STM — KFF Health News",
+          "url": "https://kffhealthnews.org/news/podcast/what-the-health-438-rfk-vaccine-schedule-changes-blocked-obamacare-midterms-march-19-2026/",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Federal judge temporarily blocks RFK Jr.’s vaccine agenda – an epidemiologist answers questions parents may have",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/federal-judge-temporarily-blocks-rfk-jr-s-vaccine-agenda-an-epidemiologist-answers-questions-parents-may-have-278709",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Understanding mRNA COVID-19 Vaccines",
+          "description": "CDC's comprehensive fact sheet on mRNA vaccine technology, safety, and how they work",
+          "relevance": "Directly addresses mRNA vaccine safety and explains the technology is not experimental, having undergone rigorous clinical trials"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Approval of Comirnaty (COVID-19 Vaccine, mRNA)",
+          "description": "FDA press release and documentation of full approval for Pfizer-BioNTech mRNA vaccine",
+          "relevance": "Demonstrates FDA's full approval after extensive safety review, countering 'experimental' claims"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 vaccines: safety surveillance manual",
+          "description": "WHO's comprehensive safety surveillance guidelines and data on COVID-19 vaccines including mRNA vaccines",
+          "relevance": "Provides global safety monitoring data and protocols for mRNA vaccines"
+        },
+        {
+          "organization": "NIH",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov/news-events/news-releases/nih-begins-study-allergic-reactions-moderna-pfizer-biontech-covid-19-vaccines",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccines",
+          "description": "NIH research and information on COVID-19 vaccine safety studies and monitoring",
+          "relevance": "Shows ongoing rigorous scientific study and safety monitoring of mRNA vaccines"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing COVID-19",
+          "description": "Cochrane systematic review of COVID-19 vaccine efficacy and safety data",
+          "relevance": "Independent systematic review of clinical trial data showing safety and efficacy of mRNA vaccines"
+        }
+      ],
+      "discovered_at": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "mrna_cancer_vaccines_actually_safe",
       "question": "Are mRNA cancer vaccines actually safe and effective?",
       "priority": "high",
@@ -5435,6 +5834,85 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "pediatricians_receive_financial_incentives_pharmaceutical",
+      "question": "Do pediatricians receive financial incentives from pharmaceutical companies to vaccinate children?",
+      "priority": "high",
+      "rationale": "Directly addresses a specific conspiracy theory that undermines trust in pediatric healthcare and vaccination programs, with clear evidence showing the financial reality of vaccine administration",
+      "misinformation_narrative": "Many people believe pediatricians are financially incentivized by pharmaceutical companies to over-vaccinate children, receiving large bonuses or kickbacks for each vaccine administered",
+      "public_stakes": "This false belief leads parents to distrust their pediatricians' vaccine recommendations, resulting in reduced vaccination rates and increased risk of vaccine-preventable diseases in children",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and sites like Age of Autism regularly claim pediatricians get paid bonuses by Big Pharma for vaccinating children.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Claim: Pediatricians receive large financial bonuses from pharmaceutical companies for vaccinating children - DEBUNKED by hosts as illegal and not occurring",
+          "origin": "Unbiased Science: Pediatricians: Not About The Benjamins, Baby",
+          "url": "https://bleav.com/shows/unbiased-science/episodes/pediatricians-not-about-the-benjamins-baby/",
+          "date": "2026-03-11T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Immunization: The Basics",
+          "description": "CDC's comprehensive guide to vaccination basics that addresses common misconceptions about vaccine recommendations",
+          "relevance": "Provides factual information about how vaccination schedules and recommendations are developed, countering misinformation about financial incentives"
+        },
+        {
+          "organization": "American Academy of Pediatrics (AAP)",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://pediatrics.aappublications.org/content/pediatrics/early/2017/08/31/peds.2017-2552.full.pdf",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Policy Statement: Financing of Immunization Programs",
+          "description": "AAP policy statement on immunization program financing and vaccine economics",
+          "relevance": "Directly addresses how pediatric vaccination programs are funded and the economic aspects of vaccine delivery"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/vaccines-for-children/about/index.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Vaccines for Children (VFC) Program",
+          "description": "Information about the federal program that provides vaccines to eligible children",
+          "relevance": "Explains the actual funding mechanism for childhood vaccines, showing government rather than pharmaceutical company payment structures"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Vaccine Safety: Addressing Misinformation",
+          "description": "WHO's explanation of vaccine development and safety monitoring processes",
+          "relevance": "Provides context on how vaccine recommendations are made based on scientific evidence rather than financial incentives"
+        }
+      ],
+      "discovered_at": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "igg_food_sensitivity_tests_reliable",
@@ -8689,6 +9167,96 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "lupus_cured_car_cell_therapy",
+      "question": "Can lupus be cured with CAR-T cell therapy?",
+      "priority": "low",
+      "rationale": "Corrects overly optimistic interpretations of preliminary CAR-T results, explaining the difference between 'clinical cure' and permanent cure while maintaining hope for this promising therapy",
+      "misinformation_narrative": "Media coverage of early CAR-T successes in lupus patients has led to unrealistic expectations that this therapy provides a complete cure, causing patients to abandon proven treatments or seek unproven alternatives",
+      "public_stakes": "Patients may discontinue effective lupus treatments expecting a 'cure,' potentially leading to dangerous disease flares, organ damage, or pursuit of unregulated treatments",
+      "verification_status": "needs_review",
+      "verification_reason": "CAR-T therapy for lupus is too recent and specialized for widespread public misconceptions; most people haven't heard of either CAR-T or its lupus applications.",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Disease",
+        "Clinical Trials"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Approves CAR-T Cell Therapy to Treat Adults with Relapsed or Refractory Follicular Lymphoma",
+          "description": "FDA press announcements and approvals database containing official approvals for CAR-T therapies",
+          "relevance": "Shows current FDA-approved indications for CAR-T therapy, which would indicate if lupus is an approved indication"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niaid.nih.gov/node/7937?404message&requested_url=/diseases-conditions/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus) - NIAID",
+          "description": "NIAID's comprehensive overview of lupus including current treatment approaches",
+          "relevance": "Provides authoritative information on established lupus treatments and research directions"
+        },
+        {
+          "organization": "NIH/NCI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "CAR T Cells: Engineering Patients' Immune Cells to Treat Their Cancers",
+          "description": "NCI's comprehensive overview of CAR-T cell therapy including approved uses and ongoing research",
+          "relevance": "Explains what CAR-T therapy is approved for and what conditions are being studied"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Cochrane Reviews on CAR-T Cell Therapy",
+          "description": "Systematic reviews of CAR-T cell therapy efficacy and safety",
+          "relevance": "Provides evidence-based systematic reviews of CAR-T therapy applications"
+        },
+        {
+          "organization": "NIH/ClinicalTrials.gov",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Clinical Trials Database - CAR-T and Lupus",
+          "description": "Database of ongoing and completed clinical trials investigating CAR-T therapy for lupus",
+          "relevance": "Shows current research status and any clinical trials testing CAR-T for lupus treatment"
+        }
+      ],
+      "discovered_at": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -12184,6 +12752,76 @@
       "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
       "nasem_bos_url": "https://www.nationalacademies.org/news/alternative-therapies-cannot-cure-cancer",
       "nasem_bos_title": "Can cancer be successfully treated by alternative therapies alone?"
+    },
+    {
+      "id": "global_warming_mean_climate_change",
+      "question": "Does global warming mean climate change is accelerating out of control?",
+      "priority": "low",
+      "rationale": "Addresses confusion about what 'accelerating' climate change means, providing context for recent trends while maintaining accurate urgency without fatalism",
+      "misinformation_narrative": "Media reports about accelerating global warming have created both fatalistic 'it's too late' attitudes and skeptical 'it's not that bad' reactions, with people misunderstanding what acceleration means and what can still be done",
+      "public_stakes": "Misunderstanding leads to either climate despair and inaction or continued denial of the need for urgent action, undermining support for effective climate policies",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes complex, nuanced reactions to climate reporting rather than a specific false belief that circulates in identifiable communities.",
+      "tags": [
+        "Climate Change",
+        "Environment"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Stabilization Targets: Emissions, Concentrations, and Impacts over Decades to Millennia (2011)",
+          "url": "https://www.nationalacademies.org/publications/12877"
+        },
+        {
+          "name": "Abrupt Impacts of Climate Change: Anticipating Surprises (2013)",
+          "url": "https://www.nationalacademies.org/publications/18373"
+        },
+        {
+          "name": "Limiting the Magnitude of Future Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12785"
+        },
+        {
+          "name": "Informing an Effective Response to Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12784"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why global warming is accelerating and what it means for the future",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519386-why-global-warming-is-accelerating-and-what-it-means-for-the-future/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why we fail to notice climate change",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/climate-change-binary-frozen-weather",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Updated plan aims to boost NI's resilience to climate change",
+          "origin": "STM — BBC Science",
+          "url": "https://www.bbc.com/news/articles/cgqgq11409lo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-03-19"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-22",
+      "last_seen": "2026-03-22",
+      "times_seen": 1,
+      "status": "nasem_covered",
+      "newest_source_year": 2013,
+      "signal_count": 3,
+      "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
+      "nasem_bos_url": "https://www.nationalacademies.org/based-on-science/human-driven-climate-change-is-causing-sea-levels-to-rise",
+      "nasem_bos_title": "Human-driven climate change is causing sea levels to rise"
     },
     {
       "id": "should_people_covid_other_recent",

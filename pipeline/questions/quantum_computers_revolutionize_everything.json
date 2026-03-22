@@ -1,0 +1,81 @@
+{
+  "id": "quantum_computers_revolutionize_everything",
+  "question": "Are quantum computers about to revolutionize everything?",
+  "topic": "Provides realistic timeline and capabilities of quantum computing while acknowledging genuine advanc",
+  "tags": [
+    "Technology",
+    "Physics"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25499",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: UK bets big on homegrown fusion and quantum — can it lead the world?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00877-2",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Major Turing computing award goes to quantum science for first time",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00818-z",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Computer science’s ‘Nobel Prize’ goes quantum",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/computer-science-s-nobel-prize-goes-quantum",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: MIT scientists finally see hidden quantum “jiggling” inside superconductors",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260317064509.htm",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Scientists used 7,000 GPUs to simulate a tiny quantum chip in extreme detail",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260317064504.htm",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: You can now buy a DIY quantum computer",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Scientists just found a hidden 48-dimensional world in quantum light",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260321012705.htm",
+      "date": "2026-03-21"
+    }
+  ]
+}

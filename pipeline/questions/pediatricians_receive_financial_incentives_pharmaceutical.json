@@ -1,0 +1,73 @@
+{
+  "id": "pediatricians_receive_financial_incentives_pharmaceutical",
+  "question": "Do pediatricians receive financial incentives from pharmaceutical companies to vaccinate children?",
+  "topic": "Directly addresses a specific conspiracy theory that undermines trust in pediatric healthcare and va",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "Immunization: The Basics — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Policy Statement: Financing of Immunization Programs — American Academy of Pediatrics (AAP)",
+      "url": "https://pediatrics.aappublications.org/content/pediatrics/early/2017/08/31/peds.2017-2552.full.pdf",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaccines for Children (VFC) Program — CDC",
+      "url": "https://www.cdc.gov/vaccines-for-children/about/index.html",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaccine Safety: Addressing Misinformation — WHO",
+      "url": "https://www.who.int/news-room/feature-stories/detail/how-are-vaccines-developed",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Claim: Pediatricians receive large financial bonuses from pharmaceutical companies for vaccinating children - DEBUNKED by hosts as illegal and not occurring",
+      "origin": "Unbiased Science: Pediatricians: Not About The Benjamins, Baby",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pediatricians-not-about-the-benjamins-baby/",
+      "date": "2026-03-11T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Claim: Vaccine reimbursement from insurance covers or exceeds the cost of vaccines - CONTRADICTED; hosts state reimbursement 'pretty much' covers cost or is slightly above, but does not account for storage, administration, or waste",
+      "origin": "Unbiased Science: Pediatricians: Not About The Benjamins, Baby",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pediatricians-not-about-the-benjamins-baby/",
+      "date": "2026-03-11T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Claim: One in four pediatricians have considered stopping vaccine provision due to financial viability - requires verification against NASEM data",
+      "origin": "Unbiased Science: Pediatricians: Not About The Benjamins, Baby",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pediatricians-not-about-the-benjamins-baby/",
+      "date": "2026-03-11T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Vaccine storage, handling, and cold chain management",
+      "origin": "Unbiased Science: Pediatricians: Not About The Benjamins, Baby",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pediatricians-not-about-the-benjamins-baby/",
+      "date": "2026-03-11T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Immunization policy and vaccine delivery systems",
+      "origin": "Unbiased Science: Pediatricians: Not About The Benjamins, Baby",
+      "url": "https://bleav.com/shows/unbiased-science/episodes/pediatricians-not-about-the-benjamins-baby/",
+      "date": "2026-03-11T10:00:00"
+    }
+  ]
+}

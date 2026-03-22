@@ -1,0 +1,79 @@
+{
+  "id": "lupus_cured_car_cell_therapy",
+  "question": "Can lupus be cured with CAR-T cell therapy?",
+  "topic": "Corrects overly optimistic interpretations of preliminary CAR-T results, explaining the difference b",
+  "tags": [
+    "Health and Medicine",
+    "Autoimmune Disease",
+    "Clinical Trials"
+  ],
+  "sources": [
+    {
+      "name": "FDA Approves CAR-T Cell Therapy to Treat Adults with Relapsed or Refractory Follicular Lymphoma — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Systemic Lupus Erythematosus (Lupus) - NIAID — NIH/NIAID",
+      "url": "https://www.niaid.nih.gov/node/7937?404message&requested_url=/diseases-conditions/lupus",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "CAR T Cells: Engineering Patients' Immune Cells to Treat Their Cancers — NIH/NCI",
+      "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Cochrane Reviews on CAR-T Cell Therapy — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Clinical Trials Database - CAR-T and Lupus — NIH/ClinicalTrials.gov",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "First CAR-T cell therapy lupus patient in New England treated in 2023, still lupus-free and treatment-free after ~3 years",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "CAR-T therapy achieves 'clinical cure' (disease-free, drug-free remission) but not complete cure due to persistent genetic predisposition",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "CAR-T cell therapy and cellular immunotherapy for lupus",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Immune system reset mechanisms and immune reconstitution",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}
