@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-22T12:06:25Z",
+  "generated_at": "2026-03-23T12:13:48Z",
   "questions": [
     {
       "id": "global_warming_accelerated_significantly_since",
@@ -793,6 +793,84 @@
       "readiness_summary": "4 NASEM sources, most recent 2020 · confirmed misinformation · 5 discovery signals"
     },
     {
+      "id": "climate_change_accelerating_current_warming",
+      "question": "Is climate change accelerating and are current warming trends natural cycles?",
+      "priority": "high",
+      "rationale": "This directly addresses climate change denial and natural cycle myths. Multiple sources discuss acceleration of warming and greenhouse gas constraints, providing strong evidence for human causation",
+      "misinformation_narrative": "Many people believe current global warming is part of natural climate cycles rather than human-caused, or that climate change is not accelerating as scientists claim",
+      "public_stakes": "This false belief delays urgent climate action, leading to worse environmental and economic consequences as greenhouse gas emissions continue unabated and adaptation measures are inadequate",
+      "verification_status": "verified",
+      "verification_reason": "Climate denial communities on YouTube, conservative media outlets, and politicians regularly claim current warming is natural cycles rather than human-caused.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 4,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        },
+        {
+          "name": "Evaluating Progress of the U.S. Climate Change Science Program: Methods and Preliminary Results (2007)",
+          "url": "https://www.nationalacademies.org/publications/11934"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: A strong constraint on radiative forcing of well-mixed greenhouse gases",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10289-x",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Floating wetlands boost water quality, slash greenhouse emissions",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/floating-wetlands-boost-water-quality-slash-greenhouse-emissions",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Ice core reveals low CO2 during warm spell 3 million years ago",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519771-ice-core-reveals-low-co2-during-warm-spell-3-million-years-ago/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why global warming is accelerating and what it means for the future",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519386-why-global-warming-is-accelerating-and-what-it-means-for-the-future/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Scientists turn CO2 into fuel using breakthrough single-atom catalyst",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044703.htm",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 4,
+      "readiness_summary": "4 NASEM sources, most recent 2020 · confirmed misinformation · 4 discovery signals"
+    },
+    {
       "id": "should_people_avoid_medical_treatments",
       "question": "Should people avoid medical treatments due to concerns about side effects?",
       "priority": "high",
@@ -1093,16 +1171,15 @@
       "id": "vaccines_cause_food_allergies_children",
       "question": "Do vaccines cause food allergies in children?",
       "priority": "high",
-      "rationale": "Addresses a specific causal claim that's driving vaccine hesitancy, with established evidence from allergy and immunology research showing no causal relationship",
-      "misinformation_narrative": "Growing numbers of parents believe that childhood vaccines are responsible for the increase in food allergies, leading them to delay or refuse vaccinations",
-      "public_stakes": "This misconception leads to reduced vaccination rates while simultaneously causing parents to avoid evidence-based food allergy prevention strategies, potentially increasing both infectious disease risk and food allergy development",
+      "rationale": "This addresses a specific misconception linking vaccines to food allergies. The podcast states this as an established fact with no scientific support, indicating strong evidence against this belief",
+      "misinformation_narrative": "Some parents believe that vaccines cause food allergies in children, leading them to delay or refuse vaccinations to prevent allergic reactions",
+      "public_stakes": "Parents may refuse vaccines based on this false belief, leaving children vulnerable to serious infectious diseases while not actually preventing food allergies, which have separate causes and mechanisms",
       "verification_status": "verified",
-      "verification_reason": "Parenting groups on Facebook and anti-vaccine websites like Children's Health Defense actively promote the belief that vaccines cause food allergies and autoimmune issues.",
+      "verification_reason": "Parenting forums like BabyCenter and anti-vaccine groups frequently discuss fears that vaccines cause food allergies, often citing timing of vaccine schedules with allergy development.",
       "tags": [
-        "Health and Medicine",
-        "Public Health",
-        "Vaccines",
-        "Allergies"
+        "Vaccines & Immunization",
+        "Food Safety",
+        "Pediatric Health"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -1189,8 +1266,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-09",
-      "last_seen": "2026-03-22",
-      "times_seen": 10,
+      "last_seen": "2026-03-23",
+      "times_seen": 11,
       "status": "pending",
       "newest_source_year": 1993,
       "signal_count": 7,
@@ -1330,6 +1407,45 @@
       "newest_source_year": 2024,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "should_parents_avoid_introducing_allergenic",
+      "question": "Should parents avoid introducing allergenic foods to infants to prevent food allergies?",
+      "priority": "medium",
+      "rationale": "This corrects outdated guidance that many parents still follow. The LEAP trial and subsequent research show early introduction reduces allergy risk, contradicting common parental beliefs",
+      "misinformation_narrative": "Many parents believe they should delay introducing potentially allergenic foods like peanuts to infants to prevent food allergies, when current evidence shows the opposite",
+      "public_stakes": "Delayed allergen introduction may actually increase the risk of developing food allergies, leading to more children suffering from preventable allergic conditions",
+      "verification_status": "verified",
+      "verification_reason": "This was standard medical advice until recently, and many parenting websites, older pediatric resources, and grandparents still promote delayed allergen introduction.",
+      "tags": [
+        "Pediatric Health",
+        "Food Allergies",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "quantum_computers_ready_solve_real",
@@ -2359,15 +2475,15 @@
       "id": "people_egg_allergies_need_avoid",
       "question": "Do people with egg allergies need to avoid flu vaccines?",
       "priority": "medium",
-      "rationale": "Corrects outdated medical advice that persists despite updated safety guidelines",
-      "misinformation_narrative": "Many people with egg allergies avoid flu shots believing they're dangerous due to egg-based production, despite current vaccines being safe for egg-allergic individuals",
-      "public_stakes": "Unnecessary vaccine avoidance leaves egg-allergic individuals vulnerable to influenza complications",
+      "rationale": "This addresses a specific medical misconception with clear safety implications. The podcast states egg-allergic individuals can safely receive any flu vaccine regardless of formulation",
+      "misinformation_narrative": "Many people with egg allergies believe they cannot safely receive flu vaccines because some are made using eggs, leading them to skip this important protection",
+      "public_stakes": "Egg-allergic individuals may unnecessarily avoid flu vaccination, leaving them vulnerable to influenza complications that could be much more serious than any vaccine reaction",
       "verification_status": "verified",
-      "verification_reason": "This is documented medical misinformation that healthcare providers regularly encounter from egg-allergic patients avoiding flu shots.",
+      "verification_reason": "This outdated belief persists in patient communities and even among some healthcare providers, despite updated guidelines allowing flu vaccines for egg-allergic patients.",
       "tags": [
         "Vaccines & Immunization",
-        "Health and Medicine",
-        "Food Allergies"
+        "Food Allergies",
+        "Seasonal Health"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -2398,8 +2514,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-08",
-      "last_seen": "2026-03-10",
-      "times_seen": 1,
+      "last_seen": "2026-03-23",
+      "times_seen": 2,
       "status": "pending",
       "newest_source_year": 2012,
       "signal_count": 2,
@@ -3584,17 +3700,17 @@
     },
     {
       "id": "systems_programmed_manipulate_human_emotions",
-      "question": "Are AI systems programmed to manipulate human emotions?",
+      "question": "Are AI systems programmed to manipulate human emotions and should we resist them?",
       "priority": "low",
-      "rationale": "Clarifies the difference between AI systems designed for engagement versus manipulation, helping people make informed decisions about AI use",
-      "misinformation_narrative": "Claims that AI is deliberately programmed to 'hijack human empathy' and manipulate emotions create fear that all AI interactions are inherently deceptive",
-      "public_stakes": "May lead to rejection of beneficial AI applications in healthcare, education, and other domains, or conversely, insufficient caution about AI systems that do use manipulative techniques",
+      "rationale": "This addresses growing AI fear and conspiracy theories. Sources discuss AI's beneficial applications in climate modeling, protein research, and medical applications, countering manipulation narratives",
+      "misinformation_narrative": "Many people believe AI systems are deliberately programmed to manipulate human emotions for malicious purposes, leading to blanket resistance to beneficial AI applications in healthcare and other fields",
+      "public_stakes": "Excessive fear of AI may prevent adoption of beneficial applications like medical diagnosis tools, educational aids, or accessibility technologies that could improve lives",
       "verification_status": "needs_review",
-      "verification_reason": "While people worry about AI manipulation, the specific claim about \"hijacking empathy\" programming isn't a widespread public belief.",
+      "verification_reason": "While AI concerns exist, the specific framing about \"programmed emotional manipulation\" resistance doesn't reflect actual widespread public discourse patterns.",
       "tags": [
-        "Technology",
         "Artificial Intelligence",
-        "Ethics"
+        "Technology Ethics",
+        "Public Understanding"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -3614,16 +3730,58 @@
           "origin": "STM — Nature",
           "url": "https://www.nature.com/articles/d41586-026-00834-z",
           "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Integrated photonic neural network with on-chip backpropagation training",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10262-8",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI set to map risks of future climate disasters",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00835-y",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Rethinking AI’s role in survey research: from threat to collaboration",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00862-9",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AlphaFold database hits ‘next level’: the AI system now includes protein pairing",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00787-3",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Route-planning AI cut climate-warming contrails on over 100 flights",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519687-route-planning-ai-cut-climate-warming-contrails-on-over-100-flights/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: New AI tool predicts cancer spread with surprising accuracy",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260321012709.htm",
+          "date": "2026-03-21"
         }
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-22",
-      "last_seen": "2026-03-22",
-      "times_seen": 1,
+      "last_seen": "2026-03-23",
+      "times_seen": 2,
       "status": "pending",
       "newest_source_year": 2021,
-      "signal_count": 1,
-      "readiness_summary": "2 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 1 discovery signal"
+      "signal_count": 3,
+      "readiness_summary": "2 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 3 discovery signals"
     },
     {
       "id": "crispr_gene_editing_safely_used",
@@ -5102,15 +5260,15 @@
       "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
       "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
       "priority": "high",
-      "rationale": "Directly addresses a specific debunked claim that undermines vaccine confidence and pediatric care relationships",
-      "misinformation_narrative": "Anti-vaccine activists claim pediatricians are financially incentivized by 'big pharma' bonuses to over-vaccinate children, making vaccination decisions about profit rather than health",
-      "public_stakes": "Parents may refuse vaccines or switch providers based on false financial conspiracy theories, leading to preventable disease outbreaks and child deaths",
+      "rationale": "This directly addresses a specific conspiracy theory that undermines trust in pediatric healthcare and vaccine programs. The podcast explicitly debunks this as illegal and not occurring, providing clear evidence-based correction",
+      "misinformation_narrative": "Many people believe pediatricians receive large financial bonuses or kickbacks from pharmaceutical companies for administering vaccines to children, making vaccination recommendations financially motivated rather than medically necessary",
+      "public_stakes": "This false belief leads parents to distrust their pediatricians' vaccine recommendations, resulting in delayed or refused vaccinations that leave children vulnerable to preventable diseases like measles, whooping cough, and meningitis",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and sites like Children's Health Defense regularly promote claims about pediatrician financial incentives.",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Age of Autism regularly promote the false belief that pediatricians receive \"vaccine bonuses\" from Big Pharma.",
       "tags": [
-        "Health and Medicine",
+        "Vaccines & Immunization",
         "Public Health",
-        "Vaccines"
+        "Medical Ethics"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -5271,8 +5429,8 @@
         }
       ],
       "discovered_at": "2026-03-13",
-      "last_seen": "2026-03-21",
-      "times_seen": 7,
+      "last_seen": "2026-03-23",
+      "times_seen": 8,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 5,
@@ -5402,6 +5560,159 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 5,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "mrna_covid_vaccines_dangerous_should",
+      "question": "Are mRNA COVID-19 vaccines dangerous and should cancer patients avoid them?",
+      "priority": "high",
+      "rationale": "This addresses widespread mRNA vaccine misinformation that specifically harms cancer patients. The sources discuss both vaccine misinformation threats and cancer treatment contexts",
+      "misinformation_narrative": "Many people believe mRNA vaccines are experimental, dangerous, or particularly harmful to cancer patients, leading to vaccine hesitancy in vulnerable populations",
+      "public_stakes": "Cancer patients who avoid vaccination based on misinformation face much higher risks of severe COVID-19 outcomes due to compromised immune systems, while the vaccines are actually safer and more important for this population",
+      "verification_status": "verified",
+      "verification_reason": "This belief is widespread across social media platforms, alternative health websites, and was promoted by figures like Robert F. Kennedy Jr. and Joe Rogan's podcast.",
+      "tags": [
+        "Vaccines & Immunization",
+        "Cancer Research",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Thymic health and immunotherapy outcomes in patients with cancer",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10243-x",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00857-6",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Gum disease bacterium linked to breast cancer growth and spread",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044719.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: This virus therapy supercharges the immune system against brain cancer",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044708.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: The surprising cancer link between cats and humans",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260318033143.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: This common vaccine cuts heart risk nearly in half in new study",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044659.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: DNA origami vaccines could be the next leap beyond mRNA",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317015933.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Federal judge temporarily blocks RFK Jr.’s vaccine agenda – an epidemiologist answers questions parents may have",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/federal-judge-temporarily-blocks-rfk-jr-s-vaccine-agenda-an-epidemiologist-answers-questions-parents-may-have-278709",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: What the Health? From KFF Health News: RFK Jr.’s Vaccine Schedule Changes Blocked — For Now",
+          "origin": "STM — KFF Health News",
+          "url": "https://kffhealthnews.org/news/podcast/what-the-health-438-rfk-vaccine-schedule-changes-blocked-obamacare-midterms-march-19-2026/",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccines for People with Underlying Medical Conditions",
+          "description": "CDC guidance specifically addressing COVID-19 vaccination recommendations for people with cancer and other underlying medical conditions",
+          "relevance": "Directly addresses whether cancer patients should receive mRNA COVID-19 vaccines with specific safety guidance"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccine Safety Surveillance",
+          "description": "FDA's comprehensive safety monitoring data and adverse event reporting for COVID-19 vaccines including mRNA vaccines",
+          "relevance": "Provides official safety data and surveillance results to assess whether mRNA COVID-19 vaccines are dangerous"
+        },
+        {
+          "organization": "NIH/NCI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/about-cancer/coronavirus/covid-19-vaccines-people-with-cancer",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccines in People with Cancer",
+          "description": "National Cancer Institute guidance on COVID-19 vaccination specifically for cancer patients",
+          "relevance": "Directly addresses the safety and recommendations for COVID-19 vaccines in cancer patients"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 vaccines: safety surveillance manual",
+          "description": "WHO's comprehensive manual on COVID-19 vaccine safety monitoring and adverse events",
+          "relevance": "Provides international perspective on mRNA COVID-19 vaccine safety based on global surveillance data"
+        },
+        {
+          "organization": "American Cancer Society",
+          "organization_full": "American Cancer Society",
+          "base_url": "https://www.cancer.org",
+          "url": "https://www.cancer.org/cancer/managing-cancer/side-effects/infections/covid-19.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccines in People with Cancer",
+          "description": "Evidence-based guidance from leading cancer organization on COVID-19 vaccination for cancer patients",
+          "relevance": "Authoritative medical organization guidance specifically addressing COVID-19 vaccine safety and recommendations for cancer patients"
+        }
+      ],
+      "discovered_at": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 4,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -8727,6 +9038,117 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "dangerous_bacteria_buildup_infection_risks",
+      "question": "Are there dangerous bacteria buildup and infection risks from everyday surfaces?",
+      "priority": "low",
+      "rationale": "This addresses both excessive germophobia and helps people understand normal vs. dangerous bacterial exposures. Sources discuss natural bacterial defenses and actual infection risks",
+      "misinformation_narrative": "Many people have excessive fears about bacterial contamination from normal surfaces, leading to overuse of antibacterial products and unnecessary anxiety about routine environmental exposures",
+      "public_stakes": "Overuse of antibacterial products can contribute to antibiotic resistance, while excessive cleanliness may impair normal immune system development, and anxiety about normal bacterial exposure reduces quality of life",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes germaphobia/OCD behaviors rather than a specific misinformation narrative that circulates in identifiable communities or media.",
+      "tags": [
+        "Infectious Disease",
+        "Public Health",
+        "Microbiology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: An enzyme inside the bacterial-cell membrane chops up viral DNA on entry",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00732-4",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Microscopic spikes on snakeskin block bacterial buildup",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/microscopic-spikes-snakeskin-block-bacterial-buildup",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Fixing a tooth infection may improve blood sugar and heart health",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315225156.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: MIT scientists discover gut protein that traps and kills dangerous bacteria",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315004403.htm",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Cleaning and Disinfecting Your Home",
+          "description": "CDC guidance on bacterial contamination of household surfaces and proper cleaning practices to prevent infection",
+          "relevance": "Addresses bacterial risks from everyday surfaces and evidence-based cleaning recommendations"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/coronavirus-and-disinfectants/list-n-advanced-search-page-disinfectants-coronavirus-covid-19",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "List N: Disinfectants for Coronavirus (COVID-19) and Surface Disinfection",
+          "description": "EPA database and guidance on surface contamination by pathogens and effective disinfection methods",
+          "relevance": "Provides scientific basis for pathogen survival on surfaces and infection control measures"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/infection-prevention-and-control-of-epidemic-and-pandemic-prone-acute-respiratory-infections-in-health-care",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Infection Prevention and Control of Epidemic- and Pandemic-Prone Acute Respiratory Infections in Health Care",
+          "description": "WHO guidelines on pathogen transmission via contaminated surfaces and environmental infection control",
+          "relevance": "Evidence on bacterial and viral survival on surfaces and transmission risks"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Understanding Microbes in Sickness and in Health",
+          "description": "NIH resource on pathogenic bacteria in everyday environments and infection mechanisms",
+          "relevance": "Scientific evidence on bacterial contamination risks and factors affecting infection"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "BAM: Bacterial Analytical Manual",
+          "description": "FDA manual detailing bacterial contamination detection methods and survival data for various surfaces",
+          "relevance": "Technical data on bacterial persistence on surfaces and contamination assessment methods"
+        }
+      ],
+      "discovered_at": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "new_cancer_treatments_like_car",
       "question": "Are new cancer treatments like CAR-T therapy actual cures?",
       "priority": "low",
@@ -9167,6 +9589,186 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "you_diagnose_food_allergies_sensitivities",
+      "question": "Can you diagnose food allergies and sensitivities using IgG blood tests?",
+      "priority": "low",
+      "rationale": "This addresses the specific misconception about IgG testing accuracy. The podcast mentions high false positive rates, indicating this is a real clinical problem with commercial testing",
+      "misinformation_narrative": "Many people believe commercial IgG blood tests can accurately diagnose food allergies and sensitivities, leading them to unnecessarily eliminate foods from their diet based on unreliable test results",
+      "public_stakes": "People may unnecessarily restrict their diets, leading to nutritional deficiencies, eating disorders, or delayed proper medical diagnosis of actual food allergies or underlying conditions",
+      "verification_status": "needs_review",
+      "verification_reason": "While some people use IgG tests, the framing as widespread \"misinformation\" overstates how commonly people specifically believe these tests diagnose allergies versus general food sensitivities.",
+      "tags": [
+        "Food Safety",
+        "Medical Testing",
+        "Health and Medicine"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "IgG testing has high false positive rate for food reactions - claim made but no specific statistics provided",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "IgG Food Testing Position Statement",
+          "description": "Official AAAAI position statement on IgG food testing explaining why it's not recommended for diagnosing food allergies or intolerances",
+          "relevance": "Directly addresses the validity and clinical utility of IgG testing for food allergies"
+        },
+        {
+          "organization": "European Academy of Allergy and Clinical Immunology (EAACI)",
+          "organization_full": "European Academy of Allergy and Clinical Immunology",
+          "base_url": "https://www.eaaci.org",
+          "url": "https://www.eaaci.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Food Allergy and Anaphylaxis Guidelines",
+          "description": "Comprehensive European guidelines on food allergy diagnosis that address inappropriate testing methods including IgG",
+          "relevance": "Provides evidence-based recommendations against using IgG testing for food allergy diagnosis"
+        },
+        {
+          "organization": "World Allergy Organization (WAO)",
+          "organization_full": "World Allergy Organization (WAO)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "WAO White Book on Allergy: Update 2013",
+          "description": "International consensus document on allergy diagnosis and management that discusses appropriate vs inappropriate testing methods",
+          "relevance": "Global expert consensus on proper food allergy testing methodology"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Diagnostic accuracy of IgG4 measurements for food allergy: a systematic review",
+          "description": "Systematic review examining the diagnostic accuracy of IgG testing for food allergies",
+          "relevance": "High-quality systematic review directly evaluating the evidence for IgG food testing"
+        },
+        {
+          "organization": "National Institute for Health and Care Excellence (NICE)",
+          "organization_full": "National Institute for Health and Care Excellence (NICE)",
+          "base_url": "",
+          "url": "https://www.nice.org.uk/guidance/cg116",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Food allergy in under 19s: assessment and diagnosis - Clinical guideline [CG116]",
+          "description": "UK national guidelines for food allergy diagnosis that specify which tests should and should not be used",
+          "relevance": "Evidence-based national guidelines that address inappropriate use of IgG testing"
+        }
+      ],
+      "discovered_at": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "lupus_incurable_disease_effective_treatments",
+      "question": "Is lupus an incurable disease with no effective treatments?",
+      "priority": "low",
+      "rationale": "This addresses misconceptions about lupus treatability. Sources show recent FDA approvals, ongoing trials, and breakthrough treatments like CAR-T therapy achieving clinical cures",
+      "misinformation_narrative": "Many people believe lupus is completely incurable with no effective treatments, leading to despair and potentially avoiding medical care or clinical trials",
+      "public_stakes": "Patients may not seek proper treatment or participate in clinical trials, missing opportunities for disease management and potentially life-changing therapies like CAR-T cell therapy",
+      "verification_status": "needs_review",
+      "verification_reason": "Most lupus patients and families research their condition extensively and know about treatment options; this seems to conflate \"incurable\" with \"no effective treatments.\"",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Diseases",
+        "Medical Treatment"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "No FDA-approved lupus treatments existed for 50 years until first approval ~20 years ago",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (SLE) - Arthritis-Related Statistics",
+          "description": "CDC's fact sheet on lupus including treatment information and disease management",
+          "relevance": "Provides authoritative information on lupus treatments and management options"
+        },
+        {
+          "organization": "NIH - National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus)",
+          "description": "Comprehensive NIH resource on lupus including current treatments and therapies",
+          "relevance": "Detailed medical information on lupus treatments and their effectiveness"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA-Approved Treatments for Systemic Lupus Erythematosus",
+          "description": "FDA information on approved lupus medications and treatments",
+          "relevance": "Lists FDA-approved treatments demonstrating effective therapies exist"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Immunosuppressive treatment for proliferative lupus nephritis",
+          "description": "Systematic review of immunosuppressive treatments for lupus nephritis",
+          "relevance": "Evidence-based review of treatment effectiveness for serious lupus complications"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Rheumatic and musculoskeletal diseases - Key Facts",
+          "description": "WHO fact sheet on musculoskeletal conditions including autoimmune diseases like lupus",
+          "relevance": "Global health perspective on management of chronic rheumatic conditions including lupus"
+        }
+      ],
+      "discovered_at": "2026-03-23",
+      "last_seen": "2026-03-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {

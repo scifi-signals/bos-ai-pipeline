@@ -1,0 +1,72 @@
+{
+  "id": "climate_change_accelerating_current_warming",
+  "question": "Is climate change accelerating and are current warming trends natural cycles?",
+  "topic": "This directly addresses climate change denial and natural cycle myths. Multiple sources discuss acce",
+  "tags": [
+    "Climate Change",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://www.nationalacademies.org/publications/25733",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence and Causes",
+      "url": "https://www.nationalacademies.org/publications/18730",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Evaluating Progress of the U.S. Climate Change Science Program: Methods and Preliminary Results",
+      "url": "https://www.nationalacademies.org/publications/11934",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing the Science of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12782",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: A strong constraint on radiative forcing of well-mixed greenhouse gases",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10289-x",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Floating wetlands boost water quality, slash greenhouse emissions",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/floating-wetlands-boost-water-quality-slash-greenhouse-emissions",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Ice core reveals low CO2 during warm spell 3 million years ago",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519771-ice-core-reveals-low-co2-during-warm-spell-3-million-years-ago/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Why global warming is accelerating and what it means for the future",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519386-why-global-warming-is-accelerating-and-what-it-means-for-the-future/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Scientists turn CO2 into fuel using breakthrough single-atom catalyst",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260319044703.htm",
+      "date": "2026-03-20"
+    }
+  ]
+}

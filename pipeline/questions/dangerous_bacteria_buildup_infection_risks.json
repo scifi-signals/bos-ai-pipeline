@@ -1,0 +1,72 @@
+{
+  "id": "dangerous_bacteria_buildup_infection_risks",
+  "question": "Are there dangerous bacteria buildup and infection risks from everyday surfaces?",
+  "topic": "This addresses both excessive germophobia and helps people understand normal vs. dangerous bacterial",
+  "tags": [
+    "Infectious Disease",
+    "Public Health",
+    "Microbiology"
+  ],
+  "sources": [
+    {
+      "name": "Cleaning and Disinfecting Your Home — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "List N: Disinfectants for Coronavirus (COVID-19) and Surface Disinfection — EPA",
+      "url": "https://www.epa.gov/coronavirus-and-disinfectants/list-n-advanced-search-page-disinfectants-coronavirus-covid-19",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Infection Prevention and Control of Epidemic- and Pandemic-Prone Acute Respiratory Infections in Health Care — WHO",
+      "url": "https://www.who.int/publications/i/item/infection-prevention-and-control-of-epidemic-and-pandemic-prone-acute-respiratory-infections-in-health-care",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Understanding Microbes in Sickness and in Health — NIH/NIAID",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "BAM: Bacterial Analytical Manual — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: An enzyme inside the bacterial-cell membrane chops up viral DNA on entry",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00732-4",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Microscopic spikes on snakeskin block bacterial buildup",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/microscopic-spikes-snakeskin-block-bacterial-buildup",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Fixing a tooth infection may improve blood sugar and heart health",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315225156.htm",
+      "date": "2026-03-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: MIT scientists discover gut protein that traps and kills dangerous bacteria",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315004403.htm",
+      "date": "2026-03-20"
+    }
+  ]
+}
