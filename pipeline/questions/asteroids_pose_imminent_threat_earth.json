@@ -1,0 +1,41 @@
+{
+  "id": "asteroids_pose_imminent_threat_earth",
+  "question": "Do asteroids pose an imminent threat to Earth that NASA is hiding?",
+  "topic": "Common misconception fueled by disaster movies and conspiracy theories. Clear data exists on asteroi",
+  "tags": [
+    "Space & Astronomy",
+    "Planetary Defense",
+    "Risk Assessment"
+  ],
+  "sources": [
+    {
+      "name": "Defending Planet Earth: Near-Earth-Object Surveys and Hazard Mitigation Strategies",
+      "url": "https://www.nationalacademies.org/publications/12842",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: We’ve spotted a huge asteroid spinning impossibly fast",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520088-weve-spotted-a-huge-asteroid-spinning-impossibly-fast/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Private company to land on asteroid Apophis as it flies close to Earth",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520020-private-company-to-land-on-asteroid-apophis-as-it-flies-close-to-earth/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Mysterious comet disintegration caught by telescope after lucky break",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520265-mysterious-comet-disintegration-caught-by-telescope-after-lucky-break/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-23"
+    }
+  ]
+}

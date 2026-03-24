@@ -1,0 +1,86 @@
+{
+  "id": "quantum_computers_solve_any_problem",
+  "question": "Can quantum computers solve any problem faster than regular computers?",
+  "topic": "Widespread misconceptions exist about quantum computing capabilities. Important to clarify quantum a",
+  "tags": [
+    "Quantum Science",
+    "Technology",
+    "Computing"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+      "url": "https://www.nationalacademies.org/publications/26850",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States",
+      "url": "https://www.nationalacademies.org/publications/25613",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Controlling the Quantum World: The Science of Atoms, Molecules, and Photons",
+      "url": "https://www.nationalacademies.org/publications/11705",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Controlling the Quantum World of Atoms, Molecules, and Photons: An Interim Report",
+      "url": "https://www.nationalacademies.org/publications/11482",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: UK bets big on homegrown fusion and quantum — can it lead the world?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00877-2",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Bistable superlattice switching in a quantum spin Hall insulator",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10309-w",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Major Turing computing award goes to quantum science for first time",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00818-z",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: You can now buy a DIY quantum computer",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Scientists just found a hidden 48-dimensional world in quantum light",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260321012705.htm",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: World’s first quantum battery could enable ultra fast charging",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260322020249.htm",
+      "date": "2026-03-23"
+    }
+  ]
+}

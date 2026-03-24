@@ -1,0 +1,65 @@
+{
+  "id": "mrna_vaccines_alter_dna_cause",
+  "question": "Do mRNA vaccines alter your DNA or cause long-term genetic changes?",
+  "topic": "One of the most persistent vaccine misconceptions. Clear scientific evidence shows mRNA vaccines don",
+  "tags": [
+    "Vaccines & Immunization",
+    "Genetics & Genomics",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Understanding mRNA COVID-19 Vaccines — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "COVID-19 Vaccines: Myth versus Fact — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters — WHO",
+      "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "mRNA Vaccines: What You Need to Know — NIH/NIAID",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fact Check: SARS-CoV-2 mRNA vaccines do not 'reprogram' human genetic code — Reuters Fact Check",
+      "url": "https://www.reuters.com",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: DNA origami vaccines could be the next leap beyond mRNA",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260317015933.htm",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Federal judge temporarily blocks RFK Jr.’s vaccine agenda – an epidemiologist answers questions parents may have",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/federal-judge-temporarily-blocks-rfk-jr-s-vaccine-agenda-an-epidemiologist-answers-questions-parents-may-have-278709",
+      "date": "2026-03-21"
+    }
+  ]
+}

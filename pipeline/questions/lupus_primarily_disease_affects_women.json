@@ -1,0 +1,34 @@
+{
+  "id": "lupus_primarily_disease_affects_women",
+  "question": "Is lupus primarily a disease that affects women because it's not well-studied in men?",
+  "topic": "Clear opportunity to explain the biological basis for sex differences in autoimmune diseases, includ",
+  "tags": [
+    "Autoimmune Disease",
+    "Gender and Health",
+    "Medical Research"
+  ],
+  "sources": [
+    {
+      "name": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups",
+      "url": "https://www.nationalacademies.org/publications/26479",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Approximately 9 out of 10 lupus patients are women (90% female predominance)",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Sex hormone influences on lupus disease severity (estrogen and androgen effects on B cell activation)",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

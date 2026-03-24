@@ -1,0 +1,27 @@
+{
+  "id": "you_turn_directly_into_usable",
+  "question": "Can you turn CO2 directly into usable fuel to solve climate change?",
+  "topic": "Important to clarify the current limitations and energy requirements of CO2 conversion technologies ",
+  "tags": [
+    "Climate Change",
+    "Energy Technology",
+    "Environmental Solutions"
+  ],
+  "sources": [
+    {
+      "name": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report",
+      "url": "https://www.nationalacademies.org/publications/27732",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Scientists turn CO2 into fuel using breakthrough single-atom catalyst",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260319044703.htm",
+      "date": "2026-03-21"
+    }
+  ]
+}

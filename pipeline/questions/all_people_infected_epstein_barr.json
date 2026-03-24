@@ -1,0 +1,58 @@
+{
+  "id": "all_people_infected_epstein_barr",
+  "question": "Are all people infected with Epstein-Barr virus at high risk for developing autoimmune diseases?",
+  "topic": "Important to clarify that while EBV is linked to some autoimmune diseases, the vast majority of infe",
+  "tags": [
+    "Infectious Disease",
+    "Autoimmune Disease",
+    "Risk Assessment"
+  ],
+  "sources": [
+    {
+      "name": "Epstein-Barr Virus and Infectious Mononucleosis — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Multiple Sclerosis and Viral Infections Information Page — NIH/NINDS",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Epstein-Barr Virus Fact Sheet — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Epstein-Barr Virus and Cancer — NIH/NCI",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Cochrane Reviews on Epstein-Barr Virus — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Epstein-Barr virus (EBV) infection as lupus trigger",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

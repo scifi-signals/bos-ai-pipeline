@@ -1,0 +1,83 @@
+{
+  "id": "artificial_intelligence_actually_understand_think",
+  "question": "Does artificial intelligence actually understand or think like humans do?",
+  "topic": "Widespread confusion exists about AI capabilities versus human-like understanding. Clear evidence sh",
+  "tags": [
+    "Artificial Intelligence",
+    "Technology",
+    "Cognitive Science"
+  ],
+  "sources": [
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://www.nationalacademies.org/publications/26355",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Integrated photonic neural network with on-chip backpropagation training",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10262-8",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI set to map risks of future climate disasters",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00835-y",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Rethinking AI’s role in survey research: from threat to collaboration",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00862-9",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AlphaFold database hits ‘next level’: the AI system now includes protein pairing",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00787-3",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Route-planning AI cut climate-warming contrails on over 100 flights",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519687-route-planning-ai-cut-climate-warming-contrails-on-over-100-flights/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: New AI tool predicts cancer spread with surprising accuracy",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260321012709.htm",
+      "date": "2026-03-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: The intelligence illusion: why AI isn’t as smart as it is made out to be",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00882-5",
+      "date": "2026-03-23"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: The success of machine mathematicians shows us how to be OK with AI",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/mg26935872-700-the-success-of-machine-mathematicians-shows-us-how-to-be-ok-with-ai/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-23"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: New AI tool predicts cancer spread with surprising accuracy",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260321012709.htm",
+      "date": "2026-03-23"
+    }
+  ]
+}

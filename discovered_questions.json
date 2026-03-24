@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-23T12:13:48Z",
+  "generated_at": "2026-03-24T12:15:12Z",
   "questions": [
     {
       "id": "global_warming_accelerated_significantly_since",
@@ -387,6 +387,94 @@
       "newest_source_year": 2021,
       "signal_count": 3,
       "readiness_summary": "2 NASEM sources, most recent 2021 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "artificial_intelligence_actually_understand_think",
+      "question": "Does artificial intelligence actually understand or think like humans do?",
+      "priority": "high",
+      "rationale": "Widespread confusion exists about AI capabilities versus human-like understanding. Clear evidence shows current AI systems process patterns without genuine comprehension or consciousness",
+      "misinformation_narrative": "Many people believe current AI systems truly understand language and concepts the way humans do, or possess genuine intelligence and consciousness",
+      "public_stakes": "Overestimating AI capabilities leads to inappropriate reliance on AI for critical decisions, privacy concerns from anthropomorphizing AI systems, and unrealistic expectations about AI reliability and safety",
+      "verification_status": "verified",
+      "verification_reason": "General public discussions on Reddit, Twitter, and mainstream media often anthropomorphize AI capabilities, with many believing ChatGPT truly \"understands\" like humans.",
+      "tags": [
+        "Artificial Intelligence",
+        "Technology",
+        "Cognitive Science"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Integrated photonic neural network with on-chip backpropagation training",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10262-8",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI set to map risks of future climate disasters",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00835-y",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Rethinking AI’s role in survey research: from threat to collaboration",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00862-9",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AlphaFold database hits ‘next level’: the AI system now includes protein pairing",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00787-3",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Route-planning AI cut climate-warming contrails on over 100 flights",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519687-route-planning-ai-cut-climate-warming-contrails-on-over-100-flights/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: New AI tool predicts cancer spread with surprising accuracy",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260321012709.htm",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The intelligence illusion: why AI isn’t as smart as it is made out to be",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00882-5",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The success of machine mathematicians shows us how to be OK with AI",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/mg26935872-700-the-success-of-machine-mathematicians-shows-us-how-to-be-ok-with-ai/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-23"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 3,
+      "readiness_summary": "1 NASEM source, most recent 2021 · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "climate_change_actually_accelerating_recent",
@@ -1083,6 +1171,178 @@
       "readiness_summary": "3 NASEM sources, most recent 2015 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "people_egg_allergies_safely_receive",
+      "question": "Can people with egg allergies safely receive flu vaccines?",
+      "priority": "high",
+      "rationale": "Long-standing misconception based on outdated medical guidance. Current evidence shows egg-allergic individuals can safely receive any flu vaccine formulation",
+      "misinformation_narrative": "Many people with egg allergies believe they cannot receive flu vaccines because they're made using eggs, leading them to avoid this important annual vaccination",
+      "public_stakes": "Egg-allergic individuals miss out on important influenza protection, potentially leading to serious illness, hospitalization, or complications from preventable flu infections",
+      "verification_status": "verified",
+      "verification_reason": "Medical forums and patient communities regularly discuss egg allergy vaccine concerns, though this misconception is gradually being corrected by updated medical guidance.",
+      "tags": [
+        "Vaccines & Immunization",
+        "Food Safety",
+        "Seasonal Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://www.nationalacademies.org/publications/13164"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Egg-allergic individuals can safely receive any flu vaccine regardless of egg-based formulation - claim presented as current medical guidance",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/flu/prevent/egg-allergies.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Seasonal Influenza Vaccine and People with Egg Allergies",
+          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
+          "relevance": "Directly addresses the safety of flu vaccines for people with egg allergies with current clinical recommendations"
+        },
+        {
+          "organization": "ACIP (Advisory Committee on Immunization Practices)",
+          "organization_full": "ACIP (Advisory Committee on Immunization Practices)",
+          "base_url": "",
+          "url": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7202a1.htm",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of the Advisory Committee on Immunization Practices",
+          "description": "Official ACIP recommendations published in MMWR that include specific guidance on egg allergies and influenza vaccination",
+          "relevance": "Contains the authoritative clinical recommendations for flu vaccination in people with egg allergies"
+        },
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "url": "https://www.aaaai.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Egg Allergy and the Influenza Vaccine",
+          "description": "AAAAI's patient education resource on egg allergies and flu vaccination safety",
+          "relevance": "Provides expert allergist perspective on the safety of flu vaccines for egg-allergic individuals"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Approves First Seasonal Influenza Vaccine Manufactured Using Cell Culture Technology",
+          "description": "FDA announcement about egg-free flu vaccine options and regulatory perspective",
+          "relevance": "Provides information about egg-free vaccine alternatives and FDA's regulatory stance on vaccine safety for egg-allergic individuals"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing influenza in people with asthma",
+          "description": "Systematic review that includes analysis of influenza vaccine safety in people with allergies and asthma",
+          "relevance": "Provides systematic review evidence on influenza vaccine safety in populations that may include people with egg allergies"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/flu/protect/vaccine/egg-allergies.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Seasonal Influenza Vaccine and Persons with Egg Allergies",
+          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
+          "relevance": "Directly addresses the safety and recommendations for flu vaccines in egg-allergic individuals"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://pediatrics.aappublications.org/content/early/2021/09/02/peds.2021-053745",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Recommendations for Prevention and Control of Influenza in Children",
+          "description": "AAP policy statement that includes guidance on influenza vaccination in children with egg allergies",
+          "relevance": "Provides clinical recommendations specifically for egg-allergic patients receiving flu vaccines"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology",
+          "organization_full": "American College of Allergy, Asthma & Immunology",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Egg Allergy and Vaccines",
+          "description": "ACAAI guidance on vaccination considerations for patients with egg allergies",
+          "relevance": "Provides expert allergy specialist perspective on safe vaccination practices for egg-allergic patients"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Vaccines against influenza WHO position paper",
+          "description": "WHO's comprehensive position paper on influenza vaccines including contraindications and precautions",
+          "relevance": "International health authority guidance on influenza vaccine safety considerations including egg allergies"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/flu/professionals/vaccination/index.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Seasonal Influenza Vaccination Resources for Health Professionals",
+          "description": "CDC's comprehensive guidance for healthcare professionals on flu vaccination, including contraindications and precautions for people with egg allergies",
+          "relevance": "Contains specific recommendations for administering flu vaccines to people with egg allergies"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Flu Shot and Egg Allergy",
+          "description": "Clinical guidance from allergy specialists on flu vaccination recommendations for egg-allergic patients",
+          "relevance": "Evidence-based clinical recommendations from board-certified allergists addressing this specific safety concern"
+        },
+        {
+          "organization": "AAP",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Red Book: Report of the Committee on Infectious Diseases - Influenza Chapter",
+          "description": "American Academy of Pediatrics clinical guidance on influenza vaccination including egg allergy considerations",
+          "relevance": "Provides pediatric-specific guidance on flu vaccination safety for children with egg allergies"
+        }
+      ],
+      "discovered_at": "2026-03-11",
+      "last_seen": "2026-03-24",
+      "times_seen": 6,
+      "status": "pending",
+      "newest_source_year": 2012,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "did_covid_vaccine_officials_ignore",
       "question": "Did COVID-19 vaccine officials ignore most available safety data when making recommendations?",
       "priority": "high",
@@ -1171,11 +1431,11 @@
       "id": "vaccines_cause_food_allergies_children",
       "question": "Do vaccines cause food allergies in children?",
       "priority": "high",
-      "rationale": "This addresses a specific misconception linking vaccines to food allergies. The podcast states this as an established fact with no scientific support, indicating strong evidence against this belief",
-      "misinformation_narrative": "Some parents believe that vaccines cause food allergies in children, leading them to delay or refuse vaccinations to prevent allergic reactions",
-      "public_stakes": "Parents may refuse vaccines based on this false belief, leaving children vulnerable to serious infectious diseases while not actually preventing food allergies, which have separate causes and mechanisms",
+      "rationale": "Addresses a growing concern linking two major pediatric health issues. Clear scientific evidence shows vaccines don't cause food allergies, while early allergen introduction actually prevents them",
+      "misinformation_narrative": "Parents increasingly believe that childhood vaccines cause or trigger food allergies, leading them to delay or refuse vaccinations to protect their children from developing allergies",
+      "public_stakes": "This misconception leads to reduced vaccination rates while also causing parents to avoid early allergen introduction (which actually prevents allergies), potentially increasing both infectious disease risk and food allergy development",
       "verification_status": "verified",
-      "verification_reason": "Parenting forums like BabyCenter and anti-vaccine groups frequently discuss fears that vaccines cause food allergies, often citing timing of vaccine schedules with allergy development.",
+      "verification_reason": "Parent groups on Facebook and alternative health forums frequently discuss vaccine-allergy connections, with many delaying vaccines due to food allergy fears.",
       "tags": [
         "Vaccines & Immunization",
         "Food Safety",
@@ -1266,12 +1526,51 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-09",
-      "last_seen": "2026-03-23",
-      "times_seen": 11,
+      "last_seen": "2026-03-24",
+      "times_seen": 12,
       "status": "pending",
       "newest_source_year": 1993,
       "signal_count": 7,
       "readiness_summary": "2 NASEM sources, most recent 1993 — sources are old · confirmed misinformation · 7 discovery signals"
+    },
+    {
+      "id": "you_turn_directly_into_usable",
+      "question": "Can you turn CO2 directly into usable fuel to solve climate change?",
+      "priority": "medium",
+      "rationale": "Important to clarify the current limitations and energy requirements of CO2 conversion technologies versus their potential future role",
+      "misinformation_narrative": "Breakthrough headlines about CO2-to-fuel technologies create unrealistic expectations that these solutions can quickly reverse climate change at scale",
+      "public_stakes": "Overestimating carbon capture and conversion technologies may reduce support for proven emissions reduction strategies while creating false confidence about technological solutions",
+      "verification_status": "verified",
+      "verification_reason": "Environmental forums and social media often overstate carbon capture breakthrough announcements as immediate climate solutions rather than early-stage research.",
+      "tags": [
+        "Climate Change",
+        "Energy Technology",
+        "Environmental Solutions"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Carbon Utilization Infrastructure, Markets, and Research and Development: A Final Report (2025)",
+          "url": "https://www.nationalacademies.org/publications/27732"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Scientists turn CO2 into fuel using breakthrough single-atom catalyst",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044703.htm",
+          "date": "2026-03-21"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2025 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "artificial_intelligence_systems_actually_threaten",
@@ -1446,6 +1745,96 @@
       "newest_source_year": 2024,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "quantum_computers_solve_any_problem",
+      "question": "Can quantum computers solve any problem faster than regular computers?",
+      "priority": "medium",
+      "rationale": "Widespread misconceptions exist about quantum computing capabilities. Important to clarify quantum advantage vs. universal superiority over classical computers",
+      "misinformation_narrative": "Many people believe quantum computers are universally faster than classical computers and will soon replace all current computing, when in reality they only provide advantages for specific types of problems",
+      "public_stakes": "Unrealistic expectations about quantum computing lead to poor technology investment decisions, misallocation of research resources, and confusion about when quantum advantages will actually materialize",
+      "verification_status": "verified",
+      "verification_reason": "Tech media coverage and general public discussions on social media frequently overstate quantum computing capabilities as universally superior to classical computers.",
+      "tags": [
+        "Quantum Science",
+        "Technology",
+        "Computing"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States (2023)",
+          "url": "https://www.nationalacademies.org/publications/26850"
+        },
+        {
+          "name": "Manipulating Quantum Systems: An Assessment of Atomic, Molecular, and Optical Physics in the United States (2020)",
+          "url": "https://www.nationalacademies.org/publications/25613"
+        },
+        {
+          "name": "Controlling the Quantum World: The Science of Atoms, Molecules, and Photons (2007)",
+          "url": "https://www.nationalacademies.org/publications/11705"
+        },
+        {
+          "name": "Controlling the Quantum World of Atoms, Molecules, and Photons: An Interim Report (2005)",
+          "url": "https://www.nationalacademies.org/publications/11482"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: UK bets big on homegrown fusion and quantum — can it lead the world?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00877-2",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Bistable superlattice switching in a quantum spin Hall insulator",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10309-w",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Major Turing computing award goes to quantum science for first time",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00818-z",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: You can now buy a DIY quantum computer",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists just found a hidden 48-dimensional world in quantum light",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260321012705.htm",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: World’s first quantum battery could enable ultra fast charging",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260322020249.htm",
+          "date": "2026-03-23"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 3,
+      "readiness_summary": "5 NASEM sources, most recent 2023 · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "quantum_computers_ready_solve_real",
@@ -2879,6 +3268,59 @@
       "readiness_summary": "6 NASEM sources, most recent 2023 · confirmed misinformation · 4 discovery signals"
     },
     {
+      "id": "asteroids_pose_imminent_threat_earth",
+      "question": "Do asteroids pose an imminent threat to Earth that NASA is hiding?",
+      "priority": "low",
+      "rationale": "Common misconception fueled by disaster movies and conspiracy theories. Clear data exists on asteroid monitoring programs and actual impact risks",
+      "misinformation_narrative": "Conspiracy theories claim NASA and other space agencies hide information about dangerous asteroids that could impact Earth, creating unnecessary fear while undermining trust in space monitoring programs",
+      "public_stakes": "Fear-mongering about hidden asteroid threats creates public anxiety while conspiracy theories undermine support for legitimate planetary defense programs and scientific monitoring efforts",
+      "verification_status": "verified",
+      "verification_reason": "Conspiracy communities on YouTube, Reddit, and alternative news sites regularly promote claims about NASA hiding asteroid threats from the public.",
+      "tags": [
+        "Space & Astronomy",
+        "Planetary Defense",
+        "Risk Assessment"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Defending Planet Earth: Near-Earth-Object Surveys and Hazard Mitigation Strategies (2010)",
+          "url": "https://www.nationalacademies.org/publications/12842"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: We’ve spotted a huge asteroid spinning impossibly fast",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520088-weve-spotted-a-huge-asteroid-spinning-impossibly-fast/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Private company to land on asteroid Apophis as it flies close to Earth",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520020-private-company-to-land-on-asteroid-apophis-as-it-flies-close-to-earth/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Mysterious comet disintegration caught by telescope after lucky break",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520265-mysterious-comet-disintegration-caught-by-telescope-after-lucky-break/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-23"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2010,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2010 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "easily_captured_turned_into_useful",
       "question": "Can CO2 be easily captured and turned into useful fuels to solve climate change?",
       "priority": "low",
@@ -3402,6 +3844,45 @@
       "newest_source_year": 2023,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "lupus_primarily_disease_affects_women",
+      "question": "Is lupus primarily a disease that affects women because it's not well-studied in men?",
+      "priority": "low",
+      "rationale": "Clear opportunity to explain the biological basis for sex differences in autoimmune diseases, including hormonal influences on immune system function",
+      "misinformation_narrative": "Some believe the 90% female predominance in lupus is due to medical bias or under-diagnosis in men, rather than biological differences",
+      "public_stakes": "Misunderstanding the biological basis for sex differences in lupus could lead to inappropriate diagnostic approaches or delay recognition of how hormones influence autoimmune disease risk and severity",
+      "verification_status": "needs_review",
+      "verification_reason": "This confuses lack of public knowledge about lupus demographics with people actively believing the gender gap is due to medical bias.",
+      "tags": [
+        "Autoimmune Disease",
+        "Gender and Health",
+        "Medical Research"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Improving Representation in Clinical Trials and Research: Building Research Equity for Women and Underrepresented Groups (2023)",
+          "url": "https://www.nationalacademies.org/publications/26479"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Approximately 9 out of 10 lupus patients are women (90% female predominance)",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "having_negative_attitude_aging_actually",
@@ -4957,167 +5438,6 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
-      "id": "people_egg_allergies_safely_receive",
-      "question": "Can people with egg allergies safely receive flu vaccines?",
-      "priority": "high",
-      "rationale": "This corrects an outdated medical concern that prevents people from getting protective vaccination",
-      "misinformation_narrative": "Many people with egg allergies believe they cannot receive flu vaccines because some are grown in eggs, when current medical guidance shows they can safely receive any flu vaccine",
-      "public_stakes": "People with egg allergies may skip flu vaccination, leaving them vulnerable to serious illness when safe vaccination is possible",
-      "verification_status": "verified",
-      "verification_reason": "This misconception is widespread among people with egg allergies and discussed on allergy support forums and medical Q&A sites like WebMD.",
-      "tags": [
-        "Health and Medicine",
-        "Vaccines",
-        "Allergies"
-      ],
-      "nasem_source_count": 1,
-      "nasem_sources_preview": [
-        {
-          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
-          "url": "https://www.nationalacademies.org/publications/13164"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Egg-allergic individuals can safely receive any flu vaccine regardless of egg-based formulation - claim presented as current medical guidance",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov/flu/prevent/egg-allergies.htm",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Seasonal Influenza Vaccine and People with Egg Allergies",
-          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
-          "relevance": "Directly addresses the safety of flu vaccines for people with egg allergies with current clinical recommendations"
-        },
-        {
-          "organization": "ACIP (Advisory Committee on Immunization Practices)",
-          "organization_full": "ACIP (Advisory Committee on Immunization Practices)",
-          "base_url": "",
-          "url": "https://www.cdc.gov/mmwr/volumes/72/rr/rr7202a1.htm",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Prevention and Control of Seasonal Influenza with Vaccines: Recommendations of the Advisory Committee on Immunization Practices",
-          "description": "Official ACIP recommendations published in MMWR that include specific guidance on egg allergies and influenza vaccination",
-          "relevance": "Contains the authoritative clinical recommendations for flu vaccination in people with egg allergies"
-        },
-        {
-          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
-          "organization_full": "American Academy of Allergy, Asthma & Immunology",
-          "base_url": "https://www.aaaai.org",
-          "url": "https://www.aaaai.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Egg Allergy and the Influenza Vaccine",
-          "description": "AAAAI's patient education resource on egg allergies and flu vaccination safety",
-          "relevance": "Provides expert allergist perspective on the safety of flu vaccines for egg-allergic individuals"
-        },
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "FDA Approves First Seasonal Influenza Vaccine Manufactured Using Cell Culture Technology",
-          "description": "FDA announcement about egg-free flu vaccine options and regulatory perspective",
-          "relevance": "Provides information about egg-free vaccine alternatives and FDA's regulatory stance on vaccine safety for egg-allergic individuals"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Vaccines for preventing influenza in people with asthma",
-          "description": "Systematic review that includes analysis of influenza vaccine safety in people with allergies and asthma",
-          "relevance": "Provides systematic review evidence on influenza vaccine safety in populations that may include people with egg allergies"
-        },
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov/flu/protect/vaccine/egg-allergies.htm",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Seasonal Influenza Vaccine and Persons with Egg Allergies",
-          "description": "CDC's specific guidance on flu vaccination for people with egg allergies, including updated recommendations",
-          "relevance": "Directly addresses the safety and recommendations for flu vaccines in egg-allergic individuals"
-        },
-        {
-          "organization": "American Academy of Pediatrics",
-          "organization_full": "American Academy of Pediatrics",
-          "base_url": "https://www.aap.org",
-          "url": "https://pediatrics.aappublications.org/content/early/2021/09/02/peds.2021-053745",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Recommendations for Prevention and Control of Influenza in Children",
-          "description": "AAP policy statement that includes guidance on influenza vaccination in children with egg allergies",
-          "relevance": "Provides clinical recommendations specifically for egg-allergic patients receiving flu vaccines"
-        },
-        {
-          "organization": "American College of Allergy, Asthma & Immunology",
-          "organization_full": "American College of Allergy, Asthma & Immunology",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Egg Allergy and Vaccines",
-          "description": "ACAAI guidance on vaccination considerations for patients with egg allergies",
-          "relevance": "Provides expert allergy specialist perspective on safe vaccination practices for egg-allergic patients"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Vaccines against influenza WHO position paper",
-          "description": "WHO's comprehensive position paper on influenza vaccines including contraindications and precautions",
-          "relevance": "International health authority guidance on influenza vaccine safety considerations including egg allergies"
-        },
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov/flu/professionals/vaccination/index.htm",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Seasonal Influenza Vaccination Resources for Health Professionals",
-          "description": "CDC's comprehensive guidance for healthcare professionals on flu vaccination, including contraindications and precautions for people with egg allergies",
-          "relevance": "Contains specific recommendations for administering flu vaccines to people with egg allergies"
-        },
-        {
-          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
-          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Flu Shot and Egg Allergy",
-          "description": "Clinical guidance from allergy specialists on flu vaccination recommendations for egg-allergic patients",
-          "relevance": "Evidence-based clinical recommendations from board-certified allergists addressing this specific safety concern"
-        }
-      ],
-      "discovered_at": "2026-03-11",
-      "last_seen": "2026-03-16",
-      "times_seen": 5,
-      "status": "nasem_gap",
-      "newest_source_year": 2012,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 11 alternative sources identified"
-    },
-    {
       "id": "mrna_vaccines_safe_effective_they",
       "question": "Are mRNA vaccines safe and effective, or do they pose serious health risks?",
       "priority": "high",
@@ -5260,11 +5580,11 @@
       "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
       "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
       "priority": "high",
-      "rationale": "This directly addresses a specific conspiracy theory that undermines trust in pediatric healthcare and vaccine programs. The podcast explicitly debunks this as illegal and not occurring, providing clear evidence-based correction",
-      "misinformation_narrative": "Many people believe pediatricians receive large financial bonuses or kickbacks from pharmaceutical companies for administering vaccines to children, making vaccination recommendations financially motivated rather than medically necessary",
-      "public_stakes": "This false belief leads parents to distrust their pediatricians' vaccine recommendations, resulting in delayed or refused vaccinations that leave children vulnerable to preventable diseases like measles, whooping cough, and meningitis",
+      "rationale": "Directly addresses a specific conspiracy theory that undermines vaccine confidence and pediatrician-patient trust. Clear evidence exists that such bonuses are illegal and don't occur",
+      "misinformation_narrative": "Many people believe pediatricians receive large financial bonuses or kickbacks from pharmaceutical companies for each child they vaccinate, making them financially motivated to over-vaccinate",
+      "public_stakes": "This false belief leads parents to distrust their pediatricians' vaccine recommendations, potentially resulting in unvaccinated children vulnerable to preventable diseases like meningitis, pneumonia, and rubella",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Age of Autism regularly promote the false belief that pediatricians receive \"vaccine bonuses\" from Big Pharma.",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Age of Autism regularly promote claims about pediatricians receiving \"vaccine bonuses\" from pharmaceutical companies.",
       "tags": [
         "Vaccines & Immunization",
         "Public Health",
@@ -5426,15 +5746,26 @@
           "resource_name": "Physician Payments Sunshine Act Database",
           "description": "Federal database of payments from pharmaceutical companies to healthcare providers",
           "relevance": "Contains actual data on financial relationships between pharmaceutical companies and physicians, allowing verification of payment patterns"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Interventions for vaccine hesitancy (Cochrane Review)",
+          "description": "Systematic review examining vaccine hesitancy interventions and underlying concerns",
+          "relevance": "May contain analysis of concerns about financial incentives as a factor in vaccine hesitancy"
         }
       ],
       "discovered_at": "2026-03-13",
-      "last_seen": "2026-03-23",
-      "times_seen": 8,
+      "last_seen": "2026-03-24",
+      "times_seen": 9,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 5,
-      "readiness_summary": "No NASEM coverage — 10 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 11 alternative sources identified"
     },
     {
       "id": "mrna_covid_vaccines_dangerous_causing",
@@ -6047,6 +6378,110 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "mrna_vaccines_alter_dna_cause",
+      "question": "Do mRNA vaccines alter your DNA or cause long-term genetic changes?",
+      "priority": "high",
+      "rationale": "One of the most persistent vaccine misconceptions. Clear scientific evidence shows mRNA vaccines don't enter the cell nucleus or interact with DNA",
+      "misinformation_narrative": "Many people believe mRNA vaccines can alter human DNA, integrate into the genome, or cause permanent genetic changes, leading to vaccine hesitancy",
+      "public_stakes": "This misconception fuels vaccine refusal, reducing population immunity against serious diseases and prolonging pandemic impacts, while also creating distrust of future mRNA-based treatments for cancer and other diseases",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine groups on Telegram, Facebook, and Truth Social extensively promote DNA alteration fears about mRNA vaccines, driving significant vaccine hesitancy.",
+      "tags": [
+        "Vaccines & Immunization",
+        "Genetics & Genomics",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: DNA origami vaccines could be the next leap beyond mRNA",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317015933.htm",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Federal judge temporarily blocks RFK Jr.’s vaccine agenda – an epidemiologist answers questions parents may have",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/federal-judge-temporarily-blocks-rfk-jr-s-vaccine-agenda-an-epidemiologist-answers-questions-parents-may-have-278709",
+          "date": "2026-03-21"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Understanding mRNA COVID-19 Vaccines",
+          "description": "CDC's official page explaining how mRNA vaccines work and explicitly addressing whether they alter DNA",
+          "relevance": "Directly explains that mRNA vaccines do not enter the cell nucleus where DNA is located and cannot alter DNA"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccines: Myth versus Fact",
+          "description": "FDA's consumer update that addresses common myths about COVID-19 vaccines including DNA alteration claims",
+          "relevance": "Specifically debunks the myth that mRNA vaccines change or interact with DNA"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters",
+          "description": "WHO's mythbuster page that includes scientific explanations about mRNA vaccine safety and mechanism",
+          "relevance": "Addresses misconceptions about genetic modification from COVID-19 vaccines with scientific evidence"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "mRNA Vaccines: What You Need to Know",
+          "description": "National Institute of Allergy and Infectious Diseases explanation of mRNA vaccine technology and safety",
+          "relevance": "Provides detailed scientific explanation of how mRNA vaccines work without altering cellular DNA"
+        },
+        {
+          "organization": "Reuters Fact Check",
+          "organization_full": "Reuters Fact Check",
+          "base_url": "",
+          "url": "https://www.reuters.com",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Fact Check: SARS-CoV-2 mRNA vaccines do not 'reprogram' human genetic code",
+          "description": "Comprehensive fact-check with expert quotes explaining the biological mechanisms that prevent DNA alteration",
+          "relevance": "Detailed scientific analysis with expert sources explaining why mRNA cannot alter human DNA"
+        }
+      ],
+      "discovered_at": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -7269,6 +7704,129 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "igg_food_sensitivity_tests_accurate",
+      "question": "Are IgG food sensitivity tests accurate for diagnosing food allergies or intolerances?",
+      "priority": "medium",
+      "rationale": "Commercial IgG testing is widely marketed but scientifically invalid. Clear medical consensus exists that these tests have high false positive rates and don't indicate food sensitivities",
+      "misinformation_narrative": "Many people believe commercial IgG food sensitivity tests can accurately identify which foods are causing their symptoms, leading them to unnecessarily eliminate multiple foods from their diets",
+      "public_stakes": "Relying on inaccurate tests leads to unnecessary food restrictions, potential nutritional deficiencies, increased food anxiety, and delays in proper medical evaluation for actual food allergies or underlying conditions",
+      "verification_status": "verified",
+      "verification_reason": "Alternative health practitioners and wellness influencers on Instagram and YouTube heavily promote IgG tests, with thousands paying hundreds for these unreliable tests.",
+      "tags": [
+        "Food Safety",
+        "Medical Testing",
+        "Consumer Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "IgG testing has high false positive rate for food reactions - claim made but no specific statistics provided",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "IgG and IgG4 Measurements in the Diagnosis of Food Allergy and Intolerance",
+          "description": "AAAAI position statement on IgG food testing explaining why these tests are not recommended for diagnosing food allergies or intolerances",
+          "relevance": "Directly addresses the accuracy and clinical utility of IgG food sensitivity tests"
+        },
+        {
+          "organization": "European Academy of Allergy and Clinical Immunology (EAACI)",
+          "organization_full": "European Academy of Allergy and Clinical Immunology",
+          "base_url": "https://www.eaaci.org",
+          "url": "https://www.eaaci.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Food Allergy and Anaphylaxis Guidelines",
+          "description": "EAACI guidelines that include recommendations against using IgG testing for food allergy diagnosis",
+          "relevance": "Provides evidence-based guidelines on appropriate food allergy testing methods"
+        },
+        {
+          "organization": "Cochrane Reviews",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Diagnostic tests for food allergy with a focus on oral food challenges: a systematic review",
+          "description": "Systematic review examining the accuracy of various diagnostic tests for food allergies, including IgG testing",
+          "relevance": "Provides systematic review evidence on the diagnostic accuracy of IgG food tests"
+        },
+        {
+          "organization": "World Allergy Organization (WAO)",
+          "organization_full": "World Allergy Organization (WAO)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "WAO White Book on Allergy: Update 2013",
+          "description": "Comprehensive review of allergy diagnosis and management that addresses inappropriate testing methods including IgG food tests",
+          "relevance": "Global expert consensus on appropriate vs inappropriate allergy testing methods"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Food Allergy: A Practice Parameter Update-2014",
+          "description": "Practice parameter guidelines that specifically advise against IgG food testing for diagnosing food allergies",
+          "relevance": "Clinical practice guidelines that directly address the inappropriateness of IgG food sensitivity testing"
+        },
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "url": "https://www.aaaai.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "IgG Food Testing Position Statement",
+          "description": "AAAAI's official position statement on IgG food testing, explaining lack of scientific evidence for diagnosing food allergies or intolerances",
+          "relevance": "Directly addresses the accuracy and clinical utility of IgG food sensitivity tests"
+        },
+        {
+          "organization": "World Allergy Organization (WAO)",
+          "organization_full": "World Allergy Organization (WAO)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "WAO White Book on Allergy: Update 2013",
+          "description": "Comprehensive review of allergy diagnosis and management, including discussion of unproven diagnostic tests",
+          "relevance": "Contains expert consensus on appropriate vs inappropriate food allergy testing methods"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Food Allergies: What You Need to Know",
+          "description": "ACAAI's patient and provider resource on food allergies including guidance on appropriate diagnostic testing",
+          "relevance": "Professional allergy organization's guidance on evidence-based food allergy diagnosis"
+        }
+      ],
+      "discovered_at": "2026-03-12",
+      "last_seen": "2026-03-24",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 8 alternative sources identified"
     },
     {
       "id": "vitamin_deficiency_causing_worsening_covid",
@@ -9592,6 +10150,265 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "car_cell_therapies_cure_lupus",
+      "question": "Are CAR-T cell therapies a cure for lupus and other autoimmune diseases?",
+      "priority": "low",
+      "rationale": "Early CAR-T results for lupus are promising but limited. Important to clarify what 'clinical cure' means versus complete cure, and the experimental nature of these treatments",
+      "misinformation_narrative": "Media reports of dramatic CAR-T therapy results for lupus patients create unrealistic expectations that this represents a widely available cure for autoimmune diseases",
+      "public_stakes": "Overhyping experimental treatments leads patients to delay proven therapies, creates false hope, and may result in patients seeking unproven treatments or clinical trials inappropriately",
+      "verification_status": "needs_review",
+      "verification_reason": "While media may oversell treatments, there's no identifiable community that specifically believes CAR-T is already a widely available lupus cure.",
+      "tags": [
+        "Medical Treatment",
+        "Autoimmune Disease",
+        "Experimental Medicine"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "CAR-T Cell Therapy and Its Side Effects",
+          "description": "FDA's comprehensive overview of approved CAR-T cell therapies, their approved indications, and known side effects",
+          "relevance": "Provides authoritative information on what CAR-T therapies are currently approved for (primarily blood cancers) and does not list autoimmune diseases as approved indications"
+        },
+        {
+          "organization": "NIH/NCI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "CAR T-Cell Therapy",
+          "description": "National Cancer Institute's detailed explanation of CAR-T cell therapy, current approvals, and ongoing research",
+          "relevance": "Clarifies that current FDA-approved CAR-T therapies are for certain blood cancers, not autoimmune diseases, though research is ongoing"
+        },
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus)",
+          "description": "National Institute of Arthritis and Musculoskeletal and Skin Diseases overview of lupus and current treatments",
+          "relevance": "Provides authoritative information on current standard treatments for lupus and whether CAR-T therapy is mentioned as an established treatment"
+        },
+        {
+          "organization": "ClinicalTrials.gov",
+          "organization_full": "ClinicalTrials.gov",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "CAR-T Cell Therapy for Autoimmune Diseases Clinical Trials",
+          "description": "Database of clinical trials investigating CAR-T cell therapy for autoimmune conditions",
+          "relevance": "Shows the current research status - whether treatments are still in clinical trials (experimental) versus approved therapies"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Cochrane Reviews on CAR-T Cell Therapy",
+          "description": "Systematic reviews examining evidence for CAR-T cell therapy effectiveness",
+          "relevance": "Provides evidence-based analysis of CAR-T therapy outcomes and established uses based on clinical trial data"
+        }
+      ],
+      "discovered_at": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "all_people_infected_epstein_barr",
+      "question": "Are all people infected with Epstein-Barr virus at high risk for developing autoimmune diseases?",
+      "priority": "low",
+      "rationale": "Important to clarify that while EBV is linked to some autoimmune diseases, the vast majority of infected people never develop these conditions",
+      "misinformation_narrative": "Learning that EBV increases lupus risk and that 90% of people have EBV leads some to believe they're at high risk for developing autoimmune diseases",
+      "public_stakes": "Unnecessary anxiety about EBV infection could lead to excessive medical testing, avoidance of normal activities, or inappropriate use of antiviral treatments",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes a potential logical error people might make rather than a widespread misconception actually circulating in specific communities.",
+      "tags": [
+        "Infectious Disease",
+        "Autoimmune Disease",
+        "Risk Assessment"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Epstein-Barr Virus and Infectious Mononucleosis",
+          "description": "CDC's comprehensive information page on EBV infection, complications, and associated health conditions",
+          "relevance": "Provides authoritative information on EBV health risks and complications, including any autoimmune associations"
+        },
+        {
+          "organization": "NIH/NINDS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Multiple Sclerosis and Viral Infections Information Page",
+          "description": "NIH neurological institute's information on MS, including discussion of viral triggers like EBV",
+          "relevance": "Addresses the specific research on EBV as a risk factor for autoimmune diseases like multiple sclerosis"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Epstein-Barr Virus Fact Sheet",
+          "description": "WHO's global health perspective on EBV infection prevalence, symptoms, and health implications",
+          "relevance": "Provides international epidemiological data on EBV infection rates and associated health risks"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Cochrane Reviews on Epstein-Barr Virus",
+          "description": "Systematic reviews examining evidence on EBV infections and associated health outcomes",
+          "relevance": "Provides high-quality systematic review evidence on EBV health risks and autoimmune disease associations"
+        }
+      ],
+      "discovered_at": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "should_you_avoid_sun_exposure",
+      "question": "Should you avoid sun exposure completely to prevent lupus flares?",
+      "priority": "low",
+      "rationale": "Important to provide evidence-based guidance on sun protection vs. complete avoidance for lupus patients",
+      "misinformation_narrative": "Some lupus patients believe they must avoid all sun exposure to prevent disease flares, potentially leading to vitamin D deficiency and social isolation",
+      "public_stakes": "Complete sun avoidance can cause vitamin D deficiency, worsen depression, and reduce quality of life, while appropriate sun protection allows safe outdoor activities",
+      "verification_status": "needs_review",
+      "verification_reason": "While some lupus patients may be overly cautious about sun exposure, this isn't a widely circulating misconception in identifiable communities.",
+      "tags": [
+        "Autoimmune Disease",
+        "Sun Safety",
+        "Patient Care"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_topic",
+          "text": "UV radiation as lupus disease trigger and flare inducer",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Lupus: Tips for People with Lupus",
+          "description": "CDC's guidance on living with lupus, including sun protection recommendations",
+          "relevance": "Provides evidence-based recommendations on sun exposure management for lupus patients"
+        },
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Lupus: What You Need to Know",
+          "description": "NIH National Institute of Arthritis and Musculoskeletal Diseases comprehensive lupus information",
+          "relevance": "Contains detailed information about photosensitivity and sun exposure recommendations for lupus patients"
+        },
+        {
+          "organization": "American College of Rheumatology",
+          "organization_full": "American College of Rheumatology",
+          "base_url": "",
+          "url": "https://rheumatology.org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines/Systemic-Lupus-Erythematosus",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Systemic Lupus Erythematosus Clinical Practice Guidelines",
+          "description": "Evidence-based clinical practice guidelines for lupus management",
+          "relevance": "Provides clinical recommendations on sun protection and photosensitivity management in lupus"
+        },
+        {
+          "organization": "Lupus Foundation of America",
+          "organization_full": "Lupus Foundation of America",
+          "base_url": "",
+          "url": "https://www.lupus.org/resources/sun-and-light-sensitivity",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Sun and Light Sensitivity",
+          "description": "Comprehensive guide on photosensitivity and sun exposure recommendations for lupus patients",
+          "relevance": "Addresses the balance between sun protection and complete avoidance, including vitamin D considerations"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Photoprotection for preventing skin cancer: systematic review",
+          "description": "Cochrane systematic review examining photoprotection strategies",
+          "relevance": "Provides evidence on effective sun protection methods that could inform lupus management without complete avoidance"
+        }
+      ],
+      "discovered_at": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "you_diagnose_food_allergies_sensitivities",
       "question": "Can you diagnose food allergies and sensitivities using IgG blood tests?",
       "priority": "low",
@@ -11614,95 +12431,6 @@
       "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
     },
     {
-      "id": "igg_food_sensitivity_tests_accurate",
-      "question": "Are IgG food sensitivity tests accurate for diagnosing food reactions?",
-      "priority": "low",
-      "rationale": "Addresses widespread commercial misinformation about unvalidated testing with clear medical consensus against their use",
-      "misinformation_narrative": "Commercial IgG food sensitivity tests are widely marketed as accurate diagnostic tools, but have high false positive rates and lack scientific validation",
-      "public_stakes": "People unnecessarily restrict diets based on inaccurate tests, potentially causing nutritional deficiencies while missing real food allergies",
-      "verification_status": "needs_review",
-      "verification_reason": "This describes the actual scientific consensus that IgG tests are unreliable, not a circulating misinformation narrative that people believe.",
-      "tags": [
-        "Health and Medicine",
-        "Diagnostic Testing"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "IgG testing has high false positive rate for food reactions - claim made but no specific statistics provided",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
-          "organization_full": "American Academy of Allergy, Asthma & Immunology",
-          "base_url": "https://www.aaaai.org",
-          "url": "https://www.aaaai.org/tools-for-the-public/conditions-library/allergies/igg-food-test",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "IgG and IgG4 Measurements in the Diagnosis of Food Allergy and Intolerance",
-          "description": "AAAAI position statement on IgG food testing explaining why these tests are not recommended for diagnosing food allergies or intolerances",
-          "relevance": "Directly addresses the accuracy and clinical utility of IgG food sensitivity tests"
-        },
-        {
-          "organization": "European Academy of Allergy and Clinical Immunology (EAACI)",
-          "organization_full": "European Academy of Allergy and Clinical Immunology",
-          "base_url": "https://www.eaaci.org",
-          "url": "https://www.eaaci.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Food Allergy and Anaphylaxis Guidelines",
-          "description": "EAACI guidelines that include recommendations against using IgG testing for food allergy diagnosis",
-          "relevance": "Provides evidence-based guidelines on appropriate food allergy testing methods"
-        },
-        {
-          "organization": "Cochrane Reviews",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Diagnostic tests for food allergy with a focus on oral food challenges: a systematic review",
-          "description": "Systematic review examining the accuracy of various diagnostic tests for food allergies, including IgG testing",
-          "relevance": "Provides systematic review evidence on the diagnostic accuracy of IgG food tests"
-        },
-        {
-          "organization": "World Allergy Organization (WAO)",
-          "organization_full": "World Allergy Organization (WAO)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "WAO White Book on Allergy: Update 2013",
-          "description": "Comprehensive review of allergy diagnosis and management that addresses inappropriate testing methods including IgG food tests",
-          "relevance": "Global expert consensus on appropriate vs inappropriate allergy testing methods"
-        },
-        {
-          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
-          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Food Allergy: A Practice Parameter Update-2014",
-          "description": "Practice parameter guidelines that specifically advise against IgG food testing for diagnosing food allergies",
-          "relevance": "Clinical practice guidelines that directly address the inappropriateness of IgG food sensitivity testing"
-        }
-      ],
-      "discovered_at": "2026-03-12",
-      "last_seen": "2026-03-12",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
       "id": "anti_aging_supplements_safe_everyone",
       "question": "Are anti-aging supplements safe for everyone to take?",
       "priority": "low",
@@ -13354,6 +14082,154 @@
       "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
       "nasem_bos_url": "https://www.nationalacademies.org/news/alternative-therapies-cannot-cure-cancer",
       "nasem_bos_title": "Can cancer be successfully treated by alternative therapies alone?"
+    },
+    {
+      "id": "climate_change_causing_global_warming",
+      "question": "Is climate change causing global warming to accelerate beyond what scientists predicted?",
+      "priority": "low",
+      "rationale": "Widespread confusion exists about whether climate projections have been accurate. IPCC reports provide clear data on prediction accuracy and current acceleration trends",
+      "misinformation_narrative": "Some claim climate change is happening much faster than scientists predicted, while others claim it's not happening as fast as predicted, creating confusion about the actual rate and reliability of climate projections",
+      "public_stakes": "Misunderstanding the rate of climate change leads to either panic-driven poor decisions or complacency about necessary climate action, affecting policy support and individual behavior changes",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes legitimate scientific debate about projection accuracy rather than a specific public misconception that circulates in identifiable communities.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science",
+        "Scientific Predictions"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Stabilization Targets: Emissions, Concentrations, and Impacts over Decades to Millennia (2011)",
+          "url": "https://www.nationalacademies.org/publications/12877"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        },
+        {
+          "name": "Limiting the Magnitude of Future Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12785"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: A strong constraint on radiative forcing of well-mixed greenhouse gases",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10289-x",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Floating wetlands boost water quality, slash greenhouse emissions",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/floating-wetlands-boost-water-quality-slash-greenhouse-emissions",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Ice core reveals low CO2 during warm spell 3 million years ago",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519771-ice-core-reveals-low-co2-during-warm-spell-3-million-years-ago/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why global warming is accelerating and what it means for the future",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519386-why-global-warming-is-accelerating-and-what-it-means-for-the-future/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Scientists turn CO2 into fuel using breakthrough single-atom catalyst",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044703.htm",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Updated plan aims to boost NI's resilience to climate change",
+          "origin": "STM — BBC Science",
+          "url": "https://www.bbc.com/news/articles/cgqgq11409lo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-03-23"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1,
+      "status": "nasem_covered",
+      "newest_source_year": 2020,
+      "signal_count": 5,
+      "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
+      "nasem_bos_url": "https://www.nationalacademies.org/based-on-science/human-driven-climate-change-is-causing-sea-levels-to-rise",
+      "nasem_bos_title": "Human-driven climate change is causing sea levels to rise"
+    },
+    {
+      "id": "new_cancer_treatments_like_diagnosis",
+      "question": "Are new cancer treatments like AI diagnosis and engineered bacteria ready for widespread clinical use?",
+      "priority": "low",
+      "rationale": "Important to distinguish between promising research and clinically available treatments, especially for cancer patients seeking hope",
+      "misinformation_narrative": "Exciting headlines about AI cancer prediction and engineered bacteria treatments create unrealistic expectations that these experimental approaches are currently available to patients",
+      "public_stakes": "Overhyping experimental cancer treatments may lead patients to delay proven therapies, seek unregulated treatments, or have unrealistic expectations about treatment availability and success rates",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes overly optimistic media coverage rather than specific communities believing these experimental treatments are currently available.",
+      "tags": [
+        "Cancer Research",
+        "Medical Treatment",
+        "Artificial Intelligence"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Policy Issues in the Development and Adoption of Biomarkers for Molecularly Targeted Cancer Therapies: Workshop Summary (2015)",
+          "url": "https://www.nationalacademies.org/publications/21692"
+        },
+        {
+          "name": "The Drug Development Paradigm in Oncology: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/24742"
+        },
+        {
+          "name": "Improving Diagnosis in Health Care (2016)",
+          "url": "https://www.nationalacademies.org/publications/21794"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: New AI tool predicts cancer spread with surprising accuracy",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260321012709.htm",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists turn probiotic bacteria into tumor-hunting cancer killers",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260321004445.htm",
+          "date": "2026-03-21"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-24",
+      "last_seen": "2026-03-24",
+      "times_seen": 1,
+      "status": "nasem_covered",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
+      "nasem_bos_url": "https://www.nationalacademies.org/news/cannabis-the-medicinal-benefits-of-cannabis-are-mostly-unknown",
+      "nasem_bos_title": "Is it true that cannabis can treat diverse diseases ranging from Alzheimer's to cancer to PTSD?"
     },
     {
       "id": "global_warming_mean_climate_change",

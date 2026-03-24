@@ -1,0 +1,51 @@
+{
+  "id": "should_you_avoid_sun_exposure",
+  "question": "Should you avoid sun exposure completely to prevent lupus flares?",
+  "topic": "Important to provide evidence-based guidance on sun protection vs. complete avoidance for lupus pati",
+  "tags": [
+    "Autoimmune Disease",
+    "Sun Safety",
+    "Patient Care"
+  ],
+  "sources": [
+    {
+      "name": "Lupus: Tips for People with Lupus — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Lupus: What You Need to Know — NIH/NIAMS",
+      "url": "https://www.niams.nih.gov/health-topics/lupus",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Systemic Lupus Erythematosus Clinical Practice Guidelines — American College of Rheumatology",
+      "url": "https://rheumatology.org/Practice-Quality/Clinical-Support/Clinical-Practice-Guidelines/Systemic-Lupus-Erythematosus",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Sun and Light Sensitivity — Lupus Foundation of America",
+      "url": "https://www.lupus.org/resources/sun-and-light-sensitivity",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Photoprotection for preventing skin cancer: systematic review — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_topic",
+      "text": "UV radiation as lupus disease trigger and flare inducer",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}
