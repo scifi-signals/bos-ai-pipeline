@@ -1,0 +1,41 @@
+{
+  "id": "already_caused_widespread_job_losses",
+  "question": "Has AI already caused widespread job losses, and should workers panic about automation?",
+  "topic": "This addresses both AI panic and AI dismissal with evidence about actual employment effects and real",
+  "tags": [
+    "Technology",
+    "Economics",
+    "Artificial Intelligence"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and the Future of Work",
+      "url": "https://www.nationalacademies.org/publications/27644",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Why AI hasn’t caused a job apocalypse — so far",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00883-4",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI algorithms can become ‘agents of chaos’",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/ai-algorithms-can-become-agents-chaos",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Academia & Research Careers: A writing professor’s new task in the age of AI: Teaching students when to struggle",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/a-writing-professors-new-task-in-the-age-of-ai-teaching-students-when-to-struggle-276590",
+      "date": "2026-03-22"
+    }
+  ]
+}

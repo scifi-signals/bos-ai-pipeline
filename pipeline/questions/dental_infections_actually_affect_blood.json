@@ -1,0 +1,52 @@
+{
+  "id": "dental_infections_actually_affect_blood",
+  "question": "Can dental infections actually affect blood sugar and heart health?",
+  "topic": "This clarifies the actual evidence for connections between oral and systemic health, addressing both",
+  "tags": [
+    "Health and Medicine",
+    "Dental Health",
+    "Cardiovascular Disease"
+  ],
+  "sources": [
+    {
+      "name": "Oral Health and Overall Health: What's the Connection? — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Gum Disease and Heart Disease: The Common Thread — American Heart Association",
+      "url": "https://www.heart.org/en/news/2018/11/05/gum-disease-and-heart-disease-the-common-thread",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Periodontal Disease and Diabetes: A Two-Way Street — NIH National Institute of Dental and Craniofacial Research",
+      "url": "https://www.nidcr.nih.gov/health-info/diabetes",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Treatment of periodontal disease for glycaemic control in people with diabetes mellitus — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Fixing a tooth infection may improve blood sugar and heart health",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260315225156.htm",
+      "date": "2026-03-22"
+    },
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Gum disease bacterium linked to breast cancer growth and spread",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260319044719.htm",
+      "date": "2026-03-22"
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "probiotic_bacteria_actually_fight_cancer",
+  "question": "Do probiotic bacteria actually fight cancer in humans?",
+  "topic": "This addresses overselling of preliminary research findings, clarifying what laboratory and animal s",
+  "tags": [
+    "Health and Medicine",
+    "Cancer",
+    "Probiotics"
+  ],
+  "sources": [
+    {
+      "name": "Probiotics for prevention of necrotizing enterocolitis in preterm infants — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Cancer Prevention - Diet, nutrition and the prevention of cancer — World Health Organization",
+      "url": "https://www.who.int/publications/i/item/924120916X",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Health Claims: Probiotics — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Scientists turn probiotic bacteria into tumor-hunting cancer killers",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260321004445.htm",
+      "date": "2026-03-22"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists turn probiotic bacteria into tumor-hunting cancer killers",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260321004445.htm",
+      "date": "2026-03-22"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "nad_supplements_proven_slow_aging",
+  "question": "Are NAD+ supplements proven to slow aging and prevent neurodegenerative diseases?",
+  "topic": "This addresses aggressive marketing of anti-aging supplements with limited evidence, clarifying what",
+  "tags": [
+    "Health and Medicine",
+    "Supplements",
+    "Aging"
+  ],
+  "sources": [
+    {
+      "name": "FDA Consumer Health Information on Dietary Supplements — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "National Institute on Aging: Anti-Aging Products — NIH/NIA",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Cochrane Database systematic reviews on NAD+ or nicotinamide supplements — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Warning Letters to Companies Marketing Anti-Aging Supplements — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists say NAD+ could slow aging and fight Alzheimer’s and Parkinson’s",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260324024253.htm",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-22"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: GLP-1 microdosers are chasing longevity",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/glp1-medications-microdose-longevity",
+      "date": "2026-03-22"
+    }
+  ]
+}

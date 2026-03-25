@@ -1,0 +1,66 @@
+{
+  "id": "global_warming_actually_accelerating_just",
+  "question": "Is global warming actually accelerating, or is this just media hype?",
+  "topic": "This addresses both climate denial and media sensationalism with authoritative evidence about actual",
+  "tags": [
+    "Environment",
+    "Climate Change"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://www.nationalacademies.org/publications/25733",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare",
+      "url": "https://www.nationalacademies.org/publications/29239",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Attribution of Extreme Weather Events in the Context of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/21852",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: A strong constraint on radiative forcing of well-mixed greenhouse gases",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10289-x",
+      "date": "2026-03-22"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Ice core reveals low CO2 during warm spell 3 million years ago",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519771-ice-core-reveals-low-co2-during-warm-spell-3-million-years-ago/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-22"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Why global warming is accelerating and what it means for the future",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519386-why-global-warming-is-accelerating-and-what-it-means-for-the-future/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-22"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Updated plan aims to boost NI's resilience to climate change",
+      "origin": "STM — BBC Science",
+      "url": "https://www.bbc.com/news/articles/cgqgq11409lo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-03-23"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: 24 States Sue E.P.A. Over Climate Change Decision",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/19/climate/epa-endangerment-states-lawsuit.html",
+      "date": "2026-03-24"
+    }
+  ]
+}

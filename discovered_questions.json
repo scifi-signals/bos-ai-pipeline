@@ -1,6 +1,154 @@
 {
-  "generated_at": "2026-03-24T12:15:12Z",
+  "generated_at": "2026-03-25T12:14:41Z",
   "questions": [
+    {
+      "id": "global_warming_actually_accelerating_just",
+      "question": "Is global warming actually accelerating, or is this just media hype?",
+      "priority": "high",
+      "rationale": "This addresses both climate denial and media sensationalism with authoritative evidence about actual warming trends and their implications",
+      "misinformation_narrative": "Climate skeptics claim that reports of accelerating warming are exaggerated by media and scientists for funding or political reasons, while some media coverage may indeed overstate short-term trends",
+      "public_stakes": "Misunderstanding the reality of climate acceleration affects public support for necessary mitigation and adaptation measures",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptic communities on social media, conservative media, and blogs regularly claim warming acceleration reports are exaggerated for political gain.",
+      "tags": [
+        "Environment",
+        "Climate Change"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare (2025)",
+          "url": "https://www.nationalacademies.org/publications/29239"
+        },
+        {
+          "name": "Attribution of Extreme Weather Events in the Context of Climate Change (2016)",
+          "url": "https://www.nationalacademies.org/publications/21852"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: A strong constraint on radiative forcing of well-mixed greenhouse gases",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10289-x",
+          "date": "2026-03-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Ice core reveals low CO2 during warm spell 3 million years ago",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519771-ice-core-reveals-low-co2-during-warm-spell-3-million-years-ago/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Why global warming is accelerating and what it means for the future",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519386-why-global-warming-is-accelerating-and-what-it-means-for-the-future/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Updated plan aims to boost NI's resilience to climate change",
+          "origin": "STM — BBC Science",
+          "url": "https://www.bbc.com/news/articles/cgqgq11409lo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: 24 States Sue E.P.A. Over Climate Change Decision",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/03/19/climate/epa-endangerment-states-lawsuit.html",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 4,
+      "readiness_summary": "3 NASEM sources, most recent 2025 · confirmed misinformation · 4 discovery signals"
+    },
+    {
+      "id": "artificial_intelligence_actually_intelligent_way",
+      "question": "Is artificial intelligence actually 'intelligent' in the way humans understand intelligence?",
+      "priority": "high",
+      "rationale": "This addresses widespread confusion about what AI can and cannot do, with clear scientific evidence about the differences between AI pattern matching and human cognition",
+      "misinformation_narrative": "Media coverage and tech marketing often portray AI as having human-like intelligence, consciousness, or reasoning abilities, leading the public to overestimate AI capabilities and underestimate its limitations",
+      "public_stakes": "Misunderstanding AI capabilities leads to unrealistic expectations, inappropriate reliance on AI systems, and inadequate preparation for AI's actual strengths and weaknesses in critical applications",
+      "verification_status": "verified",
+      "verification_reason": "Mainstream media headlines and tech company marketing regularly anthropomorphize AI capabilities, leading to widespread public overestimation of current AI abilities.",
+      "tags": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop�in Brief (None)",
+          "url": "https://www.nationalacademies.org/publications/26887"
+        },
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        },
+        {
+          "name": "Implementation of Federal Highway Administration Proven Safety Countermeasures (2025)",
+          "url": "https://www.nationalacademies.org/publications/28855"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The intelligence illusion: why AI isn’t as smart as it is made out to be",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00882-5",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The success of machine mathematicians shows us how to be OK with AI",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/mg26935872-700-the-success-of-machine-mathematicians-shows-us-how-to-be-ok-with-ai/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Why AI hasn’t caused a job apocalypse — so far",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00883-4",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI algorithms can become ‘agents of chaos’",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/ai-algorithms-can-become-agents-chaos",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Dueling AI agents could reveal keys to restoring consciousness",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/dueling-ai-agents-could-reveal-keys-restoring-consciousness",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 3,
+      "readiness_summary": "3 NASEM sources, most recent 2025 · confirmed misinformation · 3 discovery signals"
+    },
     {
       "id": "global_warming_accelerated_significantly_since",
       "question": "Has global warming accelerated significantly since 2015?",
@@ -1431,15 +1579,15 @@
       "id": "vaccines_cause_food_allergies_children",
       "question": "Do vaccines cause food allergies in children?",
       "priority": "high",
-      "rationale": "Addresses a growing concern linking two major pediatric health issues. Clear scientific evidence shows vaccines don't cause food allergies, while early allergen introduction actually prevents them",
-      "misinformation_narrative": "Parents increasingly believe that childhood vaccines cause or trigger food allergies, leading them to delay or refuse vaccinations to protect their children from developing allergies",
-      "public_stakes": "This misconception leads to reduced vaccination rates while also causing parents to avoid early allergen introduction (which actually prevents allergies), potentially increasing both infectious disease risk and food allergy development",
+      "rationale": "This targets a specific causal claim that lacks scientific support but influences vaccination decisions, with established evidence showing no link between vaccines and food allergy development",
+      "misinformation_narrative": "Some parents and alternative health advocates claim that childhood vaccines trigger or cause food allergies, leading them to delay or refuse vaccinations to prevent allergic reactions",
+      "public_stakes": "Parents may avoid life-saving vaccines based on this false belief, leaving children vulnerable to serious infectious diseases while not actually preventing food allergies",
       "verification_status": "verified",
-      "verification_reason": "Parent groups on Facebook and alternative health forums frequently discuss vaccine-allergy connections, with many delaying vaccines due to food allergy fears.",
+      "verification_reason": "Parenting forums, Facebook groups, and anti-vaccine advocates frequently link vaccines to rising food allergies, citing timing correlations.",
       "tags": [
-        "Vaccines & Immunization",
-        "Food Safety",
-        "Pediatric Health"
+        "Health and Medicine",
+        "Vaccines",
+        "Allergies"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -1526,8 +1674,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-03-09",
-      "last_seen": "2026-03-24",
-      "times_seen": 12,
+      "last_seen": "2026-03-25",
+      "times_seen": 13,
       "status": "pending",
       "newest_source_year": 1993,
       "signal_count": 7,
@@ -1706,6 +1854,59 @@
       "newest_source_year": 2024,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "already_caused_widespread_job_losses",
+      "question": "Has AI already caused widespread job losses, and should workers panic about automation?",
+      "priority": "medium",
+      "rationale": "This addresses both AI panic and AI dismissal with evidence about actual employment effects and realistic timelines for different sectors",
+      "misinformation_narrative": "Media coverage often suggests AI has already caused massive unemployment or will imminently eliminate most jobs, while others claim AI will have no impact on employment",
+      "public_stakes": "Workers may make poor career decisions based on either excessive fear or complacency about AI's actual impact on different types of jobs",
+      "verification_status": "verified",
+      "verification_reason": "News headlines and social media discussions frequently either catastrophize AI job displacement or completely dismiss automation concerns.",
+      "tags": [
+        "Technology",
+        "Economics",
+        "Artificial Intelligence"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Artificial Intelligence and the Future of Work (2024)",
+          "url": "https://www.nationalacademies.org/publications/27644"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Why AI hasn’t caused a job apocalypse — so far",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00883-4",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI algorithms can become ‘agents of chaos’",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/ai-algorithms-can-become-agents-chaos",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Academia & Research Careers: A writing professor’s new task in the age of AI: Teaching students when to struggle",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/a-writing-professors-new-task-in-the-age-of-ai-teaching-students-when-to-struggle-276590",
+          "date": "2026-03-22"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 3,
+      "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "should_parents_avoid_introducing_allergenic",
@@ -2764,6 +2965,79 @@
       "newest_source_year": 2019,
       "signal_count": 4,
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
+    },
+    {
+      "id": "quantum_computers_soon_replace_regular",
+      "question": "Will quantum computers soon replace regular computers for everyday tasks?",
+      "priority": "medium",
+      "rationale": "This corrects widespread confusion about quantum computing's specific advantages and limitations, addressing inflated expectations about near-term applications",
+      "misinformation_narrative": "Popular media often suggests quantum computers will soon revolutionize everyday computing, leading people to believe current computers will become obsolete or that quantum advantages apply to all computing tasks",
+      "public_stakes": "Misunderstanding quantum computing capabilities leads to unrealistic investment expectations, poor technology decisions, and inadequate understanding of actual quantum applications",
+      "verification_status": "verified",
+      "verification_reason": "Popular science articles and tech media frequently oversell quantum computing's near-term practical applications to general audiences.",
+      "tags": [
+        "Technology",
+        "Quantum Science"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: UK bets big on homegrown fusion and quantum — can it lead the world?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00877-2",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Bistable superlattice switching in a quantum spin Hall insulator",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10309-w",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Major Turing computing award goes to quantum science for first time",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00818-z",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: You can now buy a DIY quantum computer",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: World’s first quantum battery could enable ultra fast charging",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260322020249.htm",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Physicists just turned glass into a powerful quantum security device",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024255.htm",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 3,
+      "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "antarctica_ice_loss_actually_accelerating",
@@ -5580,15 +5854,15 @@
       "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
       "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
       "priority": "high",
-      "rationale": "Directly addresses a specific conspiracy theory that undermines vaccine confidence and pediatrician-patient trust. Clear evidence exists that such bonuses are illegal and don't occur",
-      "misinformation_narrative": "Many people believe pediatricians receive large financial bonuses or kickbacks from pharmaceutical companies for each child they vaccinate, making them financially motivated to over-vaccinate",
-      "public_stakes": "This false belief leads parents to distrust their pediatricians' vaccine recommendations, potentially resulting in unvaccinated children vulnerable to preventable diseases like meningitis, pneumonia, and rubella",
+      "rationale": "This directly addresses a specific conspiracy theory that undermines trust in pediatric care and vaccination programs, with clear evidence that such financial incentives are illegal and don't exist",
+      "misinformation_narrative": "Anti-vaccine activists claim that pediatricians are financially incentivized by pharmaceutical companies to over-vaccinate children, receiving large bonuses or kickbacks that compromise their medical judgment",
+      "public_stakes": "This false belief leads parents to distrust their pediatricians' vaccine recommendations, resulting in lower vaccination rates and increased risk of preventable diseases in children",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Age of Autism regularly promote claims about pediatricians receiving \"vaccine bonuses\" from pharmaceutical companies.",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and websites like Children's Health Defense actively promote claims about pediatrician vaccine kickbacks.",
       "tags": [
-        "Vaccines & Immunization",
-        "Public Health",
-        "Medical Ethics"
+        "Health and Medicine",
+        "Vaccines",
+        "Public Health"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -5760,8 +6034,8 @@
         }
       ],
       "discovered_at": "2026-03-13",
-      "last_seen": "2026-03-24",
-      "times_seen": 9,
+      "last_seen": "2026-03-25",
+      "times_seen": 10,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 5,
@@ -6162,6 +6436,110 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 4,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "new_mrna_vaccine_technologies_safe",
+      "question": "Are new mRNA vaccine technologies safe for broader medical applications beyond COVID-19?",
+      "priority": "high",
+      "rationale": "This addresses how COVID vaccine misinformation is spreading to other mRNA applications, with evidence about the safety and efficacy of the underlying technology",
+      "misinformation_narrative": "COVID-19 vaccine hesitancy and misinformation is extending to all mRNA-based therapies, with people avoiding potentially beneficial treatments due to fears about mRNA technology itself",
+      "public_stakes": "Patients may refuse beneficial mRNA-based treatments for cancer or other diseases due to unfounded fears about the technology platform",
+      "verification_status": "verified",
+      "verification_reason": "COVID vaccine hesitancy communities actively extend mRNA fears to cancer treatments and other mRNA therapies on social platforms.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "Biotechnology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: DNA origami vaccines could be the next leap beyond mRNA",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317015933.htm",
+          "date": "2026-03-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+          "date": "2026-03-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: New lipid nanoparticle design improves precision of mRNA vaccine delivery",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-lipid-nanoparticle-precision-mrna-vaccine.html",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Briefing Document: Vaccines and Related Biological Products Advisory Committee Meeting - Future Framework for COVID-19 Vaccine Updates",
+          "description": "FDA's comprehensive assessment of mRNA vaccine safety data and regulatory framework for future applications",
+          "relevance": "Provides regulatory perspective on mRNA vaccine safety profile and considerations for broader applications"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Safety of COVID-19 mRNA vaccines - Statement by the Global Advisory Committee on Vaccine Safety",
+          "description": "WHO's Global Advisory Committee assessment of mRNA vaccine safety data from global surveillance",
+          "relevance": "International expert assessment of mRNA vaccine safety profile based on real-world evidence"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccine Safety Update - Advisory Committee on Immunization Practices (ACIP)",
+          "description": "CDC's ongoing safety surveillance data for mRNA COVID-19 vaccines including adverse events monitoring",
+          "relevance": "Provides comprehensive safety surveillance data that informs assessment of mRNA vaccine safety for future applications"
+        },
+        {
+          "organization": "NIH",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "NIH Strategic Plan for COVID-19 Research - Vaccine Development and Safety Monitoring",
+          "description": "NIH's research priorities and findings on mRNA vaccine technology and safety considerations",
+          "relevance": "Outlines research evidence on mRNA vaccine mechanisms and safety that applies to broader therapeutic applications"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing COVID-19 in healthy adults",
+          "description": "Systematic review of COVID-19 vaccine efficacy and safety including mRNA vaccines",
+          "relevance": "Independent systematic review of safety evidence for mRNA vaccines that provides foundation for assessing broader applications"
+        }
+      ],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -6579,6 +6957,97 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "early_introduction_allergenic_foods_actually",
+      "question": "Does early introduction of allergenic foods actually prevent food allergies?",
+      "priority": "high",
+      "rationale": "This corrects persistent adherence to disproven dietary recommendations, providing current evidence-based guidance for allergy prevention",
+      "misinformation_narrative": "Many parents still follow outdated advice to avoid introducing allergenic foods until children are older, believing this prevents allergies, when current evidence shows the opposite",
+      "public_stakes": "Following outdated guidance may actually increase children's risk of developing food allergies that could have been prevented through early introduction",
+      "verification_status": "verified",
+      "verification_reason": "Many parenting communities and older family members still follow and share outdated advice to delay introducing allergenic foods.",
+      "tags": [
+        "Health and Medicine",
+        "Allergies",
+        "Pediatrics",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics (AAP)",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Clinical Report: The Effects of Early Nutritional Interventions on the Development of Atopic Disease in Infants and Children",
+          "description": "AAP clinical report reviewing evidence on early introduction of allergenic foods and atopic disease prevention",
+          "relevance": "Directly addresses whether early introduction of allergenic foods prevents food allergies with systematic evidence review"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Addendum Guidelines for the Prevention of Peanut Allergy in the United States",
+          "description": "NIAID guidelines based on LEAP study results recommending early peanut introduction",
+          "relevance": "Provides specific evidence-based recommendations for early introduction of peanuts to prevent allergy"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Timing of allergenic food introduction to the infant diet and risk of allergic or autoimmune disease: A systematic review and meta-analysis",
+          "description": "Cochrane systematic review examining timing of allergenic food introduction and allergy outcomes",
+          "relevance": "Provides high-quality systematic review evidence on whether timing of allergenic food introduction affects allergy development"
+        },
+        {
+          "organization": "World Allergy Organization (WAO)",
+          "organization_full": "World Allergy Organization (WAO)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "WAO Guideline for Food Allergy Prevention",
+          "description": "International evidence-based guidelines on food allergy prevention strategies including early introduction",
+          "relevance": "Global expert consensus on food allergy prevention including early allergenic food introduction recommendations"
+        },
+        {
+          "organization": "European Academy of Allergy and Clinical Immunology (EAACI)",
+          "organization_full": "European Academy of Allergy and Clinical Immunology",
+          "base_url": "https://www.eaaci.org",
+          "url": "https://www.eaaci.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "EAACI Food Allergy and Anaphylaxis Guidelines: Primary prevention of food allergy",
+          "description": "European evidence-based guidelines on primary prevention of food allergies including early introduction strategies",
+          "relevance": "Comprehensive European guidelines addressing early allergenic food introduction for allergy prevention"
+        }
+      ],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -7372,6 +7841,88 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "nad_supplements_proven_slow_aging",
+      "question": "Are NAD+ supplements proven to slow aging and prevent neurodegenerative diseases?",
+      "priority": "medium",
+      "rationale": "This addresses aggressive marketing of anti-aging supplements with limited evidence, clarifying what research actually shows about NAD+ supplementation",
+      "misinformation_narrative": "Supplement marketers and wellness influencers promote NAD+ supplements as proven anti-aging treatments that can prevent Alzheimer's and Parkinson's disease, despite limited human evidence",
+      "public_stakes": "Consumers spend money on unproven supplements instead of evidence-based health interventions, potentially delaying real medical care for aging-related concerns",
+      "verification_status": "verified",
+      "verification_reason": "Wellness influencers on Instagram, supplement company marketing, and longevity forums heavily promote NAD+ as proven anti-aging medicine.",
+      "tags": [
+        "Health and Medicine",
+        "Supplements",
+        "Aging"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists say NAD+ could slow aging and fight Alzheimer’s and Parkinson’s",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024253.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: GLP-1 microdosers are chasing longevity",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/glp1-medications-microdose-longevity",
+          "date": "2026-03-22"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Consumer Health Information on Dietary Supplements",
+          "description": "FDA guidance on dietary supplement regulation and safety, including lack of pre-market approval for anti-aging claims",
+          "relevance": "Addresses regulatory status and evidence requirements for supplement anti-aging claims"
+        },
+        {
+          "organization": "NIH/NIA",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "National Institute on Aging: Anti-Aging Products",
+          "description": "NIA's official position on anti-aging supplements and interventions",
+          "relevance": "Directly addresses claims about supplements that promise to slow aging"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Cochrane Database systematic reviews on NAD+ or nicotinamide supplements",
+          "description": "Systematic reviews and meta-analyses of NAD+ precursor supplementation studies",
+          "relevance": "Provides evidence-based analysis of clinical trial data on NAD+ supplements"
+        }
+      ],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
+    },
+    {
       "id": "genetic_engineering_gene_editing_safe",
       "question": "Is genetic engineering and gene editing safe for humans and the environment?",
       "priority": "medium",
@@ -7704,6 +8255,197 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "most_children_outgrow_food_allergies",
+      "question": "Do most children outgrow food allergies naturally?",
+      "priority": "medium",
+      "rationale": "This corrects oversimplified assumptions about food allergy resolution, providing accurate data about which allergies are more likely to persist",
+      "misinformation_narrative": "Some parents believe that all food allergies are outgrown with age, leading them to assume their child will naturally recover without medical monitoring or intervention",
+      "public_stakes": "Parents may neglect proper allergy management or fail to carry emergency medications, putting children at risk of severe allergic reactions",
+      "verification_status": "verified",
+      "verification_reason": "Parenting forums and older pediatric advice sources still circulate beliefs that children naturally outgrow all food allergies without intervention.",
+      "tags": [
+        "Health and Medicine",
+        "Allergies",
+        "Pediatrics"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "80% of children outgrow egg and milk allergies by early elementary school - plausible figure, warrants verification",
+          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+          "date": "2026-03-04T11:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIAID/NIH",
+          "organization_full": "NIAID/NIH",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Food Allergy Guidelines: Addendum Guidelines for the Prevention of Peanut Allergy in the United States",
+          "description": "NIH's comprehensive resource on food allergies including natural history and outgrowing allergies",
+          "relevance": "Contains evidence-based information on which food allergies are commonly outgrown and at what rates"
+        },
+        {
+          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
+          "organization_full": "American Academy of Allergy, Asthma & Immunology",
+          "base_url": "https://www.aaaai.org",
+          "url": "https://www.aaaai.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Food Allergy Practice Parameters",
+          "description": "Evidence-based clinical guidelines on food allergies including natural history and resolution rates",
+          "relevance": "Provides detailed statistics on which childhood food allergies are outgrown and timeframes"
+        },
+        {
+          "organization": "Food Allergy Research & Education (FARE)",
+          "organization_full": "Food Allergy Research & Education (FARE)",
+          "base_url": "",
+          "url": "https://www.foodallergy.org/resources/facts-and-statistics",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Food Allergy Facts and Statistics",
+          "description": "Comprehensive compilation of research data on food allergy prevalence and outcomes",
+          "relevance": "Contains specific data on rates of outgrowing common childhood food allergies like milk, egg, and soy"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Clinical Report: Effects of Early Nutritional Interventions on the Development of Atopic Disease",
+          "description": "AAP clinical report addressing food allergy development and natural history in children",
+          "relevance": "Discusses evidence on childhood food allergy outcomes and likelihood of resolution"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Oral immunotherapy for food allergies",
+          "description": "Systematic review examining treatment and natural history of food allergies",
+          "relevance": "Provides systematic review evidence on food allergy outcomes including natural resolution rates"
+        },
+        {
+          "organization": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "organization_full": "American College of Allergy, Asthma & Immunology (ACAAI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Food Allergy Facts and Statistics",
+          "description": "Statistical information on food allergy prevalence and natural resolution rates in children",
+          "relevance": "Provides data on which allergies persist vs. resolve naturally over time"
+        },
+        {
+          "organization": "NIH National Institute of Allergy and Infectious Diseases",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Guidelines for the Diagnosis and Management of Food Allergy in the United States",
+          "description": "Clinical practice guidelines including natural history of food allergies in children",
+          "relevance": "Evidence-based guidelines discussing which food allergies children typically outgrow"
+        }
+      ],
+      "discovered_at": "2026-03-12",
+      "last_seen": "2026-03-25",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 7 alternative sources identified"
+    },
+    {
+      "id": "probiotic_bacteria_actually_fight_cancer",
+      "question": "Do probiotic bacteria actually fight cancer in humans?",
+      "priority": "medium",
+      "rationale": "This addresses overselling of preliminary research findings, clarifying what laboratory and animal studies mean for human cancer treatment",
+      "misinformation_narrative": "Supplement marketers and wellness sites promote probiotics as cancer-fighting treatments, often misrepresenting preliminary research to suggest proven therapeutic benefits",
+      "public_stakes": "Cancer patients may rely on probiotics instead of proven treatments, or spend money on unproven supplements while delaying effective medical care",
+      "verification_status": "verified",
+      "verification_reason": "Wellness websites, supplement marketers, and alternative health influencers routinely oversell probiotics as cancer treatments.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer",
+        "Probiotics"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists turn probiotic bacteria into tumor-hunting cancer killers",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260321004445.htm",
+          "date": "2026-03-22"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "National Cancer Institute (NIH)",
+          "organization_full": "National Cancer Institute (NIH)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Complementary and Alternative Medicine - Probiotics and Cancer Prevention",
+          "description": "NCI's comprehensive review of research on probiotics and cancer prevention and treatment",
+          "relevance": "Provides evidence-based analysis of clinical trials and research on probiotics' role in cancer"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Probiotics for prevention of necrotizing enterocolitis in preterm infants",
+          "description": "Systematic review examining probiotics' effects on disease prevention in vulnerable populations",
+          "relevance": "Provides high-quality systematic review methodology for evaluating probiotic health claims"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/924120916X",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Cancer Prevention - Diet, nutrition and the prevention of cancer",
+          "description": "WHO technical report on dietary factors including probiotics in cancer prevention",
+          "relevance": "International health authority's assessment of dietary interventions for cancer prevention"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Health Claims: Probiotics",
+          "description": "FDA's evaluation of approved health claims for probiotic products",
+          "relevance": "Regulatory assessment of evidence supporting probiotic health claims including cancer-related benefits"
+        }
+      ],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "igg_food_sensitivity_tests_accurate",
@@ -9596,6 +10338,110 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "cancer_vaccines_safe_effective_like",
+      "question": "Are cancer vaccines safe and effective like other vaccines?",
+      "priority": "low",
+      "rationale": "This addresses how vaccine misinformation is spreading to therapeutic applications, with clear evidence about cancer vaccine safety and efficacy",
+      "misinformation_narrative": "Anti-vaccine sentiment and general vaccine hesitancy is extending to therapeutic cancer vaccines, with patients refusing potentially life-saving treatments due to fears about vaccine safety",
+      "public_stakes": "Cancer patients may refuse or delay effective treatments that could improve survival or quality of life based on unfounded vaccine fears",
+      "verification_status": "needs_review",
+      "verification_reason": "Cancer vaccines are too specialized and context-specific for general vaccine hesitancy to meaningfully extend to them in practice.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "Cancer"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: DNA origami vaccines could be the next leap beyond mRNA",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317015933.htm",
+          "date": "2026-03-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+          "date": "2026-03-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: New lipid nanoparticle design improves precision of mRNA vaccine delivery",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-lipid-nanoparticle-precision-mrna-vaccine.html",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Cancer Treatment Vaccines",
+          "description": "FDA's comprehensive overview of cancer vaccines, including safety and efficacy data for approved treatments",
+          "relevance": "Provides regulatory perspective on safety and effectiveness of FDA-approved cancer vaccines"
+        },
+        {
+          "organization": "National Cancer Institute (NIH)",
+          "organization_full": "National Cancer Institute (NIH)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Cancer Vaccines and Their Side Effects",
+          "description": "NCI's detailed information on cancer vaccines, mechanisms of action, types, and safety profiles",
+          "relevance": "Authoritative source comparing cancer vaccine safety to traditional vaccines and explaining differences in mechanism and application"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "HPV Vaccine Safety and Effectiveness",
+          "description": "CDC data on HPV vaccines (cancer prevention vaccines) showing safety monitoring and effectiveness data",
+          "relevance": "Provides real-world safety and effectiveness data for widely used cancer prevention vaccines"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Human Papillomavirus (HPV) Vaccines: WHO Position Paper",
+          "description": "WHO's official position on HPV vaccines including safety surveillance data and recommendations",
+          "relevance": "International health authority's assessment of cancer prevention vaccine safety and effectiveness"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Prophylactic HPV vaccines for prevention of cervical cancer and its precursors",
+          "description": "Systematic review of HPV vaccine trials examining safety and efficacy outcomes",
+          "relevance": "High-quality systematic review evidence on safety and effectiveness of cancer prevention vaccines"
+        }
+      ],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "dangerous_bacteria_buildup_infection_risks",
       "question": "Are there dangerous bacteria buildup and infection risks from everyday surfaces?",
       "priority": "low",
@@ -10147,6 +10993,283 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "car_cell_therapy_cure_lupus",
+      "question": "Can CAR-T cell therapy cure lupus permanently?",
+      "priority": "low",
+      "rationale": "This clarifies the difference between clinical remission and permanent cure, addressing overly optimistic interpretations of promising but limited early results",
+      "misinformation_narrative": "Early reports of successful CAR-T therapy for lupus are being misrepresented as permanent cures, leading patients to believe they can be completely cured of their genetic predisposition to autoimmune disease",
+      "public_stakes": "Patients may have unrealistic expectations about treatment outcomes, potentially making poor treatment decisions or neglecting necessary follow-up care",
+      "verification_status": "needs_review",
+      "verification_reason": "CAR-T lupus therapy is too new and specialized for widespread public misconceptions to have formed about permanent cures.",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Diseases",
+        "Immunotherapy"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "CAR-T Cell Therapy: Current Approvals and Regulatory Information",
+          "description": "FDA's official list of approved CAR-T therapies and their indications",
+          "relevance": "Shows current FDA-approved uses for CAR-T therapy (currently only certain cancers, not autoimmune diseases like lupus)"
+        },
+        {
+          "organization": "NIH/NCI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "CAR T Cells: Engineering Patients' Immune Cells to Treat Their Cancers",
+          "description": "NIH National Cancer Institute's comprehensive overview of CAR-T cell therapy",
+          "relevance": "Provides official information on what CAR-T therapy is approved for and research directions"
+        },
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus) - Research and Clinical Trials",
+          "description": "National Institute of Arthritis and Musculoskeletal Diseases lupus information page",
+          "relevance": "Official NIH information on current lupus treatments and research directions"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Cochrane Database of Systematic Reviews - CAR-T cell therapy",
+          "description": "Cochrane systematic reviews database search for CAR-T cell therapy evidence",
+          "relevance": "Would contain high-quality systematic review evidence if any exists on CAR-T for autoimmune diseases"
+        }
+      ],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "epstein_barr_virus_actually_linked",
+      "question": "Is the Epstein-Barr virus actually linked to lupus development?",
+      "priority": "low",
+      "rationale": "This clarifies the complex relationship between viral infections and autoimmune disease development, addressing both oversimplified causal claims and complete dismissal of environmental factors",
+      "misinformation_narrative": "Some alternative health sources claim EBV is the primary cause of lupus, while others dismiss any viral connection, creating confusion about environmental triggers versus genetic predisposition",
+      "public_stakes": "Misunderstanding lupus causes may lead to inappropriate prevention strategies or treatment approaches that don't address the actual multifactorial nature of the disease",
+      "verification_status": "needs_review",
+      "verification_reason": "EBV-lupus connections are too niche for widespread public misconceptions; this seems like academic nuance dressed as misinformation.",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Diseases",
+        "Infectious Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus) - Information for Patients",
+          "description": "NIH's comprehensive information on lupus including environmental triggers and viral associations",
+          "relevance": "Addresses potential viral triggers including EBV in lupus development"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/epstein-barr/about/index.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Epstein-Barr Virus and Infectious Mononucleosis",
+          "description": "CDC's fact sheet on EBV including complications and associated conditions",
+          "relevance": "Provides official information on EBV's role in various diseases including autoimmune conditions"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Epstein-Barr virus and systemic autoimmune diseases - Systematic Review",
+          "description": "Systematic review examining evidence for EBV's role in autoimmune disease development",
+          "relevance": "Provides high-quality systematic review evidence on the EBV-autoimmune disease connection"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://monographs.iarc.who.int/agents-classified-by-the-iarc/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "International Agency for Research on Cancer - EBV Monograph",
+          "description": "IARC's evaluation of Epstein-Barr virus as a carcinogenic agent and associated diseases",
+          "relevance": "Comprehensive review of EBV's role in various diseases including immune system effects"
+        },
+        {
+          "organization": "NIH/NCBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "PubMed Clinical Queries - EBV and Lupus",
+          "description": "Clinical evidence database with systematic reviews and clinical trials on EBV-lupus association",
+          "relevance": "Repository of peer-reviewed clinical evidence on the relationship between EBV and autoimmune diseases"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Epstein-Barr Virus and Infectious Mononucleosis",
+          "description": "CDC's fact sheet on EBV including associated diseases and complications",
+          "relevance": "Covers diseases potentially linked to EBV infection including autoimmune conditions"
+        }
+      ],
+      "discovered_at": "2026-03-19",
+      "last_seen": "2026-03-25",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 6 alternative sources identified"
+    },
+    {
+      "id": "dental_infections_actually_affect_blood",
+      "question": "Can dental infections actually affect blood sugar and heart health?",
+      "priority": "low",
+      "rationale": "This clarifies the actual evidence for connections between oral and systemic health, addressing both dismissal and exaggeration of these relationships",
+      "misinformation_narrative": "Some alternative health sources overstate the connection between dental health and systemic diseases, while others dismiss any meaningful relationship, creating confusion about oral health importance",
+      "public_stakes": "People may either neglect dental care thinking it doesn't affect overall health, or conversely, expect dental treatment alone to control diabetes or heart disease",
+      "verification_status": "needs_review",
+      "verification_reason": "The dental-systemic health connection debate exists mainly in professional circles, not as widespread public misinformation.",
+      "tags": [
+        "Health and Medicine",
+        "Dental Health",
+        "Cardiovascular Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Fixing a tooth infection may improve blood sugar and heart health",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260315225156.htm",
+          "date": "2026-03-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Gum disease bacterium linked to breast cancer growth and spread",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044719.htm",
+          "date": "2026-03-22"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Oral Health and Overall Health: What's the Connection?",
+          "description": "CDC information on how oral health conditions, including infections, can affect overall health including cardiovascular disease and diabetes management",
+          "relevance": "Addresses the connection between dental infections and systemic health conditions including blood sugar and heart health"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org/en/news/2018/11/05/gum-disease-and-heart-disease-the-common-thread",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Gum Disease and Heart Disease: The Common Thread",
+          "description": "AHA scientific statement on the relationship between periodontal disease and cardiovascular health",
+          "relevance": "Directly examines the evidence linking oral infections to heart health outcomes"
+        },
+        {
+          "organization": "American Diabetes Association",
+          "organization_full": "American Diabetes Association",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Diabetes and Oral Health",
+          "description": "ADA guidance on the bidirectional relationship between diabetes and oral health, including how infections affect blood sugar control",
+          "relevance": "Specifically addresses how dental infections can impact blood glucose management in diabetic patients"
+        },
+        {
+          "organization": "NIH National Institute of Dental and Craniofacial Research",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nidcr.nih.gov/health-info/diabetes",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Periodontal Disease and Diabetes: A Two-Way Street",
+          "description": "NIDCR fact sheet explaining the relationship between gum disease and diabetes, including infection impacts on blood sugar",
+          "relevance": "Provides evidence-based information on how periodontal infections affect diabetic control and cardiovascular risk"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Treatment of periodontal disease for glycaemic control in people with diabetes mellitus",
+          "description": "Systematic review examining whether treating periodontal disease improves blood sugar control in diabetic patients",
+          "relevance": "Provides high-quality meta-analysis evidence on the clinical relationship between dental infections and blood glucose outcomes"
+        }
+      ],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-25",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -11233,95 +12356,6 @@
           "resource_name": "Climate Change Impacts on Marine Ecosystems",
           "description": "NOAA's assessment of climate impacts on marine species including adaptation strategies and evolutionary responses",
           "relevance": "Documents marine species responses to climate change including shifts in distribution and adaptation mechanisms"
-        }
-      ],
-      "discovered_at": "2026-03-19",
-      "last_seen": "2026-03-19",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "epstein_barr_virus_actually_linked",
-      "question": "Is the Epstein-Barr virus actually linked to autoimmune diseases like lupus?",
-      "priority": "low",
-      "rationale": "Mixed messages about virus-autoimmune links create confusion about disease causation and treatment",
-      "misinformation_narrative": "Confusion about EBV's role in autoimmune disease, with some dismissing viral connections while others blame all autoimmune issues on infections",
-      "public_stakes": "Misunderstanding viral triggers could affect treatment approaches and prevention strategies for autoimmune diseases",
-      "verification_status": "needs_review",
-      "verification_reason": "EBV-autoimmune connections aren't a major public debate; this appears to be academic nuance presented as widespread confusion.",
-      "tags": [
-        "Health and Medicine",
-        "Autoimmune Disease"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
-          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
-          "date": "2026-03-18T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "NIH/NIAMS",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.niams.nih.gov/health-topics/lupus",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Systemic Lupus Erythematosus (Lupus) - Information for Patients",
-          "description": "NIH's comprehensive information on lupus including environmental triggers and viral associations",
-          "relevance": "Addresses potential viral triggers including EBV in lupus development"
-        },
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov/epstein-barr/about/index.html",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Epstein-Barr Virus and Infectious Mononucleosis",
-          "description": "CDC's fact sheet on EBV including complications and associated conditions",
-          "relevance": "Provides official information on EBV's role in various diseases including autoimmune conditions"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Epstein-Barr virus and systemic autoimmune diseases - Systematic Review",
-          "description": "Systematic review examining evidence for EBV's role in autoimmune disease development",
-          "relevance": "Provides high-quality systematic review evidence on the EBV-autoimmune disease connection"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://monographs.iarc.who.int/agents-classified-by-the-iarc/",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "International Agency for Research on Cancer - EBV Monograph",
-          "description": "IARC's evaluation of Epstein-Barr virus as a carcinogenic agent and associated diseases",
-          "relevance": "Comprehensive review of EBV's role in various diseases including immune system effects"
-        },
-        {
-          "organization": "NIH/NCBI",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "PubMed Clinical Queries - EBV and Lupus",
-          "description": "Clinical evidence database with systematic reviews and clinical trials on EBV-lupus association",
-          "relevance": "Repository of peer-reviewed clinical evidence on the relationship between EBV and autoimmune diseases"
         }
       ],
       "discovered_at": "2026-03-19",
@@ -12598,96 +13632,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
-    },
-    {
-      "id": "most_children_outgrow_food_allergies",
-      "question": "Do most children outgrow food allergies?",
-      "priority": "low",
-      "rationale": "Clarifies misconceptions about food allergy prognosis that affect long-term family planning and safety",
-      "misinformation_narrative": "Parents may have unrealistic expectations about allergy resolution, particularly for peanuts and tree nuts which rarely resolve",
-      "public_stakes": "False expectations could lead to inadequate long-term allergy management and safety planning",
-      "verification_status": "needs_review",
-      "verification_reason": "This describes unrealistic expectations rather than a specific false belief that circulates as misinformation.",
-      "tags": [
-        "Health and Medicine",
-        "Pediatrics",
-        "Food Allergies"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "80% of children outgrow egg and milk allergies by early elementary school - plausible figure, warrants verification",
-          "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
-          "date": "2026-03-04T11:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "NIAID/NIH",
-          "organization_full": "NIAID/NIH",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Food Allergy Guidelines: Addendum Guidelines for the Prevention of Peanut Allergy in the United States",
-          "description": "NIH's comprehensive resource on food allergies including natural history and outgrowing allergies",
-          "relevance": "Contains evidence-based information on which food allergies are commonly outgrown and at what rates"
-        },
-        {
-          "organization": "American Academy of Allergy, Asthma & Immunology (AAAAI)",
-          "organization_full": "American Academy of Allergy, Asthma & Immunology",
-          "base_url": "https://www.aaaai.org",
-          "url": "https://www.aaaai.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Food Allergy Practice Parameters",
-          "description": "Evidence-based clinical guidelines on food allergies including natural history and resolution rates",
-          "relevance": "Provides detailed statistics on which childhood food allergies are outgrown and timeframes"
-        },
-        {
-          "organization": "Food Allergy Research & Education (FARE)",
-          "organization_full": "Food Allergy Research & Education (FARE)",
-          "base_url": "",
-          "url": "https://www.foodallergy.org/resources/facts-and-statistics",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Food Allergy Facts and Statistics",
-          "description": "Comprehensive compilation of research data on food allergy prevalence and outcomes",
-          "relevance": "Contains specific data on rates of outgrowing common childhood food allergies like milk, egg, and soy"
-        },
-        {
-          "organization": "American Academy of Pediatrics",
-          "organization_full": "American Academy of Pediatrics",
-          "base_url": "https://www.aap.org",
-          "url": "https://www.aap.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Clinical Report: Effects of Early Nutritional Interventions on the Development of Atopic Disease",
-          "description": "AAP clinical report addressing food allergy development and natural history in children",
-          "relevance": "Discusses evidence on childhood food allergy outcomes and likelihood of resolution"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Oral immunotherapy for food allergies",
-          "description": "Systematic review examining treatment and natural history of food allergies",
-          "relevance": "Provides systematic review evidence on food allergy outcomes including natural resolution rates"
-        }
-      ],
-      "discovered_at": "2026-03-12",
-      "last_seen": "2026-03-12",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "geoengineering_safely_reverse_climate_change",

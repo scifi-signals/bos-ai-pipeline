@@ -1,0 +1,66 @@
+{
+  "id": "most_children_outgrow_food_allergies",
+  "question": "Do most children outgrow food allergies naturally?",
+  "topic": "This corrects oversimplified assumptions about food allergy resolution, providing accurate data abou",
+  "tags": [
+    "Health and Medicine",
+    "Allergies",
+    "Pediatrics"
+  ],
+  "sources": [
+    {
+      "name": "Food Allergy - Natural History and Outgrowing Food Allergies — American Academy of Allergy, Asthma & Immunology (AAAAI)",
+      "url": "https://www.aaaai.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Food Allergy Facts and Statistics — Food Allergy Research & Education (FARE)",
+      "url": "https://www.foodallergy.org/resources/facts-and-statistics",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Guidelines for the Diagnosis and Management of Food Allergy in the United States — NIH National Institute of Allergy and Infectious Diseases",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Natural history of food allergy systematic reviews — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "80% of children outgrow egg and milk allergies by early elementary school - plausible figure, warrants verification",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Only 20% of children outgrow peanut allergies, barely 10% outgrow tree nut allergies - specific percentages should be verified against current literature",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "LEAP trial published in 2015 (over 10 years old as of 2026 episode date) - timeline is accurate",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Early allergen introduction reduces allergy development risk - consistent with LEAP trial and subsequent research",
+      "origin": "Unbiased Science: Food Allergies: A Tough Nut to Crack",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=212",
+      "date": "2026-03-04T11:00:00"
+    }
+  ]
+}

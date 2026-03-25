@@ -1,0 +1,66 @@
+{
+  "id": "artificial_intelligence_actually_intelligent_way",
+  "question": "Is artificial intelligence actually 'intelligent' in the way humans understand intelligence?",
+  "topic": "This addresses widespread confusion about what AI can and cannot do, with clear scientific evidence ",
+  "tags": [
+    "Technology",
+    "Artificial Intelligence"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/26887",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://www.nationalacademies.org/publications/26355",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Implementation of Federal Highway Administration Proven Safety Countermeasures",
+      "url": "https://www.nationalacademies.org/publications/28855",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: The intelligence illusion: why AI isn’t as smart as it is made out to be",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00882-5",
+      "date": "2026-03-23"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: The success of machine mathematicians shows us how to be OK with AI",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/mg26935872-700-the-success-of-machine-mathematicians-shows-us-how-to-be-ok-with-ai/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-23"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Why AI hasn’t caused a job apocalypse — so far",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00883-4",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI algorithms can become ‘agents of chaos’",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/ai-algorithms-can-become-agents-chaos",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Dueling AI agents could reveal keys to restoring consciousness",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/dueling-ai-agents-could-reveal-keys-restoring-consciousness",
+      "date": "2026-03-24"
+    }
+  ]
+}
