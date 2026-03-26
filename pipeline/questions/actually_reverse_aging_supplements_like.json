@@ -1,0 +1,34 @@
+{
+  "id": "actually_reverse_aging_supplements_like",
+  "question": "Can we actually reverse aging with supplements like NAD+?",
+  "topic": "Corrects widespread marketing misinformation about anti-aging supplements that exploits legitimate b",
+  "tags": [
+    "Health and Medicine",
+    "Aging",
+    "Supplements"
+  ],
+  "sources": [
+    {
+      "name": "Global Roadmap for Healthy Longevity",
+      "url": "https://www.nationalacademies.org/publications/26144",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists say NAD+ could slow aging and fight Alzheimer’s and Parkinson’s",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260324024253.htm",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: GLP-1 microdosers are chasing longevity",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/glp1-medications-microdose-longevity",
+      "date": "2026-03-24"
+    }
+  ]
+}

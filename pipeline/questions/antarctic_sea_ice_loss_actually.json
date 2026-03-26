@@ -1,0 +1,26 @@
+{
+  "id": "antarctic_sea_ice_loss_actually",
+  "question": "Is Antarctic sea ice loss actually caused by climate change?",
+  "topic": "Addresses a specific climate denial talking point about Antarctic ice that misinterprets complex pol",
+  "tags": [
+    "Climate Change",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "Antarctic Sea Ice Variability in the Southern Ocean-Climate System: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/24696",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Warmer ocean is driving the Antarctic sea ice 'regime shift'",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520281-warmer-ocean-is-driving-the-antarctic-sea-ice-regime-shift/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-25"
+    }
+  ]
+}

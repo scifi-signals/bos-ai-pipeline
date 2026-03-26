@@ -1,0 +1,58 @@
+{
+  "id": "mrna_vaccines_dangerous_experimental_gene",
+  "question": "Are mRNA vaccines dangerous or experimental gene therapy?",
+  "topic": "Directly addresses persistent misinformation about mRNA vaccine safety and mechanism that continues ",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "Understanding mRNA COVID-19 Vaccines — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "FDA Briefing Document: Pfizer-BioNTech COVID-19 Vaccine — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Safety of COVID-19 mRNA vaccines — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "mRNA Vaccines: Facts vs Fiction — NIH/NIAID",
+      "url": "https://www.niaid.nih.gov/node/7937?404message&requested_url=/diseases-conditions/covid-19-mrna-vaccines-facts-vs-fiction",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaccines for preventing COVID-19 in healthy adults — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+      "date": "2026-03-23"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: New lipid nanoparticle design improves precision of mRNA vaccine delivery",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-lipid-nanoparticle-precision-mrna-vaccine.html",
+      "date": "2026-03-24"
+    }
+  ]
+}

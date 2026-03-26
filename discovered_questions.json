@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25T12:14:41Z",
+  "generated_at": "2026-03-26T12:18:03Z",
   "questions": [
     {
       "id": "global_warming_actually_accelerating_just",
@@ -1186,6 +1186,44 @@
       "readiness_summary": "4 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 5 discovery signals"
     },
     {
+      "id": "antarctic_sea_ice_loss_actually",
+      "question": "Is Antarctic sea ice loss actually caused by climate change?",
+      "priority": "high",
+      "rationale": "Addresses a specific climate denial talking point about Antarctic ice that misinterprets complex polar climate dynamics",
+      "misinformation_narrative": "Climate skeptics often point to Antarctic sea ice as evidence against global warming, when recent dramatic ice loss is actually driven by warming oceans and represents a concerning shift",
+      "public_stakes": "Misunderstanding Antarctic ice changes undermines climate action and preparation for sea level rise impacts",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptic blogs, conservative media, and social platforms regularly cite Antarctic ice as evidence against climate change.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Antarctic Sea Ice Variability in the Southern Ocean-Climate System: Proceedings of a Workshop (2017)",
+          "url": "https://www.nationalacademies.org/publications/24696"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Warmer ocean is driving the Antarctic sea ice 'regime shift'",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520281-warmer-ocean-is-driving-the-antarctic-sea-ice-regime-shift/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2017,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2017 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "cancer_blood_tests_provide_accurate",
       "question": "Do cancer blood tests provide accurate early detection for most cancers?",
       "priority": "high",
@@ -2280,6 +2318,52 @@
       "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 3 discovery signals"
     },
     {
+      "id": "actually_reverse_aging_supplements_like",
+      "question": "Can we actually reverse aging with supplements like NAD+?",
+      "priority": "medium",
+      "rationale": "Corrects widespread marketing misinformation about anti-aging supplements that exploits legitimate but preliminary research",
+      "misinformation_narrative": "Anti-aging supplement marketers claim NAD+ and similar compounds can reverse aging, when research shows some biological benefits but no evidence for actual age reversal in humans",
+      "public_stakes": "False anti-aging claims lead to wasted money, delayed medical care for age-related conditions, and neglect of proven healthy aging strategies",
+      "verification_status": "verified",
+      "verification_reason": "Anti-aging supplement companies, biohacking communities on Reddit, and wellness influencers heavily promote NAD+ as an age-reversing miracle cure.",
+      "tags": [
+        "Health and Medicine",
+        "Aging",
+        "Supplements"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists say NAD+ could slow aging and fight Alzheimer’s and Parkinson’s",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024253.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: GLP-1 microdosers are chasing longevity",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/glp1-medications-microdose-longevity",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 2 discovery signals"
+    },
+    {
       "id": "multivitamin_supplements_slow_biological_aging",
       "question": "Do multivitamin supplements slow biological aging?",
       "priority": "medium",
@@ -2711,6 +2795,76 @@
       "newest_source_year": 2020,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2020 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "quantum_computers_actually_available_buy",
+      "question": "Are quantum computers actually available to buy, and what can they really do?",
+      "priority": "medium",
+      "rationale": "Corrects both excessive hype and dismissive skepticism about current quantum computing capabilities",
+      "misinformation_narrative": "Many people believe quantum computers are either completely fictional/decades away or think current systems can solve any problem instantly, when limited quantum systems exist but can't yet outperform classical computers for most tasks",
+      "public_stakes": "Overestimating quantum capabilities leads to poor investment and technology decisions; underestimating leads to missed opportunities in emerging quantum industries",
+      "verification_status": "verified",
+      "verification_reason": "Tech media and social platforms regularly feature confused discussions about quantum computing capabilities, with many believing either it's sci-fi or currently revolutionary.",
+      "tags": [
+        "Technology",
+        "Physics"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25499"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: You can now buy a DIY quantum computer",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: World’s first quantum battery could enable ultra fast charging",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260322020249.htm",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Physicists just turned glass into a powerful quantum security device",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024255.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Long-distance quantum link generates entanglement faster than it is lost",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00804-5",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Hot things can freeze faster than cool ones. Now, this paradox has gone quantum",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/hot-things-can-freeze-faster-cool-ones-now-paradox-has-gone-quantum",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 4,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
       "id": "quantum_computers_revolutionize_everything",
@@ -4120,6 +4274,45 @@
       "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
+      "id": "attitudes_aging_actually_affect_fast",
+      "question": "Can attitudes about aging actually affect how fast you age physically?",
+      "priority": "low",
+      "rationale": "Challenges the common misconception that aging is purely biological, when psychosocial factors have measurable physical effects",
+      "misinformation_narrative": "Most people believe aging is purely biological and that psychological factors have no real impact on physical aging, when research shows negative attitudes about aging actually accelerate biological aging processes",
+      "public_stakes": "Negative attitudes about aging become self-fulfilling prophecies, leading to faster physical decline, reduced longevity, and poorer health outcomes in older adults",
+      "verification_status": "needs_review",
+      "verification_reason": "This confuses \"people don't know about attitude-aging connections\" with \"people actively believe attitudes don't matter\" — most people just haven't considered it.",
+      "tags": [
+        "Health and Medicine",
+        "Aging",
+        "Mental Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "lupus_primarily_disease_affects_women",
       "question": "Is lupus primarily a disease that affects women because it's not well-studied in men?",
       "priority": "low",
@@ -4452,6 +4645,53 @@
       "newest_source_year": 2021,
       "signal_count": 5,
       "readiness_summary": "3 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 5 discovery signals"
+    },
+    {
+      "id": "covid_pandemic_amnesia_making_unprepared",
+      "question": "Is COVID-19 pandemic amnesia making us unprepared for future pandemics?",
+      "priority": "low",
+      "rationale": "Addresses the dangerous tendency to assume pandemic preparedness based on recent experience while actually losing institutional memory and readiness",
+      "misinformation_narrative": "Many people believe we've learned our lessons from COVID-19 and are prepared for future pandemics, when evidence suggests we're already forgetting key lessons and dismantling preparedness infrastructure",
+      "public_stakes": "Pandemic amnesia leads to reduced vigilance, weakened public health infrastructure, and greater vulnerability to future disease outbreaks",
+      "verification_status": "needs_review",
+      "verification_reason": "\"Pandemic amnesia\" is more of an expert concern than a public misconception that people actively hold or debate.",
+      "tags": [
+        "Public Health",
+        "Infectious Disease",
+        "Emergency Preparedness"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19 (2021)",
+          "url": "https://www.nationalacademies.org/publications/26282"
+        },
+        {
+          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
+          "url": "https://www.nationalacademies.org/publications/26284"
+        },
+        {
+          "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
+          "url": "https://www.nationalacademies.org/publications/26285"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Opinion: Every pandemic is followed by amnesia. But Covid’s is very different",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/03/24/covid-amnesia-scapegoats-trump-maga/?utm_campaign=rss",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 1,
+      "readiness_summary": "3 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "systems_programmed_manipulate_human_emotions",
@@ -6759,6 +6999,178 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "artificial_intelligence_smart_humans_become",
+      "question": "Is artificial intelligence as smart as humans or about to become superintelligent?",
+      "priority": "high",
+      "rationale": "Corrects the widespread misconception that current AI is truly 'intelligent' rather than advanced statistical processing, which affects public policy and personal decision-making",
+      "misinformation_narrative": "Many people believe AI systems like ChatGPT and others are truly intelligent or close to human-level intelligence, when they are sophisticated pattern-matching systems without real understanding or consciousness",
+      "public_stakes": "Overestimating AI capabilities leads to inappropriate delegation of critical decisions, unrealistic expectations in healthcare/education, and inadequate safety precautions in AI deployment",
+      "verification_status": "verified",
+      "verification_reason": "Tech Twitter, LinkedIn, and mainstream media regularly overstate AI capabilities, with surveys showing many people believe ChatGPT is truly conscious or human-level intelligent.",
+      "tags": [
+        "Technology",
+        "Public Understanding"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The intelligence illusion: why AI isn’t as smart as it is made out to be",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00882-5",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Why AI hasn’t caused a job apocalypse — so far",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00883-4",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI algorithms can become ‘agents of chaos’",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/ai-algorithms-can-become-agents-chaos",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Dueling AI agents could reveal keys to restoring consciousness",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/dueling-ai-agents-could-reveal-keys-restoring-consciousness",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Major conference catches illicit AI use — and rejects hundreds of papers",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00893-2",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Towards end-to-end automation of AI research",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10265-5",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI scientists are changing research — institutions, funders and publishers must respond",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00934-w",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "mrna_vaccines_dangerous_experimental_gene",
+      "question": "Are mRNA vaccines dangerous or experimental gene therapy?",
+      "priority": "high",
+      "rationale": "Directly addresses persistent misinformation about mRNA vaccine safety and mechanism that continues to drive vaccine hesitancy",
+      "misinformation_narrative": "Many people believe mRNA vaccines alter DNA, are experimental gene therapy, or cause widespread serious side effects, when they are safe and effective vaccines that don't modify genetic material",
+      "public_stakes": "Vaccine hesitancy leads to preventable deaths from COVID-19 and other diseases, reduced herd immunity, and rejection of beneficial cancer vaccines in development",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and conservative media platforms widely promote claims that mRNA vaccines are gene therapy that alters DNA.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Cancer vaccines could transform treatment and prevention – but misinformation about mRNA vaccines threatens their potential",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/cancer-vaccines-could-transform-treatment-and-prevention-but-misinformation-about-mrna-vaccines-threatens-their-potential-276809",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: New lipid nanoparticle design improves precision of mRNA vaccine delivery",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-lipid-nanoparticle-precision-mrna-vaccine.html",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Understanding mRNA COVID-19 Vaccines",
+          "description": "CDC's comprehensive explanation of how mRNA vaccines work, their safety profile, and clinical trial data",
+          "relevance": "Directly addresses safety concerns and explains that mRNA vaccines are not gene therapy"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Briefing Document: Pfizer-BioNTech COVID-19 Vaccine",
+          "description": "FDA's detailed safety and efficacy analysis from clinical trials with over 44,000 participants",
+          "relevance": "Provides comprehensive safety data that refutes 'experimental' claims and demonstrates rigorous testing"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Safety of COVID-19 mRNA vaccines",
+          "description": "WHO's assessment of mRNA vaccine safety based on global surveillance data",
+          "relevance": "International health authority's evidence-based evaluation of mRNA vaccine safety profile"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niaid.nih.gov/node/7937?404message&requested_url=/diseases-conditions/covid-19-mrna-vaccines-facts-vs-fiction",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "mRNA Vaccines: Facts vs Fiction",
+          "description": "NIH fact sheet specifically addressing misconceptions about mRNA vaccines and gene therapy claims",
+          "relevance": "Directly debunks gene therapy misinformation with scientific explanation of mRNA mechanism"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing COVID-19 in healthy adults",
+          "description": "Systematic review of COVID-19 vaccine safety and efficacy evidence",
+          "relevance": "Independent systematic review providing evidence-based assessment of vaccine safety from multiple studies"
+        }
+      ],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "mrna_vaccines_alter_dna_cause",
       "question": "Do mRNA vaccines alter your DNA or cause long-term genetic changes?",
       "priority": "high",
@@ -6957,6 +7369,96 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "gas_stoves_cause_cancer_other",
+      "question": "Do gas stoves cause cancer and other serious health problems?",
+      "priority": "high",
+      "rationale": "Addresses polarized misinformation around gas stove safety, with both dismissal of real risks and exaggeration of immediate dangers",
+      "misinformation_narrative": "Some dismiss gas stove health risks as politically motivated fears, while others may overestimate immediate danger, when evidence shows real but manageable health risks especially for children",
+      "public_stakes": "Underestimating risks leads to preventable asthma and respiratory problems in children; overestimating leads to unnecessary panic and poor policy decisions",
+      "verification_status": "verified",
+      "verification_reason": "Conservative Twitter and media pushed back against gas stove regulations with health dismissals, while some progressive outlets overstated immediate dangers.",
+      "tags": [
+        "Health and Medicine",
+        "Environmental Health",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Cancer-causing chemical found to be leaking from gas cookers",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520639-cancer-causing-chemical-found-to-be-leaking-from-gas-cookers/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/indoor-air-quality-iaq/nitrogen-dioxides-impact-indoor-air-quality",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Indoor Air Quality: Nitrogen Dioxide (NO2)",
+          "description": "EPA guidance on nitrogen dioxide exposure from gas appliances and health effects",
+          "relevance": "Addresses health impacts of gas stove emissions including respiratory effects"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Carbon Monoxide Poisoning Prevention",
+          "description": "CDC information on carbon monoxide exposure from gas appliances",
+          "relevance": "Covers health risks from gas stove combustion products"
+        },
+        {
+          "organization": "NIH/National Cancer Institute",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Indoor Air Pollution and Cancer Risk",
+          "description": "NCI overview of indoor air pollutants and cancer risk factors",
+          "relevance": "Addresses cancer risks from various indoor air pollutants including combustion products"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Household Air Pollution and Health",
+          "description": "WHO fact sheet on health impacts of household fuel combustion",
+          "relevance": "Covers health effects of indoor combustion including from cooking fuels"
+        },
+        {
+          "organization": "American Lung Association",
+          "organization_full": "American Lung Association",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Gas Stoves and Indoor Air Quality",
+          "description": "ALA guidance on health impacts of gas appliances and indoor air quality",
+          "relevance": "Specifically addresses respiratory health effects of gas stoves"
+        }
+      ],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -8255,6 +8757,96 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "probiotics_actually_effective_serious_diseases",
+      "question": "Are probiotics actually effective for serious diseases like cancer?",
+      "priority": "medium",
+      "rationale": "Distinguishes between evidence-based probiotic therapies in development and the largely unsubstantiated claims for commercial probiotic supplements",
+      "misinformation_narrative": "Many people either dismiss probiotics as useless supplements or believe they can cure serious diseases, when research shows specific probiotic therapies are being developed for cancer but most commercial probiotics have limited evidence",
+      "public_stakes": "Overhyping probiotics delays proper medical treatment; dismissing all probiotic research prevents recognition of legitimate therapeutic developments",
+      "verification_status": "verified",
+      "verification_reason": "Wellness communities on Instagram, health forums, and alternative medicine sites promote probiotics as cancer cures while skeptics dismiss all probiotic research.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer Treatment",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists turn probiotic bacteria into tumor-hunting cancer killers",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260321004445.htm",
+          "date": "2026-03-23"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "National Cancer Institute (NIH)",
+          "organization_full": "National Cancer Institute (NIH)",
+          "base_url": "",
+          "url": "https://www.cancer.gov/about-cancer/treatment/cam",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Complementary and Alternative Medicine",
+          "description": "NCI's comprehensive overview of complementary and alternative medicine approaches in cancer treatment, including probiotics",
+          "relevance": "Provides evidence-based information on probiotics and other CAM therapies for cancer patients"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Probiotics for prevention of necrotizing enterocolitis in preterm infants",
+          "description": "Systematic review examining probiotic effectiveness for serious conditions in vulnerable populations",
+          "relevance": "Provides high-quality systematic review evidence on probiotics for serious medical conditions"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Dietary Supplements - Probiotics",
+          "description": "FDA's regulatory guidance and information on probiotic products and health claims",
+          "relevance": "Explains regulatory framework and evidence requirements for probiotic health claims, including serious diseases"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Guidelines for the evaluation of probiotics in food",
+          "description": "WHO/FAO expert consultation report on probiotic evaluation and health benefits",
+          "relevance": "Provides international scientific consensus on probiotic efficacy and evidence standards"
+        },
+        {
+          "organization": "NIH Office of Dietary Supplements",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://ods.od.nih.gov/factsheets/Probiotics-HealthProfessional/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Probiotics Fact Sheet for Health Professionals",
+          "description": "Comprehensive evidence-based fact sheet on probiotic research and clinical applications",
+          "relevance": "Summarizes current scientific evidence on probiotics for various health conditions including serious diseases"
+        }
+      ],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "most_children_outgrow_food_allergies",
@@ -10994,6 +11586,470 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "processed_meat_really_cause_cancer",
+      "question": "Does processed meat really cause cancer, and how much risk does it pose?",
+      "priority": "low",
+      "rationale": "Clarifies the actual magnitude of cancer risk from processed meat consumption, which is often misunderstood in both directions",
+      "misinformation_narrative": "Many people either completely dismiss the cancer risk from processed meats as overblown, or believe any amount is immediately dangerous, when moderate consumption poses manageable but real increased risk",
+      "public_stakes": "Dismissing the risk leads to preventable colorectal cancer cases; overestimating the risk causes unnecessary dietary restrictions and anxiety",
+      "verification_status": "needs_review",
+      "verification_reason": "Most people simply don't think much about processed meat cancer risks rather than holding strong misconceptions about them.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition",
+        "Cancer Prevention"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Most Americans don’t know this food raises colon cancer risk",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024259.htm",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO/IARC",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Red-Meat-And-Processed-Meat-2018",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "IARC Monographs on the Evaluation of Carcinogenic Risks to Humans - Volume 114: Red Meat and Processed Meat",
+          "description": "Comprehensive evaluation that classified processed meat as Group 1 carcinogen and red meat as Group 2A probable carcinogen",
+          "relevance": "The definitive international assessment on processed meat and cancer risk"
+        },
+        {
+          "organization": "American Cancer Society",
+          "organization_full": "American Cancer Society",
+          "base_url": "https://www.cancer.org",
+          "url": "https://www.cancer.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Does Red Meat or Processed Meat Cause Cancer?",
+          "description": "Patient-friendly explanation of the evidence linking processed meat to colorectal cancer with risk quantification",
+          "relevance": "Translates scientific evidence into practical risk information for the public"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Colorectal Cancer Prevention: What Can You Do?",
+          "description": "CDC prevention guidelines that include reducing processed meat consumption as a risk reduction strategy",
+          "relevance": "Official US public health guidance on dietary factors including processed meat"
+        },
+        {
+          "organization": "NIH/National Cancer Institute",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/cooked-meats-fact-sheet",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Chemicals in Meat Cooked at High Temperatures and Cancer Risk",
+          "description": "NCI fact sheet explaining mechanisms by which processed meats may cause cancer and associated risks",
+          "relevance": "Provides scientific explanation of how processed meat processing and cooking creates carcinogens"
+        },
+        {
+          "organization": "World Cancer Research Fund",
+          "organization_full": "World Cancer Research Fund",
+          "base_url": "",
+          "url": "https://www.wcrf.org/research-policy/global-cancer-update-programme/",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Diet, Nutrition, Physical Activity and Cancer: A Global Perspective - Continuous Update Project",
+          "description": "Systematic review concluding there is convincing evidence that processed meat increases colorectal cancer risk",
+          "relevance": "Independent systematic review of all available evidence on diet and cancer including processed meat"
+        }
+      ],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "lupus_really_difficult_diagnose_new",
+      "question": "Is lupus really that difficult to diagnose, and are new treatments actually effective?",
+      "priority": "low",
+      "rationale": "Corrects outdated perceptions about lupus diagnosis and treatment that prevent people from seeking appropriate care",
+      "misinformation_narrative": "Many people believe lupus is nearly impossible to diagnose and untreatable, when diagnosis has improved significantly and multiple new effective treatments exist",
+      "public_stakes": "Outdated beliefs about lupus lead to delayed medical care, unnecessary despair among patients, and underutilization of effective treatments",
+      "verification_status": "needs_review",
+      "verification_reason": "While lupus diagnosis can be challenging, this doesn't reflect a widespread public misconception that people actively debate or believe.",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Lupus diagnosis currently takes months to years; previously took 2-3 years to diagnose (improved from past decade)",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (SLE)",
+          "description": "CDC's comprehensive overview of lupus including diagnosis challenges and current treatment approaches",
+          "relevance": "Addresses diagnostic difficulties and provides current information on lupus management"
+        },
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Handout on Health: Systemic Lupus Erythematosus",
+          "description": "National Institute of Arthritis and Musculoskeletal and Skin Diseases comprehensive lupus resource covering diagnosis and treatments",
+          "relevance": "Authoritative source on lupus diagnostic challenges and current treatment effectiveness from NIH"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA-Approved Treatments for Lupus",
+          "description": "FDA's listing of approved lupus treatments with approval dates and efficacy information",
+          "relevance": "Provides evidence-based information on newer FDA-approved lupus treatments and their effectiveness"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Cochrane Reviews on Systemic Lupus Erythematosus",
+          "description": "Systematic reviews examining treatment effectiveness for lupus",
+          "relevance": "High-quality evidence synthesis on lupus treatment effectiveness from multiple clinical trials"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Musculoskeletal conditions - Lupus",
+          "description": "WHO fact sheet on musculoskeletal conditions including lupus diagnosis and treatment challenges",
+          "relevance": "Global perspective on lupus diagnostic and treatment challenges from World Health Organization"
+        }
+      ],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "epstein_barr_virus_dangerous_really",
+      "question": "Is the Epstein-Barr virus dangerous, and does it really cause autoimmune diseases?",
+      "priority": "low",
+      "rationale": "Clarifies the real but nuanced health risks of EBV infection, which is widely misunderstood despite affecting 90%+ of adults",
+      "misinformation_narrative": "Many people either dismiss EBV as harmless since most people have it, or believe it's immediately dangerous, when EBV increases risk of certain autoimmune diseases and cancers but most infections remain dormant",
+      "public_stakes": "Dismissing EBV risks delays recognition of symptoms and treatment; overestimating immediate danger causes unnecessary anxiety about a nearly universal infection",
+      "verification_status": "needs_review",
+      "verification_reason": "EBV misconceptions aren't a major public debate; most people simply don't know much about it rather than holding wrong beliefs.",
+      "tags": [
+        "Health and Medicine",
+        "Infectious Disease",
+        "Autoimmune Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Epstein-Barr Virus and Infectious Mononucleosis",
+          "description": "CDC's comprehensive overview of EBV including symptoms, complications, and health effects",
+          "relevance": "Provides authoritative information on EBV dangers and associated health conditions"
+        },
+        {
+          "organization": "NIH/NINDS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Multiple Sclerosis and Epstein-Barr Virus Research",
+          "description": "NIH news release on major study linking EBV to multiple sclerosis development",
+          "relevance": "Addresses the specific question about EBV's role in autoimmune disease causation"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Epstein-Barr Virus Fact Sheet",
+          "description": "WHO's global health perspective on EBV infections, complications, and associated diseases",
+          "relevance": "International health authority's assessment of EBV risks and disease associations"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Epstein-Barr Virus and Multiple Sclerosis Systematic Review",
+          "description": "Systematic review examining the relationship between EBV infection and multiple sclerosis risk",
+          "relevance": "Provides evidence-based analysis of EBV's connection to autoimmune disease development"
+        }
+      ],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "crispr_gene_editing_treatments_actually",
+      "question": "Do CRISPR gene editing treatments actually work safely in humans?",
+      "priority": "low",
+      "rationale": "Corrects misconceptions about the current safety and effectiveness of approved CRISPR therapies",
+      "misinformation_narrative": "Many people believe CRISPR is either too dangerous for human use or think it's still purely experimental, when several CRISPR therapies have been approved and are successfully treating patients",
+      "public_stakes": "Fear of gene editing prevents patients from accessing life-saving treatments; overconfidence could lead to acceptance of insufficiently tested procedures",
+      "verification_status": "needs_review",
+      "verification_reason": "This reflects lack of public awareness about CRISPR progress rather than active misconceptions that people debate or promote.",
+      "tags": [
+        "Health and Medicine",
+        "Genetics",
+        "Medical Technology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: A gene-editing method generates immunotherapeutic CAR T cells in the body",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00634-5",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00857-6",
+          "date": "2026-03-23"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Approved Cellular and Gene Therapy Products",
+          "description": "FDA's official list of approved gene and cell therapy products, including CRISPR-based treatments with safety and efficacy data",
+          "relevance": "Provides regulatory approval status and safety information for CRISPR treatments actually approved for human use"
+        },
+        {
+          "organization": "NIH",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "ClinicalTrials.gov - Gene Editing Studies",
+          "description": "NIH database of clinical trials for CRISPR gene editing treatments showing safety outcomes and trial results",
+          "relevance": "Contains comprehensive data on safety and efficacy from ongoing and completed human trials of CRISPR treatments"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240030060",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Human Genome Editing: A Framework for Governance",
+          "description": "WHO's 2021 comprehensive report on human genome editing including safety considerations and regulatory recommendations",
+          "relevance": "Addresses safety standards and governance frameworks for human gene editing applications"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Gene therapy for inherited blindness",
+          "description": "Cochrane systematic review examining safety and efficacy of gene therapies for inherited retinal diseases",
+          "relevance": "Provides systematic review evidence on safety outcomes for approved gene editing treatments in humans"
+        }
+      ],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "bacterial_infections_actually_becoming_impossible",
+      "question": "Are bacterial infections actually becoming impossible to treat due to antibiotic resistance?",
+      "priority": "low",
+      "rationale": "Balances legitimate concerns about antibiotic resistance with realistic assessment of current treatment options and new developments",
+      "misinformation_narrative": "Media coverage often suggests we're returning to a pre-antibiotic era where all bacterial infections are untreatable, when most infections remain treatable and new approaches are being developed",
+      "public_stakes": "Excessive fear of antibiotic resistance may lead to avoiding necessary medical care; complacency prevents proper antibiotic stewardship",
+      "verification_status": "needs_review",
+      "verification_reason": "While media coverage exists, this isn't a widespread public misconception that people actively hold or discuss in meaningful numbers.",
+      "tags": [
+        "Health and Medicine",
+        "Infectious Disease",
+        "Antibiotic Resistance"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: An enzyme inside the bacterial-cell membrane chops up viral DNA on entry",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00732-4",
+          "date": "2026-03-23"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Zombieland: Genome transplant brings ‘dead’ bacteria back to life",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00938-6",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Antibiotic Resistance Threats in the United States, 2019",
+          "description": "CDC's comprehensive report detailing current antibiotic resistance threats, mortality data, and treatment outcomes",
+          "relevance": "Provides specific data on which infections remain treatable vs. those becoming difficult to treat, with mortality and morbidity statistics"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241509763",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Global Action Plan on Antimicrobial Resistance",
+          "description": "WHO's strategic framework addressing antimicrobial resistance globally with current treatment success rates",
+          "relevance": "Documents global scope of resistance while outlining that treatments remain available with proper stewardship"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niaid.nih.gov/node/7937?404message&requested_url=/research/antimicrobial-resistance-research",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Antimicrobial (Drug) Resistance Research",
+          "description": "NIH overview of current research into new treatments and combination therapies for resistant infections",
+          "relevance": "Shows active development of new treatments and current therapeutic options for resistant bacterial infections"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Antibiotic treatment for Clostridioides difficile-associated diarrhoea in adults",
+          "description": "Systematic review of treatment effectiveness for a commonly resistant bacterial infection",
+          "relevance": "Provides evidence-based assessment of current treatment success rates for specific resistant bacterial infections"
+        }
+      ],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "rex_actually_king_dinosaurs_were",
+      "question": "Is T. rex actually the king of dinosaurs, or were other predators more dominant?",
+      "priority": "low",
+      "rationale": "Corrects an iconic but scientifically inaccurate representation that affects how people understand prehistoric life and evolution",
+      "misinformation_narrative": "Popular culture portrays T. rex as the ultimate dinosaur predator, when paleontological evidence shows other predators were larger, more successful, or dominated different time periods",
+      "public_stakes": "While not directly harmful, dinosaur misconceptions affect science education, museum accuracy, and public understanding of evolutionary biology",
+      "verification_status": "needs_review",
+      "verification_reason": "This is more about pop culture representation than a genuine public misconception that people debate or believe despite contrary evidence.",
+      "tags": [
+        "Evolution",
+        "Paleontology",
+        "Science Education"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: The shocking fossils that show T. rex wasn't the king of the dinosaurs",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519003-the-shocking-fossils-that-show-t-rex-wasnt-the-king-of-the-dinosaurs/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-26",
+      "last_seen": "2026-03-26",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "car_cell_therapy_cure_lupus",

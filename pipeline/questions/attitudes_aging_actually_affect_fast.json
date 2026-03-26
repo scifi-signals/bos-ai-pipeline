@@ -1,0 +1,27 @@
+{
+  "id": "attitudes_aging_actually_affect_fast",
+  "question": "Can attitudes about aging actually affect how fast you age physically?",
+  "topic": "Challenges the common misconception that aging is purely biological, when psychosocial factors have ",
+  "tags": [
+    "Health and Medicine",
+    "Aging",
+    "Mental Health"
+  ],
+  "sources": [
+    {
+      "name": "Global Roadmap for Healthy Longevity",
+      "url": "https://www.nationalacademies.org/publications/26144",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-24"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "covid_pandemic_amnesia_making_unprepared",
+  "question": "Is COVID-19 pandemic amnesia making us unprepared for future pandemics?",
+  "topic": "Addresses the dangerous tendency to assume pandemic preparedness based on recent experience while ac",
+  "tags": [
+    "Public Health",
+    "Infectious Disease",
+    "Emergency Preparedness"
+  ],
+  "sources": [
+    {
+      "name": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+      "url": "https://www.nationalacademies.org/publications/26282",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+      "url": "https://www.nationalacademies.org/publications/26284",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines",
+      "url": "https://www.nationalacademies.org/publications/26285",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Opinion: Every pandemic is followed by amnesia. But Covid’s is very different",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/03/24/covid-amnesia-scapegoats-trump-maga/?utm_campaign=rss",
+      "date": "2026-03-24"
+    }
+  ]
+}

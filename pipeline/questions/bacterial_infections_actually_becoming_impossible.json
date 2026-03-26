@@ -1,0 +1,72 @@
+{
+  "id": "bacterial_infections_actually_becoming_impossible",
+  "question": "Are bacterial infections actually becoming impossible to treat due to antibiotic resistance?",
+  "topic": "Balances legitimate concerns about antibiotic resistance with realistic assessment of current treatm",
+  "tags": [
+    "Health and Medicine",
+    "Infectious Disease",
+    "Antibiotic Resistance"
+  ],
+  "sources": [
+    {
+      "name": "Antibiotic Resistance Threats in the United States, 2019 — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Global Action Plan on Antimicrobial Resistance — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241509763",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Core Elements of Hospital Antibiotic Stewardship Programs — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antimicrobial (Drug) Resistance Research — NIH/NIAID",
+      "url": "https://www.niaid.nih.gov/node/7937?404message&requested_url=/research/antimicrobial-resistance-research",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antibiotic treatment for Clostridioides difficile-associated diarrhoea in adults — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: An enzyme inside the bacterial-cell membrane chops up viral DNA on entry",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00732-4",
+      "date": "2026-03-23"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Zombieland: Genome transplant brings ‘dead’ bacteria back to life",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00938-6",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Zombieland: Genome transplant brings ‘dead’ bacteria back to life",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00938-6",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: ‘Zombie cells’ return from the dead — after a genome transplant",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00938-6",
+      "date": "2026-03-25"
+    }
+  ]
+}

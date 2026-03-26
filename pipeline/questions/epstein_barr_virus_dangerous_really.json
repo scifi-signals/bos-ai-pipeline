@@ -1,0 +1,51 @@
+{
+  "id": "epstein_barr_virus_dangerous_really",
+  "question": "Is the Epstein-Barr virus dangerous, and does it really cause autoimmune diseases?",
+  "topic": "Clarifies the real but nuanced health risks of EBV infection, which is widely misunderstood despite ",
+  "tags": [
+    "Health and Medicine",
+    "Infectious Disease",
+    "Autoimmune Disease"
+  ],
+  "sources": [
+    {
+      "name": "Epstein-Barr Virus and Infectious Mononucleosis — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Multiple Sclerosis and Epstein-Barr Virus Research — NIH/NINDS",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Epstein-Barr Virus Fact Sheet — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Epstein-Barr Virus and Cancer — NIH/NCI",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Epstein-Barr Virus and Multiple Sclerosis Systematic Review — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

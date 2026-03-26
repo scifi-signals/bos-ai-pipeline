@@ -1,0 +1,60 @@
+{
+  "id": "quantum_computers_actually_available_buy",
+  "question": "Are quantum computers actually available to buy, and what can they really do?",
+  "topic": "Corrects both excessive hype and dismissive skepticism about current quantum computing capabilities",
+  "tags": [
+    "Technology",
+    "Physics"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25499",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: You can now buy a DIY quantum computer",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-23"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: World’s first quantum battery could enable ultra fast charging",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260322020249.htm",
+      "date": "2026-03-23"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Physicists just turned glass into a powerful quantum security device",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260324024255.htm",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Long-distance quantum link generates entanglement faster than it is lost",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00804-5",
+      "date": "2026-03-25"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Hot things can freeze faster than cool ones. Now, this paradox has gone quantum",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/hot-things-can-freeze-faster-cool-ones-now-paradox-has-gone-quantum",
+      "date": "2026-03-25"
+    }
+  ]
+}

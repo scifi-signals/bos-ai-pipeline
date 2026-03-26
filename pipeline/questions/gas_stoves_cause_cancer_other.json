@@ -1,0 +1,45 @@
+{
+  "id": "gas_stoves_cause_cancer_other",
+  "question": "Do gas stoves cause cancer and other serious health problems?",
+  "topic": "Addresses polarized misinformation around gas stove safety, with both dismissal of real risks and ex",
+  "tags": [
+    "Health and Medicine",
+    "Environmental Health",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Indoor Air Quality: Nitrogen Dioxide (NO2) — EPA",
+      "url": "https://www.epa.gov/indoor-air-quality-iaq/nitrogen-dioxides-impact-indoor-air-quality",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Carbon Monoxide Poisoning Prevention — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Indoor Air Pollution and Cancer Risk — NIH/National Cancer Institute",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Household Air Pollution and Health — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Cancer-causing chemical found to be leaking from gas cookers",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520639-cancer-causing-chemical-found-to-be-leaking-from-gas-cookers/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-25"
+    }
+  ]
+}

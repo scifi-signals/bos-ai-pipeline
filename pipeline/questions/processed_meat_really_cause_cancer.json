@@ -1,0 +1,51 @@
+{
+  "id": "processed_meat_really_cause_cancer",
+  "question": "Does processed meat really cause cancer, and how much risk does it pose?",
+  "topic": "Clarifies the actual magnitude of cancer risk from processed meat consumption, which is often misund",
+  "tags": [
+    "Health and Medicine",
+    "Nutrition",
+    "Cancer Prevention"
+  ],
+  "sources": [
+    {
+      "name": "IARC Monographs on the Evaluation of Carcinogenic Risks to Humans - Volume 114: Red Meat and Processed Meat — WHO/IARC",
+      "url": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Red-Meat-And-Processed-Meat-2018",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Does Red Meat or Processed Meat Cause Cancer? — American Cancer Society",
+      "url": "https://www.cancer.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Colorectal Cancer Prevention: What Can You Do? — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Chemicals in Meat Cooked at High Temperatures and Cancer Risk — NIH/National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/cooked-meats-fact-sheet",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Diet, Nutrition, Physical Activity and Cancer: A Global Perspective - Continuous Update Project — World Cancer Research Fund",
+      "url": "https://www.wcrf.org/research-policy/global-cancer-update-programme/",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Most Americans don’t know this food raises colon cancer risk",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260324024259.htm",
+      "date": "2026-03-25"
+    }
+  ]
+}

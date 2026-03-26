@@ -1,0 +1,92 @@
+{
+  "id": "lupus_really_difficult_diagnose_new",
+  "question": "Is lupus really that difficult to diagnose, and are new treatments actually effective?",
+  "topic": "Corrects outdated perceptions about lupus diagnosis and treatment that prevent people from seeking a",
+  "tags": [
+    "Health and Medicine",
+    "Autoimmune Disease"
+  ],
+  "sources": [
+    {
+      "name": "Systemic Lupus Erythematosus (SLE) — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Handout on Health: Systemic Lupus Erythematosus — NIH/NIAMS",
+      "url": "https://www.niams.nih.gov/health-topics/lupus",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "FDA-Approved Treatments for Lupus — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Cochrane Reviews on Systemic Lupus Erythematosus — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Musculoskeletal conditions - Lupus — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Lupus diagnosis currently takes months to years; previously took 2-3 years to diagnose (improved from past decade)",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "No FDA-approved lupus treatments existed for 50 years until first approval ~20 years ago",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Three additional FDA-approved lupus interventions approved in recent years, with possibly two more in current year (2026)",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "First CAR-T cell therapy lupus patient in New England treated in 2023, still lupus-free and treatment-free after ~3 years",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Approximately 150 ongoing clinical trials for lupus and lupus nephritis worldwide",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "40+ clinical trials currently underway testing cell therapy modalities for lupus",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

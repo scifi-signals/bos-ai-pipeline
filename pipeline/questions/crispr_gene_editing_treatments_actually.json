@@ -1,0 +1,65 @@
+{
+  "id": "crispr_gene_editing_treatments_actually",
+  "question": "Do CRISPR gene editing treatments actually work safely in humans?",
+  "topic": "Corrects misconceptions about the current safety and effectiveness of approved CRISPR therapies",
+  "tags": [
+    "Health and Medicine",
+    "Genetics",
+    "Medical Technology"
+  ],
+  "sources": [
+    {
+      "name": "Approved Cellular and Gene Therapy Products — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "ClinicalTrials.gov - Gene Editing Studies — NIH",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Human Genome Editing: A Framework for Governance — WHO",
+      "url": "https://www.who.int/publications/i/item/9789240030060",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Gene therapy for inherited blindness — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human Gene Therapy for Retinal Disorders Guidance — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: A gene-editing method generates immunotherapeutic CAR T cells in the body",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00634-5",
+      "date": "2026-03-23"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00857-6",
+      "date": "2026-03-23"
+    },
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: CRISPR makes enhanced cancer-fighting immune cells inside mice",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00857-6",
+      "date": "2026-03-23"
+    }
+  ]
+}
