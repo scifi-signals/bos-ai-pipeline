@@ -1,0 +1,39 @@
+{
+  "id": "long_covid_real_medical_condition",
+  "question": "Is long COVID a real medical condition with identifiable biological markers?",
+  "topic": "Provides evidence-based validation of long COVID as a real condition while setting realistic expecta",
+  "tags": [
+    "Health and Medicine",
+    "Infectious Disease",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Long COVID or Post-COVID Conditions — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Post COVID-19 condition (Long COVID) — WHO",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-post-covid-19-condition",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "RECOVER Initiative - Researching COVID to Enhance Recovery — NIH",
+      "url": "https://recovercovid.org/",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists find immune cell linked to long COVID fatigue and symptoms",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260325005922.htm",
+      "date": "2026-03-26"
+    }
+  ]
+}

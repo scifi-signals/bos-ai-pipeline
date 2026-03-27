@@ -1,0 +1,55 @@
+{
+  "id": "negative_attitude_actually_accelerate_aging",
+  "question": "Can a negative attitude actually accelerate the aging process?",
+  "topic": "Provides evidence-based perspective on psychological factors in aging, correcting both dismissive an",
+  "tags": [
+    "Health and Medicine",
+    "Aging",
+    "Mental Health"
+  ],
+  "sources": [
+    {
+      "name": "Global Roadmap for Healthy Longevity",
+      "url": "https://www.nationalacademies.org/publications/26144",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists say NAD+ could slow aging and fight Alzheimer’s and Parkinson’s",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260324024253.htm",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: GLP-1 microdosers are chasing longevity",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/glp1-medications-microdose-longevity",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: New Genetic Disease Causes Premature Aging, Cognitive Decline",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/25/new_genetic_disease_causes_premature_aging_cognitive_decline_1172489.html",
+      "date": "2026-03-25"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: How working out like an astronaut can reduce back pain and slow ageing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-26"
+    }
+  ]
+}

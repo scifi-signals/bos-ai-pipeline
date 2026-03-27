@@ -1,0 +1,67 @@
+{
+  "id": "vaccines_cause_harm_diseases_they",
+  "question": "Do vaccines cause more harm than the diseases they prevent?",
+  "topic": "Directly counters dangerous vaccine misinformation with overwhelming scientific evidence from health",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "Rapid Medical Countermeasure Response to Infectious Diseases: Enabling Sustainable Capabilities Through Ongoing Public- and Private-Sector Partnerships: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/21809",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+      "url": "https://www.nationalacademies.org/publications/26284",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines",
+      "url": "https://www.nationalacademies.org/publications/26285",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: This common vaccine cuts heart risk nearly in half in new study",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260319044659.htm",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: New lipid nanoparticle design improves precision of mRNA vaccine delivery",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-lipid-nanoparticle-precision-mrna-vaccine.html",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Amid vaccine policy whiplash, here’s how a pediatrician talks to families",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/vaccine-policy-pediatric-advice-trump",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Federal judge temporarily blocks RFK Jr.’s vaccine agenda – an epidemiologist answers questions parents may have",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/federal-judge-temporarily-blocks-rfk-jr-s-vaccine-agenda-an-epidemiologist-answers-questions-parents-may-have-278709",
+      "date": "2026-03-24"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: STAT+: Pharmalittle: We’re reading about Iran war’s impact on pharma supply chain, a Pfizer Lyme vaccine, and more",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/pharmalot/2026/03/23/iran-war-pharma-supply-chain-pfizer-lyme-vaccine/?utm_campaign=rss",
+      "date": "2026-03-24"
+    }
+  ]
+}

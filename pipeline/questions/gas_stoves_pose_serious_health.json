@@ -1,0 +1,27 @@
+{
+  "id": "gas_stoves_pose_serious_health",
+  "question": "Do gas stoves pose serious health risks in homes?",
+  "topic": "Addresses emerging health concern with clear evidence while countering both dismissal of risks and p",
+  "tags": [
+    "Health and Medicine",
+    "Environmental Health",
+    "Home Safety"
+  ],
+  "sources": [
+    {
+      "name": "Indoor Air Quality - Nitrogen Dioxide (NO2) — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Cancer-causing chemical found to be leaking from gas cookers",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520639-cancer-causing-chemical-found-to-be-leaking-from-gas-cookers/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-25"
+    }
+  ]
+}

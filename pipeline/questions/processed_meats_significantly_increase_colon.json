@@ -1,0 +1,51 @@
+{
+  "id": "processed_meats_significantly_increase_colon",
+  "question": "Do processed meats significantly increase colon cancer risk?",
+  "topic": "Addresses a major but under-recognized dietary cancer risk with clear evidence from health authoriti",
+  "tags": [
+    "Health and Medicine",
+    "Nutrition",
+    "Cancer Prevention"
+  ],
+  "sources": [
+    {
+      "name": "IARC Monographs on the Identification of Carcinogenic Hazards to Humans - Red Meat and Processed Meat — WHO/IARC",
+      "url": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Diet and Physical Activity: What's the Cancer Connection? — American Cancer Society",
+      "url": "https://www.cancer.org/cancer/risk-prevention/diet-physical-activity/acs-guidelines-nutrition-physical-activity-cancer-prevention.html",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Diet, Nutrition, Physical Activity and Cancer: A Global Perspective - Continuous Update Project Expert Report 2018 — World Cancer Research Fund",
+      "url": "https://www.wcrf.org/wp-content/uploads/2024/11/Summary-of-Third-Expert-Report-2018.pdf",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Chemicals in Meat Cooked at High Temperatures and Cancer Risk — NIH National Cancer Institute",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/cooked-meats-fact-sheet",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Red meat and processed meat consumption and risk of incident coronary heart disease, stroke, and diabetes mellitus — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Most Americans don’t know this food raises colon cancer risk",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260324024259.htm",
+      "date": "2026-03-25"
+    }
+  ]
+}

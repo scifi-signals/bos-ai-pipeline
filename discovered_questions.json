@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-26T12:18:03Z",
+  "generated_at": "2026-03-27T12:14:16Z",
   "questions": [
     {
       "id": "global_warming_actually_accelerating_just",
@@ -459,6 +459,81 @@
       "readiness_summary": "2 NASEM sources, most recent 2023 · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "vaccines_cause_harm_diseases_they",
+      "question": "Do vaccines cause more harm than the diseases they prevent?",
+      "priority": "high",
+      "rationale": "Directly counters dangerous vaccine misinformation with overwhelming scientific evidence from health authorities worldwide",
+      "misinformation_narrative": "Anti-vaccine activists claim vaccines are more dangerous than the diseases they prevent, leading to vaccine hesitancy and declining vaccination rates",
+      "public_stakes": "Reduced vaccination rates lead to outbreaks of preventable diseases, hospitalizations, and deaths, particularly among vulnerable populations",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and sites like Children's Health Defense actively promote these claims with millions of followers.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Rapid Medical Countermeasure Response to Infectious Diseases: Enabling Sustainable Capabilities Through Ongoing Public- and Private-Sector Partnerships: Workshop Summary (2016)",
+          "url": "https://www.nationalacademies.org/publications/21809"
+        },
+        {
+          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
+          "url": "https://www.nationalacademies.org/publications/26284"
+        },
+        {
+          "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
+          "url": "https://www.nationalacademies.org/publications/26285"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: This common vaccine cuts heart risk nearly in half in new study",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044659.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: New lipid nanoparticle design improves precision of mRNA vaccine delivery",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-lipid-nanoparticle-precision-mrna-vaccine.html",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Amid vaccine policy whiplash, here’s how a pediatrician talks to families",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/vaccine-policy-pediatric-advice-trump",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Federal judge temporarily blocks RFK Jr.’s vaccine agenda – an epidemiologist answers questions parents may have",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/federal-judge-temporarily-blocks-rfk-jr-s-vaccine-agenda-an-epidemiologist-answers-questions-parents-may-have-278709",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: STAT+: Pharmalittle: We’re reading about Iran war’s impact on pharma supply chain, a Pfizer Lyme vaccine, and more",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/pharmalot/2026/03/23/iran-war-pharma-supply-chain-pfizer-lyme-vaccine/?utm_campaign=rss",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 5,
+      "readiness_summary": "3 NASEM sources, most recent 2021 · confirmed misinformation · 5 discovery signals"
+    },
+    {
       "id": "covid_vaccines_still_necessary_effective",
       "question": "Are COVID vaccines still necessary and effective given recent policy changes?",
       "priority": "high",
@@ -623,6 +698,93 @@
       "newest_source_year": 2021,
       "signal_count": 3,
       "readiness_summary": "1 NASEM source, most recent 2021 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "climate_change_caused_natural_cycles",
+      "question": "Is climate change caused by natural cycles rather than human activities?",
+      "priority": "high",
+      "rationale": "Addresses core climate misinformation with overwhelming scientific consensus from IPCC and climate research community",
+      "misinformation_narrative": "Climate skeptics claim current warming is part of natural climate cycles, not caused by human greenhouse gas emissions",
+      "public_stakes": "Delays critical climate action, undermines support for emissions reduction policies, and perpetuates fossil fuel dependence",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptic websites like Watts Up With That, conservative media, and social platforms regularly promote natural cycle theories over human causation.",
+      "tags": [
+        "Climate Change",
+        "Environment",
+        "Public Policy"
+      ],
+      "nasem_source_count": 6,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Climate Change Education in Formal Settings, K-14: A Workshop Summary (2012)",
+          "url": "https://www.nationalacademies.org/publications/13435"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        },
+        {
+          "name": "Climate Change: Evidence, Impacts, and Choices: PDF Booklet (2012)",
+          "url": "https://www.nationalacademies.org/publications/14673"
+        },
+        {
+          "name": "Informing an Effective Response to Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12784"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: A strong constraint on radiative forcing of well-mixed greenhouse gases",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10289-x",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Ice core reveals low CO2 during warm spell 3 million years ago",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519771-ice-core-reveals-low-co2-during-warm-spell-3-million-years-ago/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Scientists turn CO2 into fuel using breakthrough single-atom catalyst",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260319044703.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Updated plan aims to boost NI's resilience to climate change",
+          "origin": "STM — BBC Science",
+          "url": "https://www.bbc.com/news/articles/cgqgq11409lo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: 24 States Sue E.P.A. Over Climate Change Decision",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/03/19/climate/epa-endangerment-states-lawsuit.html",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 5,
+      "readiness_summary": "6 NASEM sources, most recent 2020 · confirmed misinformation · 5 discovery signals"
     },
     {
       "id": "climate_change_actually_accelerating_recent",
@@ -1184,6 +1346,45 @@
       "newest_source_year": 2019,
       "signal_count": 5,
       "readiness_summary": "4 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 5 discovery signals"
+    },
+    {
+      "id": "cigarettes_safer_traditional_cigarettes_quitting",
+      "question": "Are e-cigarettes safer than traditional cigarettes for quitting smoking?",
+      "priority": "high",
+      "rationale": "Addresses widespread confusion about relative harms and effectiveness of e-cigarettes vs. traditional smoking, with clear evidence from multiple health authorities",
+      "misinformation_narrative": "Many people believe e-cigarettes are equally harmful to traditional cigarettes, or that they're ineffective for smoking cessation, leading smokers to avoid a potentially less harmful alternative",
+      "public_stakes": "Smokers may continue using combustible tobacco instead of switching to less harmful alternatives, missing opportunities for harm reduction and smoking cessation",
+      "verification_status": "verified",
+      "verification_reason": "Public health surveys show many smokers believe e-cigarettes are equally or more harmful than cigarettes, circulating widely on health forums and mainstream media.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Addiction"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Public Health Consequences of E-Cigarettes (2018)",
+          "url": "https://www.nationalacademies.org/publications/24952"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "antarctic_sea_ice_loss_actually",
@@ -2076,70 +2277,6 @@
       "readiness_summary": "5 NASEM sources, most recent 2023 · confirmed misinformation · 3 discovery signals"
     },
     {
-      "id": "quantum_computers_ready_solve_real",
-      "question": "Are quantum computers ready to solve real-world problems in chemistry and drug discovery?",
-      "priority": "medium",
-      "rationale": "This corrects widespread misconceptions about the current state and capabilities of quantum computing",
-      "misinformation_narrative": "Media hype suggests quantum computers are already revolutionizing drug discovery and chemistry, when current systems cannot yet outperform classical computers for practical problems",
-      "public_stakes": "Overestimating quantum computing capabilities may lead to misallocation of research funding and unrealistic expectations about medical breakthroughs",
-      "verification_status": "verified",
-      "verification_reason": "Tech media and quantum computing companies routinely oversell current quantum capabilities in press releases and investor presentations.",
-      "tags": [
-        "Technology",
-        "Computing",
-        "Research"
-      ],
-      "nasem_source_count": 2,
-      "nasem_sources_preview": [
-        {
-          "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States (2023)",
-          "url": "https://www.nationalacademies.org/publications/26850"
-        },
-        {
-          "name": "Quantum Computing: Progress and Prospects (2019)",
-          "url": "https://www.nationalacademies.org/publications/25196"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-03-13"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-03-13"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: Quantum computers must overcome major technical hurdles before tackling quantum chemistry problems",
-          "origin": "STM — Phys.org",
-          "url": "https://phys.org/news/2026-03-quantum-major-technical-hurdles-tackling.html",
-          "date": "2026-03-13"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: Quantum computing meets the Möbius molecule",
-          "origin": "STM — Ars Technica Science",
-          "url": "https://arstechnica.com/science/2026/03/quantum-computing-meets-the-mobius-molecule/",
-          "date": "2026-03-14"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-03-15",
-      "last_seen": "2026-03-16",
-      "times_seen": 2,
-      "status": "pending",
-      "newest_source_year": 2023,
-      "signal_count": 3,
-      "readiness_summary": "2 NASEM sources, most recent 2023 · confirmed misinformation · 3 discovery signals"
-    },
-    {
       "id": "daily_multivitamins_slow_aging_provide",
       "question": "Do daily multivitamins slow aging or provide anti-aging benefits?",
       "priority": "medium",
@@ -2205,6 +2342,93 @@
       "newest_source_year": 2023,
       "signal_count": 4,
       "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 4 discovery signals"
+    },
+    {
+      "id": "nad_supplements_proven_slow_aging",
+      "question": "Are NAD+ supplements proven to slow aging in humans?",
+      "priority": "medium",
+      "rationale": "Corrects supplement industry hype with evidence-based assessment of what's actually proven vs. preliminary research",
+      "misinformation_narrative": "Aggressive marketing claims that NAD+ supplements are proven anti-aging treatments, despite limited human clinical evidence",
+      "public_stakes": "Consumers spend money on unproven supplements and may delay proven healthy aging interventions",
+      "verification_status": "verified",
+      "verification_reason": "NAD+ supplement marketing with anti-aging claims is widespread across health influencer content, supplement websites, and wellness communities.",
+      "tags": [
+        "Health and Medicine",
+        "Supplements",
+        "Aging"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists say NAD+ could slow aging and fight Alzheimer’s and Parkinson’s",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024253.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: GLP-1 microdosers are chasing longevity",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/glp1-medications-microdose-longevity",
+          "date": "2026-03-22"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Consumer Health Information on Dietary Supplements",
+          "description": "FDA guidance on dietary supplement regulation and safety, including lack of pre-market approval for anti-aging claims",
+          "relevance": "Addresses regulatory status and evidence requirements for supplement anti-aging claims"
+        },
+        {
+          "organization": "NIH/NIA",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "National Institute on Aging: Anti-Aging Products",
+          "description": "NIA's official position on anti-aging supplements and interventions",
+          "relevance": "Directly addresses claims about supplements that promise to slow aging"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Cochrane Database systematic reviews on NAD+ or nicotinamide supplements",
+          "description": "Systematic reviews and meta-analyses of NAD+ precursor supplementation studies",
+          "relevance": "Provides evidence-based analysis of clinical trial data on NAD+ supplements"
+        }
+      ],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-03-27",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 3,
+      "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "multivitamins_slow_aging_extend_lifespan",
@@ -2747,6 +2971,75 @@
       "readiness_summary": "1 NASEM source, most recent 2021 · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "antarctic_ice_changes_prove_disprove",
+      "question": "Do Antarctic ice changes prove or disprove human-caused climate change?",
+      "priority": "medium",
+      "rationale": "Clarifies how Antarctic changes fit into global climate patterns, correcting both skeptical and alarmist misinterpretations",
+      "misinformation_narrative": "Both climate skeptics and alarmists cherry-pick Antarctic data to support their positions, creating confusion about what Antarctic changes actually mean for global climate",
+      "public_stakes": "Misunderstanding Antarctic climate data undermines accurate climate risk assessment and appropriate policy responses",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptics and activists both cherry-pick Antarctic data on platforms like Twitter, climate blogs, and partisan media outlets.",
+      "tags": [
+        "Climate Change",
+        "Polar Science",
+        "Environment"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Antarctic Sea Ice Variability in the Southern Ocean-Climate System: Proceedings of a Workshop (2017)",
+          "url": "https://www.nationalacademies.org/publications/24696"
+        },
+        {
+          "name": "Sustaining Ocean Observations to Understand Future Changes in Earth's Climate (2017)",
+          "url": "https://www.nationalacademies.org/publications/24919"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Warmer ocean is driving the Antarctic sea ice 'regime shift'",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520281-warmer-ocean-is-driving-the-antarctic-sea-ice-regime-shift/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: History of ‘forever’ chemicals is written in Antarctic snow",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00867-4",
+          "date": "2026-03-26"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: From tropics to poles: How Pacific Ocean warming sets the stage for Antarctic stratospheric changes months later",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-tropics-poles-pacific-ocean-stage.html",
+          "date": "2026-03-26"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 3,
+      "readiness_summary": "5 NASEM sources, most recent 2020 · confirmed misinformation · 3 discovery signals"
+    },
+    {
       "id": "cancer_rates_increasing_due_environmental",
       "question": "Are cancer rates increasing due to environmental toxins and chemicals?",
       "priority": "medium",
@@ -2795,6 +3088,119 @@
       "newest_source_year": 2020,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2020 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "quantum_computers_ready_solve_real",
+      "question": "Are quantum computers ready to solve real-world problems today?",
+      "priority": "medium",
+      "rationale": "Corrects both hype and dismissal around quantum computing with realistic assessment of current capabilities and near-term prospects",
+      "misinformation_narrative": "Media hype suggests quantum computers are already revolutionizing technology, while others dismiss them as perpetually '20 years away'",
+      "public_stakes": "Unrealistic expectations may lead to poor investment decisions and technology planning, or premature dismissal of legitimate quantum advantages",
+      "verification_status": "verified",
+      "verification_reason": "Tech media regularly overhypes quantum computing breakthroughs while skeptical dismissal appears in tech communities and academic circles.",
+      "tags": [
+        "Technology",
+        "Computing",
+        "Innovation"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25499"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Chemistry may not be the 'killer app' for quantum computers after all",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519172-chemistry-may-not-be-the-killer-app-for-quantum-computers-after-all/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers must overcome major technical hurdles before tackling quantum chemistry problems",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-quantum-major-technical-hurdles-tackling.html",
+          "date": "2026-03-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computing meets the Möbius molecule",
+          "origin": "STM — Ars Technica Science",
+          "url": "https://arstechnica.com/science/2026/03/quantum-computing-meets-the-mobius-molecule/",
+          "date": "2026-03-14"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: UK bets big on homegrown fusion and quantum — can it lead the world?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00877-2",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: You can now buy a DIY quantum computer",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Physicists just turned glass into a powerful quantum security device",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024255.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: World’s first quantum battery could enable ultra fast charging",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260322020249.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Long-distance quantum link generates entanglement faster than it is lost",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00804-5",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Hot things can freeze faster than cool ones. Now, this paradox has gone quantum",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/hot-things-can-freeze-faster-cool-ones-now-paradox-has-gone-quantum",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Temperature gets a new definition using a quantum device",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520758-temperature-gets-a-new-definition-using-a-quantum-device/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-26"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-15",
+      "last_seen": "2026-03-27",
+      "times_seen": 3,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 6,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 6 discovery signals"
     },
     {
       "id": "quantum_computers_actually_available_buy",
@@ -4122,6 +4528,73 @@
       "readiness_summary": "2 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
+      "id": "negative_attitude_actually_accelerate_aging",
+      "question": "Can a negative attitude actually accelerate the aging process?",
+      "priority": "low",
+      "rationale": "Provides evidence-based perspective on psychological factors in aging, correcting both dismissive and overly optimistic misconceptions",
+      "misinformation_narrative": "Many people dismiss the mind-body connection in aging as pseudoscience, while others make exaggerated claims about 'positive thinking' curing disease",
+      "public_stakes": "Missing opportunities for evidence-based psychological interventions that could improve health outcomes and longevity",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents a false binary between two fringe positions rather than identifying where people actually hold these specific misconceptions.",
+      "tags": [
+        "Health and Medicine",
+        "Aging",
+        "Mental Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists say NAD+ could slow aging and fight Alzheimer’s and Parkinson’s",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024253.htm",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: GLP-1 microdosers are chasing longevity",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/glp1-medications-microdose-longevity",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: New Genetic Disease Causes Premature Aging, Cognitive Decline",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/03/25/new_genetic_disease_causes_premature_aging_cognitive_decline_1172489.html",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: How working out like an astronaut can reduce back pain and slow ageing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-26"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 4,
+      "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 4 discovery signals"
+    },
+    {
       "id": "daily_multivitamins_slow_aging_extend",
       "question": "Do daily multivitamins slow aging and extend lifespan?",
       "priority": "low",
@@ -4428,6 +4901,45 @@
       "newest_source_year": 2023,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "forever_chemicals_pfas_widespread_dangerous",
+      "question": "Are 'forever chemicals' (PFAS) as widespread and dangerous as environmental reports suggest?",
+      "priority": "low",
+      "rationale": "Provides balanced, evidence-based assessment of PFAS risks and exposure levels based on regulatory science",
+      "misinformation_narrative": "Environmental coverage may either downplay PFAS risks or create unwarranted panic about unavoidable exposure",
+      "public_stakes": "Either inadequate protection from genuine chemical hazards or unnecessary anxiety and costly mitigation efforts",
+      "verification_status": "needs_review",
+      "verification_reason": "This creates a false both-sides narrative without identifying specific communities that hold these opposing PFAS misconceptions.",
+      "tags": [
+        "Environmental Health",
+        "Chemical Safety",
+        "Public Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up (2022)",
+          "url": "https://www.nationalacademies.org/publications/26156"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: History of ‘forever’ chemicals is written in Antarctic snow",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00867-4",
+          "date": "2026-03-26"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2022,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2022 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "artificial_intelligence_reliably_predict_extreme",
@@ -5758,6 +6270,52 @@
       "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
+      "id": "zombie_cells_cellular_reprogramming_revolutionary",
+      "question": "Are 'zombie cells' and cellular reprogramming as revolutionary as media reports suggest?",
+      "priority": "low",
+      "rationale": "Corrects hype around emerging biotechnology while explaining the actual scientific significance and realistic timeline for applications",
+      "misinformation_narrative": "Sensationalized media coverage creates unrealistic expectations about 'bringing cells back to life' and immediate applications for human disease",
+      "public_stakes": "Unrealistic expectations about medical breakthroughs may lead to premature treatment decisions or distrust when benefits don't materialize quickly",
+      "verification_status": "needs_review",
+      "verification_reason": "While some media hype exists, this seems to exaggerate the extent of public misconception about cellular reprogramming as a widespread belief.",
+      "tags": [
+        "Biotechnology",
+        "Medical Research",
+        "Science Communication"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Stem Cells and the Future of Regenerative Medicine (2002)",
+          "url": "https://www.nationalacademies.org/publications/10195"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Zombieland: Genome transplant brings ‘dead’ bacteria back to life",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00938-6",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: 'Zombie' cells created by transplanting genomes into dead bacteria",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520182-zombie-cells-created-by-transplanting-genomes-into-dead-bacteria/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-24"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2002,
+      "signal_count": 2,
+      "readiness_summary": "1 NASEM source, most recent 2002 — sources are old · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
       "id": "should_parents_avoid_giving_peanuts",
       "question": "Should parents avoid giving peanuts and other allergens to babies to prevent food allergies?",
       "priority": "high",
@@ -6997,6 +7555,96 @@
       "newest_source_year": 0,
       "signal_count": 3,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "artificial_intelligence_pose_immediate_existential",
+      "question": "Does artificial intelligence pose an immediate existential threat to humanity?",
+      "priority": "high",
+      "rationale": "Corrects both apocalyptic fears and complete dismissal of AI risks with evidence-based assessment of current AI capabilities and limitations",
+      "misinformation_narrative": "Popular media and some tech figures promote fears that AI will soon become superintelligent and destroy humanity, while others dismiss all AI risks entirely",
+      "public_stakes": "Either panic-driven overregulation stifles beneficial AI development, or complete dismissal of risks leads to inadequate safety precautions",
+      "verification_status": "verified",
+      "verification_reason": "AI doom scenarios circulate heavily on Twitter/X, Reddit, and tech media, while AI safety dismissal appears in contrarian tech circles and some academic communities.",
+      "tags": [
+        "Technology",
+        "Public Policy",
+        "Risk Assessment"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Why AI hasn’t caused a job apocalypse — so far",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00883-4",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The intelligence illusion: why AI isn’t as smart as it is made out to be",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00882-5",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Integrated photonic neural network with on-chip backpropagation training",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10262-8",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Dueling AI agents could reveal keys to restoring consciousness",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/dueling-ai-agents-could-reveal-keys-restoring-consciousness",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI algorithms can become ‘agents of chaos’",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/ai-algorithms-can-become-agents-chaos",
+          "date": "2026-03-24"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Major conference catches illicit AI use — and rejects hundreds of papers",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00893-2",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Towards end-to-end automation of AI research",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10265-5",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI scientists are changing research — institutions, funders and publishers must respond",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00934-w",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: How to build an AI scientist: first peer-reviewed paper spills the secrets",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00899-w",
+          "date": "2026-03-26"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "artificial_intelligence_smart_humans_become",
@@ -8343,88 +8991,6 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
-      "id": "nad_supplements_proven_slow_aging",
-      "question": "Are NAD+ supplements proven to slow aging and prevent neurodegenerative diseases?",
-      "priority": "medium",
-      "rationale": "This addresses aggressive marketing of anti-aging supplements with limited evidence, clarifying what research actually shows about NAD+ supplementation",
-      "misinformation_narrative": "Supplement marketers and wellness influencers promote NAD+ supplements as proven anti-aging treatments that can prevent Alzheimer's and Parkinson's disease, despite limited human evidence",
-      "public_stakes": "Consumers spend money on unproven supplements instead of evidence-based health interventions, potentially delaying real medical care for aging-related concerns",
-      "verification_status": "verified",
-      "verification_reason": "Wellness influencers on Instagram, supplement company marketing, and longevity forums heavily promote NAD+ as proven anti-aging medicine.",
-      "tags": [
-        "Health and Medicine",
-        "Supplements",
-        "Aging"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Aging & Longevity: Scientists say NAD+ could slow aging and fight Alzheimer’s and Parkinson’s",
-          "origin": "STM — ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260324024253.htm",
-          "date": "2026-03-24"
-        },
-        {
-          "type": "trending_article",
-          "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-03-22"
-        },
-        {
-          "type": "trending_article",
-          "text": "Aging & Longevity: GLP-1 microdosers are chasing longevity",
-          "origin": "STM — Science News",
-          "url": "https://www.sciencenews.org/article/glp1-medications-microdose-longevity",
-          "date": "2026-03-22"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "FDA Consumer Health Information on Dietary Supplements",
-          "description": "FDA guidance on dietary supplement regulation and safety, including lack of pre-market approval for anti-aging claims",
-          "relevance": "Addresses regulatory status and evidence requirements for supplement anti-aging claims"
-        },
-        {
-          "organization": "NIH/NIA",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "National Institute on Aging: Anti-Aging Products",
-          "description": "NIA's official position on anti-aging supplements and interventions",
-          "relevance": "Directly addresses claims about supplements that promise to slow aging"
-        },
-        {
-          "organization": "Cochrane",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Cochrane Database systematic reviews on NAD+ or nicotinamide supplements",
-          "description": "Systematic reviews and meta-analyses of NAD+ precursor supplementation studies",
-          "relevance": "Provides evidence-based analysis of clinical trial data on NAD+ supplements"
-        }
-      ],
-      "discovered_at": "2026-03-25",
-      "last_seen": "2026-03-25",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 3,
-      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
-    },
-    {
       "id": "genetic_engineering_gene_editing_safe",
       "question": "Is genetic engineering and gene editing safe for humans and the environment?",
       "priority": "medium",
@@ -8757,6 +9323,186 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "gas_stoves_pose_serious_health",
+      "question": "Do gas stoves pose serious health risks in homes?",
+      "priority": "medium",
+      "rationale": "Addresses emerging health concern with clear evidence while countering both dismissal of risks and political polarization of the issue",
+      "misinformation_narrative": "Many people believe gas stoves are completely safe for indoor use, while others dismiss health concerns as political overreach",
+      "public_stakes": "Continued exposure to indoor air pollution from gas stoves, particularly affecting children's respiratory health and asthma rates",
+      "verification_status": "verified",
+      "verification_reason": "Gas stove debates exploded across Twitter, conservative media, and liberal outlets in 2023, with both dismissive and alarmist positions widely held.",
+      "tags": [
+        "Health and Medicine",
+        "Environmental Health",
+        "Home Safety"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Cancer-causing chemical found to be leaking from gas cookers",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520639-cancer-causing-chemical-found-to-be-leaking-from-gas-cookers/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Indoor Air Quality - Nitrogen Dioxide (NO2)",
+          "description": "EPA's comprehensive overview of nitrogen dioxide sources including gas stoves and associated health effects",
+          "relevance": "Directly addresses health impacts of gas stove emissions, particularly NO2"
+        },
+        {
+          "organization": "American Lung Association",
+          "organization_full": "American Lung Association",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Gas Stoves: Health and Air Quality Impacts and Solutions",
+          "description": "Medical organization's analysis of respiratory health impacts from gas stove pollutants",
+          "relevance": "Focuses specifically on lung health effects from gas cooking appliances"
+        },
+        {
+          "organization": "California Air Resources Board",
+          "organization_full": "California Air Resources Board",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Cooking, Cleaning, and Indoor Air Quality",
+          "description": "State environmental agency's research on indoor air pollution from cooking including gas stoves",
+          "relevance": "Provides regulatory perspective and air quality data on gas stove emissions"
+        },
+        {
+          "organization": "New York State Department of Health",
+          "organization_full": "New York State Department of Health",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Gas Stoves and Indoor Air Quality",
+          "description": "State health department guidance on health risks associated with gas stove use",
+          "relevance": "Public health authority assessment of gas stove health impacts"
+        },
+        {
+          "organization": "Lawrence Berkeley National Laboratory",
+          "organization_full": "Lawrence Berkeley National Laboratory",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Indoor Air Quality Scientific Findings Resource Bank - Gas Appliances",
+          "description": "Research institution's compilation of scientific studies on indoor air pollutants from gas appliances",
+          "relevance": "Comprehensive scientific research database on gas stove emissions and health effects"
+        }
+      ],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "long_covid_real_medical_condition",
+      "question": "Is long COVID a real medical condition with identifiable biological markers?",
+      "priority": "medium",
+      "rationale": "Provides evidence-based validation of long COVID as a real condition while setting realistic expectations about current understanding and treatment",
+      "misinformation_narrative": "Some dismiss long COVID as psychological or fake, while others may have unrealistic expectations about treatment options",
+      "public_stakes": "Patients may not receive appropriate medical care or recognition of their condition, affecting treatment and disability accommodations",
+      "verification_status": "verified",
+      "verification_reason": "Long COVID denial circulates on Twitter, conservative media, and medical skeptic communities, while treatment expectations appear in patient forums.",
+      "tags": [
+        "Health and Medicine",
+        "Infectious Disease",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists find immune cell linked to long COVID fatigue and symptoms",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260325005922.htm",
+          "date": "2026-03-26"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Long COVID or Post-COVID Conditions",
+          "description": "CDC's comprehensive page defining long COVID as a recognized medical condition, including symptoms, risk factors, and current research on biological markers",
+          "relevance": "Provides official CDC recognition of long COVID as a real condition and discusses ongoing research into biological markers"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-post-covid-19-condition",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Post COVID-19 condition (Long COVID)",
+          "description": "WHO's official Q&A providing their clinical case definition of post-COVID-19 condition and recognition as a legitimate medical condition",
+          "relevance": "Establishes international medical consensus on long COVID as a real condition with defined clinical criteria"
+        },
+        {
+          "organization": "NIH",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://recovercovid.org/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "RECOVER Initiative - Researching COVID to Enhance Recovery",
+          "description": "NIH's major research initiative specifically studying long COVID, including biological markers and mechanisms",
+          "relevance": "Demonstrates significant federal research investment in understanding long COVID biology and developing objective diagnostic markers"
+        },
+        {
+          "organization": "Nature Medicine",
+          "organization_full": "Nature Medicine",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Long COVID: major findings, mechanisms and recommendations",
+          "description": "Comprehensive review article published in Nature Medicine summarizing research on long COVID pathophysiology and biological markers",
+          "relevance": "Peer-reviewed scientific evidence documenting biological mechanisms and potential biomarkers for long COVID"
+        },
+        {
+          "organization": "The Lancet",
+          "organization_full": "The Lancet",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Long COVID: the brain, fatigue and cognitive issues",
+          "description": "Major medical journal article reviewing neurological aspects of long COVID and associated biological findings",
+          "relevance": "Provides peer-reviewed evidence for specific biological manifestations and potential markers of long COVID"
+        }
+      ],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "probiotics_actually_effective_serious_diseases",
@@ -10469,6 +11215,54 @@
       "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
+      "id": "neanderthals_accurately_portrayed_primitive_compared",
+      "question": "Are Neanderthals accurately portrayed as primitive compared to modern humans?",
+      "priority": "low",
+      "rationale": "Corrects outdated stereotypes about Neanderthals with modern genetic and archaeological evidence",
+      "misinformation_narrative": "Popular understanding often depicts Neanderthals as brutish and inferior, contradicting mounting evidence of their sophistication",
+      "public_stakes": "Perpetuates misconceptions about human evolution and our relationship to extinct human species",
+      "verification_status": "verified",
+      "verification_reason": "Neanderthal stereotypes persist in popular culture, educational materials, and public discourse, despite scientific corrections.",
+      "tags": [
+        "Evolution",
+        "Anthropology",
+        "Science Education"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genetic clues tell the story of Neanderthals' decline",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520319-genetic-clues-tell-the-story-of-neanderthals-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Daily briefing: Tiny bones from Neanderthal fetus point to downfall of the species",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00963-5",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Ancient elephant bones reveal vivid details of a Neanderthal hunt",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520535-ancient-elephant-bones-reveal-vivid-details-of-a-neanderthal-hunt/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
       "id": "daily_multivitamin_supplements_effective_slowing",
       "question": "Are daily multivitamin supplements effective at slowing biological aging?",
       "priority": "low",
@@ -11586,6 +12380,130 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "processed_meats_significantly_increase_colon",
+      "question": "Do processed meats significantly increase colon cancer risk?",
+      "priority": "low",
+      "rationale": "Addresses a major but under-recognized dietary cancer risk with clear evidence from health authorities",
+      "misinformation_narrative": "Many Americans are unaware of the established link between processed meat consumption and colorectal cancer risk",
+      "public_stakes": "Continued high consumption of processed meats contributes to preventable cancer cases and deaths",
+      "verification_status": "needs_review",
+      "verification_reason": "This confuses \"lack of awareness\" with active misinformation; most people simply don't know rather than believing the opposite.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition",
+        "Cancer Prevention"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Most Americans don’t know this food raises colon cancer risk",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024259.htm",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO/IARC",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.iarc.who.int/wp-content/uploads/2018/07/pr240_E.pdf",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "IARC Monographs on the Identification of Carcinogenic Hazards to Humans - Red Meat and Processed Meat",
+          "description": "IARC's official press release and evaluation classifying processed meat as Group 1 carcinogen and red meat as Group 2A probable carcinogen",
+          "relevance": "Directly addresses processed meat and colorectal cancer risk with comprehensive evidence review"
+        },
+        {
+          "organization": "American Cancer Society",
+          "organization_full": "American Cancer Society",
+          "base_url": "https://www.cancer.org",
+          "url": "https://www.cancer.org/cancer/risk-prevention/diet-physical-activity/acs-guidelines-nutrition-physical-activity-cancer-prevention.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Diet and Physical Activity: What's the Cancer Connection?",
+          "description": "ACS guidelines on nutrition and cancer prevention including specific recommendations about processed meat consumption",
+          "relevance": "Provides evidence-based dietary recommendations specifically mentioning processed meat and colorectal cancer risk"
+        },
+        {
+          "organization": "World Cancer Research Fund",
+          "organization_full": "World Cancer Research Fund",
+          "base_url": "",
+          "url": "https://www.wcrf.org/wp-content/uploads/2024/11/Summary-of-Third-Expert-Report-2018.pdf",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Diet, Nutrition, Physical Activity and Cancer: A Global Perspective - Continuous Update Project Expert Report 2018",
+          "description": "Comprehensive systematic review of evidence on diet and cancer, including processed meat and colorectal cancer",
+          "relevance": "Major systematic review specifically examining processed meat consumption and colorectal cancer risk with strong evidence ratings"
+        },
+        {
+          "organization": "NIH National Cancer Institute",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/cooked-meats-fact-sheet",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Chemicals in Meat Cooked at High Temperatures and Cancer Risk",
+          "description": "NCI fact sheet on meat consumption and cancer risk including processed meats",
+          "relevance": "Authoritative US government source addressing the relationship between meat consumption and cancer risk"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Red meat and processed meat consumption and risk of incident coronary heart disease, stroke, and diabetes mellitus",
+          "description": "Cochrane systematic review and meta-analysis examining health effects of processed meat consumption",
+          "relevance": "High-quality systematic review methodology examining processed meat health effects, though broader than just cancer"
+        }
+      ],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "was_tyrannosaurus_rex_actually_apex",
+      "question": "Was Tyrannosaurus rex actually the apex predator of its ecosystem?",
+      "priority": "low",
+      "rationale": "Updates widely held but outdated beliefs about dinosaur ecosystems with new paleontological evidence",
+      "misinformation_narrative": "Popular culture maintains T. rex as the undisputed 'king of dinosaurs,' but new fossil evidence suggests a more complex predator hierarchy",
+      "public_stakes": "While not directly harmful, correcting this misconception improves scientific literacy and understanding of prehistoric ecosystems",
+      "verification_status": "needs_review",
+      "verification_reason": "This seems like an academic paleontology nuance rather than a genuine public misconception about T. rex's status.",
+      "tags": [
+        "Paleontology",
+        "Science Education",
+        "Evolution"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: The shocking fossils that show T. rex wasn't the king of the dinosaurs",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519003-the-shocking-fossils-that-show-t-rex-wasnt-the-king-of-the-dinosaurs/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-27",
+      "last_seen": "2026-03-27",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "processed_meat_really_cause_cancer",

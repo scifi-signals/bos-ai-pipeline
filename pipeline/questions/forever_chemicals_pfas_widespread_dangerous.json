@@ -1,0 +1,27 @@
+{
+  "id": "forever_chemicals_pfas_widespread_dangerous",
+  "question": "Are 'forever chemicals' (PFAS) as widespread and dangerous as environmental reports suggest?",
+  "topic": "Provides balanced, evidence-based assessment of PFAS risks and exposure levels based on regulatory s",
+  "tags": [
+    "Environmental Health",
+    "Chemical Safety",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+      "url": "https://www.nationalacademies.org/publications/26156",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: History of ‘forever’ chemicals is written in Antarctic snow",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00867-4",
+      "date": "2026-03-26"
+    }
+  ]
+}
