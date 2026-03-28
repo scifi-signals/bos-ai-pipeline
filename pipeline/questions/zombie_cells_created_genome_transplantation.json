@@ -1,0 +1,47 @@
+{
+  "id": "zombie_cells_created_genome_transplantation",
+  "question": "Do 'zombie cells' created by genome transplantation represent a breakthrough toward reversing death?",
+  "topic": "Clarifies the actual science behind genome transplantation versus sensationalized 'zombie' narrative",
+  "tags": [
+    "Cell Biology",
+    "Synthetic Biology",
+    "Science Communication"
+  ],
+  "sources": [
+    {
+      "name": "Heritable Human Genome Editing",
+      "url": "https://www.nationalacademies.org/publications/25665",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human Genome Editing: Science, Ethics, and Governance",
+      "url": "https://www.nationalacademies.org/publications/24623",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: ‘Zombie cells’ return from the dead — after a genome transplant",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00938-6",
+      "date": "2026-03-25"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: 'Zombie' cells created by transplanting genomes into dead bacteria",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520182-zombie-cells-created-by-transplanting-genomes-into-dead-bacteria/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-25"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Briefing Chat: ‘Zombie cells’ resurrected with new genes",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00996-w",
+      "date": "2026-03-27"
+    }
+  ]
+}

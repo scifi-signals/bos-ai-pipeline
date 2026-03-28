@@ -1,0 +1,48 @@
+{
+  "id": "cold_turkey_most_effective_way",
+  "question": "Is cold turkey the most effective way to quit smoking?",
+  "topic": "Corrects common belief about cessation effectiveness with clinical evidence comparing different quit",
+  "tags": [
+    "Health and Medicine",
+    "Smoking Cessation",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Dying to Quit: Why We Smoke and How We Stop",
+      "url": "https://www.nationalacademies.org/publications/6013",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Cold turkey quitting is the best cessation method outside pharmacotherapy (claim about efficacy rankings)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Smoking cessation efficacy rates (vaping ~50% long-term, ~20% clinical trials vs. NRT 10%)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Nicotine replacement therapy (NRT) effectiveness",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Varenicline (Chantix) for smoking cessation and associated risks",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    }
+  ]
+}

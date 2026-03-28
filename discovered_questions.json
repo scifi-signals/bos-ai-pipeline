@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-27T12:14:16Z",
+  "generated_at": "2026-03-28T12:08:13Z",
   "questions": [
     {
       "id": "global_warming_actually_accelerating_just",
@@ -457,6 +457,45 @@
       "newest_source_year": 2023,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2023 · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "long_covid_cause_identifiable_immune",
+      "question": "Does long COVID cause identifiable immune system changes that explain fatigue symptoms?",
+      "priority": "high",
+      "rationale": "Provides biological evidence for long COVID symptoms against dismissive attitudes that harm patient care",
+      "misinformation_narrative": "Some dismiss long COVID fatigue as psychological or 'all in their head,' when research identifies specific immune cell dysfunction and inflammatory markers",
+      "public_stakes": "Patients may not receive appropriate medical care, and the condition may be inappropriately psychologized rather than treated as a biological illness",
+      "verification_status": "verified",
+      "verification_reason": "Social media platforms and some medical communities show persistent dismissal of long COVID as psychological, despite mounting physical evidence.",
+      "tags": [
+        "Health and Medicine",
+        "Infectious Disease",
+        "Long COVID"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Addressing the Long-Term Effects of the COVID-19 Pandemic on Children and Families (2023)",
+          "url": "https://www.nationalacademies.org/publications/26809"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists find immune cell linked to long COVID fatigue and symptoms",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260325005922.htm",
+          "date": "2026-03-26"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "vaccines_cause_harm_diseases_they",
@@ -1348,6 +1387,49 @@
       "readiness_summary": "4 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 5 discovery signals"
     },
     {
+      "id": "cigarettes_safer_traditional_cigarettes_adults",
+      "question": "Are e-cigarettes safer than traditional cigarettes for adults trying to quit smoking?",
+      "priority": "high",
+      "rationale": "Addresses widespread confusion about relative risks and cessation efficacy of vaping vs. smoking, with strong clinical evidence on harm reduction",
+      "misinformation_narrative": "Many people believe e-cigarettes are equally dangerous to traditional cigarettes, or that they provide no benefit for smoking cessation, when evidence shows they can be effective harm reduction tools for adult smokers",
+      "public_stakes": "Smokers may avoid potentially life-saving cessation tools, continuing with combustible tobacco that causes 480,000+ deaths annually in the US",
+      "verification_status": "verified",
+      "verification_reason": "Public health surveys and social media discussions show widespread belief that e-cigarettes are \"just as bad\" as cigarettes, often promoted by anti-vaping advocacy groups.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Tobacco Control"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Public Health Consequences of E-Cigarettes (2018)",
+          "url": "https://www.nationalacademies.org/publications/24952"
+        },
+        {
+          "name": "Dying to Quit: Why We Smoke and How We Stop (1998)",
+          "url": "https://www.nationalacademies.org/publications/6013"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "cigarettes_safer_traditional_cigarettes_quitting",
       "question": "Are e-cigarettes safer than traditional cigarettes for quitting smoking?",
       "priority": "high",
@@ -1385,6 +1467,52 @@
       "newest_source_year": 2018,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "antarctic_sea_ice_loss_temporary",
+      "question": "Is Antarctic sea ice loss a temporary fluctuation or a long-term climate shift?",
+      "priority": "high",
+      "rationale": "Addresses climate misinformation that minimizes Antarctic contributions to sea level rise with oceanographic evidence",
+      "misinformation_narrative": "Climate skeptics claim recent Antarctic ice loss is natural variation, when evidence shows a fundamental regime shift driven by ocean warming",
+      "public_stakes": "Underestimating sea level rise projections could lead to inadequate coastal planning and infrastructure decisions",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptic blogs, YouTube channels, and social media regularly claim Antarctic ice changes are natural cycles, not human-caused warming.",
+      "tags": [
+        "Climate Science",
+        "Antarctic Research",
+        "Sea Level Rise"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Antarctic Sea Ice Variability in the Southern Ocean-Climate System: Proceedings of a Workshop (2017)",
+          "url": "https://www.nationalacademies.org/publications/24696"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Warmer ocean is driving the Antarctic sea ice 'regime shift'",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520281-warmer-ocean-is-driving-the-antarctic-sea-ice-regime-shift/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Winter Sea Ice in the Arctic Ties a Record Low",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/03/26/climate/arctic-sea-ice-ties-record-low.html",
+          "date": "2026-03-27"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2017,
+      "signal_count": 2,
+      "readiness_summary": "1 NASEM source, most recent 2017 — moderately dated · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "antarctic_sea_ice_loss_actually",
@@ -1815,6 +1943,45 @@
       "readiness_summary": "1 NASEM source, most recent 2004 — sources are old · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "cold_turkey_most_effective_way",
+      "question": "Is cold turkey the most effective way to quit smoking?",
+      "priority": "high",
+      "rationale": "Corrects common belief about cessation effectiveness with clinical evidence comparing different quit methods",
+      "misinformation_narrative": "Many people believe that willpower alone (cold turkey) is the best cessation method, when clinical evidence shows pharmacotherapy and alternative methods often have higher success rates",
+      "public_stakes": "Smokers may repeatedly attempt ineffective cessation methods instead of seeking evidence-based treatments, prolonging tobacco exposure",
+      "verification_status": "verified",
+      "verification_reason": "Smoking cessation communities and general public widely believe \"willpower\" cold turkey methods are most effective, often rejecting pharmaceutical aids.",
+      "tags": [
+        "Health and Medicine",
+        "Smoking Cessation",
+        "Public Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dying to Quit: Why We Smoke and How We Stop (1998)",
+          "url": "https://www.nationalacademies.org/publications/6013"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Cold turkey quitting is the best cessation method outside pharmacotherapy (claim about efficacy rankings)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 1998,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 1998 — sources are old · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "vaccines_cause_food_allergies_children",
       "question": "Do vaccines cause food allergies in children?",
       "priority": "high",
@@ -2052,6 +2219,77 @@
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "artificial_intelligence_actually_conduct_independent",
+      "question": "Can artificial intelligence actually conduct independent scientific research?",
+      "priority": "medium",
+      "rationale": "Corrects hype about AI scientific capabilities with evidence about current limitations and the irreplaceable role of human judgment",
+      "misinformation_narrative": "Tech media often oversells AI capabilities as approaching human scientist abilities, when current AI lacks genuine understanding and relies on pattern matching in existing data",
+      "public_stakes": "Overconfidence in AI research could lead to reduced human oversight, premature adoption of flawed AI conclusions, or unrealistic expectations",
+      "verification_status": "verified",
+      "verification_reason": "Tech media headlines and social platforms routinely overstate AI capabilities, with widespread public misconceptions about current AI being \"intelligent\" like humans.",
+      "tags": [
+        "Artificial Intelligence",
+        "Research Methods",
+        "Technology"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "AI for Scientific Discovery: Proceedings of a Workshop (2024)",
+          "url": "https://www.nationalacademies.org/publications/27457"
+        },
+        {
+          "name": "Automated Research Workflows for Accelerated Discovery: Closing the Knowledge Discovery Loop (2023)",
+          "url": "https://www.nationalacademies.org/publications/26532"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Towards end-to-end automation of AI research",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10265-5",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI scientists are changing research — institutions, funders and publishers must respond",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00934-w",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Why AI hasn’t caused a job apocalypse — so far",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00883-4",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The intelligence illusion: why AI isn’t as smart as it is made out to be",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00882-5",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: How to build an AI scientist: first peer-reviewed paper spills the secrets",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00899-w",
+          "date": "2026-03-26"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "early_introduction_allergenic_foods_increase",
       "question": "Does early introduction of allergenic foods increase or decrease allergy risk in infants?",
       "priority": "medium",
@@ -2275,6 +2513,64 @@
       "newest_source_year": 2023,
       "signal_count": 3,
       "readiness_summary": "5 NASEM sources, most recent 2023 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "emigrating_mars_realistic_solution_humanity",
+      "question": "Is emigrating to Mars a realistic solution for humanity's future?",
+      "priority": "medium",
+      "rationale": "Counters space settlement hype with evidence about the severe technical and biological challenges of Mars habitation",
+      "misinformation_narrative": "Tech entrepreneurs and media promote Mars colonization as an achievable backup plan for Earth, when the technical, biological, and resource challenges remain largely unsolved",
+      "public_stakes": "Overconfidence in Mars colonization could divert resources from solving Earth's environmental problems or create unrealistic expectations about space settlement",
+      "verification_status": "verified",
+      "verification_reason": "Elon Musk's promotion and tech media coverage has created widespread public belief that Mars colonization is an imminent, practical solution.",
+      "tags": [
+        "Space Science",
+        "Astrobiology",
+        "Technology"
+      ],
+      "nasem_source_count": 4,
+      "nasem_sources_preview": [
+        {
+          "name": "Space Nuclear Propulsion for Human Mars Exploration (2021)",
+          "url": "https://www.nationalacademies.org/publications/25977"
+        },
+        {
+          "name": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26750"
+        },
+        {
+          "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26522"
+        },
+        {
+          "name": "Report Series: Committee on Planetary Protection: Evaluation of Bioburden Requirements for Mars Missions (2022)",
+          "url": "https://www.nationalacademies.org/publications/26336"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Author of Red Mars calls 'bullshit' on emigrating to the planet",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520312-author-of-red-mars-calls-bullshit-on-emigrating-to-the-planet/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-27"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Why Kim Stanley Robinson's Red Mars is still a classic, 34 years on",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521097-why-kim-stanley-robinsons-red-mars-is-still-a-classic-34-years-on/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-27"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 1,
+      "readiness_summary": "4 NASEM sources, most recent 2023 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "daily_multivitamins_slow_aging_provide",
@@ -5291,6 +5587,63 @@
       "readiness_summary": "2 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 3 discovery signals"
     },
     {
+      "id": "zombie_cells_created_genome_transplantation",
+      "question": "Do 'zombie cells' created by genome transplantation represent a breakthrough toward reversing death?",
+      "priority": "low",
+      "rationale": "Clarifies the actual science behind genome transplantation versus sensationalized 'zombie' narratives in media coverage",
+      "misinformation_narrative": "Sensational headlines about 'bringing cells back from the dead' suggest resurrection of dead tissue is possible, when this involves replacing genetic material in cells that retain basic structural integrity",
+      "public_stakes": "Misunderstanding could fuel unrealistic expectations about reversing death or aging, leading to exploitation by unscrupulous anti-aging marketers",
+      "verification_status": "needs_review",
+      "verification_reason": "\"Zombie cells\" terminology and resurrection claims aren't widely circulating public misconceptions about actual scientific research.",
+      "tags": [
+        "Cell Biology",
+        "Synthetic Biology",
+        "Science Communication"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Heritable Human Genome Editing (2021)",
+          "url": "https://www.nationalacademies.org/publications/25665"
+        },
+        {
+          "name": "Human Genome Editing: Science, Ethics, and Governance (2017)",
+          "url": "https://www.nationalacademies.org/publications/24623"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: ‘Zombie cells’ return from the dead — after a genome transplant",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00938-6",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: 'Zombie' cells created by transplanting genomes into dead bacteria",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520182-zombie-cells-created-by-transplanting-genomes-into-dead-bacteria/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Briefing Chat: ‘Zombie cells’ resurrected with new genes",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00996-w",
+          "date": "2026-03-27"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 2,
+      "readiness_summary": "2 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
       "id": "crispr_gene_editing_safely_used",
       "question": "Can CRISPR gene editing be safely used inside the human body?",
       "priority": "low",
@@ -5856,6 +6209,52 @@
       "newest_source_year": 2019,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "quantum_computers_available_consumers_buy",
+      "question": "Are quantum computers available for consumers to buy and use at home?",
+      "priority": "low",
+      "rationale": "Addresses marketing hype around quantum devices that misrepresents the current state of quantum computing technology",
+      "misinformation_narrative": "Tech media headlines about 'DIY quantum computers' mislead people into thinking practical quantum computing is accessible to consumers, when these are educational demonstrations",
+      "public_stakes": "Consumers may waste money on products marketed as quantum devices, or develop unrealistic expectations about quantum technology timeline",
+      "verification_status": "needs_review",
+      "verification_reason": "While tech media may sensationalize quantum computing, there isn't widespread public belief that consumer quantum computers are actually available.",
+      "tags": [
+        "Quantum Computing",
+        "Consumer Technology",
+        "Science Communication"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: You can now buy a DIY quantum computer",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: World’s first quantum battery could enable ultra fast charging",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260322020249.htm",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 2,
+      "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
       "id": "blood_tests_accurately_diagnose_cancer",
@@ -9325,6 +9724,175 @@
       "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
+      "id": "gas_stoves_release_cancer_causing",
+      "question": "Do gas stoves release cancer-causing chemicals that pose health risks?",
+      "priority": "medium",
+      "rationale": "Addresses politicized dismissal of legitimate air quality research, with clear evidence on indoor pollution from gas appliances",
+      "misinformation_narrative": "Many people dismiss gas stove health concerns as political propaganda, when research shows measurable emission of carcinogens like benzene and formaldehyde",
+      "public_stakes": "Families may not take basic ventilation precautions, exposing children and adults to elevated indoor air pollution and respiratory irritants",
+      "verification_status": "verified",
+      "verification_reason": "Conservative media outlets, social platforms, and political communities actively dismiss gas stove health research as government overreach and \"woke\" propaganda.",
+      "tags": [
+        "Environmental Health",
+        "Indoor Air Quality",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Cancer-causing chemical found to be leaking from gas cookers",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520639-cancer-causing-chemical-found-to-be-leaking-from-gas-cookers/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Indoor Air Quality - Combustion Pollutants and Their Health Effects",
+          "description": "EPA guidance on indoor combustion appliances including gas stoves and their pollutant emissions",
+          "relevance": "Addresses health effects of pollutants from gas combustion appliances including carcinogenic compounds"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niehs.nih.gov/health/topics/agents/indoor-air",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Indoor Air Pollution and Health",
+          "description": "NIEHS overview of indoor air pollution sources and health impacts including gas appliances",
+          "relevance": "Covers health risks from indoor combustion sources including potential carcinogenic exposures"
+        },
+        {
+          "organization": "American Lung Association",
+          "organization_full": "American Lung Association",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Gas Stoves: Health and Air Quality Impacts and Solutions",
+          "description": "Comprehensive review of health impacts from gas stove emissions including toxic pollutants",
+          "relevance": "Directly addresses gas stove emissions and associated health risks including carcinogenic compounds"
+        },
+        {
+          "organization": "California Air Resources Board",
+          "organization_full": "California Air Resources Board",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Indoor Air Quality Guidelines - Gas Appliances",
+          "description": "CARB technical document on emissions from residential gas appliances and health implications",
+          "relevance": "Provides specific data on pollutant emissions from gas stoves including carcinogenic compounds"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Household Air Pollution and Health",
+          "description": "WHO fact sheet on indoor air pollution from fuel combustion and health effects",
+          "relevance": "Addresses health impacts of household fuel combustion including carcinogenic pollutant exposures"
+        }
+      ],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "nad_supplements_actually_slow_aging",
+      "question": "Can NAD+ supplements actually slow aging and prevent neurodegenerative diseases?",
+      "priority": "medium",
+      "rationale": "Addresses widespread supplement marketing claims with current state of clinical evidence on NAD+ and aging",
+      "misinformation_narrative": "Anti-aging supplement marketers claim NAD+ supplements provide proven longevity benefits, when human clinical evidence remains limited despite promising preclinical studies",
+      "public_stakes": "",
+      "verification_status": "verified",
+      "verification_reason": "Anti-aging supplement companies and wellness influencers heavily promote NAD+ supplements with exaggerated longevity claims across social platforms.",
+      "tags": [
+        "Health and Medicine",
+        "Supplements",
+        "Anti-Aging"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists say NAD+ could slow aging and fight Alzheimer’s and Parkinson’s",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024253.htm",
+          "date": "2026-03-25"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Statement on NAD+ Precursor Supplements",
+          "description": "FDA's regulatory stance and safety information on NAD+ precursor supplements like NMN and NR",
+          "relevance": "Provides official regulatory position on NAD+ supplement claims and safety"
+        },
+        {
+          "organization": "NIH National Institute on Aging",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Anti-Aging Products and Supplements Research",
+          "description": "NIA's evidence-based assessment of anti-aging supplement claims including NAD+ boosters",
+          "relevance": "Directly addresses whether supplements can slow aging with current research evidence"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Nicotinamide riboside and nicotinamide mononucleotide for healthy aging: a systematic review",
+          "description": "Systematic review examining clinical trial evidence for NAD+ precursors in aging and health",
+          "relevance": "Comprehensive analysis of clinical trial data on NAD+ supplement efficacy"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240017900",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Decade of Healthy Ageing: Evidence on Interventions",
+          "description": "WHO's evidence review of interventions for healthy aging including dietary supplements",
+          "relevance": "Evaluates evidence for various aging interventions including nutritional supplements"
+        }
+      ],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
       "id": "gas_stoves_pose_serious_health",
       "question": "Do gas stoves pose serious health risks in homes?",
       "priority": "medium",
@@ -12382,6 +12950,243 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "lupus_cured_new_treatments_like",
+      "question": "Can lupus be cured with new treatments like CAR-T cell therapy?",
+      "priority": "low",
+      "rationale": "Addresses dangerous oversimplification of promising but early-stage treatments that could lead patients to make harmful medical decisions",
+      "misinformation_narrative": "Social media and patient communities often promote claims that lupus can now be 'cured' based on early CAR-T success stories, when the evidence shows temporary remission rather than permanent cure",
+      "public_stakes": "Patients may abandon proven treatments, delay care, or fall for expensive unproven therapies based on cure claims",
+      "verification_status": "needs_review",
+      "verification_reason": "While patients may be hopeful about new treatments, the specific framing of CAR-T \"cure\" claims being widespread in lupus communities isn't well-documented.",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Diseases",
+        "Medical Misinformation"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Lupus diagnosis currently takes months to years; previously took 2-3 years to diagnose (improved from past decade)",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Lupus Treatment and Research",
+          "description": "NIH's National Institute of Arthritis and Musculoskeletal and Skin Diseases comprehensive information on current and emerging lupus treatments",
+          "relevance": "Provides authoritative information on current lupus treatment landscape and research directions"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Approved Cellular and Gene Therapy Products",
+          "description": "FDA's official list of approved CAR-T cell therapies and their approved indications",
+          "relevance": "Shows what CAR-T therapies are actually FDA-approved for, clarifying whether lupus is an approved indication"
+        },
+        {
+          "organization": "Lupus Foundation of America",
+          "organization_full": "Lupus Foundation of America",
+          "base_url": "",
+          "url": "https://www.lupus.org/research/research-pipeline",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Research Pipeline and Treatment Updates",
+          "description": "Leading lupus advocacy organization's overview of current research including experimental treatments",
+          "relevance": "Provides evidence-based information on experimental lupus treatments and realistic expectations"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Cochrane Reviews on Lupus Treatment",
+          "description": "Systematic reviews of evidence for lupus treatments",
+          "relevance": "Provides high-quality systematic review evidence on what treatments have proven efficacy for lupus"
+        },
+        {
+          "organization": "NIH/NCI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "CAR T Cells: Engineering Patients' Immune Cells to Treat Their Cancers",
+          "description": "National Cancer Institute's comprehensive overview of CAR-T cell therapy, its applications and current approved uses",
+          "relevance": "Explains what CAR-T therapy is approved for and its current limitations, providing context for lupus treatment claims"
+        }
+      ],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "having_negative_attitude_toward_aging",
+      "question": "Does having a negative attitude toward aging actually accelerate the aging process?",
+      "priority": "low",
+      "rationale": "Counters dismissal of psychosocial factors in aging with evidence from cellular biology and longitudinal health studies",
+      "misinformation_narrative": "Many dismiss attitude's impact on aging as 'mind over matter' pseudoscience, when longitudinal studies show measurable effects on cellular aging, cognitive decline, and longevity",
+      "public_stakes": "People may not address ageism or negative self-perceptions that could impact their health outcomes and quality of life",
+      "verification_status": "needs_review",
+      "verification_reason": "Most people don't actively engage with research on attitude and aging; this confuses \"people don't know about this research\" with active dismissal.",
+      "tags": [
+        "Health and Medicine",
+        "Aging",
+        "Psychology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-20"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/NIA",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "National Institute on Aging Research on Attitudes and Aging",
+          "description": "NIA research publications examining the relationship between attitudes toward aging and health outcomes",
+          "relevance": "Contains studies on how age stereotypes and attitudes affect physical and cognitive aging processes"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240016866",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Global Report on Ageism - Health and Social Care Section",
+          "description": "WHO's comprehensive report on ageism including evidence on health impacts of age-related attitudes",
+          "relevance": "Documents research showing how internalized ageism affects longevity and health outcomes"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Healthy Aging - Attitude and Aging Research",
+          "description": "CDC resources on healthy aging that include research on psychological factors affecting aging",
+          "relevance": "Contains evidence-based information on how attitudes and mental health affect the aging process"
+        }
+      ],
+      "discovered_at": "2026-03-21",
+      "last_seen": "2026-03-28",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
+    },
+    {
+      "id": "actually_forever_chemicals_antarctic_snow",
+      "question": "Are there actually 'forever chemicals' in Antarctic snow and ice?",
+      "priority": "low",
+      "rationale": "Demonstrates the global reach of persistent chemical pollution with evidence from polar contamination studies",
+      "misinformation_narrative": "Some people believe remote polar regions are pristine and unaffected by industrial pollution, when PFAS contamination has reached even Antarctica through atmospheric transport",
+      "public_stakes": "Underestimating global chemical pollution spread could lead to inadequate regulation and continued environmental contamination",
+      "verification_status": "needs_review",
+      "verification_reason": "While some may assume polar regions are pristine, this specific misconception about PFAS in Antarctica isn't a major circulating narrative.",
+      "tags": [
+        "Environmental Science",
+        "Chemical Pollution",
+        "Antarctic Research"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: History of ‘forever’ chemicals is written in Antarctic snow",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00867-4",
+          "date": "2026-03-26"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "PFAS Master List of PFAS Substances",
+          "description": "EPA's comprehensive database and information on PFAS chemicals, including environmental occurrence data",
+          "relevance": "Contains EPA data on global PFAS distribution and environmental monitoring"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://arctic.noaa.gov/Report-Card/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Arctic Report Card",
+          "description": "Annual peer-reviewed report on Arctic environmental conditions including contaminant data",
+          "relevance": "May contain data on persistent organic pollutants and contaminants in polar regions"
+        },
+        {
+          "organization": "USGS",
+          "organization_full": "USGS",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "PFAS in the Environment",
+          "description": "USGS research and data on PFAS occurrence in environmental systems",
+          "relevance": "Provides scientific data on PFAS distribution in various environmental matrices"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niehs.nih.gov/health/topics/agents/pfc",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "PFAS Research",
+          "description": "NIEHS research and publications on PFAS environmental occurrence and health effects",
+          "relevance": "Contains peer-reviewed research on global PFAS contamination patterns"
+        }
+      ],
+      "discovered_at": "2026-03-28",
+      "last_seen": "2026-03-28",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
       "id": "processed_meats_significantly_increase_colon",
       "question": "Do processed meats significantly increase colon cancer risk?",
       "priority": "low",
@@ -13898,40 +14703,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "having_negative_attitude_toward_aging",
-      "question": "Does having a negative attitude toward aging actually accelerate the aging process?",
-      "priority": "low",
-      "rationale": "Clarifies research on psychological factors and biological aging processes",
-      "misinformation_narrative": "Anti-aging industry promotes 'positive thinking' as longevity strategy while skeptics dismiss mind-body connections, confusing evidence on psychological aging effects",
-      "public_stakes": "Misinformation leads to either over-reliance on mindset or dismissal of legitimate psychological health factors in aging",
-      "verification_status": "needs_review",
-      "verification_reason": "This conflates legitimate research on psychological aging with anti-aging industry claims in a way that doesn't reflect actual public confusion.",
-      "tags": [
-        "Health and Medicine",
-        "Aging",
-        "Psychology"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Aging & Longevity: A negative attitude towards ageing is making you age faster",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2519983-a-negative-attitude-towards-ageing-is-making-you-age-faster/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-03-20"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-03-21",
-      "last_seen": "2026-03-21",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "lupus_now_curable_new_car",

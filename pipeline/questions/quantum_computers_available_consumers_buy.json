@@ -1,0 +1,34 @@
+{
+  "id": "quantum_computers_available_consumers_buy",
+  "question": "Are quantum computers available for consumers to buy and use at home?",
+  "topic": "Addresses marketing hype around quantum devices that misrepresents the current state of quantum comp",
+  "tags": [
+    "Quantum Computing",
+    "Consumer Technology",
+    "Science Communication"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: You can now buy a DIY quantum computer",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-25"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: World’s first quantum battery could enable ultra fast charging",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260322020249.htm",
+      "date": "2026-03-25"
+    }
+  ]
+}

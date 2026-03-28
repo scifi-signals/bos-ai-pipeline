@@ -1,0 +1,124 @@
+{
+  "id": "cigarettes_safer_traditional_cigarettes_adults",
+  "question": "Are e-cigarettes safer than traditional cigarettes for adults trying to quit smoking?",
+  "topic": "Addresses widespread confusion about relative risks and cessation efficacy of vaping vs. smoking, wi",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Tobacco Control"
+  ],
+  "sources": [
+    {
+      "name": "Public Health Consequences of E-Cigarettes",
+      "url": "https://www.nationalacademies.org/publications/24952",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dying to Quit: Why We Smoke and How We Stop",
+      "url": "https://www.nationalacademies.org/publications/6013",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Over 5 million ex-smokers have quit via vaping (specific figure requires verification against published epidemiological data)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Vaping success rate 4-year: ~50%; clinical trials: ~20%; NRT: ~10% (specific efficacy comparisons should be checked against clinical literature)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Smoking rates among U.S. adults: ~17% (requires verification against CDC data)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Tobacco smoke composition (10,000+ chemicals, 60+ carcinogens)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Electronic cigarette aerosol generation (propylene glycol, glycerin, nicotine)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Combustion byproducts at 900°F in cigarette smoking",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Nicotine pharmacology and addictive properties",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Smoking cessation efficacy rates (vaping ~50% long-term, ~20% clinical trials vs. NRT 10%)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Respiratory health improvements from smoking-to-vaping transitions",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Cancer and lung disease risk reduction in vaping vs. smoking",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Harm reduction in addiction medicine (buprenorphine for heroin)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Nicotine replacement therapy (NRT) effectiveness",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Varenicline (Chantix) for smoking cessation and associated risks",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    }
+  ]
+}

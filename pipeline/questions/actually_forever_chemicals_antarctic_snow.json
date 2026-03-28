@@ -1,0 +1,39 @@
+{
+  "id": "actually_forever_chemicals_antarctic_snow",
+  "question": "Are there actually 'forever chemicals' in Antarctic snow and ice?",
+  "topic": "Demonstrates the global reach of persistent chemical pollution with evidence from polar contaminatio",
+  "tags": [
+    "Environmental Science",
+    "Chemical Pollution",
+    "Antarctic Research"
+  ],
+  "sources": [
+    {
+      "name": "PFAS Master List of PFAS Substances — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Arctic Report Card — NOAA",
+      "url": "https://arctic.noaa.gov/Report-Card/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "PFAS Research — NIH/NIEHS",
+      "url": "https://www.niehs.nih.gov/health/topics/agents/pfc",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: History of ‘forever’ chemicals is written in Antarctic snow",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00867-4",
+      "date": "2026-03-26"
+    }
+  ]
+}

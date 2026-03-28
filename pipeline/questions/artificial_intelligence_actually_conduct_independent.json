@@ -1,0 +1,61 @@
+{
+  "id": "artificial_intelligence_actually_conduct_independent",
+  "question": "Can artificial intelligence actually conduct independent scientific research?",
+  "topic": "Corrects hype about AI scientific capabilities with evidence about current limitations and the irrep",
+  "tags": [
+    "Artificial Intelligence",
+    "Research Methods",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "AI for Scientific Discovery: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/27457",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Automated Research Workflows for Accelerated Discovery: Closing the Knowledge Discovery Loop",
+      "url": "https://www.nationalacademies.org/publications/26532",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Towards end-to-end automation of AI research",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10265-5",
+      "date": "2026-03-25"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI scientists are changing research — institutions, funders and publishers must respond",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00934-w",
+      "date": "2026-03-25"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Why AI hasn’t caused a job apocalypse — so far",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00883-4",
+      "date": "2026-03-25"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: The intelligence illusion: why AI isn’t as smart as it is made out to be",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00882-5",
+      "date": "2026-03-25"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: How to build an AI scientist: first peer-reviewed paper spills the secrets",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00899-w",
+      "date": "2026-03-26"
+    }
+  ]
+}

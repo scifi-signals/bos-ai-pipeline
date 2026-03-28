@@ -1,0 +1,52 @@
+{
+  "id": "emigrating_mars_realistic_solution_humanity",
+  "question": "Is emigrating to Mars a realistic solution for humanity's future?",
+  "topic": "Counters space settlement hype with evidence about the severe technical and biological challenges of",
+  "tags": [
+    "Space Science",
+    "Astrobiology",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "Space Nuclear Propulsion for Human Mars Exploration",
+      "url": "https://www.nationalacademies.org/publications/25977",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26750",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26522",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Report Series: Committee on Planetary Protection: Evaluation of Bioburden Requirements for Mars Missions",
+      "url": "https://www.nationalacademies.org/publications/26336",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Author of Red Mars calls 'bullshit' on emigrating to the planet",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520312-author-of-red-mars-calls-bullshit-on-emigrating-to-the-planet/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Why Kim Stanley Robinson's Red Mars is still a classic, 34 years on",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521097-why-kim-stanley-robinsons-red-mars-is-still-a-classic-34-years-on/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-27"
+    }
+  ]
+}

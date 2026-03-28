@@ -1,0 +1,39 @@
+{
+  "id": "gas_stoves_release_cancer_causing",
+  "question": "Do gas stoves release cancer-causing chemicals that pose health risks?",
+  "topic": "Addresses politicized dismissal of legitimate air quality research, with clear evidence on indoor po",
+  "tags": [
+    "Environmental Health",
+    "Indoor Air Quality",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Indoor Air Quality - Combustion Pollutants and Their Health Effects — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Indoor Air Pollution and Health — NIH/NIEHS",
+      "url": "https://www.niehs.nih.gov/health/topics/agents/indoor-air",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Household Air Pollution and Health — World Health Organization",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/household-air-pollution-and-health",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Cancer-causing chemical found to be leaking from gas cookers",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520639-cancer-causing-chemical-found-to-be-leaking-from-gas-cookers/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-25"
+    }
+  ]
+}
