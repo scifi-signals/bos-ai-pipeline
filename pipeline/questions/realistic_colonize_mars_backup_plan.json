@@ -1,0 +1,40 @@
+{
+  "id": "realistic_colonize_mars_backup_plan",
+  "question": "Is it realistic to colonize Mars as a backup plan for humanity?",
+  "topic": "Mars colonization hype creates unrealistic expectations about technological feasibility and timefram",
+  "tags": [
+    "Space Exploration",
+    "Technology",
+    "Environmental Policy"
+  ],
+  "sources": [
+    {
+      "name": "Space Nuclear Propulsion for Human Mars Exploration",
+      "url": "https://www.nationalacademies.org/publications/25977",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "An Astrobiology Strategy for the Exploration of Mars",
+      "url": "https://www.nationalacademies.org/publications/11937",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Author of Red Mars calls 'bullshit' on emigrating to the planet",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520312-author-of-red-mars-calls-bullshit-on-emigrating-to-the-planet/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Why Kim Stanley Robinson's Red Mars is still a classic, 34 years on",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521097-why-kim-stanley-robinsons-red-mars-is-still-a-classic-34-years-on/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-27"
+    }
+  ]
+}

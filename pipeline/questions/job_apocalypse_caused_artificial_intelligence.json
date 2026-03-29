@@ -1,0 +1,27 @@
+{
+  "id": "job_apocalypse_caused_artificial_intelligence",
+  "question": "Are we in a job apocalypse caused by artificial intelligence?",
+  "topic": "AI job impact generates extreme predictions in both directions, with little public understanding of ",
+  "tags": [
+    "Technology",
+    "Economics",
+    "Future of Work"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and the Future of Work",
+      "url": "https://www.nationalacademies.org/publications/27644",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Why AI hasn’t caused a job apocalypse — so far",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00883-4",
+      "date": "2026-03-26"
+    }
+  ]
+}

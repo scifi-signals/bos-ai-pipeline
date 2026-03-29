@@ -1,0 +1,48 @@
+{
+  "id": "antarctic_sea_ice_loss_caused",
+  "question": "Is Antarctic sea ice loss caused by warming oceans?",
+  "topic": "Antarctic sea ice changes generate conflicting interpretations used by both climate skeptics and ala",
+  "tags": [
+    "Climate Change",
+    "Environmental Science",
+    "Polar Science"
+  ],
+  "sources": [
+    {
+      "name": "Antarctic Sea Ice Variability in the Southern Ocean-Climate System: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/24696",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Warmer ocean is driving the Antarctic sea ice 'regime shift'",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520281-warmer-ocean-is-driving-the-antarctic-sea-ice-regime-shift/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-26"
+    },
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Winter Sea Ice in the Arctic Ties a Record Low",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/26/climate/arctic-sea-ice-ties-record-low.html",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Study explains Antarctic sea ice growth and sudden decline",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-antarctic-sea-ice-growth-sudden.html",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Alaska analysis shows continued loss of Arctic landfast sea ice",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-alaska-analysis-loss-arctic-landfast.html",
+      "date": "2026-03-28"
+    }
+  ]
+}

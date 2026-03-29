@@ -1,0 +1,51 @@
+{
+  "id": "nad_supplements_slow_aging_prevent",
+  "question": "Do NAD+ supplements slow aging and prevent Alzheimer's disease?",
+  "topic": "NAD+ supplement marketing makes premature claims based on preliminary research, creating false hope ",
+  "tags": [
+    "Health and Medicine",
+    "Aging",
+    "Supplements"
+  ],
+  "sources": [
+    {
+      "name": "Alzheimer's Disease Research Centers Program — NIH National Institute on Aging",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Dietary Supplements - What You Need to Know — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Cochrane Reviews on Dementia and Cognitive Improvement — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Supplements for Cognitive Function, Dementia, and Alzheimer's Disease Fact Sheet — NIH Office of Dietary Supplements",
+      "url": "https://ods.od.nih.gov/factsheets/ExerciseAndAthleticPerformance-HealthProfessional/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Risk Reduction of Cognitive Decline and Dementia Guidelines — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241550543",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists say NAD+ could slow aging and fight Alzheimer’s and Parkinson’s",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260324024253.htm",
+      "date": "2026-03-26"
+    }
+  ]
+}

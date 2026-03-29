@@ -1,0 +1,39 @@
+{
+  "id": "you_buy_quantum_computer_personal",
+  "question": "Can you buy a quantum computer for personal use?",
+  "topic": "Quantum computing marketing often misrepresents educational kits or limited devices as full quantum ",
+  "tags": [
+    "Technology",
+    "Quantum Physics",
+    "Consumer Products"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+      "url": "https://www.nationalacademies.org/publications/26850",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25499",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: You can now buy a DIY quantum computer",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-26"
+    }
+  ]
+}

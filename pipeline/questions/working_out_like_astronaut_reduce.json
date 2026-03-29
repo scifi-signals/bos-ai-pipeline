@@ -1,0 +1,45 @@
+{
+  "id": "working_out_like_astronaut_reduce",
+  "question": "Can working out like an astronaut reduce back pain and slow aging?",
+  "topic": "Space medicine research on exercise is being repackaged with inflated anti-aging claims by fitness m",
+  "tags": [
+    "Health and Medicine",
+    "Exercise",
+    "Space Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Exercise and Physical Activity: Your Everyday Guide from the National Institute on Aging — NIH/National Institute on Aging",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Exercise therapy for low back pain (Cochrane Review) — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Physical Activity Guidelines for Americans - Older Adults — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Physical Activity and Older Adults - Global Recommendations — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: How working out like an astronaut can reduce back pain and slow ageing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-26"
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "ocean_species_disappearing_before_scientists",
+  "question": "Are ocean species disappearing before scientists can discover them?",
+  "topic": "Extinction vs. discovery rate claims need clarification to avoid conservation fatalism while maintai",
+  "tags": [
+    "Environmental Science",
+    "Biodiversity",
+    "Marine Biology"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 3: Oceans and Coastal Ecosystems — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-3/",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change Indicators: Marine Species Distribution — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "State of the Climate: Ocean Indicators — NOAA",
+      "url": "https://www.ncei.noaa.gov/data/oceans/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Global Environment Outlook 6: Healthy Planet, Healthy People - Ocean Chapter — UNEP",
+      "url": "https://www.unep.org/geo/",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Global Biodiversity Outlook 5: Marine and Coastal Biodiversity — CBD",
+      "url": "https://www.cbd.int/gbo5",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Ocean species are disappearing before scientists can even find them",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260326075603.htm",
+      "date": "2026-03-28"
+    }
+  ]
+}

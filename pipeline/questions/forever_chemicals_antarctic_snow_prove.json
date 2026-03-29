@@ -1,0 +1,39 @@
+{
+  "id": "forever_chemicals_antarctic_snow_prove",
+  "question": "Do 'forever chemicals' in Antarctic snow prove global contamination is irreversible?",
+  "topic": "PFAS detection in remote locations generates fatalistic interpretations about contamination reversib",
+  "tags": [
+    "Environmental Science",
+    "Chemical Safety",
+    "Pollution"
+  ],
+  "sources": [
+    {
+      "name": "PFAS National Primary Drinking Water Regulation — EPA",
+      "url": "https://www.epa.gov/sdwa/and-polyfluoroalkyl-substances-pfas",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Keeping Our Water Clean: The Case of Water, Sanitation, Hygiene and Health Care Waste — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "PFAS Research Database — NIH/NIEHS",
+      "url": "https://www.niehs.nih.gov/health/topics/agents/pfc",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: History of ‘forever’ chemicals is written in Antarctic snow",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00867-4",
+      "date": "2026-03-26"
+    }
+  ]
+}
