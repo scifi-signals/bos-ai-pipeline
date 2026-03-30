@@ -1,0 +1,65 @@
+{
+  "id": "gut_bacteria_directly_control_immune",
+  "question": "Do gut bacteria directly control your immune system?",
+  "topic": "Addresses oversimplification and commercialization of microbiome research",
+  "tags": [
+    "Health and Medicine",
+    "Microbiome",
+    "Immune System"
+  ],
+  "sources": [
+    {
+      "name": "The Microbiome in Health and Disease — NIH/NIAID",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Your Digestive System & How It Works — NIH/NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Probiotics for prevention of necrotising enterocolitis in preterm infants — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Probiotics in food: Health and nutritional properties and guidelines for evaluation — WHO",
+      "url": "https://www.who.int/publications/i/item/9241563036",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antibiotic Resistance and the Microbiome — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists find gut bacteria inject proteins that control your immune system",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260326080752.htm",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Bacteria invent another way to turn on genes",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-bacteria-genes.html",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Lupus microbiome composition and pro-inflammatory characteristics",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

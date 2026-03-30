@@ -1,0 +1,27 @@
+{
+  "id": "chatbots_make_you_less_kind",
+  "question": "Do AI chatbots make you less kind to other people?",
+  "topic": "Addresses emerging concerns about AI's effects on human social behavior with early research evidence",
+  "tags": [
+    "Artificial Intelligence",
+    "Psychology",
+    "Social Behavior"
+  ],
+  "sources": [
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://www.nationalacademies.org/publications/26355",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Chats with sycophantic AI make you less kind to others",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00979-x",
+      "date": "2026-03-27"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "id": "identical_twins_lupus_prove_disease",
+  "question": "Do identical twins with lupus prove the disease is entirely genetic?",
+  "topic": "Addresses misconceptions about genetic determinism in autoimmune disease",
+  "tags": [
+    "Genetics",
+    "Autoimmune Disease",
+    "Medical Genetics"
+  ],
+  "sources": [
+    {
+      "name": "Systemic Lupus Erythematosus (Lupus) — NIH/NIAMS",
+      "url": "https://www.niams.nih.gov/health-topics/lupus",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Lupus Facts and Statistics — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "What Causes Lupus? — Lupus Foundation of America",
+      "url": "https://www.lupus.org/resources/what-causes-lupus",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Learning About Systemic Lupus Erythematosus — NIH/NHGRI",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "30% concordance rate in identical twins indicates strong but incomplete genetic component",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Genetic predisposition in lupus (single nucleotide polymorphisms, monogenic lupus)",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Concordance studies in identical twins for genetic component estimation",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

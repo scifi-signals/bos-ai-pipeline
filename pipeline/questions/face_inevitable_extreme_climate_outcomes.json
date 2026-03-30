@@ -1,0 +1,96 @@
+{
+  "id": "face_inevitable_extreme_climate_outcomes",
+  "question": "Do we face inevitable extreme climate outcomes even with moderate warming?",
+  "topic": "Addresses both catastrophizing and dismissal of climate risks by clarifying what science actually sa",
+  "tags": [
+    "Climate Change",
+    "Risk Assessment"
+  ],
+  "sources": [
+    {
+      "name": "Attribution of Extreme Weather Events in the Context of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/21852",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+      "url": "https://www.nationalacademies.org/publications/18373",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://www.nationalacademies.org/publications/25733",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adapting to the Impacts of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12783",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Stabilization Targets: Emissions, Concentrations, and Impacts over Decades to Millennia",
+      "url": "https://www.nationalacademies.org/publications/12877",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Effects of Human-Caused Greenhouse Gas Emissions on U.S. Climate, Health, and Welfare",
+      "url": "https://www.nationalacademies.org/publications/29239",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Modeling the Health Risks of Climate Change: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/21705",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Limiting the Magnitude of Future Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12785",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Precipitation observing network gaps limit climate change impact assessment",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10300-5",
+      "date": "2026-03-29"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Moderate global warming does not rule out extreme global climate outcomes",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10237-9",
+      "date": "2026-03-29"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Extreme climate outcomes could still occur with just 2 °C of global warming",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00640-7",
+      "date": "2026-03-29"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate change is altering Saharan dust—and Europe is downwind",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-climate-saharan-europe-downwind.html",
+      "date": "2026-03-29"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Iran war is fuelling climate change: Conflict released over 5 MILLION tons of CO2 in just two weeks by firing missiles, fuelling fighter jets, and bombing oil facilities",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15677265/Iran-war-fuelling-climate-change-greenhouse-gases.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-03-29"
+    }
+  ]
+}

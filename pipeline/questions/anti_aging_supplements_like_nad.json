@@ -1,0 +1,48 @@
+{
+  "id": "anti_aging_supplements_like_nad",
+  "question": "Can anti-aging supplements like NAD+ significantly extend human lifespan?",
+  "topic": "Addresses widespread marketing hype around anti-aging supplements that extrapolate from limited rese",
+  "tags": [
+    "Health and Medicine",
+    "Aging",
+    "Supplements"
+  ],
+  "sources": [
+    {
+      "name": "Global Roadmap for Healthy Longevity",
+      "url": "https://www.nationalacademies.org/publications/26144",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: How working out like an astronaut can reduce back pain and slow ageing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists say NAD+ could slow aging and fight Alzheimer’s and Parkinson’s",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260324024253.htm",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Unraveling the secrets of telomerase, an enzyme linked to aging and cancer",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-unraveling-secrets-telomerase-enzyme-linked.html",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Why many older adults skip hard candy – how aging can change chewing and swallowing",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/why-many-older-adults-skip-hard-candy-how-aging-can-change-chewing-and-swallowing-278372",
+      "date": "2026-03-27"
+    }
+  ]
+}

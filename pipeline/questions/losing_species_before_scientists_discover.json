@@ -1,0 +1,67 @@
+{
+  "id": "losing_species_before_scientists_discover",
+  "question": "Are we losing species before scientists can discover them?",
+  "topic": "Addresses misconceptions about the relationship between species discovery and extinction rates",
+  "tags": [
+    "Biodiversity",
+    "Conservation",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 2: Terrestrial and Freshwater Ecosystems — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-2/",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change Indicators: Leaf and Bloom Dates — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fourth National Climate Assessment - Volume II: Impacts, Risks, and Adaptation - Chapter 7: Ecosystems, Ecosystem Services, and Biodiversity — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Scientists should join collaborative online editing communities for biodiversity",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00940-y",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Ocean species are disappearing before scientists can even find them",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260326075603.htm",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: 24 new deep-sea species found including a rare new branch of life",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260325005912.htm",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: DNA reveals two new bass species hidden in plain sight",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260323005532.htm",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Trump’s ‘God Squad’ pits energy vs. endangered species, but it’s a false choice – protecting wildlife can be good for business",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/trumps-god-squad-pits-energy-vs-endangered-species-but-its-a-false-choice-protecting-wildlife-can-be-good-for-business-279433",
+      "date": "2026-03-28"
+    }
+  ]
+}

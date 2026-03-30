@@ -1,0 +1,33 @@
+{
+  "id": "really_forever_chemicals_antarctic_snow",
+  "question": "Are there really 'forever chemicals' in Antarctic snow?",
+  "topic": "Addresses misconceptions about the global reach and persistence of PFAS chemicals",
+  "tags": [
+    "Environmental Science",
+    "Chemical Safety",
+    "Pollution"
+  ],
+  "sources": [
+    {
+      "name": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research",
+      "url": "https://www.nationalacademies.org/publications/27160",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Mid-Term Assessment of Progress on the 2015 Strategic Vision for Antarctic and Southern Ocean Research",
+      "url": "https://www.nationalacademies.org/publications/26338",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: History of ‘forever’ chemicals is written in Antarctic snow",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00867-4",
+      "date": "2026-03-27"
+    }
+  ]
+}

@@ -1,0 +1,95 @@
+{
+  "id": "close_achieving_practical_quantum_computing",
+  "question": "Are we close to achieving practical quantum computing for everyday use?",
+  "topic": "Addresses overhype in quantum computing coverage that creates unrealistic public expectations about ",
+  "tags": [
+    "Technology",
+    "Physics",
+    "Quantum Science"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing Chemistry and Quantum Information Science: An Assessment of Research Opportunities at the Interface of Chemistry and Quantum Information Science in the United States",
+      "url": "https://www.nationalacademies.org/publications/26850",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25499",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Long-distance quantum link generates entanglement faster than it is lost",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00804-5",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Hot things can freeze faster than cool ones. Now, this paradox has gone quantum",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/hot-things-can-freeze-faster-cool-ones-now-paradox-has-gone-quantum",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: How Anthony Leggett pushed the boundaries of quantum physics",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521212-how-anthony-leggett-pushed-the-boundaries-of-quantum-physics/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Temperature gets a new definition using a quantum device",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520758-temperature-gets-a-new-definition-using-a-quantum-device/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: You can now buy a DIY quantum computer",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-27"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Physicists just turned glass into a powerful quantum security device",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260324024255.htm",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Physicists create optical phenomenon inspired by the quantum Hall and spin Hall effects",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-physicists-optical-phenomenon-quantum-hall.html",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Universe's Earliest Expansion May Have Come From Quantum Gravity",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/27/universes_earliest_expansion_may_have_come_from_quantum_gravity_1173041.html",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: This quantum computing breakthrough may not be what it seemed",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
+      "date": "2026-03-29"
+    }
+  ]
+}
