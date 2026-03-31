@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-30T12:16:42Z",
+  "generated_at": "2026-03-31T12:17:30Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -1575,6 +1575,45 @@
       "readiness_summary": "2 NASEM sources, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "cigarettes_safer_traditional_cigarettes_smoking",
+      "question": "Are e-cigarettes safer than traditional cigarettes for smoking cessation?",
+      "priority": "high",
+      "rationale": "Corrects widespread misconception about relative harm and effectiveness of vaping vs smoking, backed by clinical evidence on cessation rates and harm reduction",
+      "misinformation_narrative": "Many people believe e-cigarettes are just as dangerous as traditional cigarettes, or that they're not effective for quitting smoking, leading them to avoid a potentially less harmful cessation method",
+      "public_stakes": "Smokers may continue using deadly combustible tobacco instead of switching to less harmful alternatives, missing opportunities to reduce their cancer and lung disease risk",
+      "verification_status": "verified",
+      "verification_reason": "Public health surveys and smoking cessation forums show many smokers believe e-cigarettes are equally dangerous, partly due to mixed messaging from health authorities.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Addiction"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Public Health Consequences of E-Cigarettes (2018)",
+          "url": "https://www.nationalacademies.org/publications/24952"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "cigarettes_safe_effective_quitting_smoking",
       "question": "Are e-cigarettes safe and effective for quitting smoking?",
       "priority": "high",
@@ -1934,6 +1973,87 @@
       "newest_source_year": 2015,
       "signal_count": 1,
       "readiness_summary": "3 NASEM sources, most recent 2015 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "arctic_sea_ice_loss_follow",
+      "question": "Does Arctic sea ice loss follow predictable patterns?",
+      "priority": "high",
+      "rationale": "Corrects misconceptions about Arctic ice loss being normal variation versus unprecedented climate change impacts",
+      "misinformation_narrative": "Some claim Arctic ice loss is natural variation or follows predictable cycles, when evidence shows unprecedented regime shifts and accelerating loss",
+      "public_stakes": "Underestimating Arctic changes could lead to inadequate climate adaptation planning and continued inaction on emissions reduction",
+      "verification_status": "verified",
+      "verification_reason": "Climate denial communities on X and conservative media outlets like Fox News regularly claim Arctic ice loss is natural cyclical variation.",
+      "tags": [
+        "Climate Change",
+        "Arctic Science",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Support for Forensic Science Research: Improving the Scientific Role of the National Institute of Justice (2015)",
+          "url": "https://www.nationalacademies.org/publications/21772"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: History of ‘forever’ chemicals is written in Antarctic snow",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00867-4",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Warmer ocean is driving the Antarctic sea ice 'regime shift'",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520281-warmer-ocean-is-driving-the-antarctic-sea-ice-regime-shift/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Alaska analysis shows continued loss of Arctic landfast sea ice",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-alaska-analysis-loss-arctic-landfast.html",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Study explains Antarctic sea ice growth and sudden decline",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-antarctic-sea-ice-growth-sudden.html",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Winter Sea Ice in the Arctic Ties a Record Low",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/03/26/climate/arctic-sea-ice-ties-record-low.html",
+          "date": "2026-03-29"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Thawing permafrost becomes 25 to 100 times more permeable, experiments find",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-permafrost-permeable.html",
+          "date": "2026-03-30"
+        },
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: Recovery from sudden permafrost collapse ranges from 10 years to a century, study suggests",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-recovery-sudden-permafrost-collapse-ranges.html",
+          "date": "2026-03-30"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2015,
+      "signal_count": 4,
+      "readiness_summary": "1 NASEM source, most recent 2015 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
       "id": "people_egg_allergies_safely_receive",
@@ -3734,6 +3854,45 @@
       "readiness_summary": "2 NASEM sources, most recent 2022 · confirmed misinformation · 6 discovery signals"
     },
     {
+      "id": "forever_chemicals_pfas_significant_environmental",
+      "question": "Are 'forever chemicals' (PFAS) a significant environmental and health concern?",
+      "priority": "medium",
+      "rationale": "Addresses skepticism about emerging contaminant risks with clear evidence of global contamination",
+      "misinformation_narrative": "Some dismiss PFAS concerns as overblown environmental alarmism, when evidence shows persistent accumulation and health risks even in remote locations like Antarctica",
+      "public_stakes": "Underestimating PFAS risks could lead to continued exposure through consumer products and inadequate regulatory protection",
+      "verification_status": "verified",
+      "verification_reason": "Industry groups and conservative media have actively downplayed PFAS risks as environmental overreach, documented in chemical industry communications.",
+      "tags": [
+        "Environmental Health",
+        "Chemical Safety",
+        "Public Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up (2022)",
+          "url": "https://www.nationalacademies.org/publications/26156"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Arctic & Polar Science: History of ‘forever’ chemicals is written in Antarctic snow",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00867-4",
+          "date": "2026-03-28"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2022,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2022 · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "realistic_colonize_mars_backup_plan",
       "question": "Is it realistic to colonize Mars as a backup plan for humanity?",
       "priority": "medium",
@@ -3782,6 +3941,59 @@
       "newest_source_year": 2021,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2021 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "mars_colonization_realistic_backup_plan",
+      "question": "Is Mars colonization a realistic backup plan for humanity?",
+      "priority": "medium",
+      "rationale": "Addresses unrealistic expectations about space colonization that could distract from addressing Earth's environmental challenges",
+      "misinformation_narrative": "Popular media and some tech leaders promote Mars colonization as a feasible solution to Earth's problems, when the scientific reality shows enormous technical and biological challenges",
+      "public_stakes": "Overconfidence in Mars as a 'backup planet' could reduce focus on solving critical environmental and sustainability problems on Earth",
+      "verification_status": "verified",
+      "verification_reason": "Elon Musk's social media following and space enthusiast communities on Reddit genuinely believe Mars colonization is a near-term backup plan for humanity.",
+      "tags": [
+        "Space Science",
+        "Technology",
+        "Risk Assessment"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Space Nuclear Propulsion for Human Mars Exploration (2021)",
+          "url": "https://www.nationalacademies.org/publications/25977"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Author of Red Mars calls 'bullshit' on emigrating to the planet",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520312-author-of-red-mars-calls-bullshit-on-emigrating-to-the-planet/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Why Kim Stanley Robinson's Red Mars is still a classic, 34 years on",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521097-why-kim-stanley-robinsons-red-mars-is-still-a-classic-34-years-on/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Why the lack of water on Mars is so mysterious",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521185-why-the-lack-of-water-on-mars-is-so-mysterious/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-30"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2021 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "emigrating_mars_viable_backup_plan",
@@ -4451,6 +4663,94 @@
       "newest_source_year": 2019,
       "signal_count": 4,
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
+    },
+    {
+      "id": "quantum_computing_breakthroughs_always_live",
+      "question": "Do quantum computing breakthroughs always live up to initial claims?",
+      "priority": "medium",
+      "rationale": "Addresses pattern of premature claims about quantum computing advances that mislead public and investors",
+      "misinformation_narrative": "Media often overhypes quantum computing announcements as revolutionary breakthroughs, when many claims don't hold up to scientific scrutiny",
+      "public_stakes": "Investment decisions and policy priorities could be misguided by unrealistic expectations about quantum computing timeline and capabilities",
+      "verification_status": "verified",
+      "verification_reason": "Tech journalism and startup investor communities routinely overhype quantum computing breakthroughs without proper scientific scrutiny.",
+      "tags": [
+        "Technology",
+        "Quantum Science",
+        "Science Communication"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Long-distance quantum link generates entanglement faster than it is lost",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00804-5",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: How Anthony Leggett pushed the boundaries of quantum physics",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521212-how-anthony-leggett-pushed-the-boundaries-of-quantum-physics/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Temperature gets a new definition using a quantum device",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520758-temperature-gets-a-new-definition-using-a-quantum-device/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Physicists just turned glass into a powerful quantum security device",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260324024255.htm",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Universe's Earliest Expansion May Have Come From Quantum Gravity",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/03/27/universes_earliest_expansion_may_have_come_from_quantum_gravity_1173041.html",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: This quantum computing breakthrough may not be what it seemed",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
+          "date": "2026-03-29"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Anthony Leggett obituary: physicist who brought quantum theory to the macro world",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01010-z",
+          "date": "2026-03-30"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum simulations verified by experiments for the first time",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00959-1",
+          "date": "2026-03-30"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 4,
+      "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
       "id": "quantum_computers_soon_replace_regular",
@@ -7019,6 +7319,81 @@
       "readiness_summary": "3 NASEM sources, most recent 2016 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
+      "id": "moderate_global_warming_around_sufficient",
+      "question": "Is moderate global warming (around 2°C) sufficient to prevent extreme climate outcomes?",
+      "priority": "low",
+      "rationale": "Corrects dangerous complacency about 2°C targets based on recent climate research showing extreme outcomes remain possible",
+      "misinformation_narrative": "Many people believe that limiting warming to 2°C as outlined in Paris Agreement guarantees we'll avoid catastrophic climate impacts, when extreme outcomes remain possible even at this level",
+      "public_stakes": "Underestimating climate risks at 2°C warming could lead to inadequate preparation for extreme weather events and insufficient mitigation efforts",
+      "verification_status": "needs_review",
+      "verification_reason": "This confuses academic climate science nuances with public misconceptions; most people aren't debating specific temperature thresholds.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science",
+        "Risk Assessment"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Stabilization Targets: Emissions, Concentrations, and Impacts over Decades to Millennia (2011)",
+          "url": "https://www.nationalacademies.org/publications/12877"
+        },
+        {
+          "name": "Abrupt Impacts of Climate Change: Anticipating Surprises (2013)",
+          "url": "https://www.nationalacademies.org/publications/18373"
+        },
+        {
+          "name": "Limiting the Magnitude of Future Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12785"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Precipitation observing network gaps limit climate change impact assessment",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10300-5",
+          "date": "2026-03-29"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Moderate global warming does not rule out extreme global climate outcomes",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10237-9",
+          "date": "2026-03-29"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Extreme climate outcomes could still occur with just 2 °C of global warming",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00640-7",
+          "date": "2026-03-29"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate change is altering Saharan dust—and Europe is downwind",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-climate-saharan-europe-downwind.html",
+          "date": "2026-03-29"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Iran war is fuelling climate change: Conflict released over 5 MILLION tons of CO2 in just two weeks by firing missiles, fuelling fighter jets, and bombing oil facilities",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15677265/Iran-war-fuelling-climate-change-greenhouse-gases.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-03-29"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2013,
+      "signal_count": 3,
+      "readiness_summary": "3 NASEM sources, most recent 2013 — moderately dated · misinformation narrative not yet confirmed · 3 discovery signals"
+    },
+    {
       "id": "invasive_species_silently_remodeling_ecosystems",
       "question": "Are invasive species silently remodeling ecosystems in harmful ways?",
       "priority": "low",
@@ -7767,13 +8142,14 @@
       "id": "pediatricians_receive_financial_bonuses_pharmaceutical",
       "question": "Do pediatricians receive financial bonuses from pharmaceutical companies for vaccinating children?",
       "priority": "high",
-      "rationale": "Directly addresses a specific conspiracy theory that undermines trust in medical professionals and vaccine recommendations",
-      "misinformation_narrative": "Anti-vaccine activists claim pediatricians are financially incentivized by pharmaceutical companies to over-vaccinate children, implying financial conflicts of interest drive vaccination recommendations",
-      "public_stakes": "Parents may refuse vaccines for their children based on false beliefs about doctor motivations, leading to preventable disease outbreaks and child deaths",
+      "rationale": "Directly addresses a specific conspiracy theory that undermines trust in pediatric vaccination recommendations and medical professionals",
+      "misinformation_narrative": "Anti-vaccine activists claim pediatricians are financially incentivized by pharmaceutical companies to over-vaccinate children, making vaccination recommendations untrustworthy",
+      "public_stakes": "Parents may delay or refuse vaccinations for their children, leading to outbreaks of preventable diseases and putting vulnerable populations at risk",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine groups on Facebook, Telegram, and websites like Age of Autism regularly promote claims about pediatricians receiving \"kickbacks\" from pharmaceutical companies.",
+      "verification_reason": "Anti-vaccine groups on Facebook, Telegram, and sites like Children's Health Defense actively promote claims about pediatrician financial incentives from Big Pharma.",
       "tags": [
         "Health and Medicine",
+        "Public Health",
         "Vaccines",
         "Medical Ethics"
       ],
@@ -7947,8 +8323,8 @@
         }
       ],
       "discovered_at": "2026-03-13",
-      "last_seen": "2026-03-30",
-      "times_seen": 11,
+      "last_seen": "2026-03-31",
+      "times_seen": 12,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 5,
@@ -9133,6 +9509,175 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "should_older_adults_avoid_benadryl",
+      "question": "Should older adults avoid Benadryl and similar antihistamines?",
+      "priority": "high",
+      "rationale": "Addresses common medication safety misconception with serious consequences for elderly population",
+      "misinformation_narrative": "Many older adults and their families believe over-the-counter antihistamines like Benadryl are safe for regular use, unaware of cognitive risks and safer alternatives",
+      "public_stakes": "Continued use of inappropriate medications in elderly could increase fall risk, cognitive impairment, and other serious health complications",
+      "verification_status": "verified",
+      "verification_reason": "Geriatric medicine literature and pharmacy consultations document widespread unawareness among elderly patients about Benadryl's cognitive risks.",
+      "tags": [
+        "Health and Medicine",
+        "Aging",
+        "Medication Safety"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Why Older Adults Should Avoid Benadryl",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/03/30/why_older_adults_should_avoid_benadryl_1173406.html",
+          "date": "2026-03-30"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Geriatrics Society",
+          "organization_full": "American Geriatrics Society",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Beers Criteria for Potentially Inappropriate Medication Use in Older Adults",
+          "description": "Evidence-based guidelines that specifically list first-generation antihistamines like diphenhydramine (Benadryl) as potentially inappropriate for older adults",
+          "relevance": "Directly addresses antihistamine use in older adults with specific recommendations against Benadryl-type medications"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Risk of next-day impairment after use of insomnia drugs",
+          "description": "FDA safety communication addressing anticholinergic medications and their risks in older populations",
+          "relevance": "Provides regulatory perspective on anticholinergic medications like diphenhydramine and associated risks"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Anticholinergic burden for prediction of cognitive impairment or decline in older adults",
+          "description": "Systematic review examining the relationship between anticholinergic medications and cognitive decline in older adults",
+          "relevance": "Provides systematic review evidence on cognitive risks of anticholinergic medications including antihistamines in older adults"
+        },
+        {
+          "organization": "NIH National Institute on Aging",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Safe Use of Medicines for Older Adults",
+          "description": "NIA guidance on medication safety for older adults, including information about over-the-counter medications",
+          "relevance": "Provides authoritative guidance on medication safety considerations specific to older adults"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Medication Safety Program - Older Adult Falls Prevention",
+          "description": "CDC guidance on medications that increase fall risk in older adults, including anticholinergic medications",
+          "relevance": "Addresses safety concerns about medications like antihistamines that can increase fall risk in older adults"
+        }
+      ],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "long_covid_linked_specific_immune",
+      "question": "Is long COVID linked to specific immune system dysfunction?",
+      "priority": "high",
+      "rationale": "Counters skepticism about long COVID legitimacy with emerging evidence of biological mechanisms",
+      "misinformation_narrative": "Some dismiss long COVID as psychological or claim it's not a real medical condition, when research identifies specific immune cell abnormalities",
+      "public_stakes": "Dismissing long COVID could prevent patients from receiving appropriate care and delay development of targeted treatments",
+      "verification_status": "verified",
+      "verification_reason": "Conservative media figures and some physicians on social media actively dismiss long COVID as psychological, despite mounting medical evidence.",
+      "tags": [
+        "Health and Medicine",
+        "COVID-19",
+        "Immunology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists find immune cell linked to long COVID fatigue and symptoms",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260325005922.htm",
+          "date": "2026-03-28"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "RECOVER Initiative Research Studies and Publications",
+          "description": "NIH's RECOVER Initiative comprehensive research program studying long COVID, including multiple studies on immune system dysfunction and biomarkers",
+          "relevance": "Direct research on long COVID immune system abnormalities including T-cell dysfunction, autoantibodies, and inflammatory markers"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/nchs/covid19/pulse/long-covid.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Long COVID: Household Pulse Survey",
+          "description": "CDC's ongoing surveillance and research updates on long COVID symptoms and underlying mechanisms",
+          "relevance": "Provides epidemiological data and links to research on long COVID immune system involvement"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/europe/news-room/fact-sheets/item/post-covid-19-condition",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Post COVID-19 condition (Long COVID)",
+          "description": "WHO fact sheet on long COVID definition, symptoms, and current understanding of pathophysiology",
+          "relevance": "Addresses immune system dysfunction as a key mechanism in long COVID development"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Interventions for the management of post‐COVID conditions (long COVID)",
+          "description": "Systematic review of long COVID interventions that discusses underlying immune mechanisms",
+          "relevance": "Evidence synthesis on treatments targeting immune dysfunction in long COVID patients"
+        }
+      ],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "gas_stoves_cause_cancer_home",
@@ -13886,6 +14431,47 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "zombie_cells_brought_back_life",
+      "question": "Can 'zombie cells' be brought back to life with new genetic material?",
+      "priority": "low",
+      "rationale": "Clarifies what 'zombie cell' research actually involves versus popular misconceptions about reanimating dead tissue",
+      "misinformation_narrative": "Science fiction narratives about reanimating dead tissue create unrealistic expectations about what 'zombie cell' research actually achieves",
+      "public_stakes": "Misunderstanding could lead to unrealistic expectations about regenerative medicine and end-of-life care possibilities",
+      "verification_status": "needs_review",
+      "verification_reason": "\"Zombie cells\" isn't common enough terminology for widespread public misconceptions; this appears to be invented science fiction concerns.",
+      "tags": [
+        "Cell Biology",
+        "Regenerative Medicine",
+        "Science Communication"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Briefing Chat: ‘Zombie cells’ resurrected with new genes",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00996-w",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: 'Zombie' cells created by transplanting genomes into dead bacteria",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520182-zombie-cells-created-by-transplanting-genomes-into-dead-bacteria/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-28"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
       "id": "zombie_cells_actually_bringing_dead",
       "question": "Are 'zombie cells' actually bringing dead organisms back to life?",
       "priority": "low",
@@ -14303,15 +14889,15 @@
       "id": "car_cell_therapy_cure_lupus",
       "question": "Can CAR-T cell therapy cure lupus?",
       "priority": "low",
-      "rationale": "Addresses overhype around promising but experimental therapy, distinguishing between 'clinical cure' and complete cure",
-      "misinformation_narrative": "Media reports about early CAR-T successes may lead people to believe lupus is now 'curable' in the traditional sense, potentially causing unrealistic expectations or treatment delays",
-      "public_stakes": "Patients may delay proven treatments waiting for CAR-T therapy, or have unrealistic expectations about permanent cures vs. sustained remission",
+      "rationale": "Clarifies promising but often misunderstood emerging therapy, distinguishing between clinical remission and complete cure",
+      "misinformation_narrative": "Patients may believe CAR-T therapy offers a complete permanent cure for lupus, when it actually provides disease-free remission while genetic predisposition remains",
+      "public_stakes": "Unrealistic expectations could lead to poor treatment decisions, disappointment, and potentially risky treatment choices based on misunderstanding of outcomes",
       "verification_status": "needs_review",
-      "verification_reason": "CAR-T therapy for lupus is too new and obscure for widespread public misconceptions; most people haven't heard of either CAR-T or this application.",
+      "verification_reason": "CAR-T therapy for lupus is too new and specialized for widespread public misconceptions to have formed about cure expectations.",
       "tags": [
         "Health and Medicine",
-        "Autoimmune Disease",
-        "Experimental Treatments"
+        "Autoimmune Diseases",
+        "Cell Therapy"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -14379,15 +14965,322 @@
           "resource_name": "New and Emerging Treatments for Lupus",
           "description": "Patient advocacy organization's overview of experimental and investigational lupus treatments",
           "relevance": "May discuss CAR-T cell therapy as an experimental approach being studied for autoimmune diseases including lupus"
+        },
+        {
+          "organization": "NIH/ClinicalTrials.gov",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Clinical Trials Database - CAR-T cell therapy for lupus",
+          "description": "Database of ongoing and completed clinical trials testing CAR-T therapy for lupus",
+          "relevance": "Shows current research status and whether CAR-T therapy for lupus is being investigated in clinical trials"
         }
       ],
       "discovered_at": "2026-03-25",
-      "last_seen": "2026-03-30",
-      "times_seen": 2,
+      "last_seen": "2026-03-31",
+      "times_seen": 3,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 6 alternative sources identified"
+    },
+    {
+      "id": "rex_still_considered_apex_predator",
+      "question": "Is T. rex still considered the apex predator of its time?",
+      "priority": "low",
+      "rationale": "Corrects deeply embedded popular misconception about dinosaur hierarchy based on recent fossil evidence",
+      "misinformation_narrative": "Popular culture maintains T. rex as the ultimate dinosaur predator, but recent fossil evidence suggests other predators may have been more dominant",
+      "public_stakes": "While not health-critical, widespread scientific misconceptions undermine public understanding of evolutionary science and paleontology",
+      "verification_status": "needs_review",
+      "verification_reason": "While paleontology evolves, there's no significant public movement maintaining T. rex supremacy against new evidence; this is academic, not public misinformation.",
+      "tags": [
+        "Evolution",
+        "Paleontology",
+        "Science Education"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: The shocking fossils that show T. rex wasn't the king of the dinosaurs",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519003-the-shocking-fossils-that-show-t-rex-wasnt-the-king-of-the-dinosaurs/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-28"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "gut_bacteria_actively_control_immune",
+      "question": "Do gut bacteria actively control immune system function?",
+      "priority": "low",
+      "rationale": "Clarifies the real but often overstated relationship between gut bacteria and immune function",
+      "misinformation_narrative": "While gut health is important, some claims overstate bacterial control of immunity, leading to unrealistic expectations for probiotic treatments",
+      "public_stakes": "Overstated claims could lead people to rely on probiotics instead of proven medical treatments for immune-related conditions",
+      "verification_status": "needs_review",
+      "verification_reason": "This sounds like academic nuance about microbiome research rather than widespread public misconceptions about bacterial control.",
+      "tags": [
+        "Health and Medicine",
+        "Microbiome",
+        "Immunology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists find gut bacteria inject proteins that control your immune system",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260326080752.htm",
+          "date": "2026-03-28"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "The Microbiome in Health and Disease",
+          "description": "NIAID's research overview on how the microbiome, including gut bacteria, influences immune system development and function",
+          "relevance": "Directly addresses the relationship between gut microbiota and immune system regulation"
+        },
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Your Digestive System & How it Works",
+          "description": "NIDDK publication explaining the digestive system including the role of gut bacteria in immune function",
+          "relevance": "Contains evidence on gut microbiome's interaction with the immune system"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Probiotics for prevention of acute upper respiratory tract infections",
+          "description": "Systematic review examining evidence for how beneficial bacteria affect immune responses",
+          "relevance": "Provides systematic review evidence on bacterial modulation of immune function"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://iris.who.int/items/8403ce19-fec0-4c0a-a9ed-b1c3221edead",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Probiotics in food: Health and nutritional properties and guidelines for evaluation",
+          "description": "WHO technical report on probiotics including their immunomodulatory effects",
+          "relevance": "International health authority assessment of bacterial effects on immune system"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA and CDC Are Investigating Multistate Outbreaks of Salmonella Infections",
+          "description": "FDA guidance on foodborne pathogens and immune responses, demonstrating bacterial-immune interactions",
+          "relevance": "Shows how pathogenic bacteria interact with and trigger immune responses"
+        }
+      ],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "ocean_species_disappearing_faster_scientists",
+      "question": "Are ocean species disappearing faster than scientists can discover them?",
+      "priority": "low",
+      "rationale": "Addresses misconceptions about the pace of species discovery versus extinction in understudied marine environments",
+      "misinformation_narrative": "Some dismiss biodiversity loss concerns, while others may overestimate discovery rates versus extinction rates in marine environments",
+      "public_stakes": "Misunderstanding marine biodiversity loss could lead to inadequate conservation efforts and continued habitat destruction",
+      "verification_status": "needs_review",
+      "verification_reason": "This conflates complex scientific debates about discovery versus extinction rates with clear public misinformation narratives.",
+      "tags": [
+        "Biodiversity",
+        "Conservation",
+        "Marine Science"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Ocean species are disappearing before scientists can even find them",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260326075603.htm",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: 24 new deep-sea species found including a rare new branch of life",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260325005912.htm",
+          "date": "2026-03-28"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: DNA reveals two new bass species hidden in plain sight",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260323005532.htm",
+          "date": "2026-03-28"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-3/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 3: Oceans and Coastal Ecosystems and Their Services",
+          "description": "IPCC Assessment Report 6 Working Group II chapter on ocean ecosystems, including biodiversity loss rates and species extinction risks",
+          "relevance": "Provides authoritative assessment of ocean biodiversity loss rates and threats to marine species"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate Change Indicators: Marine Species Distribution",
+          "description": "EPA's analysis of changes in marine species populations and distributions due to environmental pressures",
+          "relevance": "Documents trends in marine species populations and factors affecting their survival"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.noaa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "State of the Climate: Ocean Report",
+          "description": "Annual comprehensive assessment of ocean conditions including marine biodiversity indicators",
+          "relevance": "Provides data on ocean ecosystem health and species population trends"
+        },
+        {
+          "organization": "IUCN",
+          "organization_full": "IUCN",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "The IUCN Red List of Threatened Species - Marine Life",
+          "description": "Comprehensive database tracking extinction risk status of marine species globally",
+          "relevance": "Authoritative source on marine species extinction rates and conservation status"
+        },
+        {
+          "organization": "UN Environment Programme",
+          "organization_full": "UN Environment Programme",
+          "base_url": "",
+          "url": "https://www.cbd.int/gbo5",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Global Biodiversity Outlook 5 - Marine and Coastal Biodiversity",
+          "description": "UN's flagship report on global biodiversity status including marine ecosystem assessments",
+          "relevance": "Provides global assessment of marine biodiversity loss rates compared to discovery rates"
+        }
+      ],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "working_out_like_astronaut_provide",
+      "question": "Does working out like an astronaut provide special anti-aging benefits?",
+      "priority": "low",
+      "rationale": "Addresses marketing hype around space-inspired fitness programs versus evidence-based exercise for aging",
+      "misinformation_narrative": "Marketing claims suggest astronaut-style exercise programs have unique anti-aging properties beyond regular exercise benefits",
+      "public_stakes": "People may waste money on expensive specialized programs instead of proven exercise regimens, or avoid exercise thinking they need special equipment",
+      "verification_status": "needs_review",
+      "verification_reason": "While fitness marketing makes many claims, \"astronaut workout anti-aging\" isn't a sufficiently prevalent narrative to constitute real misinformation.",
+      "tags": [
+        "Health and Medicine",
+        "Exercise Science",
+        "Aging"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: How working out like an astronaut can reduce back pain and slow ageing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-28"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NASA",
+          "organization_full": "National Aeronautics and Space Administration",
+          "base_url": "https://www.nasa.gov",
+          "url": "https://www.nasa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Human Research Program Evidence Reports",
+          "description": "NASA's comprehensive research reports on exercise countermeasures and physiological changes in spaceflight",
+          "relevance": "Contains specific data on exercise protocols used by astronauts and their effects on age-related physiological markers"
+        },
+        {
+          "organization": "NIH National Institute on Aging",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Exercise and Physical Activity Guide",
+          "description": "NIA's evidence-based guidelines on exercise benefits for aging, including resistance and aerobic training",
+          "relevance": "Provides scientific evidence on how exercise types similar to astronaut training affect aging processes"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Exercise for preventing and treating osteoporosis in postmenopausal women",
+          "description": "Systematic review of exercise interventions for bone health",
+          "relevance": "Evaluates high-intensity exercise protocols similar to those used in space medicine for preventing age-related bone loss"
+        }
+      ],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-03-31",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
     },
     {
       "id": "rex_been_dethroned_king_dinosaurs",

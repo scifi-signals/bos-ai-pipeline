@@ -1,0 +1,51 @@
+{
+  "id": "gut_bacteria_actively_control_immune",
+  "question": "Do gut bacteria actively control immune system function?",
+  "topic": "Clarifies the real but often overstated relationship between gut bacteria and immune function",
+  "tags": [
+    "Health and Medicine",
+    "Microbiome",
+    "Immunology"
+  ],
+  "sources": [
+    {
+      "name": "The Microbiome in Health and Disease — NIH/NIAID",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Your Digestive System & How it Works — NIH/NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Probiotics for prevention of acute upper respiratory tract infections — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Probiotics in food: Health and nutritional properties and guidelines for evaluation — WHO",
+      "url": "https://iris.who.int/items/8403ce19-fec0-4c0a-a9ed-b1c3221edead",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "FDA and CDC Are Investigating Multistate Outbreaks of Salmonella Infections — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists find gut bacteria inject proteins that control your immune system",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260326080752.htm",
+      "date": "2026-03-28"
+    }
+  ]
+}

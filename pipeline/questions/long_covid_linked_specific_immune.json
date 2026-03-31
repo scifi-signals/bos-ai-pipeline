@@ -1,0 +1,51 @@
+{
+  "id": "long_covid_linked_specific_immune",
+  "question": "Is long COVID linked to specific immune system dysfunction?",
+  "topic": "Counters skepticism about long COVID legitimacy with emerging evidence of biological mechanisms",
+  "tags": [
+    "Health and Medicine",
+    "COVID-19",
+    "Immunology"
+  ],
+  "sources": [
+    {
+      "name": "RECOVER Initiative Research Studies and Publications — NIH/NIAID",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Long COVID: Household Pulse Survey — CDC",
+      "url": "https://www.cdc.gov/nchs/covid19/pulse/long-covid.htm",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Post COVID-19 condition (Long COVID) — WHO",
+      "url": "https://www.who.int/europe/news-room/fact-sheets/item/post-covid-19-condition",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Interventions for the management of post‐COVID conditions (long COVID) — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Post-Acute Sequelae of SARS-CoV-2 (PASC) Research — NIH/NHLBI",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists find immune cell linked to long COVID fatigue and symptoms",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260325005922.htm",
+      "date": "2026-03-28"
+    }
+  ]
+}

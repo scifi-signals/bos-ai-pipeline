@@ -1,0 +1,39 @@
+{
+  "id": "working_out_like_astronaut_provide",
+  "question": "Does working out like an astronaut provide special anti-aging benefits?",
+  "topic": "Addresses marketing hype around space-inspired fitness programs versus evidence-based exercise for a",
+  "tags": [
+    "Health and Medicine",
+    "Exercise Science",
+    "Aging"
+  ],
+  "sources": [
+    {
+      "name": "Human Research Program Evidence Reports — NASA",
+      "url": "https://www.nasa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Exercise and Physical Activity Guide — NIH National Institute on Aging",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Exercise for preventing and treating osteoporosis in postmenopausal women — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: How working out like an astronaut can reduce back pain and slow ageing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-28"
+    }
+  ]
+}

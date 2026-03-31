@@ -1,0 +1,27 @@
+{
+  "id": "forever_chemicals_pfas_significant_environmental",
+  "question": "Are 'forever chemicals' (PFAS) a significant environmental and health concern?",
+  "topic": "Addresses skepticism about emerging contaminant risks with clear evidence of global contamination",
+  "tags": [
+    "Environmental Health",
+    "Chemical Safety",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Guidance on PFAS Exposure, Testing, and Clinical Follow-Up",
+      "url": "https://www.nationalacademies.org/publications/26156",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: History of ‘forever’ chemicals is written in Antarctic snow",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00867-4",
+      "date": "2026-03-28"
+    }
+  ]
+}

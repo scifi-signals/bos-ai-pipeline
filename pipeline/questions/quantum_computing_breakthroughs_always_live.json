@@ -1,0 +1,76 @@
+{
+  "id": "quantum_computing_breakthroughs_always_live",
+  "question": "Do quantum computing breakthroughs always live up to initial claims?",
+  "topic": "Addresses pattern of premature claims about quantum computing advances that mislead public and inves",
+  "tags": [
+    "Technology",
+    "Quantum Science",
+    "Science Communication"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Long-distance quantum link generates entanglement faster than it is lost",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00804-5",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: How Anthony Leggett pushed the boundaries of quantum physics",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521212-how-anthony-leggett-pushed-the-boundaries-of-quantum-physics/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Temperature gets a new definition using a quantum device",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520758-temperature-gets-a-new-definition-using-a-quantum-device/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Physicists just turned glass into a powerful quantum security device",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260324024255.htm",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Universe's Earliest Expansion May Have Come From Quantum Gravity",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/27/universes_earliest_expansion_may_have_come_from_quantum_gravity_1173041.html",
+      "date": "2026-03-28"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: This quantum computing breakthrough may not be what it seemed",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260328043600.htm",
+      "date": "2026-03-29"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Anthony Leggett obituary: physicist who brought quantum theory to the macro world",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01010-z",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Quantum simulations verified by experiments for the first time",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00959-1",
+      "date": "2026-03-30"
+    }
+  ]
+}
