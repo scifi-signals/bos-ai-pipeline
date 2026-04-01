@@ -1,0 +1,51 @@
+{
+  "id": "new_covid_variants_still_significant",
+  "question": "Are new COVID variants still a significant health concern?",
+  "topic": "Corrects pandemic fatigue and false sense of security about ongoing COVID risks and evolution",
+  "tags": [
+    "Infectious Disease",
+    "Public Health",
+    "Pandemic Response"
+  ],
+  "sources": [
+    {
+      "name": "COVID-19 Variants: What You Need to Know — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "SARS-CoV-2 variants of concern and variants of interest — WHO",
+      "url": "https://www.who.int/en/activities/tracking-SARS-CoV-2-variants/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "COVID Data Tracker: Variant Proportions — CDC",
+      "url": "https://covid.cdc.gov/covid-data-tracker/#variant-proportions",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Coronavirus Disease 2019 (COVID-19) EUA Information — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "COVID-19 Treatment Guidelines — NIH",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: COVID-19 variant BA.3.2 is spreading quickly across US – a doctor explains what you need to know",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/covid-19-variant-ba-3-2-is-spreading-quickly-across-us-a-doctor-explains-what-you-need-to-know-279447",
+      "date": "2026-03-31"
+    }
+  ]
+}

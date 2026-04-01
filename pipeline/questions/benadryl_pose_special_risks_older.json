@@ -1,0 +1,45 @@
+{
+  "id": "benadryl_pose_special_risks_older",
+  "question": "Does Benadryl pose special risks for older adults?",
+  "topic": "Corrects widespread unawareness of age-specific medication risks that could prevent serious adverse ",
+  "tags": [
+    "Health and Medicine",
+    "Geriatric Medicine",
+    "Medication Safety"
+  ],
+  "sources": [
+    {
+      "name": "FDA Drug Safety Communication: FDA warns about serious problems with high doses of the allergy medicine diphenhydramine (Benadryl) — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Anticholinergic burden for prediction of cognitive and physical functioning in older adults: a systematic review — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Safe Use of Medicines for Older Adults — NIH National Institute on Aging",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Medication Safety Program - Older Adult Falls Prevention — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Why Older Adults Should Avoid Benadryl",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/30/why_older_adults_should_avoid_benadryl_1173406.html",
+      "date": "2026-03-30"
+    }
+  ]
+}

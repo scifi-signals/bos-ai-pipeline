@@ -1,0 +1,39 @@
+{
+  "id": "working_out_like_astronaut_actually",
+  "question": "Does working out like an astronaut actually provide unique health benefits?",
+  "topic": "Corrects marketing exploitation of space medicine research to separate legitimate exercise science f",
+  "tags": [
+    "Health and Medicine",
+    "Exercise Science",
+    "Space Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Countermeasures and Functional Testing in NASA's Human Research Program — NASA",
+      "url": "https://www.nasa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Bone Health and Osteoporosis: A Report of the Surgeon General — NIH National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK45515/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Exercise for preventing and treating osteoporosis in postmenopausal women — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: How working out like an astronaut can reduce back pain and slow ageing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-30"
+    }
+  ]
+}

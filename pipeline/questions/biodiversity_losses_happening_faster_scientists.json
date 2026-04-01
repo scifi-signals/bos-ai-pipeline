@@ -1,0 +1,55 @@
+{
+  "id": "biodiversity_losses_happening_faster_scientists",
+  "question": "Are biodiversity losses happening faster than scientists can discover new species?",
+  "topic": "Corrects lack of awareness about the pace of biodiversity loss relative to scientific discovery, emp",
+  "tags": [
+    "Biodiversity",
+    "Conservation Biology",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "Biodiversity at Risk: Today's Choices Matter",
+      "url": "https://www.nationalacademies.org/publications/26384",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Ocean species are disappearing before scientists can even find them",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260326075603.htm",
+      "date": "2026-03-29"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: 24 new deep-sea species found including a rare new branch of life",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260325005912.htm",
+      "date": "2026-03-29"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Forty new migratory species win international protection: UN body",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-forty-migratory-species-international-body.html",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Parasites defy biodiversity rules, thriving far from the equator",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-parasites-defy-biodiversity-equator.html",
+      "date": "2026-03-31"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Two new gecko species discovered in Vietnam",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-gecko-species-vietnam.html",
+      "date": "2026-03-31"
+    }
+  ]
+}

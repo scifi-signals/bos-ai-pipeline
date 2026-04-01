@@ -1,0 +1,51 @@
+{
+  "id": "lung_cancer_screening_effective_early",
+  "question": "Is lung cancer screening effective for early detection?",
+  "topic": "Corrects lack of awareness about proven screening benefits that could save lives through early detec",
+  "tags": [
+    "Health and Medicine",
+    "Cancer Prevention",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Lung Cancer: Screening - Final Recommendation Statement — U.S. Preventive Services Task Force (USPSTF)",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/lung-cancer-screening",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "What CDC Is Doing About Lung Cancer — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Lung Cancer Screening (PDQ) - Health Professional Version — National Cancer Institute (NIH)",
+      "url": "https://www.cancer.gov/types/lung/hp/lung-screening-pdq",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Screening for lung cancer — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Lung Cancer Screening Guidelines — American Cancer Society",
+      "url": "https://www.cancer.org/cancer/types/lung-cancer/detection-diagnosis-staging/detection.html",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Huge lung-cancer screening campaign boosts early diagnosis",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00954-6",
+      "date": "2026-03-29"
+    }
+  ]
+}
