@@ -1,0 +1,95 @@
+{
+  "id": "space_exploration_just_expensive_entertainment",
+  "question": "Is space exploration just expensive entertainment, or does it provide practical benefits?",
+  "topic": "Corrects 'space waste' misconception with evidence on technology transfers and practical application",
+  "tags": [
+    "Space Science",
+    "Science Policy",
+    "Technology Transfer"
+  ],
+  "sources": [
+    {
+      "name": "Practical Applications of a Space Station",
+      "url": "https://www.nationalacademies.org/publications/18603",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Pathways to Exploration: Rationales and Approaches for a U.S. Program of Human Space Exploration",
+      "url": "https://www.nationalacademies.org/publications/18801",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+      "url": "https://www.nationalacademies.org/publications/13354",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Countdown to Artemis: is NASA’s Moon mission the dawn of a new space age?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00998-8",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Giants of the deep and the wonder of space: Books in Brief",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00995-x",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Why the lack of water on Mars is so mysterious",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521185-why-the-lack-of-water-on-mars-is-so-mysterious/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: I almost drowned in space when my helmet filled with water",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521138-i-almost-drowned-in-space-when-my-helmet-filled-with-water/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Author of Red Mars calls 'bullshit' on emigrating to the planet",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520312-author-of-red-mars-calls-bullshit-on-emigrating-to-the-planet/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: How working out like an astronaut can reduce back pain and slow ageing",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519666-how-working-out-like-an-astronaut-can-reduce-back-pain-and-slow-ageing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Artemis II mission is about to fly humans to the Moon — here’s the science they’ll do",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00964-4",
+      "date": "2026-03-31"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Astronauts are ready to return to the moon on Artemis II mission",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521539-astronauts-are-ready-to-return-to-the-moon-on-artemis-ii-mission/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-31"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Humanity is heading back to the Moon — why aren’t more scientists thrilled?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00987-x",
+      "date": "2026-04-01"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "id": "currently_middle_mass_extinction_event",
+  "question": "Are we currently in the middle of a mass extinction event?",
+  "topic": "Corrects both climate denial and catastrophizing with evidence on current extinction rates vs. backg",
+  "tags": [
+    "Environmental Science",
+    "Conservation Biology",
+    "Biodiversity"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Summary for Policymakers — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/downloads/report/IPCC_AR6_WGII_SummaryForPolicymakers.pdf",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change Indicators: Bird Wintering Ranges and Other Species and Ecosystems Indicators — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fourth National Climate Assessment - Volume II: Impacts, Risks, and Adaptation - Ecosystems Chapter — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Biodiversity and Health Fact Sheet — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/biodiversity",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Climate Change and Human Health Literature Portal - Biodiversity — NIH/NIEHS",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Ocean species are disappearing before scientists can even find them",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260326075603.htm",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: 24 new deep-sea species found including a rare new branch of life",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260325005912.htm",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Ancient predator species discovered in South Africa challenges what we know about gorgonopsians",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-ancient-predator-species-south-africa.html",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Forty new migratory species win international protection: UN body",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-forty-migratory-species-international-body.html",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Trump’s ‘God Squad’ pits energy vs. endangered species, but it’s a false choice – protecting wildlife can be good for business",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/trumps-god-squad-pits-energy-vs-endangered-species-but-its-a-false-choice-protecting-wildlife-can-be-good-for-business-279433",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Parasites defy biodiversity rules, thriving far from the equator",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-parasites-defy-biodiversity-equator.html",
+      "date": "2026-03-31"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Two new gecko species discovered in Vietnam",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-gecko-species-vietnam.html",
+      "date": "2026-03-31"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: How squid survived Earth’s biggest extinction and took over the oceans",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260331001100.htm",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Britain has just 20 years to save its wildlife, experts warn - as they reveal the species at highest risk of extinction",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15694159/Britain-save-wildlife-experts-species-extinction.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-04-01"
+    }
+  ]
+}

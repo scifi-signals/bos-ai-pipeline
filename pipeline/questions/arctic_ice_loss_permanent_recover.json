@@ -1,0 +1,68 @@
+{
+  "id": "arctic_ice_loss_permanent_recover",
+  "question": "Is the Arctic ice loss permanent or can it recover naturally?",
+  "topic": "Corrects both 'it's natural cycles' and 'completely irreversible' misconceptions with evidence on re",
+  "tags": [
+    "Climate Change",
+    "Arctic Science",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "The Arctic in the Anthropocene: Emerging Research Questions",
+      "url": "https://www.nationalacademies.org/publications/18726",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Seasonal to Decadal Predictions of Arctic Sea Ice: Challenges and Strategies",
+      "url": "https://www.nationalacademies.org/publications/13515",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: History of ‘forever’ chemicals is written in Antarctic snow",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00867-4",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Warmer ocean is driving the Antarctic sea ice 'regime shift'",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520281-warmer-ocean-is-driving-the-antarctic-sea-ice-regime-shift/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Thawing permafrost becomes 25 to 100 times more permeable, experiments find",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-permafrost-permeable.html",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Recovery from sudden permafrost collapse ranges from 10 years to a century, study suggests",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-recovery-sudden-permafrost-collapse-ranges.html",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: Winter Sea Ice in the Arctic Ties a Record Low",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/03/26/climate/arctic-sea-ice-ties-record-low.html",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Arctic & Polar Science: A new way to eavesdrop on ocean temperature in the Arctic",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-eavesdrop-ocean-temperature-arctic.html",
+      "date": "2026-03-31"
+    }
+  ]
+}

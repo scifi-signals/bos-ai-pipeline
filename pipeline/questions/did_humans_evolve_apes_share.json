@@ -1,0 +1,125 @@
+{
+  "id": "did_humans_evolve_apes_share",
+  "question": "Did humans evolve from apes, or do we share common ancestors?",
+  "topic": "Corrects fundamental evolution misconception with phylogenetic evidence and fossil record",
+  "tags": [
+    "Evolution",
+    "Science Education",
+    "Paleontology"
+  ],
+  "sources": [
+    {
+      "name": "Science, Evolution, and Creationism",
+      "url": "https://www.nationalacademies.org/publications/11876",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: The shocking fossils that show T. rex wasn't the king of the dinosaurs",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519003-the-shocking-fossils-that-show-t-rex-wasnt-the-king-of-the-dinosaurs/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Fossils discovered in Egypt may be the closest ancestor of all apes",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521073-fossils-discovered-in-egypt-may-be-the-closest-ancestor-of-all-apes/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: The Selfish Gene: Still one of the most thrilling evolution books ever",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2519896-the-selfish-gene-still-one-of-the-most-thrilling-evolution-books-ever/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Ancient bones reveal vivid details of a Neanderthal elephant hunt",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520535-ancient-bones-reveal-vivid-details-of-a-neanderthal-elephant-hunt/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Ancient predator species discovered in South Africa challenges what we know about gorgonopsians",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-ancient-predator-species-south-africa.html",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: What an ancient devotional text means for the women of Nepal",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/what-an-ancient-devotional-text-means-for-the-women-of-nepal-273901",
+      "date": "2026-03-31"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Survival of the wittiest: Expert says linguistic cleverness aids human evolution",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-survival-wittiest-expert-linguistic-cleverness.html",
+      "date": "2026-03-31"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Cambridge offers botany course that inspired Darwin after rare archive uncovered",
+      "origin": "STM — The Guardian Science",
+      "url": "https://www.theguardian.com/environment/2026/mar/28/cambridge-university-botany-course-charles-darwin-john-stevens-henslow",
+      "date": "2026-03-31"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Ashes from Pompeii shed light on rituals in ancient Rome",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01003-y",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: How did ancient bugs get so big? The prevailing theory may be wrong",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/how-did-ancient-bugs-get-so-big-prevailing-theory-may-be-wrong",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Scientists just found DNA “supergenes” that speed up evolution",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260331001109.htm",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Angle evolution of the superconducting phase diagram in twisted bilayer WSe<sub>2</sub>",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10357-2",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Evolution of pandemic cholera at its global source",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10340-x",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Pincer movement: fossil pushes origins of chelicerate arthropods back to the Cambrian period",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00807-2",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: 500-million-year-old fossil sheds light on origins of spiders and scorpions",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/500-million-year-old-fossil-sheds-light-origins-spiders-and-scorpions",
+      "date": "2026-04-01"
+    }
+  ]
+}

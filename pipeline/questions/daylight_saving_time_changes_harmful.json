@@ -1,0 +1,39 @@
+{
+  "id": "daylight_saving_time_changes_harmful",
+  "question": "Are daylight saving time changes harmful to health?",
+  "topic": "Clarifies conflicting claims about time change health impacts with circadian biology and epidemiolog",
+  "tags": [
+    "Health and Medicine",
+    "Sleep Science",
+    "Public Policy"
+  ],
+  "sources": [
+    {
+      "name": "Sleep and Sleep Disorders: Daylight Saving Time — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Daylight Saving Time and Heart Health Research — American Heart Association",
+      "url": "https://www.heart.org/en/news/2020/03/06/how-daylight-saving-time-can-affect-your-health",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Health Effects of Seasonal Time Changes — WHO Regional Office for Europe",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Has the time come to stop changing the clocks? Scientists call for the biannual change to be DITCHED entirely - amid fears it fuels a rise in cancer, traffic accidents and sleep issues",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15684811/time-changing-clocks-scientists-DITCHED-cancer.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-04-01"
+    }
+  ]
+}

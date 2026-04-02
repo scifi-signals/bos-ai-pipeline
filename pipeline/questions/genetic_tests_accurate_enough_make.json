@@ -1,0 +1,109 @@
+{
+  "id": "genetic_tests_accurate_enough_make",
+  "question": "Are genetic tests accurate enough to make major health decisions?",
+  "topic": "Corrects both genetic determinism and genetic nihilism with evidence on test accuracy and clinical u",
+  "tags": [
+    "Health and Medicine",
+    "Genetics",
+    "Personalized Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Biomarker Tests for Molecularly Targeted Therapies: Key to Unlocking Precision Medicine",
+      "url": "https://www.nationalacademies.org/publications/21860",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Refining Processes for the Co-Development of Genome-Based Therapeutics and Companion Diagnostic Tests: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/18617",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Direct-to-Consumer Genetic Testing: Summary of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/13021",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Dawkins’s paradox: dissecting the body’s battle to keep selfish genes in check",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00970-6",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Briefing Chat: ‘Zombie cells’ resurrected with new genes",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00996-w",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Daily briefing: Earliest known dog genome pushes genetic record back 5,000 years",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00992-0",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Genomic history of early dogs in Europe",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10112-7",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: The DNA virome varies with human genes and environments",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10288-y",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: The Shroud of Turin bears DNA from many people, plants and animals",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521236-the-shroud-of-turin-bears-dna-from-many-people-plants-and-animals/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Oldest known dog extends the genetic history of our canine companions",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2520476-oldest-known-dog-extends-the-genetic-history-of-our-canine-companions/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: DNA damage burden causes selective CUX2 neuron loss in neuroinflammation",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10310-3",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: The 1000 Chinese Pangenome empowers medical and population genetics",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10315-y",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Gene regulatory landscape dissected by single-cell four-omics sequencing",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10322-z",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Expansion of outer cortical CUX2 neurons requires adaptations for DNA repair",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10290-4",
+      "date": "2026-04-01"
+    }
+  ]
+}

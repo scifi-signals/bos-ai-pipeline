@@ -1,0 +1,58 @@
+{
+  "id": "antibiotics_work_against_viral_infections",
+  "question": "Do antibiotics work against viral infections like colds and flu?",
+  "topic": "Corrects fundamental misconception about antibiotic specificity that drives inappropriate medical ca",
+  "tags": [
+    "Health and Medicine",
+    "Infectious Disease",
+    "Antibiotic Resistance"
+  ],
+  "sources": [
+    {
+      "name": "Antibiotic Use Questions and Answers — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Get Smart: Know When Antibiotics Work — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antibiotic Resistance Fact Sheet — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/antimicrobial-resistance",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Combating Antibiotic Resistance — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "MedlinePlus: Antibiotics — NIH",
+      "url": "https://medlineplus.gov/antibiotics.html",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: New catalyst enables targeted antibiotic redesign to beat resistant bacteria",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-catalyst-enables-antibiotic-redesign-resistant.html",
+      "date": "2026-03-31"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Targeting the tiniest divide: Research reveals potential vulnerability in bacterial reproduction",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-tiniest-reveals-potential-vulnerability-bacterial.html",
+      "date": "2026-04-01"
+    }
+  ]
+}

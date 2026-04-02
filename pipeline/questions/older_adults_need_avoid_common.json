@@ -1,0 +1,59 @@
+{
+  "id": "older_adults_need_avoid_common",
+  "question": "Do older adults need to avoid common over-the-counter medications?",
+  "topic": "Corrects 'OTC means safe for everyone' misconception with age-specific pharmacology evidence",
+  "tags": [
+    "Health and Medicine",
+    "Aging",
+    "Drug Safety"
+  ],
+  "sources": [
+    {
+      "name": "Use Caution When Giving Cough and Cold Products to Kids — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Safe Use of Medicines for Older Adults — NIH/NIA",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Medication Safety Program — CDC",
+      "url": "https://www.cdc.gov/medication-safety/about/index.html",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Interventions to improve the appropriate use of polypharmacy for older people — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Why Older Adults Should Avoid Benadryl",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/03/30/why_older_adults_should_avoid_benadryl_1173406.html",
+      "date": "2026-03-30"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Global Rallies Call for Aging to Be Treated",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/01/global_rallies_call_for_aging_to_be_treated_1173608.html",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Sorry, you can't sit together! Scientists say elderly people should be SEPARATED on flights to speed up emergency evacuations",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15694819/elderly-people-SEPARATED-flights-emergency-evacuations.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-04-01"
+    }
+  ]
+}
