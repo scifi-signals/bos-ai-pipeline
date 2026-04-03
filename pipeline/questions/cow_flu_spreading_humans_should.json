@@ -1,0 +1,51 @@
+{
+  "id": "cow_flu_spreading_humans_should",
+  "question": "Is 'cow flu' (H5N1) spreading to humans and should we be concerned?",
+  "topic": "H5N1 coverage often lacks nuanced risk communication, creating either false reassurance or excessive",
+  "tags": [
+    "Infectious Disease",
+    "Pandemic Preparedness",
+    "Agricultural Safety"
+  ],
+  "sources": [
+    {
+      "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative",
+      "url": "https://www.nationalacademies.org/publications/26284",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines",
+      "url": "https://www.nationalacademies.org/publications/26285",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19",
+      "url": "https://www.nationalacademies.org/publications/26282",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Perspectives on Research with H5N1 Avian Influenza: Scientific Inquiry, Communication, Controversy: Summary of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/18255",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Domestic and International Impacts of the 2009-H1N1 Influenza A Pandemic: Global Challenges, Global Solutions: Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/12799",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Two years after it emerged, ‘cow flu’ is still circulating—and baffling scientists",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/two-years-after-it-emerged-cow-flu-still-circulating-and-baffling-scientists",
+      "date": "2026-03-31"
+    }
+  ]
+}

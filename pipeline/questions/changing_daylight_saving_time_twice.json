@@ -1,0 +1,33 @@
+{
+  "id": "changing_daylight_saving_time_twice",
+  "question": "Does changing daylight saving time twice a year harm human health?",
+  "topic": "Growing research suggests time changes have measurable health impacts, but public understanding of t",
+  "tags": [
+    "Public Health",
+    "Sleep Medicine",
+    "Policy"
+  ],
+  "sources": [
+    {
+      "name": "Daylight Saving Time and Heart Health Scientific Statement — American Heart Association",
+      "url": "https://www.heart.org/en/news/2020/03/06/daylight-saving-time-change-can-disrupt-more-than-your-sleep",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "AMA Policy on Daylight Saving Time — American Medical Association",
+      "url": "https://www.ama-assn.org",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Has the time come to stop changing the clocks? Scientists call for the biannual change to be DITCHED entirely - amid fears it fuels a rise in cancer, traffic accidents and sleep issues",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15684811/time-changing-clocks-scientists-DITCHED-cancer.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-04-01"
+    }
+  ]
+}

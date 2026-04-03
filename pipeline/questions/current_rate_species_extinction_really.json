@@ -1,0 +1,59 @@
+{
+  "id": "current_rate_species_extinction_really",
+  "question": "Is the current rate of species extinction really unprecedented?",
+  "topic": "Both climate skeptics and environmental advocates sometimes misrepresent extinction data, creating c",
+  "tags": [
+    "Biodiversity",
+    "Conservation",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 2: Terrestrial and Freshwater Ecosystems and Their Services — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-2/",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change Indicators: Land Loss Along the Atlantic Coast — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fourth National Climate Assessment - Chapter 7: Ecosystems, Ecosystem Services, and Biodiversity — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Biodiversity and Health Fact Sheet — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/biodiversity",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Ocean species are disappearing before scientists can even find them",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260326075603.htm",
+      "date": "2026-03-31"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Britain has just 20 years to save its wildlife, experts warn - as they reveal the species at highest risk of extinction",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15694159/Britain-save-wildlife-experts-species-extinction.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-04-01"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: 'Nothing is changing,' researcher warns British Columbia's endangered species lacking protection",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-british-columbia-endangered-species-lacking.html",
+      "date": "2026-04-02"
+    }
+  ]
+}

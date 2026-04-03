@@ -1,0 +1,58 @@
+{
+  "id": "iron_deficiency_really_most_common",
+  "question": "Is iron deficiency really the most common nutrient deficiency in children?",
+  "topic": "Iron deficiency in children is often underrecognized despite being the world's most common nutrient ",
+  "tags": [
+    "Children's Health",
+    "Nutrition",
+    "Global Health"
+  ],
+  "sources": [
+    {
+      "name": "Nutritional Anaemias: Tools for Effective Prevention and Control — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241513067",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Iron Deficiency - United States, 1999–2000 — CDC",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5140a1.htm",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Global Health Observatory - Anaemia in children — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Iron-Deficiency Anemia — NIH/NICHD",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Daily iron supplementation for improving anaemia, iron status and health in menstruating women — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Iron deficiency anemia in picky eaters",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

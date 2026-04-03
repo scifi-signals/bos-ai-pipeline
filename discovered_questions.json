@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-02T12:17:22Z",
+  "generated_at": "2026-04-03T12:13:37Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -598,6 +598,61 @@
       "newest_source_year": 2023,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "cow_flu_spreading_humans_should",
+      "question": "Is 'cow flu' (H5N1) spreading to humans and should we be concerned?",
+      "priority": "high",
+      "rationale": "H5N1 coverage often lacks nuanced risk communication, creating either false reassurance or excessive alarm about pandemic preparedness needs",
+      "misinformation_narrative": "There's confusion about the current H5N1 outbreak in dairy cattle, with some dismissing human transmission risks while others may be unnecessarily alarmed about pandemic potential",
+      "public_stakes": "Agricultural workers need accurate information about protection measures, while the general public needs realistic risk assessment to avoid both complacency and panic",
+      "verification_status": "verified",
+      "verification_reason": "Agricultural communities, conspiracy theorists on social media, and some news outlets show confusion about H5N1 severity and human transmission risks.",
+      "tags": [
+        "Infectious Disease",
+        "Pandemic Preparedness",
+        "Agricultural Safety"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
+          "url": "https://www.nationalacademies.org/publications/26284"
+        },
+        {
+          "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
+          "url": "https://www.nationalacademies.org/publications/26285"
+        },
+        {
+          "name": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19 (2021)",
+          "url": "https://www.nationalacademies.org/publications/26282"
+        },
+        {
+          "name": "Perspectives on Research with H5N1 Avian Influenza: Scientific Inquiry, Communication, Controversy: Summary of a Workshop (2013)",
+          "url": "https://www.nationalacademies.org/publications/18255"
+        },
+        {
+          "name": "The Domestic and International Impacts of the 2009-H1N1 Influenza A Pandemic: Global Challenges, Global Solutions: Workshop Summary (2010)",
+          "url": "https://www.nationalacademies.org/publications/12799"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Two years after it emerged, ‘cow flu’ is still circulating—and baffling scientists",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/two-years-after-it-emerged-cow-flu-still-circulating-and-baffling-scientists",
+          "date": "2026-03-31"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 1,
+      "readiness_summary": "5 NASEM sources, most recent 2021 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "vaccines_cause_harm_diseases_they",
@@ -1668,6 +1723,45 @@
       "newest_source_year": 2018,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "cigarettes_help_people_quit_smoking",
+      "question": "Do e-cigarettes help people quit smoking cigarettes?",
+      "priority": "high",
+      "rationale": "Public health messaging often focuses on vaping risks without acknowledging evidence for smoking cessation benefits, creating confusion for smokers seeking quit methods",
+      "misinformation_narrative": "There is widespread confusion about whether vaping is an effective smoking cessation tool, with some believing it's ineffective or more harmful than continuing to smoke",
+      "public_stakes": "Smokers may avoid a potentially effective cessation tool, continuing with combustible cigarettes that cause significantly more harm",
+      "verification_status": "verified",
+      "verification_reason": "Public health messaging confusion creates genuine debate on social media and in medical communities about vaping as cessation tool.",
+      "tags": [
+        "Public Health",
+        "Tobacco Control",
+        "Harm Reduction"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Public Health Consequences of E-Cigarettes (2018)",
+          "url": "https://www.nationalacademies.org/publications/24952"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "cigarettes_safe_alternatives_smoking_cigarettes",
@@ -4307,6 +4401,64 @@
       "newest_source_year": 2020,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2020 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "quantum_computers_pose_imminent_threat",
+      "question": "Do quantum computers pose an imminent threat to current cybersecurity?",
+      "priority": "medium",
+      "rationale": "Media coverage often sensationalizes quantum computing breakthroughs, creating confusion about realistic timelines for cryptographically relevant quantum computers",
+      "misinformation_narrative": "There is growing alarm that quantum computers will soon break all current encryption, with some believing this threat is immediate while others dismiss it entirely",
+      "public_stakes": "Organizations may either panic and make premature costly changes, or fail to prepare adequately for genuine future cybersecurity risks",
+      "verification_status": "verified",
+      "verification_reason": "Cybersecurity conferences, LinkedIn tech discussions, and business media feature active debates about quantum computing timeline and current encryption vulnerability.",
+      "tags": [
+        "Technology",
+        "Cybersecurity",
+        "National Security"
+      ],
+      "nasem_source_count": 4,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Foundational Cybersecurity Research: Improving Science, Engineering, and Institutions (2017)",
+          "url": "https://www.nationalacademies.org/publications/24676"
+        },
+        {
+          "name": "At the Nexus of Cybersecurity and Public Policy: Some Basic Concepts and Issues (2014)",
+          "url": "https://www.nationalacademies.org/publications/18749"
+        },
+        {
+          "name": "Implications of Artificial Intelligence for Cybersecurity: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25488"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The first quantum computer to break encryption is now shockingly close",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521878-the-first-quantum-computer-to-break-encryption-is-now-shockingly-close/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-02"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01054-1",
+          "date": "2026-04-02"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 2,
+      "readiness_summary": "4 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "quantum_computers_ready_solve_real",
@@ -9913,6 +10065,103 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "covid_vaccines_causing_long_covid",
+      "question": "Are COVID-19 vaccines causing long COVID symptoms?",
+      "priority": "high",
+      "rationale": "Confusion about long COVID causes leads some to blame vaccines rather than the virus itself, despite evidence that vaccination reduces long COVID risk",
+      "misinformation_narrative": "Some people believe that COVID-19 vaccines are causing long COVID symptoms, when research shows vaccines actually reduce the risk of developing long COVID",
+      "public_stakes": "Vaccine hesitancy based on this misconception could lead to more severe COVID infections and higher rates of actual long COVID",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Telegram, Truth Social, and Facebook actively claim COVID vaccines cause long COVID symptoms.",
+      "tags": [
+        "Public Health",
+        "Vaccines",
+        "COVID-19"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists find immune cell linked to long COVID fatigue and symptoms",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260325005922.htm",
+          "date": "2026-03-31"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Attacks from our immune system are a cause of long covid",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521476-attacks-from-our-immune-system-are-a-cause-of-long-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-01"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/vaccines/covid-19/clinical-considerations/myocarditis.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Clinical Considerations: Myocarditis and Pericarditis after Receipt of mRNA COVID-19 Vaccines",
+          "description": "CDC guidance on documented cardiac side effects of COVID-19 vaccines, including symptom duration and management",
+          "relevance": "Addresses actual documented vaccine side effects that might be confused with long COVID"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 vaccines safety surveillance manual",
+          "description": "WHO's comprehensive manual on monitoring vaccine safety including adverse events following immunization",
+          "relevance": "Provides framework for distinguishing vaccine adverse events from other conditions like long COVID"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Coronavirus (COVID-19) Update: June 25, 2021 - FDA Announces Revised Patient and Provider Fact Sheets for Moderna and Pfizer-BioNTech COVID-19 Vaccines Regarding Rare Risk of Myocarditis and Pericarditis",
+          "description": "FDA announcement about documented cardiac side effects and updated fact sheets",
+          "relevance": "Official FDA position on confirmed vaccine side effects versus unconfirmed claims"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing COVID-19 in healthy adults",
+          "description": "Systematic review of COVID-19 vaccine efficacy and safety data from clinical trials",
+          "relevance": "Comprehensive analysis of safety data that would capture any evidence of long-term symptoms"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niaid.nih.gov/node/7937?404message&requested_url=/diseases-conditions/covid-19-vaccines",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccines",
+          "description": "NIH overview of COVID-19 vaccines including safety monitoring and side effects",
+          "relevance": "Authoritative source distinguishing between documented vaccine effects and unsupported claims"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "artificial_intelligence_pose_immediate_existential",
       "question": "Does artificial intelligence pose an immediate existential threat to humanity?",
       "priority": "high",
@@ -10373,6 +10622,220 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "pesticide_residues_conventional_produce_dangerous",
+      "question": "Are pesticide residues on conventional produce dangerous for children?",
+      "priority": "high",
+      "rationale": "The EWG Dirty Dozen list creates unnecessary alarm about pesticide residues that are far below safety thresholds according to EPA/FDA, leading to avoidance of nutritious foods",
+      "misinformation_narrative": "Many parents believe that pesticide residues on conventional produce pose significant health risks to children, often citing the EWG 'Dirty Dozen' list as evidence to avoid conventional fruits and vegetables entirely",
+      "public_stakes": "Parents may reduce children's fruit and vegetable consumption or spend unnecessarily on organic produce they can't afford, potentially harming nutrition and family budgets",
+      "verification_status": "verified",
+      "verification_reason": "Parenting groups on Facebook and Instagram regularly share EWG's Dirty Dozen list with warnings to avoid conventional produce entirely.",
+      "tags": [
+        "Nutrition",
+        "Public Health",
+        "Children's Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Food: How We Test for Safety",
+          "description": "EPA's comprehensive overview of how pesticide residues on food are regulated and assessed for safety, including specific considerations for children",
+          "relevance": "Directly addresses pesticide residue safety standards and children's exposure"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residue Monitoring Program Annual Report",
+          "description": "FDA's annual monitoring data on actual pesticide residue levels found on food compared to safety limits",
+          "relevance": "Provides real-world data on pesticide residue levels children are exposed to through food"
+        },
+        {
+          "organization": "AAP",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://pediatrics.aappublications.org/content/130/5/e1406",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Organic Foods: Health and Environmental Advantages and Disadvantages",
+          "description": "American Academy of Pediatrics clinical report examining pesticide residues and health effects in children",
+          "relevance": "Medical professional guidance specifically addressing pesticide exposure risks for children"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/groups/joint-fao-who-meeting-on-pesticide-residues-(jmpr)",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO/FAO Joint Meeting on Pesticide Residues (JMPR) Reports",
+          "description": "International expert evaluations of pesticide residue safety including acceptable daily intake levels for various populations",
+          "relevance": "Global authority assessments of pesticide safety thresholds relevant to children's exposure"
+        },
+        {
+          "organization": "EWG",
+          "organization_full": "EWG",
+          "base_url": "",
+          "url": "https://www.ewg.org/foodnews/dirty-dozen.php",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Dirty Dozen and Clean Fifteen Lists",
+          "description": "Environmental Working Group's annual analysis of USDA pesticide residue data on conventional produce",
+          "relevance": "Consumer-focused interpretation of government pesticide residue data with risk assessments"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "should_parents_force_children_eat",
+      "question": "Should parents force children to eat foods they don't like?",
+      "priority": "high",
+      "rationale": "Traditional parenting advice often promotes forcing children to eat, but feeding research shows this is counterproductive and can harm long-term eating behaviors",
+      "misinformation_narrative": "Many parents believe they should force or pressure children to eat certain foods to ensure proper nutrition, thinking this will help children develop healthy eating habits",
+      "public_stakes": "Forced feeding can create lasting negative associations with food, worsen picky eating, and contribute to eating disorders or unhealthy relationships with food",
+      "verification_status": "verified",
+      "verification_reason": "Parenting forums, pediatrician offices, and family dinner tables regularly feature debates about forcing kids to eat vegetables and \"clean plate club\" mentality.",
+      "tags": [
+        "Children's Health",
+        "Nutrition",
+        "Parenting"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "anti_aging_supplements_actually_prevent",
+      "question": "Do 'anti-aging' supplements actually prevent cancer?",
+      "priority": "high",
+      "rationale": "The anti-aging supplement market promotes unsubstantiated cancer prevention claims, potentially causing harm to both healthy individuals and cancer patients",
+      "misinformation_narrative": "Many people believe that supplements marketed for anti-aging properties will help prevent cancer, when some may actually interfere with cancer treatment or increase cancer risk",
+      "public_stakes": "Cancer patients may delay or interfere with proven treatments, or healthy individuals may have false confidence in unproven preventive measures",
+      "verification_status": "verified",
+      "verification_reason": "Anti-aging supplement marketing on social media and wellness websites regularly implies cancer prevention benefits without evidence.",
+      "tags": [
+        "Cancer",
+        "Supplements",
+        "Consumer Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Dangers of 'Anti-Aging' Supplements in Cancer Protection",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/02/dangers_of_anti-aging_supplements_in_cancer_protection_1174180.html",
+          "date": "2026-04-02"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "National Cancer Institute (NIH)",
+          "organization_full": "National Cancer Institute (NIH)",
+          "base_url": "",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/antioxidants-fact-sheet",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Antioxidants and Cancer Prevention",
+          "description": "NCI's comprehensive fact sheet examining the scientific evidence on antioxidant supplements and cancer prevention, including results from major clinical trials",
+          "relevance": "Directly addresses whether antioxidant supplements (commonly marketed as anti-aging) prevent cancer with clinical trial evidence"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases",
+          "description": "Systematic review and meta-analysis examining antioxidant supplements and health outcomes including cancer mortality",
+          "relevance": "Provides high-quality systematic review evidence on antioxidant supplements' effects on cancer and mortality"
+        },
+        {
+          "organization": "U.S. Preventive Services Task Force",
+          "organization_full": "U.S. Preventive Services Task Force",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Vitamin, Mineral, and Multivitamin Supplementation to Prevent Cardiovascular Disease and Cancer",
+          "description": "USPSTF recommendation statement examining evidence for vitamin and mineral supplements in cancer prevention",
+          "relevance": "Official clinical practice guideline addressing supplement use for cancer prevention based on systematic evidence review"
+        },
+        {
+          "organization": "World Cancer Research Fund",
+          "organization_full": "World Cancer Research Fund",
+          "base_url": "",
+          "url": "https://www.wcrf.org/research-policy/",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Diet, Nutrition, Physical Activity and Cancer: a Global Perspective - Continuous Update Project",
+          "description": "Comprehensive analysis of global research on diet, supplements, and cancer risk including specific sections on dietary supplements",
+          "relevance": "Authoritative international assessment of evidence linking dietary supplements to cancer prevention"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Questions and Answers on Dietary Supplements",
+          "description": "FDA's official guidance on dietary supplements including regulatory perspective on health claims related to disease prevention",
+          "relevance": "Provides regulatory context and official position on supplement claims for disease prevention including cancer"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -12440,6 +12903,96 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "organic_pesticides_safer_environmentally_friendly",
+      "question": "Are organic pesticides safer and more environmentally friendly than conventional pesticides?",
+      "priority": "medium",
+      "rationale": "The organic halo effect leads people to assume organic pesticides are always safer, when in fact some require higher application rates and may have greater environmental impact than conventional alternatives",
+      "misinformation_narrative": "Many consumers believe that organic pesticides are inherently safer for human health and the environment than synthetic pesticides used in conventional agriculture",
+      "public_stakes": "This misconception may lead to purchasing decisions based on incomplete information and misunderstanding of relative risks and environmental impacts",
+      "verification_status": "verified",
+      "verification_reason": "Organic food marketing and natural health communities on Instagram, Pinterest, and health blogs consistently promote organic pesticides as inherently safer.",
+      "tags": [
+        "Agriculture",
+        "Environmental Health",
+        "Consumer Information"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides: Regulating Pesticides",
+          "description": "EPA's comprehensive overview of biopesticides (including organic pesticides) regulation, safety assessment, and environmental considerations compared to conventional pesticides",
+          "relevance": "Provides regulatory framework and safety comparison between organic and conventional pesticides"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240005662",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "The WHO Recommended Classification of Pesticides by Hazard",
+          "description": "WHO's classification system that categorizes both organic and synthetic pesticides by acute toxicity hazard levels",
+          "relevance": "Provides standardized toxicity classifications that include both organic and conventional pesticides for comparison"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/overview-risk-assessment-pesticide-program",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticides: Health and Environmental Effects",
+          "description": "EPA's risk assessment methodology and findings for pesticide environmental and health impacts, covering both conventional and organic pesticides",
+          "relevance": "Details EPA's scientific approach to evaluating comparative risks of different pesticide types"
+        },
+        {
+          "organization": "NIH/National Institute of Environmental Health Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides",
+          "description": "NIEHS overview of pesticide health effects and research findings, including studies on organic vs conventional pesticide safety",
+          "relevance": "Provides health-focused scientific evidence on pesticide safety comparisons"
+        },
+        {
+          "organization": "USDA Economic Research Service",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.ers.usda.gov/topics/natural-resources-environment/organic-agriculture",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Organic Agriculture: Organic Market Overview",
+          "description": "USDA analysis of organic farming practices including pesticide use patterns and environmental impacts compared to conventional methods",
+          "relevance": "Provides agricultural and environmental impact data comparing organic and conventional pesticide use"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "new_covid_variants_still_significant",
@@ -15691,6 +16244,99 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "current_rate_species_extinction_really",
+      "question": "Is the current rate of species extinction really unprecedented?",
+      "priority": "low",
+      "rationale": "Both climate skeptics and environmental advocates sometimes misrepresent extinction data, creating confusion about the scientific consensus on biodiversity loss",
+      "misinformation_narrative": "Some dismiss current extinction concerns as natural fluctuation, while others may overstate the immediacy of the crisis, leading to confusion about the actual scale and urgency",
+      "public_stakes": "Inadequate understanding of extinction rates may lead to insufficient conservation action or misplaced priorities in biodiversity protection",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes legitimate scientific debate and public policy disagreement rather than specific circulating misinformation.",
+      "tags": [
+        "Biodiversity",
+        "Conservation",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Ocean species are disappearing before scientists can even find them",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260326075603.htm",
+          "date": "2026-03-31"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Britain has just 20 years to save its wildlife, experts warn - as they reveal the species at highest risk of extinction",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15694159/Britain-save-wildlife-experts-species-extinction.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-04-01"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: 'Nothing is changing,' researcher warns British Columbia's endangered species lacking protection",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-british-columbia-endangered-species-lacking.html",
+          "date": "2026-04-02"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-2/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 2: Terrestrial and Freshwater Ecosystems and Their Services",
+          "description": "IPCC Working Group II report chapter that addresses current extinction rates compared to background rates and paleontological evidence",
+          "relevance": "Provides authoritative assessment of current vs. historical extinction rates with extensive scientific evidence"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate Change Indicators: Land Loss Along the Atlantic Coast",
+          "description": "EPA climate indicators report that includes data on species loss and habitat destruction rates",
+          "relevance": "Contains quantitative data on current environmental pressures driving species extinction"
+        },
+        {
+          "organization": "USGCRP",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment - Chapter 7: Ecosystems, Ecosystem Services, and Biodiversity",
+          "description": "U.S. Global Change Research Program assessment chapter examining biodiversity loss and extinction rates in historical context",
+          "relevance": "Authoritative U.S. government assessment comparing current extinction rates to geological and recent historical periods"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/biodiversity",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Biodiversity and Health Fact Sheet",
+          "description": "WHO fact sheet documenting current biodiversity loss rates and their health implications",
+          "relevance": "Provides WHO's assessment of current species extinction rates in context of human health impacts"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
       "id": "losing_species_before_scientists_discover",
       "question": "Are we losing species before scientists can discover them?",
       "priority": "low",
@@ -16728,6 +17374,356 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "iron_deficiency_really_most_common",
+      "question": "Is iron deficiency really the most common nutrient deficiency in children?",
+      "priority": "low",
+      "rationale": "Iron deficiency in children is often underrecognized despite being the world's most common nutrient deficiency, leading to missed opportunities for prevention and treatment",
+      "misinformation_narrative": "Many parents are unaware that iron deficiency is extremely common in children, often focusing on other nutrients while missing signs of iron deficiency anemia, especially in picky eaters",
+      "public_stakes": "Unrecognized iron deficiency can impair cognitive development, academic performance, and physical growth in children",
+      "verification_status": "needs_review",
+      "verification_reason": "This confuses \"parents don't know about iron deficiency\" with \"parents believe misinformation about it\" - it's ignorance, not active misconception.",
+      "tags": [
+        "Children's Health",
+        "Nutrition",
+        "Global Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241513067",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Nutritional Anaemias: Tools for Effective Prevention and Control",
+          "description": "WHO comprehensive report on iron deficiency anemia globally, including prevalence data in children",
+          "relevance": "Contains global prevalence data on iron deficiency in children and comparisons with other nutrient deficiencies"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5140a1.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Iron Deficiency - United States, 1999–2000",
+          "description": "MMWR report analyzing iron deficiency prevalence in US children from NHANES data",
+          "relevance": "Provides specific US data on iron deficiency rates in children with demographic breakdowns"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Global Health Observatory - Anaemia in children",
+          "description": "WHO database tracking global prevalence of anemia in children under 5",
+          "relevance": "Contains current global surveillance data on iron deficiency anemia in children"
+        },
+        {
+          "organization": "NIH/NICHD",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Iron-Deficiency Anemia",
+          "description": "NICHD overview of iron deficiency anemia including prevalence in children",
+          "relevance": "Provides clinical perspective on iron deficiency as leading cause of anemia in children"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Daily iron supplementation for improving anaemia, iron status and health in menstruating women",
+          "description": "Systematic review examining iron deficiency prevalence and interventions",
+          "relevance": "Provides evidence-based analysis of iron deficiency as a public health concern, though focused on women rather than children"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "changing_daylight_saving_time_twice",
+      "question": "Does changing daylight saving time twice a year harm human health?",
+      "priority": "low",
+      "rationale": "Growing research suggests time changes have measurable health impacts, but public understanding of the science behind these effects is limited",
+      "misinformation_narrative": "While many people experience disruption from time changes, there's confusion about whether the health effects are serious enough to justify eliminating the practice entirely",
+      "public_stakes": "Continued biannual time changes may contribute to preventable health issues including sleep disorders, cardiovascular problems, and increased accident rates",
+      "verification_status": "needs_review",
+      "verification_reason": "While people complain about time changes, there's no significant misinformation narrative - just disagreement about policy priorities.",
+      "tags": [
+        "Public Health",
+        "Sleep Medicine",
+        "Policy"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Has the time come to stop changing the clocks? Scientists call for the biannual change to be DITCHED entirely - amid fears it fuels a rise in cancer, traffic accidents and sleep issues",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15684811/time-changing-clocks-scientists-DITCHED-cancer.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-04-01"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Sleep Medicine (AASM)",
+          "organization_full": "American Academy of Sleep Medicine (AASM)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Position Statement on Daylight Saving Time",
+          "description": "AASM's official position statement on the health impacts of daylight saving time transitions, including evidence on sleep disruption and health consequences",
+          "relevance": "Directly addresses health harms from biannual DST changes with clinical sleep medicine perspective"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org/en/news/2020/03/06/daylight-saving-time-change-can-disrupt-more-than-your-sleep",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Daylight Saving Time and Heart Health Scientific Statement",
+          "description": "AHA guidance on cardiovascular health impacts of daylight saving time transitions",
+          "relevance": "Provides evidence on specific cardiovascular health risks associated with DST changes"
+        },
+        {
+          "organization": "Sleep Research Society",
+          "organization_full": "Sleep Research Society",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Consensus Statement on Daylight Saving Time",
+          "description": "Scientific consensus statement published in SLEEP journal examining health evidence related to daylight saving time",
+          "relevance": "Comprehensive scientific review of health impacts from DST transitions by sleep researchers"
+        },
+        {
+          "organization": "European Sleep Research Society",
+          "organization_full": "European Sleep Research Society",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Position Statement on Daylight Saving Time",
+          "description": "ESRS position paper reviewing scientific evidence on health effects of seasonal time changes",
+          "relevance": "International sleep research perspective on health consequences of biannual time changes"
+        },
+        {
+          "organization": "American Medical Association",
+          "organization_full": "American Medical Association",
+          "base_url": "https://www.ama-assn.org",
+          "url": "https://www.ama-assn.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "AMA Policy on Daylight Saving Time",
+          "description": "AMA's official policy position calling for elimination of seasonal time changes based on health evidence",
+          "relevance": "Medical association's evidence-based policy position on health impacts of DST transitions"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "data_centers_significantly_increase_local",
+      "question": "Will AI data centers significantly increase local temperatures?",
+      "priority": "low",
+      "rationale": "As AI data centers expand rapidly, accurate information about their local environmental effects is needed for informed planning and policy decisions",
+      "misinformation_narrative": "There are conflicting claims about whether AI data centers create meaningful local warming effects, with some dismissing concerns while others may overstate the impacts",
+      "public_stakes": "Communities may inadequately plan for infrastructure needs or oppose beneficial technology development based on incomplete understanding of thermal impacts",
+      "verification_status": "needs_review",
+      "verification_reason": "This sounds like a technical debate among experts rather than widespread public misinformation with identifiable communities.",
+      "tags": [
+        "Technology",
+        "Climate",
+        "Urban Planning"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI data centres can warm surrounding areas by up to 9.1°C",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521256-ai-data-centres-can-warm-surrounding-areas-by-up-to-9-1c/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-01"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "should_elderly_passengers_separated_others",
+      "question": "Should elderly passengers be separated from others during flight evacuations?",
+      "priority": "low",
+      "rationale": "Aviation safety research can be misinterpreted as policy recommendations, creating confusion about how to balance safety optimization with passenger rights",
+      "misinformation_narrative": "A recent study suggesting elderly passengers should be seated separately to speed evacuations conflicts with accessibility principles and may be misunderstood as discriminatory policy recommendation",
+      "public_stakes": "Airlines might implement potentially discriminatory seating policies, or conversely, ignore legitimate safety research about evacuation dynamics",
+      "verification_status": "needs_review",
+      "verification_reason": "This appears to be misrepresenting academic research as public misinformation - no evidence of widespread public belief about evacuation seating.",
+      "tags": [
+        "Transportation Safety",
+        "Aging",
+        "Accessibility"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Sorry, you can't sit together! Scientists say elderly people should be SEPARATED on flights to speed up emergency evacuations",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15694819/elderly-people-SEPARATED-flights-emergency-evacuations.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-04-01"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "giant_prehistoric_insects_explained_higher",
+      "question": "Are giant prehistoric insects explained by higher ancient oxygen levels?",
+      "priority": "low",
+      "rationale": "Popular science often presents the oxygen-giant insect connection as settled fact, but research suggests this explanation may be wrong or incomplete",
+      "misinformation_narrative": "The commonly accepted explanation that giant prehistoric insects existed due to higher oxygen levels in ancient atmospheres may be incorrect or oversimplified",
+      "public_stakes": "While not directly harmful, perpetuating oversimplified evolutionary explanations undermines scientific literacy about complex biological systems",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes scientific uncertainty rather than public misinformation - most people don't have strong beliefs about prehistoric insect size explanations.",
+      "tags": [
+        "Evolution",
+        "Paleontology",
+        "Science Education"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: How did ancient bugs get so big? The prevailing theory may be wrong",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/how-did-ancient-bugs-get-so-big-prevailing-theory-may-be-wrong",
+          "date": "2026-04-01"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "virus_infections_marine_animals_pose",
+      "question": "Do virus infections from marine animals pose a significant risk to human eye health?",
+      "priority": "low",
+      "rationale": "Emerging infectious diseases often create either excessive alarm or dangerous complacency, requiring clear communication about actual risks and prevention",
+      "misinformation_narrative": "The public may be unaware of emerging zoonotic virus risks from marine sources, or conversely may overreact to isolated cases without understanding actual transmission risks",
+      "public_stakes": "People in coastal areas or those working with marine animals need accurate information about prevention measures and when to seek medical care",
+      "verification_status": "needs_review",
+      "verification_reason": "This conflates lack of public awareness with misinformation - no evidence of widespread false beliefs about marine virus transmission.",
+      "tags": [
+        "Infectious Disease",
+        "Zoonoses",
+        "Occupational Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Virus from marine animals is causing weird eye problems in people",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521680-virus-from-marine-animals-is-causing-weird-eye-problems-in-people/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-01"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Viral Conjunctivitis",
+          "description": "CDC's guidance on viral causes of conjunctivitis, which may include references to zoonotic sources",
+          "relevance": "Covers viral infections affecting eyes, may mention marine animal sources"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WHO Expert Consultation on Rabies - Technical Report Series",
+          "description": "WHO technical reports on zoonotic viral diseases that may reference marine sources and ocular manifestations",
+          "relevance": "Addresses zoonotic viral transmission patterns including potential eye involvement"
+        },
+        {
+          "organization": "NIH/NEI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nei.nih.gov/eye-health-information/eye-conditions-and-diseases/corneal-conditions",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Facts About the Cornea and Corneal Disease",
+          "description": "National Eye Institute information on corneal infections including viral causes",
+          "relevance": "May reference infectious causes of corneal disease including zoonotic sources"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-03",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
     },
     {
       "id": "safe_use_benadryl_regularly_sleep",

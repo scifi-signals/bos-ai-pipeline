@@ -1,0 +1,45 @@
+{
+  "id": "anti_aging_supplements_actually_prevent",
+  "question": "Do 'anti-aging' supplements actually prevent cancer?",
+  "topic": "The anti-aging supplement market promotes unsubstantiated cancer prevention claims, potentially caus",
+  "tags": [
+    "Cancer",
+    "Supplements",
+    "Consumer Health"
+  ],
+  "sources": [
+    {
+      "name": "Antioxidants and Cancer Prevention — National Cancer Institute (NIH)",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/antioxidants-fact-sheet",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Diet, Nutrition, Physical Activity and Cancer: a Global Perspective - Continuous Update Project — World Cancer Research Fund",
+      "url": "https://www.wcrf.org/research-policy/",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Questions and Answers on Dietary Supplements — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Dangers of 'Anti-Aging' Supplements in Cancer Protection",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/02/dangers_of_anti-aging_supplements_in_cancer_protection_1174180.html",
+      "date": "2026-04-02"
+    }
+  ]
+}

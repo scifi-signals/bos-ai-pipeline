@@ -1,0 +1,55 @@
+{
+  "id": "cigarettes_help_people_quit_smoking",
+  "question": "Do e-cigarettes help people quit smoking cigarettes?",
+  "topic": "Public health messaging often focuses on vaping risks without acknowledging evidence for smoking ces",
+  "tags": [
+    "Public Health",
+    "Tobacco Control",
+    "Harm Reduction"
+  ],
+  "sources": [
+    {
+      "name": "Public Health Consequences of E-Cigarettes",
+      "url": "https://www.nationalacademies.org/publications/24952",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Over 5 million ex-smokers have quit via vaping (specific figure requires verification against published epidemiological data)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Vaping success rate 4-year: ~50%; clinical trials: ~20%; NRT: ~10% (specific efficacy comparisons should be checked against clinical literature)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Smoking rates among U.S. adults: ~17% (requires verification against CDC data)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Combustible smoking on the rise in young people (trend claim requires verification)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    }
+  ]
+}

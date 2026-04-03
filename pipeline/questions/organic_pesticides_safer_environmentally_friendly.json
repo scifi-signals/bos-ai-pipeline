@@ -1,0 +1,58 @@
+{
+  "id": "organic_pesticides_safer_environmentally_friendly",
+  "question": "Are organic pesticides safer and more environmentally friendly than conventional pesticides?",
+  "topic": "The organic halo effect leads people to assume organic pesticides are always safer, when in fact som",
+  "tags": [
+    "Agriculture",
+    "Environmental Health",
+    "Consumer Information"
+  ],
+  "sources": [
+    {
+      "name": "Pesticides: Regulating Pesticides — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "The WHO Recommended Classification of Pesticides by Hazard — WHO",
+      "url": "https://www.who.int/publications/i/item/9789240005662",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticides: Health and Environmental Effects — EPA",
+      "url": "https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/overview-risk-assessment-pesticide-program",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticides — NIH/National Institute of Environmental Health Sciences",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Organic Agriculture: Organic Market Overview — USDA Economic Research Service",
+      "url": "https://www.ers.usda.gov/topics/natural-resources-environment/organic-agriculture",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pesticide residues on conventional vs. organic produce",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

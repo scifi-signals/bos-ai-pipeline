@@ -1,0 +1,65 @@
+{
+  "id": "pesticide_residues_conventional_produce_dangerous",
+  "question": "Are pesticide residues on conventional produce dangerous for children?",
+  "topic": "The EWG Dirty Dozen list creates unnecessary alarm about pesticide residues that are far below safet",
+  "tags": [
+    "Nutrition",
+    "Public Health",
+    "Children's Health"
+  ],
+  "sources": [
+    {
+      "name": "Pesticides and Food: How We Test for Safety — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticide Residue Monitoring Program Annual Report — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Organic Foods: Health and Environmental Advantages and Disadvantages — AAP",
+      "url": "https://pediatrics.aappublications.org/content/130/5/e1406",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "WHO/FAO Joint Meeting on Pesticide Residues (JMPR) Reports — WHO",
+      "url": "https://www.who.int/groups/joint-fao-who-meeting-on-pesticide-residues-(jmpr)",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Dirty Dozen and Clean Fifteen Lists — EWG",
+      "url": "https://www.ewg.org/foodnews/dirty-dozen.php",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Mere presence of pesticide residue does not equate to harm - aligns with standard toxicology principles",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pesticide residues on conventional vs. organic produce",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}
