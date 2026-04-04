@@ -1,0 +1,27 @@
+{
+  "id": "pose_imminent_existential_threat_humanity",
+  "question": "Does AI pose an imminent existential threat to humanity?",
+  "topic": "Addresses polarized narratives about AI risk timelines and probability",
+  "tags": [
+    "Technology",
+    "Artificial Intelligence",
+    "Risk Assessment"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/26887",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: How worried should you be about an AI apocalypse?",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522019-how-worried-should-you-be-about-an-ai-apocalypse/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-03"
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "should_elderly_people_avoid_whole",
+  "question": "Should elderly people avoid whole milk after age 2?",
+  "topic": "Addresses outdated nutritional advice that persists despite updated guidelines",
+  "tags": [
+    "Nutrition",
+    "Health and Medicine",
+    "Dietary Guidelines"
+  ],
+  "sources": [
+    {
+      "name": "Dietary Guidelines for Americans 2020-2025 — USDA/HHS",
+      "url": "https://www.usda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Dietary Recommendations for Healthy Children — American Heart Association",
+      "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/dietary-recommendations-for-healthy-children",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Policy Statement: The Use and Misuse of Fruit Juice in Pediatrics — American Academy of Pediatrics",
+      "url": "https://www.aap.org",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

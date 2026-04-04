@@ -1,0 +1,27 @@
+{
+  "id": "giant_ancient_insects_prove_oxygen",
+  "question": "Do giant ancient insects prove oxygen levels were higher in the past?",
+  "topic": "Addresses oversimplified explanation for prehistoric insect size that recent research challenges",
+  "tags": [
+    "Evolution",
+    "Earth Science",
+    "Paleontology"
+  ],
+  "sources": [
+    {
+      "name": "Understanding Earth's Deep Past: Lessons for Our Climate Future",
+      "url": "https://www.nationalacademies.org/publications/13111",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: How did ancient bugs get so big? The prevailing theory may be wrong",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/how-did-ancient-bugs-get-so-big-prevailing-theory-may-be-wrong",
+      "date": "2026-04-02"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "cigarettes_illegal_products",
+  "question": "Are 70% of e-cigarettes in the US illegal products?",
+  "topic": "Addresses confusion about e-cigarette regulation and market composition",
+  "tags": [
+    "Public Health",
+    "Regulation",
+    "Tobacco"
+  ],
+  "sources": [
+    {
+      "name": "Public Health Consequences of E-Cigarettes",
+      "url": "https://www.nationalacademies.org/publications/24952",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "70% of e-cigarette market is illicit in the U.S. (requires verification against FDA and market analysis data)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Only 32 e-cigarette products have received FDA approval (factual claim requiring verification of current FDA approvals)",
+      "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+      "date": "2026-03-25T10:00:00"
+    }
+  ]
+}

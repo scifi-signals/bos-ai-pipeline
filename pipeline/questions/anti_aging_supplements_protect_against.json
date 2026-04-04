@@ -1,0 +1,41 @@
+{
+  "id": "anti_aging_supplements_protect_against",
+  "question": "Do 'anti-aging' supplements protect against cancer?",
+  "topic": "Addresses dangerous supplement marketing that contradicts oncology evidence about antioxidant interf",
+  "tags": [
+    "Health and Medicine",
+    "Cancer",
+    "Supplements"
+  ],
+  "sources": [
+    {
+      "name": "Dietary Reference Intakes: Proposed Definition and Plan for Review of Dietary Antioxidants and Related Compounds",
+      "url": "https://www.nationalacademies.org/publications/6252",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Dangers of 'Anti-Aging' Supplements in Cancer Protection",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/02/dangers_of_anti-aging_supplements_in_cancer_protection_1174180.html",
+      "date": "2026-04-02"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Could Medicine Reach Longevity Escape Velocity?",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/02/could_medicine_reach_longevity_escape_velocity_1174207.html",
+      "date": "2026-04-03"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Global Rallies Call for Aging to Be Treated",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/01/global_rallies_call_for_aging_to_be_treated_1173608.html",
+      "date": "2026-04-03"
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "id": "iron_deficiency_most_common_nutritional",
+  "question": "Is iron deficiency the most common nutritional deficiency in children worldwide?",
+  "topic": "Highlights evidence-based priority for child nutrition that may be overlooked",
+  "tags": [
+    "Health and Medicine",
+    "Child Health",
+    "Global Health"
+  ],
+  "sources": [
+    {
+      "name": "Micronutrient deficiencies - Iron deficiency anaemia — WHO",
+      "url": "https://www.who.int/health-topics/anaemia",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "The State of the World's Children 2019: Children, food and nutrition — WHO/UNICEF",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Iron Deficiency - United States, 1999-2000 — CDC",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5140a1.htm",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Multiple-micronutrient supplementation for women during pregnancy — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Global Health Observatory - Anaemia in children — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Iron deficiency anemia in picky eaters",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

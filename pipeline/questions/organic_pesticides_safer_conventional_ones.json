@@ -1,0 +1,58 @@
+{
+  "id": "organic_pesticides_safer_conventional_ones",
+  "question": "Are organic pesticides safer than conventional ones?",
+  "topic": "Addresses widespread misconception about organic farming practices and pesticide use",
+  "tags": [
+    "Food Safety",
+    "Agriculture",
+    "Environment"
+  ],
+  "sources": [
+    {
+      "name": "What are biopesticides? — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticide Registration Manual - Biopesticides and Pollution Prevention Division — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticide Residue Monitoring Program — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticides — NIH/National Institute of Environmental Health Sciences",
+      "url": "https://www.niehs.nih.gov/health/topics/agents/pesticides",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticide residues in food — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pesticide residues on conventional vs. organic produce",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

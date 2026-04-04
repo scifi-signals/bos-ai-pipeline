@@ -1,0 +1,65 @@
+{
+  "id": "lupus_predominantly_affect_women_due",
+  "question": "Does lupus predominantly affect women due to genetic factors?",
+  "topic": "Addresses potential misconceptions about autoimmune disease gender patterns",
+  "tags": [
+    "Health and Medicine",
+    "Autoimmune Disease",
+    "Gender Health"
+  ],
+  "sources": [
+    {
+      "name": "Lupus Basics - Who Gets Lupus — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Systemic Lupus Erythematosus (Lupus) — NIH - National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+      "url": "https://www.niams.nih.gov/health-topics/lupus",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Lupus Facts and Statistics — Lupus Foundation of America",
+      "url": "https://www.lupus.org/resources/lupus-facts-and-statistics",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Musculoskeletal conditions - Lupus — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Autoimmune Diseases — NIH - Office of Research on Women's Health",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "30% concordance rate in identical twins indicates strong but incomplete genetic component",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Approximately 9 out of 10 lupus patients are women (90% female predominance)",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "More than 90% of world population infected with EBV, but EBV increases lupus development risk",
+      "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+      "date": "2026-03-18T10:00:00"
+    }
+  ]
+}

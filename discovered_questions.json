@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-03T12:13:37Z",
+  "generated_at": "2026-04-04T12:10:01Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -2541,6 +2541,98 @@
       "readiness_summary": "1 NASEM source, most recent 2004 — sources are old · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "cigarettes_effective_way_quit_smoking",
+      "question": "Are e-cigarettes an effective way to quit smoking?",
+      "priority": "high",
+      "rationale": "Addresses conflicting narratives about vaping effectiveness compared to other cessation methods, with clear clinical trial data available",
+      "misinformation_narrative": "Public health messaging often portrays vaping as equally harmful to smoking, while others promote it as completely safe, creating confusion about its role in smoking cessation",
+      "public_stakes": "Smokers may avoid a potentially effective cessation tool or non-smokers may start vaping thinking it's harmless",
+      "verification_status": "verified",
+      "verification_reason": "This reflects actual confusion from conflicting messaging by public health agencies like CDC vs. harm reduction advocates on platforms like Reddit and Twitter.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Addiction"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dying to Quit: Why We Smoke and How We Stop (1998)",
+          "url": "https://www.nationalacademies.org/publications/6013"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 1998,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 1998 — sources are old · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "anti_aging_supplements_protect_against",
+      "question": "Do 'anti-aging' supplements protect against cancer?",
+      "priority": "high",
+      "rationale": "Addresses dangerous supplement marketing that contradicts oncology evidence about antioxidant interference",
+      "misinformation_narrative": "Supplement marketing claims that antioxidants and 'anti-aging' compounds prevent cancer, when some may actually increase cancer risk",
+      "public_stakes": "Cancer patients or high-risk individuals may take supplements that interfere with treatment or increase risk",
+      "verification_status": "verified",
+      "verification_reason": "Anti-aging supplement marketing with cancer prevention claims is ubiquitous on Instagram, supplement websites, and wellness influencer content.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer",
+        "Supplements"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes: Proposed Definition and Plan for Review of Dietary Antioxidants and Related Compounds (1998)",
+          "url": "https://www.nationalacademies.org/publications/6252"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Dangers of 'Anti-Aging' Supplements in Cancer Protection",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/02/dangers_of_anti-aging_supplements_in_cancer_protection_1174180.html",
+          "date": "2026-04-02"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Could Medicine Reach Longevity Escape Velocity?",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/02/could_medicine_reach_longevity_escape_velocity_1174207.html",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Global Rallies Call for Aging to Be Treated",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/01/global_rallies_call_for_aging_to_be_treated_1173608.html",
+          "date": "2026-04-03"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 1998,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 1998 — sources are old · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "cold_turkey_most_effective_way",
       "question": "Is cold turkey the most effective way to quit smoking?",
       "priority": "high",
@@ -4575,17 +4667,17 @@
     },
     {
       "id": "quantum_computers_break_all_current",
-      "question": "Will quantum computers break all current internet encryption?",
+      "question": "Will quantum computers break all current encryption immediately?",
       "priority": "medium",
-      "rationale": "Corrects both quantum panic and quantum dismissal with realistic timelines and current cryptographic preparations",
-      "misinformation_narrative": "Media reports create panic that quantum computers will immediately make all digital security obsolete, or conversely that quantum threats are purely theoretical",
-      "public_stakes": "Organizations may over-invest in premature solutions or fail to prepare for actual quantum cryptography threats",
+      "rationale": "Addresses timeline misconceptions about quantum computing threats to encryption",
+      "misinformation_narrative": "Media reports suggest quantum computers will suddenly make all current cybersecurity obsolete, creating unnecessary panic about immediate threats",
+      "public_stakes": "Organizations may make premature expensive security changes or ignore real current cybersecurity threats",
       "verification_status": "verified",
-      "verification_reason": "Tech media coverage and cybersecurity discussions create genuine panic about quantum computing breaking encryption, seen across LinkedIn and industry forums.",
+      "verification_reason": "Cybersecurity panic about quantum computing appears regularly in mainstream tech media, business publications, and IT professional forums.",
       "tags": [
         "Technology",
-        "Quantum Science",
-        "Cybersecurity"
+        "Cybersecurity",
+        "Quantum Computing"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -4654,12 +4746,33 @@
           "origin": "STM — Nature",
           "url": "https://www.nature.com/articles/s41586-026-10333-w",
           "date": "2026-04-01"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The first quantum computer to break encryption is now shockingly close",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521878-the-first-quantum-computer-to-break-encryption-is-now-shockingly-close/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-02"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01054-1",
+          "date": "2026-04-02"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: A 200-year-old light trick just transformed quantum encryption",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260401071933.htm",
+          "date": "2026-04-03"
         }
       ],
       "alternative_sources": [],
       "discovered_at": "2026-04-02",
-      "last_seen": "2026-04-02",
-      "times_seen": 1,
+      "last_seen": "2026-04-04",
+      "times_seen": 2,
       "status": "pending",
       "newest_source_year": 2019,
       "signal_count": 4,
@@ -5797,6 +5910,45 @@
       "newest_source_year": 2008,
       "signal_count": 7,
       "readiness_summary": "1 NASEM source, most recent 2008 — sources are old · confirmed misinformation · 7 discovery signals"
+    },
+    {
+      "id": "pose_imminent_existential_threat_humanity",
+      "question": "Does AI pose an imminent existential threat to humanity?",
+      "priority": "medium",
+      "rationale": "Addresses polarized narratives about AI risk timelines and probability",
+      "misinformation_narrative": "AI 'apocalypse' narratives suggest current AI systems pose immediate existential risks, while others dismiss all AI safety concerns",
+      "public_stakes": "May lead to overreaction that stifles beneficial AI development or underreaction to real AI safety issues",
+      "verification_status": "verified",
+      "verification_reason": "AI existential risk debates dominate Twitter, tech forums, and mainstream media with both doomsday and dismissive camps actively arguing.",
+      "tags": [
+        "Technology",
+        "Artificial Intelligence",
+        "Risk Assessment"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop�in Brief (None)",
+          "url": "https://www.nationalacademies.org/publications/26887"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: How worried should you be about an AI apocalypse?",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522019-how-worried-should-you-be-about-an-ai-apocalypse/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-03"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 0 — sources are old · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "alone_universe_evidence_extraterrestrial_life",
@@ -8022,6 +8174,45 @@
       "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
+      "id": "cigarettes_illegal_products",
+      "question": "Are 70% of e-cigarettes in the US illegal products?",
+      "priority": "low",
+      "rationale": "Addresses confusion about e-cigarette regulation and market composition",
+      "misinformation_narrative": "Confusion about FDA regulation and market statistics may lead to incorrect assumptions about product safety and regulation",
+      "public_stakes": "Consumers may not understand regulatory status of products they're using or considering",
+      "verification_status": "needs_review",
+      "verification_reason": "The 70% statistic is too specific and technical for widespread public misconception; most consumers don't think about FDA approval rates.",
+      "tags": [
+        "Public Health",
+        "Regulation",
+        "Tobacco"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Public Health Consequences of E-Cigarettes (2018)",
+          "url": "https://www.nationalacademies.org/publications/24952"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "70% of e-cigarette market is illicit in the U.S. (requires verification against FDA and market analysis data)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "blood_tests_accurately_diagnose_cancer",
       "question": "Do blood tests accurately diagnose cancer, and how reliable are current screening methods?",
       "priority": "low",
@@ -8386,6 +8577,45 @@
       "newest_source_year": 2011,
       "signal_count": 4,
       "readiness_summary": "4 NASEM sources, most recent 2011 — moderately dated · misinformation narrative not yet confirmed · 4 discovery signals"
+    },
+    {
+      "id": "giant_ancient_insects_prove_oxygen",
+      "question": "Do giant ancient insects prove oxygen levels were higher in the past?",
+      "priority": "low",
+      "rationale": "Addresses oversimplified explanation for prehistoric insect size that recent research challenges",
+      "misinformation_narrative": "Popular science often presents the 'high oxygen = giant insects' theory as established fact, when new research challenges this prevailing theory",
+      "public_stakes": "",
+      "verification_status": "needs_review",
+      "verification_reason": "This is more of an academic/scientific debate than a widespread public misconception about ancient insects.",
+      "tags": [
+        "Evolution",
+        "Earth Science",
+        "Paleontology"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Understanding Earth's Deep Past: Lessons for Our Climate Future (2011)",
+          "url": "https://www.nationalacademies.org/publications/13111"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: How did ancient bugs get so big? The prevailing theory may be wrong",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/how-did-ancient-bugs-get-so-big-prevailing-theory-may-be-wrong",
+          "date": "2026-04-02"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2011,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2011 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "dna_testing_reliably_tell_identical",
@@ -10626,17 +10856,17 @@
     },
     {
       "id": "pesticide_residues_conventional_produce_dangerous",
-      "question": "Are pesticide residues on conventional produce dangerous for children?",
+      "question": "Are pesticide residues on conventional produce dangerous to children's health?",
       "priority": "high",
-      "rationale": "The EWG Dirty Dozen list creates unnecessary alarm about pesticide residues that are far below safety thresholds according to EPA/FDA, leading to avoidance of nutritious foods",
-      "misinformation_narrative": "Many parents believe that pesticide residues on conventional produce pose significant health risks to children, often citing the EWG 'Dirty Dozen' list as evidence to avoid conventional fruits and vegetables entirely",
-      "public_stakes": "Parents may reduce children's fruit and vegetable consumption or spend unnecessarily on organic produce they can't afford, potentially harming nutrition and family budgets",
+      "rationale": "Addresses widespread fear-based marketing that contradicts EPA/FDA safety assessments showing residue levels are far below harmful thresholds",
+      "misinformation_narrative": "The EWG 'Dirty Dozen' list and social media campaigns convince parents that conventional produce with pesticide residues poses significant health risks to children, leading to avoidance of fruits and vegetables",
+      "public_stakes": "Parents may reduce children's fruit and vegetable consumption or spend unnecessarily on organic produce, potentially harming nutrition and family budgets",
       "verification_status": "verified",
-      "verification_reason": "Parenting groups on Facebook and Instagram regularly share EWG's Dirty Dozen list with warnings to avoid conventional produce entirely.",
+      "verification_reason": "The EWG Dirty Dozen list is widely shared on parenting Facebook groups, Instagram wellness accounts, and mommy blogs, causing documented avoidance of conventional produce.",
       "tags": [
-        "Nutrition",
-        "Public Health",
-        "Children's Health"
+        "Health and Medicine",
+        "Food Safety",
+        "Public Health"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -10704,10 +10934,111 @@
           "resource_name": "Dirty Dozen and Clean Fifteen Lists",
           "description": "Environmental Working Group's annual analysis of USDA pesticide residue data on conventional produce",
           "relevance": "Consumer-focused interpretation of government pesticide residue data with risk assessments"
+        },
+        {
+          "organization": "WHO/FAO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/en/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Codex Alimentarius: Pesticide Residues in Food and Feed",
+          "description": "International food safety standards for pesticide residues, including acceptable daily intake levels and acute reference doses",
+          "relevance": "Provides international scientific consensus on safe levels of pesticide residues in food based on health risk assessments"
         }
       ],
       "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-03",
+      "last_seen": "2026-04-04",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 6 alternative sources identified"
+    },
+    {
+      "id": "forcing_children_eat_certain_foods",
+      "question": "Is forcing children to eat certain foods an effective way to improve their nutrition?",
+      "priority": "high",
+      "rationale": "Contradicts common parenting advice with evidence-based responsive feeding approaches",
+      "misinformation_narrative": "Many parents believe they must force children to eat vegetables or 'clean their plate' to ensure proper nutrition, despite evidence this creates feeding problems",
+      "public_stakes": "Coercive feeding practices can lead to eating disorders, food aversion, and long-term feeding difficulties",
+      "verification_status": "verified",
+      "verification_reason": "This \"clean plate club\" mentality is pervasive in parenting communities, Facebook groups, and passed down through generations despite pediatric feeding research.",
+      "tags": [
+        "Health and Medicine",
+        "Child Development",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Improving Your Eating Habits",
+          "description": "CDC guidance on developing healthy eating habits that emphasizes gradual changes and positive reinforcement rather than forcing behaviors",
+          "relevance": "Provides evidence-based strategies for improving nutrition that focus on sustainable behavior change rather than coercive approaches"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Policy Statement: The Use and Misuse of Fruit Juice in Pediatrics",
+          "description": "AAP policy statement that includes recommendations on feeding practices and avoiding pressure tactics with children's nutrition",
+          "relevance": "Contains evidence-based recommendations against pressuring children to consume specific foods or beverages"
+        },
+        {
+          "organization": "USDA",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.usda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Child and Adult Care Food Program: Best Practices",
+          "description": "USDA guidance for childcare providers on promoting healthy eating without coercion, emphasizing family-style meals and child choice",
+          "relevance": "Provides evidence-based practices for improving children's nutrition through positive approaches rather than forcing consumption"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Parent‐only interventions for childhood overweight or obesity in children aged 5 to 11 years",
+          "description": "Systematic review examining effectiveness of different parental approaches to managing children's eating and weight",
+          "relevance": "Provides systematic review evidence on which parental feeding strategies are most effective for improving children's nutrition outcomes"
+        },
+        {
+          "organization": "NIH/National Institute of Child Health and Human Development",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Safe to Sleep: Reducing the Risk of SIDS and Other Sleep-Related Infant Deaths",
+          "description": "While focused on sleep, this resource discusses evidence-based approaches to infant and child health that emphasize gentle, supportive strategies",
+          "relevance": "Demonstrates evidence-based approach to child health interventions that prioritize safety and avoiding potentially harmful pressure tactics"
+        }
+      ],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
       "times_seen": 1,
       "status": "nasem_gap",
       "newest_source_year": 0,
@@ -12903,6 +13234,85 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "organic_pesticides_safer_conventional_ones",
+      "question": "Are organic pesticides safer than conventional ones?",
+      "priority": "medium",
+      "rationale": "Addresses widespread misconception about organic farming practices and pesticide use",
+      "misinformation_narrative": "The 'organic = pesticide-free' myth leads consumers to believe organic pesticides are inherently safer or that organic means no pesticides",
+      "public_stakes": "Consumers may make food choices based on false safety assumptions or ignore proper handling of organic produce",
+      "verification_status": "verified",
+      "verification_reason": "The organic=pesticide-free misconception is widespread among consumers in grocery stores, health food communities, and organic marketing materials.",
+      "tags": [
+        "Food Safety",
+        "Agriculture",
+        "Environment"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "What are biopesticides?",
+          "description": "EPA's overview of biopesticides including their safety profile and regulation compared to conventional pesticides",
+          "relevance": "Provides EPA's regulatory perspective on the safety comparison between biological and conventional pesticides"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residue Monitoring Program",
+          "description": "FDA's annual monitoring data on pesticide residues in both conventional and organic foods",
+          "relevance": "Provides empirical data on pesticide residue levels that can inform safety comparisons"
+        },
+        {
+          "organization": "NIH/National Institute of Environmental Health Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niehs.nih.gov/health/topics/agents/pesticides",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticides",
+          "description": "NIEHS overview of pesticide health effects including discussion of different types of pesticides",
+          "relevance": "Provides health-focused perspective on pesticide safety from NIH"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticide residues in food",
+          "description": "WHO fact sheet on pesticide residues and safety assessments for food",
+          "relevance": "International health organization's perspective on pesticide safety in food systems"
+        }
+      ],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "organic_pesticides_safer_environmentally_friendly",
@@ -17376,6 +17786,434 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "car_cell_therapy_cure_lupus",
+      "question": "Can CAR-T cell therapy cure lupus?",
+      "priority": "low",
+      "rationale": "Addresses premature claims about experimental treatments that may give false hope to lupus patients",
+      "misinformation_narrative": "Early reports of CAR-T successes in lupus are being overhyped as 'cures' on social media, creating unrealistic expectations for patients",
+      "public_stakes": "Patients may delay proven treatments or have unrealistic expectations about experimental therapies",
+      "verification_status": "needs_review",
+      "verification_reason": "CAR-T for lupus is too recent and niche for widespread social media hype; most people don't know what CAR-T therapy is.",
+      "tags": [
+        "Health and Medicine",
+        "Medical Research",
+        "Autoimmune Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "CAR-T Cell Therapy: Current Approvals and Regulatory Information",
+          "description": "FDA's official list of approved CAR-T therapies and their indications",
+          "relevance": "Shows current FDA-approved uses for CAR-T therapy (currently only certain cancers, not autoimmune diseases like lupus)"
+        },
+        {
+          "organization": "NIH/NCI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "CAR T Cells: Engineering Patients' Immune Cells to Treat Their Cancers",
+          "description": "NIH National Cancer Institute's comprehensive overview of CAR-T cell therapy",
+          "relevance": "Provides official information on what CAR-T therapy is approved for and research directions"
+        },
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus) - Research and Clinical Trials",
+          "description": "National Institute of Arthritis and Musculoskeletal Diseases lupus information page",
+          "relevance": "Official NIH information on current lupus treatments and research directions"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Cochrane Database of Systematic Reviews - CAR-T cell therapy",
+          "description": "Cochrane systematic reviews database search for CAR-T cell therapy evidence",
+          "relevance": "Would contain high-quality systematic review evidence if any exists on CAR-T for autoimmune diseases"
+        },
+        {
+          "organization": "Lupus Foundation of America",
+          "organization_full": "Lupus Foundation of America",
+          "base_url": "",
+          "url": "https://www.lupus.org/resources/new-and-emerging-treatments-for-lupus",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "New and Emerging Treatments for Lupus",
+          "description": "Patient advocacy organization's overview of experimental and investigational lupus treatments",
+          "relevance": "May discuss CAR-T cell therapy as an experimental approach being studied for autoimmune diseases including lupus"
+        },
+        {
+          "organization": "NIH/ClinicalTrials.gov",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Clinical Trials Database - CAR-T cell therapy for lupus",
+          "description": "Database of ongoing and completed clinical trials testing CAR-T therapy for lupus",
+          "relevance": "Shows current research status and whether CAR-T therapy for lupus is being investigated in clinical trials"
+        },
+        {
+          "organization": "ClinicalTrials.gov",
+          "organization_full": "ClinicalTrials.gov",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Clinical Trials Database - CAR-T and Lupus",
+          "description": "NIH database of clinical trials investigating CAR-T therapy for lupus",
+          "relevance": "Shows current research status - early-phase trials exist but no proven cure yet"
+        }
+      ],
+      "discovered_at": "2026-03-25",
+      "last_seen": "2026-04-04",
+      "times_seen": 4,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 7 alternative sources identified"
+    },
+    {
+      "id": "changing_clocks_daylight_saving_time",
+      "question": "Does changing clocks for daylight saving time cause cancer?",
+      "priority": "low",
+      "rationale": "Addresses misinterpretation of circadian rhythm research in popular media",
+      "misinformation_narrative": "Sensationalized headlines claim daylight saving time increases cancer risk, confusing circadian disruption research with acute clock changes",
+      "public_stakes": "May distract from real cancer risk factors or create unnecessary anxiety about inevitable schedule changes",
+      "verification_status": "needs_review",
+      "verification_reason": "While DST health effects get some media coverage, the specific cancer claim isn't a major circulating public belief.",
+      "tags": [
+        "Health and Medicine",
+        "Sleep",
+        "Public Policy"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Has the time come to stop changing the clocks? Scientists call for the biannual change to be DITCHED entirely - amid fears it fuels a rise in cancer, traffic accidents and sleep issues",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15684811/time-changing-clocks-scientists-DITCHED-cancer.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-04-01"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "should_elderly_people_avoid_whole",
+      "question": "Should elderly people avoid whole milk after age 2?",
+      "priority": "low",
+      "rationale": "Addresses outdated nutritional advice that persists despite updated guidelines",
+      "misinformation_narrative": "Outdated dietary guidelines led to persistent beliefs that whole milk is unhealthy for children and adults, despite updated evidence",
+      "public_stakes": "May lead to inadequate fat intake in children or nutritional deficiencies in elderly populations",
+      "verification_status": "needs_review",
+      "verification_reason": "The \"after age 2\" phrasing is oddly specific; most people know whole milk guidelines are for young children, not adults avoiding it lifelong.",
+      "tags": [
+        "Nutrition",
+        "Health and Medicine",
+        "Dietary Guidelines"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "USDA/HHS",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.usda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Dietary Guidelines for Americans 2020-2025",
+          "description": "Official dietary recommendations including dairy intake recommendations for different age groups including older adults",
+          "relevance": "Contains specific guidance on dairy consumption patterns across the lifespan including recommendations for older adults"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/dietary-recommendations-for-healthy-children",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Dietary Recommendations for Healthy Children",
+          "description": "AHA guidelines on milk fat content recommendations by age group",
+          "relevance": "Specifically addresses the transition from whole milk to lower-fat milk options after age 2"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Policy Statement: The Use and Misuse of Fruit Juice in Pediatrics",
+          "description": "AAP clinical report that includes recommendations on milk consumption including fat content by age",
+          "relevance": "Contains evidence-based recommendations on appropriate milk types for children after age 2"
+        },
+        {
+          "organization": "Mayo Clinic",
+          "organization_full": "Mayo Clinic",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Nutrition for kids: Guidelines for a healthy diet",
+          "description": "Clinical guidance on age-appropriate nutrition including milk recommendations",
+          "relevance": "Provides medical perspective on milk fat content recommendations for children over age 2"
+        }
+      ],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "iron_deficiency_most_common_nutritional",
+      "question": "Is iron deficiency the most common nutritional deficiency in children worldwide?",
+      "priority": "low",
+      "rationale": "Highlights evidence-based priority for child nutrition that may be overlooked",
+      "misinformation_narrative": "Parents may focus on other trendy nutritional concerns while missing the most common and serious deficiency",
+      "public_stakes": "Iron deficiency can cause developmental delays and cognitive impairment if not addressed",
+      "verification_status": "needs_review",
+      "verification_reason": "This confuses \"people don't prioritize iron deficiency\" with \"people believe something false about iron deficiency.\"",
+      "tags": [
+        "Health and Medicine",
+        "Child Health",
+        "Global Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/health-topics/anaemia",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Micronutrient deficiencies - Iron deficiency anaemia",
+          "description": "WHO's comprehensive overview of iron deficiency anemia as a global health problem, including prevalence data for children",
+          "relevance": "Provides global statistics on iron deficiency prevalence in children and compares it to other nutritional deficiencies"
+        },
+        {
+          "organization": "WHO/UNICEF",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "The State of the World's Children 2019: Children, food and nutrition",
+          "description": "UNICEF's comprehensive report on child nutrition including micronutrient deficiencies",
+          "relevance": "Contains detailed data on various nutritional deficiencies in children globally, allowing comparison of iron deficiency to other deficiencies"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5140a1.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Iron Deficiency - United States, 1999-2000",
+          "description": "CDC surveillance data on iron deficiency prevalence in different age groups",
+          "relevance": "Provides US-specific data on iron deficiency in children that can contextualize global patterns"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Multiple-micronutrient supplementation for women during pregnancy",
+          "description": "Cochrane systematic review examining micronutrient deficiencies and their prevalence",
+          "relevance": "Provides evidence-based analysis of micronutrient deficiency patterns that affect children"
+        }
+      ],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "shroud_turin_contain_dna_evidence",
+      "question": "Does the Shroud of Turin contain DNA evidence of its authenticity?",
+      "priority": "low",
+      "rationale": "Addresses misinterpretation of DNA evidence regarding a historically significant artifact",
+      "misinformation_narrative": "Recent DNA findings are being misinterpreted to support authenticity claims, when the evidence shows contamination from many sources",
+      "public_stakes": "May perpetuate historical and religious misinformation based on misunderstood scientific evidence",
+      "verification_status": "needs_review",
+      "verification_reason": "Shroud of Turin DNA claims are too niche and recent for broad public circulation beyond fringe religious communities.",
+      "tags": [
+        "Archaeology",
+        "Forensics",
+        "History"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: The Shroud of Turin bears DNA from many people, plants and animals",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521236-the-shroud-of-turin-bears-dna-from-many-people-plants-and-animals/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-02"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "lupus_predominantly_affect_women_due",
+      "question": "Does lupus predominantly affect women due to genetic factors?",
+      "priority": "low",
+      "rationale": "Addresses potential misconceptions about autoimmune disease gender patterns",
+      "misinformation_narrative": "The striking gender disparity in lupus may be attributed to lifestyle factors when genetics and hormones play larger roles",
+      "public_stakes": "May delay recognition of symptoms in women or lead to inadequate screening approaches",
+      "verification_status": "needs_review",
+      "verification_reason": "Most people accept that lupus affects women more; attributing it to \"lifestyle factors\" isn't a common public belief.",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Disease",
+        "Gender Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "30% concordance rate in identical twins indicates strong but incomplete genetic component",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Lupus Basics - Who Gets Lupus",
+          "description": "CDC's fact sheet on lupus demographics and risk factors, including sex differences",
+          "relevance": "Provides statistics on lupus prevalence by sex and discusses potential contributing factors"
+        },
+        {
+          "organization": "NIH - National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus)",
+          "description": "Comprehensive NIH resource on lupus including epidemiology and risk factors",
+          "relevance": "Addresses sex differences in lupus incidence and discusses hormonal and genetic factors"
+        },
+        {
+          "organization": "Lupus Foundation of America",
+          "organization_full": "Lupus Foundation of America",
+          "base_url": "",
+          "url": "https://www.lupus.org/resources/lupus-facts-and-statistics",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Lupus Facts and Statistics",
+          "description": "National lupus organization's compilation of epidemiological data and statistics",
+          "relevance": "Provides detailed statistics on sex distribution and discusses research on genetic and hormonal influences"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Musculoskeletal conditions - Lupus",
+          "description": "WHO fact sheet on musculoskeletal conditions including autoimmune diseases",
+          "relevance": "International perspective on lupus epidemiology including sex differences"
+        },
+        {
+          "organization": "NIH - Office of Research on Women's Health",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Autoimmune Diseases",
+          "description": "NIH research overview on sex differences in autoimmune diseases",
+          "relevance": "Specifically addresses why autoimmune diseases like lupus disproportionately affect women, including genetic factors"
+        }
+      ],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-04",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "iron_deficiency_really_most_common",
       "question": "Is iron deficiency really the most common nutrient deficiency in children?",
       "priority": "low",
@@ -18211,107 +19049,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
-    },
-    {
-      "id": "car_cell_therapy_cure_lupus",
-      "question": "Can CAR-T cell therapy cure lupus?",
-      "priority": "low",
-      "rationale": "Clarifies promising but often misunderstood emerging therapy, distinguishing between clinical remission and complete cure",
-      "misinformation_narrative": "Patients may believe CAR-T therapy offers a complete permanent cure for lupus, when it actually provides disease-free remission while genetic predisposition remains",
-      "public_stakes": "Unrealistic expectations could lead to poor treatment decisions, disappointment, and potentially risky treatment choices based on misunderstanding of outcomes",
-      "verification_status": "needs_review",
-      "verification_reason": "CAR-T therapy for lupus is too new and specialized for widespread public misconceptions to have formed about cure expectations.",
-      "tags": [
-        "Health and Medicine",
-        "Autoimmune Diseases",
-        "Cell Therapy"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "CAR-T cell therapy first lupus patient treated in Germany in 2021, still in remission without treatment as of 2026",
-          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
-          "date": "2026-03-18T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "CAR-T Cell Therapy: Current Approvals and Regulatory Information",
-          "description": "FDA's official list of approved CAR-T therapies and their indications",
-          "relevance": "Shows current FDA-approved uses for CAR-T therapy (currently only certain cancers, not autoimmune diseases like lupus)"
-        },
-        {
-          "organization": "NIH/NCI",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.cancer.gov/about-cancer/treatment/research/car-t-cells",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "CAR T Cells: Engineering Patients' Immune Cells to Treat Their Cancers",
-          "description": "NIH National Cancer Institute's comprehensive overview of CAR-T cell therapy",
-          "relevance": "Provides official information on what CAR-T therapy is approved for and research directions"
-        },
-        {
-          "organization": "NIH/NIAMS",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.niams.nih.gov/health-topics/lupus",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Systemic Lupus Erythematosus (Lupus) - Research and Clinical Trials",
-          "description": "National Institute of Arthritis and Musculoskeletal Diseases lupus information page",
-          "relevance": "Official NIH information on current lupus treatments and research directions"
-        },
-        {
-          "organization": "Cochrane",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Cochrane Database of Systematic Reviews - CAR-T cell therapy",
-          "description": "Cochrane systematic reviews database search for CAR-T cell therapy evidence",
-          "relevance": "Would contain high-quality systematic review evidence if any exists on CAR-T for autoimmune diseases"
-        },
-        {
-          "organization": "Lupus Foundation of America",
-          "organization_full": "Lupus Foundation of America",
-          "base_url": "",
-          "url": "https://www.lupus.org/resources/new-and-emerging-treatments-for-lupus",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "New and Emerging Treatments for Lupus",
-          "description": "Patient advocacy organization's overview of experimental and investigational lupus treatments",
-          "relevance": "May discuss CAR-T cell therapy as an experimental approach being studied for autoimmune diseases including lupus"
-        },
-        {
-          "organization": "NIH/ClinicalTrials.gov",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Clinical Trials Database - CAR-T cell therapy for lupus",
-          "description": "Database of ongoing and completed clinical trials testing CAR-T therapy for lupus",
-          "relevance": "Shows current research status and whether CAR-T therapy for lupus is being investigated in clinical trials"
-        }
-      ],
-      "discovered_at": "2026-03-25",
-      "last_seen": "2026-03-31",
-      "times_seen": 3,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 6 alternative sources identified"
     },
     {
       "id": "rex_still_considered_apex_predator",
