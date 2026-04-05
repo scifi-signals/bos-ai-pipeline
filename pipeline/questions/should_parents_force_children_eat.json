@@ -1,0 +1,72 @@
+{
+  "id": "should_parents_force_children_eat",
+  "question": "Should parents force children to eat foods they refuse?",
+  "topic": "Contradicts widespread parental practices with evidence-based feeding approaches that prevent long-t",
+  "tags": [
+    "Child Health",
+    "Nutrition",
+    "Parenting"
+  ],
+  "sources": [
+    {
+      "name": "Bright Futures: Guidelines for Health Supervision of Infants, Children, and Adolescents — American Academy of Pediatrics",
+      "url": "https://www.aap.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Position Paper: Nutrition Guidance for Healthy Children Ages 2 to 11 Years — Academy of Nutrition and Dietetics",
+      "url": "https://academylogin.org/saml/Error/",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Parent-only interventions for childhood overweight or obesity in children aged 5 to 11 years — Cochrane Library",
+      "url": "https://www.cochrane.org/evidence/CD012008_parent-only-interventions-childhood-overweight-or-obesity-children-aged-5-11-years",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Infant and young child feeding: Model Chapter for textbooks for medical students and allied health professionals — World Health Organization",
+      "url": "https://www.who.int/publications/i/item/9789241597494",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Eating Disorders in Children and Adolescents: Information for Parents and Caregivers — NIH National Institute of Mental Health",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pediatric responsive feeding practices",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Intuitive eating and diet culture in children",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pediatric feeding disorders and ARFID (Avoidant/Restrictive Food Intake Disorder)",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

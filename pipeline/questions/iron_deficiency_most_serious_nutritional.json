@@ -1,0 +1,34 @@
+{
+  "id": "iron_deficiency_most_serious_nutritional",
+  "question": "Is iron deficiency the most serious nutritional problem in picky eating children?",
+  "topic": "Helps parents focus on the most evidence-based nutritional concern in selective eaters while avoidin",
+  "tags": [
+    "Child Health",
+    "Nutrition",
+    "Micronutrients"
+  ],
+  "sources": [
+    {
+      "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+      "url": "https://www.nationalacademies.org/publications/27239",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Iron deficiency anemia in picky eaters",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "id": "quantum_computing_pose_immediate_threat",
+  "question": "Does quantum computing pose an immediate threat to current cybersecurity?",
+  "topic": "Addresses timeline misconceptions about quantum threats that could lead to either panic or dangerous",
+  "tags": [
+    "Cybersecurity",
+    "Quantum Science",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Foundational Cybersecurity Research: Improving Science, Engineering, and Institutions",
+      "url": "https://www.nationalacademies.org/publications/24676",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Implications of Artificial Intelligence for Cybersecurity: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25488",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01054-1",
+      "date": "2026-04-02"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Energy Department aims to build full-fledged quantum computer within 3 years",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/energy-department-aims-build-full-fledged-quantum-computer-within-3-years",
+      "date": "2026-04-02"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: The first quantum computer to break encryption is now shockingly close",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521878-the-first-quantum-computer-to-break-encryption-is-now-shockingly-close/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-02"
+    }
+  ]
+}

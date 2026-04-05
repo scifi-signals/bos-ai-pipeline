@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-04T12:10:01Z",
+  "generated_at": "2026-04-05T12:09:16Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -1725,6 +1725,45 @@
       "readiness_summary": "2 NASEM sources, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "cigarettes_safer_traditional_cigarettes_smoking",
+      "question": "Are e-cigarettes safer than traditional cigarettes for smoking cessation?",
+      "priority": "high",
+      "rationale": "Addresses polarized public debate where anti-vaping messaging may prevent smokers from using evidence-based harm reduction approaches",
+      "misinformation_narrative": "Many people believe e-cigarettes are equally harmful to traditional cigarettes, or that they are ineffective for quitting smoking, leading smokers to avoid a potentially less harmful cessation tool",
+      "public_stakes": "Smokers may continue using deadly combustible tobacco instead of switching to less harmful alternatives, missing opportunities for harm reduction and successful cessation",
+      "verification_status": "verified",
+      "verification_reason": "Public health surveys show widespread misconception about e-cigarette harm levels, amplified by anti-vaping advocacy groups and conflicting media coverage.",
+      "tags": [
+        "Public Health",
+        "Tobacco Control",
+        "Harm Reduction"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Public Health Consequences of E-Cigarettes (2018)",
+          "url": "https://www.nationalacademies.org/publications/24952"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-31",
+      "last_seen": "2026-04-05",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "cigarettes_help_people_quit_smoking",
       "question": "Do e-cigarettes help people quit smoking cigarettes?",
       "priority": "high",
@@ -1796,45 +1835,6 @@
       "alternative_sources": [],
       "discovered_at": "2026-04-02",
       "last_seen": "2026-04-02",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2018,
-      "signal_count": 1,
-      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
-    },
-    {
-      "id": "cigarettes_safer_traditional_cigarettes_smoking",
-      "question": "Are e-cigarettes safer than traditional cigarettes for smoking cessation?",
-      "priority": "high",
-      "rationale": "Corrects widespread misconception about relative harm and effectiveness of vaping vs smoking, backed by clinical evidence on cessation rates and harm reduction",
-      "misinformation_narrative": "Many people believe e-cigarettes are just as dangerous as traditional cigarettes, or that they're not effective for quitting smoking, leading them to avoid a potentially less harmful cessation method",
-      "public_stakes": "Smokers may continue using deadly combustible tobacco instead of switching to less harmful alternatives, missing opportunities to reduce their cancer and lung disease risk",
-      "verification_status": "verified",
-      "verification_reason": "Public health surveys and smoking cessation forums show many smokers believe e-cigarettes are equally dangerous, partly due to mixed messaging from health authorities.",
-      "tags": [
-        "Health and Medicine",
-        "Public Health",
-        "Addiction"
-      ],
-      "nasem_source_count": 1,
-      "nasem_sources_preview": [
-        {
-          "name": "Public Health Consequences of E-Cigarettes (2018)",
-          "url": "https://www.nationalacademies.org/publications/24952"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
-          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
-          "date": "2026-03-25T10:00:00"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-03-31",
-      "last_seen": "2026-03-31",
       "times_seen": 1,
       "status": "pending",
       "newest_source_year": 2018,
@@ -2541,57 +2541,18 @@
       "readiness_summary": "1 NASEM source, most recent 2004 — sources are old · confirmed misinformation · 2 discovery signals"
     },
     {
-      "id": "cigarettes_effective_way_quit_smoking",
-      "question": "Are e-cigarettes an effective way to quit smoking?",
-      "priority": "high",
-      "rationale": "Addresses conflicting narratives about vaping effectiveness compared to other cessation methods, with clear clinical trial data available",
-      "misinformation_narrative": "Public health messaging often portrays vaping as equally harmful to smoking, while others promote it as completely safe, creating confusion about its role in smoking cessation",
-      "public_stakes": "Smokers may avoid a potentially effective cessation tool or non-smokers may start vaping thinking it's harmless",
-      "verification_status": "verified",
-      "verification_reason": "This reflects actual confusion from conflicting messaging by public health agencies like CDC vs. harm reduction advocates on platforms like Reddit and Twitter.",
-      "tags": [
-        "Health and Medicine",
-        "Public Health",
-        "Addiction"
-      ],
-      "nasem_source_count": 1,
-      "nasem_sources_preview": [
-        {
-          "name": "Dying to Quit: Why We Smoke and How We Stop (1998)",
-          "url": "https://www.nationalacademies.org/publications/6013"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
-          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
-          "date": "2026-03-25T10:00:00"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-04",
-      "last_seen": "2026-04-04",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 1998,
-      "signal_count": 1,
-      "readiness_summary": "1 NASEM source, most recent 1998 — sources are old · confirmed misinformation · 1 discovery signal"
-    },
-    {
       "id": "anti_aging_supplements_protect_against",
-      "question": "Do 'anti-aging' supplements protect against cancer?",
+      "question": "Do anti-aging supplements protect against cancer?",
       "priority": "high",
-      "rationale": "Addresses dangerous supplement marketing that contradicts oncology evidence about antioxidant interference",
-      "misinformation_narrative": "Supplement marketing claims that antioxidants and 'anti-aging' compounds prevent cancer, when some may actually increase cancer risk",
-      "public_stakes": "Cancer patients or high-risk individuals may take supplements that interfere with treatment or increase risk",
+      "rationale": "Addresses dangerous misconceptions about supplement safety in cancer contexts, where marketing claims contradict clinical evidence",
+      "misinformation_narrative": "Many people believe anti-aging supplements provide cancer protection benefits, when some may actually increase cancer risk or interfere with treatment",
+      "public_stakes": "Cancer patients or those at risk may take supplements that could accelerate tumor growth or interfere with proven treatments, potentially worsening outcomes",
       "verification_status": "verified",
       "verification_reason": "Anti-aging supplement marketing with cancer prevention claims is ubiquitous on Instagram, supplement websites, and wellness influencer content.",
       "tags": [
-        "Health and Medicine",
         "Cancer",
-        "Supplements"
+        "Dietary Supplements",
+        "Health and Medicine"
       ],
       "nasem_source_count": 1,
       "nasem_sources_preview": [
@@ -2621,6 +2582,45 @@
           "origin": "STM — RealClearScience",
           "url": "https://www.realclearscience.com/2026/04/01/global_rallies_call_for_aging_to_be_treated_1173608.html",
           "date": "2026-04-03"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-04",
+      "last_seen": "2026-04-05",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 1998,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 1998 — sources are old · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "cigarettes_effective_way_quit_smoking",
+      "question": "Are e-cigarettes an effective way to quit smoking?",
+      "priority": "high",
+      "rationale": "Addresses conflicting narratives about vaping effectiveness compared to other cessation methods, with clear clinical trial data available",
+      "misinformation_narrative": "Public health messaging often portrays vaping as equally harmful to smoking, while others promote it as completely safe, creating confusion about its role in smoking cessation",
+      "public_stakes": "Smokers may avoid a potentially effective cessation tool or non-smokers may start vaping thinking it's harmless",
+      "verification_status": "verified",
+      "verification_reason": "This reflects actual confusion from conflicting messaging by public health agencies like CDC vs. harm reduction advocates on platforms like Reddit and Twitter.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Addiction"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dying to Quit: Why We Smoke and How We Stop (1998)",
+          "url": "https://www.nationalacademies.org/publications/6013"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
         }
       ],
       "alternative_sources": [],
@@ -4553,6 +4553,67 @@
       "readiness_summary": "4 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "quantum_computing_pose_immediate_threat",
+      "question": "Does quantum computing pose an immediate threat to current cybersecurity?",
+      "priority": "medium",
+      "rationale": "Addresses timeline misconceptions about quantum threats that could lead to either panic or dangerous complacency",
+      "misinformation_narrative": "Media reports suggest quantum computers will soon break all encryption, causing panic about immediate cybersecurity vulnerabilities when practical quantum attacks are still years away",
+      "public_stakes": "Organizations may make premature, costly security changes or conversely, fail to begin necessary long-term quantum-safe preparations",
+      "verification_status": "verified",
+      "verification_reason": "Cybersecurity media coverage and LinkedIn posts regularly sensationalize quantum computing threats, causing immediate panic among IT professionals and executives.",
+      "tags": [
+        "Cybersecurity",
+        "Quantum Science",
+        "Technology"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Foundational Cybersecurity Research: Improving Science, Engineering, and Institutions (2017)",
+          "url": "https://www.nationalacademies.org/publications/24676"
+        },
+        {
+          "name": "Implications of Artificial Intelligence for Cybersecurity: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25488"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01054-1",
+          "date": "2026-04-02"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Energy Department aims to build full-fledged quantum computer within 3 years",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/energy-department-aims-build-full-fledged-quantum-computer-within-3-years",
+          "date": "2026-04-02"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The first quantum computer to break encryption is now shockingly close",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521878-the-first-quantum-computer-to-break-encryption-is-now-shockingly-close/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-02"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 3,
+      "readiness_summary": "3 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 3 discovery signals"
+    },
+    {
       "id": "quantum_computers_ready_solve_real",
       "question": "Are quantum computers ready to solve real-world problems today?",
       "priority": "medium",
@@ -6351,6 +6412,45 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "iron_deficiency_most_serious_nutritional",
+      "question": "Is iron deficiency the most serious nutritional problem in picky eating children?",
+      "priority": "low",
+      "rationale": "Helps parents focus on the most evidence-based nutritional concern in selective eaters while avoiding unnecessary interventions",
+      "misinformation_narrative": "Parents often assume picky eaters have multiple serious nutritional deficiencies, when iron deficiency is typically the primary concern requiring medical attention",
+      "public_stakes": "Parents may over-supplement with unnecessary vitamins while missing iron deficiency signs, or conversely, not seek medical evaluation for legitimate iron deficiency anemia",
+      "verification_status": "needs_review",
+      "verification_reason": "This is too medically specific; most parents worry generally about nutrition rather than having this particular hierarchy of deficiency concerns.",
+      "tags": [
+        "Child Health",
+        "Nutrition",
+        "Micronutrients"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2024 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "quantum_computers_actually_solve_problems",
@@ -10855,6 +10955,186 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "pesticides_conventional_produce_dangerous_children",
+      "question": "Are pesticides on conventional produce dangerous to children's health?",
+      "priority": "high",
+      "rationale": "Directly addresses widespread misinformation from influential advocacy groups that contradicts EPA/FDA safety data and expert consensus on pesticide residue safety",
+      "misinformation_narrative": "The EWG's 'Dirty Dozen' list causes parents to believe that pesticide residues on conventional produce pose significant health risks to children, leading some to avoid fruits and vegetables entirely if they can't afford organic",
+      "public_stakes": "Children may consume fewer fruits and vegetables due to unfounded pesticide fears, leading to poor nutrition and increased disease risk - the health benefits of eating conventional produce far outweigh minimal pesticide exposure risks",
+      "verification_status": "verified",
+      "verification_reason": "Parenting groups on Facebook and Reddit regularly discuss avoiding conventional produce due to EWG's Dirty Dozen, with documented cases of reduced fruit/vegetable consumption.",
+      "tags": [
+        "Public Health",
+        "Food Safety",
+        "Child Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Food: What You Need to Know",
+          "description": "EPA's comprehensive guide on pesticide residues in food, including safety standards and children's exposure",
+          "relevance": "Directly addresses pesticide safety in food with specific consideration for children's health"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residue Monitoring Program Annual Report",
+          "description": "FDA's annual monitoring data on pesticide residues found in food products, including safety assessments",
+          "relevance": "Provides actual residue data and safety evaluations for pesticides on conventional produce"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Exposure in Children",
+          "description": "AAP policy statement and technical report on pesticide exposure risks specifically for children",
+          "relevance": "Medical professional organization's specific guidance on pesticide risks to children's health"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food - Joint FAO/WHO Meeting on Pesticide Residues (JMPR)",
+          "description": "WHO/FAO expert committee reports on pesticide safety evaluations and acceptable daily intakes",
+          "relevance": "International health authority's scientific assessments of pesticide safety levels in food"
+        },
+        {
+          "organization": "Environmental Working Group",
+          "organization_full": "Environmental Working Group",
+          "base_url": "",
+          "url": "https://www.ewg.org/foodnews/dirty-dozen.php",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Dirty Dozen and Clean Fifteen Lists",
+          "description": "Annual report ranking pesticide contamination levels in conventional produce based on USDA data",
+          "relevance": "Provides specific data on pesticide residue levels in different fruits and vegetables"
+        }
+      ],
+      "discovered_at": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "should_parents_force_children_eat",
+      "question": "Should parents force children to eat foods they refuse?",
+      "priority": "high",
+      "rationale": "Contradicts widespread parental practices with evidence-based feeding approaches that prevent long-term eating problems",
+      "misinformation_narrative": "Many parents believe they should force or pressure picky eaters to consume foods, thinking this will improve nutrition and reduce selective eating",
+      "public_stakes": "Forced feeding can create lasting food aversions, eating disorders, and worsen underlying feeding problems, potentially leading to more severe nutritional deficiencies",
+      "verification_status": "verified",
+      "verification_reason": "Parenting forums, pediatric advice columns, and older generation advice commonly promote forcing children to eat, with \"clean plate club\" mentality widespread.",
+      "tags": [
+        "Child Health",
+        "Nutrition",
+        "Parenting"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Bright Futures: Guidelines for Health Supervision of Infants, Children, and Adolescents",
+          "description": "Comprehensive pediatric guidelines that include evidence-based recommendations on feeding practices and addressing food refusal in children",
+          "relevance": "Contains specific guidance on responsive feeding practices and avoiding coercive feeding strategies"
+        },
+        {
+          "organization": "Academy of Nutrition and Dietetics",
+          "organization_full": "Academy of Nutrition and Dietetics",
+          "base_url": "",
+          "url": "https://academylogin.org/saml/Error/",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Position Paper: Nutrition Guidance for Healthy Children Ages 2 to 11 Years",
+          "description": "Evidence-based position paper on child nutrition that addresses feeding practices and food acceptance strategies",
+          "relevance": "Provides professional recommendations on non-coercive approaches to encouraging healthy eating in children"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochrane.org/evidence/CD012008_parent-only-interventions-childhood-overweight-or-obesity-children-aged-5-11-years",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Parent-only interventions for childhood overweight or obesity in children aged 5 to 11 years",
+          "description": "Systematic review examining evidence on parental feeding strategies and their effectiveness",
+          "relevance": "Reviews research evidence on various parental feeding approaches including restrictive versus responsive feeding"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241597494",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Infant and young child feeding: Model Chapter for textbooks for medical students and allied health professionals",
+          "description": "WHO guidelines on feeding practices for infants and young children, including responsive feeding principles",
+          "relevance": "Establishes evidence-based principles for child feeding that emphasize responsive rather than forced feeding"
+        },
+        {
+          "organization": "NIH National Institute of Mental Health",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Eating Disorders in Children and Adolescents: Information for Parents and Caregivers",
+          "description": "NIMH resource addressing feeding difficulties and eating behaviors in children",
+          "relevance": "Discusses how coercive feeding practices can contribute to problematic eating behaviors and food aversion"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-05",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "pesticide_residues_conventional_produce_dangerous",
       "question": "Are pesticide residues on conventional produce dangerous to children's health?",
       "priority": "high",
@@ -11044,40 +11324,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "should_parents_force_children_eat",
-      "question": "Should parents force children to eat foods they don't like?",
-      "priority": "high",
-      "rationale": "Traditional parenting advice often promotes forcing children to eat, but feeding research shows this is counterproductive and can harm long-term eating behaviors",
-      "misinformation_narrative": "Many parents believe they should force or pressure children to eat certain foods to ensure proper nutrition, thinking this will help children develop healthy eating habits",
-      "public_stakes": "Forced feeding can create lasting negative associations with food, worsen picky eating, and contribute to eating disorders or unhealthy relationships with food",
-      "verification_status": "verified",
-      "verification_reason": "Parenting forums, pediatrician offices, and family dinner tables regularly feature debates about forcing kids to eat vegetables and \"clean plate club\" mentality.",
-      "tags": [
-        "Children's Health",
-        "Nutrition",
-        "Parenting"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-03",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "anti_aging_supplements_actually_prevent",
@@ -13234,6 +13480,96 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "lupus_still_impossible_treat_effectively",
+      "question": "Is lupus still impossible to treat effectively?",
+      "priority": "medium",
+      "rationale": "Medical advances have dramatically changed lupus prognosis, but public awareness lags behind breakthrough treatments like CAR-T therapy",
+      "misinformation_narrative": "Many people with lupus believe it's an untreatable, inevitably progressive disease with no hope for remission, based on outdated information from decades past",
+      "public_stakes": "Patients may avoid seeking treatment, delay therapy, or lose hope when effective treatments and even potential cures are now available",
+      "verification_status": "verified",
+      "verification_reason": "Lupus support groups on Facebook and patient forums frequently express hopelessness about treatment options, often citing outdated prognoses from decades past.",
+      "tags": [
+        "Autoimmune Disease",
+        "Health and Medicine",
+        "Treatment"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "No FDA-approved lupus treatments existed for 50 years until first approval ~20 years ago",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Lupus Fact Sheet",
+          "description": "CDC's comprehensive fact sheet on lupus including current treatment approaches and outcomes",
+          "relevance": "Provides authoritative information on current lupus treatments and their effectiveness"
+        },
+        {
+          "organization": "NIH/NIAMS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "What Is Lupus? Fast Facts: An Easy-to-Read Series of Publications for the Public",
+          "description": "NIH National Institute of Arthritis and Musculoskeletal and Skin Diseases comprehensive guide on lupus treatment options",
+          "relevance": "Details current treatment strategies and their effectiveness from the leading federal research institute"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA-Approved Treatments for Systemic Lupus Erythematosus",
+          "description": "FDA information on approved medications and treatments for lupus",
+          "relevance": "Lists currently approved and effective treatments, demonstrating lupus is treatable"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Immunosuppressive treatment for proliferative lupus nephritis",
+          "description": "Cochrane systematic review evaluating effectiveness of treatments for lupus nephritis",
+          "relevance": "Provides evidence-based analysis of treatment effectiveness for severe lupus complications"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Rheumatic and musculoskeletal diseases fact sheets",
+          "description": "WHO fact sheet covering autoimmune rheumatic diseases including lupus and available treatments",
+          "relevance": "International health authority perspective on lupus treatment options and outcomes"
+        }
+      ],
+      "discovered_at": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "organic_pesticides_safer_conventional_ones",
@@ -17783,6 +18119,130 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "data_centers_significantly_warm_surrounding",
+      "question": "Do AI data centers significantly warm their surrounding areas?",
+      "priority": "low",
+      "rationale": "Addresses emerging concerns about AI infrastructure environmental impacts where specific claims need scientific verification",
+      "misinformation_narrative": "Some reports claim AI data centers create substantial local heating effects, potentially causing climate concerns, when the warming may be localized and manageable",
+      "public_stakes": "Communities may oppose necessary AI infrastructure development based on exaggerated heating concerns, or conversely, ignore legitimate local environmental impacts",
+      "verification_status": "needs_review",
+      "verification_reason": "This seems like a manufactured concern; there isn't significant public discourse about AI data centers causing local warming effects.",
+      "tags": [
+        "Artificial Intelligence",
+        "Environmental Science",
+        "Technology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI data centres can warm surrounding areas by up to 9.1°C",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521256-ai-data-centres-can-warm-surrounding-areas-by-up-to-9-1c/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-02"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "should_whole_milk_avoided_toddlers",
+      "question": "Should whole milk be avoided in toddlers over age 2?",
+      "priority": "low",
+      "rationale": "Updated dietary guidelines contradict widespread parental practices based on older recommendations",
+      "misinformation_narrative": "Many parents switch to low-fat milk at age 2 based on outdated guidelines, when current evidence supports whole milk for longer in many children",
+      "public_stakes": "Children may miss out on beneficial fats needed for development, or parents may feel guilty about appropriate dietary choices",
+      "verification_status": "needs_review",
+      "verification_reason": "This is too specific a pediatric nutrition guideline for widespread public misconception; most parents simply follow their pediatrician's advice.",
+      "tags": [
+        "Child Health",
+        "Nutrition",
+        "Dietary Guidelines"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Dietary Recommendations for Children and Adolescents: A Guide for Practitioners",
+          "description": "AAP clinical guidance on nutrition including milk recommendations for different age groups",
+          "relevance": "Provides specific recommendations on milk types and fat content for toddlers over age 2"
+        },
+        {
+          "organization": "USDA/HHS",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.usda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Dietary Guidelines for Americans 2020-2025",
+          "description": "Federal dietary guidelines including recommendations for dairy consumption in young children",
+          "relevance": "Chapter 3 contains specific guidance on milk and dairy recommendations for ages 2 and older"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Nutrition for Everyone: Milk and Dairy Products",
+          "description": "CDC guidance on milk recommendations for infants and toddlers by age group",
+          "relevance": "Directly addresses appropriate milk types for toddlers transitioning after age 2"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://iris.who.int/items/3565b50c-db11-4738-bd97-6004d96f64c7",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Feeding and Nutrition of Infants and Young Children: Guidelines for the WHO European Region",
+          "description": "WHO regional guidelines on feeding practices for young children including dairy recommendations",
+          "relevance": "Provides evidence-based recommendations on milk consumption for children over 2 years"
+        },
+        {
+          "organization": "Academy of Nutrition and Dietetics",
+          "organization_full": "Academy of Nutrition and Dietetics",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Position Paper: Nutrition Guidance for Healthy Children Ages 2 to 11 Years",
+          "description": "Professional nutrition organization's position on dietary recommendations for young children",
+          "relevance": "Addresses appropriate milk choices and fat content recommendations for children transitioning after age 2"
+        }
+      ],
+      "discovered_at": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -24936,6 +25396,51 @@
       "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
       "nasem_bos_url": "https://www.nationalacademies.org/news/what-is-the-connection-between-covid-19-and-sepsis",
       "nasem_bos_title": "What is the connection between COVID-19 and sepsis?"
+    },
+    {
+      "id": "older_adults_vulnerable_covid_flu",
+      "question": "Are older adults more vulnerable to COVID-19 and flu due to age-related immune changes?",
+      "priority": "low",
+      "rationale": "Clarifies mechanisms behind age-related vulnerability to help inform appropriate prevention strategies",
+      "misinformation_narrative": "Some people believe age-related vulnerability is just about general frailty rather than specific immune system changes, potentially underestimating targeted prevention needs",
+      "public_stakes": "Older adults may not receive appropriate targeted prevention strategies or may not understand why they need different approaches than younger people",
+      "verification_status": "needs_review",
+      "verification_reason": "This confuses medical nuance with public misinformation; most people accept that older adults are more vulnerable without debating the mechanisms.",
+      "tags": [
+        "Aging",
+        "Infectious Disease",
+        "Public Health"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://www.nationalacademies.org/publications/10306"
+        },
+        {
+          "name": "Improving Access to Oral Health Care for Vulnerable and Underserved Populations (2012)",
+          "url": "https://www.nationalacademies.org/publications/13116"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists discover why flu and COVID hit older adults so hard",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403002027.htm",
+          "date": "2026-04-03"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-05",
+      "last_seen": "2026-04-05",
+      "times_seen": 1,
+      "status": "nasem_covered",
+      "newest_source_year": 2012,
+      "signal_count": 1,
+      "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
+      "nasem_bos_url": "https://www.nationalacademies.org/news/how-can-you-tell-if-you-have-covid-19-rsv-or-the-flu",
+      "nasem_bos_title": "How can you tell if you have COVID-19, RSV, or the flu?"
     },
     {
       "id": "climate_change_actually_accelerating_fast",

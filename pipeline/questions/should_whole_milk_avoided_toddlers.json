@@ -1,0 +1,45 @@
+{
+  "id": "should_whole_milk_avoided_toddlers",
+  "question": "Should whole milk be avoided in toddlers over age 2?",
+  "topic": "Updated dietary guidelines contradict widespread parental practices based on older recommendations",
+  "tags": [
+    "Child Health",
+    "Nutrition",
+    "Dietary Guidelines"
+  ],
+  "sources": [
+    {
+      "name": "Dietary Recommendations for Children and Adolescents: A Guide for Practitioners — American Academy of Pediatrics",
+      "url": "https://www.aap.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Dietary Guidelines for Americans 2020-2025 — USDA/HHS",
+      "url": "https://www.usda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Nutrition for Everyone: Milk and Dairy Products — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Feeding and Nutrition of Infants and Young Children: Guidelines for the WHO European Region — WHO",
+      "url": "https://iris.who.int/items/3565b50c-db11-4738-bd97-6004d96f64c7",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}
