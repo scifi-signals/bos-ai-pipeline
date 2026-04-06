@@ -1,0 +1,45 @@
+{
+  "id": "should_children_avoid_all_added",
+  "question": "Should children avoid all added sugars until age 11?",
+  "topic": "Clarifies the difference between ideal dietary recommendations and practical family nutrition guidan",
+  "tags": [
+    "Health and Medicine",
+    "Child Development",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "Policy Statement: The Use and Misuse of Fruit Juice in Pediatrics — American Academy of Pediatrics",
+      "url": "https://www.aap.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Added Sugars and Cardiovascular Disease Risk in Children: A Scientific Statement — American Heart Association",
+      "url": "https://www.heart.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Guideline: Sugars intake for adults and children — World Health Organization",
+      "url": "https://www.who.int/publications/i/item/9789241549028",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Dietary Guidelines for Americans 2020-2025 — USDA",
+      "url": "https://www.usda.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Avoiding all added sugars until age 11 is recommended but 'not realistic for many families' - practical vs. ideal recommendations distinction",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

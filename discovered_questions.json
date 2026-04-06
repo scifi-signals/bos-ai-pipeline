@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-05T12:09:16Z",
+  "generated_at": "2026-04-06T12:15:32Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -363,6 +363,105 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "should_parents_force_children_eat",
+      "question": "Should parents force children to eat foods they dislike?",
+      "priority": "high",
+      "rationale": "Counters widespread parental misconceptions about feeding practices that can harm child development and family relationships.",
+      "misinformation_narrative": "Many parents believe they should force children to eat certain foods or clean their plates to ensure proper nutrition and prevent picky eating, when research shows this typically creates power struggles and is counterproductive to healthy eating habits.",
+      "public_stakes": "Children may develop negative associations with food, eating disorders, or feeding difficulties. Family mealtimes become stressful rather than positive experiences.",
+      "verification_status": "verified",
+      "verification_reason": "\"Clean plate club\" mentality is pervasive parenting advice shared across generations and parenting forums, despite contradicting current pediatric nutrition guidance.",
+      "tags": [
+        "Health and Medicine",
+        "Child Development",
+        "Nutrition"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Parenting Matters: Supporting Parents of Children Ages 0-8 (2016)",
+          "url": "https://www.nationalacademies.org/publications/21868"
+        },
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Bright Futures: Guidelines for Health Supervision of Infants, Children, and Adolescents",
+          "description": "Comprehensive pediatric guidelines that include evidence-based recommendations on feeding practices and addressing food refusal in children",
+          "relevance": "Contains specific guidance on responsive feeding practices and avoiding coercive feeding strategies"
+        },
+        {
+          "organization": "Academy of Nutrition and Dietetics",
+          "organization_full": "Academy of Nutrition and Dietetics",
+          "base_url": "",
+          "url": "https://academylogin.org/saml/Error/",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Position Paper: Nutrition Guidance for Healthy Children Ages 2 to 11 Years",
+          "description": "Evidence-based position paper on child nutrition that addresses feeding practices and food acceptance strategies",
+          "relevance": "Provides professional recommendations on non-coercive approaches to encouraging healthy eating in children"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochrane.org/evidence/CD012008_parent-only-interventions-childhood-overweight-or-obesity-children-aged-5-11-years",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Parent-only interventions for childhood overweight or obesity in children aged 5 to 11 years",
+          "description": "Systematic review examining evidence on parental feeding strategies and their effectiveness",
+          "relevance": "Reviews research evidence on various parental feeding approaches including restrictive versus responsive feeding"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241597494",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Infant and young child feeding: Model Chapter for textbooks for medical students and allied health professionals",
+          "description": "WHO guidelines on feeding practices for infants and young children, including responsive feeding principles",
+          "relevance": "Establishes evidence-based principles for child feeding that emphasize responsive rather than forced feeding"
+        },
+        {
+          "organization": "NIH National Institute of Mental Health",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Eating Disorders in Children and Adolescents: Information for Parents and Caregivers",
+          "description": "NIMH resource addressing feeding difficulties and eating behaviors in children",
+          "relevance": "Discusses how coercive feeding practices can contribute to problematic eating behaviors and food aversion"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-06",
+      "times_seen": 3,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "early_introduction_allergenic_foods_like",
@@ -1723,6 +1822,45 @@
       "newest_source_year": 2018,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "cigarettes_effective_smoking_cessation_compared",
+      "question": "Are e-cigarettes effective for smoking cessation compared to traditional methods?",
+      "priority": "high",
+      "rationale": "Addresses misconceptions about e-cigarette efficacy and relative harm, with specific efficacy data showing vaping success rates of ~50% vs. NRT at ~10%.",
+      "misinformation_narrative": "Many people believe e-cigarettes are ineffective for quitting smoking or equally harmful to cigarettes, when evidence shows they can be more effective than traditional nicotine replacement therapy for cessation while being significantly less harmful than combustible cigarettes.",
+      "public_stakes": "Smokers may avoid a potentially effective cessation tool, continuing to use deadly combustible cigarettes. Public health policies may inappropriately restrict access to harm reduction tools.",
+      "verification_status": "verified",
+      "verification_reason": "Public health messaging and anti-vaping campaigns have created widespread belief that e-cigarettes are as harmful as cigarettes, documented in surveys and reflected in policy debates.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Addiction"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Public Health Consequences of E-Cigarettes (2018)",
+          "url": "https://www.nationalacademies.org/publications/24952"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-06",
+      "last_seen": "2026-04-06",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "cigarettes_safer_traditional_cigarettes_smoking",
@@ -4727,6 +4865,84 @@
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 6 discovery signals"
     },
     {
+      "id": "quantum_computers_soon_break_all",
+      "question": "Will quantum computers soon break all current encryption and cybersecurity?",
+      "priority": "medium",
+      "rationale": "Addresses growing public alarm about quantum computing threats to cybersecurity with unrealistic timelines and impacts.",
+      "misinformation_narrative": "Many people believe quantum computers will imminently break all encryption and render current cybersecurity useless, causing unnecessary panic about digital security when practical quantum code-breaking remains years away and post-quantum cryptography is being developed.",
+      "public_stakes": "Businesses and individuals may make premature, costly security decisions or panic about digital privacy when current threats are more pressing than quantum computing risks.",
+      "verification_status": "verified",
+      "verification_reason": "Quantum computing threats are frequently sensationalized in tech media and cybersecurity conferences, creating genuine public anxiety about imminent encryption collapse.",
+      "tags": [
+        "Technology",
+        "Cybersecurity",
+        "Quantum Computing"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Decrypting the Encryption Debate: A Framework for Decision Makers (2018)",
+          "url": "https://www.nationalacademies.org/publications/25010"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01054-1",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Energy Department aims to build full-fledged quantum computer within 3 years",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/energy-department-aims-build-full-fledged-quantum-computer-within-3-years",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The first quantum computer to break encryption is now shockingly close",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521878-the-first-quantum-computer-to-break-encryption-is-now-shockingly-close/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: A tiny detector for microwave photons could advance quantum tech",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-tiny-detector-microwave-photons-advance.html",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Microscopic mechanism of 'quantum collapse' in real-world environments uncovered for the first time",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-microscopic-mechanism-quantum-collapse-real.html",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists built a quantum battery that breaks the rules of charging",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403224452.htm",
+          "date": "2026-04-05"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-06",
+      "last_seen": "2026-04-06",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 5,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 5 discovery signals"
+    },
+    {
       "id": "quantum_computers_break_all_current",
       "question": "Will quantum computers break all current encryption immediately?",
       "priority": "medium",
@@ -6412,6 +6628,49 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "whole_milk_recommended_children_over",
+      "question": "Is whole milk recommended for children over age 2?",
+      "priority": "low",
+      "rationale": "Updates parents on changed dietary guidelines regarding milk fat content for young children.",
+      "misinformation_narrative": "Many parents believe children should switch to low-fat milk after age 2 based on outdated guidelines, when new dietary guidelines recommend whole milk beyond age 2 with evidence support, though this should be individualized.",
+      "public_stakes": "Children may miss out on beneficial nutrients and healthy fats important for brain development if parents follow outdated milk recommendations.",
+      "verification_status": "needs_review",
+      "verification_reason": "Most parents aren't actively following new milk fat guidelines closely enough to create a widespread misconception about recent changes to recommendations.",
+      "tags": [
+        "Health and Medicine",
+        "Child Development",
+        "Nutrition"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        },
+        {
+          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+          "url": "https://www.nationalacademies.org/publications/25747"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-06",
+      "last_seen": "2026-04-06",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "iron_deficiency_most_serious_nutritional",
@@ -8718,6 +8977,78 @@
       "readiness_summary": "1 NASEM source, most recent 2011 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
+      "id": "fossil_discoveries_constantly_pushing_back",
+      "question": "Are fossil discoveries constantly pushing back the timeline of complex life evolution?",
+      "priority": "low",
+      "rationale": "Addresses potential misconceptions about how new fossil discoveries relate to evolutionary theory and scientific knowledge revision.",
+      "misinformation_narrative": "Some people interpret new fossil discoveries as evidence that evolutionary timelines are fundamentally wrong or unreliable, when these discoveries actually refine and strengthen our understanding of evolutionary history within established frameworks.",
+      "public_stakes": "Public may lose confidence in evolutionary science or be misled by anti-evolution arguments that misrepresent how scientific knowledge advances through new discoveries.",
+      "verification_status": "needs_review",
+      "verification_reason": "This reflects more of an academic science communication issue rather than a widespread public misconception about evolutionary timelines and fossil discoveries.",
+      "tags": [
+        "Evolution",
+        "Earth Science",
+        "Scientific Method"
+      ],
+      "nasem_source_count": 4,
+      "nasem_sources_preview": [
+        {
+          "name": "Science, Evolution, and Creationism (2008)",
+          "url": "https://www.nationalacademies.org/publications/11876"
+        },
+        {
+          "name": "In the Light of Evolution: Volume I: Adaptation and Complex Design (2007)",
+          "url": "https://www.nationalacademies.org/publications/11790"
+        },
+        {
+          "name": "Evolution in Hawaii: A Supplement to 'Teaching About Evolution and the Nature of Science' (2004)",
+          "url": "https://www.nationalacademies.org/publications/10865"
+        },
+        {
+          "name": "Understanding Climate's Influence on Human Evolution (2010)",
+          "url": "https://www.nationalacademies.org/publications/12825"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Pincer movement: fossil pushes origins of chelicerate arthropods back to the Cambrian period",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00807-2",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: 500-million-year-old fossil sheds light on origins of spiders and scorpions",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/500-million-year-old-fossil-sheds-light-origins-spiders-and-scorpions",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Surprise fossil discoveries push back the evolution of complex animals",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521980-surprise-fossil-discoveries-push-back-the-evolution-of-complex-animals/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: This tiny claw in a 500-million-year-old fossil just rewrote the origin of spiders",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403002023.htm",
+          "date": "2026-04-04"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-06",
+      "last_seen": "2026-04-06",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2010,
+      "signal_count": 4,
+      "readiness_summary": "4 NASEM sources, most recent 2010 — moderately dated · misinformation narrative not yet confirmed · 4 discovery signals"
+    },
+    {
       "id": "dna_testing_reliably_tell_identical",
       "question": "Can DNA testing reliably tell identical twins apart?",
       "priority": "low",
@@ -10955,6 +11286,129 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "pesticide_residues_conventional_produce_dangerous",
+      "question": "Are pesticide residues on conventional produce dangerous for children?",
+      "priority": "high",
+      "rationale": "This directly counters the widespread EWG misinformation that causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' according to EPA/FDA positions.",
+      "misinformation_narrative": "Many parents believe the EWG's 'Dirty Dozen' list means conventional produce with pesticide residues poses significant health risks to children, leading them to avoid healthy fruits and vegetables or spend unnecessarily on organic alternatives when residue levels are far below safety thresholds.",
+      "public_stakes": "Children may consume fewer fruits and vegetables due to parental fear, potentially leading to nutritional deficiencies and increased disease risk. Families may experience financial strain buying organic when conventional produce is equally safe.",
+      "verification_status": "verified",
+      "verification_reason": "The EWG's Dirty Dozen list is widely shared on parenting Facebook groups and wellness blogs, causing documented anxiety among parents about conventional produce.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Food Safety"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Food: How We Test for Safety",
+          "description": "EPA's comprehensive overview of how pesticide residues on food are regulated and assessed for safety, including specific considerations for children",
+          "relevance": "Directly addresses pesticide residue safety standards and children's exposure"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residue Monitoring Program Annual Report",
+          "description": "FDA's annual monitoring data on actual pesticide residue levels found on food compared to safety limits",
+          "relevance": "Provides real-world data on pesticide residue levels children are exposed to through food"
+        },
+        {
+          "organization": "AAP",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://pediatrics.aappublications.org/content/130/5/e1406",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Organic Foods: Health and Environmental Advantages and Disadvantages",
+          "description": "American Academy of Pediatrics clinical report examining pesticide residues and health effects in children",
+          "relevance": "Medical professional guidance specifically addressing pesticide exposure risks for children"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/groups/joint-fao-who-meeting-on-pesticide-residues-(jmpr)",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO/FAO Joint Meeting on Pesticide Residues (JMPR) Reports",
+          "description": "International expert evaluations of pesticide residue safety including acceptable daily intake levels for various populations",
+          "relevance": "Global authority assessments of pesticide safety thresholds relevant to children's exposure"
+        },
+        {
+          "organization": "EWG",
+          "organization_full": "EWG",
+          "base_url": "",
+          "url": "https://www.ewg.org/foodnews/dirty-dozen.php",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Dirty Dozen and Clean Fifteen Lists",
+          "description": "Environmental Working Group's annual analysis of USDA pesticide residue data on conventional produce",
+          "relevance": "Consumer-focused interpretation of government pesticide residue data with risk assessments"
+        },
+        {
+          "organization": "WHO/FAO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/en/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Codex Alimentarius: Pesticide Residues in Food and Feed",
+          "description": "International food safety standards for pesticide residues, including acceptable daily intake levels and acute reference doses",
+          "relevance": "Provides international scientific consensus on safe levels of pesticide residues in food based on health risk assessments"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Organic Foods: Health and Environmental Advantages and Disadvantages",
+          "description": "AAP policy statement examining pesticide residue risks in conventional vs organic foods specifically for children",
+          "relevance": "Medical organization's evidence-based assessment of pesticide residue health risks specifically for pediatric populations"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241549721",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Guidelines on Use of Pesticides in Agriculture and Public Health",
+          "description": "WHO's international guidelines including acceptable daily intake levels and special considerations for vulnerable populations including children",
+          "relevance": "Provides international health standards for pesticide exposure limits with specific attention to children's vulnerability"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-06",
+      "times_seen": 3,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 8 alternative sources identified"
+    },
+    {
       "id": "pesticides_conventional_produce_dangerous_children",
       "question": "Are pesticides on conventional produce dangerous to children's health?",
       "priority": "high",
@@ -11043,197 +11497,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "should_parents_force_children_eat",
-      "question": "Should parents force children to eat foods they refuse?",
-      "priority": "high",
-      "rationale": "Contradicts widespread parental practices with evidence-based feeding approaches that prevent long-term eating problems",
-      "misinformation_narrative": "Many parents believe they should force or pressure picky eaters to consume foods, thinking this will improve nutrition and reduce selective eating",
-      "public_stakes": "Forced feeding can create lasting food aversions, eating disorders, and worsen underlying feeding problems, potentially leading to more severe nutritional deficiencies",
-      "verification_status": "verified",
-      "verification_reason": "Parenting forums, pediatric advice columns, and older generation advice commonly promote forcing children to eat, with \"clean plate club\" mentality widespread.",
-      "tags": [
-        "Child Health",
-        "Nutrition",
-        "Parenting"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "American Academy of Pediatrics",
-          "organization_full": "American Academy of Pediatrics",
-          "base_url": "https://www.aap.org",
-          "url": "https://www.aap.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Bright Futures: Guidelines for Health Supervision of Infants, Children, and Adolescents",
-          "description": "Comprehensive pediatric guidelines that include evidence-based recommendations on feeding practices and addressing food refusal in children",
-          "relevance": "Contains specific guidance on responsive feeding practices and avoiding coercive feeding strategies"
-        },
-        {
-          "organization": "Academy of Nutrition and Dietetics",
-          "organization_full": "Academy of Nutrition and Dietetics",
-          "base_url": "",
-          "url": "https://academylogin.org/saml/Error/",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Position Paper: Nutrition Guidance for Healthy Children Ages 2 to 11 Years",
-          "description": "Evidence-based position paper on child nutrition that addresses feeding practices and food acceptance strategies",
-          "relevance": "Provides professional recommendations on non-coercive approaches to encouraging healthy eating in children"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochrane.org/evidence/CD012008_parent-only-interventions-childhood-overweight-or-obesity-children-aged-5-11-years",
-          "url_verified": true,
-          "tier": 1,
-          "resource_name": "Parent-only interventions for childhood overweight or obesity in children aged 5 to 11 years",
-          "description": "Systematic review examining evidence on parental feeding strategies and their effectiveness",
-          "relevance": "Reviews research evidence on various parental feeding approaches including restrictive versus responsive feeding"
-        },
-        {
-          "organization": "World Health Organization",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/9789241597494",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Infant and young child feeding: Model Chapter for textbooks for medical students and allied health professionals",
-          "description": "WHO guidelines on feeding practices for infants and young children, including responsive feeding principles",
-          "relevance": "Establishes evidence-based principles for child feeding that emphasize responsive rather than forced feeding"
-        },
-        {
-          "organization": "NIH National Institute of Mental Health",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Eating Disorders in Children and Adolescents: Information for Parents and Caregivers",
-          "description": "NIMH resource addressing feeding difficulties and eating behaviors in children",
-          "relevance": "Discusses how coercive feeding practices can contribute to problematic eating behaviors and food aversion"
-        }
-      ],
-      "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-05",
-      "times_seen": 2,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "pesticide_residues_conventional_produce_dangerous",
-      "question": "Are pesticide residues on conventional produce dangerous to children's health?",
-      "priority": "high",
-      "rationale": "Addresses widespread fear-based marketing that contradicts EPA/FDA safety assessments showing residue levels are far below harmful thresholds",
-      "misinformation_narrative": "The EWG 'Dirty Dozen' list and social media campaigns convince parents that conventional produce with pesticide residues poses significant health risks to children, leading to avoidance of fruits and vegetables",
-      "public_stakes": "Parents may reduce children's fruit and vegetable consumption or spend unnecessarily on organic produce, potentially harming nutrition and family budgets",
-      "verification_status": "verified",
-      "verification_reason": "The EWG Dirty Dozen list is widely shared on parenting Facebook groups, Instagram wellness accounts, and mommy blogs, causing documented avoidance of conventional produce.",
-      "tags": [
-        "Health and Medicine",
-        "Food Safety",
-        "Public Health"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticides and Food: How We Test for Safety",
-          "description": "EPA's comprehensive overview of how pesticide residues on food are regulated and assessed for safety, including specific considerations for children",
-          "relevance": "Directly addresses pesticide residue safety standards and children's exposure"
-        },
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticide Residue Monitoring Program Annual Report",
-          "description": "FDA's annual monitoring data on actual pesticide residue levels found on food compared to safety limits",
-          "relevance": "Provides real-world data on pesticide residue levels children are exposed to through food"
-        },
-        {
-          "organization": "AAP",
-          "organization_full": "American Academy of Pediatrics",
-          "base_url": "https://www.aap.org",
-          "url": "https://pediatrics.aappublications.org/content/130/5/e1406",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Organic Foods: Health and Environmental Advantages and Disadvantages",
-          "description": "American Academy of Pediatrics clinical report examining pesticide residues and health effects in children",
-          "relevance": "Medical professional guidance specifically addressing pesticide exposure risks for children"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/groups/joint-fao-who-meeting-on-pesticide-residues-(jmpr)",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "WHO/FAO Joint Meeting on Pesticide Residues (JMPR) Reports",
-          "description": "International expert evaluations of pesticide residue safety including acceptable daily intake levels for various populations",
-          "relevance": "Global authority assessments of pesticide safety thresholds relevant to children's exposure"
-        },
-        {
-          "organization": "EWG",
-          "organization_full": "EWG",
-          "base_url": "",
-          "url": "https://www.ewg.org/foodnews/dirty-dozen.php",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Dirty Dozen and Clean Fifteen Lists",
-          "description": "Environmental Working Group's annual analysis of USDA pesticide residue data on conventional produce",
-          "relevance": "Consumer-focused interpretation of government pesticide residue data with risk assessments"
-        },
-        {
-          "organization": "WHO/FAO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/en/",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Codex Alimentarius: Pesticide Residues in Food and Feed",
-          "description": "International food safety standards for pesticide residues, including acceptable daily intake levels and acute reference doses",
-          "relevance": "Provides international scientific consensus on safe levels of pesticide residues in food based on health risk assessments"
-        }
-      ],
-      "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-04",
-      "times_seen": 2,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 6 alternative sources identified"
     },
     {
       "id": "forcing_children_eat_certain_foods",
@@ -13435,6 +13698,68 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "systems_pose_imminent_existential_threat",
+      "question": "Do AI systems pose an imminent existential threat to humanity?",
+      "priority": "medium",
+      "rationale": "Addresses widespread AI apocalypse fears that may be disproportionate to actual near-term risks and capabilities.",
+      "misinformation_narrative": "Many people believe AI will soon pose an apocalyptic threat to human civilization, when current AI limitations and ongoing safety research suggest more nuanced risks that require measured responses rather than panic.",
+      "public_stakes": "Public fear may lead to overly restrictive AI policies that hinder beneficial applications, while distracting from more immediate AI risks like bias and misinformation.",
+      "verification_status": "verified",
+      "verification_reason": "AI apocalypse fears are widespread on social media, tech forums, and mainstream media coverage, often citing concerns about superintelligence and job displacement.",
+      "tags": [
+        "Technology",
+        "Artificial Intelligence",
+        "Public Policy"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Breakthrough computer chip tech could help meet ‘monumental demand’ driven by AI",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01050-5",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: General scales unlock AI evaluation with explanatory and predictive power",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10303-2",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI used in warfare needs a strong ethical framework",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01008-7",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The hidden costs of ‘helpful’ AI",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00966-2",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: How worried should you be about an AI apocalypse?",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522019-how-worried-should-you-be-about-an-ai-apocalypse/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-03"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-06",
+      "last_seen": "2026-04-06",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
       "id": "powered_educational_tools_replace_human",
       "question": "Can AI-powered educational tools replace human teachers effectively?",
       "priority": "medium",
@@ -13480,6 +13805,140 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "organic_pesticides_safer_environmentally_friendly",
+      "question": "Are organic pesticides safer and more environmentally friendly than conventional pesticides?",
+      "priority": "medium",
+      "rationale": "Challenges the widespread assumption that 'organic' automatically means 'safer' or 'more environmentally friendly' for pesticides.",
+      "misinformation_narrative": "Many consumers believe organic pesticides are inherently safer and more environmentally friendly than conventional ones, when some organic pesticides can require higher application rates and have greater environmental impact than conventional alternatives.",
+      "public_stakes": "Consumers make purchasing decisions based on incorrect assumptions about relative environmental and health impacts, potentially supporting less sustainable practices.",
+      "verification_status": "verified",
+      "verification_reason": "\"Organic = safer\" is a dominant consumer belief promoted heavily in natural health communities, organic marketing, and wellness social media.",
+      "tags": [
+        "Environment",
+        "Food Safety",
+        "Agriculture"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides: Regulating Pesticides",
+          "description": "EPA's comprehensive overview of biopesticides (including organic pesticides) regulation, safety assessment, and environmental considerations compared to conventional pesticides",
+          "relevance": "Provides regulatory framework and safety comparison between organic and conventional pesticides"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240005662",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "The WHO Recommended Classification of Pesticides by Hazard",
+          "description": "WHO's classification system that categorizes both organic and synthetic pesticides by acute toxicity hazard levels",
+          "relevance": "Provides standardized toxicity classifications that include both organic and conventional pesticides for comparison"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/overview-risk-assessment-pesticide-program",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticides: Health and Environmental Effects",
+          "description": "EPA's risk assessment methodology and findings for pesticide environmental and health impacts, covering both conventional and organic pesticides",
+          "relevance": "Details EPA's scientific approach to evaluating comparative risks of different pesticide types"
+        },
+        {
+          "organization": "NIH/National Institute of Environmental Health Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides",
+          "description": "NIEHS overview of pesticide health effects and research findings, including studies on organic vs conventional pesticide safety",
+          "relevance": "Provides health-focused scientific evidence on pesticide safety comparisons"
+        },
+        {
+          "organization": "USDA Economic Research Service",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.ers.usda.gov/topics/natural-resources-environment/organic-agriculture",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Organic Agriculture: Organic Market Overview",
+          "description": "USDA analysis of organic farming practices including pesticide use patterns and environmental impacts compared to conventional methods",
+          "relevance": "Provides agricultural and environmental impact data comparing organic and conventional pesticide use"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/pesticides/biopesticides",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "What are Biopesticides?",
+          "description": "EPA's comprehensive overview of biopesticides including safety profiles and environmental impacts compared to conventional pesticides",
+          "relevance": "Directly addresses safety and environmental considerations of biological vs conventional pesticides"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food - Joint FAO/WHO Meeting on Pesticide Residues (JMPR)",
+          "description": "WHO's scientific evaluations of pesticide safety including natural and synthetic compounds used in agriculture",
+          "relevance": "International health authority assessment of comparative pesticide risks and safety standards"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Food Safety",
+          "description": "CDC's fact sheet on pesticide safety in food systems including organic vs conventional practices",
+          "relevance": "Public health perspective on comparative safety of different pesticide approaches"
+        },
+        {
+          "organization": "NIH/National Institute of Environmental Health Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niehs.nih.gov/health/topics/agents/pesticides",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticides",
+          "description": "NIEHS research summary on health effects of pesticide exposure including studies comparing organic and conventional pesticides",
+          "relevance": "Scientific research compilation on health impacts of different pesticide types and exposure routes"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-06",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 9 alternative sources identified"
     },
     {
       "id": "lupus_still_impossible_treat_effectively",
@@ -13649,96 +14108,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
-    },
-    {
-      "id": "organic_pesticides_safer_environmentally_friendly",
-      "question": "Are organic pesticides safer and more environmentally friendly than conventional pesticides?",
-      "priority": "medium",
-      "rationale": "The organic halo effect leads people to assume organic pesticides are always safer, when in fact some require higher application rates and may have greater environmental impact than conventional alternatives",
-      "misinformation_narrative": "Many consumers believe that organic pesticides are inherently safer for human health and the environment than synthetic pesticides used in conventional agriculture",
-      "public_stakes": "This misconception may lead to purchasing decisions based on incomplete information and misunderstanding of relative risks and environmental impacts",
-      "verification_status": "verified",
-      "verification_reason": "Organic food marketing and natural health communities on Instagram, Pinterest, and health blogs consistently promote organic pesticides as inherently safer.",
-      "tags": [
-        "Agriculture",
-        "Environmental Health",
-        "Consumer Information"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticides: Regulating Pesticides",
-          "description": "EPA's comprehensive overview of biopesticides (including organic pesticides) regulation, safety assessment, and environmental considerations compared to conventional pesticides",
-          "relevance": "Provides regulatory framework and safety comparison between organic and conventional pesticides"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/9789240005662",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "The WHO Recommended Classification of Pesticides by Hazard",
-          "description": "WHO's classification system that categorizes both organic and synthetic pesticides by acute toxicity hazard levels",
-          "relevance": "Provides standardized toxicity classifications that include both organic and conventional pesticides for comparison"
-        },
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/overview-risk-assessment-pesticide-program",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Pesticides: Health and Environmental Effects",
-          "description": "EPA's risk assessment methodology and findings for pesticide environmental and health impacts, covering both conventional and organic pesticides",
-          "relevance": "Details EPA's scientific approach to evaluating comparative risks of different pesticide types"
-        },
-        {
-          "organization": "NIH/National Institute of Environmental Health Sciences",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticides",
-          "description": "NIEHS overview of pesticide health effects and research findings, including studies on organic vs conventional pesticide safety",
-          "relevance": "Provides health-focused scientific evidence on pesticide safety comparisons"
-        },
-        {
-          "organization": "USDA Economic Research Service",
-          "organization_full": "U.S. Department of Agriculture",
-          "base_url": "https://www.usda.gov",
-          "url": "https://www.ers.usda.gov/topics/natural-resources-environment/organic-agriculture",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Organic Agriculture: Organic Market Overview",
-          "description": "USDA analysis of organic farming practices including pesticide use patterns and environmental impacts compared to conventional methods",
-          "relevance": "Provides agricultural and environmental impact data comparing organic and conventional pesticide use"
-        }
-      ],
-      "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-03",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "new_covid_variants_still_significant",
@@ -18119,6 +18488,186 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "lupus_now_curable_disease",
+      "question": "Is lupus now a curable disease?",
+      "priority": "low",
+      "rationale": "Addresses emerging misconceptions about lupus 'cures' while clarifying the reality of current treatment advances and availability.",
+      "misinformation_narrative": "Some people believe recent CAR-T cell therapy advances mean lupus is now curable for most patients, when these treatments are still experimental and available to very few patients, while most lupus patients still require traditional management approaches.",
+      "public_stakes": "Lupus patients may have unrealistic expectations about cure availability, potentially delaying appropriate treatment or participating in unproven therapies. Families may make poor medical decisions based on overly optimistic information.",
+      "verification_status": "needs_review",
+      "verification_reason": "The CAR-T lupus breakthrough is too recent and technical for widespread public misconception; most people don't know enough about lupus treatments to hold this specific belief.",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Disease",
+        "Medical Treatment"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Lupus diagnosis currently takes months to years; previously took 2-3 years to diagnose (improved from past decade)",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (SLE) - Basic Information",
+          "description": "CDC's comprehensive overview of lupus including current treatment approaches and prognosis",
+          "relevance": "Provides authoritative information on whether lupus can be cured and current treatment status"
+        },
+        {
+          "organization": "NIH - National Institute of Arthritis and Musculoskeletal and Skin Diseases (NIAMS)",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus)",
+          "description": "NIH's detailed patient information on lupus including treatment and management options",
+          "relevance": "Authoritative medical source that addresses curability and current therapeutic approaches"
+        },
+        {
+          "organization": "Lupus Foundation of America",
+          "organization_full": "Lupus Foundation of America",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Understanding Lupus",
+          "description": "Leading lupus advocacy organization's evidence-based information on disease management and prognosis",
+          "relevance": "Specialized organization providing current information on lupus treatment outcomes and cure status"
+        },
+        {
+          "organization": "Mayo Clinic",
+          "organization_full": "Mayo Clinic",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Lupus - Diagnosis and Treatment",
+          "description": "Mayo Clinic's clinical overview of lupus treatment options and disease management",
+          "relevance": "Authoritative medical institution's assessment of current lupus treatment capabilities"
+        },
+        {
+          "organization": "American College of Rheumatology",
+          "organization_full": "American College of Rheumatology",
+          "base_url": "",
+          "url": "https://rheumatology.org/I-Am-A/Patient-Caregiver/Diseases-Conditions/Lupus",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Lupus",
+          "description": "Professional medical organization's patient education materials on lupus treatment and prognosis",
+          "relevance": "Specialist medical society's authoritative guidance on lupus curability and management"
+        }
+      ],
+      "discovered_at": "2026-04-06",
+      "last_seen": "2026-04-06",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "should_children_avoid_all_added",
+      "question": "Should children avoid all added sugars until age 11?",
+      "priority": "low",
+      "rationale": "Clarifies the difference between ideal dietary recommendations and practical family nutrition guidance.",
+      "misinformation_narrative": "Some parents believe they must completely eliminate all added sugars from children's diets until age 11 based on dietary guidelines, when experts acknowledge this is 'not realistic for many families' and individual circumstances should guide decisions.",
+      "public_stakes": "Families may experience unnecessary stress and guilt about sugar exposure, potentially creating unhealthy relationships with food or social isolation from food-related activities.",
+      "verification_status": "needs_review",
+      "verification_reason": "This specific \"until age 11\" framing is too precise and obscure; parents generally worry about sugar but don't typically cite this specific age cutoff.",
+      "tags": [
+        "Health and Medicine",
+        "Child Development",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Avoiding all added sugars until age 11 is recommended but 'not realistic for many families' - practical vs. ideal recommendations distinction",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Policy Statement: The Use and Misuse of Fruit Juice in Pediatrics",
+          "description": "AAP clinical practice guideline on fruit juice consumption with recommendations on added sugars for children by age group",
+          "relevance": "Provides specific age-based recommendations for sugar intake in children under 12"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Added Sugars and Cardiovascular Disease Risk in Children: A Scientific Statement",
+          "description": "AHA scientific statement recommending children under 2 avoid added sugars and limits for older children",
+          "relevance": "Establishes evidence-based age thresholds for added sugar consumption in children"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241549028",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Guideline: Sugars intake for adults and children",
+          "description": "WHO evidence-based guidelines on sugar intake recommendations for children and adults",
+          "relevance": "International health authority's recommendations on sugar limits for pediatric populations"
+        },
+        {
+          "organization": "USDA",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.usda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Dietary Guidelines for Americans 2020-2025",
+          "description": "Federal dietary guidelines with specific recommendations on added sugars for children by age group",
+          "relevance": "Official US government recommendations on added sugar intake limits for children under 12"
+        },
+        {
+          "organization": "American Dental Association",
+          "organization_full": "American Dental Association",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Diet and Oral Health",
+          "description": "ADA guidance on dietary sugars and oral health impacts in children",
+          "relevance": "Professional dental organization's recommendations on sugar consumption for pediatric dental health"
+        }
+      ],
+      "discovered_at": "2026-04-06",
+      "last_seen": "2026-04-06",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
