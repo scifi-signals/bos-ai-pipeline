@@ -1,0 +1,32 @@
+{
+  "id": "taking_statins_benefit_elderly_patients",
+  "question": "Can taking statins benefit elderly patients, or are they too risky at advanced ages?",
+  "topic": "Addresses age-based medication bias that can lead to undertreatment of preventable cardiovascular di",
+  "tags": [
+    "Geriatric Medicine",
+    "Cardiovascular Health"
+  ],
+  "sources": [
+    {
+      "name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol — American Heart Association/American College of Cardiology",
+      "url": "https://www.heart.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Statins for the primary prevention of cardiovascular disease — Cochrane Collaboration",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Statins: They're Even for the Elderly",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/06/statins_theyre_even_for_the_elderly_1174856.html",
+      "date": "2026-04-06"
+    }
+  ]
+}

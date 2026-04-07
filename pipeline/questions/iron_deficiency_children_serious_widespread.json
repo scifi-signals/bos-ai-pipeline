@@ -1,0 +1,57 @@
+{
+  "id": "iron_deficiency_children_serious_widespread",
+  "question": "Is iron deficiency in children a serious widespread problem?",
+  "topic": "Addresses potential underrecognition of a common but serious pediatric nutritional issue",
+  "tags": [
+    "Child Health",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "The Global Prevalence of Anaemia in 2011 — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241564960",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Iron Deficiency - United States, 1999–2000 — CDC",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5140a1.htm",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Micronutrient Deficiencies: Iron Deficiency Anaemia — WHO",
+      "url": "https://www.who.int/health-topics/anaemia",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Iron-Deficiency Anemia — NIH/NHLBI",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Intermittent iron supplementation for reducing anaemia and its associated impairments in adolescent and adult menstruating women — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Iron deficiency anemia in picky eaters",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

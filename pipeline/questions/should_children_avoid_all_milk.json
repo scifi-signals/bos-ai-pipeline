@@ -1,0 +1,32 @@
+{
+  "id": "should_children_avoid_all_milk",
+  "question": "Should children avoid all milk except plant-based alternatives?",
+  "topic": "Addresses anti-dairy misinformation that could lead to nutritional deficiencies in growing children",
+  "tags": [
+    "Child Nutrition",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+      "url": "https://www.nationalacademies.org/publications/27239",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
+      "url": "https://www.nationalacademies.org/publications/25747",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

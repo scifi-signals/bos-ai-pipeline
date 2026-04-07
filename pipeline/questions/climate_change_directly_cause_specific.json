@@ -1,0 +1,67 @@
+{
+  "id": "climate_change_directly_cause_specific",
+  "question": "Does climate change directly cause specific weather events and price increases we're seeing today?",
+  "topic": "Addresses oversimplified climate attribution in media that can damage public understanding of actual",
+  "tags": [
+    "Climate Science",
+    "Weather"
+  ],
+  "sources": [
+    {
+      "name": "Attribution of Extreme Weather Events in the Context of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/21852",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Guidelines to Incorporate the Costs and Benefits of Adaptation Measures in Preparation for Extreme Weather Events and Climate Change",
+      "url": "https://www.nationalacademies.org/publications/25847",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Insects in the tropics are already near their heat limits. Climate change could push many beyond survival",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-insects-tropics-limits-climate-survival.html",
+      "date": "2026-04-05"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Price of lamb soars by 21% just in time for Easter - as experts say climate change is to blame",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15700775/price-lamb-soars-easter-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-04-05"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: At the National Science Foundation, 'climate change' is disappearing from proposals",
+      "origin": "STM — Government Executive",
+      "url": "https://www.govexec.com/management/2026/03/national-science-foundation-climate-change-disappearing-proposals/412495/",
+      "date": "2026-04-05"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Longer wildfire seasons pose an increasing threat for species under climate change",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-longer-wildfire-seasons-pose-threat.html",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Longer wildfire seasons pose an increasing threat for species under climate change",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-longer-wildfire-seasons-pose-threat.html",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Coral reef science must adapt for a chance to outpace climate change, say experts",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-coral-reef-science-chance-outpace.html",
+      "date": "2026-04-06"
+    }
+  ]
+}

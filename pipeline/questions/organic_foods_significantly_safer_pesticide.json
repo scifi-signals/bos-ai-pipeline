@@ -1,0 +1,71 @@
+{
+  "id": "organic_foods_significantly_safer_pesticide",
+  "question": "Are organic foods significantly safer from pesticide exposure than conventional foods?",
+  "topic": "Directly addresses widespread fear-mongering about pesticide residues that leads to reduced produce ",
+  "tags": [
+    "Food Safety",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Pesticide Residues in Food — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticide Residue Monitoring Program Annual Report — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Organic versus conventional food: a systematic review — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Pesticide Residues in Food — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticide Data Program Annual Summary — USDA",
+      "url": "https://www.ams.usda.gov/datasets/pdp",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Mere presence of pesticide residue does not equate to harm - aligns with standard toxicology principles",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pesticide residues on conventional vs. organic produce",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

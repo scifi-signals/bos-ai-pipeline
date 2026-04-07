@@ -1,0 +1,40 @@
+{
+  "id": "recent_fossil_discoveries_fundamentally_change",
+  "question": "Do recent fossil discoveries fundamentally change our understanding of when complex life evolved?",
+  "topic": "Corrects sensationalized reporting about evolutionary discoveries that can mislead the public about ",
+  "tags": [
+    "Evolution",
+    "Science Communication"
+  ],
+  "sources": [
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26522",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Pincer movement: fossil pushes origins of chelicerate arthropods back to the Cambrian period",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00807-2",
+      "date": "2026-04-04"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Surprise fossil discoveries push back the evolution of complex animals",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521980-surprise-fossil-discoveries-push-back-the-evolution-of-complex-animals/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-04"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: This tiny claw in a 500-million-year-old fossil just rewrote the origin of spiders",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260403002023.htm",
+      "date": "2026-04-04"
+    }
+  ]
+}

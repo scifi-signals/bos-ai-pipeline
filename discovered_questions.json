@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-06T12:15:32Z",
+  "generated_at": "2026-04-07T12:18:14Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -363,105 +363,6 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 2 discovery signals"
-    },
-    {
-      "id": "should_parents_force_children_eat",
-      "question": "Should parents force children to eat foods they dislike?",
-      "priority": "high",
-      "rationale": "Counters widespread parental misconceptions about feeding practices that can harm child development and family relationships.",
-      "misinformation_narrative": "Many parents believe they should force children to eat certain foods or clean their plates to ensure proper nutrition and prevent picky eating, when research shows this typically creates power struggles and is counterproductive to healthy eating habits.",
-      "public_stakes": "Children may develop negative associations with food, eating disorders, or feeding difficulties. Family mealtimes become stressful rather than positive experiences.",
-      "verification_status": "verified",
-      "verification_reason": "\"Clean plate club\" mentality is pervasive parenting advice shared across generations and parenting forums, despite contradicting current pediatric nutrition guidance.",
-      "tags": [
-        "Health and Medicine",
-        "Child Development",
-        "Nutrition"
-      ],
-      "nasem_source_count": 2,
-      "nasem_sources_preview": [
-        {
-          "name": "Parenting Matters: Supporting Parents of Children Ages 0-8 (2016)",
-          "url": "https://www.nationalacademies.org/publications/21868"
-        },
-        {
-          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
-          "url": "https://www.nationalacademies.org/publications/27239"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "American Academy of Pediatrics",
-          "organization_full": "American Academy of Pediatrics",
-          "base_url": "https://www.aap.org",
-          "url": "https://www.aap.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Bright Futures: Guidelines for Health Supervision of Infants, Children, and Adolescents",
-          "description": "Comprehensive pediatric guidelines that include evidence-based recommendations on feeding practices and addressing food refusal in children",
-          "relevance": "Contains specific guidance on responsive feeding practices and avoiding coercive feeding strategies"
-        },
-        {
-          "organization": "Academy of Nutrition and Dietetics",
-          "organization_full": "Academy of Nutrition and Dietetics",
-          "base_url": "",
-          "url": "https://academylogin.org/saml/Error/",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Position Paper: Nutrition Guidance for Healthy Children Ages 2 to 11 Years",
-          "description": "Evidence-based position paper on child nutrition that addresses feeding practices and food acceptance strategies",
-          "relevance": "Provides professional recommendations on non-coercive approaches to encouraging healthy eating in children"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochrane.org/evidence/CD012008_parent-only-interventions-childhood-overweight-or-obesity-children-aged-5-11-years",
-          "url_verified": true,
-          "tier": 1,
-          "resource_name": "Parent-only interventions for childhood overweight or obesity in children aged 5 to 11 years",
-          "description": "Systematic review examining evidence on parental feeding strategies and their effectiveness",
-          "relevance": "Reviews research evidence on various parental feeding approaches including restrictive versus responsive feeding"
-        },
-        {
-          "organization": "World Health Organization",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/9789241597494",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Infant and young child feeding: Model Chapter for textbooks for medical students and allied health professionals",
-          "description": "WHO guidelines on feeding practices for infants and young children, including responsive feeding principles",
-          "relevance": "Establishes evidence-based principles for child feeding that emphasize responsive rather than forced feeding"
-        },
-        {
-          "organization": "NIH National Institute of Mental Health",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Eating Disorders in Children and Adolescents: Information for Parents and Caregivers",
-          "description": "NIMH resource addressing feeding difficulties and eating behaviors in children",
-          "relevance": "Discusses how coercive feeding practices can contribute to problematic eating behaviors and food aversion"
-        }
-      ],
-      "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-06",
-      "times_seen": 3,
-      "status": "pending",
-      "newest_source_year": 2024,
-      "signal_count": 1,
-      "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "early_introduction_allergenic_foods_like",
@@ -1736,6 +1637,118 @@
       "newest_source_year": 2019,
       "signal_count": 5,
       "readiness_summary": "4 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 5 discovery signals"
+    },
+    {
+      "id": "quantum_computers_pose_immediate_threat",
+      "question": "Do quantum computers pose an immediate threat to current cybersecurity and encryption?",
+      "priority": "high",
+      "rationale": "Corrects sensationalized reporting about quantum computing timelines that could drive poor cybersecurity investment decisions",
+      "misinformation_narrative": "Media reports suggest quantum computers are 'shockingly close' to breaking all current encryption, creating unnecessary panic about imminent cybersecurity collapse when practical quantum cryptanalysis remains years away",
+      "public_stakes": "Premature panic could lead to hasty, expensive cybersecurity overhauls while actual timeline allows for measured transition to quantum-resistant cryptography",
+      "verification_status": "verified",
+      "verification_reason": "Tech media outlets regularly publish \"quantum computing breakthrough\" headlines warning of imminent encryption collapse, creating widespread cybersecurity anxiety.",
+      "tags": [
+        "Technology",
+        "Cybersecurity"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Decrypting the Encryption Debate: A Framework for Decision Makers (2018)",
+          "url": "https://www.nationalacademies.org/publications/25010"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01054-1",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The first quantum computer to break encryption is now shockingly close",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521878-the-first-quantum-computer-to-break-encryption-is-now-shockingly-close/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: A 200-year-old light trick just transformed quantum encryption",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260401071933.htm",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Microscopic mechanism of 'quantum collapse' in real-world environments uncovered for the first time",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-microscopic-mechanism-quantum-collapse-real.html",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists built a quantum battery that breaks the rules of charging",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403224452.htm",
+          "date": "2026-04-05"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 4,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
+    },
+    {
+      "id": "cigarettes_effective_safer_way_quit",
+      "question": "Are e-cigarettes an effective and safer way to quit smoking compared to other methods?",
+      "priority": "high",
+      "rationale": "Addresses conflicting public health messages about vaping that may prevent smokers from using potentially life-saving cessation tools",
+      "misinformation_narrative": "Public health messaging often portrays all vaping as equally harmful to smoking, while evidence suggests e-cigarettes may be significantly less harmful and more effective for smoking cessation than traditional nicotine replacement therapy",
+      "public_stakes": "Smokers may avoid a potentially more effective cessation tool, continuing with more harmful combustible tobacco use",
+      "verification_status": "verified",
+      "verification_reason": "Public health agencies and school anti-vaping campaigns routinely present vaping as equally dangerous to smoking, creating genuine public confusion about relative harms.",
+      "tags": [
+        "Public Health",
+        "Addiction Medicine"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Public Health Consequences of E-Cigarettes (2018)",
+          "url": "https://www.nationalacademies.org/publications/24952"
+        },
+        {
+          "name": "Dying to Quit: Why We Smoke and How We Stop (1998)",
+          "url": "https://www.nationalacademies.org/publications/6013"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "cigarettes_safer_traditional_cigarettes_smokers",
@@ -3047,6 +3060,48 @@
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "should_children_avoid_all_milk",
+      "question": "Should children avoid all milk except plant-based alternatives?",
+      "priority": "medium",
+      "rationale": "Addresses anti-dairy misinformation that could lead to nutritional deficiencies in growing children",
+      "misinformation_narrative": "Social media trends promote eliminating dairy from children's diets based on unsubstantiated health claims, when recent dietary guidelines support whole milk consumption beyond age 2 with proper medical guidance",
+      "public_stakes": "Children may miss out on important nutrients for growth and development due to unnecessary dietary restrictions",
+      "verification_status": "verified",
+      "verification_reason": "Anti-dairy messaging is widespread on Instagram, TikTok, and wellness influencer content, with many parents eliminating dairy based on these claims.",
+      "tags": [
+        "Child Nutrition",
+        "Public Health"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        },
+        {
+          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+          "url": "https://www.nationalacademies.org/publications/25747"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "really_forever_chemicals_antarctic_snow",
       "question": "Are there really 'forever chemicals' in Antarctic snow?",
       "priority": "medium",
@@ -3255,6 +3310,72 @@
       "newest_source_year": 2024,
       "signal_count": 3,
       "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "cause_widespread_unemployment_economic_disruption",
+      "question": "Will AI cause widespread unemployment and economic disruption in the near term?",
+      "priority": "medium",
+      "rationale": "Addresses apocalyptic AI narratives that may hinder beneficial AI adoption and informed policy-making",
+      "misinformation_narrative": "Popular narratives about 'AI apocalypse' and mass job displacement often lack nuanced understanding of AI limitations and historical precedents of technological adaptation",
+      "public_stakes": "Excessive fear may lead to counterproductive AI regulation or individuals avoiding beneficial AI tools and career development",
+      "verification_status": "verified",
+      "verification_reason": "\"AI will take all our jobs\" narratives dominate mainstream media coverage and social media discussions about artificial intelligence.",
+      "tags": [
+        "Technology",
+        "Economics"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Artificial Intelligence and the Future of Work (2024)",
+          "url": "https://www.nationalacademies.org/publications/27644"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Breakthrough computer chip tech could help meet ‘monumental demand’ driven by AI",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01050-5",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: General scales unlock AI evaluation with explanatory and predictive power",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10303-2",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI used in warfare needs a strong ethical framework",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01008-7",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The hidden costs of ‘helpful’ AI",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00966-2",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: How worried should you be about an AI apocalypse?",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522019-how-worried-should-you-be-about-an-ai-apocalypse/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-04"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 2,
+      "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "job_apocalypse_caused_artificial_intelligence",
@@ -3909,6 +4030,79 @@
       "newest_source_year": 2023,
       "signal_count": 3,
       "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "most_supplements_anti_aging_treatments",
+      "question": "Are most supplements and anti-aging treatments effective for extending human lifespan?",
+      "priority": "medium",
+      "rationale": "Addresses widespread misinformation in the lucrative anti-aging supplement market",
+      "misinformation_narrative": "Social media and supplement marketing promote numerous products claiming to extend lifespan or reverse aging, when most lack strong evidence for longevity benefits",
+      "public_stakes": "Consumers may waste money on ineffective products while neglecting proven longevity interventions like exercise and diet",
+      "verification_status": "verified",
+      "verification_reason": "Supplement and longevity product marketing saturates social media with anti-aging claims, creating massive consumer belief in unproven interventions.",
+      "tags": [
+        "Aging",
+        "Consumer Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: The Best Way to Measure Longevity",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/04/the_best_way_to_measure_longevity_1174462.html",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Could Medicine Reach Longevity Escape Velocity?",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/02/could_medicine_reach_longevity_escape_velocity_1174207.html",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Global Rallies Call for Aging to Be Treated",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/01/global_rallies_call_for_aging_to_be_treated_1173608.html",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists found a protein that drives brain aging — and how to stop it",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260405065236.htm",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Why Have Longevity Gains Stalled?",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/06/why_have_longevity_gains_stalled_1174698.html",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Mitochondrial Therapies for Aging Are Coming",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/06/mitochondrial_therapies_for_aging_are_coming_1174857.html",
+          "date": "2026-04-06"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "actually_reverse_aging_supplements_like",
@@ -4581,6 +4775,76 @@
       "newest_source_year": 2020,
       "signal_count": 3,
       "readiness_summary": "5 NASEM sources, most recent 2020 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "climate_change_directly_cause_specific",
+      "question": "Does climate change directly cause specific weather events and price increases we're seeing today?",
+      "priority": "medium",
+      "rationale": "Addresses oversimplified climate attribution in media that can damage public understanding of actual climate science",
+      "misinformation_narrative": "Media often attributes individual weather events or commodity price spikes directly to climate change without proper attribution science, leading to confusion about what climate change actually causes versus natural variability",
+      "public_stakes": "Misattribution can undermine climate science credibility and lead to poor adaptation strategies focused on wrong factors",
+      "verification_status": "verified",
+      "verification_reason": "News outlets routinely attribute individual storms, heat waves, and food price spikes directly to climate change without proper scientific attribution.",
+      "tags": [
+        "Climate Science",
+        "Weather"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Attribution of Extreme Weather Events in the Context of Climate Change (2016)",
+          "url": "https://www.nationalacademies.org/publications/21852"
+        },
+        {
+          "name": "Guidelines to Incorporate the Costs and Benefits of Adaptation Measures in Preparation for Extreme Weather Events and Climate Change (2020)",
+          "url": "https://www.nationalacademies.org/publications/25847"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Insects in the tropics are already near their heat limits. Climate change could push many beyond survival",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-insects-tropics-limits-climate-survival.html",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Price of lamb soars by 21% just in time for Easter - as experts say climate change is to blame",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15700775/price-lamb-soars-easter-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: At the National Science Foundation, 'climate change' is disappearing from proposals",
+          "origin": "STM — Government Executive",
+          "url": "https://www.govexec.com/management/2026/03/national-science-foundation-climate-change-disappearing-proposals/412495/",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Longer wildfire seasons pose an increasing threat for species under climate change",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-longer-wildfire-seasons-pose-threat.html",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Coral reef science must adapt for a chance to outpace climate change, say experts",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-coral-reef-science-chance-outpace.html",
+          "date": "2026-04-06"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 3,
+      "readiness_summary": "2 NASEM sources, most recent 2020 · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "cancer_rates_increasing_due_environmental",
@@ -6334,6 +6598,58 @@
       "newest_source_year": 2023,
       "signal_count": 4,
       "readiness_summary": "6 NASEM sources, most recent 2023 · confirmed misinformation · 4 discovery signals"
+    },
+    {
+      "id": "recent_fossil_discoveries_fundamentally_change",
+      "question": "Do recent fossil discoveries fundamentally change our understanding of when complex life evolved?",
+      "priority": "low",
+      "rationale": "Corrects sensationalized reporting about evolutionary discoveries that can mislead the public about how science progresses",
+      "misinformation_narrative": "Sensationalized reporting about fossil discoveries often claims they 'completely rewrite' evolutionary timelines, when most findings refine rather than revolutionize existing evolutionary frameworks",
+      "public_stakes": "Misunderstanding evolutionary science can fuel creationist arguments and undermine scientific literacy",
+      "verification_status": "verified",
+      "verification_reason": "Science journalism routinely uses \"rewrite the textbooks\" language for fossil discoveries, creating public misconceptions about how evolutionary science progresses.",
+      "tags": [
+        "Evolution",
+        "Science Communication"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26522"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Pincer movement: fossil pushes origins of chelicerate arthropods back to the Cambrian period",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00807-2",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Surprise fossil discoveries push back the evolution of complex animals",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521980-surprise-fossil-discoveries-push-back-the-evolution-of-complex-animals/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: This tiny claw in a 500-million-year-old fossil just rewrote the origin of spiders",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403002023.htm",
+          "date": "2026-04-04"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 3,
+      "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "space_exploration_just_expensive_entertainment",
@@ -9380,6 +9696,148 @@
       "readiness_summary": "1 NASEM source, most recent 2002 — sources are old · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
+      "id": "should_parents_force_children_eat",
+      "question": "Should parents force children to eat foods they refuse, and does this improve their nutrition?",
+      "priority": "high",
+      "rationale": "Addresses common but harmful parenting practices around feeding that can lead to long-term eating problems",
+      "misinformation_narrative": "Many parents believe forcing children to eat rejected foods will improve their nutrition and reduce pickiness, when research shows this typically results in power struggles and is counterproductive to healthy eating habits",
+      "public_stakes": "Forced feeding can create negative food associations, worsen eating disorders, and damage parent-child relationships around food",
+      "verification_status": "verified",
+      "verification_reason": "Parenting forums, pediatrician advice columns, and older generation family members commonly advocate forcing children to eat disliked foods.",
+      "tags": [
+        "Child Development",
+        "Nutrition"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Parenting Matters: Supporting Parents of Children Ages 0-8 (2016)",
+          "url": "https://www.nationalacademies.org/publications/21868"
+        },
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Bright Futures: Guidelines for Health Supervision of Infants, Children, and Adolescents",
+          "description": "Comprehensive pediatric guidelines that include evidence-based recommendations on feeding practices and addressing food refusal in children",
+          "relevance": "Contains specific guidance on responsive feeding practices and avoiding coercive feeding strategies"
+        },
+        {
+          "organization": "Academy of Nutrition and Dietetics",
+          "organization_full": "Academy of Nutrition and Dietetics",
+          "base_url": "",
+          "url": "https://academylogin.org/saml/Error/",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Position Paper: Nutrition Guidance for Healthy Children Ages 2 to 11 Years",
+          "description": "Evidence-based position paper on child nutrition that addresses feeding practices and food acceptance strategies",
+          "relevance": "Provides professional recommendations on non-coercive approaches to encouraging healthy eating in children"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochrane.org/evidence/CD012008_parent-only-interventions-childhood-overweight-or-obesity-children-aged-5-11-years",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Parent-only interventions for childhood overweight or obesity in children aged 5 to 11 years",
+          "description": "Systematic review examining evidence on parental feeding strategies and their effectiveness",
+          "relevance": "Reviews research evidence on various parental feeding approaches including restrictive versus responsive feeding"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241597494",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Infant and young child feeding: Model Chapter for textbooks for medical students and allied health professionals",
+          "description": "WHO guidelines on feeding practices for infants and young children, including responsive feeding principles",
+          "relevance": "Establishes evidence-based principles for child feeding that emphasize responsive rather than forced feeding"
+        },
+        {
+          "organization": "NIH National Institute of Mental Health",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Eating Disorders in Children and Adolescents: Information for Parents and Caregivers",
+          "description": "NIMH resource addressing feeding difficulties and eating behaviors in children",
+          "relevance": "Discusses how coercive feeding practices can contribute to problematic eating behaviors and food aversion"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Division of Nutrition, Physical Activity, and Obesity - Child Nutrition",
+          "description": "CDC resources on child nutrition including evidence-based feeding recommendations",
+          "relevance": "Provides public health perspective on effective child feeding strategies"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Interventions for increasing fruit and vegetable consumption in children aged five years and under",
+          "description": "Systematic review examining effectiveness of various strategies to increase fruit and vegetable intake in young children",
+          "relevance": "Meta-analysis of interventions including forced feeding approaches and their effectiveness on child nutrition outcomes"
+        },
+        {
+          "organization": "USDA",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.usda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Child and Adult Care Food Program (CACFP) Best Practices",
+          "description": "USDA evidence-based feeding practices for child care settings including guidance on food refusal",
+          "relevance": "Federal guidelines on appropriate feeding practices that address forcing children to eat"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9241562218",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Complementary feeding: family foods for breastfed children",
+          "description": "WHO guidelines on appropriate feeding practices for children including responsive feeding approaches",
+          "relevance": "International evidence-based recommendations on child feeding that address coercive feeding practices"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-07",
+      "times_seen": 4,
+      "status": "nasem_gap",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 9 alternative sources identified"
+    },
+    {
       "id": "should_parents_avoid_giving_peanuts",
       "question": "Should parents avoid giving peanuts and other allergens to babies to prevent food allergies?",
       "priority": "high",
@@ -11283,6 +11741,95 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "organic_foods_significantly_safer_pesticide",
+      "question": "Are organic foods significantly safer from pesticide exposure than conventional foods?",
+      "priority": "high",
+      "rationale": "Directly addresses widespread fear-mongering about pesticide residues that leads to reduced produce consumption, especially harmful for lower-income families",
+      "misinformation_narrative": "Many people believe the EWG's 'Dirty Dozen' list indicates that conventional produce is dangerous due to pesticide residues, when in fact these residues are far below any health risk safety threshold according to EPA/FDA data",
+      "public_stakes": "Parents may unnecessarily restrict their children's fruit and vegetable intake due to cost concerns about organic produce, potentially reducing overall nutritional quality",
+      "verification_status": "verified",
+      "verification_reason": "The EWG's Dirty Dozen list is widely shared on social media and parenting blogs, with many consumers explicitly avoiding conventional produce based on fear of pesticide residues.",
+      "tags": [
+        "Food Safety",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food",
+          "description": "EPA's comprehensive information on pesticide residues in food, including comparison data between conventional and organic foods",
+          "relevance": "Provides regulatory perspective and data on pesticide residue levels in different food production systems"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residue Monitoring Program Annual Report",
+          "description": "FDA's annual monitoring data on pesticide residues found in both conventional and organic foods",
+          "relevance": "Contains actual testing data comparing pesticide residue levels between organic and conventional foods"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Organic versus conventional food: a systematic review",
+          "description": "Systematic review examining nutritional and safety differences between organic and conventional foods",
+          "relevance": "Provides evidence-based analysis of pesticide exposure differences between organic and conventional foods"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food",
+          "description": "WHO fact sheet on pesticide residues in food and health implications",
+          "relevance": "Provides international health perspective on pesticide exposure risks from different food sources"
+        },
+        {
+          "organization": "USDA",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.ams.usda.gov/datasets/pdp",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticide Data Program Annual Summary",
+          "description": "USDA's annual testing program data on pesticide residues in foods, including organic produce",
+          "relevance": "Contains comprehensive testing data comparing pesticide residue detection rates in organic versus conventional foods"
+        }
+      ],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -13805,6 +14352,184 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "taking_statins_benefit_elderly_patients",
+      "question": "Can taking statins benefit elderly patients, or are they too risky at advanced ages?",
+      "priority": "medium",
+      "rationale": "Addresses age-based medication bias that can lead to undertreatment of preventable cardiovascular disease",
+      "misinformation_narrative": "Many elderly patients and their families believe statins are too risky or ineffective in advanced age, leading to undertreatment of cardiovascular risk",
+      "public_stakes": "Elderly patients may miss out on cardiovascular protection due to age-based treatment bias",
+      "verification_status": "verified",
+      "verification_reason": "Many elderly patients and families refuse statins based on fear campaigns and age-related risk concerns circulating in senior communities and online forums.",
+      "tags": [
+        "Geriatric Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Statins: They're Even for the Elderly",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/06/statins_theyre_even_for_the_elderly_1174856.html",
+          "date": "2026-04-06"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Heart Association/American College of Cardiology",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical practice guideline that specifically addresses statin use in adults over 75 years of age",
+          "relevance": "Directly addresses statin benefits and risks in elderly populations with evidence-based recommendations"
+        },
+        {
+          "organization": "Cochrane Collaboration",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining statin efficacy and safety across age groups including elderly patients",
+          "relevance": "Provides high-quality evidence synthesis on statin benefits and harms including age-stratified analyses"
+        },
+        {
+          "organization": "American Geriatrics Society",
+          "organization_full": "American Geriatrics Society",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "2019 Updated AGS Beers Criteria for Potentially Inappropriate Medication Use in Older Adults",
+          "description": "Evidence-based guidelines addressing appropriate medication use in elderly, including considerations for statins",
+          "relevance": "Specifically evaluates appropriateness of various medications including statins in geriatric populations"
+        },
+        {
+          "organization": "U.S. Preventive Services Task Force",
+          "organization_full": "U.S. Preventive Services Task Force",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: US Preventive Services Task Force Recommendation Statement",
+          "description": "Updated USPSTF recommendations on statin use including specific guidance for adults aged 76 years and older",
+          "relevance": "Provides evidence-based recommendations specifically addressing statin use in elderly adults with risk-benefit analysis"
+        },
+        {
+          "organization": "European Society of Cardiology/European Atherosclerosis Society",
+          "organization_full": "European Society of Cardiology/European Atherosclerosis Society",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "2019 ESC/EAS Guidelines for the management of dyslipidaemias",
+          "description": "European clinical guidelines that address statin therapy in elderly patients including those over 75 years",
+          "relevance": "International perspective on statin use in elderly with specific recommendations and evidence review for this population"
+        }
+      ],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "pesticides_used_organic_farming_necessarily",
+      "question": "Are pesticides used in organic farming necessarily safer or more environmentally friendly than conventional pesticides?",
+      "priority": "medium",
+      "rationale": "Corrects oversimplified assumptions about organic vs. conventional pesticide safety and environmental impact",
+      "misinformation_narrative": "Many consumers believe organic pesticides are inherently safer and more environmentally friendly, when some organic pesticides require higher application rates and may have greater environmental impact than conventional alternatives",
+      "public_stakes": "Misunderstanding may drive purchasing decisions that don't align with actual environmental or safety benefits",
+      "verification_status": "verified",
+      "verification_reason": "\"Organic is always safer\" messaging is pervasive in health food communities, environmental groups, and organic marketing materials.",
+      "tags": [
+        "Food Safety",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Organic Pesticides: Not An Oxymoron",
+          "description": "EPA's official guidance explaining pesticide use in organic farming and regulatory oversight",
+          "relevance": "Directly addresses misconceptions about organic pesticides and their safety evaluation"
+        },
+        {
+          "organization": "USDA",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.ams.usda.gov/rules-regulations/organic/national-list",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Organic Standards - Allowed and Prohibited Substances",
+          "description": "USDA's National List of Allowed and Prohibited Substances for organic production",
+          "relevance": "Official list of approved pesticides for organic farming with safety criteria"
+        },
+        {
+          "organization": "WHO/FAO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Safety evaluation of certain food additives and contaminants - Pesticide residues",
+          "description": "WHO/FAO Joint Expert Committee evaluations of pesticide safety including organic-approved substances",
+          "relevance": "Provides scientific assessment of toxicity for both conventional and organic pesticides"
+        },
+        {
+          "organization": "European Food Safety Authority",
+          "organization_full": "European Food Safety Authority",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Conclusion on pesticide peer review - Copper compounds",
+          "description": "EFSA's risk assessment of copper-based pesticides commonly used in organic farming",
+          "relevance": "Detailed safety evaluation of a major organic pesticide showing environmental concerns"
+        },
+        {
+          "organization": "NIH/National Institute of Environmental Health Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Human Health",
+          "description": "NIEHS overview of pesticide health effects including both synthetic and natural pesticides",
+          "relevance": "Addresses health impacts of pesticides regardless of organic vs conventional classification"
+        }
+      ],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "organic_pesticides_safer_environmentally_friendly",
@@ -18488,6 +19213,337 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "lupus_treatable_condition_good_long",
+      "question": "Is lupus a treatable condition with good long-term outcomes?",
+      "priority": "low",
+      "rationale": "Corrects outdated perceptions about lupus prognosis that may prevent patients from pursuing effective treatments",
+      "misinformation_narrative": "Many people still view lupus as an untreatable, inevitably progressive disease, unaware of recent FDA approvals and breakthrough treatments like CAR-T therapy that can achieve drug-free remission",
+      "public_stakes": "Patients may delay seeking treatment or lose hope, missing opportunities for newer therapies that can significantly improve outcomes",
+      "verification_status": "needs_review",
+      "verification_reason": "This conflates outdated knowledge with active misinformation; most people simply don't know about recent lupus treatments rather than actively believing it's untreatable.",
+      "tags": [
+        "Health and Medicine",
+        "Autoimmune Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Lupus diagnosis currently takes months to years; previously took 2-3 years to diagnose (improved from past decade)",
+          "origin": "Unbiased Science: When The Diagnosis Is Thrown For A Lupus",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=214",
+          "date": "2026-03-18T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Lupus: What is lupus?",
+          "description": "CDC's comprehensive fact sheet on lupus covering symptoms, diagnosis, treatment options, and prognosis",
+          "relevance": "Provides authoritative information on lupus treatment and long-term management from the national health agency"
+        },
+        {
+          "organization": "NIH - National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niams.nih.gov/health-topics/lupus",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Systemic Lupus Erythematosus (Lupus)",
+          "description": "NIH's detailed guide on lupus including current treatments, research advances, and patient outcomes",
+          "relevance": "Provides evidence-based information on lupus treatments and prognosis from the leading medical research institute"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Immunosuppressive treatment for proliferative lupus nephritis",
+          "description": "Systematic review of treatment effectiveness for lupus nephritis with evidence on outcomes",
+          "relevance": "Provides high-quality evidence synthesis on treatment effectiveness for a serious lupus complication"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/musculoskeletal-conditions",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Musculoskeletal conditions - Systemic lupus erythematosus",
+          "description": "WHO fact sheet covering autoimmune rheumatic diseases including lupus treatment approaches",
+          "relevance": "Provides global health perspective on lupus management and outcomes"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA-Approved Treatments for Systemic Lupus Erythematosus",
+          "description": "FDA's information on approved lupus medications and treatment options",
+          "relevance": "Provides regulatory authority's perspective on approved treatments and their effectiveness for lupus"
+        }
+      ],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "space_race_where_countries_must",
+      "question": "Are we in a 'space race' where countries must rush to claim territory on the Moon?",
+      "priority": "low",
+      "rationale": "Corrects nationalistic framing of space exploration that misrepresents international law and cooperation opportunities",
+      "misinformation_narrative": "Media coverage often frames lunar missions as a competitive race for territorial claims, when international space law prohibits national appropriation of celestial bodies",
+      "public_stakes": "Misunderstanding could drive unnecessarily aggressive space policies and undermine international cooperation in space exploration",
+      "verification_status": "needs_review",
+      "verification_reason": "While space race rhetoric exists in media, there's no significant public belief that countries can actually claim lunar territory.",
+      "tags": [
+        "Space Policy",
+        "International Law"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Artemis II is go: humans head to the Moon after half-century absence",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01060-3",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: The Moon belongs to all of us — not just countries that can afford to reach it",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01051-4",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: China is planning to land people on the Moon — and might beat the United States to it",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01059-w",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Lift off! Artemis II mission sends humans to the Moon — opening a new era of exploration",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00978-y",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Daily briefing: The countdown to NASA’s Artemis II Moon mission launch",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01097-4",
+          "date": "2026-04-04"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: What Artemis II’s astronauts will look for on the Moon’s far side",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01103-9",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Artemis II astronauts fly by the Moon today: follow along with <i>Nature</i> live",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00989-9",
+          "date": "2026-04-06"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "older_adults_respond_differently_infections",
+      "question": "Do older adults respond differently to infections like flu and COVID, and why?",
+      "priority": "low",
+      "rationale": "Corrects oversimplified views of aging and immunity that may discourage appropriate medical care",
+      "misinformation_narrative": "Many people believe older adults just have 'weaker immune systems' without understanding the specific mechanisms of immunosenescence and why targeted interventions work",
+      "public_stakes": "Oversimplified understanding may lead to fatalistic attitudes about aging and infection risk instead of pursuing effective preventive measures",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes lack of technical knowledge rather than a specific misconception; people aren't actively spreading wrong information about immunosenescence mechanisms.",
+      "tags": [
+        "Aging",
+        "Infectious Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists discover why flu and COVID hit older adults so hard",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403002027.htm",
+          "date": "2026-04-04"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Older Adults and COVID-19",
+          "description": "CDC's comprehensive resource on COVID-19 risks and responses in older adults, including immune system changes and severity of illness",
+          "relevance": "Directly addresses how older adults respond differently to COVID-19 infection with evidence-based explanations"
+        },
+        {
+          "organization": "NIH/NIA",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Aging and Your Immune System",
+          "description": "National Institute on Aging's explanation of immunosenescence and how aging affects immune function and infection response",
+          "relevance": "Explains the biological mechanisms behind why older adults respond differently to infections"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Older people",
+          "description": "WHO's Q&A specifically addressing COVID-19 risks and responses in older populations",
+          "relevance": "International health authority perspective on differential infection responses in older adults"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing influenza in the elderly",
+          "description": "Systematic review examining influenza vaccine effectiveness in elderly populations, including discussion of age-related immune responses",
+          "relevance": "Evidence-based review that addresses immune response differences and infection outcomes in older adults"
+        }
+      ],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "iron_deficiency_children_serious_widespread",
+      "question": "Is iron deficiency in children a serious widespread problem?",
+      "priority": "low",
+      "rationale": "Addresses potential underrecognition of a common but serious pediatric nutritional issue",
+      "misinformation_narrative": "Some parents may not recognize iron deficiency as a significant health concern, particularly in picky eaters, despite it being the most common nutrient deficiency worldwide in children",
+      "public_stakes": "Undiagnosed iron deficiency can lead to cognitive development problems and anemia in children",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes parental unawareness rather than active misinformation; parents aren't spreading false beliefs about iron deficiency being unimportant.",
+      "tags": [
+        "Child Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241564960",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "The Global Prevalence of Anaemia in 2011",
+          "description": "WHO report providing global statistics on anemia prevalence, with iron deficiency being the leading cause, including data on children",
+          "relevance": "Provides comprehensive global data on iron deficiency anemia prevalence in children"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5140a1.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Iron Deficiency - United States, 1999–2000",
+          "description": "CDC's MMWR report on iron deficiency prevalence in the US population including children",
+          "relevance": "Provides US-specific data on iron deficiency rates in children"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/health-topics/anaemia",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Micronutrient Deficiencies: Iron Deficiency Anaemia",
+          "description": "WHO fact sheet on iron deficiency anemia including global burden and vulnerable populations",
+          "relevance": "Establishes iron deficiency as a major public health problem affecting children globally"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Iron-Deficiency Anemia",
+          "description": "NIH's comprehensive overview of iron deficiency anemia including epidemiology and at-risk populations",
+          "relevance": "Provides authoritative medical perspective on the scope and seriousness of iron deficiency in children"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Intermittent iron supplementation for reducing anaemia and its associated impairments in adolescent and adult menstruating women",
+          "description": "Cochrane systematic review examining iron deficiency interventions, providing evidence on the global burden",
+          "relevance": "Systematic review evidence on the widespread nature and health impacts of iron deficiency"
+        }
+      ],
+      "discovered_at": "2026-04-07",
+      "last_seen": "2026-04-07",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
