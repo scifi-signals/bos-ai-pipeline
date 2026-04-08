@@ -1,0 +1,48 @@
+{
+  "id": "should_people_avoid_cholesterol_rich",
+  "question": "Should people avoid cholesterol-rich foods to prevent heart disease?",
+  "topic": "Corrects outdated dietary advice that persists despite scientific evidence showing minimal impact of",
+  "tags": [
+    "Nutrition",
+    "Cardiovascular Health",
+    "Dietary Guidelines"
+  ],
+  "sources": [
+    {
+      "name": "Secondhand Smoke Exposure and Cardiovascular Effects: Making Sense of the Evidence",
+      "url": "https://www.nationalacademies.org/publications/12649",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Dietary cholesterol intake has minimal effect on serum cholesterol for most people due to genetic mediation—widely supported",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Red meat is the #1 dietary source of cholesterol—standard nutritional science claim, should verify ranking",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Cholesterol metabolism and lipoprotein structure (LDL, HDL, VLDL, lipoprotein A)",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Atherosclerosis and plaque formation in arteries",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    }
+  ]
+}

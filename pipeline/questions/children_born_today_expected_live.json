@@ -1,0 +1,52 @@
+{
+  "id": "children_born_today_expected_live",
+  "question": "Are children born today expected to live shorter lives than their parents due to modern lifestyle factors?",
+  "topic": "Corrects misinterpretation of demographic trends and clarifies actual evidence on life expectancy tr",
+  "tags": [
+    "Public Health",
+    "Demographics",
+    "Longevity"
+  ],
+  "sources": [
+    {
+      "name": "Life Expectancy in the United States — CDC",
+      "url": "https://www.cdc.gov/nchs/fastats/life-expectancy.htm",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "World Health Statistics 2023: Monitoring Health for the SDGs — WHO",
+      "url": "https://www.who.int/publications/i/item/9789240074323",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Childhood Obesity Facts — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Strategic Plan for NIH Obesity Research — NIH",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: The Best Way to Measure Longevity",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/04/the_best_way_to_measure_longevity_1174462.html",
+      "date": "2026-04-05"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Why Have Longevity Gains Stalled?",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/06/why_have_longevity_gains_stalled_1174698.html",
+      "date": "2026-04-06"
+    }
+  ]
+}

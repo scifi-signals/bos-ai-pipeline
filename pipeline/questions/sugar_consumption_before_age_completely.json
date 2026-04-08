@@ -1,0 +1,27 @@
+{
+  "id": "sugar_consumption_before_age_completely",
+  "question": "Is sugar consumption before age 11 completely forbidden according to health guidelines?",
+  "topic": "Clarifies realistic vs. ideal dietary recommendations and provides practical guidance for families",
+  "tags": [
+    "Pediatric Health",
+    "Nutrition",
+    "Dietary Guidelines"
+  ],
+  "sources": [
+    {
+      "name": "Strategies to Limit Sugar-Sweetened Beverage Consumption in Young Children: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/24897",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Avoiding all added sugars until age 11 is recommended but 'not realistic for many families' - practical vs. ideal recommendations distinction",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

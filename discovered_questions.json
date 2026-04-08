@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-07T12:18:14Z",
+  "generated_at": "2026-04-08T12:16:21Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -1837,6 +1837,45 @@
       "readiness_summary": "2 NASEM sources, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "cigarettes_dangerous_regular_cigarettes",
+      "question": "Are e-cigarettes as dangerous as regular cigarettes?",
+      "priority": "high",
+      "rationale": "Corrects misperceptions about relative harm that prevent evidence-based harm reduction approaches to smoking cessation",
+      "misinformation_narrative": "Public health messaging often equates vaping with smoking, leading people to believe they're equally harmful and preventing smokers from switching to less harmful alternatives",
+      "public_stakes": "Smokers continue using combustible tobacco instead of switching to less harmful alternatives, missing opportunities for harm reduction",
+      "verification_status": "verified",
+      "verification_reason": "Public health campaigns and news coverage frequently emphasize vaping dangers without distinguishing from cigarettes, leading to widespread belief they're equally harmful according to surveys.",
+      "tags": [
+        "Public Health",
+        "Tobacco Control",
+        "Harm Reduction"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Public Health Consequences of E-Cigarettes (2018)",
+          "url": "https://www.nationalacademies.org/publications/24952"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "cigarettes_effective_smoking_cessation_compared",
       "question": "Are e-cigarettes effective for smoking cessation compared to traditional methods?",
       "priority": "high",
@@ -3058,6 +3097,49 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "forced_feeding_practices_help_picky",
+      "question": "Do forced feeding practices help picky children develop better eating habits?",
+      "priority": "medium",
+      "rationale": "Corrects counterproductive feeding practices with evidence-based responsive feeding approaches",
+      "misinformation_narrative": "Parents believe they should force children to eat certain foods or clean their plates to develop healthy eating habits",
+      "public_stakes": "Forced feeding creates negative food relationships, power struggles, and may contribute to eating disorders",
+      "verification_status": "verified",
+      "verification_reason": "\"Clean plate club\" mentality and forced feeding advice circulates among parenting groups on Facebook, mommy blogs, and older generation family members.",
+      "tags": [
+        "Child Development",
+        "Nutrition",
+        "Parenting"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+          "url": "https://www.nationalacademies.org/publications/25747"
+        },
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "should_children_avoid_all_milk",
@@ -4595,6 +4677,80 @@
       "readiness_summary": "2 NASEM sources, most recent 2021 · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "systems_pose_imminent_existential_threat",
+      "question": "Do AI systems pose an imminent existential threat to humanity?",
+      "priority": "medium",
+      "rationale": "Separates science fiction from current AI limitations and redirects attention to evidence-based AI safety concerns",
+      "misinformation_narrative": "Popular media and some tech leaders promote fears of AI apocalypse or superintelligence takeover, creating unrealistic expectations about current AI capabilities",
+      "public_stakes": "Misplaced AI fears distract from real AI risks like bias, privacy, and job displacement while potentially hampering beneficial AI development",
+      "verification_status": "verified",
+      "verification_reason": "AI apocalypse fears circulate widely on Twitter/X, Reddit, and tech forums, amplified by prominent figures and Hollywood depictions creating genuine public anxiety about AI takeover.",
+      "tags": [
+        "Technology",
+        "Artificial Intelligence",
+        "Risk Assessment"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Breakthrough computer chip tech could help meet ‘monumental demand’ driven by AI",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01050-5",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: General scales unlock AI evaluation with explanatory and predictive power",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10303-2",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI used in warfare needs a strong ethical framework",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01008-7",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The hidden costs of ‘helpful’ AI",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00966-2",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: How worried should you be about an AI apocalypse?",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522019-how-worried-should-you-be-about-an-ai-apocalypse/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01100-y",
+          "date": "2026-04-07"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-06",
+      "last_seen": "2026-04-08",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 2,
+      "readiness_summary": "1 NASEM source, most recent 2021 · confirmed misinformation · 2 discovery signals"
+    },
+    {
       "id": "emigrating_mars_viable_backup_plan",
       "question": "Is emigrating to Mars a viable backup plan for humanity?",
       "priority": "medium",
@@ -6067,6 +6223,45 @@
       "readiness_summary": "2 NASEM sources, most recent 2012 — moderately dated · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "should_people_avoid_cholesterol_rich",
+      "question": "Should people avoid cholesterol-rich foods to prevent heart disease?",
+      "priority": "medium",
+      "rationale": "Corrects outdated dietary advice that persists despite scientific evidence showing minimal impact of dietary cholesterol on serum levels",
+      "misinformation_narrative": "Many people still believe dietary cholesterol directly raises blood cholesterol and causes heart disease, leading to unnecessary food restrictions",
+      "public_stakes": "People avoid nutritious foods like eggs unnecessarily while real cardiovascular risk factors go unaddressed",
+      "verification_status": "verified",
+      "verification_reason": "Despite updated guidelines, dietary cholesterol fears persist widely on health forums, fitness communities, and among older adults who avoid eggs and shellfish based on outdated advice.",
+      "tags": [
+        "Nutrition",
+        "Cardiovascular Health",
+        "Dietary Guidelines"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Secondhand Smoke Exposure and Cardiovascular Effects: Making Sense of the Evidence (2010)",
+          "url": "https://www.nationalacademies.org/publications/12649"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Dietary cholesterol intake has minimal effect on serum cholesterol for most people due to genetic mediation—widely supported",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2010,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2010 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "identical_twins_identical_dna_distinguished",
       "question": "Do identical twins have identical DNA that can't be distinguished by testing?",
       "priority": "medium",
@@ -6652,6 +6847,52 @@
       "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 3 discovery signals"
     },
     {
+      "id": "mitochondrial_supplements_therapies_proven_reverse",
+      "question": "Are mitochondrial supplements and therapies proven to reverse aging?",
+      "priority": "low",
+      "rationale": "Corrects premature commercialization of aging research and clarifies current evidence on mitochondrial interventions",
+      "misinformation_narrative": "Marketing claims suggest mitochondrial supplements can reverse aging based on preliminary research, leading to expensive unproven treatments",
+      "public_stakes": "People spend money on unproven anti-aging treatments while neglecting evidence-based healthy aging practices",
+      "verification_status": "verified",
+      "verification_reason": "Anti-aging supplement companies, biohacker communities, and longevity influencers on YouTube and Instagram heavily promote mitochondrial supplements as proven anti-aging solutions.",
+      "tags": [
+        "Aging",
+        "Supplements",
+        "Consumer Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Mitochondrial Therapies for Aging Are Coming",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/06/mitochondrial_therapies_for_aging_are_coming_1174857.html",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: This method to reverse cellular ageing is about to be tested in humans",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01024-7",
+          "date": "2026-04-07"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 2 discovery signals"
+    },
+    {
       "id": "space_exploration_just_expensive_entertainment",
       "question": "Is space exploration just expensive entertainment, or does it provide practical benefits?",
       "priority": "low",
@@ -6755,6 +6996,89 @@
       "readiness_summary": "3 NASEM sources, most recent 2016 — moderately dated · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "climate_change_make_most_tropical",
+      "question": "Will climate change make most tropical regions uninhabitable for humans?",
+      "priority": "low",
+      "rationale": "Corrects extreme interpretations of climate projections with evidence-based assessments of habitability and adaptation",
+      "misinformation_narrative": "Extreme climate projections suggest tropical regions will become uninhabitable due to heat, creating misconceptions about adaptation capabilities",
+      "public_stakes": "Misunderstanding climate impacts leads to poor adaptation planning and unnecessary climate anxiety",
+      "verification_status": "verified",
+      "verification_reason": "Climate anxiety communities on Reddit, Twitter, and environmental blogs regularly share extreme uninhabitable scenarios, creating genuine fear about tropical regions.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science",
+        "Public Health"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Adapting to the Impacts of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12783"
+        },
+        {
+          "name": "Modeling the Health Risks of Climate Change: Workshop Summary (2015)",
+          "url": "https://www.nationalacademies.org/publications/21705"
+        },
+        {
+          "name": "Review of the Draft Interagency Report on the Impacts of Climate Change on Human Health in the United States (2015)",
+          "url": "https://www.nationalacademies.org/publications/21787"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        },
+        {
+          "name": "Monitoring Climate Change Impacts: Metrics at the Intersection of the Human and Earth Systems (2010)",
+          "url": "https://www.nationalacademies.org/publications/12965"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Insects in the tropics are already near their heat limits. Climate change could push many beyond survival",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-insects-tropics-limits-climate-survival.html",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Price of lamb soars by 21% just in time for Easter - as experts say climate change is to blame",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15700775/price-lamb-soars-easter-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: At the National Science Foundation, 'climate change' is disappearing from proposals",
+          "origin": "STM — Government Executive",
+          "url": "https://www.govexec.com/management/2026/03/national-science-foundation-climate-change-disappearing-proposals/412495/",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Longer wildfire seasons pose an increasing threat for species under climate change",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-longer-wildfire-seasons-pose-threat.html",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Coral reef science must adapt for a chance to outpace climate change, say experts",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-coral-reef-science-chance-outpace.html",
+          "date": "2026-04-06"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2015,
+      "signal_count": 3,
+      "readiness_summary": "5 NASEM sources, most recent 2015 — moderately dated · confirmed misinformation · 3 discovery signals"
+    },
+    {
       "id": "asteroids_pose_imminent_threat_earth",
       "question": "Do asteroids pose an imminent threat to Earth that NASA is hiding?",
       "priority": "low",
@@ -6806,6 +7130,63 @@
       "newest_source_year": 2010,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2010 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "fossil_discoveries_constantly_overturning_understanding",
+      "question": "Are fossil discoveries constantly overturning our understanding of evolution?",
+      "priority": "low",
+      "rationale": "Clarifies how new discoveries refine rather than overturn evolutionary understanding and how scientific knowledge builds cumulatively",
+      "misinformation_narrative": "Sensationalized reporting of fossil discoveries suggests evolutionary science is unstable and constantly being 'rewritten'",
+      "public_stakes": "Misunderstanding of how science progresses feeds evolution denial and misconceptions about scientific reliability",
+      "verification_status": "verified",
+      "verification_reason": "Creationists and science skeptics on conservative forums, religious websites, and social media regularly cite new fossil discoveries as evidence that evolution is constantly being \"debunked.\"",
+      "tags": [
+        "Evolution",
+        "Science Communication",
+        "Education"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Science, Evolution, and Creationism (2008)",
+          "url": "https://www.nationalacademies.org/publications/11876"
+        },
+        {
+          "name": "Teaching About Evolution and the Nature of Science (1998)",
+          "url": "https://www.nationalacademies.org/publications/5787"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Pincer movement: fossil pushes origins of chelicerate arthropods back to the Cambrian period",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00807-2",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Surprise fossil discoveries push back the evolution of complex animals",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521980-surprise-fossil-discoveries-push-back-the-evolution-of-complex-animals/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: This tiny claw in a 500-million-year-old fossil just rewrote the origin of spiders",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403002023.htm",
+          "date": "2026-04-05"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2008,
+      "signal_count": 3,
+      "readiness_summary": "2 NASEM sources, most recent 2008 — sources are old · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "easily_captured_turned_into_useful",
@@ -6944,6 +7325,49 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "whole_milk_dairy_products_cause",
+      "question": "Do whole milk and dairy products cause harm to children over age 2?",
+      "priority": "low",
+      "rationale": "Corrects misapplication of adult dietary guidelines to children and clarifies updated pediatric nutrition recommendations",
+      "misinformation_narrative": "Low-fat diet recommendations lead parents to believe whole milk is unhealthy for children after age 2",
+      "public_stakes": "Children may miss out on beneficial fats important for development when families unnecessarily restrict whole milk",
+      "verification_status": "needs_review",
+      "verification_reason": "While some parents follow low-fat guidelines, there isn't widespread active belief that whole milk \"harms\" children; this overstates the position.",
+      "tags": [
+        "Pediatric Health",
+        "Nutrition",
+        "Dietary Guidelines"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "AI for Scientific Discovery: Proceedings of a Workshop (2024)",
+          "url": "https://www.nationalacademies.org/publications/27457"
+        },
+        {
+          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+          "url": "https://www.nationalacademies.org/publications/25747"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "whole_milk_recommended_children_over",
@@ -8746,6 +9170,63 @@
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 5 discovery signals"
     },
     {
+      "id": "quantum_computers_break_all_encryption",
+      "question": "Will quantum computers break all encryption and destroy cybersecurity?",
+      "priority": "low",
+      "rationale": "Corrects timeline misconceptions and clarifies which encryption is vulnerable versus quantum-resistant alternatives",
+      "misinformation_narrative": "Sensationalized headlines claim quantum computers will imminently break all encryption, creating unnecessary panic about cybersecurity collapse",
+      "public_stakes": "Misunderstanding leads to premature expensive security overhauls or conversely, dangerous complacency about real quantum threats",
+      "verification_status": "needs_review",
+      "verification_reason": "While quantum computing gets sensational headlines, there isn't a significant public movement panicking about imminent encryption collapse; this is more media hype than genuine widespread belief.",
+      "tags": [
+        "Technology",
+        "Cybersecurity",
+        "Quantum Science"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Decrypting the Encryption Debate: A Framework for Decision Makers (2018)",
+          "url": "https://www.nationalacademies.org/publications/25010"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01054-1",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The first quantum computer to break encryption is now shockingly close",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521878-the-first-quantum-computer-to-break-encryption-is-now-shockingly-close/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists find quantum computers forget most of their work",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260406045126.htm",
+          "date": "2026-04-07"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 3,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 3 discovery signals"
+    },
+    {
       "id": "quantum_computers_actually_offer_advantages",
       "question": "Do quantum computers actually offer advantages over classical computers for practical problems?",
       "priority": "low",
@@ -8847,6 +9328,45 @@
       "newest_source_year": 2019,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "sugar_consumption_before_age_completely",
+      "question": "Is sugar consumption before age 11 completely forbidden according to health guidelines?",
+      "priority": "low",
+      "rationale": "Clarifies realistic vs. ideal dietary recommendations and provides practical guidance for families",
+      "misinformation_narrative": "Strict sugar avoidance recommendations are interpreted as absolute prohibitions, creating unrealistic expectations for families",
+      "public_stakes": "Families feel guilty about normal childhood sugar consumption while missing focus on overall dietary patterns",
+      "verification_status": "needs_review",
+      "verification_reason": "This appears to be an exaggeration of sugar guidelines rather than a genuine widespread belief in complete prohibition before age 11.",
+      "tags": [
+        "Pediatric Health",
+        "Nutrition",
+        "Dietary Guidelines"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Strategies to Limit Sugar-Sweetened Beverage Consumption in Young Children: Proceedings of a Workshop�in Brief (2018)",
+          "url": "https://www.nationalacademies.org/publications/24897"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Avoiding all added sugars until age 11 is recommended but 'not realistic for many families' - practical vs. ideal recommendations distinction",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "cigarettes_illegal_products",
@@ -11744,6 +12264,185 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "statins_dangerous_medications_cause_harm",
+      "question": "Are statins dangerous medications that cause more harm than good?",
+      "priority": "high",
+      "rationale": "Corrects dangerous statin denialism that overlaps with broader anti-pharmaceutical sentiment, backed by 26+ RCTs showing clear benefit",
+      "misinformation_narrative": "Many people believe statins cause widespread muscle damage, dementia, and other serious side effects, leading them to avoid these medications despite cardiovascular risk",
+      "public_stakes": "Avoidance of statins leads to preventable heart attacks, strokes, and cardiovascular deaths in high-risk patients",
+      "verification_status": "verified",
+      "verification_reason": "Anti-statin communities on Facebook, Reddit forums, and alternative health websites regularly share testimonials about statin side effects, with books like \"The Great Cholesterol Con\" promoting these views.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official safety communication detailing known risks and benefits of statin medications",
+          "relevance": "Provides authoritative assessment of statin safety profile and risk-benefit analysis"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining evidence for statin use in primary prevention of cardiovascular disease",
+          "relevance": "Provides comprehensive meta-analysis of clinical trial evidence on statin benefits and harms"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Clinical practice guidelines for cholesterol management including statin recommendations",
+          "relevance": "Evidence-based guidelines addressing when statins are recommended based on risk-benefit analysis"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Model List of Essential Medicines",
+          "description": "WHO's list of essential medicines including statins for cardiovascular disease prevention",
+          "relevance": "WHO endorsement indicates global health authority assessment of favorable benefit-risk profile"
+        },
+        {
+          "organization": "NIH National Heart, Lung, and Blood Institute",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Managing Blood Cholesterol in Adults: Systematic Evidence Review from the Cholesterol Expert Panel",
+          "description": "Comprehensive evidence review supporting clinical guidelines for cholesterol management",
+          "relevance": "Systematic review of evidence supporting safety and efficacy of statin therapy"
+        }
+      ],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "should_parents_avoid_conventional_produce",
+      "question": "Should parents avoid conventional produce due to pesticide residues?",
+      "priority": "high",
+      "rationale": "Corrects widespread fear-mongering about pesticide residues that reduces healthy food consumption, especially in low-income families",
+      "misinformation_narrative": "The EWG 'Dirty Dozen' list and similar campaigns convince parents that conventional produce is dangerous due to pesticide residues, leading to reduced fruit/vegetable consumption",
+      "public_stakes": "Children miss out on essential nutrition when families avoid affordable conventional produce, while pesticide residues are far below safety thresholds",
+      "verification_status": "verified",
+      "verification_reason": "The EWG's Dirty Dozen list is widely shared on parenting Facebook groups, Instagram wellness accounts, and mom blogs, with studies showing it correlates with reduced produce consumption.",
+      "tags": [
+        "Food Safety",
+        "Public Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residues on Food: What Parents Should Know",
+          "description": "EPA's guidance specifically addressing parent concerns about pesticide residues on food, including conventional produce safety",
+          "relevance": "Directly addresses the question of whether parents should avoid conventional produce due to pesticide concerns"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residue Monitoring Program Annual Reports",
+          "description": "FDA's annual monitoring data showing actual pesticide residue levels found on food products including produce",
+          "relevance": "Provides factual data on pesticide residue levels to inform safety assessments"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Organic Foods: Health and Environmental Advantages and Disadvantages",
+          "description": "AAP clinical report examining evidence on organic vs conventional foods, including pesticide residue considerations for children",
+          "relevance": "Provides pediatric-focused evidence-based guidance on conventional vs organic produce safety"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WHO Guidelines on Pesticide Residues",
+          "description": "WHO's international standards and guidance on acceptable pesticide residue levels in food",
+          "relevance": "Provides international health authority perspective on safe pesticide residue levels"
+        },
+        {
+          "organization": "USDA Economic Research Service",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.usda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Organic Foods: What Survey Data Tell Us About Price Premiums and Potential Benefits",
+          "description": "USDA analysis of evidence regarding organic vs conventional food benefits including pesticide considerations",
+          "relevance": "Provides government assessment of evidence comparing organic and conventional produce safety"
+        }
+      ],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "organic_foods_significantly_safer_pesticide",
       "question": "Are organic foods significantly safer from pesticide exposure than conventional foods?",
       "priority": "high",
@@ -14245,68 +14944,6 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
-      "id": "systems_pose_imminent_existential_threat",
-      "question": "Do AI systems pose an imminent existential threat to humanity?",
-      "priority": "medium",
-      "rationale": "Addresses widespread AI apocalypse fears that may be disproportionate to actual near-term risks and capabilities.",
-      "misinformation_narrative": "Many people believe AI will soon pose an apocalyptic threat to human civilization, when current AI limitations and ongoing safety research suggest more nuanced risks that require measured responses rather than panic.",
-      "public_stakes": "Public fear may lead to overly restrictive AI policies that hinder beneficial applications, while distracting from more immediate AI risks like bias and misinformation.",
-      "verification_status": "verified",
-      "verification_reason": "AI apocalypse fears are widespread on social media, tech forums, and mainstream media coverage, often citing concerns about superintelligence and job displacement.",
-      "tags": [
-        "Technology",
-        "Artificial Intelligence",
-        "Public Policy"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Artificial Intelligence: Breakthrough computer chip tech could help meet ‘monumental demand’ driven by AI",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-01050-5",
-          "date": "2026-04-03"
-        },
-        {
-          "type": "trending_article",
-          "text": "Artificial Intelligence: General scales unlock AI evaluation with explanatory and predictive power",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10303-2",
-          "date": "2026-04-03"
-        },
-        {
-          "type": "trending_article",
-          "text": "Artificial Intelligence: AI used in warfare needs a strong ethical framework",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-01008-7",
-          "date": "2026-04-03"
-        },
-        {
-          "type": "trending_article",
-          "text": "Artificial Intelligence: The hidden costs of ‘helpful’ AI",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-00966-2",
-          "date": "2026-04-03"
-        },
-        {
-          "type": "trending_article",
-          "text": "Artificial Intelligence: How worried should you be about an AI apocalypse?",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2522019-how-worried-should-you-be-about-an-ai-apocalypse/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-04-03"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-06",
-      "last_seen": "2026-04-06",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 2,
-      "readiness_summary": "No NASEM coverage and no alternative sources found"
-    },
-    {
       "id": "powered_educational_tools_replace_human",
       "question": "Can AI-powered educational tools replace human teachers effectively?",
       "priority": "medium",
@@ -14352,6 +14989,259 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "organic_pesticides_safer_environmentally_friendly",
+      "question": "Are organic pesticides safer and more environmentally friendly than conventional ones?",
+      "priority": "medium",
+      "rationale": "Corrects the naturalistic fallacy in pesticide perception and provides evidence-based comparison of pesticide safety profiles",
+      "misinformation_narrative": "Consumers believe 'organic' pesticides are inherently safer and better for the environment than synthetic alternatives",
+      "public_stakes": "Overpaying for organic products based on false safety assumptions while some organic pesticides may require higher application rates with greater environmental impact",
+      "verification_status": "verified",
+      "verification_reason": "Organic food marketing and wellness influencers on Instagram, Pinterest, and health blogs consistently promote the belief that organic pesticides are inherently safer than synthetic ones.",
+      "tags": [
+        "Food Safety",
+        "Environmental Science",
+        "Agriculture"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides: Regulating Pesticides",
+          "description": "EPA's comprehensive overview of biopesticides (including organic pesticides) regulation, safety assessment, and environmental considerations compared to conventional pesticides",
+          "relevance": "Provides regulatory framework and safety comparison between organic and conventional pesticides"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240005662",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "The WHO Recommended Classification of Pesticides by Hazard",
+          "description": "WHO's classification system that categorizes both organic and synthetic pesticides by acute toxicity hazard levels",
+          "relevance": "Provides standardized toxicity classifications that include both organic and conventional pesticides for comparison"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/overview-risk-assessment-pesticide-program",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticides: Health and Environmental Effects",
+          "description": "EPA's risk assessment methodology and findings for pesticide environmental and health impacts, covering both conventional and organic pesticides",
+          "relevance": "Details EPA's scientific approach to evaluating comparative risks of different pesticide types"
+        },
+        {
+          "organization": "NIH/National Institute of Environmental Health Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides",
+          "description": "NIEHS overview of pesticide health effects and research findings, including studies on organic vs conventional pesticide safety",
+          "relevance": "Provides health-focused scientific evidence on pesticide safety comparisons"
+        },
+        {
+          "organization": "USDA Economic Research Service",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.ers.usda.gov/topics/natural-resources-environment/organic-agriculture",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Organic Agriculture: Organic Market Overview",
+          "description": "USDA analysis of organic farming practices including pesticide use patterns and environmental impacts compared to conventional methods",
+          "relevance": "Provides agricultural and environmental impact data comparing organic and conventional pesticide use"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/pesticides/biopesticides",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "What are Biopesticides?",
+          "description": "EPA's comprehensive overview of biopesticides including safety profiles and environmental impacts compared to conventional pesticides",
+          "relevance": "Directly addresses safety and environmental considerations of biological vs conventional pesticides"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food - Joint FAO/WHO Meeting on Pesticide Residues (JMPR)",
+          "description": "WHO's scientific evaluations of pesticide safety including natural and synthetic compounds used in agriculture",
+          "relevance": "International health authority assessment of comparative pesticide risks and safety standards"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Food Safety",
+          "description": "CDC's fact sheet on pesticide safety in food systems including organic vs conventional practices",
+          "relevance": "Public health perspective on comparative safety of different pesticide approaches"
+        },
+        {
+          "organization": "NIH/National Institute of Environmental Health Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niehs.nih.gov/health/topics/agents/pesticides",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticides",
+          "description": "NIEHS research summary on health effects of pesticide exposure including studies comparing organic and conventional pesticides",
+          "relevance": "Scientific research compilation on health impacts of different pesticide types and exposure routes"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food",
+          "description": "WHO fact sheet on pesticide safety standards and risk assessment principles that apply to both organic and conventional pesticides",
+          "relevance": "International health perspective on pesticide safety evaluation methods applicable to both pesticide types"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Food: What You Should Know",
+          "description": "FDA's consumer guide addressing pesticide safety in food, including organic foods and pesticide alternatives",
+          "relevance": "Regulatory agency perspective on comparative safety of different pesticide approaches in food production"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-08",
+      "times_seen": 3,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 11 alternative sources identified"
+    },
+    {
+      "id": "children_born_today_expected_live",
+      "question": "Are children born today expected to live shorter lives than their parents due to modern lifestyle factors?",
+      "priority": "medium",
+      "rationale": "Corrects misinterpretation of demographic trends and clarifies actual evidence on life expectancy trajectories",
+      "misinformation_narrative": "Media reports claim current generation will have shorter lifespans than parents due to obesity, pollution, and lifestyle factors",
+      "public_stakes": "Unnecessary pessimism about health outcomes while missing evidence-based interventions that continue improving longevity",
+      "verification_status": "verified",
+      "verification_reason": "This claim appeared in major news outlets and continues circulating on social media and health blogs, creating genuine parental anxiety despite questionable evidence.",
+      "tags": [
+        "Public Health",
+        "Demographics",
+        "Longevity"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: The Best Way to Measure Longevity",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/04/the_best_way_to_measure_longevity_1174462.html",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Why Have Longevity Gains Stalled?",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/06/why_have_longevity_gains_stalled_1174698.html",
+          "date": "2026-04-06"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/nchs/fastats/life-expectancy.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Life Expectancy in the United States",
+          "description": "CDC's National Center for Health Statistics data on current life expectancy trends and historical comparisons",
+          "relevance": "Provides official US data on whether life expectancy is actually declining for younger generations"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240074323",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "World Health Statistics 2023: Monitoring Health for the SDGs",
+          "description": "WHO's annual report on global health statistics including life expectancy trends by age cohort",
+          "relevance": "Contains international data on life expectancy trends and projections for current generations"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Childhood Obesity Facts",
+          "description": "CDC data on childhood obesity trends and health impacts",
+          "relevance": "Addresses one of the key lifestyle factors potentially affecting children's long-term health outcomes"
+        },
+        {
+          "organization": "NIH",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Strategic Plan for NIH Obesity Research",
+          "description": "NIH assessment of obesity's impact on health outcomes and life expectancy",
+          "relevance": "Provides evidence on how modern lifestyle factors like obesity may impact lifespan"
+        },
+        {
+          "organization": "OECD",
+          "organization_full": "OECD",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Health at a Glance 2023",
+          "description": "OECD's comprehensive analysis of health trends including life expectancy projections across developed nations",
+          "relevance": "International perspective on life expectancy trends and factors affecting future generations' health outcomes"
+        }
+      ],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "taking_statins_benefit_elderly_patients",
@@ -14530,140 +15420,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "organic_pesticides_safer_environmentally_friendly",
-      "question": "Are organic pesticides safer and more environmentally friendly than conventional pesticides?",
-      "priority": "medium",
-      "rationale": "Challenges the widespread assumption that 'organic' automatically means 'safer' or 'more environmentally friendly' for pesticides.",
-      "misinformation_narrative": "Many consumers believe organic pesticides are inherently safer and more environmentally friendly than conventional ones, when some organic pesticides can require higher application rates and have greater environmental impact than conventional alternatives.",
-      "public_stakes": "Consumers make purchasing decisions based on incorrect assumptions about relative environmental and health impacts, potentially supporting less sustainable practices.",
-      "verification_status": "verified",
-      "verification_reason": "\"Organic = safer\" is a dominant consumer belief promoted heavily in natural health communities, organic marketing, and wellness social media.",
-      "tags": [
-        "Environment",
-        "Food Safety",
-        "Agriculture"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticides: Regulating Pesticides",
-          "description": "EPA's comprehensive overview of biopesticides (including organic pesticides) regulation, safety assessment, and environmental considerations compared to conventional pesticides",
-          "relevance": "Provides regulatory framework and safety comparison between organic and conventional pesticides"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/9789240005662",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "The WHO Recommended Classification of Pesticides by Hazard",
-          "description": "WHO's classification system that categorizes both organic and synthetic pesticides by acute toxicity hazard levels",
-          "relevance": "Provides standardized toxicity classifications that include both organic and conventional pesticides for comparison"
-        },
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/overview-risk-assessment-pesticide-program",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Pesticides: Health and Environmental Effects",
-          "description": "EPA's risk assessment methodology and findings for pesticide environmental and health impacts, covering both conventional and organic pesticides",
-          "relevance": "Details EPA's scientific approach to evaluating comparative risks of different pesticide types"
-        },
-        {
-          "organization": "NIH/National Institute of Environmental Health Sciences",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticides",
-          "description": "NIEHS overview of pesticide health effects and research findings, including studies on organic vs conventional pesticide safety",
-          "relevance": "Provides health-focused scientific evidence on pesticide safety comparisons"
-        },
-        {
-          "organization": "USDA Economic Research Service",
-          "organization_full": "U.S. Department of Agriculture",
-          "base_url": "https://www.usda.gov",
-          "url": "https://www.ers.usda.gov/topics/natural-resources-environment/organic-agriculture",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Organic Agriculture: Organic Market Overview",
-          "description": "USDA analysis of organic farming practices including pesticide use patterns and environmental impacts compared to conventional methods",
-          "relevance": "Provides agricultural and environmental impact data comparing organic and conventional pesticide use"
-        },
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov/pesticides/biopesticides",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "What are Biopesticides?",
-          "description": "EPA's comprehensive overview of biopesticides including safety profiles and environmental impacts compared to conventional pesticides",
-          "relevance": "Directly addresses safety and environmental considerations of biological vs conventional pesticides"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticide Residues in Food - Joint FAO/WHO Meeting on Pesticide Residues (JMPR)",
-          "description": "WHO's scientific evaluations of pesticide safety including natural and synthetic compounds used in agriculture",
-          "relevance": "International health authority assessment of comparative pesticide risks and safety standards"
-        },
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticides and Food Safety",
-          "description": "CDC's fact sheet on pesticide safety in food systems including organic vs conventional practices",
-          "relevance": "Public health perspective on comparative safety of different pesticide approaches"
-        },
-        {
-          "organization": "NIH/National Institute of Environmental Health Sciences",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.niehs.nih.gov/health/topics/agents/pesticides",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Pesticides",
-          "description": "NIEHS research summary on health effects of pesticide exposure including studies comparing organic and conventional pesticides",
-          "relevance": "Scientific research compilation on health impacts of different pesticide types and exposure routes"
-        }
-      ],
-      "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-06",
-      "times_seen": 2,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 9 alternative sources identified"
     },
     {
       "id": "lupus_still_impossible_treat_effectively",
@@ -19213,6 +19969,96 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "iron_deficiency_rare_developed_countries",
+      "question": "Is iron deficiency rare in developed countries like the United States?",
+      "priority": "low",
+      "rationale": "Corrects misconception about nutritional adequacy in developed nations and highlights most common pediatric deficiency",
+      "misinformation_narrative": "People assume nutritional deficiencies are uncommon in wealthy countries, leading to underrecognition of iron deficiency in children",
+      "public_stakes": "Undiagnosed iron deficiency affects cognitive development and school performance in children",
+      "verification_status": "needs_review",
+      "verification_reason": "This frames ignorance as active misinformation; people generally don't believe iron deficiency is rare, they simply aren't thinking about it.",
+      "tags": [
+        "Public Health",
+        "Pediatric Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5140a1.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Iron Deficiency - United States, 1999-2000",
+          "description": "MMWR report providing prevalence data on iron deficiency in the US population based on NHANES data",
+          "relevance": "Provides specific prevalence statistics for iron deficiency in the United States"
+        },
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Iron-Deficiency Anemia",
+          "description": "NIH fact sheet on iron deficiency anemia including prevalence information",
+          "relevance": "Authoritative source on iron deficiency prevalence and at-risk populations in developed countries"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241564960",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "The Global Prevalence of Anaemia in 2011",
+          "description": "WHO report providing global and regional prevalence estimates of anemia, including iron deficiency anemia",
+          "relevance": "Provides comparative data on iron deficiency rates between developed and developing countries"
+        },
+        {
+          "organization": "American Society of Hematology",
+          "organization_full": "American Society of Hematology",
+          "base_url": "",
+          "url": "https://www.hematology.org/education/patients/anemia/iron-deficiency",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Iron-Deficiency Anemia",
+          "description": "Professional medical organization's patient education resource on iron deficiency prevalence and risk factors",
+          "relevance": "Clinical perspective on iron deficiency frequency in developed countries"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Daily iron supplementation for improving anaemia, iron status and health in menstruating women",
+          "description": "Systematic review that includes background data on iron deficiency prevalence in developed countries",
+          "relevance": "Evidence-based review that contextualizes iron deficiency rates in developed versus developing nations"
+        }
+      ],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-08",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {

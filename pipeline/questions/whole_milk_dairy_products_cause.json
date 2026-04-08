@@ -1,0 +1,33 @@
+{
+  "id": "whole_milk_dairy_products_cause",
+  "question": "Do whole milk and dairy products cause harm to children over age 2?",
+  "topic": "Corrects misapplication of adult dietary guidelines to children and clarifies updated pediatric nutr",
+  "tags": [
+    "Pediatric Health",
+    "Nutrition",
+    "Dietary Guidelines"
+  ],
+  "sources": [
+    {
+      "name": "AI for Scientific Discovery: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/27457",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance",
+      "url": "https://www.nationalacademies.org/publications/25747",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

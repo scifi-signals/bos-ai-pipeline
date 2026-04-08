@@ -1,0 +1,47 @@
+{
+  "id": "fossil_discoveries_constantly_overturning_understanding",
+  "question": "Are fossil discoveries constantly overturning our understanding of evolution?",
+  "topic": "Clarifies how new discoveries refine rather than overturn evolutionary understanding and how scienti",
+  "tags": [
+    "Evolution",
+    "Science Communication",
+    "Education"
+  ],
+  "sources": [
+    {
+      "name": "Science, Evolution, and Creationism",
+      "url": "https://www.nationalacademies.org/publications/11876",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Teaching About Evolution and the Nature of Science",
+      "url": "https://www.nationalacademies.org/publications/5787",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Pincer movement: fossil pushes origins of chelicerate arthropods back to the Cambrian period",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00807-2",
+      "date": "2026-04-05"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Surprise fossil discoveries push back the evolution of complex animals",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521980-surprise-fossil-discoveries-push-back-the-evolution-of-complex-animals/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-05"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: This tiny claw in a 500-million-year-old fossil just rewrote the origin of spiders",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260403002023.htm",
+      "date": "2026-04-05"
+    }
+  ]
+}
