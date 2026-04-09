@@ -1,0 +1,88 @@
+{
+  "id": "dna_genetic_testing_trusted_medical",
+  "question": "Can DNA and genetic testing be trusted for medical decisions?",
+  "topic": "Addresses fears about genetic testing that prevent beneficial medical applications",
+  "tags": [
+    "Health and Medicine",
+    "Genetics"
+  ],
+  "sources": [
+    {
+      "name": "Direct-to-Consumer Genetic Testing: Summary of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/13021",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Realizing the Potential of Genomics across the Continuum of Precision Health Care: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/26917",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: DNA damage burden causes selective CUX2 neuron loss in neuroinflammation",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10310-3",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: The 1000 Chinese Pangenome empowers medical and population genetics",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10315-y",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Gene regulatory landscape dissected by single-cell four-omics sequencing",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10322-z",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Expansion of outer cortical CUX2 neurons requires adaptations for DNA repair",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10290-4",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Scientists create “smart” DNA drug that targets cancer cells with extreme precision",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260402042744.htm",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: This “master gene” may be driving pancreatic cancer’s spread",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260406192919.htm",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: A gene mutation may trap the brain in the wrong reality in schizophrenia patients",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260402042740.htm",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: DNA damage drives antigen diversification in <i>Trypanosoma brucei</i>",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10337-6",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Hidden human–virus interactions uncovered in DNA in blood and saliva",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01032-7",
+      "date": "2026-04-08"
+    }
+  ]
+}

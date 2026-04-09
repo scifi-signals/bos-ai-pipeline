@@ -1,0 +1,94 @@
+{
+  "id": "evolution_fossil_discoveries_frequently_overturn",
+  "question": "Do evolution and fossil discoveries frequently overturn previous scientific understanding?",
+  "topic": "Corrects misunderstanding of how new discoveries refine rather than overturn evolutionary theory",
+  "tags": [
+    "Science Education",
+    "Evolution"
+  ],
+  "sources": [
+    {
+      "name": "Science, Evolution, and Creationism",
+      "url": "https://www.nationalacademies.org/publications/11876",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Teaching About Evolution and the Nature of Science",
+      "url": "https://www.nationalacademies.org/publications/5787",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Reproducibility and Replicability in Science",
+      "url": "https://www.nationalacademies.org/publications/25303",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Angle evolution of the superconducting phase diagram in twisted bilayer WSe<sub>2</sub>",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10357-2",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Evolution of pandemic cholera at its global source",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10340-x",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Pincer movement: fossil pushes origins of chelicerate arthropods back to the Cambrian period",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00807-2",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Surprise fossil discoveries push back the evolution of complex animals",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521980-surprise-fossil-discoveries-push-back-the-evolution-of-complex-animals/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: This tiny claw in a 500-million-year-old fossil just rewrote the origin of spiders",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260403002023.htm",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: How DNA forensics is transforming studies of ancient manuscripts",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01029-2",
+      "date": "2026-04-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Relics of an ancient sandstorm on Mars point to Earth-like winds",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/relics-ancient-sandstorm-mars-point-earth-winds",
+      "date": "2026-04-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Strange “elephant skin” rocks reveal ancient life in the dark ocean",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260402042807.htm",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Mummified early Permian reptile reveals ancient amniote breathing apparatus",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10307-y",
+      "date": "2026-04-08"
+    }
+  ]
+}

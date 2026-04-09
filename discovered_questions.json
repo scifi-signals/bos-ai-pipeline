@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T12:16:21Z",
+  "generated_at": "2026-04-09T12:17:40Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -991,6 +991,113 @@
       "readiness_summary": "8 NASEM sources, most recent 2020 · confirmed misinformation · 4 discovery signals"
     },
     {
+      "id": "climate_change_just_natural_variability",
+      "question": "Is climate change just natural variability that humans can't definitively separate from natural causes?",
+      "priority": "high",
+      "rationale": "Directly addresses a core climate denial argument with attribution science evidence",
+      "misinformation_narrative": "Climate skeptics claim current warming is within natural variation and human causation cannot be proven, undermining climate action",
+      "public_stakes": "Public and policy inaction on climate change mitigation and adaptation measures",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptic communities on YouTube, conservative media, and forums like WattsUpWithThat regularly claim current warming is natural variation.",
+      "tags": [
+        "Environment",
+        "Climate Science"
+      ],
+      "nasem_source_count": 6,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Attribution of Extreme Weather Events in the Context of Climate Change (2016)",
+          "url": "https://www.nationalacademies.org/publications/21852"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        },
+        {
+          "name": "Climate Change: Evidence, Impacts, and Choices: PDF Booklet (2012)",
+          "url": "https://www.nationalacademies.org/publications/14673"
+        },
+        {
+          "name": "Informing an Effective Response to Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12784"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Longer wildfire seasons pose an increasing threat for species under climate change",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-longer-wildfire-seasons-pose-threat.html",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Coral reef science must adapt for a chance to outpace climate change, say experts",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-03-coral-reef-science-chance-outpace.html",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Price of lamb soars by 21% just in time for Easter - as experts say climate change is to blame",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15700775/price-lamb-soars-easter-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: ‘Net zero’ isn’t madness: the staggering economic costs of climate change",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01020-x",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate change may speed evolution through inherited gene regulation changes",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-climate-evolution-inherited-gene.html",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate change does not polarize opinions: 'In fact, we are increasingly in agreement'",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-climate-polarize-opinions-fact-agreement.html",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate Change Clearly Distinct From Natural Variability",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/08/climate_change_clearly_distinct_from_natural_variability_1175324.html",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Water conservation works, but climate change is outpacing it: Phoenix, Denver and Las Vegas offer a glimpse of the future",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/water-conservation-works-but-climate-change-is-outpacing-it-phoenix-denver-and-las-vegas-offer-a-glimpse-of-the-future-279837",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 5,
+      "readiness_summary": "6 NASEM sources, most recent 2020 · confirmed misinformation · 5 discovery signals"
+    },
+    {
       "id": "climate_change_caused_natural_cycles",
       "question": "Is climate change caused by natural cycles rather than human activities?",
       "priority": "high",
@@ -1707,6 +1814,90 @@
       "newest_source_year": 2019,
       "signal_count": 4,
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
+    },
+    {
+      "id": "quantum_computers_break_all_encryption",
+      "question": "Will quantum computers break all encryption and cybersecurity within the next few years?",
+      "priority": "high",
+      "rationale": "Corrects timeline misconceptions about quantum computing threats to encryption",
+      "misinformation_narrative": "Media reports create panic that quantum computers will imminently destroy all digital security, leading to premature and costly security overhauls",
+      "public_stakes": "Organizations may waste resources on unnecessary immediate fixes or conversely ignore real long-term quantum threats",
+      "verification_status": "verified",
+      "verification_reason": "Tech media and cybersecurity vendors regularly hype \"Y2Q\" (Years to Quantum) threats, creating enterprise panic about imminent cryptographic collapse.",
+      "tags": [
+        "Technology",
+        "Cybersecurity"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Implications of Artificial Intelligence for Cybersecurity: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25488"
+        },
+        {
+          "name": "Decrypting the Encryption Debate: A Framework for Decision Makers (2018)",
+          "url": "https://www.nationalacademies.org/publications/25010"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01054-1",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The first quantum computer to break encryption is now shockingly close",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521878-the-first-quantum-computer-to-break-encryption-is-now-shockingly-close/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists find quantum computers forget most of their work",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260406045126.htm",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Daily briefing: Quantum computers could crack cybersecurity systems before 2030",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01114-6",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Protected quantum gates using qubit doublons in dynamical optical lattices",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10285-1",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: High-fidelity collisional quantum gates with fermionic atoms",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10356-3",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers keep losing data. This breakthrough finally tracks it",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407193857.htm",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-09",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 3,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "cigarettes_effective_safer_way_quit",
@@ -3005,6 +3196,104 @@
       "newest_source_year": 2025,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2025 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "systems_pose_imminent_existential_threat",
+      "question": "Do AI systems pose an imminent existential threat to humanity?",
+      "priority": "medium",
+      "rationale": "Corrects both doomsday hype and dismissive attitudes with evidence-based risk assessment",
+      "misinformation_narrative": "AI apocalypse narratives create either excessive panic or dismissive attitudes, preventing rational assessment of actual AI risks and benefits",
+      "public_stakes": "Poor public understanding leads to either paralysis in AI development or inadequate safety precautions",
+      "verification_status": "verified",
+      "verification_reason": "AI existential risk debates dominate Twitter, tech forums, and media coverage, creating polarized camps of doomers versus dismissive skeptics.",
+      "tags": [
+        "Technology",
+        "Artificial Intelligence"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Artificial Intelligence and the Future of Work (2024)",
+          "url": "https://www.nationalacademies.org/publications/27644"
+        },
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Breakthrough computer chip tech could help meet ‘monumental demand’ driven by AI",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01050-5",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: General scales unlock AI evaluation with explanatory and predictive power",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10303-2",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI used in warfare needs a strong ethical framework",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01008-7",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: The hidden costs of ‘helpful’ AI",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00966-2",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: How worried should you be about an AI apocalypse?",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522019-how-worried-should-you-be-about-an-ai-apocalypse/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01100-y",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI and the human mind: only one is a black box",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01094-7",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Department of Energy’s AI push squeezes funding for research grants",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/department-energy-s-ai-push-squeezes-funding-research-grants",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Multiomics and deep learning dissect regulatory syntax in human development",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10326-9",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-06",
+      "last_seen": "2026-04-09",
+      "times_seen": 3,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 3,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "artificial_intelligence_systems_actually_threaten",
@@ -4588,6 +4877,86 @@
       "readiness_summary": "2 NASEM sources, most recent 2022 · confirmed misinformation · 6 discovery signals"
     },
     {
+      "id": "biodiversity_loss_exaggerated_ecosystems_naturally",
+      "question": "Is biodiversity loss exaggerated and ecosystems naturally resilient to human impacts?",
+      "priority": "medium",
+      "rationale": "Addresses misconceptions about ecosystem resilience with conservation biology evidence",
+      "misinformation_narrative": "Claims that ecosystems naturally recover and biodiversity concerns are overblown, undermining conservation efforts",
+      "public_stakes": "Reduced support for conservation policies and continued destructive practices affecting ecosystems",
+      "verification_status": "verified",
+      "verification_reason": "Conservative media, skeptic blogs, and some industry groups regularly downplay biodiversity loss and emphasize ecosystem resilience.",
+      "tags": [
+        "Environment",
+        "Conservation Biology"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Biodiversity at Risk: Today's Choices Matter (2022)",
+          "url": "https://www.nationalacademies.org/publications/26384"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: How squid survived Earth’s biggest extinction and took over the oceans",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260331001100.htm",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Longer wildfire seasons pose an increasing threat for species under climate change",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-longer-wildfire-seasons-pose-threat.html",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Satellite mirror plans could disrupt sleep and ecosystems worldwide, scientists say",
+          "origin": "STM — The Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/apr/05/satellite-mirror-plans-could-disrupt-sleep-and-ecosystems-worldwide-scientists-say",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Rich biodiversity found in Japan's deepest ocean trenches, including an unidentified 'mystery' species",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-rich-biodiversity-japan-deepest-ocean.html",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Biodiversity resilience in a tropical rainforest",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10365-2",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Young tropical forests help to reverse biodiversity losses",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00811-6",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Global trade in wild birds is poorly monitored: The risks to wildlife, ecosystems and human health",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-global-wild-birds-poorly-wildlife.html",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2022,
+      "signal_count": 4,
+      "readiness_summary": "1 NASEM source, most recent 2022 · confirmed misinformation · 4 discovery signals"
+    },
+    {
       "id": "forever_chemicals_pfas_significant_environmental",
       "question": "Are 'forever chemicals' (PFAS) a significant environmental and health concern?",
       "priority": "medium",
@@ -4675,80 +5044,6 @@
       "newest_source_year": 2021,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2021 · confirmed misinformation · 1 discovery signal"
-    },
-    {
-      "id": "systems_pose_imminent_existential_threat",
-      "question": "Do AI systems pose an imminent existential threat to humanity?",
-      "priority": "medium",
-      "rationale": "Separates science fiction from current AI limitations and redirects attention to evidence-based AI safety concerns",
-      "misinformation_narrative": "Popular media and some tech leaders promote fears of AI apocalypse or superintelligence takeover, creating unrealistic expectations about current AI capabilities",
-      "public_stakes": "Misplaced AI fears distract from real AI risks like bias, privacy, and job displacement while potentially hampering beneficial AI development",
-      "verification_status": "verified",
-      "verification_reason": "AI apocalypse fears circulate widely on Twitter/X, Reddit, and tech forums, amplified by prominent figures and Hollywood depictions creating genuine public anxiety about AI takeover.",
-      "tags": [
-        "Technology",
-        "Artificial Intelligence",
-        "Risk Assessment"
-      ],
-      "nasem_source_count": 1,
-      "nasem_sources_preview": [
-        {
-          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
-          "url": "https://www.nationalacademies.org/publications/26355"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Artificial Intelligence: Breakthrough computer chip tech could help meet ‘monumental demand’ driven by AI",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-01050-5",
-          "date": "2026-04-03"
-        },
-        {
-          "type": "trending_article",
-          "text": "Artificial Intelligence: General scales unlock AI evaluation with explanatory and predictive power",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10303-2",
-          "date": "2026-04-03"
-        },
-        {
-          "type": "trending_article",
-          "text": "Artificial Intelligence: AI used in warfare needs a strong ethical framework",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-01008-7",
-          "date": "2026-04-03"
-        },
-        {
-          "type": "trending_article",
-          "text": "Artificial Intelligence: The hidden costs of ‘helpful’ AI",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-00966-2",
-          "date": "2026-04-03"
-        },
-        {
-          "type": "trending_article",
-          "text": "Artificial Intelligence: How worried should you be about an AI apocalypse?",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2522019-how-worried-should-you-be-about-an-ai-apocalypse/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-04-03"
-        },
-        {
-          "type": "trending_article",
-          "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-01100-y",
-          "date": "2026-04-07"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-06",
-      "last_seen": "2026-04-08",
-      "times_seen": 2,
-      "status": "pending",
-      "newest_source_year": 2021,
-      "signal_count": 2,
-      "readiness_summary": "1 NASEM source, most recent 2021 · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "emigrating_mars_viable_backup_plan",
@@ -5961,6 +6256,62 @@
       "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 3 discovery signals"
     },
     {
+      "id": "weight_loss_drugs_like_ozempic",
+      "question": "Are weight-loss drugs like Ozempic just dangerous quick fixes that don't work long-term?",
+      "priority": "medium",
+      "rationale": "Corrects misconceptions about newer diabetes/obesity medications with clinical evidence",
+      "misinformation_narrative": "Social media portrays GLP-1 drugs as risky shortcuts with severe side effects, discouraging potentially beneficial medical treatment",
+      "public_stakes": "Patients with obesity and diabetes may avoid treatments that could significantly improve health outcomes",
+      "verification_status": "verified",
+      "verification_reason": "TikTok, Instagram, and weight loss forums feature extensive criticism of Ozempic as dangerous shortcuts with horror stories about side effects.",
+      "tags": [
+        "Health and Medicine",
+        "Endocrinology"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/24855"
+        },
+        {
+          "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop�in Brief (None)",
+          "url": "https://www.nationalacademies.org/publications/24830"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genetic predictors of GLP1 receptor agonist weight loss and side effects",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10330-z",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genetics reveal why people respond differently to GLP-1 weight-loss drugs",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00905-1",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Why obesity drugs work better for some people: these genes hold clues",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01107-5",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "antarctica_ice_loss_actually_accelerating",
       "question": "Is Antarctica's ice loss actually accelerating toward collapse?",
       "priority": "medium",
@@ -6687,6 +7038,120 @@
       "readiness_summary": "1 NASEM source, most recent 0 — sources are old · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "space_programs_just_expensive_vanity",
+      "question": "Are space programs just expensive vanity projects with no real benefits?",
+      "priority": "low",
+      "rationale": "Corrects misconceptions about space program value with evidence of practical benefits",
+      "misinformation_narrative": "Public criticism portrays space exploration as wasteful spending while ignoring scientific and technological benefits",
+      "public_stakes": "Reduced public support could limit space-based climate monitoring, GPS systems, and scientific research",
+      "verification_status": "verified",
+      "verification_reason": "Space program criticism is common on Twitter, Reddit, and political forums whenever NASA or SpaceX budgets are discussed during social crises.",
+      "tags": [
+        "Science Policy",
+        "Space Science"
+      ],
+      "nasem_source_count": 6,
+      "nasem_sources_preview": [
+        {
+          "name": "Space Nuclear Propulsion for Human Mars Exploration (2021)",
+          "url": "https://www.nationalacademies.org/publications/25977"
+        },
+        {
+          "name": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space (2025)",
+          "url": "https://www.nationalacademies.org/publications/27938"
+        },
+        {
+          "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26522"
+        },
+        {
+          "name": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032 (2023)",
+          "url": "https://www.nationalacademies.org/publications/26750"
+        },
+        {
+          "name": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space (2016)",
+          "url": "https://www.nationalacademies.org/publications/13354"
+        },
+        {
+          "name": "NASA Space Technology Roadmaps and Priorities Revisited (2016)",
+          "url": "https://www.nationalacademies.org/publications/23582"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Artemis II astronauts fly by the Moon today: follow along with <i>Nature</i> live",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00989-9",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: What Artemis II’s astronauts will look for on the Moon’s far side",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01103-9",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Artemis II is go: humans head to the Moon after half-century absence",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01060-3",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: The Moon belongs to all of us — not just countries that can afford to reach it",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01051-4",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: China is planning to land people on the Moon — and might beat the United States to it",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01059-w",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: First photos from Artemis II: see stunning 'Earthset' and more",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01118-2",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Daily briefing: The Artemis II special",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01125-3",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Satellite imagery reveals increasing volatility in human night-time activity",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10260-w",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Artemis II relied on European science: what that means for the region’s space ambitions",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01013-w",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 1,
+      "readiness_summary": "6 NASEM sources, most recent 2025 · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "alone_universe_evidence_extraterrestrial_life",
       "question": "Are we alone in the universe, or is there evidence of extraterrestrial life?",
       "priority": "low",
@@ -6795,6 +7260,104 @@
       "readiness_summary": "6 NASEM sources, most recent 2023 · confirmed misinformation · 4 discovery signals"
     },
     {
+      "id": "dna_genetic_testing_trusted_medical",
+      "question": "Can DNA and genetic testing be trusted for medical decisions?",
+      "priority": "low",
+      "rationale": "Addresses fears about genetic testing that prevent beneficial medical applications",
+      "misinformation_narrative": "Skepticism about genetic testing accuracy and privacy creates resistance to beneficial genetic screening and personalized medicine",
+      "public_stakes": "Patients may miss opportunities for early disease detection or personalized treatments based on genetic profiles",
+      "verification_status": "verified",
+      "verification_reason": "Privacy concerns about 23andMe, AncestryDNA data breaches, and medical genetic testing create widespread public skepticism on social media.",
+      "tags": [
+        "Health and Medicine",
+        "Genetics"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Direct-to-Consumer Genetic Testing: Summary of a Workshop (2010)",
+          "url": "https://www.nationalacademies.org/publications/13021"
+        },
+        {
+          "name": "Realizing the Potential of Genomics across the Continuum of Precision Health Care: Proceedings of a Workshop (2023)",
+          "url": "https://www.nationalacademies.org/publications/26917"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: DNA damage burden causes selective CUX2 neuron loss in neuroinflammation",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10310-3",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: The 1000 Chinese Pangenome empowers medical and population genetics",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10315-y",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Gene regulatory landscape dissected by single-cell four-omics sequencing",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10322-z",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Expansion of outer cortical CUX2 neurons requires adaptations for DNA repair",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10290-4",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Scientists create “smart” DNA drug that targets cancer cells with extreme precision",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260402042744.htm",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: This “master gene” may be driving pancreatic cancer’s spread",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260406192919.htm",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: A gene mutation may trap the brain in the wrong reality in schizophrenia patients",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260402042740.htm",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: DNA damage drives antigen diversification in <i>Trypanosoma brucei</i>",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10337-6",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Hidden human–virus interactions uncovered in DNA in blood and saliva",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01032-7",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "2 NASEM sources, most recent 2023 · confirmed misinformation · 2 discovery signals"
+    },
+    {
       "id": "recent_fossil_discoveries_fundamentally_change",
       "question": "Do recent fossil discoveries fundamentally change our understanding of when complex life evolved?",
       "priority": "low",
@@ -6891,6 +7454,108 @@
       "newest_source_year": 2023,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "evolution_fossil_discoveries_frequently_overturn",
+      "question": "Do evolution and fossil discoveries frequently overturn previous scientific understanding?",
+      "priority": "low",
+      "rationale": "Corrects misunderstanding of how new discoveries refine rather than overturn evolutionary theory",
+      "misinformation_narrative": "Creationists and science skeptics claim frequent fossil discoveries prove evolution theory is unstable and unreliable",
+      "public_stakes": "Undermined public understanding of evolution affects science education and evidence-based thinking",
+      "verification_status": "verified",
+      "verification_reason": "Creationist websites, religious forums, and skeptic communities regularly cite new fossil discoveries as evidence that evolution theory is unreliable.",
+      "tags": [
+        "Science Education",
+        "Evolution"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Science, Evolution, and Creationism (2008)",
+          "url": "https://www.nationalacademies.org/publications/11876"
+        },
+        {
+          "name": "Teaching About Evolution and the Nature of Science (1998)",
+          "url": "https://www.nationalacademies.org/publications/5787"
+        },
+        {
+          "name": "Reproducibility and Replicability in Science (2019)",
+          "url": "https://www.nationalacademies.org/publications/25303"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Angle evolution of the superconducting phase diagram in twisted bilayer WSe<sub>2</sub>",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10357-2",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Evolution of pandemic cholera at its global source",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10340-x",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Pincer movement: fossil pushes origins of chelicerate arthropods back to the Cambrian period",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00807-2",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Surprise fossil discoveries push back the evolution of complex animals",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521980-surprise-fossil-discoveries-push-back-the-evolution-of-complex-animals/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: This tiny claw in a 500-million-year-old fossil just rewrote the origin of spiders",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403002023.htm",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: How DNA forensics is transforming studies of ancient manuscripts",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01029-2",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Relics of an ancient sandstorm on Mars point to Earth-like winds",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/relics-ancient-sandstorm-mars-point-earth-winds",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Strange “elephant skin” rocks reveal ancient life in the dark ocean",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260402042807.htm",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Mummified early Permian reptile reveals ancient amniote breathing apparatus",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10307-y",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 4,
+      "readiness_summary": "3 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
       "id": "space_exploration_just_expensive_entertainment",
@@ -7661,6 +8326,83 @@
       "newest_source_year": 2023,
       "signal_count": 1,
       "readiness_summary": "3 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "eating_sugar_directly_cause_aging",
+      "question": "Does eating sugar directly cause aging by 'caramelizing' your body?",
+      "priority": "low",
+      "rationale": "Corrects oversimplified and scientifically inaccurate explanations of glycation and aging",
+      "misinformation_narrative": "Popular claims suggest sugar consumption literally 'caramelizes' internal organs and directly accelerates aging, creating fear of all sugar consumption",
+      "public_stakes": "People may develop unhealthy relationships with food or ignore actual evidence-based aging factors",
+      "verification_status": "needs_review",
+      "verification_reason": "While people discuss sugar and aging, the specific \"caramelization\" framing sounds like academic glycation concepts dressed as popular misconception.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        },
+        {
+          "name": "Strategies to Limit Sugar-Sweetened Beverage Consumption in Young Children: Proceedings of a Workshop�in Brief (2018)",
+          "url": "https://www.nationalacademies.org/publications/24897"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists found a protein that drives brain aging — and how to stop it",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260405065236.htm",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists discover why flu and COVID hit older adults so hard",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403002027.htm",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: This method to reverse cellular ageing is about to be tested in humans",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01024-7",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: How eating sugar can ‘caramelize’ the inside of your body — and speed up aging",
+          "origin": "STM — NY Post",
+          "url": "https://nypost.com/2026/04/06/health/how-eating-sugar-can-caramelize-the-inside-of-your-body-and-speed-up-aging/",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: What Animals Can Teach Us About Reversing Aging",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/08/what_animals_can_teach_us_about_reversing_aging_1175270.html",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Split shift: A surprising twist in the biology of aging",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-shift-biology-aging.html",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 5,
+      "readiness_summary": "2 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 5 discovery signals"
     },
     {
       "id": "humans_grow_food_moon_mars",
@@ -9170,63 +9912,6 @@
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 5 discovery signals"
     },
     {
-      "id": "quantum_computers_break_all_encryption",
-      "question": "Will quantum computers break all encryption and destroy cybersecurity?",
-      "priority": "low",
-      "rationale": "Corrects timeline misconceptions and clarifies which encryption is vulnerable versus quantum-resistant alternatives",
-      "misinformation_narrative": "Sensationalized headlines claim quantum computers will imminently break all encryption, creating unnecessary panic about cybersecurity collapse",
-      "public_stakes": "Misunderstanding leads to premature expensive security overhauls or conversely, dangerous complacency about real quantum threats",
-      "verification_status": "needs_review",
-      "verification_reason": "While quantum computing gets sensational headlines, there isn't a significant public movement panicking about imminent encryption collapse; this is more media hype than genuine widespread belief.",
-      "tags": [
-        "Technology",
-        "Cybersecurity",
-        "Quantum Science"
-      ],
-      "nasem_source_count": 2,
-      "nasem_sources_preview": [
-        {
-          "name": "Quantum Computing: Progress and Prospects (2019)",
-          "url": "https://www.nationalacademies.org/publications/25196"
-        },
-        {
-          "name": "Decrypting the Encryption Debate: A Framework for Decision Makers (2018)",
-          "url": "https://www.nationalacademies.org/publications/25010"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-01054-1",
-          "date": "2026-04-05"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: The first quantum computer to break encryption is now shockingly close",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2521878-the-first-quantum-computer-to-break-encryption-is-now-shockingly-close/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-04-05"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: Scientists find quantum computers forget most of their work",
-          "origin": "STM — ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260406045126.htm",
-          "date": "2026-04-07"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-08",
-      "last_seen": "2026-04-08",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2019,
-      "signal_count": 3,
-      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 3 discovery signals"
-    },
-    {
       "id": "quantum_computers_actually_offer_advantages",
       "question": "Do quantum computers actually offer advantages over classical computers for practical problems?",
       "priority": "low",
@@ -10082,6 +10767,44 @@
       "newest_source_year": 2007,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2007 — sources are old · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "cholesterol_levels_safely_lowered_near",
+      "question": "Can cholesterol levels safely be lowered to near-zero without health risks?",
+      "priority": "low",
+      "rationale": "Corrects misconceptions about cholesterol being 'essential' from diet and fears of very low levels",
+      "misinformation_narrative": "Many believe that very low cholesterol levels are dangerous and that the body 'needs' dietary cholesterol, causing people to fear aggressive cholesterol treatment",
+      "public_stakes": "Patients and doctors may avoid optimal cholesterol targets, missing opportunities to prevent cardiovascular events",
+      "verification_status": "needs_review",
+      "verification_reason": "The general public rarely discusses optimal cholesterol targets; this conflates medical debate about LDL goals with public misinformation.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "children_need_different_drug_dosages",
@@ -11701,6 +12424,102 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "statins_cause_dangerous_muscle_damage",
+      "question": "Do statins cause dangerous muscle damage and memory problems?",
+      "priority": "high",
+      "rationale": "Addresses widespread statin fear-mongering that contradicts robust clinical evidence showing minimal side effects",
+      "misinformation_narrative": "Many people believe statins cause widespread muscle damage, memory loss, and other serious side effects, leading them to refuse potentially life-saving cholesterol treatment",
+      "public_stakes": "People at high risk for heart disease avoid proven cardiovascular protection, potentially leading to preventable heart attacks and strokes",
+      "verification_status": "verified",
+      "verification_reason": "Anti-statin sentiment is widespread on health forums, Facebook groups, and promoted by some alternative medicine advocates who cite muscle pain and cognitive concerns.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Statins: They're Even for the Elderly",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/06/statins_theyre_even_for_the_elderly_1174856.html",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official safety communication addressing statin-associated muscle injury and cognitive effects",
+          "relevance": "Directly addresses both muscle damage and memory problems associated with statins based on FDA safety review"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining statin efficacy and adverse effects including muscle problems",
+          "relevance": "Provides evidence-based analysis of statin safety profile including muscle-related adverse events"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical guidelines addressing statin-associated muscle symptoms and cognitive concerns",
+          "relevance": "Contains detailed recommendations for managing statin-associated muscle symptoms and discusses cognitive effects"
+        },
+        {
+          "organization": "American College of Cardiology",
+          "organization_full": "American College of Cardiology",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Statin Intolerance: A Clinical Challenge",
+          "description": "Clinical guidance on statin intolerance including muscle symptoms and management strategies",
+          "relevance": "Addresses the clinical reality and management of statin-associated muscle problems"
+        },
+        {
+          "organization": "European Medicines Agency",
+          "organization_full": "European Medicines Agency",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Benefits of statins continue to outweigh risks",
+          "description": "EMA safety review addressing muscle disorders and cognitive function concerns with statins",
+          "relevance": "European regulatory assessment of statin safety including muscle and cognitive effects"
+        }
+      ],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -19355,6 +20174,261 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "cancer_treatments_becoming_less_effective",
+      "question": "Are cancer treatments becoming less effective as cancer becomes more resistant?",
+      "priority": "low",
+      "rationale": "Corrects fatalistic views about cancer with evidence of improving treatment outcomes",
+      "misinformation_narrative": "Pessimistic narratives suggest cancer is becoming impossible to treat effectively, potentially discouraging screening and treatment",
+      "public_stakes": "Patients may delay diagnosis and treatment, missing opportunities for successful interventions",
+      "verification_status": "needs_review",
+      "verification_reason": "While people fear cancer, the specific narrative about increasing resistance and decreasing treatment effectiveness isn't a common public belief.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer Research"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Why some cancer-fighting immune cells lose their strength inside tumours",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01015-8",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists find hidden brain cells helping deadly cancer grow",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260405003933.htm",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists discover hidden gut signals that could detect cancer early",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403224500.htm",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists create “smart” DNA drug that targets cancer cells with extreme precision",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260402042744.htm",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: What’s hiding inside colon cancer could change treatment",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260401071951.htm",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: New drugs take aim at one of cancer’s deadliest mutations",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01016-7",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists solve 30-year mystery of a hidden nutrient that protects the brain and fights cancer",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407004815.htm",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: This “master gene” may be driving pancreatic cancer’s spread",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260406192919.htm",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Author Correction: Oncogene ablation-resistant pancreatic cancer cells depend on mitochondrial function",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10488-6",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Tumour trap: engineered enhancer sequences enlisted to kill cancer cells",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00812-5",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "National Cancer Institute (NCI/NIH)",
+          "organization_full": "National Cancer Institute (NCI/NIH)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Cancer Treatment Resistance - PDQ",
+          "description": "NCI's comprehensive overview of cancer drug resistance mechanisms, causes, and research approaches",
+          "relevance": "Directly addresses cancer treatment resistance with scientific evidence and current research status"
+        },
+        {
+          "organization": "American Cancer Society",
+          "organization_full": "American Cancer Society",
+          "base_url": "https://www.cancer.org",
+          "url": "https://www.cancer.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Cancer Facts & Figures 2023",
+          "description": "Annual report with comprehensive cancer statistics including treatment outcomes and survival trends",
+          "relevance": "Contains data on cancer treatment effectiveness trends and survival rates over time"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Cancer - Key Facts",
+          "description": "WHO's global cancer fact sheet including treatment outcomes and resistance challenges",
+          "relevance": "Provides international perspective on cancer treatment effectiveness and emerging resistance patterns"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Cochrane Reviews on Cancer Treatment Resistance",
+          "description": "Systematic reviews examining evidence for cancer treatment resistance across multiple cancer types",
+          "relevance": "High-quality meta-analyses and systematic reviews on treatment resistance effectiveness"
+        },
+        {
+          "organization": "SEER Program (NCI)",
+          "organization_full": "SEER Program (NCI)",
+          "base_url": "",
+          "url": "https://seer.cancer.gov/csr/",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "SEER Cancer Statistics Review",
+          "description": "Comprehensive cancer surveillance data including long-term trends in cancer incidence, mortality, and survival",
+          "relevance": "Provides longitudinal data to assess whether cancer treatment effectiveness is declining over time"
+        }
+      ],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "older_adults_benefit_less_medical",
+      "question": "Do older adults benefit less from medical interventions like statins and vaccines?",
+      "priority": "low",
+      "rationale": "Corrects age discrimination in medical care with evidence of treatment benefits in elderly",
+      "misinformation_narrative": "Ageist assumptions suggest medical treatments are less effective or more dangerous for elderly patients, leading to under-treatment",
+      "public_stakes": "Elderly patients may be denied beneficial treatments, increasing morbidity and mortality",
+      "verification_status": "needs_review",
+      "verification_reason": "This reverses the actual problem; families often over-treat elderly patients rather than believing treatments don't work for them.",
+      "tags": [
+        "Health and Medicine",
+        "Geriatric Medicine"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists discover why flu and COVID hit older adults so hard",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403002027.htm",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Statins: They're Even for the Elderly",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/06/statins_theyre_even_for_the_elderly_1174856.html",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Why Have Longevity Gains Stalled?",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/06/why_have_longevity_gains_stalled_1174698.html",
+          "date": "2026-04-06"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Vaccine Recommendations and Guidelines: Adult Immunization Schedule",
+          "description": "CDC's official adult immunization schedule with specific recommendations for older adults including high-dose flu vaccines and pneumococcal vaccines",
+          "relevance": "Provides evidence-based vaccine recommendations specifically tailored for older adults, indicating benefits"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining statin efficacy across age groups including subgroup analyses for older adults",
+          "relevance": "Provides meta-analysis data on statin effectiveness in different age populations including elderly"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "High-Dose Seasonal Influenza Vaccine (Fluzone High-Dose) - Approval Letter",
+          "description": "FDA approval and information on high-dose influenza vaccine specifically developed for adults 65 and older",
+          "relevance": "Documents regulatory approval of vaccines specifically designed to overcome reduced immune response in older adults"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Immunization and vaccines development: Immunization in older adults",
+          "description": "WHO guidance on vaccination strategies and considerations for older adult populations",
+          "relevance": "Provides international perspective on vaccine effectiveness and recommendations for elderly populations"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2019 AHA/ACC Primary Prevention Guidelines",
+          "description": "Clinical practice guidelines that include age-specific recommendations for statin therapy including considerations for adults over 75",
+          "relevance": "Provides evidence-based recommendations on statin use across age groups including specific guidance for older adults"
+        }
+      ],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -27394,6 +28468,92 @@
       "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
       "nasem_bos_url": "https://www.nationalacademies.org/news/alternative-therapies-cannot-cure-cancer",
       "nasem_bos_title": "Can cancer be successfully treated by alternative therapies alone?"
+    },
+    {
+      "id": "new_covid_flu_treatments_just",
+      "question": "Are new COVID-19 and flu treatments just pharmaceutical company hype with no real benefits?",
+      "priority": "medium",
+      "rationale": "Addresses anti-pharmaceutical sentiment that could prevent access to proven treatments",
+      "misinformation_narrative": "Skepticism about new antiviral treatments portrays them as ineffective money-grabs, potentially discouraging use of beneficial therapies",
+      "public_stakes": "Patients may refuse treatments that could reduce severity and duration of illness, especially in vulnerable populations",
+      "verification_status": "verified",
+      "verification_reason": "COVID treatment skepticism is rampant on social media and certain political communities, with Paxlovid and other antivirals dismissed as pharma profiteering.",
+      "tags": [
+        "Health and Medicine",
+        "Infectious Disease"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
+          "url": "https://www.nationalacademies.org/publications/26285"
+        },
+        {
+          "name": "Public Health Lessons for Non-Vaccine Influenza Interventions: Looking Past COVID-19 (None)",
+          "url": "https://www.nationalacademies.org/publications/26283"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Multipurpose anti-viral pill may treat colds, norovirus, flu and covid",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521670-multipurpose-anti-viral-pill-may-treat-colds-norovirus-flu-and-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Attacks from our immune system are a cause of long covid",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2521476-attacks-from-our-immune-system-are-a-cause-of-long-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists discover why flu and COVID hit older adults so hard",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403002027.htm",
+          "date": "2026-04-06"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: This week in science: How much exercise you need, flu resistance and fortified food",
+          "origin": "STM — NPR Science",
+          "url": "https://www.npr.org/2026/04/02/nx-s1-5764002/this-week-in-science-how-much-exercise-you-need-flu-resistance-and-fortified-food",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Synthetic super-enhancers enable precision viral immunotherapy",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10329-6",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Hidden human–virus interactions uncovered in DNA in blood and saliva",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01032-7",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: AI uncovers hidden immune defenses inside bacteria",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-ai-uncovers-hidden-immune-defenses.html",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-09",
+      "last_seen": "2026-04-09",
+      "times_seen": 1,
+      "status": "nasem_covered",
+      "newest_source_year": 2021,
+      "signal_count": 5,
+      "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
+      "nasem_bos_url": "https://www.nationalacademies.org/news/how-can-you-tell-if-you-have-covid-19-rsv-or-the-flu",
+      "nasem_bos_title": "How can you tell if you have COVID-19, RSV, or the flu?"
     },
     {
       "id": "climate_change_causing_global_warming",

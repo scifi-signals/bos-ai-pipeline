@@ -1,0 +1,105 @@
+{
+  "id": "climate_change_just_natural_variability",
+  "question": "Is climate change just natural variability that humans can't definitively separate from natural causes?",
+  "topic": "Directly addresses a core climate denial argument with attribution science evidence",
+  "tags": [
+    "Environment",
+    "Climate Science"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://www.nationalacademies.org/publications/25733",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Attribution of Extreme Weather Events in the Context of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/21852",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence and Causes",
+      "url": "https://www.nationalacademies.org/publications/18730",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing the Science of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12782",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence, Impacts, and Choices: PDF Booklet",
+      "url": "https://www.nationalacademies.org/publications/14673",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Informing an Effective Response to Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12784",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Longer wildfire seasons pose an increasing threat for species under climate change",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-longer-wildfire-seasons-pose-threat.html",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Coral reef science must adapt for a chance to outpace climate change, say experts",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-03-coral-reef-science-chance-outpace.html",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Price of lamb soars by 21% just in time for Easter - as experts say climate change is to blame",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15700775/price-lamb-soars-easter-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: ‘Net zero’ isn’t madness: the staggering economic costs of climate change",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01020-x",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate change may speed evolution through inherited gene regulation changes",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-climate-evolution-inherited-gene.html",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate change does not polarize opinions: 'In fact, we are increasingly in agreement'",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-climate-polarize-opinions-fact-agreement.html",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate Change Clearly Distinct From Natural Variability",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/08/climate_change_clearly_distinct_from_natural_variability_1175324.html",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Water conservation works, but climate change is outpacing it: Phoenix, Denver and Las Vegas offer a glimpse of the future",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/water-conservation-works-but-climate-change-is-outpacing-it-phoenix-denver-and-las-vegas-offer-a-glimpse-of-the-future-279837",
+      "date": "2026-04-08"
+    }
+  ]
+}

@@ -1,0 +1,133 @@
+{
+  "id": "space_programs_just_expensive_vanity",
+  "question": "Are space programs just expensive vanity projects with no real benefits?",
+  "topic": "Corrects misconceptions about space program value with evidence of practical benefits",
+  "tags": [
+    "Science Policy",
+    "Space Science"
+  ],
+  "sources": [
+    {
+      "name": "Space Nuclear Propulsion for Human Mars Exploration",
+      "url": "https://www.nationalacademies.org/publications/25977",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Next Decade of Discovery in Solar and Space Physics: Exploring and Safeguarding Humanity's Home in Space",
+      "url": "https://www.nationalacademies.org/publications/27938",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Origins, Worlds, and Life: A Decadal Strategy for Planetary Science and Astrobiology 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26522",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Thriving in Space: Ensuring the Future of Biological and Physical Sciences Research: A Decadal Survey for 2023-2032",
+      "url": "https://www.nationalacademies.org/publications/26750",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "NASA Space Technology Roadmaps and Priorities: Restoring NASA's Technological Edge and Paving the Way for a New Era in Space",
+      "url": "https://www.nationalacademies.org/publications/13354",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "NASA Space Technology Roadmaps and Priorities Revisited",
+      "url": "https://www.nationalacademies.org/publications/23582",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Artemis II astronauts fly by the Moon today: follow along with <i>Nature</i> live",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00989-9",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: What Artemis II’s astronauts will look for on the Moon’s far side",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01103-9",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Artemis II is go: humans head to the Moon after half-century absence",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01060-3",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: The Moon belongs to all of us — not just countries that can afford to reach it",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01051-4",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: China is planning to land people on the Moon — and might beat the United States to it",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01059-w",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Artemis II Moon fly-by: Highlights from <i>Nature</i>’s live coverage",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00989-9",
+      "date": "2026-04-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Historic Artemis II Moon fly-by: <i>Nature</i>’s live coverage as it happened",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00989-9",
+      "date": "2026-04-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: First photos from Artemis II: see stunning 'Earthset' and more",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01118-2",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Daily briefing: The Artemis II special",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01125-3",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Satellite imagery reveals increasing volatility in human night-time activity",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10260-w",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: Artemis II relied on European science: what that means for the region’s space ambitions",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01013-w",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Space & Astronomy: First photos from Artemis II: see stunning ‘Earthset’ and more",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01118-2",
+      "date": "2026-04-08"
+    }
+  ]
+}

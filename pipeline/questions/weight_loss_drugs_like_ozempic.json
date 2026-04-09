@@ -1,0 +1,46 @@
+{
+  "id": "weight_loss_drugs_like_ozempic",
+  "question": "Are weight-loss drugs like Ozempic just dangerous quick fixes that don't work long-term?",
+  "topic": "Corrects misconceptions about newer diabetes/obesity medications with clinical evidence",
+  "tags": [
+    "Health and Medicine",
+    "Endocrinology"
+  ],
+  "sources": [
+    {
+      "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/24855",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/24830",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Genetic predictors of GLP1 receptor agonist weight loss and side effects",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10330-z",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Genetics reveal why people respond differently to GLP-1 weight-loss drugs",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00905-1",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Why obesity drugs work better for some people: these genes hold clues",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01107-5",
+      "date": "2026-04-08"
+    }
+  ]
+}

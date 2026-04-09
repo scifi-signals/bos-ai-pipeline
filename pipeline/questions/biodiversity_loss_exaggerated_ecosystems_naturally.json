@@ -1,0 +1,68 @@
+{
+  "id": "biodiversity_loss_exaggerated_ecosystems_naturally",
+  "question": "Is biodiversity loss exaggerated and ecosystems naturally resilient to human impacts?",
+  "topic": "Addresses misconceptions about ecosystem resilience with conservation biology evidence",
+  "tags": [
+    "Environment",
+    "Conservation Biology"
+  ],
+  "sources": [
+    {
+      "name": "Biodiversity at Risk: Today's Choices Matter",
+      "url": "https://www.nationalacademies.org/publications/26384",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: How squid survived Earth’s biggest extinction and took over the oceans",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/03/260331001100.htm",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Longer wildfire seasons pose an increasing threat for species under climate change",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-longer-wildfire-seasons-pose-threat.html",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Satellite mirror plans could disrupt sleep and ecosystems worldwide, scientists say",
+      "origin": "STM — The Guardian Science",
+      "url": "https://www.theguardian.com/science/2026/apr/05/satellite-mirror-plans-could-disrupt-sleep-and-ecosystems-worldwide-scientists-say",
+      "date": "2026-04-06"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Rich biodiversity found in Japan's deepest ocean trenches, including an unidentified 'mystery' species",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-rich-biodiversity-japan-deepest-ocean.html",
+      "date": "2026-04-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Biodiversity resilience in a tropical rainforest",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10365-2",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Young tropical forests help to reverse biodiversity losses",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00811-6",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Global trade in wild birds is poorly monitored: The risks to wildlife, ecosystems and human health",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-global-wild-birds-poorly-wildlife.html",
+      "date": "2026-04-08"
+    }
+  ]
+}
