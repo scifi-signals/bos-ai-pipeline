@@ -1,0 +1,57 @@
+{
+  "id": "climate_change_naturally_occurring_rather",
+  "question": "Is climate change naturally occurring rather than human-caused?",
+  "topic": "Corrects persistent climate denial by clarifying how scientists distinguish human influence from nat",
+  "tags": [
+    "Climate Change",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://www.nationalacademies.org/publications/25733",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Abrupt Impacts of Climate Change: Anticipating Surprises",
+      "url": "https://www.nationalacademies.org/publications/18373",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing the Science of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12782",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence and Causes",
+      "url": "https://www.nationalacademies.org/publications/18730",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Informing an Effective Response to Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12784",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate Change Clearly Distinct From Natural Variability",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/08/climate_change_clearly_distinct_from_natural_variability_1175324.html",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate Change Denial Sees a Resurgence in Trump’s Washington",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/04/09/climate/climate-change-deniers-trump.html",
+      "date": "2026-04-09"
+    }
+  ]
+}

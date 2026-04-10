@@ -1,0 +1,38 @@
+{
+  "id": "net_zero_climate_policy_economically",
+  "question": "Is net zero climate policy economically destructive?",
+  "topic": "Corrects economic fears about climate policy by comparing action costs to inaction costs using autho",
+  "tags": [
+    "Climate Change",
+    "Economics"
+  ],
+  "sources": [
+    {
+      "name": "Valuing Climate Damages: Updating Estimation of the Social Cost of Carbon Dioxide",
+      "url": "https://www.nationalacademies.org/publications/24651",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Accelerating Decarbonization in the United States: Technology, Policy, and Societal Dimensions",
+      "url": "https://www.nationalacademies.org/publications/25931",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Accelerating Decarbonization of the U.S. Energy System",
+      "url": "https://www.nationalacademies.org/publications/25932",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: ‘Net zero’ isn’t madness: the staggering economic costs of climate change",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01020-x",
+      "date": "2026-04-08"
+    }
+  ]
+}

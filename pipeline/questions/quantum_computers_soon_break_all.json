@@ -1,0 +1,81 @@
+{
+  "id": "quantum_computers_soon_break_all",
+  "question": "Will quantum computers soon break all current internet encryption?",
+  "topic": "Corrects quantum computing timeline hype that creates both false urgency and misplaced security prio",
+  "tags": [
+    "Technology",
+    "Cybersecurity"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Decrypting the Encryption Debate: A Framework for Decision Makers",
+      "url": "https://www.nationalacademies.org/publications/25010",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: ‘It’s a real shock’: quantum-computing breakthroughs pose imminent risks to cybersecurity",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01054-1",
+      "date": "2026-04-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: The first quantum computer to break encryption is now shockingly close",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2521878-the-first-quantum-computer-to-break-encryption-is-now-shockingly-close/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Scientists find quantum computers forget most of their work",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260406045126.htm",
+      "date": "2026-04-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Daily briefing: Quantum computers could crack cybersecurity systems before 2030",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01114-6",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Protected quantum gates using qubit doublons in dynamical optical lattices",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10285-1",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: High-fidelity collisional quantum gates with fermionic atoms",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10356-3",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Quantum computers keep losing data. This breakthrough finally tracks it",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260407193857.htm",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Quantum entanglement can be measured in solids for the first time",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522100-quantum-entanglement-can-be-measured-in-solids-for-the-first-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-09"
+    }
+  ]
+}

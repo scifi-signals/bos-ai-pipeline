@@ -1,0 +1,64 @@
+{
+  "id": "glp_weight_loss_drugs_like",
+  "question": "Do GLP-1 weight loss drugs like Ozempic work the same for everyone?",
+  "topic": "Corrects oversimplified weight loss drug narratives by explaining genetic factors in treatment respo",
+  "tags": [
+    "Health and Medicine",
+    "Genetics"
+  ],
+  "sources": [
+    {
+      "name": "FDA Drug Safety Communication: FDA approves new drug treatment for chronic weight management, first since 2014 — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Prescribing Information for Ozempic (semaglutide) injection — FDA",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/209637lbl.pdf",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Glucagon‐like peptide‐1 receptor agonists for type 2 diabetes mellitus — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Prescription Medications to Treat Overweight & Obesity — NIH/NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Obesity and overweight fact sheet — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Genetic predictors of GLP1 receptor agonist weight loss and side effects",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10330-z",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Genetics reveal why people respond differently to GLP-1 weight-loss drugs",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00905-1",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Why obesity drugs work better for some people: these genes hold clues",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01107-5",
+      "date": "2026-04-08"
+    }
+  ]
+}

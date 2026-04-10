@@ -1,0 +1,57 @@
+{
+  "id": "older_adults_get_sicker_flu",
+  "question": "Do older adults get sicker from flu and COVID just because of general frailty?",
+  "topic": "Corrects oversimplified assumptions about aging and infection risk with specific immunological mecha",
+  "tags": [
+    "Health and Medicine",
+    "Infectious Disease"
+  ],
+  "sources": [
+    {
+      "name": "Older Adults and COVID-19 — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "People 65 Years and Older & Influenza — CDC",
+      "url": "https://www.cdc.gov/flu/highrisk/65over.htm",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "COVID-19 and Older Adults — NIH/NIA",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Coronavirus disease (COVID-19) advice for the public: Older adults — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaccines for preventing influenza in the elderly — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists discover why flu and COVID hit older adults so hard",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260403002027.htm",
+      "date": "2026-04-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists discover why flu and COVID hit older adults so hard",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260403002027.htm",
+      "date": "2026-04-07"
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "id": "zombie_cells_neighborhood_making_you",
+  "question": "Are 'zombie cells' in your neighborhood making you age faster?",
+  "topic": "Corrects sensationalized cellular aging claims while explaining real environmental factors that affe",
+  "tags": [
+    "Health and Medicine",
+    "Environmental Health"
+  ],
+  "sources": [
+    {
+      "name": "Cellular Senescence and Aging Research — NIH/National Institute on Aging",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "NCI Dictionary of Cancer Terms - Senescent Cell — NIH/National Cancer Institute",
+      "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/senescent-cell",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Aging and Toxic Response Assessment Guidelines — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Environmental Health and Aging Report — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241565684",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Your neighborhood could be aging you faster — and creating more ‘zombie cells’",
+      "origin": "STM — NY Post",
+      "url": "https://nypost.com/2026/04/09/health/your-neighborhood-could-be-aging-you-faster-creating-more-zombie-cells/",
+      "date": "2026-04-09"
+    }
+  ]
+}

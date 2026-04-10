@@ -1,0 +1,58 @@
+{
+  "id": "emperor_penguins_actually_going_extinct",
+  "question": "Are emperor penguins actually going extinct due to climate change?",
+  "topic": "Clarifies actual extinction risk timelines and mechanisms for charismatic species facing climate thr",
+  "tags": [
+    "Climate Change",
+    "Biodiversity"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 3: Oceans and Coastal Ecosystems — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-3/",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change Indicators: Antarctic Sea Ice — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fourth National Climate Assessment - Chapter 26: Alaska — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Arctic Report Card - Sea Ice — NOAA",
+      "url": "https://arctic.noaa.gov/report-card/report-card-2022/sea-ice/",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins added to endangered list after rapid decline",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522508-emperor-penguins-added-to-endangered-list-after-rapid-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins listed as endangered species: IUCN",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-emperor-penguins-endangered-species-iucn.html",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins are marching toward extinction. Antarctica fur seals too",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/emperor-penguins-endangered-extinction-iucn",
+      "date": "2026-04-09"
+    }
+  ]
+}

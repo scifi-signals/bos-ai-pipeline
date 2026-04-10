@@ -1,0 +1,51 @@
+{
+  "id": "systems_reliably_diagnose_diseases_provide",
+  "question": "Can AI systems reliably diagnose diseases or provide medical advice?",
+  "topic": "Corrects dangerous overconfidence in AI medical capabilities highlighted by studies showing AI sprea",
+  "tags": [
+    "Technology",
+    "Health and Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and Machine Learning in Software as a Medical Device — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Ethics and governance of artificial intelligence for health — WHO",
+      "url": "https://www.who.int/publications/i/item/9789240029200",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Artificial Intelligence in Medicine: Current Trends and Future Possibilities — NIH National Library of Medicine",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "AMA Principles for Augmented Intelligence Development, Deployment and Use — American Medical Association",
+      "url": "https://www.ama-assn.org",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01100-y",
+      "date": "2026-04-07"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Daily briefing: AI spread information about an obviously made-up disease",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01140-4",
+      "date": "2026-04-09"
+    }
+  ]
+}

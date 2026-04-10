@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-09T12:17:40Z",
+  "generated_at": "2026-04-10T12:16:27Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -559,6 +559,86 @@
       "newest_source_year": 2023,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2023 · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "aging_longevity_breakthroughs_dramatically_extend",
+      "question": "Are aging and longevity breakthroughs about to dramatically extend human lifespan?",
+      "priority": "high",
+      "rationale": "Corrects longevity hype by clarifying what's actually possible versus laboratory findings that may never translate to humans",
+      "misinformation_narrative": "Media coverage suggests anti-aging interventions are on the verge of adding decades to human life or reversing aging, creating unrealistic expectations about imminent life extension therapies",
+      "public_stakes": "People delay proven health behaviors expecting technological solutions, or fall for expensive unproven anti-aging products",
+      "verification_status": "verified",
+      "verification_reason": "Longevity influencers on Twitter/X, biohacking communities, and Silicon Valley circles actively promote imminent life extension breakthroughs.",
+      "tags": [
+        "Health and Medicine",
+        "Aging"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: This method to reverse cellular ageing is about to be tested in humans",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01024-7",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists found a protein that drives brain aging — and how to stop it",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260405065236.htm",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: How eating sugar can ‘caramelize’ the inside of your body — and speed up aging",
+          "origin": "STM — NY Post",
+          "url": "https://nypost.com/2026/04/06/health/how-eating-sugar-can-caramelize-the-inside-of-your-body-and-speed-up-aging/",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Why Have Longevity Gains Stalled?",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/06/why_have_longevity_gains_stalled_1174698.html",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: What Animals Can Teach Us About Reversing Aging",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/08/what_animals_can_teach_us_about_reversing_aging_1175270.html",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Split shift: A surprising twist in the biology of aging",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-shift-biology-aging.html",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Your neighborhood could be aging you faster — and creating more ‘zombie cells’",
+          "origin": "STM — NY Post",
+          "url": "https://nypost.com/2026/04/09/health/your-neighborhood-could-be-aging-you-faster-creating-more-zombie-cells/",
+          "date": "2026-04-09"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 5,
+      "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 5 discovery signals"
     },
     {
       "id": "long_covid_cause_identifiable_immune",
@@ -1368,6 +1448,67 @@
       "newest_source_year": 2020,
       "signal_count": 3,
       "readiness_summary": "5 NASEM sources, most recent 2020 · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "climate_change_naturally_occurring_rather",
+      "question": "Is climate change naturally occurring rather than human-caused?",
+      "priority": "high",
+      "rationale": "Corrects persistent climate denial by clarifying how scientists distinguish human influence from natural variability",
+      "misinformation_narrative": "Despite overwhelming scientific consensus, many people believe current climate change is natural variation rather than primarily caused by human activities, leading to opposition to mitigation efforts",
+      "public_stakes": "Delayed climate action increases risks of catastrophic warming, extreme weather, and economic damage",
+      "verification_status": "verified",
+      "verification_reason": "Climate denial communities on conservative media, Facebook groups, and platforms like Truth Social actively promote natural climate variation theories.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Abrupt Impacts of Climate Change: Anticipating Surprises (2013)",
+          "url": "https://www.nationalacademies.org/publications/18373"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        },
+        {
+          "name": "Informing an Effective Response to Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12784"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate Change Clearly Distinct From Natural Variability",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/08/climate_change_clearly_distinct_from_natural_variability_1175324.html",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate Change Denial Sees a Resurgence in Trump’s Washington",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/04/09/climate/climate-change-deniers-trump.html",
+          "date": "2026-04-09"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 2,
+      "readiness_summary": "5 NASEM sources, most recent 2020 · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "climate_change_really_accelerating_recent",
@@ -2837,6 +2978,44 @@
       "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "dietary_cholesterol_main_driver_blood",
+      "question": "Is dietary cholesterol the main driver of blood cholesterol levels?",
+      "priority": "high",
+      "rationale": "Corrects persistent dietary cholesterol fears despite decades of evidence showing minimal impact on serum levels",
+      "misinformation_narrative": "Many people believe eating cholesterol-rich foods directly raises blood cholesterol and causes heart disease, when genetic factors largely control cholesterol metabolism and dietary intake has minimal effect for most people",
+      "public_stakes": "People follow restrictive diets unnecessarily while ignoring more important cardiovascular risk factors",
+      "verification_status": "verified",
+      "verification_reason": "This belief is widespread among general public and perpetuated by older dietary guidelines, though it's becoming less common as nutrition science evolves.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Babies are born with essentially zero LDL cholesterol—needs verification of baseline pediatric cholesterol values",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "did_covid_vaccine_officials_ignore",
       "question": "Did COVID-19 vaccine officials ignore most available safety data when making recommendations?",
       "priority": "high",
@@ -3196,6 +3375,52 @@
       "newest_source_year": 2025,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2025 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "net_zero_climate_policy_economically",
+      "question": "Is net zero climate policy economically destructive?",
+      "priority": "medium",
+      "rationale": "Corrects economic fears about climate policy by comparing action costs to inaction costs using authoritative economic modeling",
+      "misinformation_narrative": "Many believe net zero emissions policies will destroy economies and are economically infeasible, when economic analyses show climate action costs are manageable compared to climate damage costs",
+      "public_stakes": "Economic misinformation reduces support for climate policies needed to prevent far greater economic damage from warming",
+      "verification_status": "verified",
+      "verification_reason": "Conservative media, fossil fuel industry communications, and right-wing social media actively promote fears that net zero policies will destroy economies.",
+      "tags": [
+        "Climate Change",
+        "Economics"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Valuing Climate Damages: Updating Estimation of the Social Cost of Carbon Dioxide (2017)",
+          "url": "https://www.nationalacademies.org/publications/24651"
+        },
+        {
+          "name": "Accelerating Decarbonization in the United States: Technology, Policy, and Societal Dimensions (2024)",
+          "url": "https://www.nationalacademies.org/publications/25931"
+        },
+        {
+          "name": "Accelerating Decarbonization of the U.S. Energy System (2021)",
+          "url": "https://www.nationalacademies.org/publications/25932"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: ‘Net zero’ isn’t madness: the staggering economic costs of climate change",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01020-x",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "3 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "systems_pose_imminent_existential_threat",
@@ -5581,17 +5806,16 @@
     },
     {
       "id": "quantum_computers_soon_break_all",
-      "question": "Will quantum computers soon break all current encryption and cybersecurity?",
+      "question": "Will quantum computers soon break all current internet encryption?",
       "priority": "medium",
-      "rationale": "Addresses growing public alarm about quantum computing threats to cybersecurity with unrealistic timelines and impacts.",
-      "misinformation_narrative": "Many people believe quantum computers will imminently break all encryption and render current cybersecurity useless, causing unnecessary panic about digital security when practical quantum code-breaking remains years away and post-quantum cryptography is being developed.",
-      "public_stakes": "Businesses and individuals may make premature, costly security decisions or panic about digital privacy when current threats are more pressing than quantum computing risks.",
+      "rationale": "Corrects quantum computing timeline hype that creates both false urgency and misplaced security priorities",
+      "misinformation_narrative": "Media reports create panic that quantum computers will imminently crack all encryption and collapse cybersecurity, when cryptographically relevant quantum computers remain years away and post-quantum cryptography is already being deployed",
+      "public_stakes": "Premature panic leads to rushed, poorly implemented security changes or dangerous complacency about current threats",
       "verification_status": "verified",
       "verification_reason": "Quantum computing threats are frequently sensationalized in tech media and cybersecurity conferences, creating genuine public anxiety about imminent encryption collapse.",
       "tags": [
         "Technology",
-        "Cybersecurity",
-        "Quantum Computing"
+        "Cybersecurity"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -5646,12 +5870,54 @@
           "origin": "STM — ScienceDaily",
           "url": "https://www.sciencedaily.com/releases/2026/04/260403224452.htm",
           "date": "2026-04-05"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists find quantum computers forget most of their work",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260406045126.htm",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Daily briefing: Quantum computers could crack cybersecurity systems before 2030",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01114-6",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Protected quantum gates using qubit doublons in dynamical optical lattices",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10285-1",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: High-fidelity collisional quantum gates with fermionic atoms",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10356-3",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers keep losing data. This breakthrough finally tracks it",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407193857.htm",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum entanglement can be measured in solids for the first time",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522100-quantum-entanglement-can-be-measured-in-solids-for-the-first-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-09"
         }
       ],
       "alternative_sources": [],
       "discovered_at": "2026-04-06",
-      "last_seen": "2026-04-06",
-      "times_seen": 1,
+      "last_seen": "2026-04-10",
+      "times_seen": 2,
       "status": "pending",
       "newest_source_year": 2019,
       "signal_count": 5,
@@ -8476,6 +8742,48 @@
       "readiness_summary": "2 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
+      "id": "eating_sugar_directly_caramelize_body",
+      "question": "Can eating sugar directly 'caramelize' your body and accelerate aging?",
+      "priority": "low",
+      "rationale": "Corrects sensationalized sugar-aging claims while explaining real mechanisms of advanced glycation end products",
+      "misinformation_narrative": "Popular media claims suggest dietary sugar literally caramelizes body proteins and directly causes aging, oversimplifying complex glycation processes and their actual health impacts",
+      "public_stakes": "Creates either excessive sugar fear or dismissal of legitimate concerns about high sugar intake and metabolic health",
+      "verification_status": "needs_review",
+      "verification_reason": "While sugar-aging connections are discussed, the specific \"caramelization\" framing isn't a widespread public misconception.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        },
+        {
+          "name": "Strategies to Limit Sugar-Sweetened Beverage Consumption in Young Children: Proceedings of a Workshop�in Brief (2018)",
+          "url": "https://www.nationalacademies.org/publications/24897"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: How eating sugar can ‘caramelize’ the inside of your body — and speed up aging",
+          "origin": "STM — NY Post",
+          "url": "https://nypost.com/2026/04/06/health/how-eating-sugar-can-caramelize-the-inside-of-your-body-and-speed-up-aging/",
+          "date": "2026-04-07"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "negative_attitude_actually_accelerate_aging",
       "question": "Can a negative attitude actually accelerate the aging process?",
       "priority": "low",
@@ -8849,6 +9157,79 @@
       "newest_source_year": 2023,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "biodiversity_losses_reversible_through_conservation",
+      "question": "Are biodiversity losses reversible through conservation efforts?",
+      "priority": "low",
+      "rationale": "Corrects both pessimistic and overly optimistic views of biodiversity recovery with evidence-based timelines and requirements",
+      "misinformation_narrative": "Some believe biodiversity loss is permanent and conservation efforts are futile, while others believe simple conservation measures can quickly restore ecosystems, when reality requires understanding both possibilities and limitations",
+      "public_stakes": "Either defeatism reduces conservation support, or overoptimism leads to inadequate conservation planning",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents two opposing straw man positions rather than identifying a specific circulating misconception about biodiversity.",
+      "tags": [
+        "Environmental Science",
+        "Biodiversity"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Biodiversity at Risk: Today's Choices Matter (2022)",
+          "url": "https://www.nationalacademies.org/publications/26384"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Biodiversity resilience in a tropical rainforest",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10365-2",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Young tropical forests help to reverse biodiversity losses",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00811-6",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins added to endangered list after rapid decline",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522508-emperor-penguins-added-to-endangered-list-after-rapid-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Reversing biodiversity loss by 2030 is critical to avoid disastrous effects on human well-being, researchers warn",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-reversing-biodiversity-loss-critical-disastrous.html",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins listed as endangered species: IUCN",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-emperor-penguins-endangered-species-iucn.html",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins are marching toward extinction. Antarctica fur seals too",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/emperor-penguins-endangered-extinction-iucn",
+          "date": "2026-04-09"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2022,
+      "signal_count": 4,
+      "readiness_summary": "1 NASEM source, most recent 2022 · misinformation narrative not yet confirmed · 4 discovery signals"
     },
     {
       "id": "biodiversity_losses_happening_faster_scientists",
@@ -12427,6 +12808,102 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "cancer_treatments_being_suppressed_pharmaceutical",
+      "question": "Are cancer treatments being suppressed by pharmaceutical companies?",
+      "priority": "high",
+      "rationale": "Corrects cancer conspiracy theories by explaining how cancer research and drug development actually work",
+      "misinformation_narrative": "Many people believe effective cancer cures exist but are hidden by pharmaceutical companies to maintain profits, leading them to refuse proven treatments in favor of unproven alternatives",
+      "public_stakes": "People delay or refuse effective cancer treatment, reducing survival rates and quality of life",
+      "verification_status": "verified",
+      "verification_reason": "Cancer conspiracy theories circulate widely on Facebook, alternative health websites, and among communities promoting laetrile, vitamin C megadoses, etc.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer Research"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Why some cancer-fighting immune cells lose their strength inside tumours",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01015-8",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists find hidden brain cells helping deadly cancer grow",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260405003933.htm",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists discover hidden gut signals that could detect cancer early",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403224500.htm",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists create “smart” DNA drug that targets cancer cells with extreme precision",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260402042744.htm",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: What’s hiding inside colon cancer could change treatment",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260401071951.htm",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: New drugs take aim at one of cancer’s deadliest mutations",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01016-7",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists solve 30-year mystery of a hidden nutrient that protects the brain and fights cancer",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407004815.htm",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: This “master gene” may be driving pancreatic cancer’s spread",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260406192919.htm",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Author Correction: Oncogene ablation-resistant pancreatic cancer cells depend on mitochondrial function",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10488-6",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Tumour trap: engineered enhancer sequences enlisted to kill cancer cells",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00812-5",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
       "id": "statins_cause_dangerous_muscle_damage",
       "question": "Do statins cause dangerous muscle damage and memory problems?",
       "priority": "high",
@@ -13080,6 +13557,191 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "statin_medications_cause_serious_muscle",
+      "question": "Do statin medications cause serious muscle damage and memory problems?",
+      "priority": "high",
+      "rationale": "Corrects dangerous statin avoidance based on exaggerated side effect fears, supported by meta-analyses of 26+ RCTs showing minimal real side effects",
+      "misinformation_narrative": "Many people believe statins cause widespread muscle pain, memory loss, and dementia, leading them to refuse potentially life-saving cholesterol medication despite evidence showing these side effects are rare and largely attributable to nocebo effects",
+      "public_stakes": "People avoid proven cardiovascular protection, leading to preventable heart attacks and strokes",
+      "verification_status": "verified",
+      "verification_reason": "Anti-statin communities on Facebook, Reddit health forums, and alternative medicine websites actively promote these fears, with many patients refusing prescriptions.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official safety communication detailing statin-related muscle problems and cognitive effects, including label changes requiring warnings about reversible cognitive side effects",
+          "relevance": "Direct regulatory assessment of statin muscle and memory risks based on clinical evidence"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Comprehensive systematic review examining statin efficacy and adverse effects including muscle-related symptoms and cognitive effects",
+          "relevance": "High-quality meta-analysis of randomized trials assessing statin safety profile"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Statin Safety and Associated Adverse Events: A Scientific Statement From the American Heart Association",
+          "description": "Comprehensive scientific statement reviewing evidence on statin safety, including muscle toxicity and cognitive effects",
+          "relevance": "Expert consensus document systematically reviewing evidence on statin muscle and cognitive side effects"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Managing Blood Cholesterol in Adults: Systematic Evidence Review from the Cholesterol Expert Panel",
+          "description": "NIH systematic review examining statin benefits and harms including muscle symptoms and cognitive effects",
+          "relevance": "Federal evidence review addressing statin safety including muscle and memory concerns"
+        },
+        {
+          "organization": "Mayo Clinic",
+          "organization_full": "Mayo Clinic",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Statin side effects: Weigh the benefits and risks",
+          "description": "Clinical guidance on statin side effects including muscle damage risk and memory problems with evidence-based risk assessment",
+          "relevance": "Medical institution's evidence-based assessment of statin muscle and cognitive side effects"
+        }
+      ],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "systems_reliably_diagnose_diseases_provide",
+      "question": "Can AI systems reliably diagnose diseases or provide medical advice?",
+      "priority": "high",
+      "rationale": "Corrects dangerous overconfidence in AI medical capabilities highlighted by studies showing AI spreading misinformation about fake diseases",
+      "misinformation_narrative": "People increasingly trust AI chatbots and apps for medical information and diagnosis, believing AI has human-level medical knowledge, when these systems can hallucinate fake diseases and provide dangerous medical misinformation",
+      "public_stakes": "People delay proper medical care or follow AI-generated medical advice that could be harmful or completely fabricated",
+      "verification_status": "verified",
+      "verification_reason": "People increasingly use ChatGPT, WebMD AI features, and health apps for medical advice, documented in surveys and social media posts.",
+      "tags": [
+        "Technology",
+        "Health and Medicine"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01100-y",
+          "date": "2026-04-07"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Daily briefing: AI spread information about an obviously made-up disease",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01140-4",
+          "date": "2026-04-09"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Artificial Intelligence and Machine Learning in Software as a Medical Device",
+          "description": "FDA's guidance on AI/ML-based medical devices, including regulatory framework and safety considerations",
+          "relevance": "Provides official regulatory perspective on AI diagnostic systems and their reliability requirements"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240029200",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Ethics and governance of artificial intelligence for health",
+          "description": "WHO's comprehensive report on AI in healthcare including diagnostic applications, benefits, and limitations",
+          "relevance": "Addresses AI diagnostic capabilities and ethical considerations for medical advice systems"
+        },
+        {
+          "organization": "NIH National Library of Medicine",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Artificial Intelligence in Medicine: Current Trends and Future Possibilities",
+          "description": "Systematic review of AI applications in medical diagnosis and clinical decision-making",
+          "relevance": "Provides evidence-based assessment of AI diagnostic accuracy and reliability across medical specialties"
+        },
+        {
+          "organization": "American Medical Association",
+          "organization_full": "American Medical Association",
+          "base_url": "https://www.ama-assn.org",
+          "url": "https://www.ama-assn.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "AMA Principles for Augmented Intelligence Development, Deployment and Use",
+          "description": "Medical professional organization's guidelines on AI use in clinical practice",
+          "relevance": "Addresses physician perspective on AI diagnostic tools and appropriate use in medical decision-making"
+        },
+        {
+          "organization": "IEEE",
+          "organization_full": "IEEE",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "IEEE Standard for Framework for Artificial Intelligence (AI) Systems Using Machine Learning (ML)",
+          "description": "Technical standards for AI/ML systems including healthcare applications and reliability metrics",
+          "relevance": "Provides technical framework for evaluating AI system reliability in medical applications"
+        }
+      ],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -19659,6 +20321,98 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "emperor_penguins_actually_going_extinct",
+      "question": "Are emperor penguins actually going extinct due to climate change?",
+      "priority": "low",
+      "rationale": "Clarifies actual extinction risk timelines and mechanisms for charismatic species facing climate threats",
+      "misinformation_narrative": "Some dismiss emperor penguin extinction warnings as climate alarmism, while others assume extinction is imminent and inevitable, when the reality involves specific warming thresholds and sea ice dependencies",
+      "public_stakes": "Either climate dismissal reduces conservation support, or fatalism leads to inadequate species protection efforts",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents two opposing positions rather than identifying a specific misconception that actually circulates widely.",
+      "tags": [
+        "Climate Change",
+        "Biodiversity"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins added to endangered list after rapid decline",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522508-emperor-penguins-added-to-endangered-list-after-rapid-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins listed as endangered species: IUCN",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-emperor-penguins-endangered-species-iucn.html",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins are marching toward extinction. Antarctica fur seals too",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/emperor-penguins-endangered-extinction-iucn",
+          "date": "2026-04-09"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-3/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 3: Oceans and Coastal Ecosystems",
+          "description": "IPCC Assessment Report 6 chapter covering impacts of climate change on polar marine ecosystems including penguin populations",
+          "relevance": "Provides authoritative climate science assessment on Antarctic ecosystem changes affecting emperor penguins"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate Change Indicators: Antarctic Sea Ice",
+          "description": "EPA's climate indicator tracking Antarctic sea ice trends, which is critical habitat for emperor penguin breeding",
+          "relevance": "Documents sea ice changes that directly impact emperor penguin breeding success and habitat availability"
+        },
+        {
+          "organization": "USGCRP",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment - Chapter 26: Alaska",
+          "description": "National Climate Assessment covering Arctic and polar region climate impacts including effects on polar wildlife",
+          "relevance": "Government assessment of climate impacts on polar regions and species like emperor penguins"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://arctic.noaa.gov/report-card/report-card-2022/sea-ice/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Arctic Report Card - Sea Ice",
+          "description": "NOAA's annual Arctic Report Card documenting sea ice trends in polar regions",
+          "relevance": "Provides annual monitoring data on sea ice conditions essential for emperor penguin survival"
+        }
+      ],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
       "id": "current_rate_species_extinction_really",
       "question": "Is the current rate of species extinction really unprecedented?",
       "priority": "low",
@@ -21044,6 +21798,354 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "glp_weight_loss_drugs_like",
+      "question": "Do GLP-1 weight loss drugs like Ozempic work the same for everyone?",
+      "priority": "low",
+      "rationale": "Corrects oversimplified weight loss drug narratives by explaining genetic factors in treatment response",
+      "misinformation_narrative": "Media coverage suggests GLP-1 drugs are universal weight loss solutions, when genetic factors cause dramatic differences in effectiveness and side effects between individuals",
+      "public_stakes": "Unrealistic expectations lead to treatment disappointment, inappropriate prescribing, or avoiding medication that could help",
+      "verification_status": "needs_review",
+      "verification_reason": "While Ozempic is hyped, the specific misconception about universal effectiveness isn't a prominent public belief.",
+      "tags": [
+        "Health and Medicine",
+        "Genetics"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genetic predictors of GLP1 receptor agonist weight loss and side effects",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10330-z",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genetics reveal why people respond differently to GLP-1 weight-loss drugs",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00905-1",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Why obesity drugs work better for some people: these genes hold clues",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01107-5",
+          "date": "2026-04-08"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: FDA approves new drug treatment for chronic weight management, first since 2014",
+          "description": "FDA's official communication on semaglutide approval includes clinical trial data showing variable patient responses",
+          "relevance": "Contains clinical trial data demonstrating individual variation in weight loss outcomes"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/209637lbl.pdf",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Prescribing Information for Ozempic (semaglutide) injection",
+          "description": "Official FDA-approved prescribing information with clinical trial results showing response variability",
+          "relevance": "Contains detailed clinical trial data showing range of individual responses and factors affecting efficacy"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Glucagon‐like peptide‐1 receptor agonists for type 2 diabetes mellitus",
+          "description": "Systematic review of GLP-1 receptor agonists including analysis of patient variability in response",
+          "relevance": "Provides systematic review evidence of individual variation in GLP-1 drug effectiveness"
+        },
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Prescription Medications to Treat Overweight & Obesity",
+          "description": "NIDDK resource discussing variability in response to weight loss medications including GLP-1 drugs",
+          "relevance": "Addresses individual differences in response to weight loss medications including patient factors"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Obesity and overweight fact sheet",
+          "description": "WHO fact sheet on obesity treatment approaches including discussion of individual variation in treatment response",
+          "relevance": "Provides context on factors affecting individual responses to obesity treatments"
+        }
+      ],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "older_adults_get_sicker_flu",
+      "question": "Do older adults get sicker from flu and COVID just because of general frailty?",
+      "priority": "low",
+      "rationale": "Corrects oversimplified assumptions about aging and infection risk with specific immunological mechanisms",
+      "misinformation_narrative": "Many assume elderly people get sicker from respiratory infections simply due to general weakness, when specific immune system changes with age make them more vulnerable to these diseases",
+      "public_stakes": "Underestimating age-related immune vulnerability leads to inadequate protection measures for elderly populations",
+      "verification_status": "needs_review",
+      "verification_reason": "Most people don't have strong misconceptions about why elderly get sicker; they simply don't think deeply about immune system specifics.",
+      "tags": [
+        "Health and Medicine",
+        "Infectious Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists discover why flu and COVID hit older adults so hard",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260403002027.htm",
+          "date": "2026-04-07"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Older Adults and COVID-19",
+          "description": "CDC's comprehensive page explaining why older adults are at higher risk for severe COVID-19, including immunosenescence and underlying health conditions",
+          "relevance": "Directly explains the biological mechanisms beyond general frailty that make older adults more susceptible to severe COVID-19"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/flu/highrisk/65over.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "People 65 Years and Older & Influenza",
+          "description": "CDC's detailed explanation of why adults 65+ are at higher risk for flu complications, including immune system changes and chronic conditions",
+          "relevance": "Provides evidence-based explanation of age-related immune changes and comorbidities that increase flu severity, beyond just frailty"
+        },
+        {
+          "organization": "NIH/NIA",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 and Older Adults",
+          "description": "National Institute on Aging's explanation of age-related factors affecting COVID-19 outcomes, including immune system aging",
+          "relevance": "Discusses immunosenescence and biological aging factors that contribute to increased disease severity independent of frailty"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Older adults",
+          "description": "WHO guidance explaining increased vulnerability of older adults to COVID-19 including immune system factors",
+          "relevance": "International perspective on age-related immune changes and comorbidities that increase COVID-19 risk beyond general frailty"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing influenza in the elderly",
+          "description": "Cochrane systematic review examining influenza vaccine effectiveness in older adults and age-related immune responses",
+          "relevance": "Provides systematic review evidence of age-related immune system changes affecting influenza outcomes, separate from frailty measures"
+        }
+      ],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "satellites_space_mirrors_disrupt_earth",
+      "question": "Can satellites and space mirrors disrupt Earth's ecosystems and human sleep?",
+      "priority": "low",
+      "rationale": "Provides evidence-based assessment of actual impacts from increasing satellite brightness and space mirror proposals",
+      "misinformation_narrative": "Some dismiss space-based light pollution concerns as trivial, while others assume satellite constellations will catastrophically disrupt all natural cycles",
+      "public_stakes": "Either ignoring light pollution effects or overreacting could lead to poor space technology regulation decisions",
+      "verification_status": "needs_review",
+      "verification_reason": "Space light pollution isn't a topic with significant public misconceptions; most people don't think about it at all.",
+      "tags": [
+        "Space Science",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Satellite mirror plans could disrupt sleep and ecosystems worldwide, scientists say",
+          "origin": "STM — The Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/apr/05/satellite-mirror-plans-could-disrupt-sleep-and-ecosystems-worldwide-scientists-say",
+          "date": "2026-04-07"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "International Dark-Sky Association (IDA)",
+          "organization_full": "International Dark-Sky Association (IDA)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Satellite Constellations and Their Impact on Ground-based Astronomy and the Night Environment",
+          "description": "IDA's analysis of large satellite constellations' effects on light pollution and nocturnal ecosystems",
+          "relevance": "Addresses satellite impacts on night environment and ecosystem disruption"
+        },
+        {
+          "organization": "American Medical Association (AMA)",
+          "organization_full": "American Medical Association",
+          "base_url": "https://www.ama-assn.org",
+          "url": "https://www.ama-assn.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Human and Environmental Effects of Light Emitting Diode (LED) Community Lighting",
+          "description": "AMA policy statement on artificial light's effects on human circadian rhythms and sleep",
+          "relevance": "Addresses how artificial light sources affect human sleep patterns"
+        },
+        {
+          "organization": "International Astronomical Union (IAU)",
+          "organization_full": "International Astronomical Union (IAU)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "IAU Statement on Satellite Constellations",
+          "description": "Scientific assessment of satellite constellation impacts on astronomy and night sky brightness",
+          "relevance": "Evaluates satellite effects on night environment brightness"
+        },
+        {
+          "organization": "European Space Agency (ESA)",
+          "organization_full": "European Space Agency (ESA)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Space Debris Mitigation Guidelines",
+          "description": "ESA guidelines addressing environmental impacts of space objects including reflectivity concerns",
+          "relevance": "Covers space object environmental considerations including light reflection"
+        }
+      ],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "zombie_cells_neighborhood_making_you",
+      "question": "Are 'zombie cells' in your neighborhood making you age faster?",
+      "priority": "low",
+      "rationale": "Corrects sensationalized cellular aging claims while explaining real environmental factors that affect health",
+      "misinformation_narrative": "Popular media suggests environmental factors create 'zombie cells' that accelerate aging, oversimplifying senescent cell biology and environmental health connections",
+      "public_stakes": "",
+      "verification_status": "needs_review",
+      "verification_reason": "\"Zombie cells\" terminology isn't widely known enough by the public to generate meaningful misconceptions.",
+      "tags": [
+        "Health and Medicine",
+        "Environmental Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Your neighborhood could be aging you faster — and creating more ‘zombie cells’",
+          "origin": "STM — NY Post",
+          "url": "https://nypost.com/2026/04/09/health/your-neighborhood-could-be-aging-you-faster-creating-more-zombie-cells/",
+          "date": "2026-04-09"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/National Institute on Aging",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Cellular Senescence and Aging Research",
+          "description": "NIA's research overview on cellular senescence, including how senescent cells accumulate with age and contribute to age-related diseases",
+          "relevance": "Directly addresses the science behind 'zombie cells' (senescent cells) and their role in the aging process"
+        },
+        {
+          "organization": "NIH/National Cancer Institute",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/publications/dictionaries/cancer-terms/def/senescent-cell",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "NCI Dictionary of Cancer Terms - Senescent Cell",
+          "description": "Scientific definition and explanation of senescent cells and their biological functions",
+          "relevance": "Provides authoritative definition of what senescent cells are and their biological role"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Aging and Toxic Response Assessment Guidelines",
+          "description": "EPA guidelines on how aging affects response to environmental toxins and pollutants",
+          "relevance": "Addresses environmental factors that may accelerate aging processes, including cellular damage"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241565684",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Environmental Health and Aging Report",
+          "description": "WHO report on how environmental factors influence healthy aging and age-related diseases",
+          "relevance": "Examines environmental influences on aging processes and cellular health"
+        }
+      ],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-10",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "iron_deficiency_rare_developed_countries",

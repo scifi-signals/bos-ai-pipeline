@@ -1,0 +1,61 @@
+{
+  "id": "biodiversity_losses_reversible_through_conservation",
+  "question": "Are biodiversity losses reversible through conservation efforts?",
+  "topic": "Corrects both pessimistic and overly optimistic views of biodiversity recovery with evidence-based t",
+  "tags": [
+    "Environmental Science",
+    "Biodiversity"
+  ],
+  "sources": [
+    {
+      "name": "Biodiversity at Risk: Today's Choices Matter",
+      "url": "https://www.nationalacademies.org/publications/26384",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Biodiversity resilience in a tropical rainforest",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10365-2",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Young tropical forests help to reverse biodiversity losses",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00811-6",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins added to endangered list after rapid decline",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522508-emperor-penguins-added-to-endangered-list-after-rapid-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Reversing biodiversity loss by 2030 is critical to avoid disastrous effects on human well-being, researchers warn",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-reversing-biodiversity-loss-critical-disastrous.html",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins listed as endangered species: IUCN",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-emperor-penguins-endangered-species-iucn.html",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins are marching toward extinction. Antarctica fur seals too",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/emperor-penguins-endangered-extinction-iucn",
+      "date": "2026-04-09"
+    }
+  ]
+}

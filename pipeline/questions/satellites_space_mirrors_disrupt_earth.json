@@ -1,0 +1,26 @@
+{
+  "id": "satellites_space_mirrors_disrupt_earth",
+  "question": "Can satellites and space mirrors disrupt Earth's ecosystems and human sleep?",
+  "topic": "Provides evidence-based assessment of actual impacts from increasing satellite brightness and space ",
+  "tags": [
+    "Space Science",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "Human and Environmental Effects of Light Emitting Diode (LED) Community Lighting — American Medical Association (AMA)",
+      "url": "https://www.ama-assn.org",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Satellite mirror plans could disrupt sleep and ecosystems worldwide, scientists say",
+      "origin": "STM — The Guardian Science",
+      "url": "https://www.theguardian.com/science/2026/apr/05/satellite-mirror-plans-could-disrupt-sleep-and-ecosystems-worldwide-scientists-say",
+      "date": "2026-04-07"
+    }
+  ]
+}

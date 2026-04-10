@@ -1,0 +1,32 @@
+{
+  "id": "eating_sugar_directly_caramelize_body",
+  "question": "Can eating sugar directly 'caramelize' your body and accelerate aging?",
+  "topic": "Corrects sensationalized sugar-aging claims while explaining real mechanisms of advanced glycation e",
+  "tags": [
+    "Health and Medicine",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "Global Roadmap for Healthy Longevity",
+      "url": "https://www.nationalacademies.org/publications/26144",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Strategies to Limit Sugar-Sweetened Beverage Consumption in Young Children: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/24897",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: How eating sugar can ‘caramelize’ the inside of your body — and speed up aging",
+      "origin": "STM — NY Post",
+      "url": "https://nypost.com/2026/04/06/health/how-eating-sugar-can-caramelize-the-inside-of-your-body-and-speed-up-aging/",
+      "date": "2026-04-07"
+    }
+  ]
+}
