@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-10T12:16:27Z",
+  "generated_at": "2026-04-11T12:09:47Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -449,6 +449,45 @@
       "newest_source_year": 2024,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "forcing_children_eat_overcome_picky",
+      "question": "Can forcing children to eat overcome picky eating problems?",
+      "priority": "high",
+      "rationale": "Corrects common parenting misconception about feeding practices that can harm child development",
+      "misinformation_narrative": "Parents believe they should force children to finish plates or try foods to prevent picky eating, when research shows this is counterproductive",
+      "public_stakes": "Forced feeding creates power struggles, increases food aversion, and may contribute to eating disorders and poor relationships with food",
+      "verification_status": "verified",
+      "verification_reason": "\"Clean plate club\" mentality and forcing children to eat remains common parenting practice, frequently debated in parenting communities and pediatric guidance.",
+      "tags": [
+        "Health and Medicine",
+        "Child Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "should_parents_avoid_introducing_common",
@@ -1808,6 +1847,62 @@
       "readiness_summary": "4 NASEM sources, most recent 2020 · confirmed misinformation · 4 discovery signals"
     },
     {
+      "id": "climate_change_just_natural_variation",
+      "question": "Is climate change just natural variation that's happened before?",
+      "priority": "high",
+      "rationale": "Addresses core climate denial argument with evidence distinguishing current warming from natural variability",
+      "misinformation_narrative": "Climate skeptics claim current warming is just natural variation similar to past climate changes, not human-caused",
+      "public_stakes": "Dismissing human causation prevents support for necessary climate action and adaptation measures",
+      "verification_status": "verified",
+      "verification_reason": "Climate denial communities consistently promote \"natural variation\" arguments across conservative media, social platforms, and political discourse.",
+      "tags": [
+        "Climate and Environment"
+      ],
+      "nasem_source_count": 4,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        },
+        {
+          "name": "Climate Change: Evidence, Impacts, and Choices: PDF Booklet (2012)",
+          "url": "https://www.nationalacademies.org/publications/14673"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate Change Clearly Distinct From Natural Variability",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/08/climate_change_clearly_distinct_from_natural_variability_1175324.html",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate Change Denial Sees a Resurgence in Trump’s Washington",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/04/09/climate/climate-change-deniers-trump.html",
+          "date": "2026-04-09"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 2,
+      "readiness_summary": "4 NASEM sources, most recent 2020 · confirmed misinformation · 2 discovery signals"
+    },
+    {
       "id": "should_people_avoid_medical_treatments",
       "question": "Should people avoid medical treatments due to concerns about side effects?",
       "priority": "high",
@@ -2976,6 +3071,44 @@
       "newest_source_year": 2012,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "dietary_cholesterol_main_cause_high",
+      "question": "Is dietary cholesterol the main cause of high blood cholesterol?",
+      "priority": "high",
+      "rationale": "Corrects persistent misconception about dietary vs. serum cholesterol relationship that affects food choices",
+      "misinformation_narrative": "People believe eating cholesterol-rich foods like eggs directly raises blood cholesterol, causing them to unnecessarily restrict healthy foods",
+      "public_stakes": "Unnecessary food restrictions may lead to poor nutrition while missing the real dietary factors that affect heart disease risk",
+      "verification_status": "verified",
+      "verification_reason": "The \"dietary cholesterol equals blood cholesterol\" myth persists widely despite updated dietary guidelines, commonly seen in health discussions and diet culture messaging.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Babies are born with essentially zero LDL cholesterol—needs verification of baseline pediatric cholesterol values",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "dietary_cholesterol_main_driver_blood",
@@ -5925,17 +6058,16 @@
     },
     {
       "id": "quantum_computers_break_all_current",
-      "question": "Will quantum computers break all current encryption immediately?",
+      "question": "Will quantum computers break all current cybersecurity within the next few years?",
       "priority": "medium",
-      "rationale": "Addresses timeline misconceptions about quantum computing threats to encryption",
-      "misinformation_narrative": "Media reports suggest quantum computers will suddenly make all current cybersecurity obsolete, creating unnecessary panic about immediate threats",
-      "public_stakes": "Organizations may make premature expensive security changes or ignore real current cybersecurity threats",
+      "rationale": "Addresses sensationalized quantum computing threat narratives with realistic assessment of current capabilities and timelines",
+      "misinformation_narrative": "Media reports suggest quantum computers will immediately make all current encryption useless, causing panic about cybersecurity collapse",
+      "public_stakes": "Overreaction to quantum threats may lead to premature costly security overhauls while underestimating realistic timelines prevents proper preparation",
       "verification_status": "verified",
       "verification_reason": "Cybersecurity panic about quantum computing appears regularly in mainstream tech media, business publications, and IT professional forums.",
       "tags": [
         "Technology",
-        "Cybersecurity",
-        "Quantum Computing"
+        "Cybersecurity"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -6025,12 +6157,40 @@
           "origin": "STM — ScienceDaily",
           "url": "https://www.sciencedaily.com/releases/2026/04/260401071933.htm",
           "date": "2026-04-03"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Daily briefing: Quantum computers could crack cybersecurity systems before 2030",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01114-6",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers keep losing data. This breakthrough finally tracks it",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407193857.htm",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists find quantum computers forget most of their work",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260406045126.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Did quantum sensors help find a U.S. pilot shot down in Iran? Experts doubt it",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/did-quantum-sensors-help-find-u-s-pilot-shot-down-iran-experts-doubt-it",
+          "date": "2026-04-10"
         }
       ],
       "alternative_sources": [],
       "discovered_at": "2026-04-02",
-      "last_seen": "2026-04-04",
-      "times_seen": 2,
+      "last_seen": "2026-04-11",
+      "times_seen": 3,
       "status": "pending",
       "newest_source_year": 2019,
       "signal_count": 4,
@@ -8120,6 +8280,56 @@
       "readiness_summary": "2 NASEM sources, most recent 2008 — sources are old · confirmed misinformation · 3 discovery signals"
     },
     {
+      "id": "artificial_intelligence_spreading_dangerous_medical",
+      "question": "Is artificial intelligence spreading dangerous medical misinformation to patients?",
+      "priority": "low",
+      "rationale": "Addresses specific concerns about AI spreading medical misinformation while distinguishing real from overstated risks",
+      "misinformation_narrative": "Reports suggest AI systems are actively promoting fake diseases and false medical information, creating fear about AI in healthcare",
+      "public_stakes": "Unnecessary fear of AI medical tools may prevent adoption of beneficial applications while real AI safety issues go unaddressed",
+      "verification_status": "needs_review",
+      "verification_reason": "This conflates legitimate concerns about AI accuracy with claims of actively \"promoting fake diseases,\" which isn't a prominent public narrative.",
+      "tags": [
+        "Technology",
+        "Health and Medicine",
+        "Artificial Intelligence"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Understanding and Addressing Misinformation About Science (2025)",
+          "url": "https://www.nationalacademies.org/publications/27894"
+        },
+        {
+          "name": "Addressing Health Misinformation with Health Literacy Strategies: Proceedings of a Workshop�in Brief (None)",
+          "url": "https://www.nationalacademies.org/publications/26021"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01100-y",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Daily briefing: AI spread information about an obviously made-up disease",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01140-4",
+          "date": "2026-04-09"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2025 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "easily_captured_turned_into_useful",
       "question": "Can CO2 be easily captured and turned into useful fuels to solve climate change?",
       "priority": "low",
@@ -8342,45 +8552,6 @@
       "newest_source_year": 2024,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 1 discovery signal"
-    },
-    {
-      "id": "iron_deficiency_most_serious_nutritional",
-      "question": "Is iron deficiency the most serious nutritional problem in picky eating children?",
-      "priority": "low",
-      "rationale": "Helps parents focus on the most evidence-based nutritional concern in selective eaters while avoiding unnecessary interventions",
-      "misinformation_narrative": "Parents often assume picky eaters have multiple serious nutritional deficiencies, when iron deficiency is typically the primary concern requiring medical attention",
-      "public_stakes": "Parents may over-supplement with unnecessary vitamins while missing iron deficiency signs, or conversely, not seek medical evaluation for legitimate iron deficiency anemia",
-      "verification_status": "needs_review",
-      "verification_reason": "This is too medically specific; most parents worry generally about nutrition rather than having this particular hierarchy of deficiency concerns.",
-      "tags": [
-        "Child Health",
-        "Nutrition",
-        "Micronutrients"
-      ],
-      "nasem_source_count": 1,
-      "nasem_sources_preview": [
-        {
-          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
-          "url": "https://www.nationalacademies.org/publications/27239"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-05",
-      "last_seen": "2026-04-05",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2024,
-      "signal_count": 1,
-      "readiness_summary": "1 NASEM source, most recent 2024 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "quantum_computers_actually_solve_problems",
@@ -8669,6 +8840,56 @@
       "newest_source_year": 2023,
       "signal_count": 5,
       "readiness_summary": "2 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 5 discovery signals"
+    },
+    {
+      "id": "eating_sugar_directly_accelerate_aging",
+      "question": "Does eating sugar directly accelerate aging by 'caramelizing' your body?",
+      "priority": "low",
+      "rationale": "Corrects sensationalized claims about sugar and aging with accurate information about glycation and metabolic health",
+      "misinformation_narrative": "Popular media claims sugar consumption literally 'caramelizes' the body and directly speeds aging through glycation",
+      "public_stakes": "Oversimplified sugar-aging claims may promote extreme dietary restrictions while missing nuanced relationship between diet and aging",
+      "verification_status": "needs_review",
+      "verification_reason": "While anti-sugar sentiment exists, the specific \"caramelizing your body\" narrative isn't a major circulating misconception.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition",
+        "Aging"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        },
+        {
+          "name": "Strategies to Limit Sugar-Sweetened Beverage Consumption in Young Children: Proceedings of a Workshop�in Brief (2018)",
+          "url": "https://www.nationalacademies.org/publications/24897"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: How eating sugar can ‘caramelize’ the inside of your body — and speed up aging",
+          "origin": "STM — NY Post",
+          "url": "https://nypost.com/2026/04/06/health/how-eating-sugar-can-caramelize-the-inside-of-your-body-and-speed-up-aging/",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Meal Timing Matters for Biological Aging",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/10/meal_timing_matters_for_biological_aging_1175702.html",
+          "date": "2026-04-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 2,
+      "readiness_summary": "2 NASEM sources, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
       "id": "humans_grow_food_moon_mars",
@@ -10394,6 +10615,51 @@
       "newest_source_year": 2019,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "quantum_computers_lose_most_computational",
+      "question": "Do quantum computers lose most of their computational work due to fundamental flaws?",
+      "priority": "low",
+      "rationale": "Clarifies quantum decoherence and error correction challenges vs. fundamental viability",
+      "misinformation_narrative": "Reports suggest quantum computers are fundamentally unreliable and 'forget' most of their work, undermining confidence in the technology",
+      "public_stakes": "Misunderstanding quantum computing limitations may prevent appropriate investment in research or create unrealistic expectations",
+      "verification_status": "needs_review",
+      "verification_reason": "Quantum computing reliability concerns exist in tech circles but aren't framed as computers \"forgetting their work\" in public discourse.",
+      "tags": [
+        "Technology",
+        "Physics"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers keep losing data. This breakthrough finally tracks it",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407193857.htm",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists find quantum computers forget most of their work",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260406045126.htm",
+          "date": "2026-04-09"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "sugar_consumption_before_age_completely",
@@ -13560,6 +13826,240 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "statin_medications_cause_widespread_muscle",
+      "question": "Do statin medications cause widespread muscle damage and other serious side effects?",
+      "priority": "high",
+      "rationale": "Addresses widespread statin phobia based on anecdotal reports while evidence shows muscle pain is largely nocebo effect and serious side effects are rare",
+      "misinformation_narrative": "Many people believe statins cause dangerous muscle damage, memory loss, and other severe side effects in most users, leading them to avoid life-saving cholesterol medication",
+      "public_stakes": "People avoid statins due to exaggerated side effect fears, missing out on proven cardiovascular protection that could prevent heart attacks and strokes",
+      "verification_status": "verified",
+      "verification_reason": "Widespread statin skepticism exists across social media, health forums, and even some medical professionals, with many patients refusing prescriptions due to exaggerated side effect fears.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official safety communication detailing statin side effects including muscle-related adverse events and their frequency",
+          "relevance": "Provides authoritative data on actual incidence rates of statin-related muscle damage and other side effects"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining benefits and harms of statins including comprehensive analysis of adverse effects",
+          "relevance": "Provides evidence-based analysis of statin safety profile from randomized controlled trials"
+        },
+        {
+          "organization": "American College of Cardiology/American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Clinical practice guideline that addresses statin safety, including muscle symptoms and risk factors",
+          "relevance": "Provides clinical evidence on statin-associated muscle symptoms and management recommendations"
+        },
+        {
+          "organization": "NIH National Institute for Health and Care Excellence (NICE)",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nice.org.uk/guidance/cg181",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Cardiovascular disease: risk assessment and reduction, including lipid modification",
+          "description": "Clinical guideline addressing statin use and safety considerations including muscle-related side effects",
+          "relevance": "Provides evidence-based guidance on statin safety and management of adverse effects"
+        },
+        {
+          "organization": "European Medicines Agency",
+          "organization_full": "European Medicines Agency",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Article-31 referral: Statins - Review confirms rare risk of muscle effects",
+          "description": "EMA's safety review of statins confirming the actual risk levels of muscle-related adverse effects",
+          "relevance": "Provides regulatory assessment of statin safety profile based on comprehensive review of clinical data"
+        }
+      ],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "pesticide_residues_conventional_produce_dangerous",
+      "question": "Are pesticide residues on conventional produce dangerous to children's health?",
+      "priority": "high",
+      "rationale": "Addresses EWG Dirty Dozen fears while evidence shows residues are far below safety thresholds",
+      "misinformation_narrative": "Parents believe pesticide residues on conventional fruits and vegetables pose serious health risks to children, leading to expensive organic-only diets or reduced produce consumption",
+      "public_stakes": "Fear of pesticide residues may cause families to reduce fruit and vegetable intake or strain budgets buying only organic, when conventional produce is safe and beneficial",
+      "verification_status": "verified",
+      "verification_reason": "The \"Dirty Dozen\" list and organic marketing have created genuine parental anxiety about conventional produce safety, widely discussed in parenting groups and health blogs.",
+      "tags": [
+        "Health and Medicine",
+        "Food Safety",
+        "Child Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Food: How We Test for Safety",
+          "description": "EPA's comprehensive overview of how pesticide residues on food are regulated and assessed for safety, including specific considerations for children",
+          "relevance": "Directly addresses pesticide residue safety standards and children's exposure"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residue Monitoring Program Annual Report",
+          "description": "FDA's annual monitoring data on actual pesticide residue levels found on food compared to safety limits",
+          "relevance": "Provides real-world data on pesticide residue levels children are exposed to through food"
+        },
+        {
+          "organization": "AAP",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://pediatrics.aappublications.org/content/130/5/e1406",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Organic Foods: Health and Environmental Advantages and Disadvantages",
+          "description": "American Academy of Pediatrics clinical report examining pesticide residues and health effects in children",
+          "relevance": "Medical professional guidance specifically addressing pesticide exposure risks for children"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/groups/joint-fao-who-meeting-on-pesticide-residues-(jmpr)",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO/FAO Joint Meeting on Pesticide Residues (JMPR) Reports",
+          "description": "International expert evaluations of pesticide residue safety including acceptable daily intake levels for various populations",
+          "relevance": "Global authority assessments of pesticide safety thresholds relevant to children's exposure"
+        },
+        {
+          "organization": "EWG",
+          "organization_full": "EWG",
+          "base_url": "",
+          "url": "https://www.ewg.org/foodnews/dirty-dozen.php",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Dirty Dozen and Clean Fifteen Lists",
+          "description": "Environmental Working Group's annual analysis of USDA pesticide residue data on conventional produce",
+          "relevance": "Consumer-focused interpretation of government pesticide residue data with risk assessments"
+        },
+        {
+          "organization": "WHO/FAO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/en/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Codex Alimentarius: Pesticide Residues in Food and Feed",
+          "description": "International food safety standards for pesticide residues, including acceptable daily intake levels and acute reference doses",
+          "relevance": "Provides international scientific consensus on safe levels of pesticide residues in food based on health risk assessments"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Organic Foods: Health and Environmental Advantages and Disadvantages",
+          "description": "AAP policy statement examining pesticide residue risks in conventional vs organic foods specifically for children",
+          "relevance": "Medical organization's evidence-based assessment of pesticide residue health risks specifically for pediatric populations"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241549721",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Guidelines on Use of Pesticides in Agriculture and Public Health",
+          "description": "WHO's international guidelines including acceptable daily intake levels and special considerations for vulnerable populations including children",
+          "relevance": "Provides international health standards for pesticide exposure limits with specific attention to children's vulnerability"
+        },
+        {
+          "organization": "WHO/FAO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Joint Meeting on Pesticide Residues (JMPR) Reports",
+          "description": "International expert evaluations of pesticide residue safety including acceptable daily intake levels",
+          "relevance": "Global scientific authority on pesticide residue safety standards and risk assessment"
+        },
+        {
+          "organization": "Environmental Working Group",
+          "organization_full": "Environmental Working Group",
+          "base_url": "",
+          "url": "https://www.ewg.org/foodnews/",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Dirty Dozen and Clean Fifteen Lists",
+          "description": "Annual analysis of USDA pesticide residue data ranking produce by contamination levels",
+          "relevance": "Consumer-focused analysis of pesticide residue levels on specific fruits and vegetables"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-11",
+      "times_seen": 4,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 10 alternative sources identified"
+    },
+    {
       "id": "statin_medications_cause_serious_muscle",
       "question": "Do statin medications cause serious muscle damage and memory problems?",
       "priority": "high",
@@ -14011,129 +14511,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "pesticide_residues_conventional_produce_dangerous",
-      "question": "Are pesticide residues on conventional produce dangerous for children?",
-      "priority": "high",
-      "rationale": "This directly counters the widespread EWG misinformation that causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' according to EPA/FDA positions.",
-      "misinformation_narrative": "Many parents believe the EWG's 'Dirty Dozen' list means conventional produce with pesticide residues poses significant health risks to children, leading them to avoid healthy fruits and vegetables or spend unnecessarily on organic alternatives when residue levels are far below safety thresholds.",
-      "public_stakes": "Children may consume fewer fruits and vegetables due to parental fear, potentially leading to nutritional deficiencies and increased disease risk. Families may experience financial strain buying organic when conventional produce is equally safe.",
-      "verification_status": "verified",
-      "verification_reason": "The EWG's Dirty Dozen list is widely shared on parenting Facebook groups and wellness blogs, causing documented anxiety among parents about conventional produce.",
-      "tags": [
-        "Health and Medicine",
-        "Public Health",
-        "Food Safety"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticides and Food: How We Test for Safety",
-          "description": "EPA's comprehensive overview of how pesticide residues on food are regulated and assessed for safety, including specific considerations for children",
-          "relevance": "Directly addresses pesticide residue safety standards and children's exposure"
-        },
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticide Residue Monitoring Program Annual Report",
-          "description": "FDA's annual monitoring data on actual pesticide residue levels found on food compared to safety limits",
-          "relevance": "Provides real-world data on pesticide residue levels children are exposed to through food"
-        },
-        {
-          "organization": "AAP",
-          "organization_full": "American Academy of Pediatrics",
-          "base_url": "https://www.aap.org",
-          "url": "https://pediatrics.aappublications.org/content/130/5/e1406",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Organic Foods: Health and Environmental Advantages and Disadvantages",
-          "description": "American Academy of Pediatrics clinical report examining pesticide residues and health effects in children",
-          "relevance": "Medical professional guidance specifically addressing pesticide exposure risks for children"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/groups/joint-fao-who-meeting-on-pesticide-residues-(jmpr)",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "WHO/FAO Joint Meeting on Pesticide Residues (JMPR) Reports",
-          "description": "International expert evaluations of pesticide residue safety including acceptable daily intake levels for various populations",
-          "relevance": "Global authority assessments of pesticide safety thresholds relevant to children's exposure"
-        },
-        {
-          "organization": "EWG",
-          "organization_full": "EWG",
-          "base_url": "",
-          "url": "https://www.ewg.org/foodnews/dirty-dozen.php",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Dirty Dozen and Clean Fifteen Lists",
-          "description": "Environmental Working Group's annual analysis of USDA pesticide residue data on conventional produce",
-          "relevance": "Consumer-focused interpretation of government pesticide residue data with risk assessments"
-        },
-        {
-          "organization": "WHO/FAO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/en/",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Codex Alimentarius: Pesticide Residues in Food and Feed",
-          "description": "International food safety standards for pesticide residues, including acceptable daily intake levels and acute reference doses",
-          "relevance": "Provides international scientific consensus on safe levels of pesticide residues in food based on health risk assessments"
-        },
-        {
-          "organization": "American Academy of Pediatrics",
-          "organization_full": "American Academy of Pediatrics",
-          "base_url": "https://www.aap.org",
-          "url": "https://www.aap.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Organic Foods: Health and Environmental Advantages and Disadvantages",
-          "description": "AAP policy statement examining pesticide residue risks in conventional vs organic foods specifically for children",
-          "relevance": "Medical organization's evidence-based assessment of pesticide residue health risks specifically for pediatric populations"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/9789241549721",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "WHO Guidelines on Use of Pesticides in Agriculture and Public Health",
-          "description": "WHO's international guidelines including acceptable daily intake levels and special considerations for vulnerable populations including children",
-          "relevance": "Provides international health standards for pesticide exposure limits with specific attention to children's vulnerability"
-        }
-      ],
-      "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-06",
-      "times_seen": 3,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 8 alternative sources identified"
     },
     {
       "id": "pesticides_conventional_produce_dangerous_children",
@@ -16470,6 +16847,174 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "organic_pesticides_always_safer_conventional",
+      "question": "Are organic pesticides always safer than conventional pesticides?",
+      "priority": "medium",
+      "rationale": "Challenges assumption that organic pesticides are automatically safer or more sustainable",
+      "misinformation_narrative": "Consumers believe organic pesticides are inherently safer and more environmentally friendly than conventional alternatives",
+      "public_stakes": "Misconceptions about organic vs conventional pesticides may lead to poor purchasing decisions and misunderstanding of actual environmental impacts",
+      "verification_status": "verified",
+      "verification_reason": "\"Natural equals safer\" belief about organic pesticides is widespread among organic consumers and health-conscious communities online and in marketing.",
+      "tags": [
+        "Health and Medicine",
+        "Food Safety",
+        "Environment"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Food: What You Need to Know",
+          "description": "EPA guidance that addresses safety considerations for both conventional and organic pesticides, including risk assessment processes",
+          "relevance": "Provides regulatory perspective on pesticide safety evaluation regardless of organic or conventional classification"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residue Monitoring Program",
+          "description": "FDA's monitoring data on pesticide residues in both conventional and organic foods",
+          "relevance": "Provides actual residue data that can inform comparative safety assessment"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food - Joint FAO/WHO Meeting on Pesticide Residues (JMPR)",
+          "description": "WHO's expert committee evaluations of pesticide safety that include both conventional and organic-approved substances",
+          "relevance": "International expert assessment of pesticide safety covering substances used in both farming systems"
+        },
+        {
+          "organization": "NIH/National Institute of Environmental Health Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides",
+          "description": "NIEHS overview of pesticide health effects and research findings covering various types of pesticides",
+          "relevance": "Provides health effects information for pesticides used in both conventional and organic agriculture"
+        }
+      ],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "you_safely_lower_ldl_cholesterol",
+      "question": "Can you safely lower LDL cholesterol to near-zero levels?",
+      "priority": "medium",
+      "rationale": "Addresses fears about cholesterol being 'too low' that prevent effective cardiac risk management",
+      "misinformation_narrative": "People fear that lowering cholesterol too much with medications will cause brain problems or other health issues",
+      "public_stakes": "Fear of low cholesterol prevents optimal cardiovascular treatment and maintenance of protective cholesterol levels",
+      "verification_status": "verified",
+      "verification_reason": "Fear of \"too-low cholesterol\" causing brain problems circulates in health forums and among patients who resist aggressive cholesterol treatment.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA safety communication addressing statin safety and monitoring requirements for very low LDL levels",
+          "relevance": "Addresses safety considerations when achieving very low LDL cholesterol levels with medications"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical practice guideline on cholesterol management including safety of very low LDL targets",
+          "relevance": "Provides evidence-based recommendations on LDL cholesterol targets and safety thresholds"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining statin efficacy and safety including outcomes at very low LDL levels",
+          "relevance": "Provides systematic review evidence on safety outcomes when LDL is lowered to very low levels"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "ATP IV Guidelines - 2013 ACC/AHA Guideline on the Treatment of Blood Cholesterol",
+          "description": "NIH-endorsed clinical guidelines addressing cholesterol treatment targets and safety monitoring",
+          "relevance": "Addresses clinical evidence for LDL lowering limits and safety considerations"
+        },
+        {
+          "organization": "European Medicines Agency",
+          "organization_full": "European Medicines Agency",
+          "base_url": "",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/repatha",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "PCSK9 inhibitors - Assessment report for cardiovascular outcomes",
+          "description": "EMA assessment of PCSK9 inhibitors that can achieve near-zero LDL levels, including safety data",
+          "relevance": "Regulatory assessment of drugs capable of achieving extremely low LDL levels with safety data"
+        }
+      ],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "organic_pesticides_safer_environmentally_friendly",
@@ -19835,6 +20380,101 @@
       "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
+      "id": "iron_deficiency_most_serious_nutritional",
+      "question": "Is iron deficiency the most serious nutritional concern for picky eating children?",
+      "priority": "low",
+      "rationale": "Addresses prioritization of nutritional concerns in pediatric feeding difficulties",
+      "misinformation_narrative": "Parents may focus exclusively on iron deficiency while missing other important nutritional needs in selective eaters",
+      "public_stakes": "Parents may over-supplement with unnecessary vitamins while missing iron deficiency signs, or conversely, not seek medical evaluation for legitimate iron deficiency anemia",
+      "verification_status": "needs_review",
+      "verification_reason": "This represents a knowledge gap rather than active misinformation; parents aren't specifically fixated on iron while ignoring other nutrients.",
+      "tags": [
+        "Health and Medicine",
+        "Child Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Clinical Report: The Use of Complementary and Alternative Medicine in Pediatrics",
+          "description": "AAP clinical report discussing nutritional concerns in children with feeding difficulties and picky eating behaviors",
+          "relevance": "Addresses multiple nutritional deficiencies in picky eaters, including iron, zinc, and vitamins, allowing comparison of severity"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/nutrition-report/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Nutrition Report: Second National Report on Biochemical Indicators of Diet and Nutrition",
+          "description": "CDC's comprehensive report on nutritional status of US population including children, with data on iron deficiency prevalence",
+          "relevance": "Provides population-level data on iron deficiency rates in children to assess if it's the most serious concern"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Feeding and nutrition of infants and young children: Guidelines for the WHO European Region",
+          "description": "WHO guidelines addressing nutritional concerns in young children with feeding difficulties",
+          "relevance": "Discusses relative importance of various nutritional deficiencies including iron, zinc, and vitamins in children with restricted diets"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Iron supplementation for improving psychomotor development and cognitive function in children under the age of three with iron deficiency anaemia",
+          "description": "Cochrane systematic review examining iron deficiency impacts in young children",
+          "relevance": "Provides evidence-based assessment of iron deficiency consequences to evaluate severity compared to other nutritional concerns"
+        },
+        {
+          "organization": "NIH National Institute of Child Health and Human Development",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "What are common feeding problems in children?",
+          "description": "NICHD resource discussing various nutritional and feeding concerns in children including picky eating",
+          "relevance": "Addresses multiple nutritional deficiencies associated with picky eating to determine relative importance of iron deficiency"
+        }
+      ],
+      "discovered_at": "2026-04-05",
+      "last_seen": "2026-04-11",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "identical_twins_distinguished_through_dna",
       "question": "Can identical twins be distinguished through DNA testing for legal purposes?",
       "priority": "low",
@@ -21797,6 +22437,96 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "bird_flu_vaccines_dairy_cattle",
+      "question": "Are bird flu vaccines for dairy cattle unnecessary or dangerous?",
+      "priority": "low",
+      "rationale": "Addresses vaccine misinformation in agricultural context with public health implications",
+      "misinformation_narrative": "Vaccine hesitancy extends to livestock vaccination, with claims that bird flu vaccines for cattle are unnecessary or harmful",
+      "public_stakes": "Preventing cattle vaccination could allow bird flu spread in dairy herds, potentially leading to human transmission and food supply disruption",
+      "verification_status": "needs_review",
+      "verification_reason": "Livestock vaccine hesitancy exists but bird flu vaccines for cattle specifically isn't a major public misinformation narrative.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Agriculture"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Why experts say now is the time to vaccinate US dairy cattle against bird flu",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-experts-vaccinate-dairy-cattle-bird.html",
+          "date": "2026-04-10"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Center for Veterinary Medicine - Avian Influenza Vaccines",
+          "description": "FDA guidance on veterinary vaccines for avian influenza, including safety and efficacy requirements",
+          "relevance": "Provides regulatory framework and safety assessment for bird flu vaccines in animals"
+        },
+        {
+          "organization": "USDA APHIS",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.usda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Highly Pathogenic Avian Influenza Response Plan - The Red Book",
+          "description": "USDA's comprehensive response plan for avian influenza outbreaks including vaccination strategies",
+          "relevance": "Details official protocols for HPAI management including when vaccines are recommended for livestock"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Avian Influenza A Virus Infections in Humans",
+          "description": "CDC information on bird flu transmission and prevention measures including animal vaccination",
+          "relevance": "Addresses public health rationale for animal vaccination to prevent zoonotic transmission"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic)",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Avian Influenza - Fact Sheet",
+          "description": "WHO fact sheet on avian influenza including prevention and control measures",
+          "relevance": "International health perspective on managing avian influenza in animal populations"
+        },
+        {
+          "organization": "OIE (World Organisation for Animal Health)",
+          "organization_full": "OIE (World Organisation for Animal Health)",
+          "base_url": "",
+          "url": "https://www.woah.org/en/disease/avian-influenza/",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Avian Influenza Portal - Vaccination",
+          "description": "International animal health standards for avian influenza control including vaccination guidelines",
+          "relevance": "Global veterinary standards for safe and effective use of AI vaccines in livestock"
+        }
+      ],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {

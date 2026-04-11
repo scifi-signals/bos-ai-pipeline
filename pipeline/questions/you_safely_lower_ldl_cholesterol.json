@@ -1,0 +1,57 @@
+{
+  "id": "you_safely_lower_ldl_cholesterol",
+  "question": "Can you safely lower LDL cholesterol to near-zero levels?",
+  "topic": "Addresses fears about cholesterol being 'too low' that prevent effective cardiac risk management",
+  "tags": [
+    "Health and Medicine",
+    "Cardiovascular Health"
+  ],
+  "sources": [
+    {
+      "name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol — American Heart Association",
+      "url": "https://www.heart.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Statins for the primary prevention of cardiovascular disease — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "ATP IV Guidelines - 2013 ACC/AHA Guideline on the Treatment of Blood Cholesterol — NIH/NHLBI",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "PCSK9 inhibitors - Assessment report for cardiovascular outcomes — European Medicines Agency",
+      "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/repatha",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Babies are born with essentially zero LDL cholesterol—needs verification of baseline pediatric cholesterol values",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    }
+  ]
+}

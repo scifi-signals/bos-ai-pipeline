@@ -1,0 +1,51 @@
+{
+  "id": "bird_flu_vaccines_dairy_cattle",
+  "question": "Are bird flu vaccines for dairy cattle unnecessary or dangerous?",
+  "topic": "Addresses vaccine misinformation in agricultural context with public health implications",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Agriculture"
+  ],
+  "sources": [
+    {
+      "name": "Center for Veterinary Medicine - Avian Influenza Vaccines — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Highly Pathogenic Avian Influenza Response Plan - The Red Book — USDA APHIS",
+      "url": "https://www.usda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Avian Influenza A Virus Infections in Humans — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Avian Influenza - Fact Sheet — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/influenza-(avian-and-other-zoonotic)",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Avian Influenza Portal - Vaccination — OIE (World Organisation for Animal Health)",
+      "url": "https://www.woah.org/en/disease/avian-influenza/",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Why experts say now is the time to vaccinate US dairy cattle against bird flu",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-experts-vaccinate-dairy-cattle-bird.html",
+      "date": "2026-04-10"
+    }
+  ]
+}

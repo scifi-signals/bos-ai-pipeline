@@ -1,0 +1,33 @@
+{
+  "id": "quantum_computers_lose_most_computational",
+  "question": "Do quantum computers lose most of their computational work due to fundamental flaws?",
+  "topic": "Clarifies quantum decoherence and error correction challenges vs. fundamental viability",
+  "tags": [
+    "Technology",
+    "Physics"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Quantum computers keep losing data. This breakthrough finally tracks it",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260407193857.htm",
+      "date": "2026-04-08"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Scientists find quantum computers forget most of their work",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260406045126.htm",
+      "date": "2026-04-09"
+    }
+  ]
+}
