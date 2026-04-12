@@ -1,0 +1,85 @@
+{
+  "id": "climate_change_hoax_natural_variation",
+  "question": "Is climate change a hoax or natural variation?",
+  "topic": "IPCC reports provide overwhelming evidence for human-caused climate change and economic benefits of ",
+  "tags": [
+    "Climate Change",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://www.nationalacademies.org/publications/25733",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence and Causes",
+      "url": "https://www.nationalacademies.org/publications/18730",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Advancing the Science of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12782",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence, Impacts, and Choices: PDF Booklet",
+      "url": "https://www.nationalacademies.org/publications/14673",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Informing an Effective Response to Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12784",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: ‘Net zero’ isn’t madness: the staggering economic costs of climate change",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01020-x",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: New Hampshire ski industry concerned about climate change",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-hampshire-industry-climate.html",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Water conservation works, but climate change is outpacing it: Phoenix, Denver and Las Vegas offer a glimpse of the future",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/water-conservation-works-but-climate-change-is-outpacing-it-phoenix-denver-and-las-vegas-offer-a-glimpse-of-the-future-279837",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate Change Denial Sees a Resurgence in Trump’s Washington",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/04/09/climate/climate-change-deniers-trump.html",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Cod and chips are off the menu! Scientists call for Brits to ditch the seaside staple as stocks plummet due to overfishing and climate change",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15715343/Cod-chips-menu-stocks-overfishing-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate change is outpacing evolution. Scientists are using DNA to catch up",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-climate-outpacing-evolution-scientists-dna.html",
+      "date": "2026-04-10"
+    }
+  ]
+}

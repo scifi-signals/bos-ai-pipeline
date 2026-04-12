@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-11T12:09:47Z",
+  "generated_at": "2026-04-12T12:10:25Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -363,6 +363,148 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "should_parents_force_children_eat",
+      "question": "Should parents force children to eat certain foods or clean their plates?",
+      "priority": "high",
+      "rationale": "Pediatric feeding research shows responsive feeding practices are more effective than forcing",
+      "misinformation_narrative": "Traditional parenting advice suggests forcing children to eat or clean their plates, but this can create feeding problems and unhealthy relationships with food",
+      "public_stakes": "Forced feeding can lead to eating disorders, power struggles, and long-term feeding difficulties",
+      "verification_status": "verified",
+      "verification_reason": "Parenting forums, pediatrician advice columns, and older generation family members commonly advocate forcing children to eat disliked foods.",
+      "tags": [
+        "Child Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Parenting Matters: Supporting Parents of Children Ages 0-8 (2016)",
+          "url": "https://www.nationalacademies.org/publications/21868"
+        },
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Bright Futures: Guidelines for Health Supervision of Infants, Children, and Adolescents",
+          "description": "Comprehensive pediatric guidelines that include evidence-based recommendations on feeding practices and addressing food refusal in children",
+          "relevance": "Contains specific guidance on responsive feeding practices and avoiding coercive feeding strategies"
+        },
+        {
+          "organization": "Academy of Nutrition and Dietetics",
+          "organization_full": "Academy of Nutrition and Dietetics",
+          "base_url": "",
+          "url": "https://academylogin.org/saml/Error/",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Position Paper: Nutrition Guidance for Healthy Children Ages 2 to 11 Years",
+          "description": "Evidence-based position paper on child nutrition that addresses feeding practices and food acceptance strategies",
+          "relevance": "Provides professional recommendations on non-coercive approaches to encouraging healthy eating in children"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochrane.org/evidence/CD012008_parent-only-interventions-childhood-overweight-or-obesity-children-aged-5-11-years",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Parent-only interventions for childhood overweight or obesity in children aged 5 to 11 years",
+          "description": "Systematic review examining evidence on parental feeding strategies and their effectiveness",
+          "relevance": "Reviews research evidence on various parental feeding approaches including restrictive versus responsive feeding"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241597494",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Infant and young child feeding: Model Chapter for textbooks for medical students and allied health professionals",
+          "description": "WHO guidelines on feeding practices for infants and young children, including responsive feeding principles",
+          "relevance": "Establishes evidence-based principles for child feeding that emphasize responsive rather than forced feeding"
+        },
+        {
+          "organization": "NIH National Institute of Mental Health",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Eating Disorders in Children and Adolescents: Information for Parents and Caregivers",
+          "description": "NIMH resource addressing feeding difficulties and eating behaviors in children",
+          "relevance": "Discusses how coercive feeding practices can contribute to problematic eating behaviors and food aversion"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Division of Nutrition, Physical Activity, and Obesity - Child Nutrition",
+          "description": "CDC resources on child nutrition including evidence-based feeding recommendations",
+          "relevance": "Provides public health perspective on effective child feeding strategies"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Interventions for increasing fruit and vegetable consumption in children aged five years and under",
+          "description": "Systematic review examining effectiveness of various strategies to increase fruit and vegetable intake in young children",
+          "relevance": "Meta-analysis of interventions including forced feeding approaches and their effectiveness on child nutrition outcomes"
+        },
+        {
+          "organization": "USDA",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.usda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Child and Adult Care Food Program (CACFP) Best Practices",
+          "description": "USDA evidence-based feeding practices for child care settings including guidance on food refusal",
+          "relevance": "Federal guidelines on appropriate feeding practices that address forcing children to eat"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9241562218",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Complementary feeding: family foods for breastfed children",
+          "description": "WHO guidelines on appropriate feeding practices for children including responsive feeding approaches",
+          "relevance": "International evidence-based recommendations on child feeding that address coercive feeding practices"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-12",
+      "times_seen": 5,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "early_introduction_allergenic_foods_like",
@@ -1407,6 +1549,95 @@
       "readiness_summary": "5 NASEM sources, most recent 2020 · confirmed misinformation · 6 discovery signals"
     },
     {
+      "id": "climate_change_hoax_natural_variation",
+      "question": "Is climate change a hoax or natural variation?",
+      "priority": "high",
+      "rationale": "IPCC reports provide overwhelming evidence for human-caused climate change and economic benefits of action",
+      "misinformation_narrative": "Climate denial narratives claim climate change is natural variation, a hoax, or economically devastating to address",
+      "public_stakes": "Climate denial undermines support for necessary mitigation and adaptation measures",
+      "verification_status": "verified",
+      "verification_reason": "Climate denial narratives about hoaxes and natural variation circulate extensively on conservative media, social platforms, and climate skeptic websites.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        },
+        {
+          "name": "Climate Change: Evidence, Impacts, and Choices: PDF Booklet (2012)",
+          "url": "https://www.nationalacademies.org/publications/14673"
+        },
+        {
+          "name": "Informing an Effective Response to Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12784"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: ‘Net zero’ isn’t madness: the staggering economic costs of climate change",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01020-x",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: New Hampshire ski industry concerned about climate change",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-hampshire-industry-climate.html",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Water conservation works, but climate change is outpacing it: Phoenix, Denver and Las Vegas offer a glimpse of the future",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/water-conservation-works-but-climate-change-is-outpacing-it-phoenix-denver-and-las-vegas-offer-a-glimpse-of-the-future-279837",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate Change Denial Sees a Resurgence in Trump’s Washington",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/04/09/climate/climate-change-deniers-trump.html",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Cod and chips are off the menu! Scientists call for Brits to ditch the seaside staple as stocks plummet due to overfishing and climate change",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15715343/Cod-chips-menu-stocks-overfishing-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate change is outpacing evolution. Scientists are using DNA to catch up",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-climate-outpacing-evolution-scientists-dna.html",
+          "date": "2026-04-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 5,
+      "readiness_summary": "5 NASEM sources, most recent 2020 · confirmed misinformation · 5 discovery signals"
+    },
+    {
       "id": "climate_change_actually_speeding_fast",
       "question": "Is climate change actually speeding up, and how fast are we losing time to act?",
       "priority": "high",
@@ -2262,6 +2493,44 @@
       "newest_source_year": 2018,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "cigarettes_just_dangerous_regular_cigarettes",
+      "question": "Are e-cigarettes just as dangerous as regular cigarettes?",
+      "priority": "high",
+      "rationale": "While not risk-free, evidence shows e-cigarettes are significantly less harmful than combustible cigarettes for adult smokers",
+      "misinformation_narrative": "Many believe vaping is equally harmful to smoking cigarettes, preventing smokers from switching to a less harmful alternative",
+      "public_stakes": "Smokers may continue using deadlier combustible cigarettes instead of switching to less harmful alternatives",
+      "verification_status": "verified",
+      "verification_reason": "Public health messaging has created confusion about vaping risks, with many smokers believing e-cigarettes are equally dangerous as cigarettes.",
+      "tags": [
+        "Public Health",
+        "Tobacco Control"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Public Health Consequences of E-Cigarettes (2018)",
+          "url": "https://www.nationalacademies.org/publications/24952"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "cigarettes_dangerous_regular_cigarettes",
@@ -4436,6 +4705,86 @@
       "readiness_summary": "3 NASEM sources, most recent 2023 · confirmed misinformation · 6 discovery signals"
     },
     {
+      "id": "you_reverse_aging_supplements_lifestyle",
+      "question": "Can you reverse aging with supplements and lifestyle changes?",
+      "priority": "medium",
+      "rationale": "While some interventions show promise in research, many anti-aging claims lack clinical evidence for humans",
+      "misinformation_narrative": "Anti-aging industry promotes supplements and treatments claiming to reverse cellular aging, often without solid evidence",
+      "public_stakes": "People may waste money on unproven treatments or delay proven health interventions",
+      "verification_status": "verified",
+      "verification_reason": "The anti-aging supplement industry heavily promotes \"cellular age reversal\" claims on social media, podcasts, and wellness websites.",
+      "tags": [
+        "Aging",
+        "Health and Medicine"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: This method to reverse cellular ageing is about to be tested in humans",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01024-7",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists found a protein that drives brain aging — and how to stop it",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260405065236.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Your neighborhood could be aging you faster — and creating more ‘zombie cells’",
+          "origin": "STM — NY Post",
+          "url": "https://nypost.com/2026/04/09/health/your-neighborhood-could-be-aging-you-faster-creating-more-zombie-cells/",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: How eating sugar can ‘caramelize’ the inside of your body — and speed up aging",
+          "origin": "STM — NY Post",
+          "url": "https://nypost.com/2026/04/06/health/how-eating-sugar-can-caramelize-the-inside-of-your-body-and-speed-up-aging/",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: What Animals Can Teach Us About Reversing Aging",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/08/what_animals_can_teach_us_about_reversing_aging_1175270.html",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Daily briefing: A treatment to reverse cellular ageing is about to be tested in people",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01207-2",
+          "date": "2026-04-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Meal Timing Matters for Biological Aging",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/10/meal_timing_matters_for_biological_aging_1175702.html",
+          "date": "2026-04-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 4,
+      "readiness_summary": "1 NASEM source, most recent 2023 · confirmed misinformation · 4 discovery signals"
+    },
+    {
       "id": "anti_aging_supplements_like_nad",
       "question": "Can anti-aging supplements like NAD+ significantly extend human lifespan?",
       "priority": "medium",
@@ -6057,6 +6406,146 @@
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 5 discovery signals"
     },
     {
+      "id": "quantum_computers_revolutionize_everything",
+      "question": "Are quantum computers about to revolutionize everything?",
+      "priority": "medium",
+      "rationale": "Recent research shows quantum computers still lose most of their data and have limited practical applications",
+      "misinformation_narrative": "Media hype suggests quantum computers are on the verge of solving all computational problems, when they face significant limitations and data loss issues",
+      "public_stakes": "Unrealistic expectations may lead to poor technology investments and policy decisions",
+      "verification_status": "verified",
+      "verification_reason": "Tech media and business publications regularly oversell quantum computing breakthroughs, creating public expectations of imminent revolutionary changes.",
+      "tags": [
+        "Quantum Science",
+        "Technology"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25499"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: UK bets big on homegrown fusion and quantum — can it lead the world?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00877-2",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Major Turing computing award goes to quantum science for first time",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00818-z",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Computer science’s ‘Nobel Prize’ goes quantum",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/computer-science-s-nobel-prize-goes-quantum",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: MIT scientists finally see hidden quantum “jiggling” inside superconductors",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317064509.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists used 7,000 GPUs to simulate a tiny quantum chip in extreme detail",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260317064504.htm",
+          "date": "2026-03-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: You can now buy a DIY quantum computer",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists just found a hidden 48-dimensional world in quantum light",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/03/260321012705.htm",
+          "date": "2026-03-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Protected quantum gates using qubit doublons in dynamical optical lattices",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10285-1",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: High-fidelity collisional quantum gates with fermionic atoms",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10356-3",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum entanglement can be measured in solids for the first time",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522100-quantum-entanglement-can-be-measured-in-solids-for-the-first-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers keep losing data. This breakthrough finally tracks it",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407193857.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Scientists find quantum computers forget most of their work",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260406045126.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Did quantum sensors help find a U.S. pilot shot down in Iran? Experts doubt it",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/did-quantum-sensors-help-find-u-s-pilot-shot-down-iran-experts-doubt-it",
+          "date": "2026-04-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum batteries could be charged by reversing time",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522404-quantum-batteries-could-be-charged-by-reversing-time/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-03-22",
+      "last_seen": "2026-04-12",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 4,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
+    },
+    {
       "id": "quantum_computers_break_all_current",
       "question": "Will quantum computers break all current cybersecurity within the next few years?",
       "priority": "medium",
@@ -6260,97 +6749,6 @@
       "alternative_sources": [],
       "discovered_at": "2026-03-26",
       "last_seen": "2026-03-26",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2019,
-      "signal_count": 4,
-      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
-    },
-    {
-      "id": "quantum_computers_revolutionize_everything",
-      "question": "Are quantum computers about to revolutionize everything?",
-      "priority": "medium",
-      "rationale": "Provides realistic timeline and capabilities of quantum computing while acknowledging genuine advances, correcting both overhype and dismissive attitudes",
-      "misinformation_narrative": "Media hype suggests quantum computers will soon solve all computational problems and break all encryption, creating unrealistic expectations and fear",
-      "public_stakes": "Unrealistic expectations lead to poor investment decisions, while cybersecurity fears may drive premature and costly system overhauls",
-      "verification_status": "verified",
-      "verification_reason": "Tech media and business publications regularly oversell quantum computing breakthroughs, creating public expectations of imminent revolutionary changes.",
-      "tags": [
-        "Technology",
-        "Physics"
-      ],
-      "nasem_source_count": 2,
-      "nasem_sources_preview": [
-        {
-          "name": "Quantum Computing: Progress and Prospects (2019)",
-          "url": "https://www.nationalacademies.org/publications/25196"
-        },
-        {
-          "name": "Domestic Manufacturing Capabilities for Critical DoD Applications: Emerging Needs in Quantum-Enabled Systems: Proceedings of a Workshop (2019)",
-          "url": "https://www.nationalacademies.org/publications/25499"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: UK bets big on homegrown fusion and quantum — can it lead the world?",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-00877-2",
-          "date": "2026-03-19"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: Major Turing computing award goes to quantum science for first time",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-00818-z",
-          "date": "2026-03-19"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: Computer science’s ‘Nobel Prize’ goes quantum",
-          "origin": "STM — Science",
-          "url": "https://www.science.org/content/article/computer-science-s-nobel-prize-goes-quantum",
-          "date": "2026-03-19"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: The race to solve the biggest problem in quantum computing",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2518974-the-race-to-solve-the-biggest-problem-in-quantum-computing/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-03-19"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: MIT scientists finally see hidden quantum “jiggling” inside superconductors",
-          "origin": "STM — ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260317064509.htm",
-          "date": "2026-03-20"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: Scientists used 7,000 GPUs to simulate a tiny quantum chip in extreme detail",
-          "origin": "STM — ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260317064504.htm",
-          "date": "2026-03-20"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: You can now buy a DIY quantum computer",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2520214-you-can-now-buy-a-diy-quantum-computer/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-03-21"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: Scientists just found a hidden 48-dimensional world in quantum light",
-          "origin": "STM — ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/03/260321012705.htm",
-          "date": "2026-03-21"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-03-22",
-      "last_seen": "2026-03-22",
       "times_seen": 1,
       "status": "pending",
       "newest_source_year": 2019,
@@ -7425,6 +7823,44 @@
       "readiness_summary": "1 NASEM source, most recent 2008 — sources are old · confirmed misinformation · 7 discovery signals"
     },
     {
+      "id": "dietary_cholesterol_eggs_meat_main",
+      "question": "Is dietary cholesterol from eggs and meat the main cause of high blood cholesterol?",
+      "priority": "medium",
+      "rationale": "Research shows dietary cholesterol has minimal impact on blood cholesterol for most people due to genetic regulation",
+      "misinformation_narrative": "Many people believe eating cholesterol-rich foods like eggs directly raises blood cholesterol levels significantly",
+      "public_stakes": "People may unnecessarily restrict nutritious foods or focus on wrong dietary factors for heart health",
+      "verification_status": "verified",
+      "verification_reason": "The belief that dietary cholesterol directly raises blood cholesterol is a persistent misconception held by many consumers.",
+      "tags": [
+        "Nutrition",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Dietary cholesterol intake has minimal effect on serum cholesterol for most people due to genetic mediation—widely supported",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "pose_imminent_existential_threat_humanity",
       "question": "Does AI pose an imminent existential threat to humanity?",
       "priority": "medium",
@@ -7984,6 +8420,44 @@
       "readiness_summary": "3 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
+      "id": "organic_food_always_better_environment",
+      "question": "Is organic food always better for the environment than conventional farming?",
+      "priority": "low",
+      "rationale": "Environmental impact depends on specific practices and chemicals used, not just organic vs conventional labels",
+      "misinformation_narrative": "Many assume organic farming is always more environmentally friendly, when some organic pesticides may have greater environmental impact than conventional alternatives",
+      "public_stakes": "Oversimplified organic vs conventional narratives may lead to less effective environmental choices",
+      "verification_status": "verified",
+      "verification_reason": "The assumption that organic is always more environmentally friendly is a common misconception among environmentally conscious consumers.",
+      "tags": [
+        "Environment",
+        "Food Safety"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Sustainable Diets, Food, and Nutrition: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25192"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "space_exploration_just_expensive_entertainment",
       "question": "Is space exploration just expensive entertainment, or does it provide practical benefits?",
       "priority": "low",
@@ -8281,17 +8755,16 @@
     },
     {
       "id": "artificial_intelligence_spreading_dangerous_medical",
-      "question": "Is artificial intelligence spreading dangerous medical misinformation to patients?",
+      "question": "Is artificial intelligence spreading dangerous medical misinformation?",
       "priority": "low",
-      "rationale": "Addresses specific concerns about AI spreading medical misinformation while distinguishing real from overstated risks",
-      "misinformation_narrative": "Reports suggest AI systems are actively promoting fake diseases and false medical information, creating fear about AI in healthcare",
-      "public_stakes": "Unnecessary fear of AI medical tools may prevent adoption of beneficial applications while real AI safety issues go unaddressed",
+      "rationale": "Recent studies show AI systems can propagate misinformation about fabricated diseases, highlighting need for medical AI literacy",
+      "misinformation_narrative": "AI systems are being trusted to provide medical information but are spreading false claims about fake diseases and unreliable health advice",
+      "public_stakes": "People may receive incorrect medical information from AI, leading to inappropriate self-diagnosis or treatment decisions",
       "verification_status": "needs_review",
-      "verification_reason": "This conflates legitimate concerns about AI accuracy with claims of actively \"promoting fake diseases,\" which isn't a prominent public narrative.",
+      "verification_reason": "While AI medical misinformation exists, the specific framing about \"fake diseases\" sounds exaggerated rather than reflecting actual widespread public beliefs.",
       "tags": [
-        "Technology",
-        "Health and Medicine",
-        "Artificial Intelligence"
+        "Artificial Intelligence",
+        "Health Misinformation"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -8322,8 +8795,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-04-11",
-      "last_seen": "2026-04-11",
-      "times_seen": 1,
+      "last_seen": "2026-04-12",
+      "times_seen": 2,
       "status": "pending",
       "newest_source_year": 2025,
       "signal_count": 1,
@@ -8367,6 +8840,73 @@
       "newest_source_year": 2025,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2025 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "emperor_penguins_other_antarctic_species",
+      "question": "Are emperor penguins and other Antarctic species doomed to extinction?",
+      "priority": "low",
+      "rationale": "While threats are serious, conservation actions and adaptation strategies can still make a difference",
+      "misinformation_narrative": "Climate change coverage sometimes presents species extinction as inevitable, potentially reducing conservation motivation",
+      "public_stakes": "Fatalistic messaging may reduce support for conservation efforts that could still help species adapt",
+      "verification_status": "needs_review",
+      "verification_reason": "Climate coverage varies widely; this seems to exaggerate claims about \"inevitable extinction\" rather than reflecting widespread beliefs.",
+      "tags": [
+        "Conservation",
+        "Climate Change"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research (2024)",
+          "url": "https://www.nationalacademies.org/publications/27160"
+        },
+        {
+          "name": "Mid-Term Assessment of Progress on the 2015 Strategic Vision for Antarctic and Southern Ocean Research (2022)",
+          "url": "https://www.nationalacademies.org/publications/26338"
+        },
+        {
+          "name": "Antarctic Sea Ice Variability in the Southern Ocean-Climate System: Proceedings of a Workshop (2017)",
+          "url": "https://www.nationalacademies.org/publications/24696"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins added to endangered list after rapid decline",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522508-emperor-penguins-added-to-endangered-list-after-rapid-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins listed as endangered species: IUCN",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-emperor-penguins-endangered-species-iucn.html",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins are marching toward extinction. Antarctica fur seals too",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/emperor-penguins-endangered-extinction-iucn",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: I.U.C.N. Red List Moves Emperor Penguins to “Endangered”",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/04/09/climate/emperor-penguins-iucn-red-list.html",
+          "date": "2026-04-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 4,
+      "readiness_summary": "3 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 4 discovery signals"
     },
     {
       "id": "life_earth_recovered_quickly_mass",
@@ -10408,6 +10948,44 @@
       "readiness_summary": "3 NASEM sources, most recent 2020 · misinformation narrative not yet confirmed · 5 discovery signals"
     },
     {
+      "id": "whole_milk_dairy_products_harmful",
+      "question": "Are whole milk and dairy products harmful to children over age 2?",
+      "priority": "low",
+      "rationale": "Updated dietary guidelines now support whole milk beyond age 2 with evidence for nutritional benefits",
+      "misinformation_narrative": "Previous guidelines recommending low-fat milk after age 2 led some to believe whole milk is unhealthy for young children",
+      "public_stakes": "Children may miss important nutrients if parents avoid whole milk based on outdated recommendations",
+      "verification_status": "needs_review",
+      "verification_reason": "This misrepresents past low-fat recommendations as claims that whole milk is \"harmful\" rather than just less preferred.",
+      "tags": [
+        "Child Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+          "url": "https://www.nationalacademies.org/publications/25747"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Whole milk recommended beyond age 2 in new dietary guidelines with evidence support, though author notes this should be individualized with healthcare provider",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2020 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "quantum_computers_actually_revolutionary_just",
       "question": "Are quantum computers actually revolutionary or just overhyped technology?",
       "priority": "low",
@@ -10660,6 +11238,44 @@
       "newest_source_year": 2019,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "you_need_avoid_all_sugar",
+      "question": "Do you need to avoid all sugar until age 11 as recommended by health guidelines?",
+      "priority": "low",
+      "rationale": "Guidelines aim for minimal added sugar but practical implementation requires individualized approaches",
+      "misinformation_narrative": "Strict interpretation of dietary guidelines leads parents to believe any added sugar before age 11 is harmful, creating unrealistic expectations",
+      "public_stakes": "Overly restrictive approaches may backfire and create unhealthy relationships with food",
+      "verification_status": "needs_review",
+      "verification_reason": "This appears to misrepresent actual health guidelines and creates a straw man about \"avoiding all sugar until 11.\"",
+      "tags": [
+        "Child Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Strategies to Limit Sugar-Sweetened Beverage Consumption in Young Children: Proceedings of a Workshop�in Brief (2018)",
+          "url": "https://www.nationalacademies.org/publications/24897"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Avoiding all added sugars until age 11 is recommended but 'not realistic for many families' - practical vs. ideal recommendations distinction",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "sugar_consumption_before_age_completely",
@@ -11584,148 +12200,6 @@
       "newest_source_year": 2002,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2002 — sources are old · misinformation narrative not yet confirmed · 2 discovery signals"
-    },
-    {
-      "id": "should_parents_force_children_eat",
-      "question": "Should parents force children to eat foods they refuse, and does this improve their nutrition?",
-      "priority": "high",
-      "rationale": "Addresses common but harmful parenting practices around feeding that can lead to long-term eating problems",
-      "misinformation_narrative": "Many parents believe forcing children to eat rejected foods will improve their nutrition and reduce pickiness, when research shows this typically results in power struggles and is counterproductive to healthy eating habits",
-      "public_stakes": "Forced feeding can create negative food associations, worsen eating disorders, and damage parent-child relationships around food",
-      "verification_status": "verified",
-      "verification_reason": "Parenting forums, pediatrician advice columns, and older generation family members commonly advocate forcing children to eat disliked foods.",
-      "tags": [
-        "Child Development",
-        "Nutrition"
-      ],
-      "nasem_source_count": 2,
-      "nasem_sources_preview": [
-        {
-          "name": "Parenting Matters: Supporting Parents of Children Ages 0-8 (2016)",
-          "url": "https://www.nationalacademies.org/publications/21868"
-        },
-        {
-          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
-          "url": "https://www.nationalacademies.org/publications/27239"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "American Academy of Pediatrics",
-          "organization_full": "American Academy of Pediatrics",
-          "base_url": "https://www.aap.org",
-          "url": "https://www.aap.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Bright Futures: Guidelines for Health Supervision of Infants, Children, and Adolescents",
-          "description": "Comprehensive pediatric guidelines that include evidence-based recommendations on feeding practices and addressing food refusal in children",
-          "relevance": "Contains specific guidance on responsive feeding practices and avoiding coercive feeding strategies"
-        },
-        {
-          "organization": "Academy of Nutrition and Dietetics",
-          "organization_full": "Academy of Nutrition and Dietetics",
-          "base_url": "",
-          "url": "https://academylogin.org/saml/Error/",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Position Paper: Nutrition Guidance for Healthy Children Ages 2 to 11 Years",
-          "description": "Evidence-based position paper on child nutrition that addresses feeding practices and food acceptance strategies",
-          "relevance": "Provides professional recommendations on non-coercive approaches to encouraging healthy eating in children"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochrane.org/evidence/CD012008_parent-only-interventions-childhood-overweight-or-obesity-children-aged-5-11-years",
-          "url_verified": true,
-          "tier": 1,
-          "resource_name": "Parent-only interventions for childhood overweight or obesity in children aged 5 to 11 years",
-          "description": "Systematic review examining evidence on parental feeding strategies and their effectiveness",
-          "relevance": "Reviews research evidence on various parental feeding approaches including restrictive versus responsive feeding"
-        },
-        {
-          "organization": "World Health Organization",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/9789241597494",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Infant and young child feeding: Model Chapter for textbooks for medical students and allied health professionals",
-          "description": "WHO guidelines on feeding practices for infants and young children, including responsive feeding principles",
-          "relevance": "Establishes evidence-based principles for child feeding that emphasize responsive rather than forced feeding"
-        },
-        {
-          "organization": "NIH National Institute of Mental Health",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Eating Disorders in Children and Adolescents: Information for Parents and Caregivers",
-          "description": "NIMH resource addressing feeding difficulties and eating behaviors in children",
-          "relevance": "Discusses how coercive feeding practices can contribute to problematic eating behaviors and food aversion"
-        },
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Division of Nutrition, Physical Activity, and Obesity - Child Nutrition",
-          "description": "CDC resources on child nutrition including evidence-based feeding recommendations",
-          "relevance": "Provides public health perspective on effective child feeding strategies"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Interventions for increasing fruit and vegetable consumption in children aged five years and under",
-          "description": "Systematic review examining effectiveness of various strategies to increase fruit and vegetable intake in young children",
-          "relevance": "Meta-analysis of interventions including forced feeding approaches and their effectiveness on child nutrition outcomes"
-        },
-        {
-          "organization": "USDA",
-          "organization_full": "U.S. Department of Agriculture",
-          "base_url": "https://www.usda.gov",
-          "url": "https://www.usda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Child and Adult Care Food Program (CACFP) Best Practices",
-          "description": "USDA evidence-based feeding practices for child care settings including guidance on food refusal",
-          "relevance": "Federal guidelines on appropriate feeding practices that address forcing children to eat"
-        },
-        {
-          "organization": "World Health Organization",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/9241562218",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Complementary feeding: family foods for breastfed children",
-          "description": "WHO guidelines on appropriate feeding practices for children including responsive feeding approaches",
-          "relevance": "International evidence-based recommendations on child feeding that address coercive feeding practices"
-        }
-      ],
-      "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-07",
-      "times_seen": 4,
-      "status": "nasem_gap",
-      "newest_source_year": 2024,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 9 alternative sources identified"
     },
     {
       "id": "should_parents_avoid_giving_peanuts",
@@ -12751,6 +13225,137 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 4,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "miracle_cures_hidden_treatments_cancer",
+      "question": "Are there miracle cures or hidden treatments for cancer being suppressed?",
+      "priority": "high",
+      "rationale": "While research continues on nutrients and cancer, no hidden cures exist and standard treatments remain most effective",
+      "misinformation_narrative": "Conspiracy theories claim that simple nutrients or treatments can cure cancer but are being suppressed by medical establishments",
+      "public_stakes": "Cancer patients may delay or refuse proven treatments in favor of ineffective alternatives",
+      "verification_status": "verified",
+      "verification_reason": "Cancer cure conspiracy theories about suppressed treatments are pervasive on alternative health websites, social media, and wellness communities.",
+      "tags": [
+        "Cancer",
+        "Health Misinformation"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Author Correction: Oncogene ablation-resistant pancreatic cancer cells depend on mitochondrial function",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10488-6",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Tumour trap: engineered enhancer sequences enlisted to kill cancer cells",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00812-5",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: New drugs take aim at one of cancer’s deadliest mutations",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01016-7",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists solve 30-year mystery of a hidden nutrient that protects the brain and fights cancer",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260407004815.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: This “master gene” may be driving pancreatic cancer’s spread",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260406192919.htm",
+          "date": "2026-04-09"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Roaming gangs of tumor cells help spread cancer. Can drugs break them up?",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/roaming-gangs-tumor-cells-help-spread-cancer-can-drugs-break-them",
+          "date": "2026-04-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: A common nutrient could supercharge cancer treatment",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260410083114.htm",
+          "date": "2026-04-10"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "National Cancer Institute (NIH)",
+          "organization_full": "National Cancer Institute (NIH)",
+          "base_url": "",
+          "url": "https://www.cancer.gov/about-cancer/treatment/cam",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Complementary and Alternative Medicine",
+          "description": "NCI's comprehensive overview of alternative cancer treatments, including discussion of unproven therapies and why rigorous testing is necessary",
+          "relevance": "Addresses claims about alternative treatments and explains the scientific process for evaluating cancer therapies"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fraudulent Cancer Products",
+          "description": "FDA's dedicated page warning about fraudulent cancer cures and explaining how legitimate treatments are approved",
+          "relevance": "Directly addresses fraudulent cancer cure claims and explains regulatory oversight of cancer treatments"
+        },
+        {
+          "organization": "American Cancer Society",
+          "organization_full": "American Cancer Society",
+          "base_url": "https://www.cancer.org",
+          "url": "https://www.cancer.org/cancer/managing-cancer/how-to-interpret-news-about-new-cancer-treatments.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Questionable Methods of Cancer Management",
+          "description": "ACS guidance on evaluating new cancer treatments and avoiding unproven therapies",
+          "relevance": "Provides framework for evaluating cancer treatment claims and discusses why some treatments may appear suppressed"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Cancer - Key Facts",
+          "description": "WHO's official fact sheet on cancer including proven prevention and treatment approaches",
+          "relevance": "Establishes the evidence-based consensus on effective cancer treatments from a global health perspective"
+        },
+        {
+          "organization": "National Cancer Institute (NIH)",
+          "organization_full": "National Cancer Institute (NIH)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "How Cancer Drugs Are Approved",
+          "description": "Detailed explanation of the rigorous process for testing and approving cancer treatments",
+          "relevance": "Explains the transparent regulatory process that would make suppression of effective treatments extremely difficult"
+        }
+      ],
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -13826,14 +14431,14 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
-      "id": "statin_medications_cause_widespread_muscle",
-      "question": "Do statin medications cause widespread muscle damage and other serious side effects?",
+      "id": "cholesterol_lowering_statin_medications_dangerous",
+      "question": "Are cholesterol-lowering statin medications dangerous and ineffective?",
       "priority": "high",
-      "rationale": "Addresses widespread statin phobia based on anecdotal reports while evidence shows muscle pain is largely nocebo effect and serious side effects are rare",
-      "misinformation_narrative": "Many people believe statins cause dangerous muscle damage, memory loss, and other severe side effects in most users, leading them to avoid life-saving cholesterol medication",
-      "public_stakes": "People avoid statins due to exaggerated side effect fears, missing out on proven cardiovascular protection that could prevent heart attacks and strokes",
+      "rationale": "Direct contradiction of anti-statin misinformation with 26+ RCTs showing clear cardiovascular benefits and minimal side effects",
+      "misinformation_narrative": "Many people believe statins cause widespread muscle damage, memory problems, and other serious side effects while providing no real cardiovascular benefits, leading them to avoid potentially life-saving medications",
+      "public_stakes": "Millions avoid statins due to fear, increasing risk of heart attacks and strokes that could be prevented",
       "verification_status": "verified",
-      "verification_reason": "Widespread statin skepticism exists across social media, health forums, and even some medical professionals, with many patients refusing prescriptions due to exaggerated side effect fears.",
+      "verification_reason": "Anti-statin sentiment is widespread on health forums, social media, and promoted by some alternative medicine practitioners who claim statins are dangerous and ineffective.",
       "tags": [
         "Health and Medicine",
         "Cardiovascular Health"
@@ -13858,8 +14463,8 @@
           "url_verified": false,
           "tier": 2,
           "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
-          "description": "FDA's official safety communication detailing statin side effects including muscle-related adverse events and their frequency",
-          "relevance": "Provides authoritative data on actual incidence rates of statin-related muscle damage and other side effects"
+          "description": "FDA's official safety communication on statin medications, addressing known risks and benefits",
+          "relevance": "Provides authoritative assessment of statin safety profile and effectiveness from the regulatory agency"
         },
         {
           "organization": "Cochrane",
@@ -13869,45 +14474,45 @@
           "url_verified": false,
           "tier": 1,
           "resource_name": "Statins for the primary prevention of cardiovascular disease",
-          "description": "Systematic review examining benefits and harms of statins including comprehensive analysis of adverse effects",
-          "relevance": "Provides evidence-based analysis of statin safety profile from randomized controlled trials"
+          "description": "Cochrane systematic review examining evidence for statin effectiveness in preventing cardiovascular disease",
+          "relevance": "Gold-standard systematic review directly evaluating statin effectiveness with comprehensive evidence analysis"
         },
         {
-          "organization": "American College of Cardiology/American Heart Association",
-          "organization_full": "American Heart Association",
-          "base_url": "https://www.heart.org",
-          "url": "https://www.heart.org",
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
           "url_verified": false,
           "tier": 2,
           "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
-          "description": "Clinical practice guideline that addresses statin safety, including muscle symptoms and risk factors",
-          "relevance": "Provides clinical evidence on statin-associated muscle symptoms and management recommendations"
+          "description": "Comprehensive clinical practice guidelines on cholesterol management including statin therapy recommendations",
+          "relevance": "Authoritative clinical guidelines that evaluate statin safety and efficacy evidence for treatment recommendations"
         },
         {
-          "organization": "NIH National Institute for Health and Care Excellence (NICE)",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nice.org.uk/guidance/cg181",
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
           "url_verified": true,
           "tier": 2,
-          "resource_name": "Cardiovascular disease: risk assessment and reduction, including lipid modification",
-          "description": "Clinical guideline addressing statin use and safety considerations including muscle-related side effects",
-          "relevance": "Provides evidence-based guidance on statin safety and management of adverse effects"
+          "resource_name": "WHO Model List of Essential Medicines",
+          "description": "WHO's essential medicines list includes several statin medications",
+          "relevance": "WHO inclusion of statins in essential medicines demonstrates international consensus on safety and effectiveness"
         },
         {
-          "organization": "European Medicines Agency",
-          "organization_full": "European Medicines Agency",
-          "base_url": "",
-          "url": "",
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
           "url_verified": false,
-          "tier": 3,
-          "resource_name": "Article-31 referral: Statins - Review confirms rare risk of muscle effects",
-          "description": "EMA's safety review of statins confirming the actual risk levels of muscle-related adverse effects",
-          "relevance": "Provides regulatory assessment of statin safety profile based on comprehensive review of clinical data"
+          "tier": 2,
+          "resource_name": "Million Hearts: Statin Use for the Primary Prevention of Cardiovascular Disease Among Adults",
+          "description": "CDC guidance on appropriate statin prescribing for cardiovascular disease prevention",
+          "relevance": "CDC assessment and recommendations for statin use, addressing both benefits and appropriate risk management"
         }
       ],
-      "discovered_at": "2026-04-11",
-      "last_seen": "2026-04-11",
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
       "times_seen": 1,
       "status": "nasem_gap",
       "newest_source_year": 0,
@@ -13916,15 +14521,14 @@
     },
     {
       "id": "pesticide_residues_conventional_produce_dangerous",
-      "question": "Are pesticide residues on conventional produce dangerous to children's health?",
+      "question": "Are pesticide residues on conventional produce dangerous to children?",
       "priority": "high",
-      "rationale": "Addresses EWG Dirty Dozen fears while evidence shows residues are far below safety thresholds",
-      "misinformation_narrative": "Parents believe pesticide residues on conventional fruits and vegetables pose serious health risks to children, leading to expensive organic-only diets or reduced produce consumption",
-      "public_stakes": "Fear of pesticide residues may cause families to reduce fruit and vegetable intake or strain budgets buying only organic, when conventional produce is safe and beneficial",
+      "rationale": "EPA and FDA data show pesticide residues are far below safety thresholds, while fruit/vegetable benefits far outweigh minimal pesticide risks",
+      "misinformation_narrative": "The EWG 'Dirty Dozen' list causes parents to believe conventional produce is unsafe, leading some to avoid fruits and vegetables entirely or spend unnecessarily on organic",
+      "public_stakes": "Children may consume fewer fruits and vegetables due to pesticide fears, harming their nutrition and development",
       "verification_status": "verified",
-      "verification_reason": "The \"Dirty Dozen\" list and organic marketing have created genuine parental anxiety about conventional produce safety, widely discussed in parenting groups and health blogs.",
+      "verification_reason": "The EWG's Dirty Dozen list genuinely causes parental anxiety about conventional produce safety, widely discussed in parenting groups and health blogs.",
       "tags": [
-        "Health and Medicine",
         "Food Safety",
         "Child Health"
       ],
@@ -14049,15 +14653,115 @@
           "resource_name": "Dirty Dozen and Clean Fifteen Lists",
           "description": "Annual analysis of USDA pesticide residue data ranking produce by contamination levels",
           "relevance": "Consumer-focused analysis of pesticide residue levels on specific fruits and vegetables"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food",
+          "description": "WHO fact sheet on pesticide residues, acceptable daily intake levels, and health risk assessment principles",
+          "relevance": "International health authority's guidance on pesticide residue safety standards and risk assessment"
         }
       ],
       "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-11",
-      "times_seen": 4,
+      "last_seen": "2026-04-12",
+      "times_seen": 5,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 10 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 11 alternative sources identified"
+    },
+    {
+      "id": "statin_medications_cause_widespread_muscle",
+      "question": "Do statin medications cause widespread muscle damage and other serious side effects?",
+      "priority": "high",
+      "rationale": "Addresses widespread statin phobia based on anecdotal reports while evidence shows muscle pain is largely nocebo effect and serious side effects are rare",
+      "misinformation_narrative": "Many people believe statins cause dangerous muscle damage, memory loss, and other severe side effects in most users, leading them to avoid life-saving cholesterol medication",
+      "public_stakes": "People avoid statins due to exaggerated side effect fears, missing out on proven cardiovascular protection that could prevent heart attacks and strokes",
+      "verification_status": "verified",
+      "verification_reason": "Widespread statin skepticism exists across social media, health forums, and even some medical professionals, with many patients refusing prescriptions due to exaggerated side effect fears.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official safety communication detailing statin side effects including muscle-related adverse events and their frequency",
+          "relevance": "Provides authoritative data on actual incidence rates of statin-related muscle damage and other side effects"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining benefits and harms of statins including comprehensive analysis of adverse effects",
+          "relevance": "Provides evidence-based analysis of statin safety profile from randomized controlled trials"
+        },
+        {
+          "organization": "American College of Cardiology/American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Clinical practice guideline that addresses statin safety, including muscle symptoms and risk factors",
+          "relevance": "Provides clinical evidence on statin-associated muscle symptoms and management recommendations"
+        },
+        {
+          "organization": "NIH National Institute for Health and Care Excellence (NICE)",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nice.org.uk/guidance/cg181",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Cardiovascular disease: risk assessment and reduction, including lipid modification",
+          "description": "Clinical guideline addressing statin use and safety considerations including muscle-related side effects",
+          "relevance": "Provides evidence-based guidance on statin safety and management of adverse effects"
+        },
+        {
+          "organization": "European Medicines Agency",
+          "organization_full": "European Medicines Agency",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Article-31 referral: Statins - Review confirms rare risk of muscle effects",
+          "description": "EMA's safety review of statins confirming the actual risk levels of muscle-related adverse effects",
+          "relevance": "Provides regulatory assessment of statin safety profile based on comprehensive review of clinical data"
+        }
+      ],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-11",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "statin_medications_cause_serious_muscle",
@@ -30300,6 +31004,86 @@
       "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
       "nasem_bos_url": "https://www.nationalacademies.org/news/alternative-therapies-cannot-cure-cancer",
       "nasem_bos_title": "Can cancer be successfully treated by alternative therapies alone?"
+    },
+    {
+      "id": "vaccines_causing_blood_clots_other",
+      "question": "Are vaccines causing blood clots and other serious side effects?",
+      "priority": "high",
+      "rationale": "Scientists have identified the rare mechanism behind COVID vaccine blood clots, showing they are extremely rare with clear risk-benefit favoring vaccination",
+      "misinformation_narrative": "Widespread fear that COVID vaccines and other vaccines cause dangerous blood clots and severe adverse events, leading to vaccine hesitancy",
+      "public_stakes": "Vaccine hesitancy increases disease outbreaks and preventable deaths, particularly affecting children and immunocompromised individuals",
+      "verification_status": "verified",
+      "verification_reason": "Vaccine blood clot fears circulated extensively on Facebook, Twitter, and anti-vaccine websites following rare clotting events with J&J and AstraZeneca vaccines.",
+      "tags": [
+        "Public Health",
+        "Vaccines"
+      ],
+      "nasem_source_count": 4,
+      "nasem_sources_preview": [
+        {
+          "name": "Adverse Effects of Pertussis and Rubella Vaccines (1991)",
+          "url": "https://www.nationalacademies.org/publications/1815"
+        },
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://www.nationalacademies.org/publications/10306"
+        },
+        {
+          "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality (1993)",
+          "url": "https://www.nationalacademies.org/publications/2138"
+        },
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://www.nationalacademies.org/publications/13164"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+          "date": "2026-04-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: What declining vaccination rates mean for families in Allegheny County – where 1 in 3 kindergarten classrooms lack herd immunity for measles",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/what-declining-vaccination-rates-mean-for-families-in-allegheny-county-where-1-in-3-kindergarten-classrooms-lack-herd-immunity-for-measles-277469",
+          "date": "2026-04-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: From a vaccine mascot to business leadership, lessons for the US from Brazil’s public health system in building public trust and keeping it",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/from-a-vaccine-mascot-to-business-leadership-lessons-for-the-us-from-brazils-public-health-system-in-building-public-trust-and-keeping-it-267611",
+          "date": "2026-04-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: New rules for CDC vaccine panel aim to address lawsuit, empower Kennedy’s allies",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/04/09/new-acip-charter-cdc-vaccine-advisers-rfk-jr-address-legal-defeat/?utm_campaign=rss",
+          "date": "2026-04-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: New Charter Allows RFK Jr. to Reclaim Vaccine Policy Despite Court Ruling",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/04/09/health/cdc-rfk-jr-vaccine-committee-ruling.html",
+          "date": "2026-04-11"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "times_seen": 1,
+      "status": "nasem_covered",
+      "newest_source_year": 2012,
+      "signal_count": 4,
+      "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
+      "nasem_bos_url": "https://www.nationalacademies.org/based-on-science/vaccines-are-safe",
+      "nasem_bos_title": "Are vaccines safe?"
     },
     {
       "id": "new_covid_flu_treatments_just",

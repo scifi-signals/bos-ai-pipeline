@@ -1,0 +1,59 @@
+{
+  "id": "emperor_penguins_other_antarctic_species",
+  "question": "Are emperor penguins and other Antarctic species doomed to extinction?",
+  "topic": "While threats are serious, conservation actions and adaptation strategies can still make a differenc",
+  "tags": [
+    "Conservation",
+    "Climate Change"
+  ],
+  "sources": [
+    {
+      "name": "Future Directions for Southern Ocean and Antarctic Nearshore and Coastal Research",
+      "url": "https://www.nationalacademies.org/publications/27160",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Mid-Term Assessment of Progress on the 2015 Strategic Vision for Antarctic and Southern Ocean Research",
+      "url": "https://www.nationalacademies.org/publications/26338",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Antarctic Sea Ice Variability in the Southern Ocean-Climate System: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/24696",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins added to endangered list after rapid decline",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522508-emperor-penguins-added-to-endangered-list-after-rapid-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins listed as endangered species: IUCN",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-emperor-penguins-endangered-species-iucn.html",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins are marching toward extinction. Antarctica fur seals too",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/emperor-penguins-endangered-extinction-iucn",
+      "date": "2026-04-09"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: I.U.C.N. Red List Moves Emperor Penguins to “Endangered”",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/04/09/climate/emperor-penguins-iucn-red-list.html",
+      "date": "2026-04-10"
+    }
+  ]
+}

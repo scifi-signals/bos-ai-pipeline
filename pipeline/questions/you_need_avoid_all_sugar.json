@@ -1,0 +1,40 @@
+{
+  "id": "you_need_avoid_all_sugar",
+  "question": "Do you need to avoid all sugar until age 11 as recommended by health guidelines?",
+  "topic": "Guidelines aim for minimal added sugar but practical implementation requires individualized approach",
+  "tags": [
+    "Child Health",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "Strategies to Limit Sugar-Sweetened Beverage Consumption in Young Children: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/24897",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Avoiding all added sugars until age 11 is recommended but 'not realistic for many families' - practical vs. ideal recommendations distinction",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pediatric responsive feeding practices",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Intuitive eating and diet culture in children",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}
