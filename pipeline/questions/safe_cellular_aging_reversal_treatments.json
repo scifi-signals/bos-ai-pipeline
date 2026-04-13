@@ -1,0 +1,52 @@
+{
+  "id": "safe_cellular_aging_reversal_treatments",
+  "question": "Are there safe cellular aging reversal treatments ready for human use?",
+  "topic": "Addresses hype vs. reality in aging research and emerging treatments",
+  "tags": [
+    "Health and Medicine",
+    "Aging"
+  ],
+  "sources": [
+    {
+      "name": "FDA Statement on Stem Cell Therapies and Exosomes — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "National Institute on Aging: Anti-Aging Products — NIH/NIA",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "WHO Technical Report on Cellular Therapy Products — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Daily briefing: A treatment to reverse cellular ageing is about to be tested in people",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01207-2",
+      "date": "2026-04-10"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: This method to reverse cellular ageing is about to be tested in humans",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01024-7",
+      "date": "2026-04-10"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Scientists found a protein that drives brain aging — and how to stop it",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260405065236.htm",
+      "date": "2026-04-10"
+    }
+  ]
+}

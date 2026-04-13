@@ -1,0 +1,34 @@
+{
+  "id": "organic_foods_always_safer_environmentally",
+  "question": "Are organic foods always safer and more environmentally friendly than conventional foods?",
+  "topic": "Challenges simplistic organic=better assumption with nuanced evidence",
+  "tags": [
+    "Health and Medicine",
+    "Nutrition",
+    "Environment"
+  ],
+  "sources": [
+    {
+      "name": "Sustainable Diets, Food, and Nutrition: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25192",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pesticide residues on conventional vs. organic produce",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

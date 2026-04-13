@@ -1,0 +1,86 @@
+{
+  "id": "statins_cause_dangerous_muscle_pain",
+  "question": "Do statins cause dangerous muscle pain and other serious side effects?",
+  "topic": "Addresses the widespread statin phobia that prevents people from taking medications with 26+ RCTs sh",
+  "tags": [
+    "Health and Medicine",
+    "Cardiovascular Health"
+  ],
+  "sources": [
+    {
+      "name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Statin Safety and Associated Adverse Events: A Scientific Statement From the American Heart Association — NIH/NHLBI",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Statins for the primary prevention of cardiovascular disease — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Statin-Associated Muscle Symptoms: Impact on Statin Therapy-European Atherosclerosis Society Consensus Panel Statement — NIH/NLM",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Statins have no effect on dementia risk; may reduce dementia incidence through stroke prevention—should verify against latest neurology literature",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Statin-associated muscle pain incidence is very low and largely attributable to nocebo effect in placebo-controlled trials—supported by cited research",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Statin medications and their cholesterol-lowering mechanisms",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "The 4S study (simvastatin trial) demonstrating statin efficacy",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Meta-analyses of 26+ randomized controlled trials on statins",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Statin-associated muscle symptoms and nocebo effects",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    }
+  ]
+}

@@ -1,0 +1,74 @@
+{
+  "id": "lowering_cholesterol_very_low_levels",
+  "question": "Can lowering cholesterol to very low levels safely prevent heart disease?",
+  "topic": "Combats cholesterol denialism that overlaps with anti-pharmaceutical sentiment",
+  "tags": [
+    "Health and Medicine",
+    "Cardiovascular Health"
+  ],
+  "sources": [
+    {
+      "name": "Secondhand Smoke Exposure and Cardiovascular Effects: Making Sense of the Evidence",
+      "url": "https://www.nationalacademies.org/publications/12649",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids",
+      "url": "https://www.nationalacademies.org/publications/10490",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Babies are born with essentially zero LDL cholesterol—needs verification of baseline pediatric cholesterol values",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Cholesterol denialism overlaps with vaccine denialism and anti-pharmaceutical sentiment—sociological claim needing empirical support",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Atherosclerosis and plaque formation in arteries",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "PCSK9 inhibitors and newer injectable cholesterol medications",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Small interfering RNA (siRNA) therapies for cholesterol management",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    }
+  ]
+}

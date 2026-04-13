@@ -1,0 +1,78 @@
+{
+  "id": "declining_vaccination_rates_putting_children",
+  "question": "Are declining vaccination rates putting children at risk for preventable diseases?",
+  "topic": "Addresses specific data showing loss of herd immunity in school settings",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines",
+    "Child Health"
+  ],
+  "sources": [
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://www.nationalacademies.org/publications/10306",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adverse Effects of Pertussis and Rubella Vaccines",
+      "url": "https://www.nationalacademies.org/publications/1815",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Immunization Safety Review: Vaccinations and Sudden Unexpected Death in Infancy",
+      "url": "https://www.nationalacademies.org/publications/10649",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies",
+      "url": "https://www.nationalacademies.org/publications/13563",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality",
+      "url": "https://www.nationalacademies.org/publications/2138",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Priorities for the National Vaccine Plan",
+      "url": "https://www.nationalacademies.org/publications/12796",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: What declining vaccination rates mean for families in Allegheny County – where 1 in 3 kindergarten classrooms lack herd immunity for measles",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/what-declining-vaccination-rates-mean-for-families-in-allegheny-county-where-1-in-3-kindergarten-classrooms-lack-herd-immunity-for-measles-277469",
+      "date": "2026-04-11"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: From a vaccine mascot to business leadership, lessons for the US from Brazil’s public health system in building public trust and keeping it",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/from-a-vaccine-mascot-to-business-leadership-lessons-for-the-us-from-brazils-public-health-system-in-building-public-trust-and-keeping-it-267611",
+      "date": "2026-04-11"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: New rules for CDC vaccine panel aim to address lawsuit, empower Kennedy’s allies",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/04/09/new-acip-charter-cdc-vaccine-advisers-rfk-jr-address-legal-defeat/?utm_campaign=rss",
+      "date": "2026-04-11"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: New Charter Allows RFK Jr. to Reclaim Vaccine Policy Despite Court Ruling",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/04/09/health/cdc-rfk-jr-vaccine-committee-ruling.html",
+      "date": "2026-04-11"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-12T12:10:25Z",
+  "generated_at": "2026-04-13T12:20:07Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -2134,6 +2134,55 @@
       "readiness_summary": "4 NASEM sources, most recent 2020 · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "climate_change_denial_scientifically_justified",
+      "question": "Is climate change denial scientifically justified?",
+      "priority": "high",
+      "rationale": "Addresses resurgent climate denial mentioned in trending articles",
+      "misinformation_narrative": "Climate change denial is experiencing a resurgence despite overwhelming scientific consensus on human-caused warming",
+      "public_stakes": "Delayed climate action leads to more severe environmental and economic consequences",
+      "verification_status": "verified",
+      "verification_reason": "Climate denial thrives on platforms like Truth Social, conservative media, and fossil fuel industry messaging, with organized advocacy groups.",
+      "tags": [
+        "Climate and Environment"
+      ],
+      "nasem_source_count": 4,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        },
+        {
+          "name": "Climate Change: Evidence, Impacts, and Choices: PDF Booklet (2012)",
+          "url": "https://www.nationalacademies.org/publications/14673"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate Change Denial Sees a Resurgence in Trump’s Washington",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/04/09/climate/climate-change-deniers-trump.html",
+          "date": "2026-04-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 1,
+      "readiness_summary": "4 NASEM sources, most recent 2020 · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "should_people_avoid_medical_treatments",
       "question": "Should people avoid medical treatments due to concerns about side effects?",
       "priority": "high",
@@ -2495,6 +2544,45 @@
       "readiness_summary": "2 NASEM sources, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "cigarettes_dangerous_regular_cigarettes",
+      "question": "Are e-cigarettes as dangerous as regular cigarettes?",
+      "priority": "high",
+      "rationale": "Addresses the false equivalency between vaping and smoking that prevents harm reduction",
+      "misinformation_narrative": "Many people believe e-cigarettes are equally dangerous to combustible cigarettes, when evidence shows they are significantly less harmful and can be effective smoking cessation tools",
+      "public_stakes": "Smokers continue using deadly combustible cigarettes instead of switching to less harmful alternatives, and effective cessation tools are avoided",
+      "verification_status": "verified",
+      "verification_reason": "Public health surveys consistently show many people believe vaping is as dangerous as smoking, reinforced by some public health messaging and media coverage.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Tobacco"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Public Health Consequences of E-Cigarettes (2018)",
+          "url": "https://www.nationalacademies.org/publications/24952"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
+          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
+          "date": "2026-03-25T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-13",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "cigarettes_just_dangerous_regular_cigarettes",
       "question": "Are e-cigarettes just as dangerous as regular cigarettes?",
       "priority": "high",
@@ -2526,45 +2614,6 @@
       "alternative_sources": [],
       "discovered_at": "2026-04-12",
       "last_seen": "2026-04-12",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2018,
-      "signal_count": 1,
-      "readiness_summary": "1 NASEM source, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
-    },
-    {
-      "id": "cigarettes_dangerous_regular_cigarettes",
-      "question": "Are e-cigarettes as dangerous as regular cigarettes?",
-      "priority": "high",
-      "rationale": "Corrects misperceptions about relative harm that prevent evidence-based harm reduction approaches to smoking cessation",
-      "misinformation_narrative": "Public health messaging often equates vaping with smoking, leading people to believe they're equally harmful and preventing smokers from switching to less harmful alternatives",
-      "public_stakes": "Smokers continue using combustible tobacco instead of switching to less harmful alternatives, missing opportunities for harm reduction",
-      "verification_status": "verified",
-      "verification_reason": "Public health campaigns and news coverage frequently emphasize vaping dangers without distinguishing from cigarettes, leading to widespread belief they're equally harmful according to surveys.",
-      "tags": [
-        "Public Health",
-        "Tobacco Control",
-        "Harm Reduction"
-      ],
-      "nasem_source_count": 1,
-      "nasem_sources_preview": [
-        {
-          "name": "Public Health Consequences of E-Cigarettes (2018)",
-          "url": "https://www.nationalacademies.org/publications/24952"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "E-cigarettes contain no tobacco (claim: accurate, but should verify definition of 'tobacco product' under FDA regulation)",
-          "origin": "Unbiased Science: Where There's Vape, There's Fire: E-Cig Hype, Harm, and Hope??",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=215",
-          "date": "2026-03-25T10:00:00"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-08",
-      "last_seen": "2026-04-08",
       "times_seen": 1,
       "status": "pending",
       "newest_source_year": 2018,
@@ -3168,6 +3217,125 @@
       "newest_source_year": 2015,
       "signal_count": 4,
       "readiness_summary": "1 NASEM source, most recent 2015 — moderately dated · confirmed misinformation · 4 discovery signals"
+    },
+    {
+      "id": "declining_vaccination_rates_putting_children",
+      "question": "Are declining vaccination rates putting children at risk for preventable diseases?",
+      "priority": "high",
+      "rationale": "Addresses specific data showing loss of herd immunity in school settings",
+      "misinformation_narrative": "Some communities believe vaccination is unnecessary or dangerous, leading to declining rates that threaten herd immunity for diseases like measles",
+      "public_stakes": "Outbreaks of preventable diseases in schools and communities, with serious health consequences for vulnerable populations",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and alternative health websites actively promote vaccination refusal, causing measurable declines in coverage.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "Child Health"
+      ],
+      "nasem_source_count": 6,
+      "nasem_sources_preview": [
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://www.nationalacademies.org/publications/10306"
+        },
+        {
+          "name": "Adverse Effects of Pertussis and Rubella Vaccines (1991)",
+          "url": "https://www.nationalacademies.org/publications/1815"
+        },
+        {
+          "name": "Immunization Safety Review: Vaccinations and Sudden Unexpected Death in Infancy (None)",
+          "url": "https://www.nationalacademies.org/publications/10649"
+        },
+        {
+          "name": "The Childhood Immunization Schedule and Safety: Stakeholder Concerns, Scientific Evidence, and Future Studies (2013)",
+          "url": "https://www.nationalacademies.org/publications/13563"
+        },
+        {
+          "name": "Adverse Events Associated with Childhood Vaccines: Evidence Bearing on Causality (1993)",
+          "url": "https://www.nationalacademies.org/publications/2138"
+        },
+        {
+          "name": "Priorities for the National Vaccine Plan (2010)",
+          "url": "https://www.nationalacademies.org/publications/12796"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: What declining vaccination rates mean for families in Allegheny County – where 1 in 3 kindergarten classrooms lack herd immunity for measles",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/what-declining-vaccination-rates-mean-for-families-in-allegheny-county-where-1-in-3-kindergarten-classrooms-lack-herd-immunity-for-measles-277469",
+          "date": "2026-04-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: From a vaccine mascot to business leadership, lessons for the US from Brazil’s public health system in building public trust and keeping it",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/from-a-vaccine-mascot-to-business-leadership-lessons-for-the-us-from-brazils-public-health-system-in-building-public-trust-and-keeping-it-267611",
+          "date": "2026-04-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: New rules for CDC vaccine panel aim to address lawsuit, empower Kennedy’s allies",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/04/09/new-acip-charter-cdc-vaccine-advisers-rfk-jr-address-legal-defeat/?utm_campaign=rss",
+          "date": "2026-04-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: New Charter Allows RFK Jr. to Reclaim Vaccine Policy Despite Court Ruling",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/04/09/health/cdc-rfk-jr-vaccine-committee-ruling.html",
+          "date": "2026-04-11"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2013,
+      "signal_count": 3,
+      "readiness_summary": "6 NASEM sources, most recent 2013 — moderately dated · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "covid_vaccines_causing_dangerous_blood",
+      "question": "Are COVID-19 vaccines causing dangerous blood clots?",
+      "priority": "high",
+      "rationale": "Addresses persistent vaccine fears about a rare but well-understood side effect",
+      "misinformation_narrative": "Widespread fear of COVID vaccine blood clots persists despite the mechanism being understood and the risk being extremely rare compared to COVID's clotting risks",
+      "public_stakes": "Vaccine hesitancy leaves people vulnerable to COVID-19, which carries much higher clotting and mortality risks",
+      "verification_status": "verified",
+      "verification_reason": "Blood clot fears dominated social media and news coverage of COVID vaccines, leading to documented vaccine hesitancy and refusal rates.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "Public Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://www.nationalacademies.org/publications/13164"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+          "date": "2026-04-11"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2012,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "people_egg_allergies_safely_receive",
@@ -4374,6 +4542,45 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "forcing_children_eat_using_food",
+      "question": "Is forcing children to eat or using food rewards an effective way to address picky eating?",
+      "priority": "medium",
+      "rationale": "Addresses common counterproductive feeding practices that worsen picky eating",
+      "misinformation_narrative": "Parents commonly believe forcing children to eat or using food as rewards will improve eating habits, when research shows these approaches typically backfire",
+      "public_stakes": "Parent-child feeding relationships suffer, and children may develop more problematic eating patterns",
+      "verification_status": "verified",
+      "verification_reason": "Parenting forums, older pediatric advice, and cultural practices commonly promote forcing children to eat and food rewards despite evidence against these approaches.",
+      "tags": [
+        "Health and Medicine",
+        "Child Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "job_apocalypse_caused_artificial_intelligence",
@@ -7080,6 +7287,45 @@
       "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 3 discovery signals"
     },
     {
+      "id": "organic_foods_always_safer_environmentally",
+      "question": "Are organic foods always safer and more environmentally friendly than conventional foods?",
+      "priority": "medium",
+      "rationale": "Challenges simplistic organic=better assumption with nuanced evidence",
+      "misinformation_narrative": "Many consumers believe organic automatically means safer and more sustainable, when some organic pesticides require higher application rates and may have greater environmental impact",
+      "public_stakes": "Consumers make food choices based on incomplete information about safety and environmental impact",
+      "verification_status": "verified",
+      "verification_reason": "The \"organic is always better\" belief is pervasive in wellness communities, farmers markets, and health food marketing across social media platforms.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition",
+        "Environment"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Sustainable Diets, Food, and Nutrition: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25192"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "weight_loss_drugs_like_ozempic",
       "question": "Are weight-loss drugs like Ozempic just dangerous quick fixes that don't work long-term?",
       "priority": "medium",
@@ -7821,6 +8067,44 @@
       "newest_source_year": 2008,
       "signal_count": 7,
       "readiness_summary": "1 NASEM source, most recent 2008 — sources are old · confirmed misinformation · 7 discovery signals"
+    },
+    {
+      "id": "dietary_cholesterol_foods_like_eggs",
+      "question": "Does dietary cholesterol from foods like eggs significantly raise blood cholesterol?",
+      "priority": "medium",
+      "rationale": "Corrects persistent misconception about dietary vs. blood cholesterol despite updated dietary guidelines",
+      "misinformation_narrative": "Many people still avoid cholesterol-rich foods like eggs believing they directly raise blood cholesterol, when genetic factors largely mediate this relationship",
+      "public_stakes": "People unnecessarily restrict nutritious foods based on outdated dietary advice",
+      "verification_status": "verified",
+      "verification_reason": "The \"avoid eggs for cholesterol\" belief persists widely among older adults and health-conscious consumers despite updated dietary guidelines.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Dietary cholesterol intake has minimal effect on serum cholesterol for most people due to genetic mediation—widely supported",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "dietary_cholesterol_eggs_meat_main",
@@ -8803,6 +9087,52 @@
       "readiness_summary": "2 NASEM sources, most recent 2025 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
+      "id": "artificial_intelligence_systems_spread_medical",
+      "question": "Can artificial intelligence systems spread medical misinformation about fake diseases?",
+      "priority": "low",
+      "rationale": "Addresses emerging threat of AI-generated medical misinformation demonstrated in recent research",
+      "misinformation_narrative": "People may trust AI-generated medical information without verification, including information about non-existent conditions",
+      "public_stakes": "AI-generated health misinformation could lead to unnecessary anxiety, inappropriate treatments, or avoidance of real medical care",
+      "verification_status": "needs_review",
+      "verification_reason": "This seems like a hypothetical concern about AI rather than documented cases of people believing AI-generated fake diseases.",
+      "tags": [
+        "Technology",
+        "Health and Medicine",
+        "Misinformation"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Understanding and Addressing Misinformation About Science (2025)",
+          "url": "https://www.nationalacademies.org/publications/27894"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Daily briefing: AI spread information about an obviously made-up disease",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01140-4",
+          "date": "2026-04-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01100-y",
+          "date": "2026-04-10"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2025 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "easily_captured_turned_into_useful",
       "question": "Can CO2 be easily captured and turned into useful fuels to solve climate change?",
       "priority": "low",
@@ -9008,6 +9338,105 @@
       "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
+      "id": "should_children_avoid_all_added",
+      "question": "Should children avoid all added sugars until age 11?",
+      "priority": "low",
+      "rationale": "Addresses the gap between ideal dietary recommendations and practical family feeding approaches",
+      "misinformation_narrative": "Some parents believe they must eliminate all added sugars from children's diets based on official recommendations, creating unrealistic expectations and potential feeding conflicts",
+      "public_stakes": "Overly restrictive approaches may create power struggles around food and potentially unhealthy relationships with eating",
+      "verification_status": "needs_review",
+      "verification_reason": "This mischaracterizes guideline adherence as misinformation; parents trying to follow official recommendations isn't a misconception.",
+      "tags": [
+        "Health and Medicine",
+        "Child Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        },
+        {
+          "name": "Feeding Infants and Children from Birth to 24 Months: Summarizing Existing Guidance (2020)",
+          "url": "https://www.nationalacademies.org/publications/25747"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Avoiding all added sugars until age 11 is recommended but 'not realistic for many families' - practical vs. ideal recommendations distinction",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Policy Statement: The Use and Misuse of Fruit Juice in Pediatrics",
+          "description": "AAP clinical practice guideline on fruit juice consumption with recommendations on added sugars for children by age group",
+          "relevance": "Provides specific age-based recommendations for sugar intake in children under 12"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Added Sugars and Cardiovascular Disease Risk in Children: A Scientific Statement",
+          "description": "AHA scientific statement recommending children under 2 avoid added sugars and limits for older children",
+          "relevance": "Establishes evidence-based age thresholds for added sugar consumption in children"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241549028",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Guideline: Sugars intake for adults and children",
+          "description": "WHO evidence-based guidelines on sugar intake recommendations for children and adults",
+          "relevance": "International health authority's recommendations on sugar limits for pediatric populations"
+        },
+        {
+          "organization": "USDA",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.usda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Dietary Guidelines for Americans 2020-2025",
+          "description": "Federal dietary guidelines with specific recommendations on added sugars for children by age group",
+          "relevance": "Official US government recommendations on added sugar intake limits for children under 12"
+        },
+        {
+          "organization": "American Dental Association",
+          "organization_full": "American Dental Association",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Diet and Oral Health",
+          "description": "ADA guidance on dietary sugars and oral health impacts in children",
+          "relevance": "Professional dental organization's recommendations on sugar consumption for pediatric dental health"
+        }
+      ],
+      "discovered_at": "2026-04-06",
+      "last_seen": "2026-04-13",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "whole_milk_dairy_products_cause",
       "question": "Do whole milk and dairy products cause harm to children over age 2?",
       "priority": "low",
@@ -9092,6 +9521,45 @@
       "newest_source_year": 2024,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "iron_deficiency_common_picky_eating",
+      "question": "Is iron deficiency common in picky eating children and how serious is it?",
+      "priority": "low",
+      "rationale": "Addresses underrecognition of a serious nutritional consequence of picky eating",
+      "misinformation_narrative": "Parents may not recognize iron deficiency as the most common nutrient deficiency worldwide in children or understand its connection to selective eating",
+      "public_stakes": "Undiagnosed iron deficiency can impair cognitive development and physical health in children",
+      "verification_status": "needs_review",
+      "verification_reason": "This conflates lack of awareness with active misinformation; parents not recognizing iron deficiency isn't the same as believing false information.",
+      "tags": [
+        "Health and Medicine",
+        "Child Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2024 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "quantum_computers_actually_solve_problems",
@@ -11833,6 +12301,48 @@
       "readiness_summary": "4 NASEM sources, most recent 2010 — moderately dated · misinformation narrative not yet confirmed · 4 discovery signals"
     },
     {
+      "id": "lowering_cholesterol_very_low_levels",
+      "question": "Can lowering cholesterol to very low levels safely prevent heart disease?",
+      "priority": "low",
+      "rationale": "Combats cholesterol denialism that overlaps with anti-pharmaceutical sentiment",
+      "misinformation_narrative": "Cholesterol denialists claim that lowering LDL cholesterol is dangerous and unnecessary, despite evidence that near-zero levels are safe and beneficial",
+      "public_stakes": "People avoid proven cardiovascular prevention strategies, leading to preventable heart attacks and deaths",
+      "verification_status": "needs_review",
+      "verification_reason": "\"Cholesterol denialists\" isn't a major public movement; most people don't have strong opinions about extremely low LDL targets.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Secondhand Smoke Exposure and Cardiovascular Effects: Making Sense of the Evidence (2010)",
+          "url": "https://www.nationalacademies.org/publications/12649"
+        },
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2010,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2010 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "dna_testing_reliably_tell_identical",
       "question": "Can DNA testing reliably tell identical twins apart?",
       "priority": "low",
@@ -14431,14 +14941,14 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
-      "id": "cholesterol_lowering_statin_medications_dangerous",
-      "question": "Are cholesterol-lowering statin medications dangerous and ineffective?",
+      "id": "statins_cause_dangerous_muscle_pain",
+      "question": "Do statins cause dangerous muscle pain and other serious side effects?",
       "priority": "high",
-      "rationale": "Direct contradiction of anti-statin misinformation with 26+ RCTs showing clear cardiovascular benefits and minimal side effects",
-      "misinformation_narrative": "Many people believe statins cause widespread muscle damage, memory problems, and other serious side effects while providing no real cardiovascular benefits, leading them to avoid potentially life-saving medications",
-      "public_stakes": "Millions avoid statins due to fear, increasing risk of heart attacks and strokes that could be prevented",
+      "rationale": "Addresses the widespread statin phobia that prevents people from taking medications with 26+ RCTs showing cardiovascular benefit",
+      "misinformation_narrative": "Many people avoid statins believing they cause widespread muscle pain and dangerous side effects, when clinical trials show muscle pain incidence is very low and largely attributable to nocebo effects",
+      "public_stakes": "People at high cardiovascular risk avoid proven life-saving medications, leading to preventable heart attacks and strokes",
       "verification_status": "verified",
-      "verification_reason": "Anti-statin sentiment is widespread on health forums, social media, and promoted by some alternative medicine practitioners who claim statins are dangerous and ineffective.",
+      "verification_reason": "Statin hesitancy is widespread on health forums, social media, and among patients who share muscle pain stories, leading many to refuse prescriptions.",
       "tags": [
         "Health and Medicine",
         "Cardiovascular Health"
@@ -14463,8 +14973,19 @@
           "url_verified": false,
           "tier": 2,
           "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
-          "description": "FDA's official safety communication on statin medications, addressing known risks and benefits",
-          "relevance": "Provides authoritative assessment of statin safety profile and effectiveness from the regulatory agency"
+          "description": "FDA's official communication on statin safety, including muscle-related side effects and label changes",
+          "relevance": "Directly addresses muscle pain and other serious side effects of statins with regulatory perspective"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Statin Safety and Associated Adverse Events: A Scientific Statement From the American Heart Association",
+          "description": "Comprehensive scientific statement on statin safety including muscle symptoms, liver effects, and diabetes risk",
+          "relevance": "Authoritative review of statin side effects including muscle pain, rhabdomyolysis, and other serious adverse events"
         },
         {
           "organization": "Cochrane",
@@ -14474,62 +14995,41 @@
           "url_verified": false,
           "tier": 1,
           "resource_name": "Statins for the primary prevention of cardiovascular disease",
-          "description": "Cochrane systematic review examining evidence for statin effectiveness in preventing cardiovascular disease",
-          "relevance": "Gold-standard systematic review directly evaluating statin effectiveness with comprehensive evidence analysis"
+          "description": "Cochrane systematic review examining benefits and harms of statins including adverse effects",
+          "relevance": "Evidence-based systematic review that includes analysis of muscle-related and other serious side effects"
         },
         {
-          "organization": "NIH/NHLBI",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
+          "organization": "ACC/AHA",
+          "organization_full": "ACC/AHA",
+          "base_url": "",
+          "url": "",
           "url_verified": false,
-          "tier": 2,
+          "tier": 3,
           "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
-          "description": "Comprehensive clinical practice guidelines on cholesterol management including statin therapy recommendations",
-          "relevance": "Authoritative clinical guidelines that evaluate statin safety and efficacy evidence for treatment recommendations"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "WHO Model List of Essential Medicines",
-          "description": "WHO's essential medicines list includes several statin medications",
-          "relevance": "WHO inclusion of statins in essential medicines demonstrates international consensus on safety and effectiveness"
-        },
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Million Hearts: Statin Use for the Primary Prevention of Cardiovascular Disease Among Adults",
-          "description": "CDC guidance on appropriate statin prescribing for cardiovascular disease prevention",
-          "relevance": "CDC assessment and recommendations for statin use, addressing both benefits and appropriate risk management"
+          "description": "Clinical practice guideline that addresses statin safety and adverse effects including muscle symptoms",
+          "relevance": "Clinical guideline that includes evidence-based recommendations on managing statin side effects including muscle pain"
         }
       ],
-      "discovered_at": "2026-04-12",
-      "last_seen": "2026-04-12",
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
       "times_seen": 1,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "pesticide_residues_conventional_produce_dangerous",
-      "question": "Are pesticide residues on conventional produce dangerous to children?",
+      "question": "Are pesticide residues on conventional produce dangerous to children's health?",
       "priority": "high",
-      "rationale": "EPA and FDA data show pesticide residues are far below safety thresholds, while fruit/vegetable benefits far outweigh minimal pesticide risks",
-      "misinformation_narrative": "The EWG 'Dirty Dozen' list causes parents to believe conventional produce is unsafe, leading some to avoid fruits and vegetables entirely or spend unnecessarily on organic",
-      "public_stakes": "Children may consume fewer fruits and vegetables due to pesticide fears, harming their nutrition and development",
+      "rationale": "Combats the widespread fear of conventional produce driven by misleading 'Dirty Dozen' messaging",
+      "misinformation_narrative": "The EWG 'Dirty Dozen' list creates unnecessary alarm about pesticide residues that are far below health risk thresholds, causing parents to avoid nutritious fruits and vegetables",
+      "public_stakes": "Children consume fewer fruits and vegetables due to unfounded pesticide fears, harming their nutrition and development",
       "verification_status": "verified",
-      "verification_reason": "The EWG's Dirty Dozen list genuinely causes parental anxiety about conventional produce safety, widely discussed in parenting groups and health blogs.",
+      "verification_reason": "The EWG's Dirty Dozen list circulates widely on parenting blogs, social media, and organic food marketing, causing documented avoidance of conventional produce.",
       "tags": [
-        "Food Safety",
+        "Health and Medicine",
+        "Nutrition",
         "Child Health"
       ],
       "nasem_source_count": 0,
@@ -14667,12 +15167,101 @@
         }
       ],
       "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-12",
-      "times_seen": 5,
+      "last_seen": "2026-04-13",
+      "times_seen": 6,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 11 alternative sources identified"
+    },
+    {
+      "id": "cholesterol_lowering_statin_medications_dangerous",
+      "question": "Are cholesterol-lowering statin medications dangerous and ineffective?",
+      "priority": "high",
+      "rationale": "Direct contradiction of anti-statin misinformation with 26+ RCTs showing clear cardiovascular benefits and minimal side effects",
+      "misinformation_narrative": "Many people believe statins cause widespread muscle damage, memory problems, and other serious side effects while providing no real cardiovascular benefits, leading them to avoid potentially life-saving medications",
+      "public_stakes": "Millions avoid statins due to fear, increasing risk of heart attacks and strokes that could be prevented",
+      "verification_status": "verified",
+      "verification_reason": "Anti-statin sentiment is widespread on health forums, social media, and promoted by some alternative medicine practitioners who claim statins are dangerous and ineffective.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official safety communication on statin medications, addressing known risks and benefits",
+          "relevance": "Provides authoritative assessment of statin safety profile and effectiveness from the regulatory agency"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Cochrane systematic review examining evidence for statin effectiveness in preventing cardiovascular disease",
+          "relevance": "Gold-standard systematic review directly evaluating statin effectiveness with comprehensive evidence analysis"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical practice guidelines on cholesterol management including statin therapy recommendations",
+          "relevance": "Authoritative clinical guidelines that evaluate statin safety and efficacy evidence for treatment recommendations"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Model List of Essential Medicines",
+          "description": "WHO's essential medicines list includes several statin medications",
+          "relevance": "WHO inclusion of statins in essential medicines demonstrates international consensus on safety and effectiveness"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Million Hearts: Statin Use for the Primary Prevention of Cardiovascular Disease Among Adults",
+          "description": "CDC guidance on appropriate statin prescribing for cardiovascular disease prevention",
+          "relevance": "CDC assessment and recommendations for statin use, addressing both benefits and appropriate risk management"
+        }
+      ],
+      "discovered_at": "2026-04-12",
+      "last_seen": "2026-04-12",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "statin_medications_cause_widespread_muscle",
@@ -22275,6 +22864,208 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "don_glp_weight_loss_drugs",
+      "question": "Why don't GLP-1 weight loss drugs like Ozempic work equally well for everyone?",
+      "priority": "low",
+      "rationale": "Addresses unrealistic expectations about weight loss drug efficacy and the role of genetic variation",
+      "misinformation_narrative": "People expect uniform results from weight loss medications and may discontinue effective treatment when they don't see dramatic results like others",
+      "public_stakes": "Patients abandon potentially effective obesity treatments due to unrealistic expectations",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes normal variation in drug response rather than a specific misinformation narrative people actively believe and spread.",
+      "tags": [
+        "Health and Medicine",
+        "Obesity"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genetic predictors of GLP1 receptor agonist weight loss and side effects",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10330-z",
+          "date": "2026-04-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genetics reveal why people respond differently to GLP-1 weight-loss drugs",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00905-1",
+          "date": "2026-04-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Why obesity drugs work better for some people: these genes hold clues",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01107-5",
+          "date": "2026-04-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Why Ozempic doesn’t work for everyone: Scientists just found a hidden reason",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260411022029.htm",
+          "date": "2026-04-12"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: FDA investigating reports of possible increased risk of pancreatitis and pre-cancerous cellular changes in patients treated with incretin mimetics for type 2 diabetes",
+          "description": "FDA safety communication discussing individual variations in response and adverse effects to GLP-1 receptor agonists",
+          "relevance": "Addresses individual differences in drug response and safety profiles that contribute to variable effectiveness"
+        },
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Weight-loss Medications",
+          "description": "NIDDK comprehensive guide on weight-loss medications including factors affecting individual response",
+          "relevance": "Discusses why weight-loss medications work differently for different people and factors that influence effectiveness"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Glucagon-like peptide analogues for type 2 diabetes mellitus (Cochrane Review)",
+          "description": "Systematic review analyzing effectiveness and individual variation in response to GLP-1 analogues",
+          "relevance": "Provides evidence-based analysis of variable treatment responses and factors influencing effectiveness"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Obesity and overweight fact sheet",
+          "description": "WHO fact sheet discussing individual factors that influence obesity treatment responses",
+          "relevance": "Addresses biological, genetic, and environmental factors that affect treatment outcomes for obesity"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Adult Obesity Facts",
+          "description": "CDC data and information on adult obesity including factors affecting treatment success",
+          "relevance": "Provides population-level data showing variation in obesity treatment responses across different demographics"
+        }
+      ],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "safe_cellular_aging_reversal_treatments",
+      "question": "Are there safe cellular aging reversal treatments ready for human use?",
+      "priority": "low",
+      "rationale": "Addresses hype vs. reality in aging research and emerging treatments",
+      "misinformation_narrative": "Premature hype about anti-aging treatments may lead people to pursue unproven interventions or have unrealistic expectations about available therapies",
+      "public_stakes": "People may spend money on ineffective treatments or delay proven health interventions while waiting for anti-aging breakthroughs",
+      "verification_status": "needs_review",
+      "verification_reason": "While anti-aging hype exists, this doesn't describe a specific misinformation narrative but rather general overoptimism about emerging treatments.",
+      "tags": [
+        "Health and Medicine",
+        "Aging"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Daily briefing: A treatment to reverse cellular ageing is about to be tested in people",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01207-2",
+          "date": "2026-04-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: This method to reverse cellular ageing is about to be tested in humans",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01024-7",
+          "date": "2026-04-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Scientists found a protein that drives brain aging — and how to stop it",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260405065236.htm",
+          "date": "2026-04-10"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Statement on Stem Cell Therapies and Exosomes",
+          "description": "FDA warnings and regulatory status of unapproved stem cell and anti-aging treatments",
+          "relevance": "Addresses regulatory approval status of cellular therapies marketed for aging reversal"
+        },
+        {
+          "organization": "NIH/NIA",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "National Institute on Aging: Anti-Aging Products",
+          "description": "NIA's scientific overview of aging research and unproven anti-aging interventions",
+          "relevance": "Provides evidence-based information on current state of aging intervention research"
+        },
+        {
+          "organization": "FTC",
+          "organization_full": "FTC",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Advertising Health Products: A Guide for Industry",
+          "description": "FTC guidance on marketing claims for anti-aging and health products",
+          "relevance": "Addresses regulatory oversight of anti-aging treatment marketing claims"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WHO Technical Report on Cellular Therapy Products",
+          "description": "WHO guidelines on regulation and safety of cellular therapy products",
+          "relevance": "International regulatory perspective on cellular therapy safety and approval standards"
+        }
+      ],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
       "id": "cancer_treatments_becoming_less_effective",
       "question": "Are cancer treatments becoming less effective as cancer becomes more resistant?",
       "priority": "low",
@@ -24082,96 +24873,6 @@
           "resource_name": "Lupus",
           "description": "Professional medical organization's patient education materials on lupus treatment and prognosis",
           "relevance": "Specialist medical society's authoritative guidance on lupus curability and management"
-        }
-      ],
-      "discovered_at": "2026-04-06",
-      "last_seen": "2026-04-06",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "should_children_avoid_all_added",
-      "question": "Should children avoid all added sugars until age 11?",
-      "priority": "low",
-      "rationale": "Clarifies the difference between ideal dietary recommendations and practical family nutrition guidance.",
-      "misinformation_narrative": "Some parents believe they must completely eliminate all added sugars from children's diets until age 11 based on dietary guidelines, when experts acknowledge this is 'not realistic for many families' and individual circumstances should guide decisions.",
-      "public_stakes": "Families may experience unnecessary stress and guilt about sugar exposure, potentially creating unhealthy relationships with food or social isolation from food-related activities.",
-      "verification_status": "needs_review",
-      "verification_reason": "This specific \"until age 11\" framing is too precise and obscure; parents generally worry about sugar but don't typically cite this specific age cutoff.",
-      "tags": [
-        "Health and Medicine",
-        "Child Development",
-        "Nutrition"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Avoiding all added sugars until age 11 is recommended but 'not realistic for many families' - practical vs. ideal recommendations distinction",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "American Academy of Pediatrics",
-          "organization_full": "American Academy of Pediatrics",
-          "base_url": "https://www.aap.org",
-          "url": "https://www.aap.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Policy Statement: The Use and Misuse of Fruit Juice in Pediatrics",
-          "description": "AAP clinical practice guideline on fruit juice consumption with recommendations on added sugars for children by age group",
-          "relevance": "Provides specific age-based recommendations for sugar intake in children under 12"
-        },
-        {
-          "organization": "American Heart Association",
-          "organization_full": "American Heart Association",
-          "base_url": "https://www.heart.org",
-          "url": "https://www.heart.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Added Sugars and Cardiovascular Disease Risk in Children: A Scientific Statement",
-          "description": "AHA scientific statement recommending children under 2 avoid added sugars and limits for older children",
-          "relevance": "Establishes evidence-based age thresholds for added sugar consumption in children"
-        },
-        {
-          "organization": "World Health Organization",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/9789241549028",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Guideline: Sugars intake for adults and children",
-          "description": "WHO evidence-based guidelines on sugar intake recommendations for children and adults",
-          "relevance": "International health authority's recommendations on sugar limits for pediatric populations"
-        },
-        {
-          "organization": "USDA",
-          "organization_full": "U.S. Department of Agriculture",
-          "base_url": "https://www.usda.gov",
-          "url": "https://www.usda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Dietary Guidelines for Americans 2020-2025",
-          "description": "Federal dietary guidelines with specific recommendations on added sugars for children by age group",
-          "relevance": "Official US government recommendations on added sugar intake limits for children under 12"
-        },
-        {
-          "organization": "American Dental Association",
-          "organization_full": "American Dental Association",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Diet and Oral Health",
-          "description": "ADA guidance on dietary sugars and oral health impacts in children",
-          "relevance": "Professional dental organization's recommendations on sugar consumption for pediatric dental health"
         }
       ],
       "discovered_at": "2026-04-06",

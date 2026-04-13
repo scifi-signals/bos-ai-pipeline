@@ -1,0 +1,40 @@
+{
+  "id": "dietary_cholesterol_foods_like_eggs",
+  "question": "Does dietary cholesterol from foods like eggs significantly raise blood cholesterol?",
+  "topic": "Corrects persistent misconception about dietary vs. blood cholesterol despite updated dietary guidel",
+  "tags": [
+    "Health and Medicine",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids",
+      "url": "https://www.nationalacademies.org/publications/10490",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Dietary cholesterol intake has minimal effect on serum cholesterol for most people due to genetic mediation—widely supported",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Red meat is the #1 dietary source of cholesterol—standard nutritional science claim, should verify ranking",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Cholesterol metabolism and lipoprotein structure (LDL, HDL, VLDL, lipoprotein A)",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    }
+  ]
+}

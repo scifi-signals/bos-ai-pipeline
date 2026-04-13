@@ -1,0 +1,34 @@
+{
+  "id": "artificial_intelligence_systems_spread_medical",
+  "question": "Can artificial intelligence systems spread medical misinformation about fake diseases?",
+  "topic": "Addresses emerging threat of AI-generated medical misinformation demonstrated in recent research",
+  "tags": [
+    "Technology",
+    "Health and Medicine",
+    "Misinformation"
+  ],
+  "sources": [
+    {
+      "name": "Understanding and Addressing Misinformation About Science",
+      "url": "https://www.nationalacademies.org/publications/27894",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Daily briefing: AI spread information about an obviously made-up disease",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01140-4",
+      "date": "2026-04-10"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01100-y",
+      "date": "2026-04-10"
+    }
+  ]
+}

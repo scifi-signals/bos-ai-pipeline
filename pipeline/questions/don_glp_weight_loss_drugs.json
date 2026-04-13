@@ -1,0 +1,78 @@
+{
+  "id": "don_glp_weight_loss_drugs",
+  "question": "Why don't GLP-1 weight loss drugs like Ozempic work equally well for everyone?",
+  "topic": "Addresses unrealistic expectations about weight loss drug efficacy and the role of genetic variation",
+  "tags": [
+    "Health and Medicine",
+    "Obesity"
+  ],
+  "sources": [
+    {
+      "name": "FDA Drug Safety Communication: FDA investigating reports of possible increased risk of pancreatitis and pre-cancerous cellular changes in patients treated with incretin mimetics for type 2 diabetes — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Weight-loss Medications — NIH/NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Glucagon-like peptide analogues for type 2 diabetes mellitus (Cochrane Review) — Cochrane Library",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Obesity and overweight fact sheet — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Adult Obesity Facts — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Genetic predictors of GLP1 receptor agonist weight loss and side effects",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10330-z",
+      "date": "2026-04-10"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Genetics reveal why people respond differently to GLP-1 weight-loss drugs",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00905-1",
+      "date": "2026-04-10"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Genetics reveal why people respond differently to GLP-1 weight-loss drugs",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00905-1",
+      "date": "2026-04-12"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Why obesity drugs work better for some people: these genes hold clues",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01107-5",
+      "date": "2026-04-12"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Why Ozempic doesn’t work for everyone: Scientists just found a hidden reason",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260411022029.htm",
+      "date": "2026-04-12"
+    }
+  ]
+}
