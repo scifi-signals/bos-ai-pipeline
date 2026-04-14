@@ -1,0 +1,51 @@
+{
+  "id": "herd_immunity_thresholds_measles_longer",
+  "question": "Are herd immunity thresholds for measles no longer achievable through vaccination?",
+  "topic": "Data showing one in three kindergarten classrooms lacking measles herd immunity demonstrates the con",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "Measles Vaccination Coverage and Immunity — CDC",
+      "url": "https://www.cdc.gov/measles/vaccination.html",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Measles Fact Sheet — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pink Book - Measles Chapter — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Prevention of Measles, Rubella, Congenital Rubella Syndrome, and Mumps - MMWR Recommendations — ACIP/CDC",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr6204a1.htm",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Vaccines for measles, mumps and rubella in children — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: What declining vaccination rates mean for families in Allegheny County – where 1 in 3 kindergarten classrooms lack herd immunity for measles",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/what-declining-vaccination-rates-mean-for-families-in-allegheny-county-where-1-in-3-kindergarten-classrooms-lack-herd-immunity-for-measles-277469",
+      "date": "2026-04-11"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "babies_need_cholesterol_diet_proper",
+  "question": "Do babies need cholesterol in their diet for proper development?",
+  "topic": "Understanding that babies naturally have very low cholesterol levels contradicts assumptions about c",
+  "tags": [
+    "Health and Medicine",
+    "Pediatric Health",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids",
+      "url": "https://www.nationalacademies.org/publications/10490",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Babies are born with essentially zero LDL cholesterol—needs verification of baseline pediatric cholesterol values",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    }
+  ]
+}

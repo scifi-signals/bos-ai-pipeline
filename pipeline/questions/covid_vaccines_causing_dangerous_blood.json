@@ -1,0 +1,52 @@
+{
+  "id": "covid_vaccines_causing_dangerous_blood",
+  "question": "Are COVID vaccines causing dangerous blood clots at high rates?",
+  "topic": "Scientists have now identified the rare mechanism behind vaccine-associated clots, providing authori",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "COVID-19 Vaccine Safety - Blood Clots after J&J Vaccine — CDC",
+      "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "FDA and CDC Lift Recommended Pause on Johnson & Johnson (Janssen) COVID-19 Vaccine Use Following Thorough Safety Review — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters — WHO",
+      "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaccines for preventing COVID-19 — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+      "date": "2026-04-11"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Scientists finally crack mystery of rare COVID vaccine blood clots",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+      "date": "2026-04-11"
+    }
+  ]
+}

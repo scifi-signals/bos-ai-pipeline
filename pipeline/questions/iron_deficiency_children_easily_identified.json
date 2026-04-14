@@ -1,0 +1,52 @@
+{
+  "id": "iron_deficiency_children_easily_identified",
+  "question": "Can iron deficiency in children be easily identified and prevented without medical testing?",
+  "topic": "Iron deficiency prevalence data and the subtle nature of early symptoms highlight the need for medic",
+  "tags": [
+    "Health and Medicine",
+    "Pediatric Health",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "Recommendations to Prevent and Control Iron Deficiency in the United States — CDC",
+      "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00051880.htm",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Iron Deficiency Anaemia: Assessment, Prevention and Control - A Guide for Programme Managers — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Clinical Report: Diagnosis and Prevention of Iron Deficiency and Iron-Deficiency Anemia in Infants and Young Children — AAP (American Academy of Pediatrics)",
+      "url": "https://pediatrics.aappublications.org/content/126/5/1040",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Intermittent iron supplementation for improving nutrition and development in children under 12 years of age — Cochrane",
+      "url": "https://www.cochranelibrary.com",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Iron deficiency anemia in picky eaters",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

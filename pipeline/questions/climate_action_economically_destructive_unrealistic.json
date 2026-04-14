@@ -1,0 +1,70 @@
+{
+  "id": "climate_action_economically_destructive_unrealistic",
+  "question": "Is climate action economically destructive and unrealistic?",
+  "topic": "Economic analyses demonstrate that climate change costs vastly exceed the costs of climate action, c",
+  "tags": [
+    "Climate Change",
+    "Economics",
+    "Environmental Policy"
+  ],
+  "sources": [
+    {
+      "name": "Valuing Climate Damages: Updating Estimation of the Social Cost of Carbon Dioxide",
+      "url": "https://www.nationalacademies.org/publications/24651",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change Education in Formal Settings, K-14: A Workshop Summary",
+      "url": "https://www.nationalacademies.org/publications/13435",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Limiting the Magnitude of Future Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12785",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Informing an Effective Response to Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12784",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Accelerating Decarbonization of the U.S. Energy System",
+      "url": "https://www.nationalacademies.org/publications/25932",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adapting to the Impacts of Climate Change",
+      "url": "https://www.nationalacademies.org/publications/12783",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Accelerating Decarbonization in the United States: Technology, Policy, and Societal Dimensions",
+      "url": "https://www.nationalacademies.org/publications/25931",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: ‘Net zero’ isn’t madness: the staggering economic costs of climate change",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01020-x",
+      "date": "2026-04-13"
+    },
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate Change Denial Sees a Resurgence in Trump’s Washington",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/04/09/climate/climate-change-deniers-trump.html",
+      "date": "2026-04-13"
+    }
+  ]
+}

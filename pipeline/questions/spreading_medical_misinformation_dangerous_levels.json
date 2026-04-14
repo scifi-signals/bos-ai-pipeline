@@ -1,0 +1,34 @@
+{
+  "id": "spreading_medical_misinformation_dangerous_levels",
+  "question": "Is AI spreading medical misinformation at dangerous levels?",
+  "topic": "Recent studies show AI systems spread information about obviously fabricated diseases, demonstrating",
+  "tags": [
+    "Health and Medicine",
+    "Artificial Intelligence",
+    "Medical Misinformation"
+  ],
+  "sources": [
+    {
+      "name": "Understanding and Addressing Misinformation About Science",
+      "url": "https://www.nationalacademies.org/publications/27894",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Daily briefing: AI spread information about an obviously made-up disease",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01140-4",
+      "date": "2026-04-11"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01100-y",
+      "date": "2026-04-11"
+    }
+  ]
+}

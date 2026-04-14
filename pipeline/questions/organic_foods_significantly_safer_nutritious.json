@@ -1,0 +1,48 @@
+{
+  "id": "organic_foods_significantly_safer_nutritious",
+  "question": "Are organic foods significantly safer and more nutritious than conventional foods?",
+  "topic": "Research shows minimal nutritional differences and pesticide residues below safety thresholds on con",
+  "tags": [
+    "Health and Medicine",
+    "Food Safety",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "Sustainable Diets, Food, and Nutrition: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25192",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Mere presence of pesticide residue does not equate to harm - aligns with standard toxicology principles",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pesticide residues on conventional vs. organic produce",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

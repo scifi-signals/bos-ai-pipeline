@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T12:20:07Z",
+  "generated_at": "2026-04-14T12:19:52Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -366,15 +366,16 @@
     },
     {
       "id": "should_parents_force_children_eat",
-      "question": "Should parents force children to eat certain foods or clean their plates?",
+      "question": "Should parents force children to eat foods they dislike to prevent picky eating?",
       "priority": "high",
-      "rationale": "Pediatric feeding research shows responsive feeding practices are more effective than forcing",
-      "misinformation_narrative": "Traditional parenting advice suggests forcing children to eat or clean their plates, but this can create feeding problems and unhealthy relationships with food",
-      "public_stakes": "Forced feeding can lead to eating disorders, power struggles, and long-term feeding difficulties",
+      "rationale": "Feeding research consistently shows that forcing children to eat results in power struggles and is counterproductive to developing healthy eating patterns",
+      "misinformation_narrative": "Many parents believe forcing children to eat or using food rewards/punishments helps develop healthy eating habits, when this typically creates more feeding problems",
+      "public_stakes": "Coercive feeding practices can lead to eating disorders, food aversions, and problematic relationships with food lasting into adulthood",
       "verification_status": "verified",
-      "verification_reason": "Parenting forums, pediatrician advice columns, and older generation family members commonly advocate forcing children to eat disliked foods.",
+      "verification_reason": "Parenting forums, older pediatric advice, and family traditions commonly promote forcing children to eat disliked foods.",
       "tags": [
-        "Child Health",
+        "Health and Medicine",
+        "Pediatric Health",
         "Nutrition"
       ],
       "nasem_source_count": 2,
@@ -499,8 +500,8 @@
         }
       ],
       "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-12",
-      "times_seen": 5,
+      "last_seen": "2026-04-14",
+      "times_seen": 6,
       "status": "pending",
       "newest_source_year": 2024,
       "signal_count": 1,
@@ -2547,15 +2548,15 @@
       "id": "cigarettes_dangerous_regular_cigarettes",
       "question": "Are e-cigarettes as dangerous as regular cigarettes?",
       "priority": "high",
-      "rationale": "Addresses the false equivalency between vaping and smoking that prevents harm reduction",
-      "misinformation_narrative": "Many people believe e-cigarettes are equally dangerous to combustible cigarettes, when evidence shows they are significantly less harmful and can be effective smoking cessation tools",
-      "public_stakes": "Smokers continue using deadly combustible cigarettes instead of switching to less harmful alternatives, and effective cessation tools are avoided",
+      "rationale": "Combustion creates 10,000+ chemicals and 60+ carcinogens at 900°F, while e-cigarettes operate without combustion and contain significantly fewer toxicants",
+      "misinformation_narrative": "Many people believe vaping is equally harmful to smoking traditional cigarettes, preventing smokers from switching to a less harmful alternative",
+      "public_stakes": "Continued cigarette smoking causes preventable cancer, heart disease, and lung disease when switching to vaping could reduce harm for current smokers",
       "verification_status": "verified",
-      "verification_reason": "Public health surveys consistently show many people believe vaping is as dangerous as smoking, reinforced by some public health messaging and media coverage.",
+      "verification_reason": "Public health messaging confusion has led many to believe vaping equals smoking harm, documented in surveys and social media discussions.",
       "tags": [
         "Health and Medicine",
         "Public Health",
-        "Tobacco"
+        "Tobacco Control"
       ],
       "nasem_source_count": 1,
       "nasem_sources_preview": [
@@ -2575,8 +2576,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-04-08",
-      "last_seen": "2026-04-13",
-      "times_seen": 2,
+      "last_seen": "2026-04-14",
+      "times_seen": 3,
       "status": "pending",
       "newest_source_year": 2018,
       "signal_count": 1,
@@ -3299,45 +3300,6 @@
       "readiness_summary": "6 NASEM sources, most recent 2013 — moderately dated · confirmed misinformation · 3 discovery signals"
     },
     {
-      "id": "covid_vaccines_causing_dangerous_blood",
-      "question": "Are COVID-19 vaccines causing dangerous blood clots?",
-      "priority": "high",
-      "rationale": "Addresses persistent vaccine fears about a rare but well-understood side effect",
-      "misinformation_narrative": "Widespread fear of COVID vaccine blood clots persists despite the mechanism being understood and the risk being extremely rare compared to COVID's clotting risks",
-      "public_stakes": "Vaccine hesitancy leaves people vulnerable to COVID-19, which carries much higher clotting and mortality risks",
-      "verification_status": "verified",
-      "verification_reason": "Blood clot fears dominated social media and news coverage of COVID vaccines, leading to documented vaccine hesitancy and refusal rates.",
-      "tags": [
-        "Health and Medicine",
-        "Vaccines",
-        "Public Health"
-      ],
-      "nasem_source_count": 1,
-      "nasem_sources_preview": [
-        {
-          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
-          "url": "https://www.nationalacademies.org/publications/13164"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
-          "origin": "STM — ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
-          "date": "2026-04-11"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-13",
-      "last_seen": "2026-04-13",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2012,
-      "signal_count": 1,
-      "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 1 discovery signal"
-    },
-    {
       "id": "people_egg_allergies_safely_receive",
       "question": "Can people with egg allergies safely receive flu vaccines?",
       "priority": "high",
@@ -3945,6 +3907,76 @@
       "newest_source_year": 2025,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2025 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "climate_action_economically_destructive_unrealistic",
+      "question": "Is climate action economically destructive and unrealistic?",
+      "priority": "medium",
+      "rationale": "Economic analyses demonstrate that climate change costs vastly exceed the costs of climate action, contradicting 'economic burden' narratives",
+      "misinformation_narrative": "Many people believe climate policies like net-zero targets are economically ruinous and technically impossible, when economic analyses show climate inaction costs far more",
+      "public_stakes": "Delayed climate action increases economic costs exponentially while missing critical windows for preventing catastrophic climate impacts",
+      "verification_status": "verified",
+      "verification_reason": "Climate policy opposition citing economic destruction is standard messaging from conservative media, fossil fuel groups, and political campaigns.",
+      "tags": [
+        "Climate Change",
+        "Economics",
+        "Environmental Policy"
+      ],
+      "nasem_source_count": 7,
+      "nasem_sources_preview": [
+        {
+          "name": "Valuing Climate Damages: Updating Estimation of the Social Cost of Carbon Dioxide (2017)",
+          "url": "https://www.nationalacademies.org/publications/24651"
+        },
+        {
+          "name": "Climate Change Education in Formal Settings, K-14: A Workshop Summary (2012)",
+          "url": "https://www.nationalacademies.org/publications/13435"
+        },
+        {
+          "name": "Limiting the Magnitude of Future Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12785"
+        },
+        {
+          "name": "Informing an Effective Response to Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12784"
+        },
+        {
+          "name": "Accelerating Decarbonization of the U.S. Energy System (2021)",
+          "url": "https://www.nationalacademies.org/publications/25932"
+        },
+        {
+          "name": "Adapting to the Impacts of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12783"
+        },
+        {
+          "name": "Accelerating Decarbonization in the United States: Technology, Policy, and Societal Dimensions (2024)",
+          "url": "https://www.nationalacademies.org/publications/25931"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: ‘Net zero’ isn’t madness: the staggering economic costs of climate change",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01020-x",
+          "date": "2026-04-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate Change Denial Sees a Resurgence in Trump’s Washington",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/04/09/climate/climate-change-deniers-trump.html",
+          "date": "2026-04-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 2,
+      "readiness_summary": "7 NASEM sources, most recent 2024 · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "net_zero_climate_policy_economically",
@@ -7287,6 +7319,45 @@
       "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 3 discovery signals"
     },
     {
+      "id": "organic_foods_significantly_safer_nutritious",
+      "question": "Are organic foods significantly safer and more nutritious than conventional foods?",
+      "priority": "medium",
+      "rationale": "Research shows minimal nutritional differences and pesticide residues below safety thresholds on conventional produce, while organic pesticides may require higher application rates",
+      "misinformation_narrative": "Consumers believe organic foods are substantially safer and more nutritious, justifying significant price premiums and food access barriers for lower-income families",
+      "public_stakes": "Food access inequity increases when organic-only mentality creates barriers to adequate nutrition, while pesticide fears reduce overall produce consumption",
+      "verification_status": "verified",
+      "verification_reason": "Organic food superiority beliefs are pervasive in wellness communities, health food stores, and among affluent consumers.",
+      "tags": [
+        "Health and Medicine",
+        "Food Safety",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Sustainable Diets, Food, and Nutrition: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25192"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "organic_foods_always_safer_environmentally",
       "question": "Are organic foods always safer and more environmentally friendly than conventional foods?",
       "priority": "medium",
@@ -8067,6 +8138,45 @@
       "newest_source_year": 2008,
       "signal_count": 7,
       "readiness_summary": "1 NASEM source, most recent 2008 — sources are old · confirmed misinformation · 7 discovery signals"
+    },
+    {
+      "id": "dietary_cholesterol_directly_raise_blood",
+      "question": "Does dietary cholesterol directly raise blood cholesterol levels?",
+      "priority": "medium",
+      "rationale": "Research shows dietary cholesterol intake has minimal effect on serum cholesterol for most people, contradicting widespread dietary fears",
+      "misinformation_narrative": "Many people strictly avoid dietary cholesterol believing it directly raises blood cholesterol, when genetic factors largely mediate this relationship for most individuals",
+      "public_stakes": "Unnecessary dietary restrictions reduce food choices and nutritional variety without meaningful health benefits for most people",
+      "verification_status": "verified",
+      "verification_reason": "Dietary cholesterol fears persist widely among health-conscious consumers, promoted by outdated nutritional advice still circulating online.",
+      "tags": [
+        "Health and Medicine",
+        "Nutrition",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Dietary cholesterol intake has minimal effect on serum cholesterol for most people due to genetic mediation—widely supported",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "dietary_cholesterol_foods_like_eggs",
@@ -9087,6 +9197,52 @@
       "readiness_summary": "2 NASEM sources, most recent 2025 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
+      "id": "spreading_medical_misinformation_dangerous_levels",
+      "question": "Is AI spreading medical misinformation at dangerous levels?",
+      "priority": "low",
+      "rationale": "Recent studies show AI systems spread information about obviously fabricated diseases, demonstrating the risk of unverified AI medical content",
+      "misinformation_narrative": "People trust AI-generated medical information without verification, believing it's accurate when AI systems can confidently present false information about diseases and treatments",
+      "public_stakes": "Patients may make harmful medical decisions based on AI misinformation, delay proper treatment, or lose trust in legitimate medical advice",
+      "verification_status": "needs_review",
+      "verification_reason": "While AI medical misinformation exists, the specific framing of people \"trusting AI-generated medical information\" as a major narrative seems overstated.",
+      "tags": [
+        "Health and Medicine",
+        "Artificial Intelligence",
+        "Medical Misinformation"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Understanding and Addressing Misinformation About Science (2025)",
+          "url": "https://www.nationalacademies.org/publications/27894"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Daily briefing: AI spread information about an obviously made-up disease",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01140-4",
+          "date": "2026-04-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01100-y",
+          "date": "2026-04-11"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2025 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "artificial_intelligence_systems_spread_medical",
       "question": "Can artificial intelligence systems spread medical misinformation about fake diseases?",
       "priority": "low",
@@ -9336,6 +9492,49 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "quantum_computers_immediately_break_all",
+      "question": "Will quantum computers immediately break all our digital security?",
+      "priority": "low",
+      "rationale": "Expert analysis provides realistic timelines and specific technical requirements for quantum computers to break current encryption methods",
+      "misinformation_narrative": "People believe quantum computers will suddenly render all current encryption useless overnight, creating either excessive panic about digital security or false confidence that it's a distant threat",
+      "public_stakes": "Organizations may either over-invest in premature quantum solutions or fail to prepare for eventual quantum threats to cybersecurity",
+      "verification_status": "needs_review",
+      "verification_reason": "Quantum computing security concerns exist mainly in tech circles, not as widespread public misinformation with the described panic/confidence dynamic.",
+      "tags": [
+        "Technology",
+        "Cybersecurity",
+        "Quantum Science"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Artificial Intelligence and the Future of Work (2024)",
+          "url": "https://www.nationalacademies.org/publications/27644"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: We urgently need to prepare for quantum computers breaking encryption",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522124-we-urgently-need-to-prepare-for-quantum-computers-breaking-encryption/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "should_children_avoid_all_added",
@@ -12542,6 +12741,45 @@
       "readiness_summary": "1 NASEM source, most recent 2007 — sources are old · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
+      "id": "babies_need_cholesterol_diet_proper",
+      "question": "Do babies need cholesterol in their diet for proper development?",
+      "priority": "low",
+      "rationale": "Understanding that babies naturally have very low cholesterol levels contradicts assumptions about cholesterol being essential in children's diets",
+      "misinformation_narrative": "Parents worry about giving children low-cholesterol foods, believing dietary cholesterol is essential for development, when babies are born with essentially zero LDL cholesterol",
+      "public_stakes": "Parents may unnecessarily restrict healthy foods or feel guilty about low-cholesterol family meals, missing opportunities for heart-healthy eating patterns",
+      "verification_status": "needs_review",
+      "verification_reason": "Parents worrying about giving children low-cholesterol foods isn't a documented widespread concern or misinformation narrative.",
+      "tags": [
+        "Health and Medicine",
+        "Pediatric Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Babies are born with essentially zero LDL cholesterol—needs verification of baseline pediatric cholesterol values",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "cholesterol_levels_safely_lowered_near",
       "question": "Can cholesterol levels safely be lowered to near-zero without health risks?",
       "priority": "low",
@@ -12902,6 +13140,101 @@
       "times_seen": 2,
       "status": "nasem_gap",
       "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "covid_vaccines_causing_dangerous_blood",
+      "question": "Are COVID vaccines causing dangerous blood clots at high rates?",
+      "priority": "high",
+      "rationale": "Scientists have now identified the rare mechanism behind vaccine-associated clots, providing authoritative data on actual risk levels that can counter widespread misconceptions",
+      "misinformation_narrative": "Many people believe COVID vaccines cause frequent, life-threatening blood clots, leading to vaccine hesitancy and avoidance of potentially life-saving vaccination",
+      "public_stakes": "Vaccine hesitancy due to overestimated clotting risks leads to preventable COVID deaths and hospitalizations, while underestimating actual COVID clotting risks",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and conspiracy theory websites actively promote blood clot fears, citing rare cases like those with J&J vaccine.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://www.nationalacademies.org/publications/13164"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+          "date": "2026-04-11"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccine Safety - Blood Clots after J&J Vaccine",
+          "description": "CDC's comprehensive page on vaccine safety including specific data on blood clot rates and risk assessment",
+          "relevance": "Provides official surveillance data on actual blood clot incidence rates following COVID-19 vaccination"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA and CDC Lift Recommended Pause on Johnson & Johnson (Janssen) COVID-19 Vaccine Use Following Thorough Safety Review",
+          "description": "FDA press release detailing their investigation and risk-benefit analysis of blood clots associated with J&J vaccine",
+          "relevance": "Official FDA assessment of blood clot risks with specific incidence rates and safety conclusions"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters",
+          "description": "WHO's fact-checking resource addressing COVID-19 vaccine safety myths including blood clot concerns",
+          "relevance": "International health authority's evidence-based response to vaccine safety misinformation"
+        },
+        {
+          "organization": "ACIP (CDC)",
+          "organization_full": "ACIP (CDC)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "ACIP Presentation: COVID-19 Vaccine Safety Update",
+          "description": "Advisory Committee on Immunization Practices presentation with detailed safety surveillance data",
+          "relevance": "Technical expert committee analysis of vaccine safety data including thrombosis with thrombocytopenia syndrome (TTS) rates"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for preventing COVID-19",
+          "description": "Systematic review of COVID-19 vaccine efficacy and safety including adverse events analysis",
+          "relevance": "Independent systematic review examining safety data from clinical trials and post-market surveillance"
+        }
+      ],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-14",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 2012,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
@@ -14941,14 +15274,14 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
-      "id": "statins_cause_dangerous_muscle_pain",
-      "question": "Do statins cause dangerous muscle pain and other serious side effects?",
+      "id": "statins_cause_harm_benefit_heart",
+      "question": "Do statins cause more harm than benefit for heart health?",
       "priority": "high",
-      "rationale": "Addresses the widespread statin phobia that prevents people from taking medications with 26+ RCTs showing cardiovascular benefit",
-      "misinformation_narrative": "Many people avoid statins believing they cause widespread muscle pain and dangerous side effects, when clinical trials show muscle pain incidence is very low and largely attributable to nocebo effects",
-      "public_stakes": "People at high cardiovascular risk avoid proven life-saving medications, leading to preventable heart attacks and strokes",
+      "rationale": "26+ randomized controlled trials demonstrate clear cardiovascular benefits, while muscle pain is largely attributable to nocebo effects in placebo-controlled trials",
+      "misinformation_narrative": "Many people believe statins are dangerous drugs pushed by pharmaceutical companies, causing widespread muscle damage and other serious side effects while providing little cardiovascular benefit",
+      "public_stakes": "Statin avoidance leads to preventable heart attacks, strokes, and cardiovascular deaths among high-risk patients who would benefit from treatment",
       "verification_status": "verified",
-      "verification_reason": "Statin hesitancy is widespread on health forums, social media, and among patients who share muscle pain stories, leading many to refuse prescriptions.",
+      "verification_reason": "Statin skepticism is widespread on health forums like Reddit r/keto, YouTube channels, and among alternative medicine practitioners who emphasize side effects.",
       "tags": [
         "Health and Medicine",
         "Cardiovascular Health"
@@ -14973,19 +15306,8 @@
           "url_verified": false,
           "tier": 2,
           "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
-          "description": "FDA's official communication on statin safety, including muscle-related side effects and label changes",
-          "relevance": "Directly addresses muscle pain and other serious side effects of statins with regulatory perspective"
-        },
-        {
-          "organization": "NIH/NHLBI",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Statin Safety and Associated Adverse Events: A Scientific Statement From the American Heart Association",
-          "description": "Comprehensive scientific statement on statin safety including muscle symptoms, liver effects, and diabetes risk",
-          "relevance": "Authoritative review of statin side effects including muscle pain, rhabdomyolysis, and other serious adverse events"
+          "description": "FDA's official assessment of statin safety profile including benefits and risks",
+          "relevance": "Provides regulatory authority's evaluation of statin benefit-risk balance"
         },
         {
           "organization": "Cochrane",
@@ -14995,42 +15317,64 @@
           "url_verified": false,
           "tier": 1,
           "resource_name": "Statins for the primary prevention of cardiovascular disease",
-          "description": "Cochrane systematic review examining benefits and harms of statins including adverse effects",
-          "relevance": "Evidence-based systematic review that includes analysis of muscle-related and other serious side effects"
+          "description": "Systematic review examining statins' effectiveness and safety for primary cardiovascular prevention",
+          "relevance": "Independent meta-analysis of clinical trial evidence on statin benefits and harms"
         },
         {
-          "organization": "ACC/AHA",
-          "organization_full": "ACC/AHA",
-          "base_url": "",
-          "url": "",
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
           "url_verified": false,
-          "tier": 3,
+          "tier": 2,
           "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
-          "description": "Clinical practice guideline that addresses statin safety and adverse effects including muscle symptoms",
-          "relevance": "Clinical guideline that includes evidence-based recommendations on managing statin side effects including muscle pain"
+          "description": "Comprehensive clinical practice guideline on cholesterol management including statin use",
+          "relevance": "Evidence-based recommendations from major cardiology organizations on statin benefits and risks"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "What Are the Benefits and Risks of Statins?",
+          "description": "NIH's patient education resource on statin benefits and potential side effects",
+          "relevance": "Federal health agency's evidence-based assessment of statin benefit-risk profile"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Model List of Essential Medicines - Cardiovascular medicines section",
+          "description": "WHO's inclusion of statins on essential medicines list indicates benefit-risk assessment",
+          "relevance": "Global health authority's determination that statins provide net clinical benefit"
         }
       ],
-      "discovered_at": "2026-04-13",
-      "last_seen": "2026-04-13",
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-14",
       "times_seen": 1,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "pesticide_residues_conventional_produce_dangerous",
-      "question": "Are pesticide residues on conventional produce dangerous to children's health?",
+      "question": "Are pesticide residues on conventional produce dangerous for children?",
       "priority": "high",
-      "rationale": "Combats the widespread fear of conventional produce driven by misleading 'Dirty Dozen' messaging",
-      "misinformation_narrative": "The EWG 'Dirty Dozen' list creates unnecessary alarm about pesticide residues that are far below health risk thresholds, causing parents to avoid nutritious fruits and vegetables",
-      "public_stakes": "Children consume fewer fruits and vegetables due to unfounded pesticide fears, harming their nutrition and development",
+      "rationale": "EPA data shows pesticide residues are far below safety thresholds, while reduced produce consumption has documented negative health impacts",
+      "misinformation_narrative": "Parents believe the EWG Dirty Dozen list indicates that conventional produce contains harmful pesticide levels, leading them to avoid fruits and vegetables or spend unnecessarily on organic versions",
+      "public_stakes": "Children consume fewer fruits and vegetables due to pesticide fears, missing critical nutrients while facing no meaningful pesticide risk from conventional produce",
       "verification_status": "verified",
-      "verification_reason": "The EWG's Dirty Dozen list circulates widely on parenting blogs, social media, and organic food marketing, causing documented avoidance of conventional produce.",
+      "verification_reason": "Parent groups on Facebook and Instagram regularly share EWG Dirty Dozen lists, with organic food advocates promoting pesticide fears.",
       "tags": [
         "Health and Medicine",
-        "Nutrition",
-        "Child Health"
+        "Food Safety",
+        "Pediatric Health"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -15164,15 +15508,104 @@
           "resource_name": "Pesticide Residues in Food",
           "description": "WHO fact sheet on pesticide residues, acceptable daily intake levels, and health risk assessment principles",
           "relevance": "International health authority's guidance on pesticide residue safety standards and risk assessment"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/environmental-exposure-report/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Fourth National Report on Human Exposure to Environmental Chemicals",
+          "description": "CDC's biomonitoring data showing actual pesticide levels found in the US population, including children",
+          "relevance": "Provides real-world exposure data for pesticides in children's bodies compared to health benchmarks"
         }
       ],
       "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-13",
-      "times_seen": 6,
+      "last_seen": "2026-04-14",
+      "times_seen": 7,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 11 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 12 alternative sources identified"
+    },
+    {
+      "id": "statins_cause_dangerous_muscle_pain",
+      "question": "Do statins cause dangerous muscle pain and other serious side effects?",
+      "priority": "high",
+      "rationale": "Addresses the widespread statin phobia that prevents people from taking medications with 26+ RCTs showing cardiovascular benefit",
+      "misinformation_narrative": "Many people avoid statins believing they cause widespread muscle pain and dangerous side effects, when clinical trials show muscle pain incidence is very low and largely attributable to nocebo effects",
+      "public_stakes": "People at high cardiovascular risk avoid proven life-saving medications, leading to preventable heart attacks and strokes",
+      "verification_status": "verified",
+      "verification_reason": "Statin hesitancy is widespread on health forums, social media, and among patients who share muscle pain stories, leading many to refuse prescriptions.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official communication on statin safety, including muscle-related side effects and label changes",
+          "relevance": "Directly addresses muscle pain and other serious side effects of statins with regulatory perspective"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Statin Safety and Associated Adverse Events: A Scientific Statement From the American Heart Association",
+          "description": "Comprehensive scientific statement on statin safety including muscle symptoms, liver effects, and diabetes risk",
+          "relevance": "Authoritative review of statin side effects including muscle pain, rhabdomyolysis, and other serious adverse events"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Cochrane systematic review examining benefits and harms of statins including adverse effects",
+          "relevance": "Evidence-based systematic review that includes analysis of muscle-related and other serious side effects"
+        },
+        {
+          "organization": "ACC/AHA",
+          "organization_full": "ACC/AHA",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Clinical practice guideline that addresses statin safety and adverse effects including muscle symptoms",
+          "relevance": "Clinical guideline that includes evidence-based recommendations on managing statin side effects including muscle pain"
+        }
+      ],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-13",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "cholesterol_lowering_statin_medications_dangerous",
@@ -21311,6 +21744,92 @@
       "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
+      "id": "emperor_penguins_thriving_despite_climate",
+      "question": "Are emperor penguins thriving despite climate change claims?",
+      "priority": "low",
+      "rationale": "Recent endangered species listings and population data provide authoritative evidence of emperor penguin decline that contradicts selective reporting",
+      "misinformation_narrative": "Climate change skeptics point to isolated penguin population increases to argue that climate impacts are exaggerated, when overall species trends show rapid decline toward extinction",
+      "public_stakes": "Delayed climate action based on cherry-picked wildlife data undermines conservation efforts and accelerates species extinctions",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptics on Twitter and blogs regularly cite isolated positive animal population data to dispute broader climate impacts.",
+      "tags": [
+        "Climate Change",
+        "Biodiversity",
+        "Conservation"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins added to endangered list after rapid decline",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522508-emperor-penguins-added-to-endangered-list-after-rapid-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-11"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins are marching toward extinction. Antarctica fur seals too",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/emperor-penguins-endangered-extinction-iucn",
+          "date": "2026-04-11"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-3/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 3: Oceans and Coastal Ecosystems",
+          "description": "IPCC Working Group II report contains detailed assessment of climate impacts on polar marine ecosystems including emperor penguins",
+          "relevance": "Provides comprehensive scientific assessment of climate change impacts on Antarctic species"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate Change Indicators: Arctic Sea Ice",
+          "description": "EPA's climate indicators report documenting changes in polar ice conditions that directly affect emperor penguin habitat",
+          "relevance": "Documents sea ice trends that are critical to emperor penguin breeding and survival"
+        },
+        {
+          "organization": "USGCRP",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment - Chapter 26: Antarctica",
+          "description": "US Global Change Research Program's comprehensive assessment of climate impacts on Antarctica including wildlife",
+          "relevance": "Official US government assessment of climate change impacts on Antarctic ecosystems and species"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.noaa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Antarctic Report Card - Marine Ecosystems",
+          "description": "NOAA's annual assessment of Antarctic environmental conditions and ecosystem health including seabird populations",
+          "relevance": "Provides current data on Antarctic marine ecosystem status and trends affecting penguin populations"
+        }
+      ],
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
       "id": "zombie_cells_actually_dead_cells",
       "question": "Are 'zombie cells' actually dead cells brought back to life?",
       "priority": "low",
@@ -22864,6 +23383,139 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "glp_weight_loss_drugs_like",
+      "question": "Are GLP-1 weight loss drugs like Ozempic ineffective for many people due to unknown factors?",
+      "priority": "low",
+      "rationale": "New genetic research reveals specific predictors of GLP-1 drug response and side effects, explaining individual variation in treatment outcomes",
+      "misinformation_narrative": "People believe weight loss drug failures are mysterious or due to personal failings, when genetic factors significantly influence drug response and side effects",
+      "public_stakes": "Patients may abandon effective treatments or blame themselves for drug failures when genetic testing could guide appropriate medication selection",
+      "verification_status": "needs_review",
+      "verification_reason": "The specific narrative about \"mysterious failures\" and genetic factors isn't a prominent public misconception about these new drugs.",
+      "tags": [
+        "Health and Medicine",
+        "Obesity",
+        "Pharmacogenomics"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genetic predictors of GLP1 receptor agonist weight loss and side effects",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10330-z",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genetics reveal why people respond differently to GLP-1 weight-loss drugs",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00905-1",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Why obesity drugs work better for some people: these genes hold clues",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01107-5",
+          "date": "2026-04-08"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Why Ozempic doesn’t work for everyone: Scientists just found a hidden reason",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260411022029.htm",
+          "date": "2026-04-12"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: FDA approves new drug treatment for chronic weight management, first since 2014",
+          "description": "FDA's official communication on semaglutide approval includes clinical trial data showing variable patient responses",
+          "relevance": "Contains clinical trial data demonstrating individual variation in weight loss outcomes"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/209637lbl.pdf",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Prescribing Information for Ozempic (semaglutide) injection",
+          "description": "Official FDA-approved prescribing information with clinical trial results showing response variability",
+          "relevance": "Contains detailed clinical trial data showing range of individual responses and factors affecting efficacy"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Glucagon‐like peptide‐1 receptor agonists for type 2 diabetes mellitus",
+          "description": "Systematic review of GLP-1 receptor agonists including analysis of patient variability in response",
+          "relevance": "Provides systematic review evidence of individual variation in GLP-1 drug effectiveness"
+        },
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Prescription Medications to Treat Overweight & Obesity",
+          "description": "NIDDK resource discussing variability in response to weight loss medications including GLP-1 drugs",
+          "relevance": "Addresses individual differences in response to weight loss medications including patient factors"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Obesity and overweight fact sheet",
+          "description": "WHO fact sheet on obesity treatment approaches including discussion of individual variation in treatment response",
+          "relevance": "Provides context on factors affecting individual responses to obesity treatments"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WHO Technical Report Series on Obesity Prevention and Management",
+          "description": "WHO's technical report on obesity management including pharmaceutical interventions and their variable effectiveness",
+          "relevance": "International perspective on obesity treatment effectiveness including acknowledgment of individual variation in response"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Adult Obesity Facts",
+          "description": "CDC's overview of adult obesity including treatment approaches and their effectiveness",
+          "relevance": "Provides context on obesity treatment challenges and acknowledges that various interventions work differently for different populations"
+        }
+      ],
+      "discovered_at": "2026-04-10",
+      "last_seen": "2026-04-14",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 7 alternative sources identified"
+    },
+    {
       "id": "don_glp_weight_loss_drugs",
       "question": "Why don't GLP-1 weight loss drugs like Ozempic work equally well for everyone?",
       "priority": "low",
@@ -23935,6 +24587,186 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "herd_immunity_thresholds_measles_longer",
+      "question": "Are herd immunity thresholds for measles no longer achievable through vaccination?",
+      "priority": "low",
+      "rationale": "Data showing one in three kindergarten classrooms lacking measles herd immunity demonstrates the concrete public health consequences of vaccination rate declines",
+      "misinformation_narrative": "People believe declining vaccination rates represent informed choice without understanding population-level immunity requirements, assuming individual decisions don't affect community health",
+      "public_stakes": "Measles outbreaks occur when vaccination coverage drops below herd immunity thresholds, endangering infants, immunocompromised individuals, and unvaccinated children",
+      "verification_status": "needs_review",
+      "verification_reason": "This confuses vaccine hesitancy with the specific technical misunderstanding about herd immunity thresholds described.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: What declining vaccination rates mean for families in Allegheny County – where 1 in 3 kindergarten classrooms lack herd immunity for measles",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/what-declining-vaccination-rates-mean-for-families-in-allegheny-county-where-1-in-3-kindergarten-classrooms-lack-herd-immunity-for-measles-277469",
+          "date": "2026-04-11"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/measles/vaccination.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Measles Vaccination Coverage and Immunity",
+          "description": "CDC's comprehensive page on measles vaccination, including herd immunity thresholds and current vaccination coverage data",
+          "relevance": "Provides current data on measles vaccination rates and discusses the 95% vaccination coverage needed for herd immunity"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/measles",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Measles Fact Sheet",
+          "description": "WHO's official fact sheet on measles including vaccination coverage requirements for population immunity",
+          "relevance": "Contains WHO's position on measles herd immunity thresholds and global vaccination coverage data"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pink Book - Measles Chapter",
+          "description": "CDC's comprehensive epidemiological guide chapter on measles, including detailed discussion of herd immunity",
+          "relevance": "Provides detailed scientific explanation of measles herd immunity thresholds and vaccination effectiveness"
+        },
+        {
+          "organization": "ACIP/CDC",
+          "organization_full": "ACIP/CDC",
+          "base_url": "",
+          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/rr6204a1.htm",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Prevention of Measles, Rubella, Congenital Rubella Syndrome, and Mumps - MMWR Recommendations",
+          "description": "Official ACIP recommendations on MMR vaccination including population-level immunity considerations",
+          "relevance": "Contains official recommendations based on evidence about achieving and maintaining population immunity to measles"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Vaccines for measles, mumps and rubella in children",
+          "description": "Cochrane systematic review of MMR vaccine effectiveness and safety",
+          "relevance": "Provides systematic review evidence on vaccine effectiveness that underlies herd immunity calculations"
+        }
+      ],
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "iron_deficiency_children_easily_identified",
+      "question": "Can iron deficiency in children be easily identified and prevented without medical testing?",
+      "priority": "low",
+      "rationale": "Iron deficiency prevalence data and the subtle nature of early symptoms highlight the need for medical screening rather than parental assessment alone",
+      "misinformation_narrative": "Parents assume they can identify iron deficiency through diet observation alone or believe supplements are unnecessary, when iron deficiency is the most common pediatric nutrient deficiency worldwide",
+      "public_stakes": "Undiagnosed iron deficiency causes developmental delays, learning problems, and behavioral issues in children that could be prevented with proper screening",
+      "verification_status": "needs_review",
+      "verification_reason": "While iron deficiency is common, the specific misconception about parents believing they can identify it without testing isn't well-documented.",
+      "tags": [
+        "Health and Medicine",
+        "Pediatric Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00051880.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Recommendations to Prevent and Control Iron Deficiency in the United States",
+          "description": "CDC's comprehensive recommendations on iron deficiency prevention and screening in children, including risk factors and identification strategies",
+          "relevance": "Addresses both identification methods and prevention strategies for iron deficiency in pediatric populations"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Iron Deficiency Anaemia: Assessment, Prevention and Control - A Guide for Programme Managers",
+          "description": "WHO's comprehensive guide on iron deficiency assessment and prevention strategies at population level",
+          "relevance": "Provides evidence-based guidance on identification methods beyond laboratory testing and prevention approaches"
+        },
+        {
+          "organization": "AAP (American Academy of Pediatrics)",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://pediatrics.aappublications.org/content/126/5/1040",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Clinical Report: Diagnosis and Prevention of Iron Deficiency and Iron-Deficiency Anemia in Infants and Young Children",
+          "description": "AAP's clinical guidelines on iron deficiency diagnosis, screening recommendations, and prevention strategies for children",
+          "relevance": "Addresses screening protocols, clinical identification methods, and prevention measures specifically for pediatric populations"
+        },
+        {
+          "organization": "USPSTF",
+          "organization_full": "USPSTF",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Screening for Iron Deficiency Anemia and Iron Deficiency in Pregnant Women: US Preventive Services Task Force Recommendation Statement",
+          "description": "Evidence review on screening methods and effectiveness for iron deficiency identification",
+          "relevance": "Provides systematic evidence review on screening approaches and their effectiveness in identifying iron deficiency"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Intermittent iron supplementation for improving nutrition and development in children under 12 years of age",
+          "description": "Cochrane systematic review examining iron supplementation strategies and their effectiveness in preventing iron deficiency in children",
+          "relevance": "Provides high-quality evidence on prevention strategies and includes discussion of identification methods in community settings"
+        }
+      ],
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-14",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "bird_flu_vaccines_dairy_cattle",
       "question": "Are bird flu vaccines for dairy cattle unnecessary or dangerous?",
       "priority": "low",
@@ -24018,109 +24850,6 @@
       ],
       "discovered_at": "2026-04-11",
       "last_seen": "2026-04-11",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "glp_weight_loss_drugs_like",
-      "question": "Do GLP-1 weight loss drugs like Ozempic work the same for everyone?",
-      "priority": "low",
-      "rationale": "Corrects oversimplified weight loss drug narratives by explaining genetic factors in treatment response",
-      "misinformation_narrative": "Media coverage suggests GLP-1 drugs are universal weight loss solutions, when genetic factors cause dramatic differences in effectiveness and side effects between individuals",
-      "public_stakes": "Unrealistic expectations lead to treatment disappointment, inappropriate prescribing, or avoiding medication that could help",
-      "verification_status": "needs_review",
-      "verification_reason": "While Ozempic is hyped, the specific misconception about universal effectiveness isn't a prominent public belief.",
-      "tags": [
-        "Health and Medicine",
-        "Genetics"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Genetics & Genomics: Genetic predictors of GLP1 receptor agonist weight loss and side effects",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10330-z",
-          "date": "2026-04-08"
-        },
-        {
-          "type": "trending_article",
-          "text": "Genetics & Genomics: Genetics reveal why people respond differently to GLP-1 weight-loss drugs",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-00905-1",
-          "date": "2026-04-08"
-        },
-        {
-          "type": "trending_article",
-          "text": "Genetics & Genomics: Why obesity drugs work better for some people: these genes hold clues",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-01107-5",
-          "date": "2026-04-08"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "FDA Drug Safety Communication: FDA approves new drug treatment for chronic weight management, first since 2014",
-          "description": "FDA's official communication on semaglutide approval includes clinical trial data showing variable patient responses",
-          "relevance": "Contains clinical trial data demonstrating individual variation in weight loss outcomes"
-        },
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2017/209637lbl.pdf",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Prescribing Information for Ozempic (semaglutide) injection",
-          "description": "Official FDA-approved prescribing information with clinical trial results showing response variability",
-          "relevance": "Contains detailed clinical trial data showing range of individual responses and factors affecting efficacy"
-        },
-        {
-          "organization": "Cochrane",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Glucagon‐like peptide‐1 receptor agonists for type 2 diabetes mellitus",
-          "description": "Systematic review of GLP-1 receptor agonists including analysis of patient variability in response",
-          "relevance": "Provides systematic review evidence of individual variation in GLP-1 drug effectiveness"
-        },
-        {
-          "organization": "NIH/NIDDK",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Prescription Medications to Treat Overweight & Obesity",
-          "description": "NIDDK resource discussing variability in response to weight loss medications including GLP-1 drugs",
-          "relevance": "Addresses individual differences in response to weight loss medications including patient factors"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Obesity and overweight fact sheet",
-          "description": "WHO fact sheet on obesity treatment approaches including discussion of individual variation in treatment response",
-          "relevance": "Provides context on factors affecting individual responses to obesity treatments"
-        }
-      ],
-      "discovered_at": "2026-04-10",
-      "last_seen": "2026-04-10",
       "times_seen": 1,
       "status": "nasem_gap",
       "newest_source_year": 0,
