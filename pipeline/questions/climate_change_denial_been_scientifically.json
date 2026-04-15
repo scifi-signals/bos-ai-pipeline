@@ -1,0 +1,33 @@
+{
+  "id": "climate_change_denial_been_scientifically",
+  "question": "Has climate change denial been scientifically debunked?",
+  "topic": "Article 'Climate Change Denial Sees a Resurgence in Trump's Washington' indicates renewed public mis",
+  "tags": [
+    "Climate Change",
+    "Environmental Science",
+    "Public Policy"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change: Evidence and Causes: Update 2020",
+      "url": "https://www.nationalacademies.org/publications/25733",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change: Evidence and Causes",
+      "url": "https://www.nationalacademies.org/publications/18730",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Climate Change Denial Sees a Resurgence in Trump’s Washington",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/04/09/climate/climate-change-deniers-trump.html",
+      "date": "2026-04-13"
+    }
+  ]
+}

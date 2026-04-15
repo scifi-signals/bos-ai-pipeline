@@ -1,0 +1,41 @@
+{
+  "id": "declining_vaccination_rates_putting_communities",
+  "question": "Are declining vaccination rates putting communities at risk for disease outbreaks?",
+  "topic": "Article specifically mentions '1 in 3 kindergarten classrooms lack herd immunity for measles' indica",
+  "tags": [
+    "Vaccines",
+    "Public Health",
+    "Infectious Disease"
+  ],
+  "sources": [
+    {
+      "name": "Exploring Lessons Learned from a Century of Outbreaks: Readiness for 2030: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25391",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: What declining vaccination rates mean for families in Allegheny County – where 1 in 3 kindergarten classrooms lack herd immunity for measles",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/what-declining-vaccination-rates-mean-for-families-in-allegheny-county-where-1-in-3-kindergarten-classrooms-lack-herd-immunity-for-measles-277469",
+      "date": "2026-04-12"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: New rules for CDC vaccine panel aim to address lawsuit, empower Kennedy’s allies",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/04/09/new-acip-charter-cdc-vaccine-advisers-rfk-jr-address-legal-defeat/?utm_campaign=rss",
+      "date": "2026-04-12"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: New Charter Allows RFK Jr. to Reclaim Vaccine Policy Despite Court Ruling",
+      "origin": "STM — NY Times Science",
+      "url": "https://www.nytimes.com/2026/04/09/health/cdc-rfk-jr-vaccine-committee-ruling.html",
+      "date": "2026-04-12"
+    }
+  ]
+}

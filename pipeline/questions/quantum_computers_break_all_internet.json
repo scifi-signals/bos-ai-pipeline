@@ -1,0 +1,40 @@
+{
+  "id": "quantum_computers_break_all_internet",
+  "question": "Are quantum computers about to break all internet encryption and cause a security crisis?",
+  "topic": "Articles suggest both urgency ('We urgently need to prepare') and crisis framing ('crisis worse than",
+  "tags": [
+    "Technology",
+    "Cybersecurity",
+    "Quantum Science"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Decrypting the Encryption Debate: A Framework for Decision Makers",
+      "url": "https://www.nationalacademies.org/publications/25010",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: We urgently need to prepare for quantum computers breaking encryption",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522124-we-urgently-need-to-prepare-for-quantum-computers-breaking-encryption/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-13"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Quantum computers could usher in a crisis worse than Y2K",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522615-quantum-computers-could-usher-in-a-crisis-worse-than-y2k/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-14"
+    }
+  ]
+}

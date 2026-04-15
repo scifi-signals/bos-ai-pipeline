@@ -1,0 +1,46 @@
+{
+  "id": "emperor_penguins_face_imminent_extinction",
+  "question": "Do emperor penguins face imminent extinction from climate change?",
+  "topic": "Multiple articles emphasize extinction threat and endangered status, but conservation messaging ofte",
+  "tags": [
+    "Climate Change",
+    "Biodiversity",
+    "Conservation"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 12: Antarctica — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-12/",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Arctic Report Card - Antarctic Ice Sheet and Sea Ice — NOAA",
+      "url": "https://arctic.noaa.gov/Report-Card/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fourth National Climate Assessment - Chapter 26: Antarctica — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins added to endangered list after rapid decline",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522508-emperor-penguins-added-to-endangered-list-after-rapid-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-12"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins are marching toward extinction. Antarctica fur seals too",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/emperor-penguins-endangered-extinction-iucn",
+      "date": "2026-04-12"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "id": "hand_washing_dishes_environmentally_friendly",
+  "question": "Is hand-washing dishes more environmentally friendly than using a dishwasher?",
+  "topic": "Podcast specifically states hand-washing with running water uses more water and generates more emiss",
+  "tags": [
+    "Environmental Science",
+    "Consumer Behavior",
+    "Sustainability"
+  ],
+  "sources": [
+    {
+      "name": "WaterSense - Dishwashers — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Hand-washing dishes with running tap water uses more water and generates more emissions than machine dishwashing",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    }
+  ]
+}

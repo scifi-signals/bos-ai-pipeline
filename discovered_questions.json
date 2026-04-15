@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-14T12:19:52Z",
+  "generated_at": "2026-04-15T12:19:40Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -2184,6 +2184,49 @@
       "readiness_summary": "4 NASEM sources, most recent 2020 · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "climate_change_denial_been_scientifically",
+      "question": "Has climate change denial been scientifically debunked?",
+      "priority": "high",
+      "rationale": "Article 'Climate Change Denial Sees a Resurgence in Trump's Washington' indicates renewed public misinformation that needs authoritative correction",
+      "misinformation_narrative": "Despite overwhelming scientific consensus, climate denial continues to influence public opinion and policy, especially with recent political resurgence",
+      "public_stakes": "Continued climate denial delays crucial mitigation efforts, leading to more severe environmental and economic consequences",
+      "verification_status": "verified",
+      "verification_reason": "Climate denial thrives on platforms like Truth Social, conservative forums, and fossil fuel industry-funded websites, with renewed political backing.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science",
+        "Public Policy"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate Change Denial Sees a Resurgence in Trump’s Washington",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/04/09/climate/climate-change-deniers-trump.html",
+          "date": "2026-04-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2020 · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "should_people_avoid_medical_treatments",
       "question": "Should people avoid medical treatments due to concerns about side effects?",
       "priority": "high",
@@ -2415,6 +2458,59 @@
       "newest_source_year": 2019,
       "signal_count": 3,
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "declining_vaccination_rates_putting_communities",
+      "question": "Are declining vaccination rates putting communities at risk for disease outbreaks?",
+      "priority": "high",
+      "rationale": "Article specifically mentions '1 in 3 kindergarten classrooms lack herd immunity for measles' indicating real community risk from vaccine hesitancy",
+      "misinformation_narrative": "Vaccine hesitancy has led to declining vaccination rates, with some communities believing herd immunity isn't necessary or achievable",
+      "public_stakes": "Loss of herd immunity leads to preventable disease outbreaks, hospitalizations, and deaths, especially among vulnerable populations",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and alternative health platforms actively argue against herd immunity concepts and vaccination requirements.",
+      "tags": [
+        "Vaccines",
+        "Public Health",
+        "Infectious Disease"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Exploring Lessons Learned from a Century of Outbreaks: Readiness for 2030: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25391"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: What declining vaccination rates mean for families in Allegheny County – where 1 in 3 kindergarten classrooms lack herd immunity for measles",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/what-declining-vaccination-rates-mean-for-families-in-allegheny-county-where-1-in-3-kindergarten-classrooms-lack-herd-immunity-for-measles-277469",
+          "date": "2026-04-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: New rules for CDC vaccine panel aim to address lawsuit, empower Kennedy’s allies",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/04/09/new-acip-charter-cdc-vaccine-advisers-rfk-jr-address-legal-defeat/?utm_campaign=rss",
+          "date": "2026-04-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: New Charter Allows RFK Jr. to Reclaim Vaccine Policy Despite Court Ruling",
+          "origin": "STM — NY Times Science",
+          "url": "https://www.nytimes.com/2026/04/09/health/cdc-rfk-jr-vaccine-committee-ruling.html",
+          "date": "2026-04-12"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 3,
+      "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 3 discovery signals"
     },
     {
       "id": "cigarettes_effective_safer_way_quit",
@@ -7158,6 +7254,56 @@
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
+      "id": "quantum_computers_break_all_internet",
+      "question": "Are quantum computers about to break all internet encryption and cause a security crisis?",
+      "priority": "medium",
+      "rationale": "Articles suggest both urgency ('We urgently need to prepare') and crisis framing ('crisis worse than Y2K'), but the actual timeline and current preparedness efforts need clarification",
+      "misinformation_narrative": "Media reports suggest quantum computers will imminently break encryption causing a Y2K-style crisis, but the timeline and preparedness measures are often misrepresented",
+      "public_stakes": "Premature panic or insufficient preparation for actual quantum computing timeline could lead to either wasted resources or inadequate security planning",
+      "verification_status": "verified",
+      "verification_reason": "Tech media, cybersecurity forums, and mainstream news outlets regularly publish alarming headlines about quantum computing threatening current encryption systems.",
+      "tags": [
+        "Technology",
+        "Cybersecurity",
+        "Quantum Science"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Decrypting the Encryption Debate: A Framework for Decision Makers (2018)",
+          "url": "https://www.nationalacademies.org/publications/25010"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: We urgently need to prepare for quantum computers breaking encryption",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522124-we-urgently-need-to-prepare-for-quantum-computers-breaking-encryption/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers could usher in a crisis worse than Y2K",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522615-quantum-computers-could-usher-in-a-crisis-worse-than-y2k/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-14"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "quantum_computing_breakthroughs_always_live",
       "question": "Do quantum computing breakthroughs always live up to initial claims?",
       "priority": "medium",
@@ -8138,6 +8284,45 @@
       "newest_source_year": 2008,
       "signal_count": 7,
       "readiness_summary": "1 NASEM source, most recent 2008 — sources are old · confirmed misinformation · 7 discovery signals"
+    },
+    {
+      "id": "dietary_cholesterol_intake_major_factor",
+      "question": "Is dietary cholesterol intake a major factor in blood cholesterol levels?",
+      "priority": "medium",
+      "rationale": "Podcast states dietary cholesterol has minimal effect on serum cholesterol for most people due to genetic mediation, contradicting persistent public beliefs",
+      "misinformation_narrative": "Many people still avoid cholesterol-containing foods believing they directly raise blood cholesterol, when genetic factors largely mediate this relationship",
+      "public_stakes": "Unnecessary dietary restrictions may reduce quality of life while failing to address actual cardiovascular risk factors",
+      "verification_status": "verified",
+      "verification_reason": "Health and diet communities across social media, wellness blogs, and older nutritional advice still commonly promote avoiding dietary cholesterol despite updated scientific understanding.",
+      "tags": [
+        "Nutrition",
+        "Heart Disease",
+        "Health and Medicine"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Dietary cholesterol intake has minimal effect on serum cholesterol for most people due to genetic mediation—widely supported",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "dietary_cholesterol_directly_raise_blood",
@@ -12501,16 +12686,17 @@
     },
     {
       "id": "lowering_cholesterol_very_low_levels",
-      "question": "Can lowering cholesterol to very low levels safely prevent heart disease?",
+      "question": "Is lowering cholesterol to very low levels dangerous for health?",
       "priority": "low",
-      "rationale": "Combats cholesterol denialism that overlaps with anti-pharmaceutical sentiment",
-      "misinformation_narrative": "Cholesterol denialists claim that lowering LDL cholesterol is dangerous and unnecessary, despite evidence that near-zero levels are safe and beneficial",
-      "public_stakes": "People avoid proven cardiovascular prevention strategies, leading to preventable heart attacks and deaths",
+      "rationale": "Podcast claims LDL cholesterol can be safely lowered to near-zero levels and babies are born with essentially zero LDL, contradicting fears about 'too low' cholesterol",
+      "misinformation_narrative": "Cholesterol denialists claim that lowering LDL cholesterol too much is harmful, but evidence shows it can be safely reduced to near-zero levels",
+      "public_stakes": "People may avoid effective cholesterol treatment, increasing their risk of heart disease and stroke",
       "verification_status": "needs_review",
-      "verification_reason": "\"Cholesterol denialists\" isn't a major public movement; most people don't have strong opinions about extremely low LDL targets.",
+      "verification_reason": "\"Cholesterol denialists\" is too academic a term; while some people question cholesterol medications, the specific claim about \"near-zero levels being safe\" isn't a common public debate.",
       "tags": [
-        "Health and Medicine",
-        "Cardiovascular Health"
+        "Heart Disease",
+        "Cholesterol",
+        "Health and Medicine"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -12534,8 +12720,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-04-13",
-      "last_seen": "2026-04-13",
-      "times_seen": 1,
+      "last_seen": "2026-04-15",
+      "times_seen": 2,
       "status": "pending",
       "newest_source_year": 2010,
       "signal_count": 1,
@@ -15271,6 +15457,186 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "covid_vaccines_cause_dangerous_blood",
+      "question": "Do COVID-19 vaccines cause dangerous blood clots?",
+      "priority": "high",
+      "rationale": "Article states 'Scientists finally crack mystery of rare COVID vaccine blood clots' - understanding the mechanism can address public fears with facts",
+      "misinformation_narrative": "Vaccine hesitancy is fueled by fears of blood clots, but recent research has solved the mechanism showing these are extremely rare and manageable events",
+      "public_stakes": "Vaccine hesitancy leads to preventable COVID-19 deaths and hospitalizations, while the blood clot risk is minimal and now understood",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine groups on Facebook, Telegram, and alternative health websites actively spread fears about vaccine-induced blood clots, particularly regarding AstraZeneca and J&J vaccines.",
+      "tags": [
+        "Vaccines",
+        "Public Health",
+        "COVID-19"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+          "date": "2026-04-12"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Selected Adverse Events Reported after COVID-19 Vaccination",
+          "description": "CDC's comprehensive overview of rare adverse events including blood clots (TTS) associated with J&J vaccine",
+          "relevance": "Provides official data on blood clot rates, risk factors, and clinical guidance for thrombosis with thrombocytopenia syndrome"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Janssen COVID-19 Vaccine EUA Fact Sheet for Healthcare Providers",
+          "description": "FDA fact sheet detailing thrombosis with thrombocytopenia syndrome (TTS) warnings and clinical considerations",
+          "relevance": "Contains official regulatory guidance on blood clot risks, symptoms, and treatment recommendations"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters",
+          "description": "WHO's fact-checking resource addressing COVID-19 vaccine safety concerns including blood clots",
+          "relevance": "Provides global health perspective on vaccine safety with evidence-based responses to clotting concerns"
+        },
+        {
+          "organization": "ACIP (CDC)",
+          "organization_full": "ACIP (CDC)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Thrombosis with Thrombocytopenia Syndrome (TTS) Following Janssen COVID-19 Vaccine",
+          "description": "Advisory Committee on Immunization Practices presentation analyzing TTS cases and risk-benefit assessment",
+          "relevance": "Detailed epidemiological analysis of blood clot cases, incidence rates, and clinical outcomes"
+        },
+        {
+          "organization": "European Medicines Agency (EMA)",
+          "organization_full": "European Medicines Agency (EMA)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "AstraZeneca's COVID-19 vaccine: EMA finds possible link to very rare cases of unusual blood clots",
+          "description": "EMA's official assessment of blood clot risks with viral vector COVID-19 vaccines",
+          "relevance": "European regulatory authority's evidence-based analysis of clotting risks and benefit-risk balance"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "statin_medications_cause_dangerous_muscle",
+      "question": "Do statin medications cause dangerous muscle damage and memory problems?",
+      "priority": "high",
+      "rationale": "Podcast states statin muscle pain incidence is very low and largely nocebo effect, while statins may reduce dementia through stroke prevention - contradicts widespread fears",
+      "misinformation_narrative": "Many people avoid statins due to fears of severe muscle damage and dementia, but evidence shows muscle pain is largely a nocebo effect and statins may actually reduce dementia risk",
+      "public_stakes": "People at high cardiovascular risk avoid life-saving medications, leading to preventable heart attacks and strokes",
+      "verification_status": "verified",
+      "verification_reason": "Statin skepticism is widespread on health forums like Reddit, alternative medicine websites, and among patients who share anecdotes about muscle pain and memory issues on platforms like Facebook health groups.",
+      "tags": [
+        "Heart Disease",
+        "Medications",
+        "Health and Medicine"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Statins have no effect on dementia risk; may reduce dementia incidence through stroke prevention—should verify against latest neurology literature",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official safety communication addressing statin-associated muscle injury and memory problems, including label changes made in 2012",
+          "relevance": "Directly addresses both muscle damage and memory concerns with statins based on FDA safety review"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Comprehensive systematic review examining statin efficacy and safety including muscle-related adverse events",
+          "relevance": "Provides systematic review evidence on statin safety profile including muscle damage risks"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical practice guideline that addresses statin safety including muscle symptoms and cognitive effects",
+          "relevance": "Contains detailed evidence-based recommendations on managing statin-associated muscle symptoms and cognitive concerns"
+        },
+        {
+          "organization": "NIH/NLM",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://medlineplus.gov/statins.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "MedlinePlus: Statins",
+          "description": "NIH's patient education resource covering statin benefits and risks including muscle problems and memory issues",
+          "relevance": "Provides authoritative patient-focused information on statin side effects including muscle and memory concerns"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://iris.who.int/items/4713c185-ec9b-444a-8f8f-92029d4708b3",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Technical Report Series: Prevention of cardiovascular disease",
+          "description": "WHO technical report addressing cardiovascular disease prevention including discussion of statin therapy risks and benefits",
+          "relevance": "International perspective on statin safety in cardiovascular disease prevention"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -22057,6 +22423,85 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "hand_washing_dishes_environmentally_friendly",
+      "question": "Is hand-washing dishes more environmentally friendly than using a dishwasher?",
+      "priority": "low",
+      "rationale": "Podcast specifically states hand-washing with running water uses more water and generates more emissions than machine dishwashing",
+      "misinformation_narrative": "Many people believe hand-washing dishes is more eco-friendly, but evidence shows machine dishwashing uses less water and generates fewer emissions",
+      "public_stakes": "Inefficient household practices increase water usage and carbon emissions unnecessarily",
+      "verification_status": "verified",
+      "verification_reason": "Environmental forums, eco-conscious social media groups, and sustainability websites commonly promote hand-washing as more eco-friendly than dishwashers.",
+      "tags": [
+        "Environmental Science",
+        "Consumer Behavior",
+        "Sustainability"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Hand-washing dishes with running tap water uses more water and generates more emissions than machine dishwashing",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WaterSense - Dishwashers",
+          "description": "EPA's WaterSense program provides data on water usage efficiency of dishwashers compared to hand washing",
+          "relevance": "Provides official EPA data on water consumption comparing dishwashers to hand washing"
+        },
+        {
+          "organization": "Energy Star (EPA/DOE)",
+          "organization_full": "Energy Star (EPA/DOE)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "ENERGY STAR Dishwashers",
+          "description": "Joint EPA/Department of Energy program with energy and water efficiency data for dishwashers",
+          "relevance": "Contains energy consumption data and efficiency comparisons for dishwashers vs. hand washing"
+        },
+        {
+          "organization": "American Council for an Energy-Efficient Economy",
+          "organization_full": "American Council for an Energy-Efficient Economy",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Consumer Guide to Home Energy Savings - Kitchen Appliances",
+          "description": "ACEEE's research-based guide comparing energy and water use of kitchen appliances including dishwashers",
+          "relevance": "Provides independent analysis of environmental impacts of dishwashing methods"
+        },
+        {
+          "organization": "University of Bonn (International Journal of Life Cycle Assessment)",
+          "organization_full": "University of Bonn (International Journal of Life Cycle Assessment)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Comparative LCA of hand dishwashing and machine dishwashing",
+          "description": "Peer-reviewed life cycle assessment study comparing environmental impacts of hand washing vs. machine dishwashing",
+          "relevance": "Comprehensive scientific analysis of full environmental lifecycle impacts of both dishwashing methods"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
       "id": "potatoes_other_earth_crops_actually",
       "question": "Can potatoes or other Earth crops actually grow in lunar soil?",
       "priority": "low",
@@ -23384,17 +23829,17 @@
     },
     {
       "id": "glp_weight_loss_drugs_like",
-      "question": "Are GLP-1 weight loss drugs like Ozempic ineffective for many people due to unknown factors?",
+      "question": "Are GLP-1 weight loss drugs like Ozempic ineffective for many people?",
       "priority": "low",
-      "rationale": "New genetic research reveals specific predictors of GLP-1 drug response and side effects, explaining individual variation in treatment outcomes",
-      "misinformation_narrative": "People believe weight loss drug failures are mysterious or due to personal failings, when genetic factors significantly influence drug response and side effects",
-      "public_stakes": "Patients may abandon effective treatments or blame themselves for drug failures when genetic testing could guide appropriate medication selection",
+      "rationale": "Multiple articles focus on genetic predictors explaining why people respond differently to GLP-1 drugs, providing scientific explanation for perceived 'failures'",
+      "misinformation_narrative": "Media coverage suggests these drugs work inconsistently or fail frequently, but genetics research reveals why individual responses vary and helps optimize treatment",
+      "public_stakes": "Patients may abandon effective treatments or doctors may not properly screen for genetic factors that predict response",
       "verification_status": "needs_review",
-      "verification_reason": "The specific narrative about \"mysterious failures\" and genetic factors isn't a prominent public misconception about these new drugs.",
+      "verification_reason": "Media coverage of GLP-1 drugs focuses more on access and cost issues rather than effectiveness claims; this seems to mischaracterize the actual public discourse.",
       "tags": [
-        "Health and Medicine",
         "Obesity",
-        "Pharmacogenomics"
+        "Medications",
+        "Genetics"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -23508,12 +23953,109 @@
         }
       ],
       "discovered_at": "2026-04-10",
-      "last_seen": "2026-04-14",
-      "times_seen": 2,
+      "last_seen": "2026-04-15",
+      "times_seen": 3,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 7 alternative sources identified"
+    },
+    {
+      "id": "emperor_penguins_face_imminent_extinction",
+      "question": "Do emperor penguins face imminent extinction from climate change?",
+      "priority": "low",
+      "rationale": "Multiple articles emphasize extinction threat and endangered status, but conservation messaging often benefits from authoritative clarification of actual risk levels and timelines",
+      "misinformation_narrative": "Media reports suggest emperor penguins are 'marching toward extinction' but the actual conservation status and timeline may be more nuanced than portrayed",
+      "public_stakes": "Misunderstanding conservation urgency could lead to either inadequate protection efforts or misallocated conservation resources",
+      "verification_status": "needs_review",
+      "verification_reason": "While penguin extinction stories appear in media, the specific framing of \"marching toward extinction\" versus nuanced timelines isn't a major public misinformation battle.",
+      "tags": [
+        "Climate Change",
+        "Biodiversity",
+        "Conservation"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins added to endangered list after rapid decline",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522508-emperor-penguins-added-to-endangered-list-after-rapid-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins are marching toward extinction. Antarctica fur seals too",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/emperor-penguins-endangered-extinction-iucn",
+          "date": "2026-04-12"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-12/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 12: Antarctica",
+          "description": "IPCC Working Group II report chapter specifically covering Antarctic ecosystem impacts including penguin populations",
+          "relevance": "Provides authoritative assessment of climate change impacts on Antarctic species including emperor penguins"
+        },
+        {
+          "organization": "U.S. Fish and Wildlife Service",
+          "organization_full": "U.S. Fish and Wildlife Service",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Emperor Penguin Threatened Species Listing Final Rule",
+          "description": "Federal Register notice and supporting documents for listing emperor penguins as threatened under the Endangered Species Act",
+          "relevance": "Official U.S. government assessment of emperor penguin extinction risk from climate change"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://arctic.noaa.gov/Report-Card/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Arctic Report Card - Antarctic Ice Sheet and Sea Ice",
+          "description": "Annual assessment of polar region changes including Antarctic sea ice trends affecting penguin habitat",
+          "relevance": "Documents sea ice loss trends that directly impact emperor penguin breeding habitat"
+        },
+        {
+          "organization": "IUCN",
+          "organization_full": "IUCN",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Emperor Penguin Red List Assessment",
+          "description": "Official IUCN Red List species assessment detailing conservation status and climate change threats",
+          "relevance": "Authoritative global conservation status assessment specifically evaluating extinction risk"
+        },
+        {
+          "organization": "USGCRP",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment - Chapter 26: Antarctica",
+          "description": "U.S. Global Change Research Program assessment of Antarctic climate impacts including ecosystem effects",
+          "relevance": "Comprehensive U.S. government assessment of Antarctic climate change impacts on wildlife"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "don_glp_weight_loss_drugs",
@@ -24584,6 +25126,403 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "microplastics_food_water_pose_proven",
+      "question": "Do microplastics in food and water pose proven health risks to humans?",
+      "priority": "low",
+      "rationale": "Podcast explicitly states 'We do not have causative evidence that microplastics harm human health despite correlation claims in media' - this directly contradicts widespread public belief",
+      "misinformation_narrative": "Social media and news coverage often present microplastics as a confirmed health threat with established causation, when current evidence shows correlation but no proven causal harm to human health",
+      "public_stakes": "Unnecessary anxiety and potentially costly consumer decisions based on unproven health fears, while real environmental issues get overshadowed",
+      "verification_status": "needs_review",
+      "verification_reason": "This confuses legitimate scientific caution about emerging research with actual public misinformation; most people simply don't know about microplastics rather than holding strong false beliefs about proven harm.",
+      "tags": [
+        "Environmental Health",
+        "Food Safety",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241516198",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Microplastics in drinking-water",
+          "description": "WHO's comprehensive assessment of microplastics in drinking water, including health risk evaluation",
+          "relevance": "Directly addresses human health risks from microplastics in water with current evidence assessment"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Questions & Answers: Microplastics in Food",
+          "description": "FDA's current position on microplastics in food and their safety assessment approach",
+          "relevance": "Official US regulatory stance on microplastics in food safety and human health risks"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Research on Microplastics",
+          "description": "EPA's research overview on microplastics including human health considerations",
+          "relevance": "Federal environmental agency perspective on microplastics health research and risk assessment"
+        },
+        {
+          "organization": "EFSA",
+          "organization_full": "EFSA",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Presence of microplastics and nanoplastics in food, with particular focus on seafood",
+          "description": "European Food Safety Authority's scientific opinion on microplastics in food and human health risks",
+          "relevance": "Comprehensive European regulatory assessment of microplastics exposure and health implications"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics and Human Health",
+          "description": "National Institute of Environmental Health Sciences overview of microplastics research and health effects",
+          "relevance": "Federal health institute's current understanding of microplastics and human health research"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "dishwasher_detergent_pods_causing_leaky",
+      "question": "Are dishwasher detergent pods causing 'leaky gut' syndrome?",
+      "priority": "low",
+      "rationale": "Podcast identifies specific flawed study claiming dishwasher detergent ethoxylates cause leaky gut, using cancer cells and unrealistic chemical concentrations",
+      "misinformation_narrative": "Social media claims suggest dishwasher detergent residues cause 'leaky gut syndrome,' but the condition itself isn't medically recognized and the supporting study used unrealistic conditions",
+      "public_stakes": "People may avoid effective cleaning products and waste time/money on unproven treatments for a non-medical condition",
+      "verification_status": "needs_review",
+      "verification_reason": "\"Leaky gut syndrome\" claims exist in wellness communities, but the specific dishwasher detergent connection appears fabricated; this reads like an academic study critique dressed up as public misinformation.",
+      "tags": [
+        "Health and Medicine",
+        "Consumer Products",
+        "Gastrointestinal Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "'Leaky gut' is not a medically recognized condition per guest (described as 'influencer recognized')",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "beaver_dams_make_flooding_worse",
+      "question": "Do beaver dams make flooding worse during extreme weather events?",
+      "priority": "low",
+      "rationale": "Article explicitly titled 'Research casts doubt on beavers as flood culprits' suggests this is a common misconception with evidence to the contrary",
+      "misinformation_narrative": "Beavers are commonly blamed as flood culprits, but research shows beaver dams may actually help manage flood risks",
+      "public_stakes": "Misguided beaver removal programs may eliminate natural flood management systems, worsening actual flood risks",
+      "verification_status": "needs_review",
+      "verification_reason": "While some landowners may blame beavers for flooding, this isn't a widespread public misinformation narrative circulating on major platforms.",
+      "tags": [
+        "Environmental Science",
+        "Natural Disasters",
+        "Wildlife Management"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Do beaver dams really make flooding worse? Research casts doubt on beavers as flood culprits",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-beaver-worse-beavers-culprits.html",
+          "date": "2026-04-14"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "USGS",
+          "organization_full": "USGS",
+          "base_url": "",
+          "url": "https://pubs.usgs.gov/wri/1994/4011/report.pdf",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "The Effects of Beaver Dams on Hydrologic Processes",
+          "description": "USGS Water-Resources Investigations Report examining how beaver dams affect streamflow, flood peaks, and water storage",
+          "relevance": "Provides quantitative data on beaver dam impacts on flood hydrology and peak discharge rates"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.noaa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Nature-Based Solutions for Coastal Highway Resilience: An Implementation Guide",
+          "description": "NOAA guide that includes beaver dam analogues and natural flood management strategies",
+          "relevance": "Discusses beaver-related infrastructure for flood mitigation and resilience planning"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/waterutilityresponse/flood-resilience-basic-guide-water-and-wastewater-utilities",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Flood Resilience: A Basic Guide for Water and Wastewater Utilities",
+          "description": "EPA guidance on natural and nature-based features for flood management",
+          "relevance": "Addresses natural systems including wetlands and beaver complexes in flood risk management"
+        },
+        {
+          "organization": "USFWS",
+          "organization_full": "USFWS",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Working with Beavers: Reducing Beaver-Human Conflicts",
+          "description": "Fish and Wildlife Service guidance on beaver management including flood considerations",
+          "relevance": "Specifically addresses beaver dam impacts on flooding and provides management recommendations"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "reliably_detect_diagnose_medical_conditions",
+      "question": "Can AI reliably detect and diagnose medical conditions?",
+      "priority": "low",
+      "rationale": "Articles show AI spreading misinformation about fake diseases and humans outperforming AI on complex tasks, contradicting AI medical hype",
+      "misinformation_narrative": "AI medical diagnosis is often oversold in media, but research shows AI agents still struggle with complex scientific tasks and humans outperform AI in many areas",
+      "public_stakes": "Overconfidence in AI medical diagnosis could lead to misdiagnosis, delayed treatment, or reduced human medical expertise",
+      "verification_status": "needs_review",
+      "verification_reason": "This appears to conflate legitimate academic discussions about AI limitations with public misinformation; most people aren't strongly opinionated about AI medical diagnosis capabilities.",
+      "tags": [
+        "Artificial Intelligence",
+        "Health and Medicine",
+        "Medical Technology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Daily briefing: AI spread information about an obviously made-up disease",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01140-4",
+          "date": "2026-04-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01100-y",
+          "date": "2026-04-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Human scientists trounce the best AI agents on complex tasks",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01199-z",
+          "date": "2026-04-13"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Artificial Intelligence and Machine Learning in Software as Medical Devices",
+          "description": "FDA's comprehensive guidance on AI/ML in medical devices, including diagnostic capabilities and regulatory requirements",
+          "relevance": "Provides regulatory perspective on AI diagnostic reliability and approval standards"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240029200",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Ethics and governance of artificial intelligence for health",
+          "description": "WHO guidance document addressing AI applications in healthcare, including diagnostic accuracy and limitations",
+          "relevance": "Addresses reliability, safety, and effectiveness of AI in medical diagnosis"
+        },
+        {
+          "organization": "NIH/NLM",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "AI in Medical Imaging - PubMed Clinical Queries systematic reviews",
+          "description": "Systematic reviews and meta-analyses on AI diagnostic performance in medical imaging",
+          "relevance": "Contains peer-reviewed evidence on AI diagnostic accuracy across multiple medical conditions"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Machine learning for medical diagnosis systematic reviews",
+          "description": "Cochrane systematic reviews evaluating machine learning and AI diagnostic tools",
+          "relevance": "Provides high-quality systematic review evidence on AI diagnostic reliability"
+        },
+        {
+          "organization": "American Medical Association",
+          "organization_full": "American Medical Association",
+          "base_url": "https://www.ama-assn.org",
+          "url": "https://www.ama-assn.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "AMA Principles for Augmented Intelligence Development, Deployment and Use",
+          "description": "Professional medical organization's principles and guidance on AI use in medical practice including diagnosis",
+          "relevance": "Medical profession's standards for reliable AI diagnostic implementation"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "polyvinyl_alcohol_pva_detergent_pods",
+      "question": "Are polyvinyl alcohol (PVA) detergent pods environmentally harmful?",
+      "priority": "low",
+      "rationale": "Podcast specifically identifies a 2021 study claiming 67% of PVA doesn't break down as relying solely on computer modeling without experimental validation",
+      "misinformation_narrative": "Environmental concerns about PVA from detergent pods are based on flawed computer modeling studies rather than experimental evidence of biodegradation",
+      "public_stakes": "Consumers may switch to less effective or more environmentally harmful cleaning alternatives based on misleading information",
+      "verification_status": "needs_review",
+      "verification_reason": "PVA biodegradation studies are too technical for widespread public misinformation; this seems like an academic disagreement presented as popular misconception.",
+      "tags": [
+        "Environmental Science",
+        "Consumer Products",
+        "Chemistry"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "PVA from detergent pods breaks down in wastewater treatment plants with high efficiency when microbial ecosystems are acclimated",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/saferchoice/standard",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Safer Choice Standard and Guidance",
+          "description": "EPA's guidance on safer chemical ingredients in cleaning products, which would include assessment criteria for detergent pod materials and their environmental impact",
+          "relevance": "Provides regulatory framework and criteria for evaluating environmental safety of cleaning product components including packaging materials"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Design for the Environment Program - Surfactant Screening Dataset",
+          "description": "EPA database that evaluates environmental and health impacts of chemicals used in cleaning products, potentially including PVA polymers",
+          "relevance": "Contains specific environmental hazard data on chemicals and materials used in detergent formulations"
+        },
+        {
+          "organization": "OECD",
+          "organization_full": "OECD",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "OECD Guidelines for Testing of Chemicals - Biodegradation Tests",
+          "description": "International testing standards for biodegradation of chemicals and polymers, which would apply to PVA assessment",
+          "relevance": "Provides standardized methodology for assessing biodegradability of polymer materials like PVA"
+        },
+        {
+          "organization": "European Chemicals Agency (ECHA)",
+          "organization_full": "European Chemicals Agency (ECHA)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Registration Dossier for Polyvinyl Alcohol",
+          "description": "Comprehensive regulatory dossier containing environmental fate and effects data for PVA under EU REACH regulation",
+          "relevance": "Official regulatory assessment of PVA's environmental properties including biodegradation, aquatic toxicity, and environmental fate"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfcfr/cfrsearch.cfm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Code of Federal Regulations Title 21 - Food Contact Substances",
+          "description": "FDA regulations on polyvinyl alcohol as food contact substance, including safety assessments",
+          "relevance": "Regulatory evaluation of PVA safety that includes environmental considerations for an approved polymer"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-15",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {

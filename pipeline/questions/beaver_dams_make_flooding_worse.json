@@ -1,0 +1,39 @@
+{
+  "id": "beaver_dams_make_flooding_worse",
+  "question": "Do beaver dams make flooding worse during extreme weather events?",
+  "topic": "Article explicitly titled 'Research casts doubt on beavers as flood culprits' suggests this is a com",
+  "tags": [
+    "Environmental Science",
+    "Natural Disasters",
+    "Wildlife Management"
+  ],
+  "sources": [
+    {
+      "name": "The Effects of Beaver Dams on Hydrologic Processes — USGS",
+      "url": "https://pubs.usgs.gov/wri/1994/4011/report.pdf",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Nature-Based Solutions for Coastal Highway Resilience: An Implementation Guide — NOAA",
+      "url": "https://www.noaa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Flood Resilience: A Basic Guide for Water and Wastewater Utilities — EPA",
+      "url": "https://www.epa.gov/waterutilityresponse/flood-resilience-basic-guide-water-and-wastewater-utilities",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Natural Disasters & Extreme Weather: Do beaver dams really make flooding worse? Research casts doubt on beavers as flood culprits",
+      "origin": "STM — Phys.org",
+      "url": "https://phys.org/news/2026-04-beaver-worse-beavers-culprits.html",
+      "date": "2026-04-14"
+    }
+  ]
+}
