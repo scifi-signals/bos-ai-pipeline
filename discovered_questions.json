@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T12:19:40Z",
+  "generated_at": "2026-04-16T12:20:52Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -2182,6 +2182,52 @@
       "newest_source_year": 2020,
       "signal_count": 1,
       "readiness_summary": "4 NASEM sources, most recent 2020 · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "climate_change_action_hurt_economy",
+      "question": "Does climate change action hurt the economy more than climate change itself?",
+      "priority": "high",
+      "rationale": "Provides authoritative economic analysis comparing costs of action versus inaction on climate change",
+      "misinformation_narrative": "Climate action opponents claim that 'net zero' policies are economically destructive while downplaying climate change costs",
+      "public_stakes": "Delaying climate action based on economic fears increases long-term costs and climate risks to society",
+      "verification_status": "verified",
+      "verification_reason": "Conservative media, fossil fuel advocates on social platforms, and climate skeptic groups regularly claim climate policies destroy jobs while minimizing climate costs.",
+      "tags": [
+        "Climate Change",
+        "Economics"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Adapting to the Impacts of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12783"
+        },
+        {
+          "name": "Informing an Effective Response to Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12784"
+        },
+        {
+          "name": "Guidelines to Incorporate the Costs and Benefits of Adaptation Measures in Preparation for Extreme Weather Events and Climate Change (2020)",
+          "url": "https://www.nationalacademies.org/publications/25847"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: ‘Net zero’ isn’t madness: the staggering economic costs of climate change",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01020-x",
+          "date": "2026-04-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 1,
+      "readiness_summary": "3 NASEM sources, most recent 2020 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "climate_change_denial_been_scientifically",
@@ -7255,17 +7301,16 @@
     },
     {
       "id": "quantum_computers_break_all_internet",
-      "question": "Are quantum computers about to break all internet encryption and cause a security crisis?",
+      "question": "Are quantum computers about to break all internet encryption?",
       "priority": "medium",
-      "rationale": "Articles suggest both urgency ('We urgently need to prepare') and crisis framing ('crisis worse than Y2K'), but the actual timeline and current preparedness efforts need clarification",
-      "misinformation_narrative": "Media reports suggest quantum computers will imminently break encryption causing a Y2K-style crisis, but the timeline and preparedness measures are often misrepresented",
-      "public_stakes": "Premature panic or insufficient preparation for actual quantum computing timeline could lead to either wasted resources or inadequate security planning",
+      "rationale": "Provides realistic timeline and current capabilities of quantum computers versus encryption-breaking requirements",
+      "misinformation_narrative": "Sensationalized headlines claim quantum computers will soon make all digital security obsolete, causing unnecessary panic about immediate threats",
+      "public_stakes": "Premature panic may lead to hasty, expensive security changes, while underestimating the timeline prevents appropriate preparation",
       "verification_status": "verified",
       "verification_reason": "Tech media, cybersecurity forums, and mainstream news outlets regularly publish alarming headlines about quantum computing threatening current encryption systems.",
       "tags": [
-        "Technology",
-        "Cybersecurity",
-        "Quantum Science"
+        "Quantum Science",
+        "Cybersecurity"
       ],
       "nasem_source_count": 2,
       "nasem_sources_preview": [
@@ -7296,8 +7341,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-04-15",
-      "last_seen": "2026-04-15",
-      "times_seen": 1,
+      "last_seen": "2026-04-16",
+      "times_seen": 2,
       "status": "pending",
       "newest_source_year": 2019,
       "signal_count": 1,
@@ -9382,6 +9427,58 @@
       "readiness_summary": "2 NASEM sources, most recent 2025 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
+      "id": "systems_reliably_spread_medical_misinformation",
+      "question": "Do AI systems reliably spread medical misinformation?",
+      "priority": "low",
+      "rationale": "Provides nuanced view of AI reliability in medical contexts, distinguishing between controlled studies and real-world performance",
+      "misinformation_narrative": "Headlines claiming AI spreads fake disease information fuel fear that AI medical tools are inherently unreliable and dangerous",
+      "public_stakes": "Excessive fear of AI medical tools may prevent adoption of beneficial healthcare applications, while insufficient caution about limitations could cause harm",
+      "verification_status": "needs_review",
+      "verification_reason": "While AI hallucination in healthcare gets academic coverage, there's no widespread public narrative specifically claiming AI medical tools are inherently dangerous misinformation spreaders.",
+      "tags": [
+        "Artificial Intelligence",
+        "Health Technology"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Understanding and Addressing Misinformation About Science (2025)",
+          "url": "https://www.nationalacademies.org/publications/27894"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Daily briefing: AI spread information about an obviously made-up disease",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01140-4",
+          "date": "2026-04-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Scientists invented a fake disease. AI told people it was real",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01100-y",
+          "date": "2026-04-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00697-4",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2025 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "spreading_medical_misinformation_dangerous_levels",
       "question": "Is AI spreading medical misinformation at dangerous levels?",
       "priority": "low",
@@ -10614,6 +10711,44 @@
       "newest_source_year": 2023,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "genes_determine_lifespan_lifestyle_factors",
+      "question": "Do genes determine lifespan more than lifestyle factors?",
+      "priority": "low",
+      "rationale": "Clarifies the relative contributions of genetics versus modifiable lifestyle factors to lifespan and healthy aging",
+      "misinformation_narrative": "Headlines claim 'genes matter way more than we thought' for lifespan, potentially leading people to believe lifestyle changes don't matter",
+      "public_stakes": "Overemphasizing genetic factors may discourage people from making beneficial lifestyle changes that significantly impact health and longevity",
+      "verification_status": "needs_review",
+      "verification_reason": "While genetics research gets headline coverage, there's no meaningful public belief that genes override lifestyle choices for longevity.",
+      "tags": [
+        "Genetics & Genomics",
+        "Health and Medicine"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Global Roadmap for Healthy Longevity (2023)",
+          "url": "https://www.nationalacademies.org/publications/26144"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Scientists were wrong about lifespan. Your genes matter way more than we thought",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260411022047.htm",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2023,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2023 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "huge_asteroids_spinning_impossible_speeds",
@@ -15458,6 +15593,218 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "leaky_gut_syndrome_real_medical",
+      "question": "Is 'leaky gut syndrome' a real medical condition that requires treatment?",
+      "priority": "high",
+      "rationale": "Distinguishes between increased intestinal permeability (a real phenomenon) and 'leaky gut syndrome' (not medically recognized)",
+      "misinformation_narrative": "Wellness influencers and alternative medicine practitioners promote 'leaky gut' as a diagnosable condition requiring expensive treatments and supplements",
+      "public_stakes": "People spend money on unproven treatments while potentially ignoring real gastrointestinal conditions that need proper medical care",
+      "verification_status": "verified",
+      "verification_reason": "Wellness influencers on Instagram, TikTok, and alternative health websites heavily promote leaky gut syndrome with expensive supplement protocols.",
+      "tags": [
+        "Health and Medicine",
+        "Alternative Medicine"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "'Leaky gut' is not a medically recognized condition per guest (described as 'influencer recognized')",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/treatment",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Irritable Bowel Syndrome (IBS) - Treatment",
+          "description": "NIH's National Institute of Diabetes and Digestive and Kidney Diseases information on IBS, which often addresses intestinal permeability concepts",
+          "relevance": "Addresses legitimate gastrointestinal conditions vs. unproven syndromes"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Beware of Products Promising Miracle Weight Loss",
+          "description": "FDA consumer update that addresses unproven health claims including digestive health products",
+          "relevance": "FDA guidance on unsubstantiated health claims related to digestive conditions"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003048.pub4/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Probiotics for treatment of acute infectious diarrhoea",
+          "description": "Cochrane systematic review examining evidence for gut health interventions",
+          "relevance": "Evidence-based review of treatments targeting gut barrier function"
+        },
+        {
+          "organization": "NIH/NLM",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://medlineplus.gov/digestivediseases.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "MedlinePlus - Digestive Diseases",
+          "description": "NIH's consumer health information on recognized digestive conditions",
+          "relevance": "Authoritative listing of medically recognized digestive conditions and treatments"
+        }
+      ],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "vaccination_rates_declining_dangerously_schools",
+      "question": "Are vaccination rates declining dangerously in US schools?",
+      "priority": "high",
+      "rationale": "Uses specific data about classroom immunity levels to illustrate real consequences of declining vaccination rates",
+      "misinformation_narrative": "Some communities believe vaccine requirements are unnecessary or that declining rates aren't a real public health threat",
+      "public_stakes": "Loss of herd immunity leads to outbreaks of preventable diseases like measles, putting vulnerable children and adults at risk",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities and some parental groups on Facebook actively downplay declining vaccination rates and oppose school vaccine requirements.",
+      "tags": [
+        "Vaccines & Immunization",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: What declining vaccination rates mean for families in Allegheny County – where 1 in 3 kindergarten classrooms lack herd immunity for measles",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/what-declining-vaccination-rates-mean-for-families-in-allegheny-county-where-1-in-3-kindergarten-classrooms-lack-herd-immunity-for-measles-277469",
+          "date": "2026-04-13"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "School Vaccination Coverage Reports",
+          "description": "Annual reports on vaccination coverage among kindergarteners by state and vaccine type, including trend data",
+          "relevance": "Provides direct data on school vaccination rates and trends over time to assess if rates are declining"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7244a3.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Vaccination Coverage Among Children in Kindergarten — United States, 2022–23 School Year",
+          "description": "MMWR report analyzing kindergarten vaccination coverage data and exemption rates",
+          "relevance": "Most recent comprehensive analysis of school vaccination trends and exemption patterns"
+        },
+        {
+          "organization": "AAP",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "State Vaccination Requirements and Exemptions",
+          "description": "American Academy of Pediatrics overview of state vaccination policies and exemption trends",
+          "relevance": "Provides context on policy factors affecting vaccination rates in schools"
+        },
+        {
+          "organization": "AJPH",
+          "organization_full": "AJPH",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Trends in Vaccine Exemptions in US Schools",
+          "description": "Peer-reviewed research published in American Journal of Public Health analyzing vaccination exemption trends",
+          "relevance": "Academic analysis of vaccination exemption patterns that indicate declining vaccination rates"
+        }
+      ],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "glp_drugs_like_ozempic_safe",
+      "question": "Are GLP-1 drugs like Ozempic safe to buy online?",
+      "priority": "high",
+      "rationale": "Addresses the flood of online GLP-1 drug advertisements and helps people distinguish legitimate from dangerous sources",
+      "misinformation_narrative": "Online ads claim equivalent GLP-1 drugs are safely available without prescription, while people assume all online sources are legitimate",
+      "public_stakes": "Counterfeit or improperly handled GLP-1 drugs can cause serious adverse effects, while avoiding legitimate medical supervision misses important monitoring",
+      "verification_status": "verified",
+      "verification_reason": "Social media ads on Instagram and Facebook promote unregulated GLP-1 alternatives, with users in diabetes/weight loss groups sharing \"finds\" of online sources.",
+      "tags": [
+        "Health and Medicine",
+        "Drug Safety"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Ads for GLP-1 drugs are flooding the internet – here’s how to know if it’s safe to buy them online",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/ads-for-glp-1-drugs-are-flooding-the-internet-heres-how-to-know-if-its-safe-to-buy-them-online-277369",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA warns consumers about dangerous medicines sold by illegal online pharmacies",
+          "description": "FDA warning about risks of purchasing prescription medications from illegal online pharmacies",
+          "relevance": "Directly addresses safety concerns of buying prescription drugs online, which would include GLP-1 medications like Ozempic"
+        },
+        {
+          "organization": "NABP",
+          "organization_full": "NABP",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "NABP Internet Drug Outlet Identification Program Progress Report",
+          "description": "National Association of Boards of Pharmacy report on rogue internet pharmacies and unsafe online drug sales",
+          "relevance": "Professional pharmacy organization's assessment of online pharmacy safety risks"
+        }
+      ],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 2 alternative sources identified"
     },
     {
       "id": "covid_vaccines_cause_dangerous_blood",
@@ -22426,15 +22773,14 @@
       "id": "hand_washing_dishes_environmentally_friendly",
       "question": "Is hand-washing dishes more environmentally friendly than using a dishwasher?",
       "priority": "low",
-      "rationale": "Podcast specifically states hand-washing with running water uses more water and generates more emissions than machine dishwashing",
-      "misinformation_narrative": "Many people believe hand-washing dishes is more eco-friendly, but evidence shows machine dishwashing uses less water and generates fewer emissions",
-      "public_stakes": "Inefficient household practices increase water usage and carbon emissions unnecessarily",
+      "rationale": "Corrects common assumption about relative environmental impacts of different dishwashing methods",
+      "misinformation_narrative": "Many people assume hand-washing is more eco-friendly and avoid dishwashers to reduce their environmental impact",
+      "public_stakes": "Choosing less efficient cleaning methods increases water usage and carbon emissions while providing no environmental benefit",
       "verification_status": "verified",
-      "verification_reason": "Environmental forums, eco-conscious social media groups, and sustainability websites commonly promote hand-washing as more eco-friendly than dishwashers.",
+      "verification_reason": "Environmental communities on Reddit, eco-friendly Facebook groups, and sustainability influencers commonly promote hand-washing as more eco-friendly than dishwashers.",
       "tags": [
         "Environmental Science",
-        "Consumer Behavior",
-        "Sustainability"
+        "Consumer Behavior"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -22491,15 +22837,37 @@
           "resource_name": "Comparative LCA of hand dishwashing and machine dishwashing",
           "description": "Peer-reviewed life cycle assessment study comparing environmental impacts of hand washing vs. machine dishwashing",
           "relevance": "Comprehensive scientific analysis of full environmental lifecycle impacts of both dishwashing methods"
+        },
+        {
+          "organization": "DOE",
+          "organization_full": "DOE",
+          "base_url": "",
+          "url": "https://www.energy.gov/energysaver/dishwashers",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Energy Saver: Dishwashers",
+          "description": "Department of Energy guidance on dishwasher energy efficiency and environmental impact",
+          "relevance": "Contains federal analysis of energy consumption for dishwashers versus hand washing dishes"
+        },
+        {
+          "organization": "University of Bonn",
+          "organization_full": "University of Bonn",
+          "base_url": "",
+          "url": "https://www.uni-bonn.de/en",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Comparative Assessment of the Environmental Impact of Dishwashers and Hand-washing",
+          "description": "Academic lifecycle assessment study comparing environmental impacts of machine versus hand dishwashing",
+          "relevance": "Peer-reviewed research directly comparing water, energy, and chemical usage between the two methods"
         }
       ],
       "discovered_at": "2026-04-15",
-      "last_seen": "2026-04-15",
-      "times_seen": 1,
+      "last_seen": "2026-04-16",
+      "times_seen": 2,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 6 alternative sources identified"
     },
     {
       "id": "potatoes_other_earth_crops_actually",
@@ -23828,6 +24196,102 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "emperor_penguins_doomed_extinction_climate",
+      "question": "Are emperor penguins doomed to extinction from climate change?",
+      "priority": "low",
+      "rationale": "Balances serious conservation concerns with evidence-based assessment of extinction risks and potential interventions",
+      "misinformation_narrative": "Headlines declaring emperor penguins 'marching toward extinction' may create fatalistic attitudes that conservation efforts are hopeless",
+      "public_stakes": "Fatalistic messaging may reduce support for conservation efforts that could help species adapt to changing conditions",
+      "verification_status": "needs_review",
+      "verification_reason": "Penguin conservation stories generate concern but don't create a specific \"conservation is hopeless\" narrative among the general public.",
+      "tags": [
+        "Biodiversity & Conservation",
+        "Climate Change"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins added to endangered list after rapid decline",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522508-emperor-penguins-added-to-endangered-list-after-rapid-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Emperor penguins are marching toward extinction. Antarctica fur seals too",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/emperor-penguins-endangered-extinction-iucn",
+          "date": "2026-04-14"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-12/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 12: Antarctica",
+          "description": "IPCC Working Group II report chapter specifically covering Antarctic ecosystem impacts including emperor penguin populations under different climate scenarios",
+          "relevance": "Provides authoritative climate projections and species impact assessments for Antarctic fauna including emperor penguins"
+        },
+        {
+          "organization": "USGCRP",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment Volume II: Impacts, Risks, and Adaptation - Polar Regions",
+          "description": "U.S. Global Change Research Program assessment of climate impacts on polar ecosystems and species",
+          "relevance": "Federal assessment of climate change impacts on polar species including Antarctic wildlife"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.noaa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate.gov: Emperor Penguins and Climate Change",
+          "description": "NOAA's detailed analysis of how climate change specifically affects emperor penguin breeding cycles and habitat",
+          "relevance": "Dedicated scientific resource on emperor penguin vulnerability to climate change"
+        },
+        {
+          "organization": "IUCN",
+          "organization_full": "IUCN",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Red List Assessment: Aptenodytes forsteri (Emperor Penguin)",
+          "description": "IUCN Red List species assessment including climate change threats and population projections for emperor penguins",
+          "relevance": "Authoritative conservation status assessment that evaluates extinction risk from climate change"
+        },
+        {
+          "organization": "Antarctic Treaty Secretariat",
+          "organization_full": "Antarctic Treaty Secretariat",
+          "base_url": "",
+          "url": "https://www.ats.aq/devAS/Meetings/Measure?lang=e&id=421",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Committee for Environmental Protection Information Papers on Antarctic Species",
+          "description": "Scientific papers and assessments submitted to Antarctic Treaty parties on species conservation including climate impacts",
+          "relevance": "International treaty body assessments of Antarctic species conservation status and climate threats"
+        }
+      ],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "glp_weight_loss_drugs_like",
       "question": "Are GLP-1 weight loss drugs like Ozempic ineffective for many people?",
       "priority": "low",
@@ -25129,6 +25593,362 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "microplastics_food_water_pose_immediate",
+      "question": "Do microplastics in our food and water pose immediate health dangers?",
+      "priority": "low",
+      "rationale": "Addresses the gap between correlation claims in media and actual causative evidence for human health effects",
+      "misinformation_narrative": "Social media and news reports claim microplastics are definitively causing human health problems, when evidence for causation is lacking",
+      "public_stakes": "Misplaced fear about microplastics may distract from proven environmental and health threats, or lead to ineffective consumer choices",
+      "verification_status": "needs_review",
+      "verification_reason": "While microplastics get media coverage, the public generally understands the health effects are still being studied rather than believing definitive causation claims.",
+      "tags": [
+        "Environmental Health",
+        "Food Safety"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241516198",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Microplastics in drinking-water",
+          "description": "WHO's comprehensive report analyzing current evidence on microplastics in drinking water and potential health impacts",
+          "relevance": "Directly addresses health risks of microplastics in water with evidence-based assessment"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Questions & Answers: Microplastics in Food",
+          "description": "FDA's official Q&A document addressing microplastics in food products and current safety assessments",
+          "relevance": "Provides FDA's current position on immediate health risks from microplastics in food"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Research on Microplastics",
+          "description": "EPA's overview of ongoing microplastics research including human health risk assessment activities",
+          "relevance": "Details EPA's scientific assessment of microplastics health risks and research gaps"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics and Human Health Factsheet",
+          "description": "NIEHS fact sheet on microplastics exposure pathways and current understanding of health effects",
+          "relevance": "Summarizes current scientific evidence on immediate vs. long-term health risks from microplastics"
+        },
+        {
+          "organization": "EFSA",
+          "organization_full": "EFSA",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Presence of microplastics and nanoplastics in food, with particular focus on seafood",
+          "description": "European Food Safety Authority's scientific opinion on microplastics in food and risk assessment",
+          "relevance": "Provides comprehensive risk assessment of immediate health concerns from microplastics in food"
+        }
+      ],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "detergent_pods_dishwasher_detergents_causing",
+      "question": "Are detergent pods and dishwasher detergents causing widespread environmental harm?",
+      "priority": "low",
+      "rationale": "Corrects misconceptions about PVA biodegradation and provides evidence-based comparison of cleaning methods' environmental impact",
+      "misinformation_narrative": "Viral social media posts claim detergent pods don't break down and are major environmental pollutants, leading people to avoid efficient cleaning methods",
+      "public_stakes": "Switching to less efficient cleaning methods may increase water usage and emissions while providing no environmental benefit",
+      "verification_status": "needs_review",
+      "verification_reason": "No significant environmental movement targets detergent pods specifically; this conflates general plastic pollution concerns with a specific anti-detergent narrative.",
+      "tags": [
+        "Environmental Science",
+        "Consumer Products"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "PVA from detergent pods breaks down in wastewater treatment plants with high efficiency when microbial ecosystems are acclimated",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Safer Choice Standard for Automatic Dishwashing Products",
+          "description": "EPA's criteria for safer dishwashing products including environmental impact considerations",
+          "relevance": "Provides EPA's assessment of environmental concerns with dishwashing detergents and criteria for safer alternatives"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Poisoning Prevention: Laundry Pods",
+          "description": "CDC information on detergent pod safety and poisoning prevention",
+          "relevance": "While focused on human health, provides authoritative data on detergent pod composition and safety concerns"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.noaa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Marine Debris Program - Microplastics Research",
+          "description": "NOAA research on microplastics including those from synthetic cleaning products",
+          "relevance": "Addresses environmental impact of synthetic materials and chemicals that enter waterways from household products"
+        }
+      ],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
+    },
+    {
+      "id": "beaver_dams_make_flooding_worse",
+      "question": "Do beaver dams make flooding worse during major storms?",
+      "priority": "low",
+      "rationale": "Corrects misconceptions about beaver dams' role in flooding with evidence of their protective benefits",
+      "misinformation_narrative": "Property owners and some officials blame beaver dams for worsening flood damage, leading to dam removal efforts",
+      "public_stakes": "Removing beneficial beaver dams eliminates natural flood control and ecosystem services that actually reduce flood risks",
+      "verification_status": "needs_review",
+      "verification_reason": "While some property disputes involve beaver dams, there's no widespread public misconception that beaver dams generally worsen flooding.",
+      "tags": [
+        "Environmental Science",
+        "Natural Disasters"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Do beaver dams really make flooding worse? Research casts doubt on beavers as flood culprits",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-beaver-worse-beavers-culprits.html",
+          "date": "2026-04-14"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "USGS",
+          "organization_full": "USGS",
+          "base_url": "",
+          "url": "https://pubs.usgs.gov/wri/1994/4011/report.pdf",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "The Effects of Beaver Dams on Hydrologic Processes",
+          "description": "USGS Water-Resources Investigations Report examining how beaver dams affect streamflow, flood peaks, and water storage",
+          "relevance": "Provides quantitative data on beaver dam impacts on flood hydrology and peak discharge rates"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.noaa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Nature-Based Solutions for Coastal Highway Resilience: An Implementation Guide",
+          "description": "NOAA guide that includes beaver dam analogues and natural flood management strategies",
+          "relevance": "Discusses beaver-related infrastructure for flood mitigation and resilience planning"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/waterutilityresponse/flood-resilience-basic-guide-water-and-wastewater-utilities",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Flood Resilience: A Basic Guide for Water and Wastewater Utilities",
+          "description": "EPA guidance on natural and nature-based features for flood management",
+          "relevance": "Addresses natural systems including wetlands and beaver complexes in flood risk management"
+        },
+        {
+          "organization": "USFWS",
+          "organization_full": "USFWS",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Working with Beavers: Reducing Beaver-Human Conflicts",
+          "description": "Fish and Wildlife Service guidance on beaver management including flood considerations",
+          "relevance": "Specifically addresses beaver dam impacts on flooding and provides management recommendations"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-16",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "you_catch_viruses_cause_cancer",
+      "question": "Can you catch viruses that cause cancer from other people?",
+      "priority": "low",
+      "rationale": "Clarifies which cancers have viral causes and how these viruses are actually transmitted",
+      "misinformation_narrative": "Some people fear cancer is contagious through normal contact, while others don't realize that certain cancers are caused by transmissible viruses",
+      "public_stakes": "Misconceptions lead to unnecessary social isolation of cancer patients or failure to take prevention measures against cancer-causing viruses",
+      "verification_status": "needs_review",
+      "verification_reason": "While some confusion exists about cancer transmission, there's no coherent widespread misconception about \"catching cancer\" vs. virus-caused cancers.",
+      "tags": [
+        "Cancer Research",
+        "Infectious Disease"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: 95% of people carry this virus and scientists may have just found how to stop it",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260414075650.htm",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Cancer and HPV",
+          "description": "CDC's comprehensive information on HPV as a sexually transmitted virus that causes cancer",
+          "relevance": "Directly addresses how HPV, a cancer-causing virus, is transmitted between people"
+        },
+        {
+          "organization": "National Cancer Institute (NCI)",
+          "organization_full": "National Cancer Institute (NCI)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Viruses That Can Lead to Cancer",
+          "description": "NCI's detailed guide on oncogenic viruses and their transmission modes",
+          "relevance": "Provides comprehensive information on cancer-causing viruses and how they spread"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/cervical-cancer",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Human papillomavirus (HPV) and cervical cancer",
+          "description": "WHO fact sheet on HPV transmission and cancer risk",
+          "relevance": "International health authority's guidance on sexually transmitted cancer-causing virus"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/hepatitis-b/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Hepatitis B and Cancer",
+          "description": "CDC information on hepatitis B virus transmission and liver cancer risk",
+          "relevance": "Explains how hepatitis B, which causes liver cancer, spreads between people"
+        },
+        {
+          "organization": "American Cancer Society",
+          "organization_full": "American Cancer Society",
+          "base_url": "https://www.cancer.org",
+          "url": "https://www.cancer.org/cancer/risk-prevention/infections.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Infections That Can Lead to Cancer",
+          "description": "Comprehensive guide on infectious agents including viruses that cause cancer",
+          "relevance": "Explains transmission modes of various cancer-causing viruses including HPV, hepatitis, and others"
+        }
+      ],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "breathing_dangerous_levels_dna_environment",
+      "question": "Are we breathing in dangerous levels of DNA from the environment?",
+      "priority": "low",
+      "rationale": "Distinguishes between environmental DNA as a research tool versus any health implications of airborne genetic material",
+      "misinformation_narrative": "Reports about 'DNA in the air' may cause concern about breathing genetic material, when environmental DNA is actually useful for research",
+      "public_stakes": "Unnecessary fear about environmental DNA may distract from real air quality concerns while misunderstanding beneficial research applications",
+      "verification_status": "needs_review",
+      "verification_reason": "Environmental DNA research is too niche to generate meaningful public concern about \"breathing dangerous DNA.\"",
+      "tags": [
+        "Genetics & Genomics",
+        "Environmental Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: The air is full of DNA — here’s what scientists are using it for",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01099-2",
+          "date": "2026-04-14"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
       "id": "microplastics_food_water_pose_proven",
       "question": "Do microplastics in food and water pose proven health risks to humans?",
       "priority": "low",
@@ -25251,85 +26071,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
-    },
-    {
-      "id": "beaver_dams_make_flooding_worse",
-      "question": "Do beaver dams make flooding worse during extreme weather events?",
-      "priority": "low",
-      "rationale": "Article explicitly titled 'Research casts doubt on beavers as flood culprits' suggests this is a common misconception with evidence to the contrary",
-      "misinformation_narrative": "Beavers are commonly blamed as flood culprits, but research shows beaver dams may actually help manage flood risks",
-      "public_stakes": "Misguided beaver removal programs may eliminate natural flood management systems, worsening actual flood risks",
-      "verification_status": "needs_review",
-      "verification_reason": "While some landowners may blame beavers for flooding, this isn't a widespread public misinformation narrative circulating on major platforms.",
-      "tags": [
-        "Environmental Science",
-        "Natural Disasters",
-        "Wildlife Management"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Natural Disasters & Extreme Weather: Do beaver dams really make flooding worse? Research casts doubt on beavers as flood culprits",
-          "origin": "STM — Phys.org",
-          "url": "https://phys.org/news/2026-04-beaver-worse-beavers-culprits.html",
-          "date": "2026-04-14"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "USGS",
-          "organization_full": "USGS",
-          "base_url": "",
-          "url": "https://pubs.usgs.gov/wri/1994/4011/report.pdf",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "The Effects of Beaver Dams on Hydrologic Processes",
-          "description": "USGS Water-Resources Investigations Report examining how beaver dams affect streamflow, flood peaks, and water storage",
-          "relevance": "Provides quantitative data on beaver dam impacts on flood hydrology and peak discharge rates"
-        },
-        {
-          "organization": "NOAA",
-          "organization_full": "National Oceanic and Atmospheric Administration",
-          "base_url": "https://www.noaa.gov",
-          "url": "https://www.noaa.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Nature-Based Solutions for Coastal Highway Resilience: An Implementation Guide",
-          "description": "NOAA guide that includes beaver dam analogues and natural flood management strategies",
-          "relevance": "Discusses beaver-related infrastructure for flood mitigation and resilience planning"
-        },
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov/waterutilityresponse/flood-resilience-basic-guide-water-and-wastewater-utilities",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Flood Resilience: A Basic Guide for Water and Wastewater Utilities",
-          "description": "EPA guidance on natural and nature-based features for flood management",
-          "relevance": "Addresses natural systems including wetlands and beaver complexes in flood risk management"
-        },
-        {
-          "organization": "USFWS",
-          "organization_full": "USFWS",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Working with Beavers: Reducing Beaver-Human Conflicts",
-          "description": "Fish and Wildlife Service guidance on beaver management including flood considerations",
-          "relevance": "Specifically addresses beaver dam impacts on flooding and provides management recommendations"
-        }
-      ],
-      "discovered_at": "2026-04-15",
-      "last_seen": "2026-04-15",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "reliably_detect_diagnose_medical_conditions",
@@ -33453,6 +34194,46 @@
       "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
       "nasem_bos_url": "https://www.nationalacademies.org/based-on-science/vaccines-are-safe",
       "nasem_bos_title": "Are vaccines safe?"
+    },
+    {
+      "id": "covid_vaccines_causing_widespread_dangerous",
+      "question": "Are COVID-19 vaccines causing widespread dangerous blood clots?",
+      "priority": "high",
+      "rationale": "Corrects the widespread misconception that vaccine-related clots are common rather than extremely rare, with clear risk-benefit data",
+      "misinformation_narrative": "Many people believe COVID vaccines commonly cause life-threatening blood clots, leading to vaccine hesitancy and rejection of boosters",
+      "public_stakes": "Vaccine hesitancy based on exaggerated clot risks leads to preventable COVID deaths and hospitalizations, especially among vulnerable populations",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and platforms like Children's Health Defense actively promote blood clot fears, citing rare cases like J&J vaccine issues.",
+      "tags": [
+        "Vaccines & Immunization",
+        "Public Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://www.nationalacademies.org/publications/13164"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+          "date": "2026-04-13"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-16",
+      "last_seen": "2026-04-16",
+      "times_seen": 1,
+      "status": "nasem_covered",
+      "newest_source_year": 2012,
+      "signal_count": 1,
+      "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
+      "nasem_bos_url": "https://www.nationalacademies.org/news/change-in-seasons-may-or-may-not-affect-the-spread-of-covid-19",
+      "nasem_bos_title": "Does the spread of COVID-19 slow down when the weather is warmer?"
     },
     {
       "id": "new_covid_flu_treatments_just",

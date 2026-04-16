@@ -1,0 +1,44 @@
+{
+  "id": "vaccination_rates_declining_dangerously_schools",
+  "question": "Are vaccination rates declining dangerously in US schools?",
+  "topic": "Uses specific data about classroom immunity levels to illustrate real consequences of declining vacc",
+  "tags": [
+    "Vaccines & Immunization",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "School Vaccination Coverage Reports — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaccination Coverage Among Children in Kindergarten — United States, 2022–23 School Year — CDC",
+      "url": "https://www.cdc.gov/mmwr/volumes/72/wr/mm7244a3.htm",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "SchoolVaxView Interactive Dashboard — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "State Vaccination Requirements and Exemptions — AAP",
+      "url": "https://www.aap.org",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: What declining vaccination rates mean for families in Allegheny County – where 1 in 3 kindergarten classrooms lack herd immunity for measles",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/what-declining-vaccination-rates-mean-for-families-in-allegheny-county-where-1-in-3-kindergarten-classrooms-lack-herd-immunity-for-measles-277469",
+      "date": "2026-04-13"
+    }
+  ]
+}

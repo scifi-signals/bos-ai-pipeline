@@ -1,0 +1,26 @@
+{
+  "id": "genes_determine_lifespan_lifestyle_factors",
+  "question": "Do genes determine lifespan more than lifestyle factors?",
+  "topic": "Clarifies the relative contributions of genetics versus modifiable lifestyle factors to lifespan and",
+  "tags": [
+    "Genetics & Genomics",
+    "Health and Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Global Roadmap for Healthy Longevity",
+      "url": "https://www.nationalacademies.org/publications/26144",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Scientists were wrong about lifespan. Your genes matter way more than we thought",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260411022047.htm",
+      "date": "2026-04-15"
+    }
+  ]
+}

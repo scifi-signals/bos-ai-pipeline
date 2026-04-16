@@ -1,0 +1,58 @@
+{
+  "id": "detergent_pods_dishwasher_detergents_causing",
+  "question": "Are detergent pods and dishwasher detergents causing widespread environmental harm?",
+  "topic": "Corrects misconceptions about PVA biodegradation and provides evidence-based comparison of cleaning ",
+  "tags": [
+    "Environmental Science",
+    "Consumer Products"
+  ],
+  "sources": [
+    {
+      "name": "Safer Choice Standard for Automatic Dishwashing Products — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Aquatic Life Ambient Water Quality Criteria for Nonylphenol — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Poisoning Prevention: Laundry Pods — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Marine Debris Program - Microplastics Research — NOAA",
+      "url": "https://www.noaa.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "PVA from detergent pods breaks down in wastewater treatment plants with high efficiency when microbial ecosystems are acclimated",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "A 2021 study claiming 67% of PVA doesn't break down relied solely on computer modeling without experimental validation",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Hand-washing dishes with running tap water uses more water and generates more emissions than machine dishwashing",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    }
+  ]
+}

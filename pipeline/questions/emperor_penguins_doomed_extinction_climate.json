@@ -1,0 +1,51 @@
+{
+  "id": "emperor_penguins_doomed_extinction_climate",
+  "question": "Are emperor penguins doomed to extinction from climate change?",
+  "topic": "Balances serious conservation concerns with evidence-based assessment of extinction risks and potent",
+  "tags": [
+    "Biodiversity & Conservation",
+    "Climate Change"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 12: Antarctica — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-12/",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Fourth National Climate Assessment Volume II: Impacts, Risks, and Adaptation - Polar Regions — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Climate.gov: Emperor Penguins and Climate Change — NOAA",
+      "url": "https://www.noaa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Committee for Environmental Protection Information Papers on Antarctic Species — Antarctic Treaty Secretariat",
+      "url": "https://www.ats.aq/devAS/Meetings/Measure?lang=e&id=421",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins added to endangered list after rapid decline",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522508-emperor-penguins-added-to-endangered-list-after-rapid-decline/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-13"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Emperor penguins are marching toward extinction. Antarctica fur seals too",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/emperor-penguins-endangered-extinction-iucn",
+      "date": "2026-04-14"
+    }
+  ]
+}

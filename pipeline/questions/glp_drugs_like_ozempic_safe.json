@@ -1,0 +1,44 @@
+{
+  "id": "glp_drugs_like_ozempic_safe",
+  "question": "Are GLP-1 drugs like Ozempic safe to buy online?",
+  "topic": "Addresses the flood of online GLP-1 drug advertisements and helps people distinguish legitimate from",
+  "tags": [
+    "Health and Medicine",
+    "Drug Safety"
+  ],
+  "sources": [
+    {
+      "name": "FDA warns consumers about dangerous medicines sold by illegal online pharmacies — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Ozempic (semaglutide) injection - FDA Prescribing Information — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "BeSafeRx - Your Source for Online Pharmacy Information — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "FDA alerts health care professionals about reports of compounded semaglutide products — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Ads for GLP-1 drugs are flooding the internet – here’s how to know if it’s safe to buy them online",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/ads-for-glp-1-drugs-are-flooding-the-internet-heres-how-to-know-if-its-safe-to-buy-them-online-277369",
+      "date": "2026-04-15"
+    }
+  ]
+}

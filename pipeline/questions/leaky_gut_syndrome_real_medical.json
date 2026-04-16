@@ -1,0 +1,51 @@
+{
+  "id": "leaky_gut_syndrome_real_medical",
+  "question": "Is 'leaky gut syndrome' a real medical condition that requires treatment?",
+  "topic": "Distinguishes between increased intestinal permeability (a real phenomenon) and 'leaky gut syndrome'",
+  "tags": [
+    "Health and Medicine",
+    "Alternative Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Irritable Bowel Syndrome (IBS) - Treatment — NIH/NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/treatment",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Beware of Products Promising Miracle Weight Loss — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Probiotics for treatment of acute infectious diarrhoea — Cochrane",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003048.pub4/full",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "MedlinePlus - Digestive Diseases — NIH/NLM",
+      "url": "https://medlineplus.gov/digestivediseases.html",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "'Leaky gut' is not a medically recognized condition per guest (described as 'influencer recognized')",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Study claiming dishwasher detergent ethoxylates cause leaky gut used cancer cells, exorbitant chemical concentrations, and lacked immune cells needed to measure inflammation",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    }
+  ]
+}
