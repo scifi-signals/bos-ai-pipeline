@@ -1,0 +1,58 @@
+{
+  "id": "microplastics_bodies_cause_serious_health",
+  "question": "Do microplastics in our bodies cause serious health problems?",
+  "topic": "Corrects overstatement of health risks based on preliminary research, distinguishing between correla",
+  "tags": [
+    "Health and Medicine",
+    "Environmental Health"
+  ],
+  "sources": [
+    {
+      "name": "Microplastics in drinking-water — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241516198",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Microplastics in Food and Food Contact Substances — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Research on Microplastics — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Microplastics and Human Health — NIH/NIEHS",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "We do not have causative evidence that microplastics harm human health despite correlation claims in media",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Microplastics detection and measurement methodology",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    }
+  ]
+}

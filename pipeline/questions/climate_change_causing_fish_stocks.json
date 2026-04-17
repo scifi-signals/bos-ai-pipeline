@@ -1,0 +1,38 @@
+{
+  "id": "climate_change_causing_fish_stocks",
+  "question": "Is climate change causing fish stocks to decline, or is it mainly overfishing?",
+  "topic": "Clarifies the relative and interactive effects of multiple stressors on marine ecosystems",
+  "tags": [
+    "Climate Change",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 3: Oceans and Coastal Ecosystems — IPCC",
+      "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-3/",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Climate Change Impacts on U.S. Fisheries — NOAA",
+      "url": "https://www.noaa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fourth National Climate Assessment - Chapter 9: Oceans and Marine Resources — USGCRP",
+      "url": "https://www.globalchange.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Cod and chips are off the menu! Scientists call for Brits to ditch the seaside staple as stocks plummet due to overfishing and climate change",
+      "origin": "STM — Daily Mail Science",
+      "url": "https://www.dailymail.co.uk/sciencetech/article-15715343/Cod-chips-menu-stocks-overfishing-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+      "date": "2026-04-14"
+    }
+  ]
+}

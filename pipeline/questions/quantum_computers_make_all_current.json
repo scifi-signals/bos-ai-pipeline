@@ -1,0 +1,39 @@
+{
+  "id": "quantum_computers_make_all_current",
+  "question": "Are quantum computers about to make all current encryption useless?",
+  "topic": "Corrects misconceptions about quantum computing timelines and current cryptographic security",
+  "tags": [
+    "Technology",
+    "Cybersecurity"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Decrypting the Encryption Debate: A Framework for Decision Makers",
+      "url": "https://www.nationalacademies.org/publications/25010",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Quantum computers could usher in a crisis worse than Y2K",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522615-quantum-computers-could-usher-in-a-crisis-worse-than-y2k/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-14"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: We urgently need to prepare for quantum computers breaking encryption",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522124-we-urgently-need-to-prepare-for-quantum-computers-breaking-encryption/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-14"
+    }
+  ]
+}

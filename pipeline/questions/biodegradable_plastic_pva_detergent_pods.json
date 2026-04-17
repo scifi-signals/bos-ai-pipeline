@@ -1,0 +1,47 @@
+{
+  "id": "biodegradable_plastic_pva_detergent_pods",
+  "question": "Does the biodegradable plastic PVA from detergent pods actually break down in the environment?",
+  "topic": "Resolves conflicting claims about biodegradable plastic performance with implications for environmen",
+  "tags": [
+    "Environmental Science",
+    "Consumer Products"
+  ],
+  "sources": [
+    {
+      "name": "Reckoning with the U.S. Role in Global Ocean Plastic Waste",
+      "url": "https://www.nationalacademies.org/publications/26132",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "PVA from detergent pods breaks down in wastewater treatment plants with high efficiency when microbial ecosystems are acclimated",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "A 2021 study claiming 67% of PVA doesn't break down relied solely on computer modeling without experimental validation",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "A published study on PVA in breast milk involved a single large particle likely from contamination, not from detergent pods",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Polyvinyl alcohol (PVA) environmental degradation and biodegradability",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    }
+  ]
+}

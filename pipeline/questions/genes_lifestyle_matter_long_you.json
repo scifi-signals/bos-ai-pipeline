@@ -1,0 +1,50 @@
+{
+  "id": "genes_lifestyle_matter_long_you",
+  "question": "Do your genes or lifestyle matter more for how long you'll live?",
+  "topic": "Clarifies the relative contributions of genetics vs. environment to longevity with implications for ",
+  "tags": [
+    "Health and Medicine",
+    "Genetics"
+  ],
+  "sources": [
+    {
+      "name": "Social Determinants of Health: Know What Affects Health — CDC",
+      "url": "https://www.cdc.gov/about/priorities/why-is-addressing-sdoh-important.html",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Social determinants of health — WHO",
+      "url": "https://www.who.int/health-topics/social-determinants-of-health",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "What Do We Know About Healthy Aging? — NIH National Institute on Aging",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Leading Causes of Death — CDC",
+      "url": "https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Genetics vs. Genomics Fact Sheet — NIH National Human Genome Research Institute",
+      "url": "https://www.genome.gov/about-genomics/fact-sheets/Genetics-vs-Genomics",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Scientists were wrong about lifespan. Your genes matter way more than we thought",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260411022047.htm",
+      "date": "2026-04-15"
+    }
+  ]
+}

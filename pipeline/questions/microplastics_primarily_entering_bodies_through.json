@@ -1,0 +1,72 @@
+{
+  "id": "microplastics_primarily_entering_bodies_through",
+  "question": "Are microplastics primarily entering our bodies through the food we eat?",
+  "topic": "Corrects a fundamental misconception about how microplastics enter our bodies, with implications for",
+  "tags": [
+    "Environmental Health",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Microplastics in drinking-water — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241516198",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Questions & Answers: Microplastics in Food — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Research on Microplastics — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Microplastics and Human Health Fact Sheet — NIH/NIEHS",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Current detection methods for microplastics were developed specifically for water, not air, food, or body tissues",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "We do not have causative evidence that microplastics harm human health despite correlation claims in media",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Microplastics detection and measurement methodology",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Routes of microplastic exposure (inhalation vs. ingestion)",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    }
+  ]
+}

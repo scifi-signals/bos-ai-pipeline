@@ -1,0 +1,33 @@
+{
+  "id": "really_caused_rare_blood_clots",
+  "question": "What really caused the rare blood clots linked to COVID vaccines?",
+  "topic": "Provides clear, evidence-based explanation of a well-studied but misunderstood medical phenomenon",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "Adverse Effects of Vaccines: Evidence and Causality",
+      "url": "https://www.nationalacademies.org/publications/13164",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+      "date": "2026-04-15"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Scientists finally crack mystery of rare COVID vaccine blood clots",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+      "date": "2026-04-15"
+    }
+  ]
+}

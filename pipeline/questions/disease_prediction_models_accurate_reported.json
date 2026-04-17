@@ -1,0 +1,44 @@
+{
+  "id": "disease_prediction_models_accurate_reported",
+  "question": "Are AI disease prediction models as accurate as reported in the news?",
+  "topic": "Corrects misconceptions about AI medical applications and the importance of data quality in machine ",
+  "tags": [
+    "Technology",
+    "Health and Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and Machine Learning (AI/ML)-Enabled Medical Devices — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "AI/ML Consortium to Advance Health Equity and Researcher Diversity (AIM-AHEAD) Publications — NIH/NLM",
+      "url": "https://www.aim-ahead.net/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Ethics and Governance of Artificial Intelligence for Health — WHO",
+      "url": "https://www.who.int/publications/i/item/9789240029200",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Machine learning for healthcare: systematic review of bias and fairness — Cochrane",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013763/full",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00697-4",
+      "date": "2026-04-15"
+    }
+  ]
+}

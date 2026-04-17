@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-16T12:20:52Z",
+  "generated_at": "2026-04-17T12:19:09Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -7300,6 +7300,55 @@
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
+      "id": "quantum_computers_make_all_current",
+      "question": "Are quantum computers about to make all current encryption useless?",
+      "priority": "medium",
+      "rationale": "Corrects misconceptions about quantum computing timelines and current cryptographic security",
+      "misinformation_narrative": "Media reports often suggest quantum computers will immediately break all encryption, creating unnecessary panic about cybersecurity without explaining timelines or current protections",
+      "public_stakes": "Premature panic could lead to poor security decisions, while underestimating the timeline could leave systems vulnerable",
+      "verification_status": "verified",
+      "verification_reason": "Tech media and cybersecurity reporting regularly present quantum computing threats as imminent without explaining the decades-long timeline.",
+      "tags": [
+        "Technology",
+        "Cybersecurity"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Decrypting the Encryption Debate: A Framework for Decision Makers (2018)",
+          "url": "https://www.nationalacademies.org/publications/25010"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers could usher in a crisis worse than Y2K",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522615-quantum-computers-could-usher-in-a-crisis-worse-than-y2k/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-14"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: We urgently need to prepare for quantum computers breaking encryption",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522124-we-urgently-need-to-prepare-for-quantum-computers-breaking-encryption/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-14"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "quantum_computers_break_all_internet",
       "question": "Are quantum computers about to break all internet encryption?",
       "priority": "medium",
@@ -7904,6 +7953,44 @@
       "newest_source_year": 2012,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2012 — moderately dated · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "really_caused_rare_blood_clots",
+      "question": "What really caused the rare blood clots linked to COVID vaccines?",
+      "priority": "medium",
+      "rationale": "Provides clear, evidence-based explanation of a well-studied but misunderstood medical phenomenon",
+      "misinformation_narrative": "Conspiracy theories and incomplete reporting led to confusion about the mechanism and risk level of vaccine-associated blood clots",
+      "public_stakes": "Misinformation may cause vaccine hesitancy for future public health emergencies",
+      "verification_status": "verified",
+      "verification_reason": "Conspiracy communities on various platforms spread theories about vaccine blood clots, though this mixes legitimate rare side effects with conspiracy theories.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://www.nationalacademies.org/publications/13164"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2012,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "should_people_avoid_cholesterol_rich",
@@ -11045,6 +11132,44 @@
       "newest_source_year": 2022,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2022 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "biodegradable_plastic_pva_detergent_pods",
+      "question": "Does the biodegradable plastic PVA from detergent pods actually break down in the environment?",
+      "priority": "low",
+      "rationale": "Resolves conflicting claims about biodegradable plastic performance with implications for environmental policy and consumer choices",
+      "misinformation_narrative": "Environmental advocates cite studies claiming PVA persists in the environment, while industry claims it biodegrades completely - conflicting narratives about 'biodegradable' plastics",
+      "public_stakes": "Incorrect beliefs about biodegradability could lead to either unnecessary restriction of effective products or continued use of actually harmful materials",
+      "verification_status": "needs_review",
+      "verification_reason": "This appears to be an academic/industry dispute rather than a widespread public misconception about PVA biodegradability.",
+      "tags": [
+        "Environmental Science",
+        "Consumer Products"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Reckoning with the U.S. Role in Global Ocean Plastic Waste (2022)",
+          "url": "https://www.nationalacademies.org/publications/26132"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "PVA from detergent pods breaks down in wastewater treatment plants with high efficiency when microbial ecosystems are acclimated",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2022,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2022 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "forever_chemicals_pfas_widespread_dangerous",
@@ -15595,6 +15720,173 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "microplastics_bodies_cause_serious_health",
+      "question": "Do microplastics in our bodies cause serious health problems?",
+      "priority": "high",
+      "rationale": "Corrects overstatement of health risks based on preliminary research, distinguishing between correlation and proven causation",
+      "misinformation_narrative": "Media reports and social media posts frequently claim microplastics are definitively harmful to human health, when current evidence shows correlation but not causation",
+      "public_stakes": "Unfounded health fears may lead to unnecessary anxiety and poor decision-making about products, while distracting from proven health risks",
+      "verification_status": "verified",
+      "verification_reason": "Mainstream media outlets regularly present microplastics as definitively harmful without caveating the preliminary nature of health evidence.",
+      "tags": [
+        "Health and Medicine",
+        "Environmental Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241516198",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Microplastics in drinking-water",
+          "description": "WHO's comprehensive assessment of microplastics in drinking water, including health risk evaluation and current evidence on human exposure effects",
+          "relevance": "Provides authoritative assessment of current evidence on microplastics and human health impacts"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics in Food and Food Contact Substances",
+          "description": "FDA's current position and research overview on microplastics in food supply and potential health implications",
+          "relevance": "Official US regulatory perspective on microplastics safety and health risks"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Research on Microplastics",
+          "description": "EPA's ongoing research program and findings on microplastics environmental fate and human health effects",
+          "relevance": "Current US government research findings on microplastics health impacts"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics and Human Health",
+          "description": "NIEHS overview of microplastics research and current understanding of health effects",
+          "relevance": "National health institute's scientific assessment of microplastics health evidence"
+        },
+        {
+          "organization": "European Food Safety Authority (EFSA)",
+          "organization_full": "European Food Safety Authority (EFSA)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Scientific Opinion on the presence of microplastics and nanoplastics in food",
+          "description": "EFSA's comprehensive scientific opinion on microplastics in food and associated health risks",
+          "relevance": "Authoritative European regulatory assessment of microplastics health impacts"
+        }
+      ],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "should_people_refuse_blood_transfusions",
+      "question": "Should people refuse blood transfusions from COVID-vaccinated donors?",
+      "priority": "high",
+      "rationale": "Addresses dangerous medical misinformation that could directly cause preventable deaths in emergency situations",
+      "misinformation_narrative": "Some people believe COVID vaccines contaminate blood and make transfusions from vaccinated donors dangerous, leading to refusal of potentially life-saving treatments",
+      "public_stakes": "Medical emergencies could become fatal if patients refuse transfusions based on vaccine misinformation",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Telegram, Truth Social, and Facebook actively promote \"pure blood\" movements rejecting transfusions from vaccinated donors.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: People are refusing transfusions from donors vaccinated against covid",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2523157-people-are-refusing-transfusions-from-donors-vaccinated-against-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-16"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Blood and Blood Products - Updated Information for Blood Establishments Regarding the COVID-19 Pandemic and Blood Donation",
+          "description": "FDA guidance on blood donation eligibility and safety considerations related to COVID-19 vaccination",
+          "relevance": "Directly addresses blood donation safety from vaccinated individuals"
+        },
+        {
+          "organization": "American Red Cross",
+          "organization_full": "American Red Cross",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "COVID-19 Vaccine and Blood Donation Eligibility",
+          "description": "Red Cross official guidance on blood donation eligibility after COVID-19 vaccination",
+          "relevance": "Provides evidence-based policy on accepting blood from vaccinated donors"
+        },
+        {
+          "organization": "AABB (formerly American Association of Blood Banks)",
+          "organization_full": "AABB (formerly American Association of Blood Banks)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "COVID-19 and Blood Safety Frequently Asked Questions",
+          "description": "Professional blood banking organization's guidance on COVID-19 vaccine and blood safety",
+          "relevance": "Expert consensus on blood safety from vaccinated donors"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-vaccines",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Blood Safety and Availability - COVID-19 Vaccination",
+          "description": "WHO guidance on COVID-19 vaccines including safety considerations for blood donation",
+          "relevance": "International health authority position on vaccine safety and blood products"
+        }
+      ],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
       "id": "leaky_gut_syndrome_real_medical",
       "question": "Is 'leaky gut syndrome' a real medical condition that requires treatment?",
       "priority": "high",
@@ -19286,6 +19578,251 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "washing_dishes_hand_use_less",
+      "question": "Does washing dishes by hand use less water and energy than using a dishwasher?",
+      "priority": "medium",
+      "rationale": "Corrects a common environmental misconception with direct implications for resource conservation and household costs",
+      "misinformation_narrative": "Many people believe hand-washing dishes is more environmentally friendly than machine dishwashing, when studies show the opposite is true",
+      "public_stakes": "Incorrect beliefs lead to higher water and energy consumption, increased utility costs, and greater environmental impact",
+      "verification_status": "verified",
+      "verification_reason": "This belief is widespread among environmentally conscious consumers and frequently appears in lifestyle blogs and social media discussions about sustainability.",
+      "tags": [
+        "Environmental Science",
+        "Consumer Behavior"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Hand-washing dishes with running tap water uses more water and generates more emissions than machine dishwashing",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WaterSense: Dishwashers",
+          "description": "EPA's WaterSense program provides water efficiency information for dishwashers including comparative usage data",
+          "relevance": "Directly compares water usage between dishwashers and hand washing with specific gallon measurements"
+        },
+        {
+          "organization": "Energy Star (EPA/DOE)",
+          "organization_full": "Energy Star (EPA/DOE)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Energy Star Dishwashers: Key Product Criteria",
+          "description": "Energy Star program data on energy and water consumption for certified dishwashers vs hand washing",
+          "relevance": "Provides energy consumption comparisons and efficiency metrics for dishwashers versus manual washing"
+        },
+        {
+          "organization": "Natural Resources Canada",
+          "organization_full": "Natural Resources Canada",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Energy Efficiency: Dishwashers",
+          "description": "Government of Canada analysis of energy and water consumption comparing dishwashers to hand washing",
+          "relevance": "Government study with specific data on resource consumption differences between washing methods"
+        },
+        {
+          "organization": "American Council for an Energy-Efficient Economy (ACEEE)",
+          "organization_full": "American Council for an Energy-Efficient Economy (ACEEE)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Consumer Guide to Home Energy Savings - Kitchen Appliances",
+          "description": "ACEEE's comprehensive analysis of home appliance energy usage including dishwasher efficiency studies",
+          "relevance": "Independent energy efficiency organization's research comparing water and energy use of different dishwashing methods"
+        }
+      ],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "genes_lifestyle_matter_long_you",
+      "question": "Do your genes or lifestyle matter more for how long you'll live?",
+      "priority": "medium",
+      "rationale": "Clarifies the relative contributions of genetics vs. environment to longevity with implications for personal health decisions",
+      "misinformation_narrative": "Many people either overestimate genetic determinism ('it's all in your genes') or underestimate genetic contributions to lifespan",
+      "public_stakes": "Incorrect beliefs may lead to fatalism about health behaviors or unrealistic expectations about lifestyle interventions",
+      "verification_status": "verified",
+      "verification_reason": "Both genetic determinism and lifestyle-only beliefs are common in health discussions across social media and wellness communities.",
+      "tags": [
+        "Health and Medicine",
+        "Genetics"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Scientists were wrong about lifespan. Your genes matter way more than we thought",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260411022047.htm",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/about/priorities/why-is-addressing-sdoh-important.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Social Determinants of Health: Know What Affects Health",
+          "description": "CDC resource examining how lifestyle factors, environment, and social conditions affect health outcomes and longevity",
+          "relevance": "Addresses the relative contribution of modifiable lifestyle factors versus genetic predisposition to health outcomes"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/health-topics/social-determinants-of-health",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Social determinants of health",
+          "description": "WHO's comprehensive overview of how social and environmental factors influence health and life expectancy",
+          "relevance": "Provides evidence on the relative importance of lifestyle and environmental factors versus genetics in determining health outcomes"
+        },
+        {
+          "organization": "NIH National Institute on Aging",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "What Do We Know About Healthy Aging?",
+          "description": "NIA resource examining factors that contribute to longevity and healthy aging, including genetic and lifestyle components",
+          "relevance": "Directly addresses the balance between genetic predisposition and modifiable lifestyle factors in determining lifespan"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/nchs/fastats/leading-causes-of-death.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Leading Causes of Death",
+          "description": "CDC data on leading causes of death, many of which are influenced by lifestyle factors rather than genetics",
+          "relevance": "Provides evidence that many life-limiting conditions are preventable through lifestyle modifications"
+        },
+        {
+          "organization": "NIH National Human Genome Research Institute",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.genome.gov/about-genomics/fact-sheets/Genetics-vs-Genomics",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Genetics vs. Genomics Fact Sheet",
+          "description": "NHGRI resource explaining the role of genetics in health outcomes and disease susceptibility",
+          "relevance": "Provides scientific context for understanding the genetic component of health outcomes and longevity"
+        }
+      ],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "disease_prediction_models_accurate_reported",
+      "question": "Are AI disease prediction models as accurate as reported in the news?",
+      "priority": "medium",
+      "rationale": "Corrects misconceptions about AI medical applications and the importance of data quality in machine learning",
+      "misinformation_narrative": "Media reports often present AI diagnostic tools as highly accurate without mentioning training data problems or real-world performance gaps",
+      "public_stakes": "Overconfidence in AI diagnosis could lead to missed diagnoses, while unfounded skepticism could prevent adoption of genuinely helpful tools",
+      "verification_status": "verified",
+      "verification_reason": "Tech and health media regularly oversell AI diagnostic accuracy without mentioning limitations, creating unrealistic public expectations.",
+      "tags": [
+        "Technology",
+        "Health and Medicine"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00697-4",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Artificial Intelligence and Machine Learning (AI/ML)-Enabled Medical Devices",
+          "description": "FDA's guidance on AI/ML medical devices including validation requirements and performance standards",
+          "relevance": "Provides regulatory perspective on AI medical device accuracy requirements and validation standards"
+        },
+        {
+          "organization": "NIH/NLM",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.aim-ahead.net/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "AI/ML Consortium to Advance Health Equity and Researcher Diversity (AIM-AHEAD) Publications",
+          "description": "NIH consortium focused on AI bias and performance disparities in healthcare AI applications",
+          "relevance": "Addresses accuracy limitations and bias issues in AI healthcare models across different populations"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240029200",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Ethics and Governance of Artificial Intelligence for Health",
+          "description": "WHO guidance document addressing AI validation, transparency, and performance standards in healthcare",
+          "relevance": "Discusses validation requirements and accuracy considerations for AI health applications globally"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013763/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Machine learning for healthcare: systematic review of bias and fairness",
+          "description": "Systematic review examining bias, accuracy, and reporting quality in healthcare machine learning studies",
+          "relevance": "Provides evidence-based assessment of accuracy claims versus actual performance in healthcare AI"
+        }
+      ],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "organic_pesticides_always_safer_conventional",
@@ -23586,6 +24123,156 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "don_glp_weight_loss_drugs",
+      "question": "Why don't GLP-1 weight loss drugs like Ozempic work for everyone?",
+      "priority": "low",
+      "rationale": "Clarifies realistic expectations for personalized medicine and genetic factors in drug response",
+      "misinformation_narrative": "Some people believe these drugs should work equally for everyone, leading to frustration and treatment abandonment when individual results vary",
+      "public_stakes": "Patients may discontinue effective treatments prematurely or lose confidence in evidence-based obesity medicine",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents normal medical variation as misinformation when most people understand medications affect individuals differently.",
+      "tags": [
+        "Health and Medicine",
+        "Obesity"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genetic predictors of GLP1 receptor agonist weight loss and side effects",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10330-z",
+          "date": "2026-04-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Genetics reveal why people respond differently to GLP-1 weight-loss drugs",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00905-1",
+          "date": "2026-04-10"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Why obesity drugs work better for some people: these genes hold clues",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01107-5",
+          "date": "2026-04-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Why Ozempic doesn’t work for everyone: Scientists just found a hidden reason",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260411022029.htm",
+          "date": "2026-04-12"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Some GLP-1 drugs are more effective for those with specific gene variants",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/glp-1-weight-loss-genetics-side-effects",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: FDA investigating reports of possible increased risk of pancreatitis and pre-cancerous cellular changes in patients treated with incretin mimetics for type 2 diabetes",
+          "description": "FDA safety communication discussing individual variations in response and adverse effects to GLP-1 receptor agonists",
+          "relevance": "Addresses individual differences in drug response and safety profiles that contribute to variable effectiveness"
+        },
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Weight-loss Medications",
+          "description": "NIDDK comprehensive guide on weight-loss medications including factors affecting individual response",
+          "relevance": "Discusses why weight-loss medications work differently for different people and factors that influence effectiveness"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Glucagon-like peptide analogues for type 2 diabetes mellitus (Cochrane Review)",
+          "description": "Systematic review analyzing effectiveness and individual variation in response to GLP-1 analogues",
+          "relevance": "Provides evidence-based analysis of variable treatment responses and factors influencing effectiveness"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Obesity and overweight fact sheet",
+          "description": "WHO fact sheet discussing individual factors that influence obesity treatment responses",
+          "relevance": "Addresses biological, genetic, and environmental factors that affect treatment outcomes for obesity"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Adult Obesity Facts",
+          "description": "CDC data and information on adult obesity including factors affecting treatment success",
+          "relevance": "Provides population-level data showing variation in obesity treatment responses across different demographics"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006423.pub2/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Glucagon‐like peptide‐1 receptor agonists for type 2 diabetes mellitus",
+          "description": "Systematic review analyzing efficacy data and patient subgroup responses to GLP-1 receptor agonists",
+          "relevance": "Provides evidence-based analysis of treatment response variations across different patient populations"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WHO Technical Report Series on Obesity Prevention and Management",
+          "description": "WHO technical report addressing pharmaceutical interventions for obesity including factors affecting treatment success",
+          "relevance": "International perspective on obesity treatment variability and patient factors"
+        },
+        {
+          "organization": "NIH/NLM",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://medlineplus.gov/druginfo/meds/a605034.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "MedlinePlus: GLP-1 Agonists",
+          "description": "Comprehensive drug information including contraindications, patient factors, and reasons for variable efficacy",
+          "relevance": "Patient-focused resource explaining individual differences in medication response"
+        }
+      ],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-17",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 8 alternative sources identified"
+    },
+    {
       "id": "emperor_penguins_actually_going_extinct",
       "question": "Are emperor penguins actually going extinct due to climate change?",
       "priority": "low",
@@ -24196,6 +24883,46 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "human_evolution_sped_slowed_down",
+      "question": "Has human evolution sped up or slowed down in the last 10,000 years?",
+      "priority": "low",
+      "rationale": "Corrects fundamental misconception about recent human evolution with implications for medicine and anthropology",
+      "misinformation_narrative": "Popular belief holds that human evolution has stopped or slowed dramatically with modern civilization, when genomic evidence shows recent acceleration",
+      "public_stakes": "Misunderstanding evolutionary timescales affects public comprehension of genetics, disease susceptibility, and human diversity",
+      "verification_status": "needs_review",
+      "verification_reason": "This is more about public ignorance of recent evolutionary research than an active misconception people argue about.",
+      "tags": [
+        "Evolution",
+        "Genetics"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Landmark ancient-genome study shows surprise acceleration of human evolution",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01204-5",
+          "date": "2026-04-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Ten thousand years ago, human evolution went into overdrive",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/ten-thousand-years-ago-human-evolution-went-overdrive",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
       "id": "emperor_penguins_doomed_extinction_climate",
       "question": "Are emperor penguins doomed to extinction from climate change?",
       "priority": "low",
@@ -24515,116 +25242,6 @@
       ],
       "discovered_at": "2026-04-15",
       "last_seen": "2026-04-15",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 2,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "don_glp_weight_loss_drugs",
-      "question": "Why don't GLP-1 weight loss drugs like Ozempic work equally well for everyone?",
-      "priority": "low",
-      "rationale": "Addresses unrealistic expectations about weight loss drug efficacy and the role of genetic variation",
-      "misinformation_narrative": "People expect uniform results from weight loss medications and may discontinue effective treatment when they don't see dramatic results like others",
-      "public_stakes": "Patients abandon potentially effective obesity treatments due to unrealistic expectations",
-      "verification_status": "needs_review",
-      "verification_reason": "This describes normal variation in drug response rather than a specific misinformation narrative people actively believe and spread.",
-      "tags": [
-        "Health and Medicine",
-        "Obesity"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Genetics & Genomics: Genetic predictors of GLP1 receptor agonist weight loss and side effects",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/s41586-026-10330-z",
-          "date": "2026-04-10"
-        },
-        {
-          "type": "trending_article",
-          "text": "Genetics & Genomics: Genetics reveal why people respond differently to GLP-1 weight-loss drugs",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-00905-1",
-          "date": "2026-04-10"
-        },
-        {
-          "type": "trending_article",
-          "text": "Obesity & Weight Management: Why obesity drugs work better for some people: these genes hold clues",
-          "origin": "STM — Nature",
-          "url": "https://www.nature.com/articles/d41586-026-01107-5",
-          "date": "2026-04-12"
-        },
-        {
-          "type": "trending_article",
-          "text": "Obesity & Weight Management: Why Ozempic doesn’t work for everyone: Scientists just found a hidden reason",
-          "origin": "STM — ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260411022029.htm",
-          "date": "2026-04-12"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "FDA Drug Safety Communication: FDA investigating reports of possible increased risk of pancreatitis and pre-cancerous cellular changes in patients treated with incretin mimetics for type 2 diabetes",
-          "description": "FDA safety communication discussing individual variations in response and adverse effects to GLP-1 receptor agonists",
-          "relevance": "Addresses individual differences in drug response and safety profiles that contribute to variable effectiveness"
-        },
-        {
-          "organization": "NIH/NIDDK",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Weight-loss Medications",
-          "description": "NIDDK comprehensive guide on weight-loss medications including factors affecting individual response",
-          "relevance": "Discusses why weight-loss medications work differently for different people and factors that influence effectiveness"
-        },
-        {
-          "organization": "Cochrane Library",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Glucagon-like peptide analogues for type 2 diabetes mellitus (Cochrane Review)",
-          "description": "Systematic review analyzing effectiveness and individual variation in response to GLP-1 analogues",
-          "relevance": "Provides evidence-based analysis of variable treatment responses and factors influencing effectiveness"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/news-room/fact-sheets/detail/obesity-and-overweight",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Obesity and overweight fact sheet",
-          "description": "WHO fact sheet discussing individual factors that influence obesity treatment responses",
-          "relevance": "Addresses biological, genetic, and environmental factors that affect treatment outcomes for obesity"
-        },
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Adult Obesity Facts",
-          "description": "CDC data and information on adult obesity including factors affecting treatment success",
-          "relevance": "Provides population-level data showing variation in obesity treatment responses across different demographics"
-        }
-      ],
-      "discovered_at": "2026-04-13",
-      "last_seen": "2026-04-13",
       "times_seen": 1,
       "status": "nasem_gap",
       "newest_source_year": 0,
@@ -25593,6 +26210,417 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "microplastics_primarily_entering_bodies_through",
+      "question": "Are microplastics primarily entering our bodies through the food we eat?",
+      "priority": "low",
+      "rationale": "Corrects a fundamental misconception about how microplastics enter our bodies, with implications for personal protection strategies",
+      "misinformation_narrative": "Most people believe microplastics exposure occurs mainly through ingesting contaminated food and water, when research indicates inhalation (breathing airborne particles) is actually the primary route of exposure",
+      "public_stakes": "Misunderstanding exposure routes leads to ineffective protective measures - people focus on food/water filtration while ignoring air quality and indoor pollution sources",
+      "verification_status": "needs_review",
+      "verification_reason": "This reverses what research actually shows and I cannot identify communities claiming inhalation is the primary route over food/water ingestion.",
+      "tags": [
+        "Environmental Health",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241516198",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Microplastics in drinking-water",
+          "description": "WHO's comprehensive report on microplastics in drinking water, including exposure pathways and health implications",
+          "relevance": "Addresses microplastic exposure routes including ingestion through water and food"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Questions & Answers: Microplastics in Food",
+          "description": "FDA's Q&A document addressing microplastics in food products and dietary exposure",
+          "relevance": "Directly addresses food as a pathway for microplastic exposure"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Research on Microplastics",
+          "description": "EPA's research overview on microplastics including sources and exposure pathways",
+          "relevance": "Provides information on various exposure routes including dietary intake"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics and Human Health Fact Sheet",
+          "description": "NIEHS fact sheet on microplastics exposure and health effects including ingestion pathways",
+          "relevance": "Discusses how microplastics enter the body through various routes including food and water"
+        },
+        {
+          "organization": "European Food Safety Authority (EFSA)",
+          "organization_full": "European Food Safety Authority (EFSA)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Presence of microplastics and nanoplastics in food, with particular focus on seafood",
+          "description": "EFSA's scientific opinion on microplastics in food, particularly seafood, and dietary exposure assessment",
+          "relevance": "Comprehensive assessment of food-based microplastic exposure, especially through seafood consumption"
+        }
+      ],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "detergent_pods_dishwasher_tablets_cause",
+      "question": "Do detergent pods and dishwasher tablets cause 'leaky gut syndrome'?",
+      "priority": "low",
+      "rationale": "Addresses specific health misinformation about common household products, correcting misinterpretation of laboratory studies",
+      "misinformation_narrative": "Social media influencers and alternative health advocates claim detergent residues from pods cause 'leaky gut syndrome' and digestive inflammation, citing flawed studies",
+      "public_stakes": "People may avoid efficient cleaning products, switch to less effective alternatives, or develop unfounded health anxiety about normal household products",
+      "verification_status": "needs_review",
+      "verification_reason": "While \"leaky gut\" is discussed in wellness spaces, the specific claim about detergent pod residues causing it is not a widespread belief I can locate.",
+      "tags": [
+        "Health and Medicine",
+        "Consumer Safety"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "'Leaky gut' is not a medically recognized condition per guest (described as 'influencer recognized')",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "beaver_dams_make_flooding_worse",
+      "question": "Do beaver dams make flooding worse during major storms?",
+      "priority": "low",
+      "rationale": "Corrects environmental misconception that affects wildlife management and flood protection strategies",
+      "misinformation_narrative": "Property owners and some officials blame beavers for flood damage, when research suggests beaver dams typically reduce flood intensity",
+      "public_stakes": "Incorrect beliefs may lead to unnecessary beaver culling and removal of natural flood mitigation infrastructure",
+      "verification_status": "needs_review",
+      "verification_reason": "While some property owners blame beaver dams, this isn't a widespread public misconception circulating on major platforms.",
+      "tags": [
+        "Environmental Science",
+        "Natural Disasters"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Do beaver dams really make flooding worse? Research casts doubt on beavers as flood culprits",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-beaver-worse-beavers-culprits.html",
+          "date": "2026-04-14"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "USGS",
+          "organization_full": "USGS",
+          "base_url": "",
+          "url": "https://pubs.usgs.gov/wri/1994/4011/report.pdf",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "The Effects of Beaver Dams on Hydrologic Processes",
+          "description": "USGS Water-Resources Investigations Report examining how beaver dams affect streamflow, flood peaks, and water storage",
+          "relevance": "Provides quantitative data on beaver dam impacts on flood hydrology and peak discharge rates"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.noaa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Nature-Based Solutions for Coastal Highway Resilience: An Implementation Guide",
+          "description": "NOAA guide that includes beaver dam analogues and natural flood management strategies",
+          "relevance": "Discusses beaver-related infrastructure for flood mitigation and resilience planning"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/waterutilityresponse/flood-resilience-basic-guide-water-and-wastewater-utilities",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Flood Resilience: A Basic Guide for Water and Wastewater Utilities",
+          "description": "EPA guidance on natural and nature-based features for flood management",
+          "relevance": "Addresses natural systems including wetlands and beaver complexes in flood risk management"
+        },
+        {
+          "organization": "USFWS",
+          "organization_full": "USFWS",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Working with Beavers: Reducing Beaver-Human Conflicts",
+          "description": "Fish and Wildlife Service guidance on beaver management including flood considerations",
+          "relevance": "Specifically addresses beaver dam impacts on flooding and provides management recommendations"
+        },
+        {
+          "organization": "USGS",
+          "organization_full": "USGS",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "The Effects of Beaver Dams on Hydrologic Processes",
+          "description": "USGS research on how beaver dams affect water flow, flood patterns, and watershed hydrology",
+          "relevance": "Provides scientific evidence on beaver dam impacts on flooding and water management"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Nature-Based Solutions for Coastal Resilience",
+          "description": "EPA guidance on natural flood management including wetlands and beaver-modified landscapes",
+          "relevance": "Addresses role of natural systems including beaver habitats in flood mitigation"
+        },
+        {
+          "organization": "USDA Forest Service",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://research.fs.usda.gov/treesearch/60623",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Beaver Dam Analogues: A Nature-Based Solution for Watershed Restoration",
+          "description": "Forest Service research on beaver dam impacts on watershed function and flood management",
+          "relevance": "Scientific analysis of how beaver dams affect stream flow and flood patterns"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-17",
+      "times_seen": 3,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 7 alternative sources identified"
+    },
+    {
+      "id": "climate_change_causing_fish_stocks",
+      "question": "Is climate change causing fish stocks to decline, or is it mainly overfishing?",
+      "priority": "low",
+      "rationale": "Clarifies the relative and interactive effects of multiple stressors on marine ecosystems",
+      "misinformation_narrative": "Debates often present this as either/or when both factors interact, with people sometimes using climate change to excuse overfishing or vice versa",
+      "public_stakes": "Misattributing causes of fisheries collapse may lead to ineffective conservation policies and continued depletion",
+      "verification_status": "needs_review",
+      "verification_reason": "This presents a complex scientific debate as public misinformation when most people aren't actively arguing these specific causation claims.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Cod and chips are off the menu! Scientists call for Brits to ditch the seaside staple as stocks plummet due to overfishing and climate change",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15715343/Cod-chips-menu-stocks-overfishing-climate-change.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-04-14"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "IPCC",
+          "organization_full": "Intergovernmental Panel on Climate Change",
+          "base_url": "https://www.ipcc.ch",
+          "url": "https://www.ipcc.ch/report/ar6/wg2/chapter/chapter-3/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Climate Change 2022: Impacts, Adaptation and Vulnerability - Chapter 3: Oceans and Coastal Ecosystems",
+          "description": "IPCC Working Group II report examining climate impacts on marine ecosystems and fisheries",
+          "relevance": "Provides comprehensive assessment of climate change effects on fish stocks and marine ecosystems"
+        },
+        {
+          "organization": "FAO",
+          "organization_full": "FAO",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "The State of World Fisheries and Aquaculture 2022",
+          "description": "FAO's biennial flagship report on global fisheries status, including climate and overfishing impacts",
+          "relevance": "Analyzes both overfishing and climate change as drivers of fish stock decline globally"
+        },
+        {
+          "organization": "NOAA",
+          "organization_full": "National Oceanic and Atmospheric Administration",
+          "base_url": "https://www.noaa.gov",
+          "url": "https://www.noaa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Climate Change Impacts on U.S. Fisheries",
+          "description": "NOAA assessment of how climate change is affecting fish populations and fishing communities",
+          "relevance": "Documents specific climate impacts on fish stocks separate from fishing pressure"
+        },
+        {
+          "organization": "USGCRP",
+          "organization_full": "U.S. Global Change Research Program",
+          "base_url": "https://www.globalchange.gov",
+          "url": "https://www.globalchange.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fourth National Climate Assessment - Chapter 9: Oceans and Marine Resources",
+          "description": "U.S. government assessment of climate change impacts on marine ecosystems and fisheries",
+          "relevance": "Evaluates relative contributions of climate change versus other stressors on marine resources"
+        },
+        {
+          "organization": "Nature/Science Journals",
+          "organization_full": "Nature/Science Journals",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Global fishing capacity and fishing pressure from satellites",
+          "description": "Peer-reviewed study quantifying global fishing pressure using satellite data",
+          "relevance": "Provides quantitative data on overfishing pressure that can be compared to climate impacts"
+        }
+      ],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "current_methods_detecting_microplastics_food",
+      "question": "Are current methods for detecting microplastics in food and human tissue reliable?",
+      "priority": "low",
+      "rationale": "Addresses fundamental methodological issues underlying microplastics research that affects interpretation of health studies",
+      "misinformation_narrative": "Studies reporting microplastics in blood, breast milk, and food may be using detection methods designed for water analysis, potentially giving false positives",
+      "public_stakes": "Unreliable detection methods could lead to unfounded health fears or false sense of security about microplastic exposure",
+      "verification_status": "needs_review",
+      "verification_reason": "This is a technical methodological concern among researchers, not a public misinformation narrative circulating in communities.",
+      "tags": [
+        "Environmental Health",
+        "Scientific Methods"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Current detection methods for microplastics were developed specifically for water, not air, food, or body tissues",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241516198",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Microplastics in drinking-water",
+          "description": "WHO report that discusses analytical methods for detecting microplastics and their limitations",
+          "relevance": "Contains assessment of current detection methods and analytical challenges for microplastics"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Closer to Zero: Reducing Childhood Exposure to Contaminants in Food - Action Plan for Baby Foods",
+          "description": "FDA action plan that addresses detection methods for various contaminants including microplastics in food",
+          "relevance": "Discusses FDA's approach to detecting and measuring microplastics in food products"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/water-research/microplastics-research",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Microplastics Research and Methodology",
+          "description": "EPA's research page on microplastics detection methods and standardization efforts",
+          "relevance": "Covers EPA's assessment of analytical methods and research needs for microplastics detection"
+        },
+        {
+          "organization": "EFSA",
+          "organization_full": "EFSA",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Presence of microplastics and nanoplastics in food, with particular focus on seafood",
+          "description": "EFSA scientific opinion evaluating detection methods and analytical approaches for microplastics in food",
+          "relevance": "Comprehensive assessment of analytical methods, their reliability, and limitations for detecting microplastics in food"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics and Human Health Research",
+          "description": "NIEHS overview of microplastics research including detection methods in biological samples",
+          "relevance": "Discusses current research on detecting microplastics in human tissue and associated methodological challenges"
+        }
+      ],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-17",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "microplastics_food_water_pose_immediate",
       "question": "Do microplastics in our food and water pose immediate health dangers?",
       "priority": "low",
@@ -25747,84 +26775,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
-    },
-    {
-      "id": "beaver_dams_make_flooding_worse",
-      "question": "Do beaver dams make flooding worse during major storms?",
-      "priority": "low",
-      "rationale": "Corrects misconceptions about beaver dams' role in flooding with evidence of their protective benefits",
-      "misinformation_narrative": "Property owners and some officials blame beaver dams for worsening flood damage, leading to dam removal efforts",
-      "public_stakes": "Removing beneficial beaver dams eliminates natural flood control and ecosystem services that actually reduce flood risks",
-      "verification_status": "needs_review",
-      "verification_reason": "While some property disputes involve beaver dams, there's no widespread public misconception that beaver dams generally worsen flooding.",
-      "tags": [
-        "Environmental Science",
-        "Natural Disasters"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Natural Disasters & Extreme Weather: Do beaver dams really make flooding worse? Research casts doubt on beavers as flood culprits",
-          "origin": "STM — Phys.org",
-          "url": "https://phys.org/news/2026-04-beaver-worse-beavers-culprits.html",
-          "date": "2026-04-14"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "USGS",
-          "organization_full": "USGS",
-          "base_url": "",
-          "url": "https://pubs.usgs.gov/wri/1994/4011/report.pdf",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "The Effects of Beaver Dams on Hydrologic Processes",
-          "description": "USGS Water-Resources Investigations Report examining how beaver dams affect streamflow, flood peaks, and water storage",
-          "relevance": "Provides quantitative data on beaver dam impacts on flood hydrology and peak discharge rates"
-        },
-        {
-          "organization": "NOAA",
-          "organization_full": "National Oceanic and Atmospheric Administration",
-          "base_url": "https://www.noaa.gov",
-          "url": "https://www.noaa.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Nature-Based Solutions for Coastal Highway Resilience: An Implementation Guide",
-          "description": "NOAA guide that includes beaver dam analogues and natural flood management strategies",
-          "relevance": "Discusses beaver-related infrastructure for flood mitigation and resilience planning"
-        },
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov/waterutilityresponse/flood-resilience-basic-guide-water-and-wastewater-utilities",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Flood Resilience: A Basic Guide for Water and Wastewater Utilities",
-          "description": "EPA guidance on natural and nature-based features for flood management",
-          "relevance": "Addresses natural systems including wetlands and beaver complexes in flood risk management"
-        },
-        {
-          "organization": "USFWS",
-          "organization_full": "USFWS",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Working with Beavers: Reducing Beaver-Human Conflicts",
-          "description": "Fish and Wildlife Service guidance on beaver management including flood considerations",
-          "relevance": "Specifically addresses beaver dam impacts on flooding and provides management recommendations"
-        }
-      ],
-      "discovered_at": "2026-04-15",
-      "last_seen": "2026-04-16",
-      "times_seen": 2,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "you_catch_viruses_cause_cancer",

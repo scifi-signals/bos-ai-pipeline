@@ -1,0 +1,32 @@
+{
+  "id": "should_people_refuse_blood_transfusions",
+  "question": "Should people refuse blood transfusions from COVID-vaccinated donors?",
+  "topic": "Addresses dangerous medical misinformation that could directly cause preventable deaths in emergency",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "Blood and Blood Products - Updated Information for Blood Establishments Regarding the COVID-19 Pandemic and Blood Donation — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Blood Safety and Availability - COVID-19 Vaccination — WHO",
+      "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-vaccines",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: People are refusing transfusions from donors vaccinated against covid",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2523157-people-are-refusing-transfusions-from-donors-vaccinated-against-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-16"
+    }
+  ]
+}

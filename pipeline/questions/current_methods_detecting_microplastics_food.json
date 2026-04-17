@@ -1,0 +1,51 @@
+{
+  "id": "current_methods_detecting_microplastics_food",
+  "question": "Are current methods for detecting microplastics in food and human tissue reliable?",
+  "topic": "Addresses fundamental methodological issues underlying microplastics research that affects interpret",
+  "tags": [
+    "Environmental Health",
+    "Scientific Methods"
+  ],
+  "sources": [
+    {
+      "name": "Microplastics in drinking-water — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241516198",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Closer to Zero: Reducing Childhood Exposure to Contaminants in Food - Action Plan for Baby Foods — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Microplastics Research and Methodology — EPA",
+      "url": "https://www.epa.gov/water-research/microplastics-research",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Microplastics and Human Health Research — NIH/NIEHS",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Current detection methods for microplastics were developed specifically for water, not air, food, or body tissues",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Microplastics detection and measurement methodology",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    }
+  ]
+}
