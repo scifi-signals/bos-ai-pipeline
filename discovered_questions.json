@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-17T12:19:09Z",
+  "generated_at": "2026-04-18T12:11:44Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -3614,6 +3614,44 @@
       "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "blood_transfusions_vaccinated_donors_dangerous",
+      "question": "Are blood transfusions from vaccinated donors dangerous?",
+      "priority": "high",
+      "rationale": "Corrects dangerous misconception that could lead to refusal of emergency medical treatment",
+      "misinformation_narrative": "Some people refuse blood transfusions from COVID-vaccinated donors, believing the blood is contaminated or dangerous",
+      "public_stakes": "Patients may refuse life-saving blood transfusions during medical emergencies, potentially leading to preventable deaths",
+      "verification_status": "verified",
+      "verification_reason": "Blood banks have reported requests for \"unvaccinated blood\" and some groups like SafeBlood Donation promote separate blood supplies for the unvaccinated.",
+      "tags": [
+        "Vaccines & Immunization",
+        "Medical Safety"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program (2005)",
+          "url": "https://www.nationalacademies.org/publications/11269"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: People are refusing transfusions from donors vaccinated against covid",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2523157-people-are-refusing-transfusions-from-donors-vaccinated-against-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-16"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "dietary_cholesterol_main_cause_high",
       "question": "Is dietary cholesterol the main cause of high blood cholesterol?",
       "priority": "high",
@@ -3773,6 +3811,44 @@
       "newest_source_year": 2004,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2004 — sources are old · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "measles_outbreaks_really_serious_threat",
+      "question": "Are measles outbreaks really a serious threat in developed countries?",
+      "priority": "high",
+      "rationale": "Addresses vaccine hesitancy with evidence about measles complications and herd immunity thresholds",
+      "misinformation_narrative": "Declining vaccination rates reflect belief that measles is not serious in modern healthcare settings",
+      "public_stakes": "Loss of herd immunity leads to outbreaks affecting vulnerable populations, particularly infants and immunocompromised individuals",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities and some parents genuinely believe measles is mild in developed countries, contributing to declining vaccination rates.",
+      "tags": [
+        "Vaccines & Immunization",
+        "Public Health"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism (2004)",
+          "url": "https://www.nationalacademies.org/publications/10101"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: What declining vaccination rates mean for families in Allegheny County – where 1 in 3 kindergarten classrooms lack herd immunity for measles",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/what-declining-vaccination-rates-mean-for-families-in-allegheny-county-where-1-in-3-kindergarten-classrooms-lack-herd-immunity-for-measles-277469",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2004,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2004 — sources are old · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "anti_aging_supplements_protect_against",
@@ -7301,11 +7377,11 @@
     },
     {
       "id": "quantum_computers_make_all_current",
-      "question": "Are quantum computers about to make all current encryption useless?",
+      "question": "Will quantum computers make all current encryption useless overnight?",
       "priority": "medium",
-      "rationale": "Corrects misconceptions about quantum computing timelines and current cryptographic security",
-      "misinformation_narrative": "Media reports often suggest quantum computers will immediately break all encryption, creating unnecessary panic about cybersecurity without explaining timelines or current protections",
-      "public_stakes": "Premature panic could lead to poor security decisions, while underestimating the timeline could leave systems vulnerable",
+      "rationale": "Clarifies realistic timeline and limitations of quantum computing threats to encryption",
+      "misinformation_narrative": "Media reports suggest quantum computers will immediately break all encryption, causing Y2K-level crisis",
+      "public_stakes": "Unnecessary panic about data security, premature and costly cybersecurity investments, misunderstanding of timeline and capabilities",
       "verification_status": "verified",
       "verification_reason": "Tech media and cybersecurity reporting regularly present quantum computing threats as imminent without explaining the decades-long timeline.",
       "tags": [
@@ -7341,8 +7417,8 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-04-17",
-      "last_seen": "2026-04-17",
-      "times_seen": 1,
+      "last_seen": "2026-04-18",
+      "times_seen": 2,
       "status": "pending",
       "newest_source_year": 2019,
       "signal_count": 1,
@@ -9353,6 +9429,59 @@
       "newest_source_year": 2015,
       "signal_count": 3,
       "readiness_summary": "5 NASEM sources, most recent 2015 — moderately dated · confirmed misinformation · 3 discovery signals"
+    },
+    {
+      "id": "human_evolution_continuing_stopped_modern",
+      "question": "Is human evolution continuing or has it stopped in modern times?",
+      "priority": "low",
+      "rationale": "Corrects misconception about evolutionary stasis with recent ancient DNA evidence",
+      "misinformation_narrative": "Common belief that human evolution stopped with modern medicine and civilization, when recent evidence shows acceleration",
+      "public_stakes": "Misunderstanding of human biology and evolution affects science literacy and understanding of genetic diversity",
+      "verification_status": "verified",
+      "verification_reason": "The belief that human evolution stopped is commonly expressed in online discussions, educational misconceptions, and reflects genuine public misunderstanding.",
+      "tags": [
+        "Evolution & Paleontology",
+        "Human Biology"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Science, Evolution, and Creationism (2008)",
+          "url": "https://www.nationalacademies.org/publications/11876"
+        },
+        {
+          "name": "Understanding Climate's Influence on Human Evolution (2010)",
+          "url": "https://www.nationalacademies.org/publications/12825"
+        },
+        {
+          "name": "In the Light of Evolution: Volume IV: The Human Condition (2010)",
+          "url": "https://www.nationalacademies.org/publications/12931"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Landmark ancient-genome study shows surprise acceleration of human evolution",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01204-5",
+          "date": "2026-04-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Evolution & Paleontology: Ten thousand years ago, human evolution went into overdrive",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/ten-thousand-years-ago-human-evolution-went-overdrive",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2010,
+      "signal_count": 2,
+      "readiness_summary": "3 NASEM sources, most recent 2010 — moderately dated · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "asteroids_pose_imminent_threat_earth",
@@ -12512,6 +12641,44 @@
       "newest_source_year": 2016,
       "signal_count": 1,
       "readiness_summary": "3 NASEM sources, most recent 2016 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "medical_diagnostic_tools_unreliable_some",
+      "question": "Are AI medical diagnostic tools as unreliable as some reports suggest?",
+      "priority": "low",
+      "rationale": "Balances legitimate concerns about AI medical training data with evidence of clinical utility",
+      "misinformation_narrative": "Headlines about AI trained on 'dubious data' may cause blanket distrust of AI diagnostic tools that could improve healthcare",
+      "public_stakes": "Patients may refuse beneficial AI-assisted diagnoses; healthcare systems may delay adoption of helpful technologies",
+      "verification_status": "needs_review",
+      "verification_reason": "While AI skepticism exists, the specific framing about \"dubious data\" causing blanket distrust isn't a major public narrative.",
+      "tags": [
+        "Artificial Intelligence",
+        "Health and Medicine"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Improving Diagnosis in Health Care (2016)",
+          "url": "https://www.nationalacademies.org/publications/21794"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00697-4",
+          "date": "2026-04-15"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2016,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2016 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "arctic_ice_loss_permanent_recover",
@@ -15720,6 +15887,250 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "covid_vaccines_cause_dangerous_blood",
+      "question": "Do COVID vaccines cause dangerous blood clots?",
+      "priority": "high",
+      "rationale": "Addresses specific safety concerns that fuel vaccine hesitancy with clear scientific evidence about actual risk levels",
+      "misinformation_narrative": "Many people believe COVID vaccines frequently cause life-threatening blood clots, leading to vaccine hesitancy and refusal of vaccination",
+      "public_stakes": "Vaccine hesitancy increases risk of severe COVID illness, death, and community transmission; people may refuse life-saving vaccines based on exaggerated fears",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and vaccine-hesitant groups actively promote blood clot fears, particularly after rare AstraZeneca cases were publicized.",
+      "tags": [
+        "Vaccines & Immunization",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+          "date": "2026-04-12"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Selected Adverse Events Reported after COVID-19 Vaccination",
+          "description": "CDC's comprehensive overview of rare adverse events including blood clots (TTS) associated with J&J vaccine",
+          "relevance": "Provides official data on blood clot rates, risk factors, and clinical guidance for thrombosis with thrombocytopenia syndrome"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Janssen COVID-19 Vaccine EUA Fact Sheet for Healthcare Providers",
+          "description": "FDA fact sheet detailing thrombosis with thrombocytopenia syndrome (TTS) warnings and clinical considerations",
+          "relevance": "Contains official regulatory guidance on blood clot risks, symptoms, and treatment recommendations"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters",
+          "description": "WHO's fact-checking resource addressing COVID-19 vaccine safety concerns including blood clots",
+          "relevance": "Provides global health perspective on vaccine safety with evidence-based responses to clotting concerns"
+        },
+        {
+          "organization": "ACIP (CDC)",
+          "organization_full": "ACIP (CDC)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Thrombosis with Thrombocytopenia Syndrome (TTS) Following Janssen COVID-19 Vaccine",
+          "description": "Advisory Committee on Immunization Practices presentation analyzing TTS cases and risk-benefit assessment",
+          "relevance": "Detailed epidemiological analysis of blood clot cases, incidence rates, and clinical outcomes"
+        },
+        {
+          "organization": "European Medicines Agency (EMA)",
+          "organization_full": "European Medicines Agency (EMA)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "AstraZeneca's COVID-19 vaccine: EMA finds possible link to very rare cases of unusual blood clots",
+          "description": "EMA's official assessment of blood clot risks with viral vector COVID-19 vaccines",
+          "relevance": "European regulatory authority's evidence-based analysis of clotting risks and benefit-risk balance"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Thrombosis with Thrombocytopenia Syndrome (TTS) Following Janssen COVID-19 Vaccine",
+          "description": "CDC's detailed analysis of blood clot cases associated with J&J vaccine, including rates and clinical findings",
+          "relevance": "Provides specific data on confirmed blood clot cases, rates, and risk assessment"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Statement of the WHO Global Advisory Committee on Vaccine Safety on AstraZeneca COVID-19 vaccine",
+          "description": "WHO's safety committee assessment of thrombosis reports with AstraZeneca vaccine",
+          "relevance": "International health authority's evaluation of blood clot evidence and recommendations"
+        },
+        {
+          "organization": "EMA (European Medicines Agency)",
+          "organization_full": "EMA (European Medicines Agency)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "AstraZeneca's COVID-19 vaccine: EMA finds possible link to very rare cases of unusual blood clots",
+          "description": "European drug regulator's assessment establishing causal link for rare blood clot syndrome",
+          "relevance": "Regulatory finding on causality and detailed risk-benefit analysis"
+        },
+        {
+          "organization": "New England Journal of Medicine",
+          "organization_full": "New England Journal of Medicine",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Thrombotic Thrombocytopenia after ChAdOx1 nCoV-19 Vaccination",
+          "description": "Peer-reviewed clinical study documenting vaccine-induced immune thrombotic thrombocytopenia",
+          "relevance": "Seminal research paper providing clinical evidence and mechanism for rare blood clot syndrome"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-18",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 9 alternative sources identified"
+    },
+    {
+      "id": "statins_cause_harm_benefit_heart",
+      "question": "Do statins cause more harm than benefit for heart health?",
+      "priority": "high",
+      "rationale": "Counters anti-pharmaceutical sentiment with extensive clinical trial evidence on statin safety and efficacy",
+      "misinformation_narrative": "Statin skeptics claim these medications are dangerous and ineffective, promoting cholesterol denialism",
+      "public_stakes": "People at high cardiovascular risk may refuse proven life-saving medications, increasing heart attack and stroke risk",
+      "verification_status": "verified",
+      "verification_reason": "Statin skepticism is prominent in alternative health communities, low-carb diet forums, and promoted by some contrarian doctors on social media platforms.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official assessment of statin safety profile including benefits and risks",
+          "relevance": "Provides regulatory authority's evaluation of statin benefit-risk balance"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining statins' effectiveness and safety for primary cardiovascular prevention",
+          "relevance": "Independent meta-analysis of clinical trial evidence on statin benefits and harms"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical practice guideline on cholesterol management including statin use",
+          "relevance": "Evidence-based recommendations from major cardiology organizations on statin benefits and risks"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "What Are the Benefits and Risks of Statins?",
+          "description": "NIH's patient education resource on statin benefits and potential side effects",
+          "relevance": "Federal health agency's evidence-based assessment of statin benefit-risk profile"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Model List of Essential Medicines - Cardiovascular medicines section",
+          "description": "WHO's inclusion of statins on essential medicines list indicates benefit-risk assessment",
+          "relevance": "Global health authority's determination that statins provide net clinical benefit"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004816.pub5/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease (Cochrane Review)",
+          "description": "Systematic review examining evidence for statin use in primary prevention of cardiovascular disease",
+          "relevance": "Comprehensive evidence synthesis on statin benefits and harms for heart disease prevention"
+        },
+        {
+          "organization": "U.S. Preventive Services Task Force",
+          "organization_full": "U.S. Preventive Services Task Force",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Statin Use for the Primary Prevention of Cardiovascular Disease in Adults: US Preventive Services Task Force Recommendation Statement",
+          "description": "USPSTF evidence review and recommendations on statin use for primary prevention",
+          "relevance": "Independent expert panel's assessment of evidence on statin benefits versus harms"
+        }
+      ],
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-18",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 7 alternative sources identified"
+    },
+    {
       "id": "microplastics_bodies_cause_serious_health",
       "question": "Do microplastics in our bodies cause serious health problems?",
       "priority": "high",
@@ -16099,96 +16510,6 @@
       "readiness_summary": "No NASEM coverage — 2 alternative sources identified"
     },
     {
-      "id": "covid_vaccines_cause_dangerous_blood",
-      "question": "Do COVID-19 vaccines cause dangerous blood clots?",
-      "priority": "high",
-      "rationale": "Article states 'Scientists finally crack mystery of rare COVID vaccine blood clots' - understanding the mechanism can address public fears with facts",
-      "misinformation_narrative": "Vaccine hesitancy is fueled by fears of blood clots, but recent research has solved the mechanism showing these are extremely rare and manageable events",
-      "public_stakes": "Vaccine hesitancy leads to preventable COVID-19 deaths and hospitalizations, while the blood clot risk is minimal and now understood",
-      "verification_status": "verified",
-      "verification_reason": "Anti-vaccine groups on Facebook, Telegram, and alternative health websites actively spread fears about vaccine-induced blood clots, particularly regarding AstraZeneca and J&J vaccines.",
-      "tags": [
-        "Vaccines",
-        "Public Health",
-        "COVID-19"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
-          "origin": "STM — ScienceDaily",
-          "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
-          "date": "2026-04-12"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov/coronavirus/2019-ncov/vaccines/safety/adverse-events.html",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Selected Adverse Events Reported after COVID-19 Vaccination",
-          "description": "CDC's comprehensive overview of rare adverse events including blood clots (TTS) associated with J&J vaccine",
-          "relevance": "Provides official data on blood clot rates, risk factors, and clinical guidance for thrombosis with thrombocytopenia syndrome"
-        },
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Janssen COVID-19 Vaccine EUA Fact Sheet for Healthcare Providers",
-          "description": "FDA fact sheet detailing thrombosis with thrombocytopenia syndrome (TTS) warnings and clinical considerations",
-          "relevance": "Contains official regulatory guidance on blood clot risks, symptoms, and treatment recommendations"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/emergencies/diseases/novel-coronavirus-2019/advice-for-public/myth-busters",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Coronavirus disease (COVID-19) advice for the public: Mythbusters",
-          "description": "WHO's fact-checking resource addressing COVID-19 vaccine safety concerns including blood clots",
-          "relevance": "Provides global health perspective on vaccine safety with evidence-based responses to clotting concerns"
-        },
-        {
-          "organization": "ACIP (CDC)",
-          "organization_full": "ACIP (CDC)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Thrombosis with Thrombocytopenia Syndrome (TTS) Following Janssen COVID-19 Vaccine",
-          "description": "Advisory Committee on Immunization Practices presentation analyzing TTS cases and risk-benefit assessment",
-          "relevance": "Detailed epidemiological analysis of blood clot cases, incidence rates, and clinical outcomes"
-        },
-        {
-          "organization": "European Medicines Agency (EMA)",
-          "organization_full": "European Medicines Agency (EMA)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "AstraZeneca's COVID-19 vaccine: EMA finds possible link to very rare cases of unusual blood clots",
-          "description": "EMA's official assessment of blood clot risks with viral vector COVID-19 vaccines",
-          "relevance": "European regulatory authority's evidence-based analysis of clotting risks and benefit-risk balance"
-        }
-      ],
-      "discovered_at": "2026-04-15",
-      "last_seen": "2026-04-15",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
       "id": "statin_medications_cause_dangerous_muscle",
       "question": "Do statin medications cause dangerous muscle damage and memory problems?",
       "priority": "high",
@@ -16272,95 +16593,6 @@
       ],
       "discovered_at": "2026-04-15",
       "last_seen": "2026-04-15",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "statins_cause_harm_benefit_heart",
-      "question": "Do statins cause more harm than benefit for heart health?",
-      "priority": "high",
-      "rationale": "26+ randomized controlled trials demonstrate clear cardiovascular benefits, while muscle pain is largely attributable to nocebo effects in placebo-controlled trials",
-      "misinformation_narrative": "Many people believe statins are dangerous drugs pushed by pharmaceutical companies, causing widespread muscle damage and other serious side effects while providing little cardiovascular benefit",
-      "public_stakes": "Statin avoidance leads to preventable heart attacks, strokes, and cardiovascular deaths among high-risk patients who would benefit from treatment",
-      "verification_status": "verified",
-      "verification_reason": "Statin skepticism is widespread on health forums like Reddit r/keto, YouTube channels, and among alternative medicine practitioners who emphasize side effects.",
-      "tags": [
-        "Health and Medicine",
-        "Cardiovascular Health"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
-          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
-          "date": "2026-04-08T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
-          "description": "FDA's official assessment of statin safety profile including benefits and risks",
-          "relevance": "Provides regulatory authority's evaluation of statin benefit-risk balance"
-        },
-        {
-          "organization": "Cochrane",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Statins for the primary prevention of cardiovascular disease",
-          "description": "Systematic review examining statins' effectiveness and safety for primary cardiovascular prevention",
-          "relevance": "Independent meta-analysis of clinical trial evidence on statin benefits and harms"
-        },
-        {
-          "organization": "American Heart Association",
-          "organization_full": "American Heart Association",
-          "base_url": "https://www.heart.org",
-          "url": "https://www.heart.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
-          "description": "Comprehensive clinical practice guideline on cholesterol management including statin use",
-          "relevance": "Evidence-based recommendations from major cardiology organizations on statin benefits and risks"
-        },
-        {
-          "organization": "NIH/NHLBI",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "What Are the Benefits and Risks of Statins?",
-          "description": "NIH's patient education resource on statin benefits and potential side effects",
-          "relevance": "Federal health agency's evidence-based assessment of statin benefit-risk profile"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "WHO Model List of Essential Medicines - Cardiovascular medicines section",
-          "description": "WHO's inclusion of statins on essential medicines list indicates benefit-risk assessment",
-          "relevance": "Global health authority's determination that statins provide net clinical benefit"
-        }
-      ],
-      "discovered_at": "2026-04-14",
-      "last_seen": "2026-04-14",
       "times_seen": 1,
       "status": "nasem_gap",
       "newest_source_year": 0,
@@ -19578,6 +19810,262 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "leaky_gut_real_medical_condition",
+      "question": "Is 'leaky gut' a real medical condition that causes widespread health problems?",
+      "priority": "medium",
+      "rationale": "Clarifies medical consensus on intestinal permeability versus promoted 'leaky gut syndrome'",
+      "misinformation_narrative": "Influencers and alternative health sources promote 'leaky gut' as a recognized medical condition causing numerous symptoms and diseases",
+      "public_stakes": "People may pursue unproven treatments, avoid conventional medicine, or waste money on supplements for a non-recognized condition",
+      "verification_status": "verified",
+      "verification_reason": "Alternative health influencers, functional medicine practitioners, and wellness communities heavily promote leaky gut as causing everything from autoimmune disease to depression.",
+      "tags": [
+        "Health and Medicine",
+        "Alternative Medicine"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "'Leaky gut' is not a medically recognized condition per guest (described as 'influencer recognized')",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Your Digestive System & How It Works",
+          "description": "NIH's comprehensive guide on digestive system function and intestinal permeability",
+          "relevance": "Provides authoritative medical perspective on intestinal barrier function and related conditions"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA 101: Dietary Supplements",
+          "description": "FDA guidance on dietary supplement claims, including those targeting 'leaky gut'",
+          "relevance": "Addresses regulatory perspective on unproven health claims related to gut health supplements"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006895.pub3/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Probiotics for prevention and treatment of diarrhea",
+          "description": "Systematic review examining evidence for gut-related interventions",
+          "relevance": "Provides evidence-based assessment of gut health interventions often marketed for 'leaky gut'"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Diarrhoeal disease fact sheet",
+          "description": "WHO's fact sheet on established gastrointestinal conditions and intestinal barrier dysfunction",
+          "relevance": "Covers medically recognized conditions involving intestinal permeability and barrier function"
+        }
+      ],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "should_people_avoid_foods_dirty",
+      "question": "Should people avoid foods on the 'Dirty Dozen' pesticide list?",
+      "priority": "medium",
+      "rationale": "Addresses chemophobia that reduces consumption of healthy foods with safety data on pesticide residue levels",
+      "misinformation_narrative": "The EWG Dirty Dozen list causes people to avoid healthy fruits and vegetables due to unfounded pesticide fears",
+      "public_stakes": "Reduced consumption of nutritious produce, particularly harmful for low-income families who may avoid conventional produce they can't afford organic versions of",
+      "verification_status": "verified",
+      "verification_reason": "The EWG's Dirty Dozen list genuinely influences consumer behavior, with surveys showing people avoid conventional produce due to pesticide fears from this list.",
+      "tags": [
+        "Food Safety",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Food: Healthy, Sensible Food Practices",
+          "description": "EPA guidance on pesticide residues in food and safe consumption practices",
+          "relevance": "Provides official EPA position on pesticide residue safety levels and food consumption recommendations"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residue Monitoring Program",
+          "description": "FDA's annual monitoring data and safety assessments of pesticide residues in foods",
+          "relevance": "Contains actual testing data and safety evaluations that directly inform whether Dirty Dozen foods pose health risks"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fruits and Vegetables",
+          "description": "CDC guidance on fruit and vegetable consumption benefits and safety",
+          "relevance": "Addresses whether pesticide concerns should limit fruit and vegetable intake"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/groups/joint-fao-who-meeting-on-pesticide-residues-(jmpr)",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food - Joint FAO/WHO Meeting (JMPR)",
+          "description": "WHO's joint expert committee reports on pesticide residue safety evaluations",
+          "relevance": "Provides international scientific consensus on safe pesticide residue levels in foods"
+        },
+        {
+          "organization": "NIH/NCI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/cruciferous-vegetables-fact-sheet",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Cruciferous Vegetables and Cancer Prevention",
+          "description": "National Cancer Institute fact sheet on vegetable consumption and health benefits",
+          "relevance": "Addresses cancer prevention benefits of vegetables that may appear on Dirty Dozen list"
+        }
+      ],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "organic_food_significantly_safer_conventionally",
+      "question": "Is organic food significantly safer than conventionally grown food?",
+      "priority": "medium",
+      "rationale": "Provides evidence-based comparison of organic vs conventional food safety and environmental impacts",
+      "misinformation_narrative": "Many believe organic foods are much safer and healthier, when evidence shows minimal health differences and organic pesticides can have greater environmental impact",
+      "public_stakes": "Unnecessary premium spending on organic foods, potential environmental consequences from less efficient organic pesticides",
+      "verification_status": "verified",
+      "verification_reason": "Organic superiority beliefs are widespread among health-conscious consumers, heavily promoted on wellness blogs, and reflected in premium pricing acceptance.",
+      "tags": [
+        "Food Safety",
+        "Environmental Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Organic Foods: What You Need to Know",
+          "description": "FDA's official guidance on organic food safety, labeling, and how organic foods compare to conventional foods",
+          "relevance": "Directly addresses safety comparisons between organic and conventional foods from the primary US food safety regulator"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food",
+          "description": "EPA's comprehensive information on pesticide residues in food, including safety assessments and regulatory standards",
+          "relevance": "Provides evidence on pesticide safety levels in conventional foods, a key component of the organic vs conventional safety debate"
+        },
+        {
+          "organization": "USDA",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.ams.usda.gov/datasets/pdp",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticide Data Program Annual Summary",
+          "description": "USDA's annual reports testing pesticide residues in both organic and conventional foods",
+          "relevance": "Provides actual testing data comparing pesticide residue levels between organic and conventional foods"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD012551/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Organic versus conventional food: a systematic review",
+          "description": "Systematic review examining health outcomes and safety differences between organic and conventional foods",
+          "relevance": "Provides high-quality systematic review evidence on safety and health comparisons"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Food Safety Fact Sheets - Pesticide Residues",
+          "description": "WHO's fact sheet on pesticide residue safety in food and international safety standards",
+          "relevance": "Provides global health authority perspective on pesticide safety in foods"
+        }
+      ],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "washing_dishes_hand_use_less",
@@ -23307,6 +23795,73 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "hand_washing_dishes_really_use",
+      "question": "Does hand-washing dishes really use more water than dishwashers?",
+      "priority": "low",
+      "rationale": "Corrects environmental misconception with lifecycle analysis data",
+      "misinformation_narrative": "Many people believe hand-washing is more environmentally friendly than machine dishwashing",
+      "public_stakes": "Inefficient water and energy use, unnecessary environmental impact from choosing less efficient cleaning methods",
+      "verification_status": "verified",
+      "verification_reason": "Many people believe hand-washing dishes is more eco-friendly than dishwashers, reflected in surveys and environmental discussions online.",
+      "tags": [
+        "Environmental Science",
+        "Consumer Behavior"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Hand-washing dishes with running tap water uses more water and generates more emissions than machine dishwashing",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WaterSense - Dishwashers",
+          "description": "EPA's WaterSense program page comparing water usage between dishwashers and hand washing",
+          "relevance": "Provides specific water usage comparisons and efficiency data for dishwashers vs hand washing"
+        },
+        {
+          "organization": "DOE",
+          "organization_full": "DOE",
+          "base_url": "",
+          "url": "https://www.energy.gov/energysaver/dishwashers",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Energy.gov - Dishwashers",
+          "description": "Department of Energy's consumer guide on dishwasher efficiency including water usage comparisons",
+          "relevance": "Provides official government data on water and energy consumption of dishwashers vs hand washing"
+        },
+        {
+          "organization": "ENERGY STAR",
+          "organization_full": "ENERGY STAR",
+          "base_url": "",
+          "url": "https://www.energystar.gov/products/dishwashers/key_product_criteria",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "ENERGY STAR Dishwashers Key Product Criteria",
+          "description": "ENERGY STAR specifications and water usage standards for efficient dishwashers",
+          "relevance": "Contains specific water consumption data and efficiency standards that can be compared to hand washing"
+        }
+      ],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
+    },
+    {
       "id": "hand_washing_dishes_environmentally_friendly",
       "question": "Is hand-washing dishes more environmentally friendly than using a dishwasher?",
       "priority": "low",
@@ -24120,6 +24675,123 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 4,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "glp_drugs_like_ozempic_work",
+      "question": "Do GLP-1 drugs like Ozempic work the same for everyone?",
+      "priority": "low",
+      "rationale": "Sets realistic expectations about individual variation in drug response and genetic factors",
+      "misinformation_narrative": "People expect uniform results from weight loss medications and may discontinue effective treatment due to unrealistic expectations",
+      "public_stakes": "Premature discontinuation of effective obesity treatment, unsafe online purchasing when legitimate prescriptions aren't working as expected",
+      "verification_status": "needs_review",
+      "verification_reason": "Unrealistic expectations about medications are common, but the specific framing about \"uniform results\" isn't a distinct circulating narrative.",
+      "tags": [
+        "Health and Medicine",
+        "Obesity & Weight Management"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Stanford scientists discover “natural Ozempic” without side effects",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260412221946.htm",
+          "date": "2026-04-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Why Ozempic doesn’t work for everyone: Scientists just found a hidden reason",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260411022029.htm",
+          "date": "2026-04-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Some GLP-1 drugs are more effective for those with specific gene variants",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/glp-1-weight-loss-genetics-side-effects",
+          "date": "2026-04-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Ads for GLP-1 drugs are flooding the internet – here’s how to know if it’s safe to buy them online",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/ads-for-glp-1-drugs-are-flooding-the-internet-heres-how-to-know-if-its-safe-to-buy-them-online-277369",
+          "date": "2026-04-15"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Scientists discover natural hormone that reverses obesity",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260416071954.htm",
+          "date": "2026-04-17"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: FDA revises labeling for diabetes drug metformin to expand safe use to patients with reduced kidney function",
+          "description": "FDA drug safety communications and prescribing information for GLP-1 receptor agonists including semaglutide (Ozempic) discuss individual response variations and contraindications",
+          "relevance": "Contains official prescribing information addressing patient variability in response and safety considerations"
+        },
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Diabetes Medicines",
+          "description": "NIDDK comprehensive guide on diabetes medications including GLP-1 receptor agonists and individual response factors",
+          "relevance": "Addresses how diabetes medications work differently for different people and factors affecting effectiveness"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006423.pub2/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Glucagon-like peptide analogues for type 2 diabetes mellitus",
+          "description": "Systematic review examining efficacy and safety of GLP-1 receptor agonists across different patient populations",
+          "relevance": "Provides evidence-based analysis of treatment response variations across different patient subgroups"
+        },
+        {
+          "organization": "ADA (American Diabetes Association)",
+          "organization_full": "ADA (American Diabetes Association)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Standards of Medical Care in Diabetes",
+          "description": "Annual clinical practice recommendations including individualized treatment approaches for GLP-1 receptor agonists",
+          "relevance": "Contains guidelines on personalizing diabetes treatment and factors affecting individual medication response"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2023.02",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Model List of Essential Medicines",
+          "description": "WHO guidance on diabetes medications including considerations for individual patient factors and treatment selection",
+          "relevance": "Provides international perspective on appropriate use and patient selection for diabetes medications including GLP-1 agonists"
+        }
+      ],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -26207,6 +26879,273 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "microplastics_environment_pose_serious_health",
+      "question": "Do microplastics in our environment pose serious health risks?",
+      "priority": "low",
+      "rationale": "Separates correlation from causation in microplastics research and addresses methodology limitations in detection studies",
+      "misinformation_narrative": "Media reports often present microplastics as definitively harmful to human health when causative evidence is lacking",
+      "public_stakes": "Unnecessary anxiety and potentially costly lifestyle changes without clear health benefits; diverts attention from proven environmental threats",
+      "verification_status": "needs_review",
+      "verification_reason": "This reverses the actual narrative; most media coverage about microplastics emphasizes uncertainty and \"potential\" risks rather than claiming definitive harm.",
+      "tags": [
+        "Environmental Health",
+        "Toxicology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241516198",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Microplastics in drinking-water",
+          "description": "WHO's comprehensive assessment of microplastics in drinking water, including health risk evaluation",
+          "relevance": "Directly addresses health risks from microplastic exposure through drinking water with evidence review"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/water-research/microplastics-research",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Microplastics Research",
+          "description": "EPA's research overview on microplastics in the environment and ongoing health studies",
+          "relevance": "Provides US regulatory perspective on microplastics research and potential health implications"
+        },
+        {
+          "organization": "EFSA",
+          "organization_full": "EFSA",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Presence of microplastics and nanoplastics in food, with particular focus on seafood",
+          "description": "European Food Safety Authority's scientific opinion on microplastics in food and associated risks",
+          "relevance": "Comprehensive scientific assessment of dietary exposure to microplastics and health risk evaluation"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics and Human Health",
+          "description": "NIEHS overview of microplastics research and potential health effects",
+          "relevance": "Summarizes current research on human health impacts of microplastic exposure"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD013945/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Microplastics and human health: A systematic scoping review",
+          "description": "Systematic review of evidence on microplastics and human health impacts",
+          "relevance": "Provides systematic evaluation of available evidence on health risks from microplastic exposure"
+        }
+      ],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "dishwasher_detergent_pods_harmful_human",
+      "question": "Are dishwasher detergent pods harmful to human health and the environment?",
+      "priority": "low",
+      "rationale": "Addresses viral claims about PVA toxicity and environmental persistence with actual biodegradation data",
+      "misinformation_narrative": "Social media and some studies claim detergent pods cause leaky gut, persistent plastic pollution, and health risks from PVA",
+      "public_stakes": "Unnecessary fear of safe household products, potential switch to less efficient cleaning methods, misallocation of environmental concerns",
+      "verification_status": "needs_review",
+      "verification_reason": "While some concerns about detergent pods exist, the specific combination of leaky gut claims and PVA fears isn't a widespread public narrative.",
+      "tags": [
+        "Environmental Health",
+        "Consumer Safety"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "PVA from detergent pods breaks down in wastewater treatment plants with high efficiency when microbial ecosystems are acclimated",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/saferchoice/safer-ingredients",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Safer Choice Standard and Guidance",
+          "description": "EPA guidance on safer chemical ingredients in cleaning products, including criteria for evaluating environmental and health impacts of detergent ingredients",
+          "relevance": "Provides framework for evaluating safety of detergent ingredients found in pods"
+        },
+        {
+          "organization": "American Association of Poison Control Centers (AAPCC)",
+          "organization_full": "American Association of Poison Control Centers (AAPCC)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Laundry Packet Safety Report",
+          "description": "AAPCC data and guidance on poison exposures from laundry and dishwasher detergent pods",
+          "relevance": "Directly addresses human health risks from detergent pod exposures with poisoning statistics"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Consumer Updates on Household Chemical Safety",
+          "description": "FDA consumer guidance on household chemical products and safety considerations",
+          "relevance": "May include information on detergent pod safety and regulatory oversight"
+        },
+        {
+          "organization": "European Chemicals Agency (ECHA)",
+          "organization_full": "European Chemicals Agency (ECHA)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Classification and Labelling of Detergent Ingredients",
+          "description": "EU chemical safety assessments and classifications for detergent ingredients commonly found in pods",
+          "relevance": "Provides authoritative toxicological assessments of specific chemicals used in detergent pods"
+        },
+        {
+          "organization": "NIH National Institute of Environmental Health Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Household Chemical Safety Research",
+          "description": "NIEHS research and information on health effects of common household chemicals including detergents",
+          "relevance": "Covers health impacts of household chemical exposures including detergent ingredients"
+        }
+      ],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "you_safely_lower_cholesterol_near",
+      "question": "Can you safely lower cholesterol to near-zero levels?",
+      "priority": "low",
+      "rationale": "Addresses fears about aggressive cholesterol lowering with safety data from clinical trials",
+      "misinformation_narrative": "Some people fear that lowering cholesterol too much is dangerous, leading to resistance to appropriate treatment",
+      "public_stakes": "Undertreated high cholesterol increases cardiovascular disease risk; people may refuse optimal treatment",
+      "verification_status": "needs_review",
+      "verification_reason": "This confuses medical debate about optimal cholesterol targets with public misconception; most people aren't refusing treatment due to \"too low\" fears.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA safety communication addressing risks and monitoring requirements for cholesterol-lowering medications",
+          "relevance": "Addresses safety considerations when lowering cholesterol with medications, including monitoring requirements"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical practice guideline for cholesterol management including target levels and safety considerations",
+          "relevance": "Establishes evidence-based cholesterol targets and discusses safety of aggressive cholesterol lowering"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004816.pub5/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining benefits and harms of statin therapy for primary prevention",
+          "relevance": "Provides systematic review evidence on safety and efficacy of cholesterol lowering interventions"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/cardiovascular-diseases-(cvds)",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Cardiovascular diseases (CVDs) - Key Facts",
+          "description": "WHO fact sheet on cardiovascular disease prevention and risk factors including cholesterol",
+          "relevance": "Provides global health perspective on cholesterol as risk factor and management approaches"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nhlbi.nih.gov/files/docs/public/heart/chol_tlc.pdf",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Your Guide to Lowering Cholesterol with Therapeutic Lifestyle Changes (TLC)",
+          "description": "NHLBI guide on safe approaches to cholesterol reduction through lifestyle and medical interventions",
+          "relevance": "Addresses safe methods and targets for cholesterol reduction with clinical guidance"
+        }
+      ],
+      "discovered_at": "2026-04-18",
+      "last_seen": "2026-04-18",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {

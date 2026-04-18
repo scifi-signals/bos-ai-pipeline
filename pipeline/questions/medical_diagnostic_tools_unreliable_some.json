@@ -1,0 +1,26 @@
+{
+  "id": "medical_diagnostic_tools_unreliable_some",
+  "question": "Are AI medical diagnostic tools as unreliable as some reports suggest?",
+  "topic": "Balances legitimate concerns about AI medical training data with evidence of clinical utility",
+  "tags": [
+    "Artificial Intelligence",
+    "Health and Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Improving Diagnosis in Health Care",
+      "url": "https://www.nationalacademies.org/publications/21794",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00697-4",
+      "date": "2026-04-15"
+    }
+  ]
+}

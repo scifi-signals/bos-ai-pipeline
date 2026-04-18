@@ -1,0 +1,26 @@
+{
+  "id": "blood_transfusions_vaccinated_donors_dangerous",
+  "question": "Are blood transfusions from vaccinated donors dangerous?",
+  "topic": "Corrects dangerous misconception that could lead to refusal of emergency medical treatment",
+  "tags": [
+    "Vaccines & Immunization",
+    "Medical Safety"
+  ],
+  "sources": [
+    {
+      "name": "Cord Blood: Establishing a National Hematopoietic Stem Cell Bank Program",
+      "url": "https://www.nationalacademies.org/publications/11269",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: People are refusing transfusions from donors vaccinated against covid",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2523157-people-are-refusing-transfusions-from-donors-vaccinated-against-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-16"
+    }
+  ]
+}

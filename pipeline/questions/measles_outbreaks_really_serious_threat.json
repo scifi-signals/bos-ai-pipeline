@@ -1,0 +1,26 @@
+{
+  "id": "measles_outbreaks_really_serious_threat",
+  "question": "Are measles outbreaks really a serious threat in developed countries?",
+  "topic": "Addresses vaccine hesitancy with evidence about measles complications and herd immunity thresholds",
+  "tags": [
+    "Vaccines & Immunization",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Immunization Safety Review: Measles-Mumps-Rubella Vaccine and Autism",
+      "url": "https://www.nationalacademies.org/publications/10101",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: What declining vaccination rates mean for families in Allegheny County – where 1 in 3 kindergarten classrooms lack herd immunity for measles",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/what-declining-vaccination-rates-mean-for-families-in-allegheny-county-where-1-in-3-kindergarten-classrooms-lack-herd-immunity-for-measles-277469",
+      "date": "2026-04-15"
+    }
+  ]
+}

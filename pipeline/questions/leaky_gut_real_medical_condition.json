@@ -1,0 +1,65 @@
+{
+  "id": "leaky_gut_real_medical_condition",
+  "question": "Is 'leaky gut' a real medical condition that causes widespread health problems?",
+  "topic": "Clarifies medical consensus on intestinal permeability versus promoted 'leaky gut syndrome'",
+  "tags": [
+    "Health and Medicine",
+    "Alternative Medicine"
+  ],
+  "sources": [
+    {
+      "name": "Your Digestive System & How It Works — NIH/NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "FDA 101: Dietary Supplements — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Probiotics for prevention and treatment of diarrhea — Cochrane Library",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006895.pub3/full",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Diarrhoeal disease fact sheet — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/diarrhoeal-disease",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "'Leaky gut' is not a medically recognized condition per guest (described as 'influencer recognized')",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Study claiming dishwasher detergent ethoxylates cause leaky gut used cancer cells, exorbitant chemical concentrations, and lacked immune cells needed to measure inflammation",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Leaky gut hypothesis and tight junction integrity",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "In vitro cell culture models versus human physiology",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    }
+  ]
+}

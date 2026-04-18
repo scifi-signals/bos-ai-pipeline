@@ -1,0 +1,45 @@
+{
+  "id": "human_evolution_continuing_stopped_modern",
+  "question": "Is human evolution continuing or has it stopped in modern times?",
+  "topic": "Corrects misconception about evolutionary stasis with recent ancient DNA evidence",
+  "tags": [
+    "Evolution & Paleontology",
+    "Human Biology"
+  ],
+  "sources": [
+    {
+      "name": "Science, Evolution, and Creationism",
+      "url": "https://www.nationalacademies.org/publications/11876",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Understanding Climate's Influence on Human Evolution",
+      "url": "https://www.nationalacademies.org/publications/12825",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "In the Light of Evolution: Volume IV: The Human Condition",
+      "url": "https://www.nationalacademies.org/publications/12931",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Landmark ancient-genome study shows surprise acceleration of human evolution",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01204-5",
+      "date": "2026-04-15"
+    },
+    {
+      "type": "trending_article",
+      "text": "Evolution & Paleontology: Ten thousand years ago, human evolution went into overdrive",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/ten-thousand-years-ago-human-evolution-went-overdrive",
+      "date": "2026-04-15"
+    }
+  ]
+}

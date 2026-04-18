@@ -1,0 +1,44 @@
+{
+  "id": "hand_washing_dishes_really_use",
+  "question": "Does hand-washing dishes really use more water than dishwashers?",
+  "topic": "Corrects environmental misconception with lifecycle analysis data",
+  "tags": [
+    "Environmental Science",
+    "Consumer Behavior"
+  ],
+  "sources": [
+    {
+      "name": "WaterSense - Dishwashers — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "WaterSense - Kitchen — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Energy.gov - Dishwashers — DOE",
+      "url": "https://www.energy.gov/energysaver/dishwashers",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "ENERGY STAR Dishwashers Key Product Criteria — ENERGY STAR",
+      "url": "https://www.energystar.gov/products/dishwashers/key_product_criteria",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Hand-washing dishes with running tap water uses more water and generates more emissions than machine dishwashing",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    }
+  ]
+}

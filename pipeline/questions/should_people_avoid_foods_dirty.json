@@ -1,0 +1,50 @@
+{
+  "id": "should_people_avoid_foods_dirty",
+  "question": "Should people avoid foods on the 'Dirty Dozen' pesticide list?",
+  "topic": "Addresses chemophobia that reduces consumption of healthy foods with safety data on pesticide residu",
+  "tags": [
+    "Food Safety",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Pesticides and Food: Healthy, Sensible Food Practices — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticide Residue Monitoring Program — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Fruits and Vegetables — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticide Residues in Food - Joint FAO/WHO Meeting (JMPR) — WHO",
+      "url": "https://www.who.int/groups/joint-fao-who-meeting-on-pesticide-residues-(jmpr)",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Cruciferous Vegetables and Cancer Prevention — NIH/NCI",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet/cruciferous-vegetables-fact-sheet",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}
