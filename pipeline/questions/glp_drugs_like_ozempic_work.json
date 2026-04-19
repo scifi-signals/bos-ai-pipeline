@@ -1,0 +1,65 @@
+{
+  "id": "glp_drugs_like_ozempic_work",
+  "question": "Do GLP-1 drugs like Ozempic work equally well for everyone with obesity?",
+  "topic": "Corrects oversimplified messaging about weight loss drugs with evidence of genetic variability in re",
+  "tags": [
+    "Obesity & Weight Management",
+    "Pharmaceuticals"
+  ],
+  "sources": [
+    {
+      "name": "FDA Drug Safety Communication: FDA approves new drug treatment for chronic weight management, first since 2014 — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Glucagon‐like peptide analogues for type 2 diabetes mellitus — Cochrane",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006423.pub2/full?cookiesEnabled",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Prescription Medications to Treat Overweight & Obesity — NIH/NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "WHO Technical Report Series 916: Obesity - Preventing and Managing the Global Epidemic — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Stanford scientists discover “natural Ozempic” without side effects",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260412221946.htm",
+      "date": "2026-04-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Why Ozempic doesn’t work for everyone: Scientists just found a hidden reason",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260411022029.htm",
+      "date": "2026-04-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Some GLP-1 drugs are more effective for those with specific gene variants",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/glp-1-weight-loss-genetics-side-effects",
+      "date": "2026-04-16"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Ads for GLP-1 drugs are flooding the internet – here’s how to know if it’s safe to buy them online",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/ads-for-glp-1-drugs-are-flooding-the-internet-heres-how-to-know-if-its-safe-to-buy-them-online-277369",
+      "date": "2026-04-16"
+    }
+  ]
+}

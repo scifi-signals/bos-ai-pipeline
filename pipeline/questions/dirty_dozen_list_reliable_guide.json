@@ -1,0 +1,57 @@
+{
+  "id": "dirty_dozen_list_reliable_guide",
+  "question": "Is the 'Dirty Dozen' list a reliable guide to avoiding harmful pesticides?",
+  "topic": "Addresses widely-circulated food safety misinformation with evidence that pesticide residues are far",
+  "tags": [
+    "Food Safety",
+    "Nutrition"
+  ],
+  "sources": [
+    {
+      "name": "Pesticide Residues in Food: What You Need to Know — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticide Monitoring Program Annual Reports — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "WHO Guidelines for Pesticide Residue Limits (Codex Alimentarius) — WHO",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/en/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Pesticide Data Program Annual Summary — USDA",
+      "url": "https://www.ams.usda.gov/datasets/pdp",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Diet and Cancer Prevention Fact Sheet — NIH/NCI",
+      "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-18T12:11:44Z",
+  "generated_at": "2026-04-19T12:10:14Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -3614,6 +3614,44 @@
       "readiness_summary": "1 NASEM source, most recent 2012 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
+      "id": "dietary_cholesterol_main_cause_high",
+      "question": "Is dietary cholesterol the main cause of high blood cholesterol?",
+      "priority": "high",
+      "rationale": "Corrects persistent nutritional misconception with evidence that genetic factors, not dietary cholesterol, primarily determine blood cholesterol levels",
+      "misinformation_narrative": "Many people believe eating cholesterol-rich foods directly raises blood cholesterol, leading to unnecessary dietary restrictions and confusion about heart-healthy eating",
+      "public_stakes": "People may avoid nutritious foods like eggs unnecessarily; misunderstanding of actual cardiovascular risk factors; ineffective dietary changes",
+      "verification_status": "verified",
+      "verification_reason": "This is a persistent belief in general public discourse, reinforced by decades of \"avoid eggs/shrimp\" messaging that still circulates widely.",
+      "tags": [
+        "Cardiovascular Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Babies are born with essentially zero LDL cholesterol—needs verification of baseline pediatric cholesterol values",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-19",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "blood_transfusions_vaccinated_donors_dangerous",
       "question": "Are blood transfusions from vaccinated donors dangerous?",
       "priority": "high",
@@ -3645,44 +3683,6 @@
       "alternative_sources": [],
       "discovered_at": "2026-04-18",
       "last_seen": "2026-04-18",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2005,
-      "signal_count": 1,
-      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
-    },
-    {
-      "id": "dietary_cholesterol_main_cause_high",
-      "question": "Is dietary cholesterol the main cause of high blood cholesterol?",
-      "priority": "high",
-      "rationale": "Corrects persistent misconception about dietary vs. serum cholesterol relationship that affects food choices",
-      "misinformation_narrative": "People believe eating cholesterol-rich foods like eggs directly raises blood cholesterol, causing them to unnecessarily restrict healthy foods",
-      "public_stakes": "Unnecessary food restrictions may lead to poor nutrition while missing the real dietary factors that affect heart disease risk",
-      "verification_status": "verified",
-      "verification_reason": "The \"dietary cholesterol equals blood cholesterol\" myth persists widely despite updated dietary guidelines, commonly seen in health discussions and diet culture messaging.",
-      "tags": [
-        "Health and Medicine",
-        "Nutrition"
-      ],
-      "nasem_source_count": 1,
-      "nasem_sources_preview": [
-        {
-          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
-          "url": "https://www.nationalacademies.org/publications/10490"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Babies are born with essentially zero LDL cholesterol—needs verification of baseline pediatric cholesterol values",
-          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
-          "date": "2026-04-08T10:00:00"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-11",
-      "last_seen": "2026-04-11",
       "times_seen": 1,
       "status": "pending",
       "newest_source_year": 2005,
@@ -8492,6 +8492,100 @@
       "newest_source_year": 2008,
       "signal_count": 7,
       "readiness_summary": "1 NASEM source, most recent 2008 — sources are old · confirmed misinformation · 7 discovery signals"
+    },
+    {
+      "id": "you_safely_lower_ldl_cholesterol",
+      "question": "Can you safely lower LDL cholesterol to very low levels?",
+      "priority": "medium",
+      "rationale": "Corrects misconceptions about cholesterol treatment safety with evidence that very low LDL levels are safe and beneficial",
+      "misinformation_narrative": "Some people believe aggressive cholesterol lowering is dangerous and that LDL cholesterol should not go below certain levels, leading to undertreated cardiovascular disease",
+      "public_stakes": "Suboptimal cholesterol treatment increases heart attack and stroke risk; premature cardiovascular deaths in high-risk patients",
+      "verification_status": "verified",
+      "verification_reason": "Fear of \"too-low cholesterol\" causing brain problems circulates in health forums and among patients who resist aggressive cholesterol treatment.",
+      "tags": [
+        "Cardiovascular Health",
+        "Pharmaceuticals"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA safety communication addressing statin safety and monitoring requirements for very low LDL levels",
+          "relevance": "Addresses safety considerations when achieving very low LDL cholesterol levels with medications"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical practice guideline on cholesterol management including safety of very low LDL targets",
+          "relevance": "Provides evidence-based recommendations on LDL cholesterol targets and safety thresholds"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining statin efficacy and safety including outcomes at very low LDL levels",
+          "relevance": "Provides systematic review evidence on safety outcomes when LDL is lowered to very low levels"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "ATP IV Guidelines - 2013 ACC/AHA Guideline on the Treatment of Blood Cholesterol",
+          "description": "NIH-endorsed clinical guidelines addressing cholesterol treatment targets and safety monitoring",
+          "relevance": "Addresses clinical evidence for LDL lowering limits and safety considerations"
+        },
+        {
+          "organization": "European Medicines Agency",
+          "organization_full": "European Medicines Agency",
+          "base_url": "",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/repatha",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "PCSK9 inhibitors - Assessment report for cardiovascular outcomes",
+          "description": "EMA assessment of PCSK9 inhibitors that can achieve near-zero LDL levels, including safety data",
+          "relevance": "Regulatory assessment of drugs capable of achieving extremely low LDL levels with safety data"
+        }
+      ],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-19",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "dietary_cholesterol_intake_major_factor",
@@ -15135,6 +15229,102 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "covid_vaccines_cause_blood_clots",
+      "question": "Do COVID vaccines cause blood clots?",
+      "priority": "high",
+      "rationale": "Addresses widespread vaccine misinformation with clear scientific evidence showing blood clots are extremely rare and benefits far outweigh risks",
+      "misinformation_narrative": "Many people believe COVID vaccines commonly cause dangerous blood clots, leading to vaccine hesitancy and avoidance of life-saving vaccination",
+      "public_stakes": "Vaccine hesitancy leads to preventable COVID deaths and hospitalizations; people may also refuse beneficial blood transfusions from vaccinated donors",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Facebook, Telegram, and alternative health websites extensively promote blood clot fears, particularly around AstraZeneca and J&J vaccines.",
+      "tags": [
+        "Vaccines & Immunization",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: People are refusing transfusions from donors vaccinated against covid",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2523157-people-are-refusing-transfusions-from-donors-vaccinated-against-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-16"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists finally crack mystery of rare COVID vaccine blood clots",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260409101106.htm",
+          "date": "2026-04-16"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Thrombosis with thrombocytopenia syndrome (TTS) following Janssen COVID-19 vaccine",
+          "description": "CDC's technical report on blood clotting cases associated with Johnson & Johnson vaccine",
+          "relevance": "Provides specific data on confirmed blood clot cases and rates following J&J vaccination"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Fact Sheet: Johnson & Johnson's Janssen COVID-19 Vaccine and Blood Clots",
+          "description": "FDA's official statement on thrombosis with thrombocytopenia syndrome (TTS)",
+          "relevance": "Official regulatory assessment of blood clot risk with specific incidence rates"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news/item/17-03-2021-who-statement-on-astrazeneca-covid-19-vaccine-safety-signals",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Statement on AstraZeneca COVID-19 vaccine safety signals",
+          "description": "WHO's assessment of thrombosis reports following AstraZeneca vaccination",
+          "relevance": "International health authority's risk-benefit analysis of blood clot reports"
+        },
+        {
+          "organization": "European Medicines Agency (EMA)",
+          "organization_full": "European Medicines Agency (EMA)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "AstraZeneca's COVID-19 vaccine: EMA finds possible link to very rare cases of unusual blood clots",
+          "description": "EMA's regulatory decision on AstraZeneca vaccine and thrombosis risk",
+          "relevance": "Authoritative regulatory finding on causation between specific vaccines and blood clots"
+        },
+        {
+          "organization": "New England Journal of Medicine",
+          "organization_full": "New England Journal of Medicine",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Thrombotic Thrombocytopenia after ChAdOx1 nCoV-19 Vaccination",
+          "description": "Peer-reviewed clinical study documenting cases of vaccine-induced thrombotic thrombocytopenia",
+          "relevance": "Primary research evidence characterizing the mechanism and incidence of vaccine-associated blood clots"
+        }
+      ],
+      "discovered_at": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "cancer_treatments_being_suppressed_pharmaceutical",
       "question": "Are cancer treatments being suppressed by pharmaceutical companies?",
       "priority": "high",
@@ -15884,6 +16074,95 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "should_people_avoid_statins_because",
+      "question": "Should people avoid statins because they cause dementia and muscle damage?",
+      "priority": "high",
+      "rationale": "Counters dangerous statin misinformation with evidence from 26+ randomized controlled trials showing cardiovascular benefits and minimal real side effects",
+      "misinformation_narrative": "Anti-pharmaceutical messaging claims statins commonly cause dementia, muscle damage, and other serious side effects, leading people to avoid proven heart disease prevention",
+      "public_stakes": "People with high cholesterol avoid life-saving medications, increasing risk of heart attacks and strokes; premature cardiovascular deaths",
+      "verification_status": "verified",
+      "verification_reason": "Anti-pharma influencers on YouTube, Facebook health groups, and alternative medicine websites regularly promote statin fears, particularly dementia claims.",
+      "tags": [
+        "Cardiovascular Health",
+        "Pharmaceuticals"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official safety communication addressing statin side effects including muscle problems and memory concerns",
+          "relevance": "Directly addresses both dementia/memory concerns and muscle damage risks associated with statins"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org/en/health-topics/cholesterol/prevention-and-treatment-of-high-cholesterol/statin-side-effects",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Statin Side Effects",
+          "description": "AHA's evidence-based overview of statin side effects including muscle symptoms and cognitive effects",
+          "relevance": "Provides clinical evidence on actual vs. perceived risks of statin therapy"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004816.pub5/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining benefits and harms of statin therapy including adverse effects",
+          "relevance": "Meta-analysis providing high-quality evidence on statin safety profile including muscle and cognitive effects"
+        },
+        {
+          "organization": "Mayo Clinic",
+          "organization_full": "Mayo Clinic",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Statin side effects: Weigh the benefits and risks",
+          "description": "Clinical guidance on statin side effects including muscle pain and memory concerns with evidence-based risk assessment",
+          "relevance": "Addresses both muscle damage and dementia concerns with clinical evidence and risk-benefit analysis"
+        },
+        {
+          "organization": "NIH National Institute on Aging",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "What Do We Know About Diet and Prevention of Alzheimer's Disease?",
+          "description": "NIA research summary on factors affecting dementia risk, including discussion of statin effects on cognitive health",
+          "relevance": "Addresses the dementia risk aspect with current research evidence on statins and cognitive function"
+        }
+      ],
+      "discovered_at": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -19812,6 +20091,272 @@
       "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
+      "id": "dirty_dozen_list_reliable_guide",
+      "question": "Is the 'Dirty Dozen' list a reliable guide to avoiding harmful pesticides?",
+      "priority": "medium",
+      "rationale": "Addresses widely-circulated food safety misinformation with evidence that pesticide residues are far below safety thresholds",
+      "misinformation_narrative": "The EWG Dirty Dozen list leads consumers to believe certain fruits and vegetables are dangerously contaminated with pesticides, causing avoidance of nutritious foods",
+      "public_stakes": "Reduced consumption of fruits and vegetables due to unfounded fears; disproportionate impact on low-income families who can't afford organic alternatives",
+      "verification_status": "verified",
+      "verification_reason": "The EWG Dirty Dozen is widely shared across parenting Facebook groups, Instagram wellness accounts, and organic food advocacy platforms.",
+      "tags": [
+        "Food Safety",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food: What You Need to Know",
+          "description": "EPA's official guidance on pesticide residues in food, including safety standards and monitoring data",
+          "relevance": "Provides authoritative information on actual pesticide safety levels and regulatory standards that can be compared to 'Dirty Dozen' methodology"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Monitoring Program Annual Reports",
+          "description": "FDA's annual testing data on pesticide residues found in food samples, including violation rates",
+          "relevance": "Contains actual measured pesticide residue data that can validate or contradict 'Dirty Dozen' rankings"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.fao.org/fao-who-codexalimentarius/codex-texts/dbs/pestres/en/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Guidelines for Pesticide Residue Limits (Codex Alimentarius)",
+          "description": "International standards for maximum residue limits of pesticides in food",
+          "relevance": "Provides scientific basis for what constitutes harmful vs. safe levels of pesticide residues"
+        },
+        {
+          "organization": "USDA",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.ams.usda.gov/datasets/pdp",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticide Data Program Annual Summary",
+          "description": "USDA's comprehensive annual testing of pesticide residues in fruits, vegetables, and other foods",
+          "relevance": "Contains the primary data source that EWG uses for the 'Dirty Dozen' list, allowing evaluation of their interpretation"
+        },
+        {
+          "organization": "NIH/NCI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Diet and Cancer Prevention Fact Sheet",
+          "description": "National Cancer Institute's evidence-based guidance on diet and cancer risk, including discussion of fruits and vegetables vs. pesticide concerns",
+          "relevance": "Addresses whether pesticide residue concerns should discourage fruit and vegetable consumption from a public health perspective"
+        }
+      ],
+      "discovered_at": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "organic_pesticides_safer_environmentally_friendly",
+      "question": "Are organic pesticides safer and more environmentally friendly than conventional pesticides?",
+      "priority": "medium",
+      "rationale": "Addresses common organic vs. conventional agriculture misconceptions with evidence comparing actual environmental impacts",
+      "misinformation_narrative": "Consumers widely believe organic pesticides are automatically safer and more environmentally friendly, when some require higher application rates and can have greater environmental impact",
+      "public_stakes": "Misinformed purchasing decisions; potential support for less environmentally sound agricultural practices; unnecessary premium pricing concerns",
+      "verification_status": "verified",
+      "verification_reason": "Organic food communities on Instagram, health blogs, and environmental groups consistently promote the belief that organic pesticides are automatically safer.",
+      "tags": [
+        "Agriculture",
+        "Environmental Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides: Regulating Pesticides",
+          "description": "EPA's comprehensive overview of biopesticides (including organic pesticides) regulation, safety assessment, and environmental considerations compared to conventional pesticides",
+          "relevance": "Provides regulatory framework and safety comparison between organic and conventional pesticides"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240005662",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "The WHO Recommended Classification of Pesticides by Hazard",
+          "description": "WHO's classification system that categorizes both organic and synthetic pesticides by acute toxicity hazard levels",
+          "relevance": "Provides standardized toxicity classifications that include both organic and conventional pesticides for comparison"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/overview-risk-assessment-pesticide-program",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticides: Health and Environmental Effects",
+          "description": "EPA's risk assessment methodology and findings for pesticide environmental and health impacts, covering both conventional and organic pesticides",
+          "relevance": "Details EPA's scientific approach to evaluating comparative risks of different pesticide types"
+        },
+        {
+          "organization": "NIH/National Institute of Environmental Health Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides",
+          "description": "NIEHS overview of pesticide health effects and research findings, including studies on organic vs conventional pesticide safety",
+          "relevance": "Provides health-focused scientific evidence on pesticide safety comparisons"
+        },
+        {
+          "organization": "USDA Economic Research Service",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.ers.usda.gov/topics/natural-resources-environment/organic-agriculture",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Organic Agriculture: Organic Market Overview",
+          "description": "USDA analysis of organic farming practices including pesticide use patterns and environmental impacts compared to conventional methods",
+          "relevance": "Provides agricultural and environmental impact data comparing organic and conventional pesticide use"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/pesticides/biopesticides",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "What are Biopesticides?",
+          "description": "EPA's comprehensive overview of biopesticides including safety profiles and environmental impacts compared to conventional pesticides",
+          "relevance": "Directly addresses safety and environmental considerations of biological vs conventional pesticides"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food - Joint FAO/WHO Meeting on Pesticide Residues (JMPR)",
+          "description": "WHO's scientific evaluations of pesticide safety including natural and synthetic compounds used in agriculture",
+          "relevance": "International health authority assessment of comparative pesticide risks and safety standards"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Food Safety",
+          "description": "CDC's fact sheet on pesticide safety in food systems including organic vs conventional practices",
+          "relevance": "Public health perspective on comparative safety of different pesticide approaches"
+        },
+        {
+          "organization": "NIH/National Institute of Environmental Health Sciences",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niehs.nih.gov/health/topics/agents/pesticides",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticides",
+          "description": "NIEHS research summary on health effects of pesticide exposure including studies comparing organic and conventional pesticides",
+          "relevance": "Scientific research compilation on health impacts of different pesticide types and exposure routes"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Pesticide Residues in Food",
+          "description": "WHO fact sheet on pesticide safety standards and risk assessment principles that apply to both organic and conventional pesticides",
+          "relevance": "International health perspective on pesticide safety evaluation methods applicable to both pesticide types"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Pesticides and Food: What You Should Know",
+          "description": "FDA's consumer guide addressing pesticide safety in food, including organic foods and pesticide alternatives",
+          "relevance": "Regulatory agency perspective on comparative safety of different pesticide approaches in food production"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/ingredients-used-pesticide-products/what-are-biopesticides",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "What are biopesticides?",
+          "description": "EPA's official explanation of biopesticides (including organic pesticides) and how they are regulated differently from conventional pesticides",
+          "relevance": "Provides authoritative comparison of organic vs conventional pesticide regulation and safety assessment"
+        },
+        {
+          "organization": "USDA",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.usda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Organic Standards",
+          "description": "USDA National Organic Program standards defining what pesticides are allowed in organic agriculture",
+          "relevance": "Official definition of what constitutes organic pesticides and their approved uses"
+        }
+      ],
+      "discovered_at": "2026-04-03",
+      "last_seen": "2026-04-19",
+      "times_seen": 4,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 13 alternative sources identified"
+    },
+    {
       "id": "leaky_gut_real_medical_condition",
       "question": "Is 'leaky gut' a real medical condition that causes widespread health problems?",
       "priority": "medium",
@@ -20390,251 +20935,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
-    },
-    {
-      "id": "you_safely_lower_ldl_cholesterol",
-      "question": "Can you safely lower LDL cholesterol to near-zero levels?",
-      "priority": "medium",
-      "rationale": "Addresses fears about cholesterol being 'too low' that prevent effective cardiac risk management",
-      "misinformation_narrative": "People fear that lowering cholesterol too much with medications will cause brain problems or other health issues",
-      "public_stakes": "Fear of low cholesterol prevents optimal cardiovascular treatment and maintenance of protective cholesterol levels",
-      "verification_status": "verified",
-      "verification_reason": "Fear of \"too-low cholesterol\" causing brain problems circulates in health forums and among patients who resist aggressive cholesterol treatment.",
-      "tags": [
-        "Health and Medicine",
-        "Cardiovascular Health"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
-          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
-          "date": "2026-04-08T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
-          "description": "FDA safety communication addressing statin safety and monitoring requirements for very low LDL levels",
-          "relevance": "Addresses safety considerations when achieving very low LDL cholesterol levels with medications"
-        },
-        {
-          "organization": "American Heart Association",
-          "organization_full": "American Heart Association",
-          "base_url": "https://www.heart.org",
-          "url": "https://www.heart.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
-          "description": "Comprehensive clinical practice guideline on cholesterol management including safety of very low LDL targets",
-          "relevance": "Provides evidence-based recommendations on LDL cholesterol targets and safety thresholds"
-        },
-        {
-          "organization": "Cochrane",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Statins for the primary prevention of cardiovascular disease",
-          "description": "Systematic review examining statin efficacy and safety including outcomes at very low LDL levels",
-          "relevance": "Provides systematic review evidence on safety outcomes when LDL is lowered to very low levels"
-        },
-        {
-          "organization": "NIH/NHLBI",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "ATP IV Guidelines - 2013 ACC/AHA Guideline on the Treatment of Blood Cholesterol",
-          "description": "NIH-endorsed clinical guidelines addressing cholesterol treatment targets and safety monitoring",
-          "relevance": "Addresses clinical evidence for LDL lowering limits and safety considerations"
-        },
-        {
-          "organization": "European Medicines Agency",
-          "organization_full": "European Medicines Agency",
-          "base_url": "",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/repatha",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "PCSK9 inhibitors - Assessment report for cardiovascular outcomes",
-          "description": "EMA assessment of PCSK9 inhibitors that can achieve near-zero LDL levels, including safety data",
-          "relevance": "Regulatory assessment of drugs capable of achieving extremely low LDL levels with safety data"
-        }
-      ],
-      "discovered_at": "2026-04-11",
-      "last_seen": "2026-04-11",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "organic_pesticides_safer_environmentally_friendly",
-      "question": "Are organic pesticides safer and more environmentally friendly than conventional ones?",
-      "priority": "medium",
-      "rationale": "Corrects the naturalistic fallacy in pesticide perception and provides evidence-based comparison of pesticide safety profiles",
-      "misinformation_narrative": "Consumers believe 'organic' pesticides are inherently safer and better for the environment than synthetic alternatives",
-      "public_stakes": "Overpaying for organic products based on false safety assumptions while some organic pesticides may require higher application rates with greater environmental impact",
-      "verification_status": "verified",
-      "verification_reason": "Organic food marketing and wellness influencers on Instagram, Pinterest, and health blogs consistently promote the belief that organic pesticides are inherently safer than synthetic ones.",
-      "tags": [
-        "Food Safety",
-        "Environmental Science",
-        "Agriculture"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticides: Regulating Pesticides",
-          "description": "EPA's comprehensive overview of biopesticides (including organic pesticides) regulation, safety assessment, and environmental considerations compared to conventional pesticides",
-          "relevance": "Provides regulatory framework and safety comparison between organic and conventional pesticides"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/9789240005662",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "The WHO Recommended Classification of Pesticides by Hazard",
-          "description": "WHO's classification system that categorizes both organic and synthetic pesticides by acute toxicity hazard levels",
-          "relevance": "Provides standardized toxicity classifications that include both organic and conventional pesticides for comparison"
-        },
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov/pesticide-science-and-assessing-pesticide-risks/overview-risk-assessment-pesticide-program",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Pesticides: Health and Environmental Effects",
-          "description": "EPA's risk assessment methodology and findings for pesticide environmental and health impacts, covering both conventional and organic pesticides",
-          "relevance": "Details EPA's scientific approach to evaluating comparative risks of different pesticide types"
-        },
-        {
-          "organization": "NIH/National Institute of Environmental Health Sciences",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticides",
-          "description": "NIEHS overview of pesticide health effects and research findings, including studies on organic vs conventional pesticide safety",
-          "relevance": "Provides health-focused scientific evidence on pesticide safety comparisons"
-        },
-        {
-          "organization": "USDA Economic Research Service",
-          "organization_full": "U.S. Department of Agriculture",
-          "base_url": "https://www.usda.gov",
-          "url": "https://www.ers.usda.gov/topics/natural-resources-environment/organic-agriculture",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Organic Agriculture: Organic Market Overview",
-          "description": "USDA analysis of organic farming practices including pesticide use patterns and environmental impacts compared to conventional methods",
-          "relevance": "Provides agricultural and environmental impact data comparing organic and conventional pesticide use"
-        },
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov/pesticides/biopesticides",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "What are Biopesticides?",
-          "description": "EPA's comprehensive overview of biopesticides including safety profiles and environmental impacts compared to conventional pesticides",
-          "relevance": "Directly addresses safety and environmental considerations of biological vs conventional pesticides"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticide Residues in Food - Joint FAO/WHO Meeting on Pesticide Residues (JMPR)",
-          "description": "WHO's scientific evaluations of pesticide safety including natural and synthetic compounds used in agriculture",
-          "relevance": "International health authority assessment of comparative pesticide risks and safety standards"
-        },
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticides and Food Safety",
-          "description": "CDC's fact sheet on pesticide safety in food systems including organic vs conventional practices",
-          "relevance": "Public health perspective on comparative safety of different pesticide approaches"
-        },
-        {
-          "organization": "NIH/National Institute of Environmental Health Sciences",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.niehs.nih.gov/health/topics/agents/pesticides",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Pesticides",
-          "description": "NIEHS research summary on health effects of pesticide exposure including studies comparing organic and conventional pesticides",
-          "relevance": "Scientific research compilation on health impacts of different pesticide types and exposure routes"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/news-room/fact-sheets/detail/pesticide-residues-in-food",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Pesticide Residues in Food",
-          "description": "WHO fact sheet on pesticide safety standards and risk assessment principles that apply to both organic and conventional pesticides",
-          "relevance": "International health perspective on pesticide safety evaluation methods applicable to both pesticide types"
-        },
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Pesticides and Food: What You Should Know",
-          "description": "FDA's consumer guide addressing pesticide safety in food, including organic foods and pesticide alternatives",
-          "relevance": "Regulatory agency perspective on comparative safety of different pesticide approaches in food production"
-        }
-      ],
-      "discovered_at": "2026-04-03",
-      "last_seen": "2026-04-08",
-      "times_seen": 3,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 11 alternative sources identified"
     },
     {
       "id": "children_born_today_expected_live",
@@ -24679,16 +24979,16 @@
     },
     {
       "id": "glp_drugs_like_ozempic_work",
-      "question": "Do GLP-1 drugs like Ozempic work the same for everyone?",
+      "question": "Do GLP-1 drugs like Ozempic work equally well for everyone with obesity?",
       "priority": "low",
-      "rationale": "Sets realistic expectations about individual variation in drug response and genetic factors",
-      "misinformation_narrative": "People expect uniform results from weight loss medications and may discontinue effective treatment due to unrealistic expectations",
-      "public_stakes": "Premature discontinuation of effective obesity treatment, unsafe online purchasing when legitimate prescriptions aren't working as expected",
+      "rationale": "Corrects oversimplified messaging about weight loss drugs with evidence of genetic variability in response",
+      "misinformation_narrative": "Marketing and social media suggest these drugs are universal solutions for weight loss, when genetic factors significantly affect their effectiveness",
+      "public_stakes": "Unrealistic expectations lead to treatment failures and disappointment; people may not explore alternative treatments when GLP-1 drugs don't work for them",
       "verification_status": "needs_review",
-      "verification_reason": "Unrealistic expectations about medications are common, but the specific framing about \"uniform results\" isn't a distinct circulating narrative.",
+      "verification_reason": "Most coverage of GLP-1 drugs acknowledges individual variation; this overstates claims of \"universal solution\" messaging in mainstream discourse.",
       "tags": [
-        "Health and Medicine",
-        "Obesity & Weight Management"
+        "Obesity & Weight Management",
+        "Pharmaceuticals"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -24784,15 +25084,59 @@
           "resource_name": "WHO Model List of Essential Medicines",
           "description": "WHO guidance on diabetes medications including considerations for individual patient factors and treatment selection",
           "relevance": "Provides international perspective on appropriate use and patient selection for diabetes medications including GLP-1 agonists"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD006423.pub2/full?cookiesEnabled",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Glucagon‐like peptide analogues for type 2 diabetes mellitus",
+          "description": "Cochrane systematic review analyzing GLP-1 receptor agonist effectiveness across diverse populations",
+          "relevance": "Provides meta-analysis data on differential responses to GLP-1 drugs across patient subgroups"
+        },
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Prescription Medications to Treat Overweight & Obesity",
+          "description": "NIH's comprehensive guide on obesity medications including GLP-1 receptor agonists and their varying effectiveness",
+          "relevance": "Discusses individual variation in response to weight loss medications and factors affecting efficacy"
+        },
+        {
+          "organization": "American Diabetes Association",
+          "organization_full": "American Diabetes Association",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Standards of Care in Diabetes—2024: Obesity and Weight Management for the Prevention and Treatment of Type 2 Diabetes",
+          "description": "ADA clinical practice guidelines addressing individual variation in GLP-1 drug responses",
+          "relevance": "Provides evidence-based guidance on patient selection and expected variation in treatment outcomes"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WHO Technical Report Series 916: Obesity - Preventing and Managing the Global Epidemic",
+          "description": "WHO's comprehensive report on obesity management approaches and treatment response variability",
+          "relevance": "Addresses population-level differences in obesity treatment effectiveness and individual variation factors"
         }
       ],
       "discovered_at": "2026-04-18",
-      "last_seen": "2026-04-18",
-      "times_seen": 1,
+      "last_seen": "2026-04-19",
+      "times_seen": 2,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 3,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 9 alternative sources identified"
     },
     {
       "id": "don_glp_weight_loss_drugs",
@@ -26880,6 +27224,161 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "microplastics_food_water_causing_serious",
+      "question": "Are microplastics in food and water causing serious harm to human health?",
+      "priority": "low",
+      "rationale": "Corrects overblown health claims about microplastics where evidence shows correlation but not causation of human health effects",
+      "misinformation_narrative": "Social media and news reports claim microplastics are definitively harming human health, causing widespread anxiety about food safety and environmental exposure",
+      "public_stakes": "Unnecessary anxiety about food safety; potential avoidance of beneficial foods; misdirected environmental concerns away from proven health risks",
+      "verification_status": "needs_review",
+      "verification_reason": "While microplastics concern exists, the claim that social media definitively states they're \"harming human health\" overstates the actual messaging, which is more cautionary.",
+      "tags": [
+        "Environmental Health",
+        "Food Safety"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241516198",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Microplastics in drinking-water",
+          "description": "WHO's comprehensive assessment of microplastics in drinking water, including health risk evaluation",
+          "relevance": "Directly addresses human health impacts of microplastics in water with current evidence assessment"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Food Safety and Inspection Service - Microplastics in Food",
+          "description": "FDA's current position and research summary on microplastics in the food supply",
+          "relevance": "Official US regulatory stance on microplastics in food safety and human health risks"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Research on Microplastics",
+          "description": "EPA's research overview and findings on microplastics including human exposure pathways",
+          "relevance": "Federal research summary on microplastics exposure routes and potential health implications"
+        },
+        {
+          "organization": "EFSA",
+          "organization_full": "EFSA",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Presence of microplastics and nanoplastics in food, with particular focus on seafood",
+          "description": "European Food Safety Authority's scientific opinion on microplastics in food and risk assessment",
+          "relevance": "Comprehensive European assessment of microplastics in food chain and human health risk evaluation"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics and Human Health",
+          "description": "National Institute of Environmental Health Sciences overview of microplastics research and health effects",
+          "relevance": "Federal health institute's current understanding of microplastics and human health connections"
+        }
+      ],
+      "discovered_at": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "dishwasher_detergent_pods_cause_leaky",
+      "question": "Do dishwasher detergent pods cause 'leaky gut' syndrome?",
+      "priority": "low",
+      "rationale": "Addresses specific viral health claims with evidence showing flawed study methodology and lack of medical recognition for 'leaky gut'",
+      "misinformation_narrative": "Viral social media posts and influencers claim dishwasher detergent residues cause 'leaky gut syndrome,' leading people to avoid efficient cleaning methods",
+      "public_stakes": "People may avoid effective dishwashing, potentially increasing foodborne illness risk; unnecessary anxiety about household products; increased water waste from hand-washing",
+      "verification_status": "needs_review",
+      "verification_reason": "This appears to be a fabricated narrative; there's no significant social media trend linking dishwasher pods specifically to leaky gut syndrome.",
+      "tags": [
+        "Consumer Products",
+        "Digestive Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "'Leaky gut' is not a medically recognized condition per guest (described as 'influencer recognized')",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "pva_detergent_pods_persist_environment",
+      "question": "Do PVA detergent pods persist in the environment and contaminate breast milk?",
+      "priority": "low",
+      "rationale": "Addresses specific viral claims about detergent pod safety with evidence of biodegradation and flawed contamination studies",
+      "misinformation_narrative": "Viral social media posts claim polyvinyl alcohol from detergent pods doesn't break down in wastewater treatment and contaminates breast milk, causing parental anxiety",
+      "public_stakes": "Unnecessary anxiety among new parents; potential avoidance of efficient cleaning products; misdirected environmental concerns",
+      "verification_status": "needs_review",
+      "verification_reason": "This appears to be an invented narrative; there's no significant viral social media trend about PVA pods and breast milk contamination.",
+      "tags": [
+        "Environmental Health",
+        "Consumer Products"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "PVA from detergent pods breaks down in wastewater treatment plants with high efficiency when microbial ecosystems are acclimated",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-19",
+      "last_seen": "2026-04-19",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "microplastics_environment_pose_serious_health",
