@@ -1,0 +1,51 @@
+{
+  "id": "antibiotic_resistant_bacteria_explode_rapidly",
+  "question": "Do antibiotic-resistant bacteria 'explode' to rapidly spread resistance between different species?",
+  "topic": "Corrects dramatic misconceptions about bacterial resistance mechanisms with accurate microbiology",
+  "tags": [
+    "Infectious Disease",
+    "Antibiotic Resistance",
+    "Microbiology"
+  ],
+  "sources": [
+    {
+      "name": "Antibiotic Resistance Threats in the United States, 2019 — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antimicrobial Resistance: Global Report on Surveillance 2014 — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241564748",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antimicrobial (Drug) Resistance — NIH/NIAID",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Combating Antibiotic Resistance — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Interventions to improve antibiotic prescribing practices for hospital inpatients — Cochrane",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003543.pub4/full",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists discover bacteria can “explode” to spread antibiotic resistance",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260416071953.htm",
+      "date": "2026-04-17"
+    }
+  ]
+}

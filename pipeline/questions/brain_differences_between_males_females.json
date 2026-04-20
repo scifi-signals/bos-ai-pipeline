@@ -1,0 +1,33 @@
+{
+  "id": "brain_differences_between_males_females",
+  "question": "Are brain differences between males and females significant enough to justify different educational or professional approaches?",
+  "topic": "Provides nuanced view of sex differences in brain gene activity while debunking oversimplified gende",
+  "tags": [
+    "Neuroscience",
+    "Gender",
+    "Education"
+  ],
+  "sources": [
+    {
+      "name": "How People Learn: Brain, Mind, Experience, and School: Expanded Edition",
+      "url": "https://www.nationalacademies.org/publications/9853",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "In the Light of Evolution: Volume VI: Brain and Behavior",
+      "url": "https://www.nationalacademies.org/publications/13462",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Revealed: how male and female brain cells differ in gene activity",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01227-y",
+      "date": "2026-04-17"
+    }
+  ]
+}

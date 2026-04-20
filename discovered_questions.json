@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-19T12:10:14Z",
+  "generated_at": "2026-04-20T12:23:31Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -1548,6 +1548,89 @@
       "newest_source_year": 2020,
       "signal_count": 6,
       "readiness_summary": "5 NASEM sources, most recent 2020 · confirmed misinformation · 6 discovery signals"
+    },
+    {
+      "id": "human_caused_climate_change_less",
+      "question": "Is human-caused climate change less important than natural climate variations?",
+      "priority": "high",
+      "rationale": "Addresses persistent climate denial with authoritative evidence about human attribution of recent climate change",
+      "misinformation_narrative": "Climate skeptics promote the idea that current climate change is primarily natural and that human activities are not the dominant driver of recent warming",
+      "public_stakes": "Public may not support necessary climate policies or personal actions to reduce greenhouse gas emissions",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptic communities on social media, conservative blogs, and fossil fuel advocacy groups actively promote natural variation arguments.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science",
+        "Public Policy"
+      ],
+      "nasem_source_count": 5,
+      "nasem_sources_preview": [
+        {
+          "name": "Climate Change: Evidence and Causes: Update 2020 (2020)",
+          "url": "https://www.nationalacademies.org/publications/25733"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        },
+        {
+          "name": "Climate Change: Evidence and Causes (2014)",
+          "url": "https://www.nationalacademies.org/publications/18730"
+        },
+        {
+          "name": "Informing an Effective Response to Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12784"
+        },
+        {
+          "name": "Understanding Earth's Deep Past: Lessons for Our Climate Future (2011)",
+          "url": "https://www.nationalacademies.org/publications/13111"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: A key solution to climate change isn't happening – and that's good",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522770-a-key-solution-to-climate-change-isnt-happening-and-thats-good/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Scientists discover hidden ocean methane source that could worsen global warming",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260415043615.htm",
+          "date": "2026-04-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Wildfires used to 'go to sleep' at night. Climate change is turning them into prime burning hours",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-wildfires-night-climate-prime-hours.html",
+          "date": "2026-04-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: An endangered mouse may need a helping hand to adapt to climate change",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/mouse-endangered-climate-conservation",
+          "date": "2026-04-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Climate Change Not That Important in Where Americans Move",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/17/climate_change_not_that_important_in_where_americans_move_1177267.html",
+          "date": "2026-04-18"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2020,
+      "signal_count": 5,
+      "readiness_summary": "5 NASEM sources, most recent 2020 · confirmed misinformation · 5 discovery signals"
     },
     {
       "id": "climate_change_hoax_natural_variation",
@@ -4794,6 +4877,45 @@
       "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 2 discovery signals"
     },
     {
+      "id": "forcing_children_eat_foods_they",
+      "question": "Does forcing children to eat foods they dislike help overcome picky eating?",
+      "priority": "medium",
+      "rationale": "Corrects harmful feeding practices with evidence-based responsive feeding approaches that actually improve child nutrition",
+      "misinformation_narrative": "Many parents believe they should force children to eat disliked foods or restrict preferred foods to improve nutrition, based on outdated feeding advice",
+      "public_stakes": "Forced feeding can create eating disorders, food aversions, and family conflict while failing to improve children's nutrition",
+      "verification_status": "verified",
+      "verification_reason": "Traditional parenting advice and older pediatric guidelines still influence many parents to use force-feeding tactics despite current research.",
+      "tags": [
+        "Child Development",
+        "Nutrition",
+        "Parenting"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "forcing_children_eat_using_food",
       "question": "Is forcing children to eat or using food rewards an effective way to address picky eating?",
       "priority": "medium",
@@ -6039,6 +6161,84 @@
       "newest_source_year": 2022,
       "signal_count": 6,
       "readiness_summary": "2 NASEM sources, most recent 2022 · confirmed misinformation · 6 discovery signals"
+    },
+    {
+      "id": "biodiversity_crisis_requires_immediate_action",
+      "question": "Are we in a biodiversity crisis that requires immediate action?",
+      "priority": "medium",
+      "rationale": "Clarifies the scientific consensus on current biodiversity loss rates and effective conservation strategies",
+      "misinformation_narrative": "Some downplay current biodiversity loss as natural or exaggerated, while others claim it's already too late to act, leading to either inaction or despair",
+      "public_stakes": "May lead to inadequate conservation efforts or fatalistic attitudes that prevent effective environmental protection",
+      "verification_status": "verified",
+      "verification_reason": "Environmental debates feature both climate denialists downplaying biodiversity loss and doomers promoting helplessness across social media platforms.",
+      "tags": [
+        "Biodiversity",
+        "Conservation",
+        "Environmental Science"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Biodiversity at Risk: Today's Choices Matter (2022)",
+          "url": "https://www.nationalacademies.org/publications/26384"
+        },
+        {
+          "name": "In the Light of Evolution: Volume II: Biodiversity and Extinction (2008)",
+          "url": "https://www.nationalacademies.org/publications/12501"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Hidden fossils reveal secrets of oceans before major mass extinction",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522739-hidden-fossils-reveal-secrets-of-oceans-before-major-mass-extinction/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Your local fishing hole is getting browner, changing which fish species thrive and which ones struggle",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/your-local-fishing-hole-is-getting-browner-changing-which-fish-species-thrive-and-which-ones-struggle-279259",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Butterfly numbers are dropping but here are five species you may see more of",
+          "origin": "STM — BBC Science",
+          "url": "https://www.bbc.com/news/articles/c75kk7p41npo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: The doomsday seed collectors fighting to save Wales' native species",
+          "origin": "STM — BBC Science",
+          "url": "https://www.bbc.com/news/articles/c2d1k0nrwe9o?at_medium=RSS&at_campaign=rss",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: An endangered mouse may need a helping hand to adapt to climate change",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/mouse-endangered-climate-conservation",
+          "date": "2026-04-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: New species of glass frog identified in Ecuador",
+          "origin": "STM — NPR Science",
+          "url": "https://www.npr.org/2026/04/14/nx-s1-5776612/new-species-of-glass-frog-identified-in-ecuador",
+          "date": "2026-04-19"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2022,
+      "signal_count": 5,
+      "readiness_summary": "2 NASEM sources, most recent 2022 · confirmed misinformation · 5 discovery signals"
     },
     {
       "id": "biodiversity_loss_exaggerated_ecosystems_naturally",
@@ -9525,6 +9725,49 @@
       "readiness_summary": "5 NASEM sources, most recent 2015 — moderately dated · confirmed misinformation · 3 discovery signals"
     },
     {
+      "id": "brain_differences_between_males_females",
+      "question": "Are brain differences between males and females significant enough to justify different educational or professional approaches?",
+      "priority": "low",
+      "rationale": "Provides nuanced view of sex differences in brain gene activity while debunking oversimplified gender essentialism",
+      "misinformation_narrative": "Some claim major brain differences between sexes justify stereotypical gender roles or educational segregation, while others deny any meaningful differences exist",
+      "public_stakes": "May perpetuate harmful gender stereotypes in education and employment, or ignore legitimate sex-based medical differences",
+      "verification_status": "verified",
+      "verification_reason": "Both extremes exist: traditionalist communities promote rigid gender differences while some progressive circles deny any biological differences.",
+      "tags": [
+        "Neuroscience",
+        "Gender",
+        "Education"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "How People Learn: Brain, Mind, Experience, and School: Expanded Edition (2000)",
+          "url": "https://www.nationalacademies.org/publications/9853"
+        },
+        {
+          "name": "In the Light of Evolution: Volume VI: Brain and Behavior (2013)",
+          "url": "https://www.nationalacademies.org/publications/13462"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Revealed: how male and female brain cells differ in gene activity",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01227-y",
+          "date": "2026-04-17"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2013,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2013 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "human_evolution_continuing_stopped_modern",
       "question": "Is human evolution continuing or has it stopped in modern times?",
       "priority": "low",
@@ -12284,16 +12527,17 @@
     },
     {
       "id": "whole_milk_dairy_products_harmful",
-      "question": "Are whole milk and dairy products harmful to children over age 2?",
+      "question": "Are whole milk and dairy products harmful for children over age 2?",
       "priority": "low",
-      "rationale": "Updated dietary guidelines now support whole milk beyond age 2 with evidence for nutritional benefits",
-      "misinformation_narrative": "Previous guidelines recommending low-fat milk after age 2 led some to believe whole milk is unhealthy for young children",
-      "public_stakes": "Children may miss important nutrients if parents avoid whole milk based on outdated recommendations",
+      "rationale": "Clarifies updated dietary guidelines recommending whole milk beyond age 2 and addresses anti-dairy misinformation",
+      "misinformation_narrative": "Some parents believe children should switch to low-fat milk after age 2 and avoid dairy due to outdated guidelines or anti-dairy messaging",
+      "public_stakes": "Children may miss important nutrients during critical development periods if dairy is unnecessarily restricted",
       "verification_status": "needs_review",
-      "verification_reason": "This misrepresents past low-fat recommendations as claims that whole milk is \"harmful\" rather than just less preferred.",
+      "verification_reason": "The opposite is true; most parents know whole milk is recommended for young children, and anti-dairy messaging typically targets adults.",
       "tags": [
-        "Child Health",
-        "Nutrition"
+        "Child Nutrition",
+        "Dietary Guidelines",
+        "Pediatric Health"
       ],
       "nasem_source_count": 1,
       "nasem_sources_preview": [
@@ -12313,12 +12557,80 @@
       ],
       "alternative_sources": [],
       "discovered_at": "2026-04-12",
-      "last_seen": "2026-04-12",
-      "times_seen": 1,
+      "last_seen": "2026-04-20",
+      "times_seen": 2,
       "status": "pending",
       "newest_source_year": 2020,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2020 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "quantum_computers_soon_make_current",
+      "question": "Will quantum computers soon make current cybersecurity obsolete and create a 'worse than Y2K' crisis?",
+      "priority": "low",
+      "rationale": "Provides realistic timeline and threat assessment for quantum computing impact on cryptography based on current technological capabilities",
+      "misinformation_narrative": "Media reports claim quantum computers will suddenly break all encryption and cause widespread digital chaos, creating unnecessary panic about timeline and preparedness",
+      "public_stakes": "Organizations may panic and make hasty, expensive cybersecurity changes, or conversely, ignore real long-term quantum computing threats",
+      "verification_status": "needs_review",
+      "verification_reason": "Quantum computing timeline concerns are mainly in cybersecurity professional circles, not a widespread public \"Y2K crisis\" panic narrative.",
+      "tags": [
+        "Cybersecurity",
+        "Quantum Computing",
+        "Technology"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Foundational Cybersecurity Research: Improving Science, Engineering, and Institutions (2017)",
+          "url": "https://www.nationalacademies.org/publications/24676"
+        },
+        {
+          "name": "Implications of Artificial Intelligence for Cybersecurity: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25488"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers take on health care: light-sensitive cancer drugs win US$2-million contest",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01236-x",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: As helium-3 runs scarce, researchers seek new ways to chill quantum computers",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/helium-3-runs-scarce-researchers-seek-new-ways-chill-quantum-computers",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: First complete genome loaded onto a quantum computer",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/first-complete-genome-loaded-quantum-computer",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers could usher in a crisis worse than Y2K",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522615-quantum-computers-could-usher-in-a-crisis-worse-than-y2k/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-17"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 3,
+      "readiness_summary": "3 NASEM sources, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 3 discovery signals"
     },
     {
       "id": "quantum_computers_actually_revolutionary_just",
@@ -14403,6 +14715,109 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "online_glp_drugs_like_natural",
+      "question": "Are online GLP-1 drugs like 'natural Ozempic' alternatives safe and effective?",
+      "priority": "high",
+      "rationale": "Addresses proliferation of dangerous online drug marketing and fake 'natural' alternatives to proven medications",
+      "misinformation_narrative": "Internet ads promote unregulated GLP-1 alternatives as 'natural Ozempic without side effects' while legitimate drugs are marketed through questionable online pharmacies",
+      "public_stakes": "Patients may purchase counterfeit or dangerous weight loss drugs online, or avoid proven treatments due to misleading 'natural' alternatives",
+      "verification_status": "verified",
+      "verification_reason": "Social media ads on Facebook/Instagram heavily promote unregulated \"natural Ozempic\" supplements, and sketchy online pharmacies market GLP-1 drugs.",
+      "tags": [
+        "Drug Safety",
+        "Weight Management",
+        "Consumer Protection"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Ads for GLP-1 drugs are flooding the internet – here’s how to know if it’s safe to buy them online",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/ads-for-glp-1-drugs-are-flooding-the-internet-heres-how-to-know-if-its-safe-to-buy-them-online-277369",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Scientists discover natural hormone that reverses obesity",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260416071954.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Stanford scientists discover “natural Ozempic” without side effects",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260412221946.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Why Ozempic doesn’t work for everyone: Scientists just found a hidden reason",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260411022029.htm",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Some GLP-1 drugs are more effective for those with specific gene variants",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/glp-1-weight-loss-genetics-side-effects",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: STAT+: Researchers behind GLP-1 obesity drugs advance new approach: Drop GLP-1 as a target",
+          "origin": "STM — STAT News",
+          "url": "https://www.statnews.com/2026/04/16/glp1-weight-loss-new-approach/?utm_campaign=rss",
+          "date": "2026-04-19"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA warns consumers not to use off-brand versions of prescription diabetes and weight-loss drugs",
+          "description": "FDA consumer update warning about compounded and online versions of GLP-1 drugs",
+          "relevance": "Directly addresses safety concerns with non-FDA approved GLP-1 alternatives sold online"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Before You Buy Medicines Over the Internet",
+          "description": "CDC guidance on safely purchasing prescription medications online",
+          "relevance": "Addresses general safety concerns about purchasing prescription medications online, applicable to GLP-1 drugs"
+        },
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Prescription Medications to Treat Overweight & Obesity",
+          "description": "NIDDK overview of FDA-approved weight loss medications including GLP-1 receptor agonists",
+          "relevance": "Provides evidence-based information on legitimate, approved GLP-1 medications for comparison with online alternatives"
+        }
+      ],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 4,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
+    },
+    {
       "id": "artificial_intelligence_think_feel_like",
       "question": "Can artificial intelligence think and feel like humans do?",
       "priority": "high",
@@ -16077,6 +16492,219 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "should_people_refuse_blood_transfusions",
+      "question": "Should people refuse blood transfusions from COVID-19 vaccinated donors?",
+      "priority": "high",
+      "rationale": "Addresses dangerous misinformation that could directly lead to deaths from refused transfusions",
+      "misinformation_narrative": "Some people believe that blood from vaccinated donors is contaminated or dangerous, leading to refusal of potentially life-saving transfusions",
+      "public_stakes": "Patients may refuse life-saving blood transfusions based on unfounded fears, potentially resulting in preventable deaths",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Telegram, Truth Social, and conspiracy forums actively promote \"pure blood\" ideology and refuse vaccinated donor blood.",
+      "tags": [
+        "Public Health",
+        "Blood Safety",
+        "COVID-19"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: People are refusing transfusions from donors vaccinated against covid",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2523157-people-are-refusing-transfusions-from-donors-vaccinated-against-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-16"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Blood and Blood Products - Updated Information for Blood Establishments Regarding the COVID-19 Pandemic and Blood Donation",
+          "description": "FDA guidance on blood donation eligibility and safety considerations related to COVID-19 vaccination",
+          "relevance": "Directly addresses blood donation safety from vaccinated individuals"
+        },
+        {
+          "organization": "American Red Cross",
+          "organization_full": "American Red Cross",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "COVID-19 Vaccine and Blood Donation Eligibility",
+          "description": "Red Cross official guidance on blood donation eligibility after COVID-19 vaccination",
+          "relevance": "Provides evidence-based policy on accepting blood from vaccinated donors"
+        },
+        {
+          "organization": "AABB (formerly American Association of Blood Banks)",
+          "organization_full": "AABB (formerly American Association of Blood Banks)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "COVID-19 and Blood Safety Frequently Asked Questions",
+          "description": "Professional blood banking organization's guidance on COVID-19 vaccine and blood safety",
+          "relevance": "Expert consensus on blood safety from vaccinated donors"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-vaccines",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Blood Safety and Availability - COVID-19 Vaccination",
+          "description": "WHO guidance on COVID-19 vaccines including safety considerations for blood donation",
+          "relevance": "International health authority position on vaccine safety and blood products"
+        },
+        {
+          "organization": "American Red Cross",
+          "organization_full": "American Red Cross",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "COVID-19 Vaccines and Blood Donation Eligibility",
+          "description": "Official Red Cross position on blood donation eligibility for COVID-19 vaccinated individuals",
+          "relevance": "Provides authoritative guidance from major blood collection organization on vaccination status and donation safety"
+        },
+        {
+          "organization": "AABB (Association for the Advancement of Blood & Biotherapies)",
+          "organization_full": "AABB (Association for the Advancement of Blood & Biotherapies)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "COVID-19 Resources - Blood Collection and Transfusion",
+          "description": "Professional blood banking organization's guidelines and resources regarding COVID-19 vaccines and blood safety",
+          "relevance": "Expert medical organization guidance on blood transfusion safety related to COVID-19 vaccination"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccines: Myth versus Fact",
+          "description": "CDC fact sheet addressing common COVID-19 vaccine myths and misinformation",
+          "relevance": "Addresses misconceptions about COVID-19 vaccines that may relate to blood donation concerns"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Blood Safety and Availability - COVID-19",
+          "description": "WHO guidance on blood safety during COVID-19 pandemic including vaccination considerations",
+          "relevance": "International health authority guidance on blood safety and COVID-19 vaccination status"
+        }
+      ],
+      "discovered_at": "2026-04-17",
+      "last_seen": "2026-04-20",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 8 alternative sources identified"
+    },
+    {
+      "id": "statin_medications_dangerous_ineffective_preventing",
+      "question": "Are statin medications dangerous and ineffective for preventing heart disease?",
+      "priority": "high",
+      "rationale": "Counters dangerous anti-statin misinformation with evidence from 26+ randomized controlled trials showing consistent cardiovascular benefits and minimal side effects",
+      "misinformation_narrative": "Cholesterol denialists claim statins are harmful, ineffective, and cause widespread muscle damage and dementia, while promoting the idea that dietary cholesterol doesn't matter",
+      "public_stakes": "Patients may discontinue proven cardiovascular medications, leading to preventable heart attacks and strokes",
+      "verification_status": "verified",
+      "verification_reason": "Cholesterol denialist communities, Malcolm Kendrick followers, and low-carb forums regularly promote anti-statin messaging and cholesterol skepticism.",
+      "tags": [
+        "Cardiovascular Health",
+        "Pharmaceuticals",
+        "Medical Misinformation"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official safety communication addressing statin risks and benefits, including muscle pain and diabetes risk",
+          "relevance": "Provides authoritative assessment of statin safety profile and effectiveness data"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004816.pub5/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Cochrane systematic review and meta-analysis of statins for primary cardiovascular disease prevention",
+          "relevance": "Provides comprehensive evidence synthesis on statin effectiveness and safety from randomized controlled trials"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical practice guideline on cholesterol management including statin recommendations",
+          "relevance": "Authoritative clinical guidelines based on extensive evidence review of statin benefits and risks"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Managing Blood Cholesterol in Adults: Systematic Evidence Review from the Cholesterol Expert Panel",
+          "description": "NIH systematic evidence review supporting clinical cholesterol management guidelines",
+          "relevance": "Comprehensive review of clinical trial evidence on statin effectiveness and safety"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Model List of Essential Medicines - 22nd List",
+          "description": "WHO's essential medicines list includes statins (atorvastatin, simvastatin) for cardiovascular disease prevention",
+          "relevance": "WHO inclusion of statins in essential medicines demonstrates international consensus on effectiveness and safety profile"
+        }
+      ],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "should_people_avoid_statins_because",
       "question": "Should people avoid statins because they cause dementia and muscle damage?",
       "priority": "high",
@@ -16497,84 +17125,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
-    },
-    {
-      "id": "should_people_refuse_blood_transfusions",
-      "question": "Should people refuse blood transfusions from COVID-vaccinated donors?",
-      "priority": "high",
-      "rationale": "Addresses dangerous medical misinformation that could directly cause preventable deaths in emergency situations",
-      "misinformation_narrative": "Some people believe COVID vaccines contaminate blood and make transfusions from vaccinated donors dangerous, leading to refusal of potentially life-saving treatments",
-      "public_stakes": "Medical emergencies could become fatal if patients refuse transfusions based on vaccine misinformation",
-      "verification_status": "verified",
-      "verification_reason": "Anti-vaccine communities on Telegram, Truth Social, and Facebook actively promote \"pure blood\" movements rejecting transfusions from vaccinated donors.",
-      "tags": [
-        "Health and Medicine",
-        "Vaccines"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Infectious Disease: People are refusing transfusions from donors vaccinated against covid",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2523157-people-are-refusing-transfusions-from-donors-vaccinated-against-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-04-16"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Blood and Blood Products - Updated Information for Blood Establishments Regarding the COVID-19 Pandemic and Blood Donation",
-          "description": "FDA guidance on blood donation eligibility and safety considerations related to COVID-19 vaccination",
-          "relevance": "Directly addresses blood donation safety from vaccinated individuals"
-        },
-        {
-          "organization": "American Red Cross",
-          "organization_full": "American Red Cross",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "COVID-19 Vaccine and Blood Donation Eligibility",
-          "description": "Red Cross official guidance on blood donation eligibility after COVID-19 vaccination",
-          "relevance": "Provides evidence-based policy on accepting blood from vaccinated donors"
-        },
-        {
-          "organization": "AABB (formerly American Association of Blood Banks)",
-          "organization_full": "AABB (formerly American Association of Blood Banks)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "COVID-19 and Blood Safety Frequently Asked Questions",
-          "description": "Professional blood banking organization's guidance on COVID-19 vaccine and blood safety",
-          "relevance": "Expert consensus on blood safety from vaccinated donors"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/news-room/questions-and-answers/item/coronavirus-disease-(covid-19)-vaccines",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Blood Safety and Availability - COVID-19 Vaccination",
-          "description": "WHO guidance on COVID-19 vaccines including safety considerations for blood donation",
-          "relevance": "International health authority position on vaccine safety and blood products"
-        }
-      ],
-      "discovered_at": "2026-04-17",
-      "last_seen": "2026-04-17",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "leaky_gut_syndrome_real_medical",
@@ -20089,6 +20639,96 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "organic_foods_provide_significant_health",
+      "question": "Do organic foods provide significant health and safety benefits over conventional produce?",
+      "priority": "medium",
+      "rationale": "Corrects misconceptions about pesticide safety thresholds and organic vs conventional farming practices based on EPA and toxicology evidence",
+      "misinformation_narrative": "The EWG 'Dirty Dozen' list and organic marketing create fear that conventional produce pesticide residues cause serious health problems, while organic is portrayed as always safer",
+      "public_stakes": "Families may avoid beneficial fruits and vegetables due to pesticide fears, spend unnecessary money on organic foods, or believe organic pesticides are inherently safer",
+      "verification_status": "verified",
+      "verification_reason": "EWG's Dirty Dozen list drives massive organic marketing campaigns and parental fear-mongering about conventional produce on social media and wellness blogs.",
+      "tags": [
+        "Food Safety",
+        "Agriculture",
+        "Consumer Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Organic Foods: What You Need to Know",
+          "description": "FDA's official guidance on organic food standards, safety, and nutritional comparisons with conventional foods",
+          "relevance": "Directly addresses safety and nutritional differences between organic and conventional foods"
+        },
+        {
+          "organization": "Mayo Clinic",
+          "organization_full": "Mayo Clinic",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Organic foods: Are they safer? More nutritious?",
+          "description": "Comprehensive medical review examining safety, nutritional content, and health benefits of organic vs conventional foods",
+          "relevance": "Provides evidence-based analysis of health and safety claims about organic foods"
+        },
+        {
+          "organization": "American Academy of Pediatrics",
+          "organization_full": "American Academy of Pediatrics",
+          "base_url": "https://www.aap.org",
+          "url": "https://www.aap.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Organic Foods: Health and Environmental Advantages and Disadvantages",
+          "description": "AAP clinical report reviewing scientific evidence on organic food benefits and risks, particularly for children",
+          "relevance": "Systematic review of health and safety evidence comparing organic and conventional foods"
+        },
+        {
+          "organization": "Harvard T.H. Chan School of Public Health",
+          "organization_full": "Harvard T.H. Chan School of Public Health",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Should you go organic? - The Nutrition Source",
+          "description": "Evidence-based analysis of organic food research including pesticide exposure, nutritional content, and health outcomes",
+          "relevance": "Comprehensive review of scientific literature on organic food health and safety benefits"
+        },
+        {
+          "organization": "Environmental Working Group",
+          "organization_full": "Environmental Working Group",
+          "base_url": "",
+          "url": "https://www.ewg.org/foodnews/",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Dirty Dozen and Clean Fifteen - Shopper's Guide to Pesticides in Produce",
+          "description": "Annual analysis of pesticide residue data on conventional produce, informing organic vs conventional purchasing decisions",
+          "relevance": "Provides specific data on pesticide contamination differences that relate to safety benefits of organic foods"
+        }
+      ],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "dirty_dozen_list_reliable_guide",
@@ -24095,6 +24735,96 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "safe_lower_ldl_cholesterol_very",
+      "question": "Is it safe to lower LDL cholesterol to very low levels with medications?",
+      "priority": "low",
+      "rationale": "Addresses fears about low cholesterol levels with evidence that very low LDL levels are safe and beneficial",
+      "misinformation_narrative": "Some claim that lowering cholesterol too much is dangerous and that humans need high cholesterol levels for brain function and hormone production",
+      "public_stakes": "Patients may avoid aggressive cholesterol treatment that could prevent heart disease, or doctors may not prescribe adequate therapy",
+      "verification_status": "verified",
+      "verification_reason": "Cholesterol skeptic communities and some alternative health practitioners actively warn against \"dangerously low\" cholesterol levels from statins.",
+      "tags": [
+        "Cardiovascular Health",
+        "Cholesterol",
+        "Medical Treatment"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official safety communication on statin medications and their risks/benefits",
+          "relevance": "Addresses safety considerations for cholesterol-lowering medications including very low LDL targets"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical practice guideline on cholesterol management including intensive lowering strategies",
+          "relevance": "Provides evidence-based recommendations on LDL cholesterol targets and safety of intensive lowering"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004816.pub5/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining benefits and harms of statin therapy",
+          "relevance": "Evaluates safety profile of statins including effects of achieving very low LDL levels"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Model List of Essential Medicines - Section 12.6 Lipid-regulating medicines",
+          "description": "WHO's essential medicines list with safety considerations for lipid-lowering drugs",
+          "relevance": "Includes WHO's assessment of safety profile for cholesterol-lowering medications"
+        },
+        {
+          "organization": "NIH/NLM",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://medlineplus.gov/ldlthebadcholesterol.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "LDL: The 'Bad' Cholesterol - MedlinePlus",
+          "description": "NIH consumer health information on LDL cholesterol including treatment safety",
+          "relevance": "Provides evidence-based information on safety of lowering LDL cholesterol with medications"
+        }
+      ],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "hand_washing_dishes_really_use",
       "question": "Does hand-washing dishes really use more water than dishwashers?",
       "priority": "low",
@@ -27223,6 +27953,304 @@
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "microplastics_laundry_pods_detergents_pose",
+      "question": "Do microplastics from laundry pods and detergents pose serious health risks through 'leaky gut' and other pathways?",
+      "priority": "low",
+      "rationale": "Corrects specific false claims about PVA biodegradation, debunks 'leaky gut' as unrecognized condition, and addresses flawed study methodologies being misrepresented in media",
+      "misinformation_narrative": "Social media and environmental blogs claim that microplastics from detergent pods cause 'leaky gut syndrome' and serious health problems, with studies showing PVA plastic accumulating in breast milk and bodies",
+      "public_stakes": "Consumers may avoid effective cleaning products, waste water and energy hand-washing, or experience anxiety about phantom health risks",
+      "verification_status": "needs_review",
+      "verification_reason": "While microplastics concerns exist, the specific \"leaky gut from laundry pods\" narrative with PVA accumulation claims sounds like an exaggerated conflation of separate health trends.",
+      "tags": [
+        "Environmental Health",
+        "Consumer Safety",
+        "Chemistry"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Research on Microplastics",
+          "description": "EPA's overview of current microplastics research including sources, environmental fate, and potential human health impacts",
+          "relevance": "Addresses microplastics sources including household products and current understanding of health risks"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Update on Microplastics in Food",
+          "description": "FDA's assessment of microplastics in food and beverages, including exposure pathways and health risk evaluation",
+          "relevance": "Evaluates human exposure to microplastics and current scientific understanding of health impacts"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics in drinking-water",
+          "description": "WHO technical report examining microplastics in drinking water, human exposure, and health risk assessment",
+          "relevance": "Comprehensive assessment of microplastics exposure pathways and potential health effects in humans"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics and Human Health Research",
+          "description": "NIEHS overview of microplastics research including exposure sources, biological effects, and ongoing health studies",
+          "relevance": "Addresses human health research on microplastics including potential mechanisms like intestinal barrier effects"
+        },
+        {
+          "organization": "European Food Safety Authority",
+          "organization_full": "European Food Safety Authority",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Presence of microplastics and nanoplastics in food, with particular focus on seafood",
+          "description": "EFSA scientific opinion on microplastics in food, exposure assessment, and toxicological evaluation",
+          "relevance": "Comprehensive scientific assessment of microplastics exposure and potential health risks including gastrointestinal effects"
+        }
+      ],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "artificial_intelligence_medical_diagnosis_drug",
+      "question": "Does artificial intelligence in medical diagnosis and drug development pose immediate dangers to patients?",
+      "priority": "low",
+      "rationale": "Balances legitimate concerns about AI bias with evidence about proper validation and clinical integration of AI medical tools",
+      "misinformation_narrative": "Media reports suggest AI medical systems are trained on 'dubious data' and transmit biases, creating fear that AI diagnostics are unreliable or dangerous",
+      "public_stakes": "Patients and doctors may avoid beneficial AI diagnostic tools, or conversely, over-rely on flawed AI systems without understanding limitations",
+      "verification_status": "needs_review",
+      "verification_reason": "While AI bias concerns exist in academic circles, there's no widespread public movement claiming AI medical diagnosis is immediately dangerous to patients.",
+      "tags": [
+        "Medical Technology",
+        "Artificial Intelligence",
+        "Patient Safety"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Daily briefing: AI systems can ‘teach’ biases to other models",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01265-6",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI models ‘subliminally’ transmit biases when training other systems",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01224-1",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00697-4",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Quantum computers take on health care: light-sensitive cancer drugs win US$2-million contest",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01236-x",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Giant cancer study reveals effectiveness of ‘off label’ treatments",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01241-0",
+          "date": "2026-04-17"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Artificial Intelligence and Machine Learning in Software as Medical Devices Action Plan",
+          "description": "FDA's comprehensive action plan and guidance on AI/ML-enabled medical devices, including safety considerations and regulatory framework",
+          "relevance": "Directly addresses FDA's approach to ensuring AI medical device safety and identifies potential risks and mitigation strategies"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240029200",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Ethics and Governance of Artificial Intelligence for Health",
+          "description": "WHO guidance document on AI in healthcare covering safety, ethics, and risk assessment frameworks",
+          "relevance": "Provides global health perspective on AI safety in medical applications and identifies key risk areas"
+        },
+        {
+          "organization": "NIH",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://datascience.nih.gov/artificial-intelligence",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "NIH Strategic Plan for Data Science - Artificial Intelligence",
+          "description": "NIH's strategic approach to AI in biomedical research and clinical applications, including safety considerations",
+          "relevance": "Outlines NIH's perspective on safe implementation of AI in medical research and drug development"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/search?q=artificial%20intelligence%20medical%20diagnosis",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Cochrane Reviews on Artificial Intelligence in Healthcare",
+          "description": "Systematic reviews evaluating the effectiveness and safety of AI applications in medical diagnosis",
+          "relevance": "Provides evidence-based analysis of AI diagnostic tools' performance and potential harms compared to traditional methods"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Digital Health and Informatics - Artificial Intelligence",
+          "description": "CDC's approach to AI in public health surveillance and disease detection, including safety protocols",
+          "relevance": "Addresses CDC's use of AI in health monitoring and disease diagnosis with emphasis on validation and safety measures"
+        }
+      ],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "antibiotic_resistant_bacteria_explode_rapidly",
+      "question": "Do antibiotic-resistant bacteria 'explode' to rapidly spread resistance between different species?",
+      "priority": "low",
+      "rationale": "Corrects dramatic misconceptions about bacterial resistance mechanisms with accurate microbiology",
+      "misinformation_narrative": "Sensationalized reports about bacteria 'exploding' to spread resistance create misconceptions about how antibiotic resistance actually spreads and evolves",
+      "public_stakes": "Misunderstanding resistance mechanisms may lead to inappropriate antibiotic use or unnecessary fear about bacterial infections",
+      "verification_status": "needs_review",
+      "verification_reason": "\"Exploding bacteria\" sounds like a mischaracterization of normal science communication about horizontal gene transfer rather than actual public misconception.",
+      "tags": [
+        "Infectious Disease",
+        "Antibiotic Resistance",
+        "Microbiology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists discover bacteria can “explode” to spread antibiotic resistance",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260416071953.htm",
+          "date": "2026-04-17"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Antibiotic Resistance Threats in the United States, 2019",
+          "description": "CDC's comprehensive report on antibiotic resistance mechanisms, transmission patterns, and spread between bacterial species",
+          "relevance": "Contains detailed scientific information about how resistance genes transfer between bacteria and the actual mechanisms of resistance spread"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241564748",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Antimicrobial Resistance: Global Report on Surveillance 2014",
+          "description": "WHO's foundational report on global antimicrobial resistance patterns and transmission mechanisms",
+          "relevance": "Provides evidence-based analysis of how resistance spreads between bacterial species and populations"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Antimicrobial (Drug) Resistance",
+          "description": "NIAID's research overview on antimicrobial resistance mechanisms including horizontal gene transfer",
+          "relevance": "Explains the scientific mechanisms of resistance gene transfer between bacterial species"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Combating Antibiotic Resistance",
+          "description": "FDA consumer update explaining antibiotic resistance development and spread",
+          "relevance": "Provides accessible scientific information about how antibiotic resistance actually develops and spreads"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD003543.pub4/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Interventions to improve antibiotic prescribing practices for hospital inpatients",
+          "description": "Systematic review examining antibiotic prescribing and resistance development in hospital settings",
+          "relevance": "Contains evidence-based analysis of resistance development and transmission patterns in clinical settings"
+        }
+      ],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
@@ -36708,6 +37736,94 @@
       "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
       "nasem_bos_url": "https://www.nationalacademies.org/news/how-can-you-tell-if-you-have-covid-19-rsv-or-the-flu",
       "nasem_bos_title": "How can you tell if you have COVID-19, RSV, or the flu?"
+    },
+    {
+      "id": "natural_disasters_extreme_weather_events",
+      "question": "Are natural disasters and extreme weather events becoming more frequent and severe due to climate change?",
+      "priority": "medium",
+      "rationale": "Clarifies the relationship between climate change and extreme weather based on attribution science",
+      "misinformation_narrative": "Some claim that extreme weather has always been common and current events are just better reported, while others attribute every weather event directly to climate change",
+      "public_stakes": "May lead to inadequate disaster preparedness or inappropriate attribution of individual weather events to climate change",
+      "verification_status": "verified",
+      "verification_reason": "Climate skeptics regularly claim extreme weather is just \"better reported\" while climate activists often oversimplify attribution on social media.",
+      "tags": [
+        "Climate Change",
+        "Natural Disasters",
+        "Weather"
+      ],
+      "nasem_source_count": 4,
+      "nasem_sources_preview": [
+        {
+          "name": "Attribution of Extreme Weather Events in the Context of Climate Change (2016)",
+          "url": "https://www.nationalacademies.org/publications/21852"
+        },
+        {
+          "name": "Abrupt Impacts of Climate Change: Anticipating Surprises (2013)",
+          "url": "https://www.nationalacademies.org/publications/18373"
+        },
+        {
+          "name": "Adapting to the Impacts of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12783"
+        },
+        {
+          "name": "Advancing the Science of Climate Change (2011)",
+          "url": "https://www.nationalacademies.org/publications/12782"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Grand canyon’s origin resolved? Ancient lake's flood may have etched famed gorge",
+          "origin": "STM — Science",
+          "url": "https://www.science.org/content/article/grand-canyon-s-origin-resolved-ancient-lake-s-flood-may-have-etched-famed-gorge",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Ocean bottom seismometers could improve earthquake warning times in Pacific Northwest",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-ocean-bottom-seismometers-earthquake-pacific.html",
+          "date": "2026-04-17"
+        },
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Total solar eclipse led to seismic quiet for cities within its path",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260417224457.htm",
+          "date": "2026-04-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Machine learning detects more than 60,000 earthquakes during 2025 Santorini sequence",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-machine-earthquakes-santorini-sequence.html",
+          "date": "2026-04-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Wildfires used to 'go to sleep' at night. Climate change is turning them into prime burning hours",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-wildfires-night-climate-prime-hours.html",
+          "date": "2026-04-18"
+        },
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Shockwaves felt across multiple US states after strong earthquake rattles millions in Canada",
+          "origin": "STM — Daily Mail Science",
+          "url": "https://www.dailymail.co.uk/sciencetech/article-15733211/canada-earthquake-ottawa-montreal-new-york-vermont.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+          "date": "2026-04-19"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-20",
+      "last_seen": "2026-04-20",
+      "times_seen": 1,
+      "status": "nasem_covered",
+      "newest_source_year": 2016,
+      "signal_count": 4,
+      "readiness_summary": "NASEM already published a BoS article on this topic: \"\"",
+      "nasem_bos_url": "https://www.nationalacademies.org/news/attribution-of-extreme-weather-events-in-the-context-of-climate-change-new-report",
+      "nasem_bos_title": "Does climate change cause extreme weather?"
     },
     {
       "id": "climate_change_causing_global_warming",

@@ -1,0 +1,79 @@
+{
+  "id": "artificial_intelligence_medical_diagnosis_drug",
+  "question": "Does artificial intelligence in medical diagnosis and drug development pose immediate dangers to patients?",
+  "topic": "Balances legitimate concerns about AI bias with evidence about proper validation and clinical integr",
+  "tags": [
+    "Medical Technology",
+    "Artificial Intelligence",
+    "Patient Safety"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and Machine Learning in Software as Medical Devices Action Plan — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Ethics and Governance of Artificial Intelligence for Health — WHO",
+      "url": "https://www.who.int/publications/i/item/9789240029200",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "NIH Strategic Plan for Data Science - Artificial Intelligence — NIH",
+      "url": "https://datascience.nih.gov/artificial-intelligence",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Cochrane Reviews on Artificial Intelligence in Healthcare — Cochrane",
+      "url": "https://www.cochranelibrary.com/search?q=artificial%20intelligence%20medical%20diagnosis",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Digital Health and Informatics - Artificial Intelligence — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Daily briefing: AI systems can ‘teach’ biases to other models",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01265-6",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI models ‘subliminally’ transmit biases when training other systems",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01224-1",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00697-4",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Quantum computers take on health care: light-sensitive cancer drugs win US$2-million contest",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01236-x",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Cancer Research: Giant cancer study reveals effectiveness of ‘off label’ treatments",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01241-0",
+      "date": "2026-04-17"
+    }
+  ]
+}

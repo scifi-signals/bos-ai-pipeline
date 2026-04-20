@@ -1,0 +1,60 @@
+{
+  "id": "quantum_computers_soon_make_current",
+  "question": "Will quantum computers soon make current cybersecurity obsolete and create a 'worse than Y2K' crisis?",
+  "topic": "Provides realistic timeline and threat assessment for quantum computing impact on cryptography based",
+  "tags": [
+    "Cybersecurity",
+    "Quantum Computing",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "Quantum Computing: Progress and Prospects",
+      "url": "https://www.nationalacademies.org/publications/25196",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Foundational Cybersecurity Research: Improving Science, Engineering, and Institutions",
+      "url": "https://www.nationalacademies.org/publications/24676",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Implications of Artificial Intelligence for Cybersecurity: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/25488",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Quantum computers take on health care: light-sensitive cancer drugs win US$2-million contest",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01236-x",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: As helium-3 runs scarce, researchers seek new ways to chill quantum computers",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/helium-3-runs-scarce-researchers-seek-new-ways-chill-quantum-computers",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: First complete genome loaded onto a quantum computer",
+      "origin": "STM — Science",
+      "url": "https://www.science.org/content/article/first-complete-genome-loaded-quantum-computer",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Quantum Science: Quantum computers could usher in a crisis worse than Y2K",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522615-quantum-computers-could-usher-in-a-crisis-worse-than-y2k/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-17"
+    }
+  ]
+}

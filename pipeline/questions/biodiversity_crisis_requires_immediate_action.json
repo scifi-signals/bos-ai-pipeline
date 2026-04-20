@@ -1,0 +1,68 @@
+{
+  "id": "biodiversity_crisis_requires_immediate_action",
+  "question": "Are we in a biodiversity crisis that requires immediate action?",
+  "topic": "Clarifies the scientific consensus on current biodiversity loss rates and effective conservation str",
+  "tags": [
+    "Biodiversity",
+    "Conservation",
+    "Environmental Science"
+  ],
+  "sources": [
+    {
+      "name": "Biodiversity at Risk: Today's Choices Matter",
+      "url": "https://www.nationalacademies.org/publications/26384",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "In the Light of Evolution: Volume II: Biodiversity and Extinction",
+      "url": "https://www.nationalacademies.org/publications/12501",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Hidden fossils reveal secrets of oceans before major mass extinction",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2522739-hidden-fossils-reveal-secrets-of-oceans-before-major-mass-extinction/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Your local fishing hole is getting browner, changing which fish species thrive and which ones struggle",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/your-local-fishing-hole-is-getting-browner-changing-which-fish-species-thrive-and-which-ones-struggle-279259",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: Butterfly numbers are dropping but here are five species you may see more of",
+      "origin": "STM — BBC Science",
+      "url": "https://www.bbc.com/news/articles/c75kk7p41npo?at_medium=RSS&at_campaign=rss",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: The doomsday seed collectors fighting to save Wales' native species",
+      "origin": "STM — BBC Science",
+      "url": "https://www.bbc.com/news/articles/c2d1k0nrwe9o?at_medium=RSS&at_campaign=rss",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: An endangered mouse may need a helping hand to adapt to climate change",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/mouse-endangered-climate-conservation",
+      "date": "2026-04-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Biodiversity & Conservation: New species of glass frog identified in Ecuador",
+      "origin": "STM — NPR Science",
+      "url": "https://www.npr.org/2026/04/14/nx-s1-5776612/new-species-of-glass-frog-identified-in-ecuador",
+      "date": "2026-04-19"
+    }
+  ]
+}

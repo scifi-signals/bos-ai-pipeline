@@ -1,0 +1,74 @@
+{
+  "id": "organic_foods_provide_significant_health",
+  "question": "Do organic foods provide significant health and safety benefits over conventional produce?",
+  "topic": "Corrects misconceptions about pesticide safety thresholds and organic vs conventional farming practi",
+  "tags": [
+    "Food Safety",
+    "Agriculture",
+    "Consumer Health"
+  ],
+  "sources": [
+    {
+      "name": "Organic Foods: What You Need to Know — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Organic Foods: Health and Environmental Advantages and Disadvantages — American Academy of Pediatrics",
+      "url": "https://www.aap.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Dirty Dozen and Clean Fifteen - Shopper's Guide to Pesticides in Produce — Environmental Working Group",
+      "url": "https://www.ewg.org/foodnews/",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Organic pesticides can require higher application rates and have greater environmental impact than some conventional alternatives - claim needs verification against NASEM pesticide reports",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Mere presence of pesticide residue does not equate to harm - aligns with standard toxicology principles",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pediatric responsive feeding practices",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Intuitive eating and diet culture in children",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Eosinophilic esophagitis as cause of selective eating",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

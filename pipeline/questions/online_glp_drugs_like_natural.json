@@ -1,0 +1,87 @@
+{
+  "id": "online_glp_drugs_like_natural",
+  "question": "Are online GLP-1 drugs like 'natural Ozempic' alternatives safe and effective?",
+  "topic": "Addresses proliferation of dangerous online drug marketing and fake 'natural' alternatives to proven",
+  "tags": [
+    "Drug Safety",
+    "Weight Management",
+    "Consumer Protection"
+  ],
+  "sources": [
+    {
+      "name": "FDA warns consumers not to use off-brand versions of prescription diabetes and weight-loss drugs — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Medications Containing Semaglutide Marketed for Type 2 Diabetes or Weight Loss — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Before You Buy Medicines Over the Internet — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Prescription Medications to Treat Overweight & Obesity — NIH/NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/prescription-medications-treat-overweight-obesity",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Natural Disasters & Extreme Weather: Ads for GLP-1 drugs are flooding the internet – here’s how to know if it’s safe to buy them online",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/ads-for-glp-1-drugs-are-flooding-the-internet-heres-how-to-know-if-its-safe-to-buy-them-online-277369",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Scientists discover natural hormone that reverses obesity",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260416071954.htm",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Stanford scientists discover “natural Ozempic” without side effects",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260412221946.htm",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Why Ozempic doesn’t work for everyone: Scientists just found a hidden reason",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260411022029.htm",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Some GLP-1 drugs are more effective for those with specific gene variants",
+      "origin": "STM — Science News",
+      "url": "https://www.sciencenews.org/article/glp-1-weight-loss-genetics-side-effects",
+      "date": "2026-04-17"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Ads for GLP-1 drugs are flooding the internet – here’s how to know if it’s safe to buy them online",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/ads-for-glp-1-drugs-are-flooding-the-internet-heres-how-to-know-if-its-safe-to-buy-them-online-277369",
+      "date": "2026-04-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: STAT+: Researchers behind GLP-1 obesity drugs advance new approach: Drop GLP-1 as a target",
+      "origin": "STM — STAT News",
+      "url": "https://www.statnews.com/2026/04/16/glp1-weight-loss-new-approach/?utm_campaign=rss",
+      "date": "2026-04-19"
+    }
+  ]
+}
