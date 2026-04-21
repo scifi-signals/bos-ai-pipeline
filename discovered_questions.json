@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T12:23:31Z",
+  "generated_at": "2026-04-21T12:20:52Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -2642,6 +2642,46 @@
       "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 3 discovery signals"
     },
     {
+      "id": "organic_foods_significantly_safer_conventional",
+      "question": "Are organic foods significantly safer than conventional foods with pesticide residues?",
+      "priority": "high",
+      "rationale": "Corrects widespread pesticide fear-mongering with EPA safety data and addresses organic vs. conventional safety comparisons",
+      "misinformation_narrative": "The EWG 'Dirty Dozen' list and organic marketing create fear that conventional produce pesticide residues are dangerous, when they're far below safety thresholds",
+      "public_stakes": "Families avoiding nutritious fruits and vegetables due to pesticide fears, potentially worsening children's diets and health outcomes",
+      "verification_status": "verified",
+      "verification_reason": "The EWG Dirty Dozen list generates massive social media sharing annually, with millions believing conventional produce is dangerous.",
+      "tags": [
+        "Food Safety",
+        "Agriculture",
+        "Public Health",
+        "Nutrition"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Sustainable Diets, Food, and Nutrition: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25192"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "EWG Dirty Dozen list causes unnecessary alarm about pesticide residues that are 'far below any health risk safety threshold' - consistent with EPA/FDA positions on pesticide safety",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "cigarettes_effective_safer_way_quit",
       "question": "Are e-cigarettes an effective and safer way to quit smoking compared to other methods?",
       "priority": "high",
@@ -4875,6 +4915,46 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 2 discovery signals"
+    },
+    {
+      "id": "forcing_children_eat_effective_addressing",
+      "question": "Is forcing children to eat effective for addressing picky eating?",
+      "priority": "medium",
+      "rationale": "Corrects common parenting misconceptions about feeding practices with evidence from pediatric nutrition and psychology research",
+      "misinformation_narrative": "Many parents believe they must force children to eat certain foods or amounts, when research shows this typically backfires and creates feeding problems",
+      "public_stakes": "Parent-child power struggles over food, potential development of eating disorders, and worsened family meal dynamics",
+      "verification_status": "verified",
+      "verification_reason": "Parenting forums, Facebook groups, and older generation advice commonly promote forcing children to eat, despite research showing harm.",
+      "tags": [
+        "Child Development",
+        "Nutrition",
+        "Parenting",
+        "Psychology"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level (2024)",
+          "url": "https://www.nationalacademies.org/publications/27239"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2024,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2024 · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "forcing_children_eat_foods_they",
@@ -8694,17 +8774,18 @@
       "readiness_summary": "1 NASEM source, most recent 2008 — sources are old · confirmed misinformation · 7 discovery signals"
     },
     {
-      "id": "you_safely_lower_ldl_cholesterol",
-      "question": "Can you safely lower LDL cholesterol to very low levels?",
+      "id": "dietary_cholesterol_foods_like_eggs",
+      "question": "Does dietary cholesterol from foods like eggs significantly raise blood cholesterol?",
       "priority": "medium",
-      "rationale": "Corrects misconceptions about cholesterol treatment safety with evidence that very low LDL levels are safe and beneficial",
-      "misinformation_narrative": "Some people believe aggressive cholesterol lowering is dangerous and that LDL cholesterol should not go below certain levels, leading to undertreated cardiovascular disease",
-      "public_stakes": "Suboptimal cholesterol treatment increases heart attack and stroke risk; premature cardiovascular deaths in high-risk patients",
+      "rationale": "Addresses persistent misconceptions about dietary vs. serum cholesterol despite decades of research showing minimal effect for most people",
+      "misinformation_narrative": "Many people still avoid eggs and other cholesterol-rich foods believing they directly raise blood cholesterol, despite genetic mediation limiting this effect",
+      "public_stakes": "Unnecessary dietary restrictions eliminating nutritious foods based on outdated understanding",
       "verification_status": "verified",
-      "verification_reason": "Fear of \"too-low cholesterol\" causing brain problems circulates in health forums and among patients who resist aggressive cholesterol treatment.",
+      "verification_reason": "Widespread belief perpetuated by decades of dietary advice; many people still avoid eggs due to cholesterol fears on mainstream platforms.",
       "tags": [
+        "Nutrition",
         "Cardiovascular Health",
-        "Pharmaceuticals"
+        "Dietary Guidelines"
       ],
       "nasem_source_count": 1,
       "nasem_sources_preview": [
@@ -8716,71 +8797,15 @@
       "discovery_sources": [
         {
           "type": "podcast_claim",
-          "text": "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
+          "text": "Dietary cholesterol intake has minimal effect on serum cholesterol for most people due to genetic mediation—widely supported",
           "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
           "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
           "date": "2026-04-08T10:00:00"
         }
       ],
-      "alternative_sources": [
-        {
-          "organization": "FDA",
-          "organization_full": "Food and Drug Administration",
-          "base_url": "https://www.fda.gov",
-          "url": "https://www.fda.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
-          "description": "FDA safety communication addressing statin safety and monitoring requirements for very low LDL levels",
-          "relevance": "Addresses safety considerations when achieving very low LDL cholesterol levels with medications"
-        },
-        {
-          "organization": "American Heart Association",
-          "organization_full": "American Heart Association",
-          "base_url": "https://www.heart.org",
-          "url": "https://www.heart.org",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
-          "description": "Comprehensive clinical practice guideline on cholesterol management including safety of very low LDL targets",
-          "relevance": "Provides evidence-based recommendations on LDL cholesterol targets and safety thresholds"
-        },
-        {
-          "organization": "Cochrane",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Statins for the primary prevention of cardiovascular disease",
-          "description": "Systematic review examining statin efficacy and safety including outcomes at very low LDL levels",
-          "relevance": "Provides systematic review evidence on safety outcomes when LDL is lowered to very low levels"
-        },
-        {
-          "organization": "NIH/NHLBI",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "ATP IV Guidelines - 2013 ACC/AHA Guideline on the Treatment of Blood Cholesterol",
-          "description": "NIH-endorsed clinical guidelines addressing cholesterol treatment targets and safety monitoring",
-          "relevance": "Addresses clinical evidence for LDL lowering limits and safety considerations"
-        },
-        {
-          "organization": "European Medicines Agency",
-          "organization_full": "European Medicines Agency",
-          "base_url": "",
-          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/repatha",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "PCSK9 inhibitors - Assessment report for cardiovascular outcomes",
-          "description": "EMA assessment of PCSK9 inhibitors that can achieve near-zero LDL levels, including safety data",
-          "relevance": "Regulatory assessment of drugs capable of achieving extremely low LDL levels with safety data"
-        }
-      ],
-      "discovered_at": "2026-04-11",
-      "last_seen": "2026-04-19",
+      "alternative_sources": [],
+      "discovered_at": "2026-04-13",
+      "last_seen": "2026-04-21",
       "times_seen": 2,
       "status": "pending",
       "newest_source_year": 2005,
@@ -8859,44 +8884,6 @@
       "alternative_sources": [],
       "discovered_at": "2026-04-14",
       "last_seen": "2026-04-14",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2005,
-      "signal_count": 1,
-      "readiness_summary": "1 NASEM source, most recent 2005 — sources are old · confirmed misinformation · 1 discovery signal"
-    },
-    {
-      "id": "dietary_cholesterol_foods_like_eggs",
-      "question": "Does dietary cholesterol from foods like eggs significantly raise blood cholesterol?",
-      "priority": "medium",
-      "rationale": "Corrects persistent misconception about dietary vs. blood cholesterol despite updated dietary guidelines",
-      "misinformation_narrative": "Many people still avoid cholesterol-rich foods like eggs believing they directly raise blood cholesterol, when genetic factors largely mediate this relationship",
-      "public_stakes": "People unnecessarily restrict nutritious foods based on outdated dietary advice",
-      "verification_status": "verified",
-      "verification_reason": "The \"avoid eggs for cholesterol\" belief persists widely among older adults and health-conscious consumers despite updated dietary guidelines.",
-      "tags": [
-        "Health and Medicine",
-        "Nutrition"
-      ],
-      "nasem_source_count": 1,
-      "nasem_sources_preview": [
-        {
-          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
-          "url": "https://www.nationalacademies.org/publications/10490"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Dietary cholesterol intake has minimal effect on serum cholesterol for most people due to genetic mediation—widely supported",
-          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
-          "date": "2026-04-08T10:00:00"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-13",
-      "last_seen": "2026-04-13",
       "times_seen": 1,
       "status": "pending",
       "newest_source_year": 2005,
@@ -9931,6 +9918,49 @@
       "readiness_summary": "2 NASEM sources, most recent 2008 — sources are old · confirmed misinformation · 3 discovery signals"
     },
     {
+      "id": "all_ocean_methane_emissions_known",
+      "question": "Are all ocean methane emissions from known sources?",
+      "priority": "low",
+      "rationale": "Addresses gaps in public understanding of methane source attribution and climate modeling completeness",
+      "misinformation_narrative": "Climate discussions often assume methane sources are well-characterized, when recent discoveries reveal hidden ocean sources that could significantly impact warming projections",
+      "public_stakes": "Underestimation of methane contributions to climate change and inadequate mitigation planning",
+      "verification_status": "needs_review",
+      "verification_reason": "Too specialized for public misinformation; confuses scientific uncertainty with public misconception about methane sources.",
+      "tags": [
+        "Climate Change",
+        "Environmental Science",
+        "Ocean Science"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Improving Characterization of Anthropogenic Methane Emissions in the United States (2018)",
+          "url": "https://www.nationalacademies.org/publications/24987"
+        },
+        {
+          "name": "A Research Agenda Toward Atmospheric Methane Removal (2025)",
+          "url": "https://www.nationalacademies.org/publications/27157"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Climate Change: Scientists discover hidden ocean methane source that could worsen global warming",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260415043615.htm",
+          "date": "2026-04-18"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2025 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "artificial_intelligence_spreading_dangerous_medical",
       "question": "Is artificial intelligence spreading dangerous medical misinformation?",
       "priority": "low",
@@ -10327,49 +10357,6 @@
       "newest_source_year": 2024,
       "signal_count": 2,
       "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 2 discovery signals"
-    },
-    {
-      "id": "quantum_computers_immediately_break_all",
-      "question": "Will quantum computers immediately break all our digital security?",
-      "priority": "low",
-      "rationale": "Expert analysis provides realistic timelines and specific technical requirements for quantum computers to break current encryption methods",
-      "misinformation_narrative": "People believe quantum computers will suddenly render all current encryption useless overnight, creating either excessive panic about digital security or false confidence that it's a distant threat",
-      "public_stakes": "Organizations may either over-invest in premature quantum solutions or fail to prepare for eventual quantum threats to cybersecurity",
-      "verification_status": "needs_review",
-      "verification_reason": "Quantum computing security concerns exist mainly in tech circles, not as widespread public misinformation with the described panic/confidence dynamic.",
-      "tags": [
-        "Technology",
-        "Cybersecurity",
-        "Quantum Science"
-      ],
-      "nasem_source_count": 2,
-      "nasem_sources_preview": [
-        {
-          "name": "Quantum Computing: Progress and Prospects (2019)",
-          "url": "https://www.nationalacademies.org/publications/25196"
-        },
-        {
-          "name": "Artificial Intelligence and the Future of Work (2024)",
-          "url": "https://www.nationalacademies.org/publications/27644"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: We urgently need to prepare for quantum computers breaking encryption",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2522124-we-urgently-need-to-prepare-for-quantum-computers-breaking-encryption/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-04-13"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-14",
-      "last_seen": "2026-04-14",
-      "times_seen": 1,
-      "status": "pending",
-      "newest_source_year": 2024,
-      "signal_count": 1,
-      "readiness_summary": "2 NASEM sources, most recent 2024 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "should_children_avoid_all_added",
@@ -12796,6 +12783,56 @@
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
+      "id": "quantum_computers_immediately_break_all",
+      "question": "Will quantum computers immediately break all internet security?",
+      "priority": "low",
+      "rationale": "Addresses quantum computing threat timeline misconceptions with realistic assessments of current capabilities and transition periods",
+      "misinformation_narrative": "Sensationalized coverage suggests quantum computers will suddenly render all encryption useless, creating unnecessary panic about imminent cybersecurity collapse",
+      "public_stakes": "Premature costly security overhauls and public anxiety about digital infrastructure based on misunderstood timelines",
+      "verification_status": "needs_review",
+      "verification_reason": "Quantum computing concerns exist in tech circles but aren't a widespread public panic about imminent security collapse.",
+      "tags": [
+        "Technology",
+        "Cybersecurity",
+        "Quantum Science"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Foundational Cybersecurity Research: Improving Science, Engineering, and Institutions (2017)",
+          "url": "https://www.nationalacademies.org/publications/24676"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: We urgently need to prepare for quantum computers breaking encryption",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522124-we-urgently-need-to-prepare-for-quantum-computers-breaking-encryption/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers could usher in a crisis worse than Y2K",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522615-quantum-computers-could-usher-in-a-crisis-worse-than-y2k/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-18"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-14",
+      "last_seen": "2026-04-21",
+      "times_seen": 2,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "quantum_computers_available_consumers_buy",
       "question": "Are quantum computers available for consumers to buy and use at home?",
       "priority": "low",
@@ -13967,6 +14004,45 @@
       "newest_source_year": 2002,
       "signal_count": 2,
       "readiness_summary": "1 NASEM source, most recent 2002 — sources are old · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
+      "id": "disease_prediction_models_provide_reliable",
+      "question": "Do AI disease prediction models provide reliable medical diagnoses?",
+      "priority": "low",
+      "rationale": "Corrects inflated expectations about AI medical capabilities with evidence about training data quality and validation requirements",
+      "misinformation_narrative": "Hype around AI medical applications suggests these tools are ready for clinical use, when many models were trained on dubious data and lack proper validation",
+      "public_stakes": "Overreliance on unvalidated AI tools for medical decisions, potentially leading to misdiagnosis or delayed proper care",
+      "verification_status": "needs_review",
+      "verification_reason": "While AI hype exists, the specific claim about unreliable disease prediction models isn't a major public misconception.",
+      "tags": [
+        "Health and Medicine",
+        "Artificial Intelligence",
+        "Medical Devices"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop�in Brief (None)",
+          "url": "https://www.nationalacademies.org/publications/26887"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00697-4",
+          "date": "2026-04-18"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 0 — sources are old · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "should_parents_avoid_giving_peanuts",
@@ -16492,18 +16568,199 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "microplastics_food_water_proven_health",
+      "question": "Are microplastics in food and water a proven health threat?",
+      "priority": "high",
+      "rationale": "Directly addresses the gap between microplastic detection studies and actual health evidence, correcting widespread conflation of presence with harm",
+      "misinformation_narrative": "Social media and news headlines commonly claim microplastics are definitively harming human health, when in fact we lack causative evidence of harm despite widespread detection",
+      "public_stakes": "Unnecessary anxiety about food safety and consumer choices based on correlation claims rather than established health risks",
+      "verification_status": "verified",
+      "verification_reason": "Health influencers on Instagram and TikTok regularly claim microplastics are definitively toxic, with millions of views on scaremongering content.",
+      "tags": [
+        "Environmental Health",
+        "Food Safety",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241516198",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Microplastics in drinking-water",
+          "description": "WHO's comprehensive assessment of microplastics in drinking water, including health risk evaluation",
+          "relevance": "Directly addresses microplastics health threats with WHO's current risk assessment conclusions"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA's Analysis of Microplastics in Seafood",
+          "description": "FDA's analysis and current position on microplastics in food, particularly seafood",
+          "relevance": "Provides US regulatory perspective on food safety regarding microplastics"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Research on Microplastics",
+          "description": "EPA's ongoing research and findings on microplastics in water systems",
+          "relevance": "Summarizes current EPA research and regulatory considerations for microplastics"
+        },
+        {
+          "organization": "EFSA",
+          "organization_full": "EFSA",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Presence of microplastics and nanoplastics in food, with particular focus on seafood",
+          "description": "European Food Safety Authority's scientific opinion on microplastics in food",
+          "relevance": "Comprehensive European regulatory assessment of microplastics health risks in food"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics and Human Health Research",
+          "description": "NIEHS research overview on microplastics exposure and potential health effects",
+          "relevance": "Provides scientific research perspective on human health impacts of microplastics"
+        }
+      ],
+      "discovered_at": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "statin_medications_dangerous_ineffective_heart",
+      "question": "Are statin medications dangerous and ineffective for heart health?",
+      "priority": "high",
+      "rationale": "Addresses cholesterol denialism and statin fear-mongering with robust clinical trial evidence from 26+ randomized controlled trials",
+      "misinformation_narrative": "Anti-pharmaceutical sentiment promotes beliefs that statins cause widespread harm and don't prevent heart disease, despite extensive clinical trial evidence",
+      "public_stakes": "People avoiding proven cardiovascular medications, increasing risk of heart attacks and strokes",
+      "verification_status": "verified",
+      "verification_reason": "Anti-pharma communities on Facebook, alternative health websites like Mercola, and cholesterol skeptic groups actively promote statin dangers despite evidence.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health",
+        "Pharmaceuticals"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA's official safety communication on statin medications, addressing both benefits and risks",
+          "relevance": "Provides authoritative information on statin safety profile and effectiveness from the drug regulatory agency"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical practice guideline on cholesterol management including statin use",
+          "relevance": "Major clinical guideline that evaluates evidence for statin effectiveness and safety in cardiovascular disease prevention"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004816.pub5/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Cochrane systematic review examining statins for primary prevention of heart disease",
+          "relevance": "Gold-standard systematic review that evaluates clinical trial evidence on statin effectiveness and safety"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "WHO Model List of Essential Medicines - 22nd List",
+          "description": "WHO's list of essential medicines including statins (atorvastatin, simvastatin)",
+          "relevance": "WHO inclusion of statins on essential medicines list indicates recognized effectiveness and acceptable safety profile"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2013 ACC/AHA Guideline on the Treatment of Blood Cholesterol to Reduce Atherosclerotic Cardiovascular Risk in Adults",
+          "description": "NHLBI-supported clinical practice guideline on cholesterol treatment including statin therapy",
+          "relevance": "Evidence-based clinical guideline that reviews statin efficacy and safety data for cardiovascular risk reduction"
+        }
+      ],
+      "discovered_at": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "should_people_refuse_blood_transfusions",
       "question": "Should people refuse blood transfusions from COVID-19 vaccinated donors?",
       "priority": "high",
-      "rationale": "Addresses dangerous misinformation that could directly lead to deaths from refused transfusions",
-      "misinformation_narrative": "Some people believe that blood from vaccinated donors is contaminated or dangerous, leading to refusal of potentially life-saving transfusions",
-      "public_stakes": "Patients may refuse life-saving blood transfusions based on unfounded fears, potentially resulting in preventable deaths",
+      "rationale": "Directly addresses dangerous vaccine misinformation affecting critical medical procedures with clear blood safety evidence",
+      "misinformation_narrative": "Vaccine misinformation has led some people to refuse blood transfusions from vaccinated donors, believing the blood is contaminated or dangerous",
+      "public_stakes": "Life-threatening delays in emergency medical care and unnecessary restrictions on blood supply",
       "verification_status": "verified",
-      "verification_reason": "Anti-vaccine communities on Telegram, Truth Social, and conspiracy forums actively promote \"pure blood\" ideology and refuse vaccinated donor blood.",
+      "verification_reason": "Vaccine-hesitant groups on Telegram and Truth Social have documented cases of people requesting \"unvaccinated blood\" from blood banks.",
       "tags": [
-        "Public Health",
+        "Health and Medicine",
+        "Vaccines",
         "Blood Safety",
-        "COVID-19"
+        "Emergency Medicine"
       ],
       "nasem_source_count": 0,
       "nasem_sources_preview": [],
@@ -16604,15 +16861,106 @@
           "resource_name": "Blood Safety and Availability - COVID-19",
           "description": "WHO guidance on blood safety during COVID-19 pandemic including vaccination considerations",
           "relevance": "International health authority guidance on blood safety and COVID-19 vaccination status"
+        },
+        {
+          "organization": "American Red Cross",
+          "organization_full": "American Red Cross",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "COVID-19 Vaccine and Blood Donation",
+          "description": "Official guidance from major blood collection organization on donation eligibility after COVID-19 vaccination",
+          "relevance": "Provides evidence-based policy on blood donation from vaccinated donors"
+        },
+        {
+          "organization": "AABB (formerly American Association of Blood Banks)",
+          "organization_full": "AABB (formerly American Association of Blood Banks)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "AABB Statement on COVID-19 Vaccine and Blood Donation",
+          "description": "Professional blood banking organization's official position on COVID-19 vaccine and blood donation safety",
+          "relevance": "Authoritative medical organization guidance on blood safety from vaccinated donors"
         }
       ],
       "discovered_at": "2026-04-17",
-      "last_seen": "2026-04-20",
-      "times_seen": 2,
+      "last_seen": "2026-04-21",
+      "times_seen": 3,
       "status": "nasem_gap",
       "newest_source_year": 0,
       "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 8 alternative sources identified"
+      "readiness_summary": "No NASEM coverage — 10 alternative sources identified"
+    },
+    {
+      "id": "glp_weight_loss_drugs_safe",
+      "question": "Are GLP-1 weight loss drugs safe to buy online without prescription?",
+      "priority": "high",
+      "rationale": "Addresses dangerous online pharmaceutical marketing with FDA safety requirements and prescription drug regulations",
+      "misinformation_narrative": "Online ads flood social media promoting easy access to GLP-1 drugs, obscuring prescription requirements and safety monitoring needs",
+      "public_stakes": "People obtaining potentially counterfeit or inappropriately dosed medications without medical supervision, risking serious adverse effects",
+      "verification_status": "verified",
+      "verification_reason": "Instagram and Facebook are flooded with ads for online GLP-1 sources, with influencers promoting easy access without prescription warnings.",
+      "tags": [
+        "Health and Medicine",
+        "Pharmaceuticals",
+        "Online Safety",
+        "Weight Management"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Ads for GLP-1 drugs are flooding the internet – here’s how to know if it’s safe to buy them online",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/ads-for-glp-1-drugs-are-flooding-the-internet-heres-how-to-know-if-its-safe-to-buy-them-online-277369",
+          "date": "2026-04-18"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA warns consumers about dangerous medicines sold by illegal online pharmacies",
+          "description": "FDA guidance on risks of purchasing prescription medications online without valid prescriptions",
+          "relevance": "Directly addresses safety concerns of buying prescription drugs online without proper medical oversight"
+        },
+        {
+          "organization": "NABP",
+          "organization_full": "NABP",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "NABP Internet Pharmacy Report: Rogue Internet Pharmacy Trends",
+          "description": "National Association of Boards of Pharmacy report on illegal online pharmacy operations",
+          "relevance": "Documents widespread prevalence of illegal online pharmacies selling prescription drugs without proper oversight"
+        },
+        {
+          "organization": "Endocrine Society",
+          "organization_full": "Endocrine Society",
+          "base_url": "",
+          "url": "https://www.endocrine.org/clinical-practice-guidelines/pharmacological-management-of-obesity",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Clinical Practice Guideline: Pharmacological Management of Obesity",
+          "description": "Professional guidelines on proper medical supervision requirements for weight loss medications",
+          "relevance": "Establishes medical standards for prescribing and monitoring GLP-1 medications for weight loss"
+        }
+      ],
+      "discovered_at": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
     },
     {
       "id": "statin_medications_dangerous_ineffective_preventing",
@@ -20201,6 +20549,134 @@
       "newest_source_year": 2021,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "you_safely_lower_ldl_cholesterol",
+      "question": "Can you safely lower LDL cholesterol to near-zero levels?",
+      "priority": "medium",
+      "rationale": "Corrects misconceptions about cholesterol lowering safety limits with clinical trial evidence and physiological data",
+      "misinformation_narrative": "Cholesterol denialists claim that very low LDL levels are dangerous and unnatural, contradicting evidence from intensive lipid-lowering trials",
+      "public_stakes": "Patients and doctors avoiding aggressive cholesterol treatment in high-risk individuals due to unfounded safety concerns",
+      "verification_status": "verified",
+      "verification_reason": "Fear of \"too-low cholesterol\" causing brain problems circulates in health forums and among patients who resist aggressive cholesterol treatment.",
+      "tags": [
+        "Health and Medicine",
+        "Cardiovascular Health",
+        "Pharmaceuticals"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids (2005)",
+          "url": "https://www.nationalacademies.org/publications/10490"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
+          "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+          "date": "2026-04-08T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs",
+          "description": "FDA safety communication addressing statin safety and monitoring requirements for very low LDL levels",
+          "relevance": "Addresses safety considerations when achieving very low LDL cholesterol levels with medications"
+        },
+        {
+          "organization": "American Heart Association",
+          "organization_full": "American Heart Association",
+          "base_url": "https://www.heart.org",
+          "url": "https://www.heart.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol",
+          "description": "Comprehensive clinical practice guideline on cholesterol management including safety of very low LDL targets",
+          "relevance": "Provides evidence-based recommendations on LDL cholesterol targets and safety thresholds"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining statin efficacy and safety including outcomes at very low LDL levels",
+          "relevance": "Provides systematic review evidence on safety outcomes when LDL is lowered to very low levels"
+        },
+        {
+          "organization": "NIH/NHLBI",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "ATP IV Guidelines - 2013 ACC/AHA Guideline on the Treatment of Blood Cholesterol",
+          "description": "NIH-endorsed clinical guidelines addressing cholesterol treatment targets and safety monitoring",
+          "relevance": "Addresses clinical evidence for LDL lowering limits and safety considerations"
+        },
+        {
+          "organization": "European Medicines Agency",
+          "organization_full": "European Medicines Agency",
+          "base_url": "",
+          "url": "https://www.ema.europa.eu/en/medicines/human/EPAR/repatha",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "PCSK9 inhibitors - Assessment report for cardiovascular outcomes",
+          "description": "EMA assessment of PCSK9 inhibitors that can achieve near-zero LDL levels, including safety data",
+          "relevance": "Regulatory assessment of drugs capable of achieving extremely low LDL levels with safety data"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004816.pub5/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Statins for the primary prevention of cardiovascular disease",
+          "description": "Systematic review examining statin efficacy and safety for cardiovascular prevention",
+          "relevance": "Provides evidence-based analysis of safety profile of cholesterol-lowering medications"
+        },
+        {
+          "organization": "European Society of Cardiology",
+          "organization_full": "European Society of Cardiology",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "2019 ESC/EAS Guidelines for the management of dyslipidaemias",
+          "description": "European clinical guidelines addressing lipid management including very low LDL targets",
+          "relevance": "International perspective on safety and efficacy of achieving very low LDL cholesterol levels"
+        },
+        {
+          "organization": "National Lipid Association",
+          "organization_full": "National Lipid Association",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "NLA Scientific Statement on the Use of PCSK9 Inhibitors",
+          "description": "Scientific statement on PCSK9 inhibitors which can achieve very low LDL levels",
+          "relevance": "Addresses safety considerations for medications that can lower LDL to near-zero levels"
+        }
+      ],
+      "discovered_at": "2026-04-11",
+      "last_seen": "2026-04-21",
+      "times_seen": 3,
+      "status": "nasem_gap",
+      "newest_source_year": 2005,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 8 alternative sources identified"
     },
     {
       "id": "gut_bacteria_directly_control_immune",
@@ -24735,6 +25211,85 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "hand_washing_dishes_use_less",
+      "question": "Does hand-washing dishes use less water than dishwashers?",
+      "priority": "low",
+      "rationale": "Corrects environmental misconceptions about appliance efficiency with water usage and lifecycle analysis data",
+      "misinformation_narrative": "Many people believe hand-washing is more environmentally friendly than machine dishwashing, when modern dishwashers actually use less water and energy",
+      "public_stakes": "",
+      "verification_status": "verified",
+      "verification_reason": "Common household belief shared across social media and family discussions that hand-washing dishes is more eco-friendly than machines.",
+      "tags": [
+        "Environmental Science",
+        "Consumer Behavior",
+        "Sustainability"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Hand-washing dishes with running tap water uses more water and generates more emissions than machine dishwashing",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WaterSense - Dishwashers",
+          "description": "EPA's WaterSense program provides water usage comparisons between hand-washing and ENERGY STAR certified dishwashers",
+          "relevance": "Directly addresses water consumption differences with specific usage data"
+        },
+        {
+          "organization": "ENERGY STAR",
+          "organization_full": "ENERGY STAR",
+          "base_url": "",
+          "url": "https://www.energystar.gov/products/dishwashers/key_product_criteria",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Dishwashers Key Product Criteria",
+          "description": "ENERGY STAR specifications include water usage requirements and comparisons to hand-washing",
+          "relevance": "Provides standardized water usage data for certified dishwashers vs. hand-washing"
+        },
+        {
+          "organization": "American Water Works Association",
+          "organization_full": "American Water Works Association",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Residential End Uses of Water Study",
+          "description": "AWWA research on household water consumption patterns including dishwashing methods",
+          "relevance": "Contains empirical data on actual household water usage for different dishwashing methods"
+        },
+        {
+          "organization": "California Energy Commission",
+          "organization_full": "California Energy Commission",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Appliance Efficiency Database - Dishwashers",
+          "description": "State energy commission database with water and energy usage data for appliances including dishwashers",
+          "relevance": "Provides regulatory testing data on actual water consumption of dishwashers"
+        }
+      ],
+      "discovered_at": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
       "id": "safe_lower_ldl_cholesterol_very",
       "question": "Is it safe to lower LDL cholesterol to very low levels with medications?",
       "priority": "low",
@@ -27956,6 +28511,277 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "detergent_pods_dishwasher_detergents_cause",
+      "question": "Do detergent pods and dishwasher detergents cause 'leaky gut syndrome'?",
+      "priority": "low",
+      "rationale": "Corrects misinterpretation of in vitro studies and addresses the non-medical nature of 'leaky gut syndrome' as promoted by influencers",
+      "misinformation_narrative": "Viral claims suggest dishwasher residues damage intestinal barriers causing 'leaky gut,' based on flawed studies using cancer cells and unrealistic chemical concentrations",
+      "public_stakes": "People avoiding convenient cleaning products and adopting less environmentally-friendly hand-washing based on misinterpreted research",
+      "verification_status": "needs_review",
+      "verification_reason": "While \"leaky gut\" has wellness community following, the specific claim about dishwasher detergent causing it is too niche and technical for widespread belief.",
+      "tags": [
+        "Health and Medicine",
+        "Consumer Safety",
+        "Gastrointestinal Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "'Leaky gut' is not a medically recognized condition per guest (described as 'influencer recognized')",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Guidance for Industry: Safety of Food Contact Substances",
+          "description": "FDA guidance on safety evaluation of substances that may contact food, including surfactants and cleaning agents",
+          "relevance": "Addresses safety standards for cleaning agents that may leave residues on dishes and food contact surfaces"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Safer Choice Standard",
+          "description": "EPA's criteria for safer cleaning products including evaluation of surfactants and other ingredients in household cleaners",
+          "relevance": "Provides toxicological evaluation criteria for ingredients commonly found in detergent pods and dishwasher detergents"
+        },
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Digestive Diseases Statistics for the United States",
+          "description": "NIDDK information on digestive system function and intestinal permeability",
+          "relevance": "Provides evidence-based information on intestinal barrier function, though doesn't specifically address detergent exposure"
+        }
+      ],
+      "discovered_at": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
+    },
+    {
+      "id": "polyvinyl_alcohol_pva_detergent_pod",
+      "question": "Do polyvinyl alcohol (PVA) detergent pod films persist in the environment?",
+      "priority": "low",
+      "rationale": "Corrects environmental misinformation about PVA biodegradability with experimental validation data versus computer modeling",
+      "misinformation_narrative": "Viral claims suggest PVA from detergent pods doesn't biodegrade and accumulates in the environment, based on flawed computer modeling studies",
+      "public_stakes": "Consumer avoidance of convenient cleaning products and support for potentially less effective alternatives based on misleading environmental claims",
+      "verification_status": "needs_review",
+      "verification_reason": "Too technical and specific for widespread public belief; sounds like an invented environmental concern.",
+      "tags": [
+        "Environmental Science",
+        "Consumer Products",
+        "Chemistry"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "PVA from detergent pods breaks down in wastewater treatment plants with high efficiency when microbial ecosystems are acclimated",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Safer Choice Standard",
+          "description": "EPA's criteria for evaluating cleaning product ingredients including biodegradability requirements",
+          "relevance": "Contains standards for biodegradability that would apply to PVA films in detergent products"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov/tsca-inventory",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "TSCA Chemical Substance Inventory",
+          "description": "EPA's database of chemical substances including environmental fate data",
+          "relevance": "Would contain regulatory data on polyvinyl alcohol environmental persistence and biodegradation"
+        },
+        {
+          "organization": "OECD",
+          "organization_full": "OECD",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "OECD Guidelines for Testing of Chemicals - Biodegradation and Bioaccumulation",
+          "description": "International standard test methods for assessing chemical biodegradation in environmental media",
+          "relevance": "Provides standardized methods that would be used to test PVA film environmental persistence"
+        },
+        {
+          "organization": "European Chemicals Agency (ECHA)",
+          "organization_full": "European Chemicals Agency (ECHA)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "REACH Registration Dossier Database",
+          "description": "EU database containing environmental fate and effects data for registered chemical substances",
+          "relevance": "Contains regulatory submissions with biodegradation data for polyvinyl alcohol"
+        }
+      ],
+      "discovered_at": "2026-04-21",
+      "last_seen": "2026-04-21",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "iron_deficiency_rare_developed_countries",
+      "question": "Is iron deficiency rare in developed countries?",
+      "priority": "low",
+      "rationale": "Corrects misconceptions about nutrition deficiency prevalence in developed countries with global health surveillance data",
+      "misinformation_narrative": "Assumption that iron deficiency is only a problem in developing countries, when it remains the most common nutrient deficiency globally including in children in wealthy nations",
+      "public_stakes": "Undiagnosed iron deficiency affecting children's cognitive development and academic performance",
+      "verification_status": "needs_review",
+      "verification_reason": "This confuses \"people don't know about iron deficiency\" with \"people believe it's rare\" - not an active misconception.",
+      "tags": [
+        "Public Health",
+        "Nutrition",
+        "Global Health",
+        "Child Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
+          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+          "date": "2026-04-01T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5140a1.htm",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Iron Deficiency - United States, 1999-2000",
+          "description": "MMWR report providing prevalence data on iron deficiency in the US population based on NHANES data",
+          "relevance": "Provides specific prevalence statistics for iron deficiency in the United States"
+        },
+        {
+          "organization": "NIH/NIDDK",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Iron-Deficiency Anemia",
+          "description": "NIH fact sheet on iron deficiency anemia including prevalence information",
+          "relevance": "Authoritative source on iron deficiency prevalence and at-risk populations in developed countries"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241564960",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "The Global Prevalence of Anaemia in 2011",
+          "description": "WHO report providing global and regional prevalence estimates of anemia, including iron deficiency anemia",
+          "relevance": "Provides comparative data on iron deficiency rates between developed and developing countries"
+        },
+        {
+          "organization": "American Society of Hematology",
+          "organization_full": "American Society of Hematology",
+          "base_url": "",
+          "url": "https://www.hematology.org/education/patients/anemia/iron-deficiency",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Iron-Deficiency Anemia",
+          "description": "Professional medical organization's patient education resource on iron deficiency prevalence and risk factors",
+          "relevance": "Clinical perspective on iron deficiency frequency in developed countries"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com",
+          "url_verified": false,
+          "tier": 1,
+          "resource_name": "Daily iron supplementation for improving anaemia, iron status and health in menstruating women",
+          "description": "Systematic review that includes background data on iron deficiency prevalence in developed countries",
+          "relevance": "Evidence-based review that contextualizes iron deficiency rates in developed versus developing nations"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/data/gho/data/indicators/indicator-details/GHO/prevalence-of-anaemia-in-women-of-reproductive-age-(-)",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Global anaemia prevalence and number of individuals affected",
+          "description": "WHO Global Health Observatory data on anemia prevalence by region and development status, with iron deficiency as the leading cause",
+          "relevance": "Provides global prevalence data that can distinguish between developed and developing countries"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD009747.pub2/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Daily iron supplementation for improving anaemia, iron status and health in menstruating women",
+          "description": "Systematic review that includes global prevalence data on iron deficiency in women",
+          "relevance": "Provides evidence-based analysis of iron deficiency prevalence across different populations including developed countries"
+        },
+        {
+          "organization": "UNICEF",
+          "organization_full": "UNICEF",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "The State of the World's Children 2019: Nutrition",
+          "description": "UNICEF report on global nutrition status including iron deficiency anemia by country income level",
+          "relevance": "Compares nutritional deficiencies including iron deficiency between developed and developing countries"
+        }
+      ],
+      "discovered_at": "2026-04-08",
+      "last_seen": "2026-04-21",
+      "times_seen": 2,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 8 alternative sources identified"
+    },
+    {
       "id": "microplastics_laundry_pods_detergents_pose",
       "question": "Do microplastics from laundry pods and detergents pose serious health risks through 'leaky gut' and other pathways?",
       "priority": "low",
@@ -30196,96 +31022,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
-    },
-    {
-      "id": "iron_deficiency_rare_developed_countries",
-      "question": "Is iron deficiency rare in developed countries like the United States?",
-      "priority": "low",
-      "rationale": "Corrects misconception about nutritional adequacy in developed nations and highlights most common pediatric deficiency",
-      "misinformation_narrative": "People assume nutritional deficiencies are uncommon in wealthy countries, leading to underrecognition of iron deficiency in children",
-      "public_stakes": "Undiagnosed iron deficiency affects cognitive development and school performance in children",
-      "verification_status": "needs_review",
-      "verification_reason": "This frames ignorance as active misinformation; people generally don't believe iron deficiency is rare, they simply aren't thinking about it.",
-      "tags": [
-        "Public Health",
-        "Pediatric Health",
-        "Nutrition"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Iron deficiency is the most common nutrient deficiency in children worldwide - should verify against WHO/global health data",
-          "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
-          "date": "2026-04-01T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "CDC",
-          "organization_full": "Centers for Disease Control and Prevention",
-          "base_url": "https://www.cdc.gov",
-          "url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/mm5140a1.htm",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "Iron Deficiency - United States, 1999-2000",
-          "description": "MMWR report providing prevalence data on iron deficiency in the US population based on NHANES data",
-          "relevance": "Provides specific prevalence statistics for iron deficiency in the United States"
-        },
-        {
-          "organization": "NIH/NIDDK",
-          "organization_full": "National Institutes of Health",
-          "base_url": "https://www.nih.gov",
-          "url": "https://www.nih.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "Iron-Deficiency Anemia",
-          "description": "NIH fact sheet on iron deficiency anemia including prevalence information",
-          "relevance": "Authoritative source on iron deficiency prevalence and at-risk populations in developed countries"
-        },
-        {
-          "organization": "WHO",
-          "organization_full": "World Health Organization",
-          "base_url": "https://www.who.int",
-          "url": "https://www.who.int/publications/i/item/9789241564960",
-          "url_verified": true,
-          "tier": 2,
-          "resource_name": "The Global Prevalence of Anaemia in 2011",
-          "description": "WHO report providing global and regional prevalence estimates of anemia, including iron deficiency anemia",
-          "relevance": "Provides comparative data on iron deficiency rates between developed and developing countries"
-        },
-        {
-          "organization": "American Society of Hematology",
-          "organization_full": "American Society of Hematology",
-          "base_url": "",
-          "url": "https://www.hematology.org/education/patients/anemia/iron-deficiency",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Iron-Deficiency Anemia",
-          "description": "Professional medical organization's patient education resource on iron deficiency prevalence and risk factors",
-          "relevance": "Clinical perspective on iron deficiency frequency in developed countries"
-        },
-        {
-          "organization": "Cochrane",
-          "organization_full": "Cochrane Library (systematic reviews)",
-          "base_url": "https://www.cochranelibrary.com",
-          "url": "https://www.cochranelibrary.com",
-          "url_verified": false,
-          "tier": 1,
-          "resource_name": "Daily iron supplementation for improving anaemia, iron status and health in menstruating women",
-          "description": "Systematic review that includes background data on iron deficiency prevalence in developed countries",
-          "relevance": "Evidence-based review that contextualizes iron deficiency rates in developed versus developing nations"
-        }
-      ],
-      "discovered_at": "2026-04-08",
-      "last_seen": "2026-04-08",
-      "times_seen": 1,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
       "id": "lupus_treatable_condition_good_long",

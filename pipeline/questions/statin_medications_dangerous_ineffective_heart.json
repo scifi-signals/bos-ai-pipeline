@@ -1,0 +1,114 @@
+{
+  "id": "statin_medications_dangerous_ineffective_heart",
+  "question": "Are statin medications dangerous and ineffective for heart health?",
+  "topic": "Addresses cholesterol denialism and statin fear-mongering with robust clinical trial evidence from 2",
+  "tags": [
+    "Health and Medicine",
+    "Cardiovascular Health",
+    "Pharmaceuticals"
+  ],
+  "sources": [
+    {
+      "name": "FDA Drug Safety Communication: Important safety label changes to cholesterol-lowering statin drugs — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "2018 AHA/ACC/AACVPR/AAPA/ABC/ACPM/ADA/AGS/APhA/ASPC/NLA/PCNA Guideline on the Management of Blood Cholesterol — American Heart Association",
+      "url": "https://www.heart.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Statins for the primary prevention of cardiovascular disease — Cochrane",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD004816.pub5/full",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "WHO Model List of Essential Medicines - 22nd List — WHO",
+      "url": "https://www.who.int/publications/i/item/WHO-MHP-HPS-EML-2021.02",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "2013 ACC/AHA Guideline on the Treatment of Blood Cholesterol to Reduce Atherosclerotic Cardiovascular Risk in Adults — NIH/NHLBI",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "26 randomized controlled trials demonstrate consistent cardiovascular benefit from cholesterol lowering—claim appears supported by current evidence",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Statins have no effect on dementia risk; may reduce dementia incidence through stroke prevention—should verify against latest neurology literature",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Statin-associated muscle pain incidence is very low and largely attributable to nocebo effect in placebo-controlled trials—supported by cited research",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "LDL cholesterol can safely be lowered to near-zero levels without harm—should verify upper limits of safety data",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Cholesterol denialism overlaps with vaccine denialism and anti-pharmaceutical sentiment—sociological claim needing empirical support",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Statin medications and their cholesterol-lowering mechanisms",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "The 4S study (simvastatin trial) demonstrating statin efficacy",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Meta-analyses of 26+ randomized controlled trials on statins",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Pleiotropic effects of statins and linear dose-response relationships",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Statin-associated muscle symptoms and nocebo effects",
+      "origin": "Unbiased Science: Spring Break Rerun: Cholester-all In! The Role of Cholesterol in Heart Health",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=217",
+      "date": "2026-04-08T10:00:00"
+    }
+  ]
+}

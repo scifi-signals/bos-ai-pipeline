@@ -1,0 +1,61 @@
+{
+  "id": "polyvinyl_alcohol_pva_detergent_pod",
+  "question": "Do polyvinyl alcohol (PVA) detergent pod films persist in the environment?",
+  "topic": "Corrects environmental misinformation about PVA biodegradability with experimental validation data v",
+  "tags": [
+    "Environmental Science",
+    "Consumer Products",
+    "Chemistry"
+  ],
+  "sources": [
+    {
+      "name": "Safer Choice Standard — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "TSCA Chemical Substance Inventory — EPA",
+      "url": "https://www.epa.gov/tsca-inventory",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "PVA from detergent pods breaks down in wastewater treatment plants with high efficiency when microbial ecosystems are acclimated",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "A 2021 study claiming 67% of PVA doesn't break down relied solely on computer modeling without experimental validation",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Polyvinyl alcohol (PVA) environmental degradation and biodegradability",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Wastewater treatment and microbial degradation of polymers",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Computer modeling validation in environmental science",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    }
+  ]
+}

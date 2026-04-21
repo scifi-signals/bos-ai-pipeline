@@ -1,0 +1,28 @@
+{
+  "id": "forcing_children_eat_effective_addressing",
+  "question": "Is forcing children to eat effective for addressing picky eating?",
+  "topic": "Corrects common parenting misconceptions about feeding practices with evidence from pediatric nutrit",
+  "tags": [
+    "Child Development",
+    "Nutrition",
+    "Parenting",
+    "Psychology"
+  ],
+  "sources": [
+    {
+      "name": "Complementary Feeding Interventions for Infants and Young Children Under Age 2: Scoping of Promising Interventions to Implement at the Community or State Level",
+      "url": "https://www.nationalacademies.org/publications/27239",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Forcing children to eat typically results in power struggles and is counterproductive - supported by feeding research literature",
+      "origin": "Unbiased Science: The Joy of Cooking (For Kids Who Are ‘Picky’ Eaters)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=216",
+      "date": "2026-04-01T10:00:00"
+    }
+  ]
+}

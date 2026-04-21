@@ -1,0 +1,33 @@
+{
+  "id": "all_ocean_methane_emissions_known",
+  "question": "Are all ocean methane emissions from known sources?",
+  "topic": "Addresses gaps in public understanding of methane source attribution and climate modeling completene",
+  "tags": [
+    "Climate Change",
+    "Environmental Science",
+    "Ocean Science"
+  ],
+  "sources": [
+    {
+      "name": "Improving Characterization of Anthropogenic Methane Emissions in the United States",
+      "url": "https://www.nationalacademies.org/publications/24987",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "A Research Agenda Toward Atmospheric Methane Removal",
+      "url": "https://www.nationalacademies.org/publications/27157",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Climate Change: Scientists discover hidden ocean methane source that could worsen global warming",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260415043615.htm",
+      "date": "2026-04-18"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "detergent_pods_dishwasher_detergents_cause",
+  "question": "Do detergent pods and dishwasher detergents cause 'leaky gut syndrome'?",
+  "topic": "Corrects misinterpretation of in vitro studies and addresses the non-medical nature of 'leaky gut sy",
+  "tags": [
+    "Health and Medicine",
+    "Consumer Safety",
+    "Gastrointestinal Health"
+  ],
+  "sources": [
+    {
+      "name": "Guidance for Industry: Safety of Food Contact Substances — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Safer Choice Standard — EPA",
+      "url": "https://www.epa.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Digestive Diseases Statistics for the United States — NIH/NIDDK",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/digestive-system-how-it-works",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "'Leaky gut' is not a medically recognized condition per guest (described as 'influencer recognized')",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_claim",
+      "text": "Study claiming dishwasher detergent ethoxylates cause leaky gut used cancer cells, exorbitant chemical concentrations, and lacked immune cells needed to measure inflammation",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Leaky gut hypothesis and tight junction integrity",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "In vitro cell culture models versus human physiology",
+      "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+      "date": "2026-04-15T10:00:00"
+    }
+  ]
+}

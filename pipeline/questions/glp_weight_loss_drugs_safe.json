@@ -1,0 +1,53 @@
+{
+  "id": "glp_weight_loss_drugs_safe",
+  "question": "Are GLP-1 weight loss drugs safe to buy online without prescription?",
+  "topic": "Addresses dangerous online pharmaceutical marketing with FDA safety requirements and prescription dr",
+  "tags": [
+    "Health and Medicine",
+    "Pharmaceuticals",
+    "Online Safety",
+    "Weight Management"
+  ],
+  "sources": [
+    {
+      "name": "FDA warns consumers about dangerous medicines sold by illegal online pharmacies — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Medications Containing Semaglutide Marketed for Type 2 Diabetes or Weight Loss — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "BeSafeRx: Your Source for Online Pharmacy Information — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Clinical Practice Guideline: Pharmacological Management of Obesity — Endocrine Society",
+      "url": "https://www.endocrine.org/clinical-practice-guidelines/pharmacological-management-of-obesity",
+      "type": "web",
+      "tier": 3
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Natural Disasters & Extreme Weather: Ads for GLP-1 drugs are flooding the internet – here’s how to know if it’s safe to buy them online",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/ads-for-glp-1-drugs-are-flooding-the-internet-heres-how-to-know-if-its-safe-to-buy-them-online-277369",
+      "date": "2026-04-18"
+    },
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Ads for GLP-1 drugs are flooding the internet – here’s how to know if it’s safe to buy them online",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/ads-for-glp-1-drugs-are-flooding-the-internet-heres-how-to-know-if-its-safe-to-buy-them-online-277369",
+      "date": "2026-04-19"
+    }
+  ]
+}
