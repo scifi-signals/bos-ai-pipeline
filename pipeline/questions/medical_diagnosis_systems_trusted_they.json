@@ -1,0 +1,59 @@
+{
+  "id": "medical_diagnosis_systems_trusted_they",
+  "question": "Can AI medical diagnosis systems be trusted when they're trained on flawed data?",
+  "topic": "Gap between AI hype and reality in medical applications with serious consequences for patient care",
+  "tags": [
+    "Health and Medicine",
+    "Artificial Intelligence",
+    "Healthcare Technology"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and Machine Learning (AI/ML)-Enabled Medical Devices — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Ethics and governance of artificial intelligence for health — WHO",
+      "url": "https://www.who.int/publications/i/item/9789240029200",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Artificial Intelligence/Machine Learning Consortium to Advance Health Equity and Researcher Diversity (AIM-AHEAD) — NIH",
+      "url": "https://www.aim-ahead.net/",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Cochrane Reviews on diagnostic test accuracy of AI systems — Cochrane",
+      "url": "https://www.cochranelibrary.com/",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00697-4",
+      "date": "2026-04-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Daily briefing: AI systems can ‘teach’ biases to other models",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01265-6",
+      "date": "2026-04-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI models ‘subliminally’ transmit biases when training other systems",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01224-1",
+      "date": "2026-04-19"
+    }
+  ]
+}

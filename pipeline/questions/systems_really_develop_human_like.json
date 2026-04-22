@@ -1,0 +1,33 @@
+{
+  "id": "systems_really_develop_human_like",
+  "question": "Can AI systems really develop human-like social behaviors autonomously?",
+  "topic": "Anthropomorphizing of programmed behaviors as emergent human-like intelligence",
+  "tags": [
+    "Artificial Intelligence",
+    "Technology"
+  ],
+  "sources": [
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://www.nationalacademies.org/publications/26355",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI agents replicate human social dynamics in days",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01218-z",
+      "date": "2026-04-19"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: No humans allowed: scientific AI agents get their own social network",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01278-1",
+      "date": "2026-04-21"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "bioidentical_hormones_safer_conventional_hormone",
+  "question": "Are 'bioidentical' hormones safer than conventional hormone therapy?",
+  "topic": "Marketing terminology being used to bypass medical evidence and regulatory oversight",
+  "tags": [
+    "Health and Medicine",
+    "Women's Health",
+    "Regulatory Science"
+  ],
+  "sources": [
+    {
+      "name": "Bio-identicals: Sorting Myths from Facts — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Committee Opinion No. 532: Compounded Bioidentical Menopausal Hormone Therapy — American College of Obstetricians and Gynecologists (ACOG)",
+      "url": "https://www.acog.org/clinical/withdrawn-document?utm_source=redirect532&utm_medium=web&utm_campaign=int",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Bioidentical hormones for women with vasomotor symptoms — Cochrane",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010407.pub2/full",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Dietary Supplements for Women - Fact Sheet for Consumers — NIH Office of Dietary Supplements",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Hormone therapy labeling and marketing use 'bioidentical' as primarily a marketing term rather than a precise scientific distinction—reflects debate in the field post-WHI study",
+      "origin": "Unbiased Science: All Aboard The Estrogen Express With Four Unbiased Scientists",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=221",
+      "date": "2026-04-22T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Bioidentical hormone therapy versus compounded hormones",
+      "origin": "Unbiased Science: All Aboard The Estrogen Express With Four Unbiased Scientists",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=221",
+      "date": "2026-04-22T10:00:00"
+    }
+  ]
+}

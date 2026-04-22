@@ -1,0 +1,39 @@
+{
+  "id": "covid_vaccines_make_blood_transfusions",
+  "question": "Do COVID-19 vaccines make blood transfusions unsafe?",
+  "topic": "Direct misinformation causing people to refuse medical care with potentially fatal consequences",
+  "tags": [
+    "Health and Medicine",
+    "Public Health",
+    "Vaccines"
+  ],
+  "sources": [
+    {
+      "name": "Updated Information for Blood Establishments Regarding the COVID-19 Pandemic and Blood Donation — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Blood Safety and Availability - COVID-19 — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "COVID-19 Vaccines: Myth versus Fact — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: People are refusing transfusions from donors vaccinated against covid",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2523157-people-are-refusing-transfusions-from-donors-vaccinated-against-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-19"
+    }
+  ]
+}

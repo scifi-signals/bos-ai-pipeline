@@ -1,0 +1,39 @@
+{
+  "id": "hormone_tests_reliable_diagnosing_perimenopause",
+  "question": "Are hormone tests reliable for diagnosing perimenopause?",
+  "topic": "Widespread medical practice based on unreliable testing methods, affecting millions of women's healt",
+  "tags": [
+    "Health and Medicine",
+    "Women's Health"
+  ],
+  "sources": [
+    {
+      "name": "Committee Opinion No. 565: Hormone Therapy and Heart Disease — American College of Obstetricians and Gynecologists (ACOG)",
+      "url": "https://www.acog.org/clinical/withdrawn-document?utm_source=redirectco565&utm_medium=web&utm_campaign=int",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Bioidentical hormones for women with vasomotor symptoms — Cochrane Library",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010407.pub2/full",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Hormone levels fluctuate significantly throughout the day, making single-point hormone testing unreliable for perimenopause diagnosis—aligns with endocrinology consensus but worth confirming against NASEM guidance",
+      "origin": "Unbiased Science: All Aboard The Estrogen Express With Four Unbiased Scientists",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=221",
+      "date": "2026-04-22T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Hormone level testing variability during perimenopause",
+      "origin": "Unbiased Science: All Aboard The Estrogen Express With Four Unbiased Scientists",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=221",
+      "date": "2026-04-22T10:00:00"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "id": "vaginal_estrogen_safe_women_history",
+  "question": "Is vaginal estrogen safe for women with a history of breast cancer?",
+  "topic": "Medical decision-making based on overgeneralized fear rather than evidence-based risk assessment",
+  "tags": [
+    "Health and Medicine",
+    "Cancer",
+    "Women's Health"
+  ],
+  "sources": [
+    {
+      "name": "Practice Bulletin No. 141: Management of Menopausal Symptoms — American College of Obstetricians and Gynecologists (ACOG)",
+      "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2014/01/management-of-menopausal-symptoms",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Hormone Replacement Therapy and Cancer Risk — American Cancer Society",
+      "url": "https://www.cancer.org",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Vaginal oestrogen therapy for genitourinary syndrome of menopause — Cochrane Library",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010551.pub2/full",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "FDA Drug Safety Communication: Update on ongoing safety review of Vaginal Estrogen Products — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "podcast_claim",
+      "text": "Vaginal estrogen is safe even for women with history of breast cancer or heart attack—this is a strong claim that should be cross-referenced with current evidence-based clinical guidelines",
+      "origin": "Unbiased Science: All Aboard The Estrogen Express With Four Unbiased Scientists",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=221",
+      "date": "2026-04-22T10:00:00"
+    },
+    {
+      "type": "podcast_topic",
+      "text": "Vaginal estrogen therapy safety and efficacy",
+      "origin": "Unbiased Science: All Aboard The Estrogen Express With Four Unbiased Scientists",
+      "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=221",
+      "date": "2026-04-22T10:00:00"
+    }
+  ]
+}

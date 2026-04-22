@@ -1,0 +1,51 @@
+{
+  "id": "antibiotic_resistant_bacteria_spreading_through",
+  "question": "Are antibiotic-resistant bacteria spreading through 'explosive' mechanisms?",
+  "topic": "Sensationalized description of normal horizontal gene transfer mechanisms in bacteria",
+  "tags": [
+    "Health and Medicine",
+    "Infectious Disease",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Antibiotic Resistance Threats in the United States, 2019 — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Global Action Plan on Antimicrobial Resistance — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241509763",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "How Antibiotic Resistance Happens — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antimicrobial Resistance: Global Report on Surveillance 2014 — WHO",
+      "url": "https://www.who.int/publications/i/item/9789241564748",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antimicrobial (Drug) Resistance — NIH/NIAID",
+      "url": "https://www.niaid.nih.gov/research/antimicrobial-resistance",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: Scientists discover bacteria can “explode” to spread antibiotic resistance",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260416071953.htm",
+      "date": "2026-04-19"
+    }
+  ]
+}

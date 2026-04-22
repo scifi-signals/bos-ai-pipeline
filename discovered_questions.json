@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-21T12:20:52Z",
+  "generated_at": "2026-04-22T12:20:41Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -7656,6 +7656,49 @@
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
+      "id": "quantum_computers_really_break_all",
+      "question": "Will quantum computers really break all current encryption?",
+      "priority": "medium",
+      "rationale": "Sensationalized reporting about quantum timeline and capabilities versus actual technical capabilities and preparation time",
+      "misinformation_narrative": "Headlines claim quantum computers will cause a 'crisis worse than Y2K' by breaking all encryption, creating panic about imminent cybersecurity collapse",
+      "public_stakes": "Unnecessary panic may lead to premature expensive security overhauls or dangerous complacency about real current cyber threats",
+      "verification_status": "verified",
+      "verification_reason": "Cybersecurity headlines and tech media regularly use alarmist language about quantum computing creating imminent encryption crises and Y2K-like scenarios.",
+      "tags": [
+        "Technology",
+        "Cybersecurity",
+        "Quantum Science"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Decrypting the Encryption Debate: A Framework for Decision Makers (2018)",
+          "url": "https://www.nationalacademies.org/publications/25010"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers could usher in a crisis worse than Y2K",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522615-quantum-computers-could-usher-in-a-crisis-worse-than-y2k/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-19"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "quantum_computers_make_all_current",
       "question": "Will quantum computers make all current encryption useless overnight?",
       "priority": "medium",
@@ -7991,6 +8034,49 @@
       "newest_source_year": 2019,
       "signal_count": 1,
       "readiness_summary": "1 NASEM source, most recent 2019 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
+      "id": "natural_hormone_reverse_obesity",
+      "question": "Is there a 'natural hormone' that can reverse obesity?",
+      "priority": "medium",
+      "rationale": "Oversimplified reporting of early-stage research as breakthrough obesity cure",
+      "misinformation_narrative": "Headlines about discovering 'natural hormones that reverse obesity' suggest simple hormonal solutions to complex metabolic conditions",
+      "public_stakes": "People may delay proven weight management strategies while seeking hormonal quick fixes that don't exist",
+      "verification_status": "verified",
+      "verification_reason": "Weight loss and wellness communities on social media regularly promote oversimplified hormonal solutions to obesity, often citing preliminary research on various hormones.",
+      "tags": [
+        "Health and Medicine",
+        "Obesity",
+        "Endocrinology"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop (2018)",
+          "url": "https://www.nationalacademies.org/publications/24855"
+        },
+        {
+          "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop�in Brief (None)",
+          "url": "https://www.nationalacademies.org/publications/24830"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Obesity & Weight Management: Scientists discover natural hormone that reverses obesity",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260416071954.htm",
+          "date": "2026-04-19"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2018,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2018 — moderately dated · confirmed misinformation · 1 discovery signal"
     },
     {
       "id": "weight_loss_drugs_like_ozempic",
@@ -11587,6 +11673,44 @@
       "readiness_summary": "1 NASEM source, most recent 2022 · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
+      "id": "detergent_pods_destroying_environment_through",
+      "question": "Are detergent pods destroying the environment through plastic pollution?",
+      "priority": "low",
+      "rationale": "Specific misinformation about biodegradability contradicted by wastewater treatment data",
+      "misinformation_narrative": "Claims that polyvinyl alcohol (PVA) from detergent pods doesn't break down and contributes significantly to plastic pollution",
+      "public_stakes": "Consumers may avoid efficient cleaning products and choose less environmentally-friendly alternatives based on incorrect information",
+      "verification_status": "needs_review",
+      "verification_reason": "This appears to confuse general plastic pollution concerns with specific claims about PVA from detergent pods, which isn't a major public misconception.",
+      "tags": [
+        "Environmental Science",
+        "Consumer Safety"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Reckoning with the U.S. Role in Global Ocean Plastic Waste (2022)",
+          "url": "https://www.nationalacademies.org/publications/26132"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "PVA from detergent pods breaks down in wastewater treatment plants with high efficiency when microbial ecosystems are acclimated",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2022,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2022 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "biodegradable_plastic_pva_detergent_pods",
       "question": "Does the biodegradable plastic PVA from detergent pods actually break down in the environment?",
       "priority": "low",
@@ -12124,6 +12248,51 @@
       "newest_source_year": 2021,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "systems_really_develop_human_like",
+      "question": "Can AI systems really develop human-like social behaviors autonomously?",
+      "priority": "low",
+      "rationale": "Anthropomorphizing of programmed behaviors as emergent human-like intelligence",
+      "misinformation_narrative": "Media reports suggest AI agents are spontaneously developing complex social dynamics 'like humans' in days, implying rapid advancement toward human-like AI",
+      "public_stakes": "Misunderstanding AI capabilities may lead to overconfidence in AI systems or unrealistic fears about AI development",
+      "verification_status": "needs_review",
+      "verification_reason": "While AI hype exists, the specific claim about AI developing human-like social behaviors autonomously isn't a major public misconception.",
+      "tags": [
+        "Artificial Intelligence",
+        "Technology"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI agents replicate human social dynamics in days",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01218-z",
+          "date": "2026-04-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: No humans allowed: scientific AI agents get their own social network",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01278-1",
+          "date": "2026-04-21"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2021 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "chatbots_make_you_less_kind",
@@ -16566,6 +16735,451 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "covid_vaccines_make_blood_transfusions",
+      "question": "Do COVID-19 vaccines make blood transfusions unsafe?",
+      "priority": "high",
+      "rationale": "Direct misinformation causing people to refuse medical care with potentially fatal consequences",
+      "misinformation_narrative": "Some people are refusing blood transfusions from COVID-19 vaccinated donors, believing the vaccines contaminate blood or make transfusions dangerous",
+      "public_stakes": "Patients could die from refusing life-saving blood transfusions based on vaccine misinformation",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine communities on Truth Social, Telegram, and various conspiracy forums promote \"pure blood\" movements and refuse blood from vaccinated donors.",
+      "tags": [
+        "Health and Medicine",
+        "Public Health",
+        "Vaccines"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: People are refusing transfusions from donors vaccinated against covid",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2523157-people-are-refusing-transfusions-from-donors-vaccinated-against-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-19"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Updated Information for Blood Establishments Regarding the COVID-19 Pandemic and Blood Donation",
+          "description": "FDA guidance on blood donation eligibility and safety protocols during COVID-19, including vaccination status considerations",
+          "relevance": "Directly addresses blood safety protocols and vaccination status for donors"
+        },
+        {
+          "organization": "American Red Cross",
+          "organization_full": "American Red Cross",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "COVID-19 Vaccines and Blood Donation Eligibility",
+          "description": "Official Red Cross guidance on blood donation eligibility for vaccinated individuals",
+          "relevance": "Provides clear evidence-based policy from major blood collection organization"
+        },
+        {
+          "organization": "AABB (American Association of Blood Banks)",
+          "organization_full": "AABB (American Association of Blood Banks)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "COVID-19 and Blood Safety FAQ",
+          "description": "Professional blood banking organization's guidance on COVID-19 vaccines and blood safety",
+          "relevance": "Authoritative source from blood banking professionals on vaccine safety and blood products"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Blood Safety and Availability - COVID-19",
+          "description": "WHO guidance on blood safety during COVID-19 pandemic including vaccination considerations",
+          "relevance": "International health authority guidance on blood safety and COVID-19 vaccines"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccines: Myth versus Fact",
+          "description": "CDC fact sheet addressing common COVID-19 vaccine misconceptions including blood safety claims",
+          "relevance": "Directly addresses misinformation about COVID-19 vaccines with evidence-based responses"
+        }
+      ],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "hormone_tests_reliable_diagnosing_perimenopause",
+      "question": "Are hormone tests reliable for diagnosing perimenopause?",
+      "priority": "high",
+      "rationale": "Widespread medical practice based on unreliable testing methods, affecting millions of women's healthcare decisions",
+      "misinformation_narrative": "Many women and healthcare providers rely on single hormone level tests to diagnose perimenopause, when hormone fluctuations make these tests unreliable",
+      "public_stakes": "Women may receive incorrect diagnoses, inappropriate treatments, or miss proper care during perimenopause transition",
+      "verification_status": "verified",
+      "verification_reason": "This is widely documented in women's health forums, Reddit communities like r/Menopause, and medical literature citing frequent misuse of hormone testing by both patients and providers.",
+      "tags": [
+        "Health and Medicine",
+        "Women's Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Hormone levels fluctuate significantly throughout the day, making single-point hormone testing unreliable for perimenopause diagnosis—aligns with endocrinology consensus but worth confirming against NASEM guidance",
+          "origin": "Unbiased Science: All Aboard The Estrogen Express With Four Unbiased Scientists",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=221",
+          "date": "2026-04-22T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "North American Menopause Society (NAMS)",
+          "organization_full": "North American Menopause Society (NAMS)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "The 2017 hormone therapy position statement of The North American Menopause Society",
+          "description": "NAMS position statement on hormone therapy that includes discussion of hormone testing for perimenopause diagnosis",
+          "relevance": "Addresses diagnostic approaches including hormone testing reliability for perimenopause"
+        },
+        {
+          "organization": "American College of Obstetricians and Gynecologists (ACOG)",
+          "organization_full": "American College of Obstetricians and Gynecologists (ACOG)",
+          "base_url": "",
+          "url": "https://www.acog.org/clinical/withdrawn-document?utm_source=redirectco565&utm_medium=web&utm_campaign=int",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Committee Opinion No. 565: Hormone Therapy and Heart Disease",
+          "description": "ACOG clinical guidance that discusses diagnostic criteria and testing for menopause transition",
+          "relevance": "Professional medical organization guidance on perimenopause diagnosis and hormone testing"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010407.pub2/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Bioidentical hormones for women with vasomotor symptoms",
+          "description": "Cochrane systematic review examining hormone-related interventions and diagnostic considerations",
+          "relevance": "Evidence-based review that may address diagnostic testing reliability"
+        },
+        {
+          "organization": "Endocrine Society",
+          "organization_full": "Endocrine Society",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Clinical Practice Guideline: Treatment of Menopause-Associated Vasomotor Symptoms",
+          "description": "Evidence-based clinical practice guideline addressing diagnosis and management of menopause transition",
+          "relevance": "Professional endocrine organization guidance on diagnostic approaches including hormone testing"
+        },
+        {
+          "organization": "International Menopause Society (IMS)",
+          "organization_full": "International Menopause Society (IMS)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "IMS Recommendations on women's midlife health and menopause hormone therapy",
+          "description": "International clinical recommendations addressing diagnostic criteria for perimenopause",
+          "relevance": "Global medical society guidance on perimenopause diagnosis and hormone testing reliability"
+        }
+      ],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "vaginal_estrogen_safe_women_history",
+      "question": "Is vaginal estrogen safe for women with a history of breast cancer?",
+      "priority": "high",
+      "rationale": "Medical decision-making based on overgeneralized fear rather than evidence-based risk assessment",
+      "misinformation_narrative": "Many women and doctors avoid all estrogen therapy after breast cancer, including local vaginal estrogen, due to blanket fear of estrogen",
+      "public_stakes": "Women may suffer unnecessarily from severe vaginal atrophy and urinary problems while avoiding safe, effective treatment",
+      "verification_status": "verified",
+      "verification_reason": "Breast cancer survivor Facebook groups and oncology forums frequently discuss this fear, with many women and oncologists avoiding all estrogen despite safety data for vaginal estrogen.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer",
+        "Women's Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Vaginal estrogen is safe even for women with history of breast cancer or heart attack—this is a strong claim that should be cross-referenced with current evidence-based clinical guidelines",
+          "origin": "Unbiased Science: All Aboard The Estrogen Express With Four Unbiased Scientists",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=221",
+          "date": "2026-04-22T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "American College of Obstetricians and Gynecologists (ACOG)",
+          "organization_full": "American College of Obstetricians and Gynecologists (ACOG)",
+          "base_url": "",
+          "url": "https://www.acog.org/clinical/clinical-guidance/practice-bulletin/articles/2014/01/management-of-menopausal-symptoms",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Practice Bulletin No. 141: Management of Menopausal Symptoms",
+          "description": "ACOG practice bulletin that includes guidance on vaginal estrogen use in breast cancer survivors",
+          "relevance": "Provides clinical recommendations specifically addressing vaginal estrogen safety in women with breast cancer history"
+        },
+        {
+          "organization": "North American Menopause Society (NAMS)",
+          "organization_full": "North American Menopause Society (NAMS)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "The 2022 Hormone Therapy Position Statement of The North American Menopause Society",
+          "description": "Comprehensive position statement on hormone therapy including local vaginal estrogen in breast cancer survivors",
+          "relevance": "Addresses safety considerations for vaginal estrogen in women with breast cancer history based on current evidence"
+        },
+        {
+          "organization": "American Cancer Society",
+          "organization_full": "American Cancer Society",
+          "base_url": "https://www.cancer.org",
+          "url": "https://www.cancer.org",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Hormone Replacement Therapy and Cancer Risk",
+          "description": "ACS guidance on hormone therapy safety including local estrogen treatments for cancer survivors",
+          "relevance": "Discusses risks and considerations for estrogen use in women with breast cancer history"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010551.pub2/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Vaginal oestrogen therapy for genitourinary syndrome of menopause",
+          "description": "Systematic review examining safety and efficacy of vaginal estrogen therapy",
+          "relevance": "Provides evidence-based analysis of vaginal estrogen safety including considerations for breast cancer survivors"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA Drug Safety Communication: Update on ongoing safety review of Vaginal Estrogen Products",
+          "description": "FDA safety communication on vaginal estrogen products including contraindications",
+          "relevance": "Official FDA guidance on safety considerations for vaginal estrogen use in various patient populations"
+        }
+      ],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "bioidentical_hormones_safer_conventional_hormone",
+      "question": "Are 'bioidentical' hormones safer than conventional hormone therapy?",
+      "priority": "high",
+      "rationale": "Marketing terminology being used to bypass medical evidence and regulatory oversight",
+      "misinformation_narrative": "Marketing claims that 'bioidentical' hormones are natural and safer than FDA-approved hormone therapy, leading women to choose unregulated compounded hormones",
+      "public_stakes": "Women may choose less regulated, potentially unsafe hormone preparations while avoiding proven treatments",
+      "verification_status": "verified",
+      "verification_reason": "The bioidentical hormone industry heavily markets these claims through wellness websites, compounding pharmacies, and anti-aging clinics targeting menopausal women.",
+      "tags": [
+        "Health and Medicine",
+        "Women's Health",
+        "Regulatory Science"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Hormone therapy labeling and marketing use 'bioidentical' as primarily a marketing term rather than a precise scientific distinction—reflects debate in the field post-WHI study",
+          "origin": "Unbiased Science: All Aboard The Estrogen Express With Four Unbiased Scientists",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=221",
+          "date": "2026-04-22T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Bio-identicals: Sorting Myths from Facts",
+          "description": "FDA consumer update that directly addresses claims about bioidentical hormone safety compared to FDA-approved hormone therapies",
+          "relevance": "Directly addresses the safety comparison question with regulatory perspective"
+        },
+        {
+          "organization": "North American Menopause Society (NAMS)",
+          "organization_full": "North American Menopause Society (NAMS)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "The 2017 hormone therapy position statement of The North American Menopause Society",
+          "description": "Comprehensive position statement that addresses bioidentical vs conventional hormone therapy safety and efficacy",
+          "relevance": "Expert clinical guidance specifically comparing bioidentical and conventional hormone therapies"
+        },
+        {
+          "organization": "American College of Obstetricians and Gynecologists (ACOG)",
+          "organization_full": "American College of Obstetricians and Gynecologists (ACOG)",
+          "base_url": "",
+          "url": "https://www.acog.org/clinical/withdrawn-document?utm_source=redirect532&utm_medium=web&utm_campaign=int",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Committee Opinion No. 532: Compounded Bioidentical Menopausal Hormone Therapy",
+          "description": "ACOG's official position on compounded bioidentical hormones vs FDA-approved hormone therapy",
+          "relevance": "Medical society's evidence-based position on bioidentical hormone safety claims"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD010407.pub2/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Bioidentical hormones for women with vasomotor symptoms",
+          "description": "Systematic review examining evidence for bioidentical hormone therapy effectiveness and safety",
+          "relevance": "High-quality systematic review directly comparing bioidentical and conventional hormone therapies"
+        },
+        {
+          "organization": "NIH Office of Dietary Supplements",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Dietary Supplements for Women - Fact Sheet for Consumers",
+          "description": "NIH fact sheet that includes information on hormone supplements and bioidentical hormones",
+          "relevance": "Government source providing evidence-based information on hormone supplement safety"
+        }
+      ],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "off_label_cancer_treatments_effective",
+      "question": "Are off-label cancer treatments as effective as standard therapies?",
+      "priority": "high",
+      "rationale": "Confusion about the evidence base for genomics-guided versus standard cancer treatment approaches",
+      "misinformation_narrative": "Cancer patients may believe genomics-guided off-label treatments are equally or more effective than standard approved therapies",
+      "public_stakes": "Patients may choose less effective treatments or delay proven therapies based on personalized medicine hype",
+      "verification_status": "verified",
+      "verification_reason": "Cancer patient forums, Facebook groups, and some integrative oncology websites promote genomics-guided off-label treatments as superior alternatives to standard care.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer",
+        "Personalized Medicine"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Prospective evaluation of genomics-guided off-label treatment",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10405-x",
+          "date": "2026-04-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Giant cancer study reveals effectiveness of ‘off label’ treatments",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01241-0",
+          "date": "2026-04-19"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Understanding Unapproved Use of Approved Drugs 'Off Label'",
+          "description": "FDA guidance document explaining off-label drug use, including in cancer treatment contexts",
+          "relevance": "Provides regulatory perspective on off-label use effectiveness and safety considerations"
+        },
+        {
+          "organization": "National Cancer Institute (NIH)",
+          "organization_full": "National Cancer Institute (NIH)",
+          "base_url": "",
+          "url": "https://www.cancer.gov/about-cancer/treatment/drugs/off-label",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Off-Label Drug Use in Cancer Treatment",
+          "description": "NCI fact sheet specifically addressing off-label cancer drug use and effectiveness",
+          "relevance": "Directly addresses the question with cancer-specific evidence and clinical considerations"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Cochrane Reviews on Off-Label Drug Use",
+          "description": "Systematic reviews examining evidence for off-label treatments in various cancer types",
+          "relevance": "Provides high-quality systematic review evidence comparing off-label to standard treatments"
+        },
+        {
+          "organization": "American Society of Clinical Oncology (ASCO)",
+          "organization_full": "American Society of Clinical Oncology (ASCO)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Clinical Practice Guidelines and Off-Label Use",
+          "description": "ASCO position statements and guidelines on off-label cancer drug use",
+          "relevance": "Professional oncology society guidance on when off-label treatments are appropriate and effective"
+        }
+      ],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "microplastics_food_water_proven_health",
@@ -21117,6 +21731,95 @@
       "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
+      "id": "microplastics_bodies_causing_health_problems",
+      "question": "Are microplastics in our bodies causing health problems?",
+      "priority": "medium",
+      "rationale": "Widespread reporting of correlation as causation, creating unnecessary fear without evidence of actual harm",
+      "misinformation_narrative": "Media reports and social media claim microplastics found in blood, breast milk, and organs are definitively harmful to human health",
+      "public_stakes": "Public panic over unproven risks while real environmental and health priorities may be neglected",
+      "verification_status": "verified",
+      "verification_reason": "Health influencers on Instagram, TikTok, and wellness websites regularly claim microplastics are definitively toxic, often citing preliminary research as conclusive evidence.",
+      "tags": [
+        "Environmental Health",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Primary route of microplastic exposure is inhalation (air) rather than ingestion - host and guest both present this as established finding",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241516198",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Microplastics in drinking-water",
+          "description": "WHO's comprehensive assessment of microplastics in drinking water and potential health implications",
+          "relevance": "Directly evaluates current evidence on microplastic exposure and health risks to humans"
+        },
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Research on Microplastics",
+          "description": "EPA's overview of ongoing microplastics research including health effects studies",
+          "relevance": "Provides current EPA research findings and assessments on microplastic health impacts"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA's Approach to Regulation of Nanotechnology Products",
+          "description": "FDA guidance that includes consideration of micro and nanoplastics in food contact materials",
+          "relevance": "Addresses regulatory approach to small particles including microplastics in food supply"
+        },
+        {
+          "organization": "EFSA",
+          "organization_full": "EFSA",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Presence of microplastics and nanoplastics in food, with particular focus on seafood",
+          "description": "European Food Safety Authority's scientific opinion on microplastics in food and potential health risks",
+          "relevance": "Comprehensive scientific assessment of microplastic exposure through food and associated health concerns"
+        },
+        {
+          "organization": "NIH/NIEHS",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Microplastics and Human Health",
+          "description": "NIEHS overview of microplastics research and potential health effects",
+          "relevance": "Summarizes current scientific understanding of microplastic exposure pathways and health implications"
+        }
+      ],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "organic_foods_provide_significant_health",
       "question": "Do organic foods provide significant health and safety benefits over conventional produce?",
       "priority": "medium",
@@ -25211,6 +25914,117 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "hand_washing_dishes_environmentally_friendly",
+      "question": "Is hand-washing dishes more environmentally friendly than using a dishwasher?",
+      "priority": "low",
+      "rationale": "Common environmental assumption contradicted by lifecycle analysis studies",
+      "misinformation_narrative": "Many people believe hand-washing dishes is more environmentally friendly, using less water and energy than machine dishwashing",
+      "public_stakes": "Households may choose less efficient cleaning methods, increasing water usage and carbon footprint",
+      "verification_status": "verified",
+      "verification_reason": "This belief is widespread among environmentally conscious consumers and frequently discussed on sustainability blogs, eco-friendly forums, and social media.",
+      "tags": [
+        "Environmental Science",
+        "Consumer Behavior"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Hand-washing dishes with running tap water uses more water and generates more emissions than machine dishwashing",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "EPA",
+          "organization_full": "Environmental Protection Agency",
+          "base_url": "https://www.epa.gov",
+          "url": "https://www.epa.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "WaterSense - Dishwashers",
+          "description": "EPA's WaterSense program provides data on water usage efficiency of dishwashers compared to hand washing",
+          "relevance": "Provides official EPA data on water consumption comparing dishwashers to hand washing"
+        },
+        {
+          "organization": "Energy Star (EPA/DOE)",
+          "organization_full": "Energy Star (EPA/DOE)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "ENERGY STAR Dishwashers",
+          "description": "Joint EPA/Department of Energy program with energy and water efficiency data for dishwashers",
+          "relevance": "Contains energy consumption data and efficiency comparisons for dishwashers vs. hand washing"
+        },
+        {
+          "organization": "American Council for an Energy-Efficient Economy",
+          "organization_full": "American Council for an Energy-Efficient Economy",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Consumer Guide to Home Energy Savings - Kitchen Appliances",
+          "description": "ACEEE's research-based guide comparing energy and water use of kitchen appliances including dishwashers",
+          "relevance": "Provides independent analysis of environmental impacts of dishwashing methods"
+        },
+        {
+          "organization": "University of Bonn (International Journal of Life Cycle Assessment)",
+          "organization_full": "University of Bonn (International Journal of Life Cycle Assessment)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Comparative LCA of hand dishwashing and machine dishwashing",
+          "description": "Peer-reviewed life cycle assessment study comparing environmental impacts of hand washing vs. machine dishwashing",
+          "relevance": "Comprehensive scientific analysis of full environmental lifecycle impacts of both dishwashing methods"
+        },
+        {
+          "organization": "DOE",
+          "organization_full": "DOE",
+          "base_url": "",
+          "url": "https://www.energy.gov/energysaver/dishwashers",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Energy Saver: Dishwashers",
+          "description": "Department of Energy guidance on dishwasher energy efficiency and environmental impact",
+          "relevance": "Contains federal analysis of energy consumption for dishwashers versus hand washing dishes"
+        },
+        {
+          "organization": "University of Bonn",
+          "organization_full": "University of Bonn",
+          "base_url": "",
+          "url": "https://www.uni-bonn.de/en",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Comparative Assessment of the Environmental Impact of Dishwashers and Hand-washing",
+          "description": "Academic lifecycle assessment study comparing environmental impacts of machine versus hand dishwashing",
+          "relevance": "Peer-reviewed research directly comparing water, energy, and chemical usage between the two methods"
+        },
+        {
+          "organization": "ENERGY STAR (EPA/DOE)",
+          "organization_full": "ENERGY STAR (EPA/DOE)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "ENERGY STAR Dishwashers",
+          "description": "ENERGY STAR program guidance on energy-efficient dishwashers including environmental benefits",
+          "relevance": "Provides energy consumption data and environmental impact comparisons for efficient dishwashers"
+        }
+      ],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-22",
+      "times_seen": 3,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 7 alternative sources identified"
+    },
+    {
       "id": "hand_washing_dishes_use_less",
       "question": "Does hand-washing dishes use less water than dishwashers?",
       "priority": "low",
@@ -25445,106 +26259,6 @@
       "newest_source_year": 0,
       "signal_count": 1,
       "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
-    },
-    {
-      "id": "hand_washing_dishes_environmentally_friendly",
-      "question": "Is hand-washing dishes more environmentally friendly than using a dishwasher?",
-      "priority": "low",
-      "rationale": "Corrects common assumption about relative environmental impacts of different dishwashing methods",
-      "misinformation_narrative": "Many people assume hand-washing is more eco-friendly and avoid dishwashers to reduce their environmental impact",
-      "public_stakes": "Choosing less efficient cleaning methods increases water usage and carbon emissions while providing no environmental benefit",
-      "verification_status": "verified",
-      "verification_reason": "Environmental communities on Reddit, eco-friendly Facebook groups, and sustainability influencers commonly promote hand-washing as more eco-friendly than dishwashers.",
-      "tags": [
-        "Environmental Science",
-        "Consumer Behavior"
-      ],
-      "nasem_source_count": 0,
-      "nasem_sources_preview": [],
-      "discovery_sources": [
-        {
-          "type": "podcast_claim",
-          "text": "Hand-washing dishes with running tap water uses more water and generates more emissions than machine dishwashing",
-          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
-          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
-          "date": "2026-04-15T10:00:00"
-        }
-      ],
-      "alternative_sources": [
-        {
-          "organization": "EPA",
-          "organization_full": "Environmental Protection Agency",
-          "base_url": "https://www.epa.gov",
-          "url": "https://www.epa.gov",
-          "url_verified": false,
-          "tier": 2,
-          "resource_name": "WaterSense - Dishwashers",
-          "description": "EPA's WaterSense program provides data on water usage efficiency of dishwashers compared to hand washing",
-          "relevance": "Provides official EPA data on water consumption comparing dishwashers to hand washing"
-        },
-        {
-          "organization": "Energy Star (EPA/DOE)",
-          "organization_full": "Energy Star (EPA/DOE)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "ENERGY STAR Dishwashers",
-          "description": "Joint EPA/Department of Energy program with energy and water efficiency data for dishwashers",
-          "relevance": "Contains energy consumption data and efficiency comparisons for dishwashers vs. hand washing"
-        },
-        {
-          "organization": "American Council for an Energy-Efficient Economy",
-          "organization_full": "American Council for an Energy-Efficient Economy",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Consumer Guide to Home Energy Savings - Kitchen Appliances",
-          "description": "ACEEE's research-based guide comparing energy and water use of kitchen appliances including dishwashers",
-          "relevance": "Provides independent analysis of environmental impacts of dishwashing methods"
-        },
-        {
-          "organization": "University of Bonn (International Journal of Life Cycle Assessment)",
-          "organization_full": "University of Bonn (International Journal of Life Cycle Assessment)",
-          "base_url": "",
-          "url": "",
-          "url_verified": false,
-          "tier": 3,
-          "resource_name": "Comparative LCA of hand dishwashing and machine dishwashing",
-          "description": "Peer-reviewed life cycle assessment study comparing environmental impacts of hand washing vs. machine dishwashing",
-          "relevance": "Comprehensive scientific analysis of full environmental lifecycle impacts of both dishwashing methods"
-        },
-        {
-          "organization": "DOE",
-          "organization_full": "DOE",
-          "base_url": "",
-          "url": "https://www.energy.gov/energysaver/dishwashers",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Energy Saver: Dishwashers",
-          "description": "Department of Energy guidance on dishwasher energy efficiency and environmental impact",
-          "relevance": "Contains federal analysis of energy consumption for dishwashers versus hand washing dishes"
-        },
-        {
-          "organization": "University of Bonn",
-          "organization_full": "University of Bonn",
-          "base_url": "",
-          "url": "https://www.uni-bonn.de/en",
-          "url_verified": true,
-          "tier": 3,
-          "resource_name": "Comparative Assessment of the Environmental Impact of Dishwashers and Hand-washing",
-          "description": "Academic lifecycle assessment study comparing environmental impacts of machine versus hand dishwashing",
-          "relevance": "Peer-reviewed research directly comparing water, energy, and chemical usage between the two methods"
-        }
-      ],
-      "discovered_at": "2026-04-15",
-      "last_seen": "2026-04-16",
-      "times_seen": 2,
-      "status": "nasem_gap",
-      "newest_source_year": 0,
-      "signal_count": 1,
-      "readiness_summary": "No NASEM coverage — 6 alternative sources identified"
     },
     {
       "id": "potatoes_other_earth_crops_actually",
@@ -28509,6 +29223,279 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "dishwasher_detergents_cause_leaky_gut",
+      "question": "Do dishwasher detergents cause 'leaky gut syndrome'?",
+      "priority": "low",
+      "rationale": "Flawed study methodology being misrepresented to promote fear of common household products",
+      "misinformation_narrative": "Social media influencers and some studies claim dishwasher detergent residues damage intestinal barriers and cause 'leaky gut'",
+      "public_stakes": "People may avoid convenient, environmentally-friendly dishwashing methods and spend money on unnecessary treatments for non-medical condition",
+      "verification_status": "needs_review",
+      "verification_reason": "While some studies exist on detergent residues, there's no significant public movement or influencer trend specifically targeting dishwasher detergents for leaky gut.",
+      "tags": [
+        "Health and Medicine",
+        "Consumer Safety"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "'Leaky gut' is not a medically recognized condition per guest (described as 'influencer recognized')",
+          "origin": "Unbiased Science: Dissolving the Myths on Dishwasher and Laundry Pods (See What We Did There?)",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=218",
+          "date": "2026-04-15T10:00:00"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
+      "id": "dietary_supplements_contain_labels_claim",
+      "question": "Do dietary supplements contain what their labels claim?",
+      "priority": "low",
+      "rationale": "Widespread consumer assumption contradicted by regulatory testing and industry analysis",
+      "misinformation_narrative": "Consumers trust supplement labels and assume third-party testing ensures accurate contents, when poor regulation means many products are mislabeled",
+      "public_stakes": "People may not get expected health benefits, could experience adverse effects, or waste money on ineffective products",
+      "verification_status": "needs_review",
+      "verification_reason": "This reverses the actual misconception; most people are already skeptical of supplements, rather than trusting they contain what labels claim.",
+      "tags": [
+        "Health and Medicine",
+        "Consumer Safety",
+        "Regulatory Science"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "podcast_claim",
+          "text": "Most dietary supplements contain less (or different compounds) than labeled due to poor third-party testing—a significant claim about supplement industry practices",
+          "origin": "Unbiased Science: All Aboard The Estrogen Express With Four Unbiased Scientists",
+          "url": "https://bleav.com/shows/unbiased-science/?post_type=gp_podcast_episode&p=221",
+          "date": "2026-04-22T10:00:00"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "FDA 101: Dietary Supplements",
+          "description": "FDA's comprehensive consumer guide explaining dietary supplement regulation, labeling requirements, and quality control issues",
+          "relevance": "Directly addresses FDA's limited oversight of supplement labeling accuracy and manufacturer responsibilities"
+        },
+        {
+          "organization": "NIH Office of Dietary Supplements",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Dietary Supplement Label Database",
+          "description": "NIH database that tracks and analyzes dietary supplement label claims and ingredients",
+          "relevance": "Provides searchable data on what supplements claim to contain based on their labels"
+        },
+        {
+          "organization": "NIH Office of Dietary Supplements",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://ods.od.nih.gov/factsheets/DietarySupplements-Consumer/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Dietary Supplements: What You Need to Know",
+          "description": "NIH fact sheet explaining supplement regulation, quality concerns, and variability in products",
+          "relevance": "Addresses quality control issues and explains why supplement contents may vary from labels"
+        }
+      ],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 3 alternative sources identified"
+    },
+    {
+      "id": "medical_diagnosis_systems_trusted_they",
+      "question": "Can AI medical diagnosis systems be trusted when they're trained on flawed data?",
+      "priority": "low",
+      "rationale": "Gap between AI hype and reality in medical applications with serious consequences for patient care",
+      "misinformation_narrative": "Media coverage often presents AI diagnostic tools as revolutionary and highly accurate, while studies show many are trained on problematic datasets",
+      "public_stakes": "Healthcare systems and patients may over-rely on AI tools that perpetuate biases or provide inaccurate diagnoses",
+      "verification_status": "needs_review",
+      "verification_reason": "Public discourse about AI medical tools tends toward skepticism rather than blind trust in their accuracy and training data quality.",
+      "tags": [
+        "Health and Medicine",
+        "Artificial Intelligence",
+        "Healthcare Technology"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00697-4",
+          "date": "2026-04-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Daily briefing: AI systems can ‘teach’ biases to other models",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01265-6",
+          "date": "2026-04-19"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI models ‘subliminally’ transmit biases when training other systems",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01224-1",
+          "date": "2026-04-19"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Artificial Intelligence and Machine Learning (AI/ML)-Enabled Medical Devices",
+          "description": "FDA's comprehensive guidance on AI/ML medical devices including data quality requirements and validation standards",
+          "relevance": "Addresses regulatory standards for training data quality and validation requirements for AI medical devices"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789240029200",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Ethics and governance of artificial intelligence for health",
+          "description": "WHO guidance document on AI for health including recommendations on data quality, bias, and trustworthiness",
+          "relevance": "Specifically addresses issues of biased training data and trust in AI health systems"
+        },
+        {
+          "organization": "NIH",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.aim-ahead.net/",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Artificial Intelligence/Machine Learning Consortium to Advance Health Equity and Researcher Diversity (AIM-AHEAD)",
+          "description": "NIH initiative addressing bias and data quality issues in AI health applications",
+          "relevance": "Focuses on addressing algorithmic bias and improving training data representation in medical AI"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Cochrane Reviews on diagnostic test accuracy of AI systems",
+          "description": "Systematic reviews evaluating the accuracy and reliability of AI diagnostic tools",
+          "relevance": "Provides evidence-based assessments of AI diagnostic performance and limitations including data quality impacts"
+        }
+      ],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
+    },
+    {
+      "id": "antibiotic_resistant_bacteria_spreading_through",
+      "question": "Are antibiotic-resistant bacteria spreading through 'explosive' mechanisms?",
+      "priority": "low",
+      "rationale": "Sensationalized description of normal horizontal gene transfer mechanisms in bacteria",
+      "misinformation_narrative": "Sensational reporting suggests bacteria can 'explode' to spread resistance, creating fear about uncontrollable antibiotic resistance spread",
+      "public_stakes": "Misunderstanding resistance mechanisms may lead to inappropriate antibiotic use or panic about containment efforts",
+      "verification_status": "needs_review",
+      "verification_reason": "The specific claim about bacteria \"exploding\" to spread resistance isn't a recognizable public misconception, though general fears about superbugs exist.",
+      "tags": [
+        "Health and Medicine",
+        "Infectious Disease",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists discover bacteria can “explode” to spread antibiotic resistance",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260416071953.htm",
+          "date": "2026-04-19"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Antibiotic Resistance Threats in the United States, 2019",
+          "description": "CDC's comprehensive report on antibiotic resistance threats including transmission mechanisms and spread patterns",
+          "relevance": "Contains detailed analysis of how antibiotic-resistant bacteria spread and their transmission dynamics"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241509763",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Global Action Plan on Antimicrobial Resistance",
+          "description": "WHO's global strategy document addressing antimicrobial resistance spread mechanisms and containment strategies",
+          "relevance": "Provides evidence on transmission patterns and rapid spread mechanisms of resistant bacteria"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/publications/i/item/9789241564748",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Antimicrobial Resistance: Global Report on Surveillance 2014",
+          "description": "WHO's surveillance report documenting global patterns of antimicrobial resistance spread",
+          "relevance": "Contains data on rapid transmission and emergence patterns of resistant bacteria globally"
+        },
+        {
+          "organization": "NIH/NIAID",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.niaid.nih.gov/research/antimicrobial-resistance",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Antimicrobial (Drug) Resistance",
+          "description": "NIAID's research overview on antimicrobial resistance including transmission mechanisms",
+          "relevance": "Provides scientific evidence on how resistant bacteria spread and the factors that accelerate transmission"
+        }
+      ],
+      "discovered_at": "2026-04-22",
+      "last_seen": "2026-04-22",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "detergent_pods_dishwasher_detergents_cause",

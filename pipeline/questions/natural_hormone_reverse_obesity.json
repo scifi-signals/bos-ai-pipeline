@@ -1,0 +1,33 @@
+{
+  "id": "natural_hormone_reverse_obesity",
+  "question": "Is there a 'natural hormone' that can reverse obesity?",
+  "topic": "Oversimplified reporting of early-stage research as breakthrough obesity cure",
+  "tags": [
+    "Health and Medicine",
+    "Obesity",
+    "Endocrinology"
+  ],
+  "sources": [
+    {
+      "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop",
+      "url": "https://www.nationalacademies.org/publications/24855",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "The Challenge of Treating Obesity and Overweight: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/24830",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Obesity & Weight Management: Scientists discover natural hormone that reverses obesity",
+      "origin": "STM — ScienceDaily",
+      "url": "https://www.sciencedaily.com/releases/2026/04/260416071954.htm",
+      "date": "2026-04-19"
+    }
+  ]
+}
