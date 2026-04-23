@@ -1,0 +1,80 @@
+{
+  "id": "anti_aging_supplements_treatments_actually",
+  "question": "Do anti-aging supplements and treatments actually slow or reverse aging?",
+  "topic": "Addresses growing misinformation in the anti-aging industry that exploits people's desire to live lo",
+  "tags": [
+    "Health and Medicine",
+    "Aging",
+    "Consumer Protection"
+  ],
+  "sources": [
+    {
+      "name": "Anti-Aging Products and Cosmetics — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Anti-Aging: What We Know — NIH/NIA",
+      "url": "https://www.nih.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Antioxidant supplements for preventing mortality in healthy participants and patients with various diseases — Cochrane",
+      "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007176.pub2/full",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Ageing and Health Fact Sheet — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/ageing-and-health",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: The $40 million ‘longevity fund’ that’s looking to ‘make death optional’",
+      "origin": "STM — NY Post",
+      "url": "https://nypost.com/2026/04/20/health/40m-longevity-fund-thats-looking-to-make-death-optional/",
+      "date": "2026-04-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Biotechs Race to Turn Aging Science Into Cell Therapies",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/20/biotechs_race_to_turn_aging_science_into_cell_therapies_1177439.html",
+      "date": "2026-04-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Will AI Allow Us to Reverse Aging?",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/20/will_ai_allow_us_to_reverse_aging_1177591.html",
+      "date": "2026-04-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: What a $40 Million Longevity Fund Is Spending On",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/21/what_a_40_million_longevity_fund_is_spending_on_1177905.html",
+      "date": "2026-04-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: Dynamics of genetic and somatic trade-offs in ageing and mortality",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10407-9",
+      "date": "2026-04-22"
+    },
+    {
+      "type": "trending_article",
+      "text": "Aging & Longevity: How Older Adults Rise From a Chair Says a Lot About Life Quality",
+      "origin": "STM — RealClearScience",
+      "url": "https://www.realclearscience.com/2026/04/22/how_older_adults_rise_from_a_chair_says_a_lot_about_life_quality_1178216.html",
+      "date": "2026-04-22"
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "vaccines_cause_harm_good",
+  "question": "Do vaccines cause more harm than good?",
+  "topic": "Addresses widespread vaccine misinformation that continues to threaten public health despite overwhe",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction",
+      "url": "https://www.nationalacademies.org/publications/10306",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Adverse Effects of Vaccines: Evidence and Causality",
+      "url": "https://www.nationalacademies.org/publications/13164",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: ‘Staggering’ number of people believe unproven claims about vaccines, raw milk and more",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01285-2",
+      "date": "2026-04-22"
+    },
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: Vaccines mean malaria deaths should be falling — not rising",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01253-w",
+      "date": "2026-04-22"
+    }
+  ]
+}

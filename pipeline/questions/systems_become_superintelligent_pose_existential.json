@@ -1,0 +1,34 @@
+{
+  "id": "systems_become_superintelligent_pose_existential",
+  "question": "Will AI systems become superintelligent and pose an existential threat to humanity?",
+  "topic": "Addresses growing AI apocalypse fears by clarifying what current AI can and cannot do versus specula",
+  "tags": [
+    "Technology",
+    "Artificial Intelligence",
+    "Risk Assessment"
+  ],
+  "sources": [
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://www.nationalacademies.org/publications/26355",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI doom warnings are getting louder. Are they realistic?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01257-6",
+      "date": "2026-04-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Daily briefing: Should we worry about AI doomsday?",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01331-z",
+      "date": "2026-04-22"
+    }
+  ]
+}

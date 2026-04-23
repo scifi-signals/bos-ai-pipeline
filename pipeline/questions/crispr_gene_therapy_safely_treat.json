@@ -1,0 +1,53 @@
+{
+  "id": "crispr_gene_therapy_safely_treat",
+  "question": "Can CRISPR gene therapy safely treat genetic diseases in humans?",
+  "topic": "Addresses polarized misinformation about gene therapy safety and effectiveness for treating genetic ",
+  "tags": [
+    "Health and Medicine",
+    "Genetics",
+    "Gene Therapy"
+  ],
+  "sources": [
+    {
+      "name": "Oversight and Review of Clinical Gene Transfer Protocols: Assessing the Role of the Recombinant DNA Advisory Committee",
+      "url": "https://www.nationalacademies.org/publications/18577",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Heritable Human Genome Editing",
+      "url": "https://www.nationalacademies.org/publications/25665",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human Genome Editing: Science, Ethics, and Governance",
+      "url": "https://www.nationalacademies.org/publications/24623",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Personalized CRISPR therapies could soon reach thousands — here’s how",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01243-y",
+      "date": "2026-04-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Magnetic muon measurements and gene-therapy advances win US$3-million Breakthrough prizes",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01014-9",
+      "date": "2026-04-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Genetics & Genomics: Multicentre gene therapy for <i>OTOF</i>-related deafness followed up to 2.5 years",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/s41586-026-10393-y",
+      "date": "2026-04-22"
+    }
+  ]
+}

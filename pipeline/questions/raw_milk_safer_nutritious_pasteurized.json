@@ -1,0 +1,51 @@
+{
+  "id": "raw_milk_safer_nutritious_pasteurized",
+  "question": "Is raw milk safer and more nutritious than pasteurized milk?",
+  "topic": "Addresses dangerous food safety misinformation that's experiencing renewed popularity on social medi",
+  "tags": [
+    "Health and Medicine",
+    "Food Safety",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Raw Milk Questions and Answers — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "The Dangers of Raw Milk: Unpasteurized Milk Can Pose a Serious Health Risk — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Foodborne Illness and Germs — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Food Safety and Inspection Service: Raw Milk — USDA",
+      "url": "https://www.usda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "Food Safety Fact Sheets — WHO",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/food-safety",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Vaccines & Immunization: ‘Staggering’ number of people believe unproven claims about vaccines, raw milk and more",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01285-2",
+      "date": "2026-04-22"
+    }
+  ]
+}

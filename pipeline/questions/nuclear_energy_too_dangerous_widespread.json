@@ -1,0 +1,40 @@
+{
+  "id": "nuclear_energy_too_dangerous_widespread",
+  "question": "Is nuclear energy too dangerous for widespread use?",
+  "topic": "Addresses persistent nuclear energy fears based on misunderstanding of actual safety records and ris",
+  "tags": [
+    "Energy",
+    "Nuclear Power",
+    "Climate Change"
+  ],
+  "sources": [
+    {
+      "name": "Potential Environmental Effects of Nuclear War",
+      "url": "https://www.nationalacademies.org/publications/27515",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States",
+      "url": "https://www.nationalacademies.org/publications/26630",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Nuclear Energy: Forty years after Chornobyl, more nuclear disasters are inevitable — plan for them",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01255-8",
+      "date": "2026-04-22"
+    },
+    {
+      "type": "trending_article",
+      "text": "Nuclear Energy: Chernobyl at 40: Secret Stasi files reveal extent of Soviet misinformation campaign over nuclear disaster",
+      "origin": "STM — The Conversation",
+      "url": "https://theconversation.com/chernobyl-at-40-secret-stasi-files-reveal-extent-of-soviet-misinformation-campaign-over-nuclear-disaster-274930",
+      "date": "2026-04-22"
+    }
+  ]
+}

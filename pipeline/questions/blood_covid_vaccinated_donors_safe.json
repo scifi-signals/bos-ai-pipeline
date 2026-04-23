@@ -1,0 +1,45 @@
+{
+  "id": "blood_covid_vaccinated_donors_safe",
+  "question": "Is blood from COVID-19 vaccinated donors safe for transfusions?",
+  "topic": "Directly addresses dangerous vaccine misinformation that's causing people to refuse life-saving medi",
+  "tags": [
+    "Health and Medicine",
+    "Vaccines",
+    "Public Health"
+  ],
+  "sources": [
+    {
+      "name": "Updated Information for Blood Establishments Regarding the COVID-19 Pandemic and Blood Donation — FDA",
+      "url": "https://www.fda.gov",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "COVID-19 Vaccine and Blood, Platelet and Plasma Donation Eligibility — American Red Cross",
+      "url": "https://www.redcross.org/about-us/news-and-events/news/2021/answers-to-common-questions-about-covid-19-vaccines-and-blood-platelet-plasma-donation-eligibility.html",
+      "type": "web",
+      "tier": 3
+    },
+    {
+      "name": "Coronavirus disease (COVID-19): Blood safety and availability — WHO",
+      "url": "https://www.who.int",
+      "type": "web",
+      "tier": 2
+    },
+    {
+      "name": "COVID-19 Vaccines: Myth versus Fact — CDC",
+      "url": "https://www.cdc.gov",
+      "type": "web",
+      "tier": 2
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Infectious Disease: People are refusing transfusions from donors vaccinated against covid",
+      "origin": "STM — New Scientist",
+      "url": "https://www.newscientist.com/article/2523157-people-are-refusing-transfusions-from-donors-vaccinated-against-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+      "date": "2026-04-20"
+    }
+  ]
+}

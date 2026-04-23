@@ -1,0 +1,61 @@
+{
+  "id": "systems_exhibit_human_like_consciousness",
+  "question": "Do AI systems exhibit human-like consciousness or intelligence?",
+  "topic": "Addresses anthropomorphizing of AI systems and misconceptions about current AI consciousness and int",
+  "tags": [
+    "Technology",
+    "Artificial Intelligence",
+    "Cognitive Science"
+  ],
+  "sources": [
+    {
+      "name": "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop�in Brief",
+      "url": "https://www.nationalacademies.org/publications/26887",
+      "type": "web",
+      "tier": 1
+    },
+    {
+      "name": "Human-AI Teaming: State-of-the-Art and Research Needs",
+      "url": "https://www.nationalacademies.org/publications/26355",
+      "type": "web",
+      "tier": 1
+    }
+  ],
+  "discovery_sources": [
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Daily briefing: AI systems can ‘teach’ biases to other models",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01265-6",
+      "date": "2026-04-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: AI models ‘subliminally’ transmit biases when training other systems",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01224-1",
+      "date": "2026-04-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00697-4",
+      "date": "2026-04-20"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: No humans allowed: scientific AI agents get their own social network",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-01278-1",
+      "date": "2026-04-21"
+    },
+    {
+      "type": "trending_article",
+      "text": "Artificial Intelligence: Don’t let your students use AI as a ghostwriter",
+      "origin": "STM — Nature",
+      "url": "https://www.nature.com/articles/d41586-026-00627-4",
+      "date": "2026-04-22"
+    }
+  ]
+}

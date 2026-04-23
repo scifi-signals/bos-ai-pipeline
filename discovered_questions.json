@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-22T12:20:41Z",
+  "generated_at": "2026-04-23T12:19:44Z",
   "questions": [
     {
       "id": "face_inevitable_extreme_climate_outcomes",
@@ -3565,6 +3565,56 @@
       "readiness_summary": "6 NASEM sources, most recent 2013 — moderately dated · confirmed misinformation · 3 discovery signals"
     },
     {
+      "id": "vaccines_cause_harm_good",
+      "question": "Do vaccines cause more harm than good?",
+      "priority": "high",
+      "rationale": "Addresses widespread vaccine misinformation that continues to threaten public health despite overwhelming safety evidence",
+      "misinformation_narrative": "Staggering numbers of people believe unproven claims about vaccines being dangerous, ineffective, or causing autism and other serious conditions",
+      "public_stakes": "Vaccine hesitancy leads to preventable disease outbreaks, deaths from vaccine-preventable diseases, and undermines public health programs",
+      "verification_status": "verified",
+      "verification_reason": "Anti-vaccine movements on Facebook, Twitter, and platforms like Children's Health Defense actively promote these claims with millions of followers.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "Public Health"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Immunization Safety Review: Multiple Immunizations and Immune Dysfunction (2004)",
+          "url": "https://www.nationalacademies.org/publications/10306"
+        },
+        {
+          "name": "Adverse Effects of Vaccines: Evidence and Causality (2012)",
+          "url": "https://www.nationalacademies.org/publications/13164"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: ‘Staggering’ number of people believe unproven claims about vaccines, raw milk and more",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01285-2",
+          "date": "2026-04-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: Vaccines mean malaria deaths should be falling — not rising",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01253-w",
+          "date": "2026-04-22"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2012,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2012 — moderately dated · confirmed misinformation · 1 discovery signal"
+    },
+    {
       "id": "people_egg_allergies_safely_receive",
       "question": "Can people with egg allergies safely receive flu vaccines?",
       "priority": "high",
@@ -4209,6 +4259,56 @@
       "newest_source_year": 1993,
       "signal_count": 7,
       "readiness_summary": "2 NASEM sources, most recent 1993 — sources are old · confirmed misinformation · 7 discovery signals"
+    },
+    {
+      "id": "nuclear_energy_too_dangerous_widespread",
+      "question": "Is nuclear energy too dangerous for widespread use?",
+      "priority": "medium",
+      "rationale": "Addresses persistent nuclear energy fears based on misunderstanding of actual safety records and risks",
+      "misinformation_narrative": "Public fears about nuclear disasters like Chernobyl and Fukushima lead to beliefs that nuclear power is inherently unsafe, despite evidence of its safety record compared to other energy sources",
+      "public_stakes": "Nuclear fear could impede adoption of low-carbon energy needed for climate goals, while overconfidence could lead to inadequate disaster planning",
+      "verification_status": "verified",
+      "verification_reason": "Anti-nuclear sentiment is documented in polls and drives policy decisions, amplified by environmental groups and post-disaster media coverage.",
+      "tags": [
+        "Energy",
+        "Nuclear Power",
+        "Climate Change"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Potential Environmental Effects of Nuclear War (2025)",
+          "url": "https://www.nationalacademies.org/publications/27515"
+        },
+        {
+          "name": "Laying the Foundation for New and Advanced Nuclear Reactors in the United States (2024)",
+          "url": "https://www.nationalacademies.org/publications/26630"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Nuclear Energy: Forty years after Chornobyl, more nuclear disasters are inevitable — plan for them",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01255-8",
+          "date": "2026-04-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Nuclear Energy: Chernobyl at 40: Secret Stasi files reveal extent of Soviet misinformation campaign over nuclear disaster",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/chernobyl-at-40-secret-stasi-files-reveal-extent-of-soviet-misinformation-campaign-over-nuclear-disaster-274930",
+          "date": "2026-04-22"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2025,
+      "signal_count": 2,
+      "readiness_summary": "2 NASEM sources, most recent 2025 · confirmed misinformation · 2 discovery signals"
     },
     {
       "id": "you_turn_directly_into_usable",
@@ -7656,6 +7756,63 @@
       "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 4 discovery signals"
     },
     {
+      "id": "quantum_computers_break_all_internet",
+      "question": "Will quantum computers break all internet security and banking systems?",
+      "priority": "medium",
+      "rationale": "Clarifies realistic quantum computing timelines versus apocalyptic predictions about immediate security threats",
+      "misinformation_narrative": "Sensationalized claims that quantum computers will imminently break all encryption and cause a 'crisis worse than Y2K,' creating unnecessary panic about cybersecurity",
+      "public_stakes": "Organizations might make premature expensive security changes, or conversely, ignore real future quantum threats due to misinformation about timelines",
+      "verification_status": "verified",
+      "verification_reason": "Tech media, cybersecurity forums, and mainstream news outlets regularly publish alarming headlines about quantum computing threatening current encryption systems.",
+      "tags": [
+        "Technology",
+        "Cybersecurity",
+        "Quantum Science"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Quantum Computing: Progress and Prospects (2019)",
+          "url": "https://www.nationalacademies.org/publications/25196"
+        },
+        {
+          "name": "Foundational Cybersecurity Research: Improving Science, Engineering, and Institutions (2017)",
+          "url": "https://www.nationalacademies.org/publications/24676"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: We urgently need to prepare for quantum computers breaking encryption",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522124-we-urgently-need-to-prepare-for-quantum-computers-breaking-encryption/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-13"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum computers could usher in a crisis worse than Y2K",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2522615-quantum-computers-could-usher-in-a-crisis-worse-than-y2k/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-14"
+        },
+        {
+          "type": "trending_article",
+          "text": "Quantum Science: Quantum AI just got shockingly good at predicting chaos",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260417224455.htm",
+          "date": "2026-04-21"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-15",
+      "last_seen": "2026-04-23",
+      "times_seen": 3,
+      "status": "pending",
+      "newest_source_year": 2019,
+      "signal_count": 2,
+      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 2 discovery signals"
+    },
+    {
       "id": "quantum_computers_really_break_all",
       "question": "Will quantum computers really break all current encryption?",
       "priority": "medium",
@@ -7741,55 +7898,6 @@
       "alternative_sources": [],
       "discovered_at": "2026-04-17",
       "last_seen": "2026-04-18",
-      "times_seen": 2,
-      "status": "pending",
-      "newest_source_year": 2019,
-      "signal_count": 1,
-      "readiness_summary": "2 NASEM sources, most recent 2019 — moderately dated · confirmed misinformation · 1 discovery signal"
-    },
-    {
-      "id": "quantum_computers_break_all_internet",
-      "question": "Are quantum computers about to break all internet encryption?",
-      "priority": "medium",
-      "rationale": "Provides realistic timeline and current capabilities of quantum computers versus encryption-breaking requirements",
-      "misinformation_narrative": "Sensationalized headlines claim quantum computers will soon make all digital security obsolete, causing unnecessary panic about immediate threats",
-      "public_stakes": "Premature panic may lead to hasty, expensive security changes, while underestimating the timeline prevents appropriate preparation",
-      "verification_status": "verified",
-      "verification_reason": "Tech media, cybersecurity forums, and mainstream news outlets regularly publish alarming headlines about quantum computing threatening current encryption systems.",
-      "tags": [
-        "Quantum Science",
-        "Cybersecurity"
-      ],
-      "nasem_source_count": 2,
-      "nasem_sources_preview": [
-        {
-          "name": "Quantum Computing: Progress and Prospects (2019)",
-          "url": "https://www.nationalacademies.org/publications/25196"
-        },
-        {
-          "name": "Decrypting the Encryption Debate: A Framework for Decision Makers (2018)",
-          "url": "https://www.nationalacademies.org/publications/25010"
-        }
-      ],
-      "discovery_sources": [
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: We urgently need to prepare for quantum computers breaking encryption",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2522124-we-urgently-need-to-prepare-for-quantum-computers-breaking-encryption/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-04-13"
-        },
-        {
-          "type": "trending_article",
-          "text": "Quantum Science: Quantum computers could usher in a crisis worse than Y2K",
-          "origin": "STM — New Scientist",
-          "url": "https://www.newscientist.com/article/2522615-quantum-computers-could-usher-in-a-crisis-worse-than-y2k/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
-          "date": "2026-04-14"
-        }
-      ],
-      "alternative_sources": [],
-      "discovered_at": "2026-04-15",
-      "last_seen": "2026-04-16",
       "times_seen": 2,
       "status": "pending",
       "newest_source_year": 2019,
@@ -11925,6 +12033,76 @@
       "readiness_summary": "1 NASEM source, most recent 2022 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
+      "id": "current_bird_flu_outbreaks_likely",
+      "question": "Are current bird flu outbreaks likely to cause the next human pandemic?",
+      "priority": "low",
+      "rationale": "Clarifies realistic pandemic risk assessment for H5N1 bird flu based on current scientific understanding",
+      "misinformation_narrative": "Both excessive panic about imminent H5N1 human pandemic and dangerous complacency about monitoring bird flu create confusion about real pandemic preparedness needs",
+      "public_stakes": "Panic could lead to unnecessary economic disruption, while complacency could leave us unprepared for actual pandemic threats",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes a spectrum of expert opinions rather than pointing to specific communities with clear misconceptions.",
+      "tags": [
+        "Health and Medicine",
+        "Infectious Disease",
+        "Public Health"
+      ],
+      "nasem_source_count": 7,
+      "nasem_sources_preview": [
+        {
+          "name": "Countering the Pandemic Threat Through Global Coordination on Vaccines: The Influenza Imperative (2021)",
+          "url": "https://www.nationalacademies.org/publications/26284"
+        },
+        {
+          "name": "Globally Resilient Supply Chains for Seasonal and Pandemic Influenza Vaccines (2021)",
+          "url": "https://www.nationalacademies.org/publications/26285"
+        },
+        {
+          "name": "The Domestic and International Impacts of the 2009-H1N1 Influenza A Pandemic: Global Challenges, Global Solutions: Workshop Summary (2010)",
+          "url": "https://www.nationalacademies.org/publications/12799"
+        },
+        {
+          "name": "Vaccine Research and Development to Advance Pandemic and Seasonal Influenza Preparedness and Response: Lessons from COVID-19 (2021)",
+          "url": "https://www.nationalacademies.org/publications/26282"
+        },
+        {
+          "name": "Public Engagement on Facilitating Access to Antiviral Medications and Information in an Influenza Pandemic: Workshop Series Summary (2012)",
+          "url": "https://www.nationalacademies.org/publications/13404"
+        },
+        {
+          "name": "Reusability of Facemasks During an Influenza Pandemic: Facing the Flu (2006)",
+          "url": "https://www.nationalacademies.org/publications/11637"
+        },
+        {
+          "name": "Exploring Lessons Learned from a Century of Outbreaks: Readiness for 2030: Proceedings of a Workshop (2019)",
+          "url": "https://www.nationalacademies.org/publications/25391"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: New mutations help the H5N1 bird flu virus infect cows but not people",
+          "origin": "STM — Science News",
+          "url": "https://www.sciencenews.org/article/mutations-h5n1-bird-flu-adapt-cows",
+          "date": "2026-04-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: If a bird flu pandemic starts, we may have an mRNA vaccine ready",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2523838-if-a-bird-flu-pandemic-starts-we-may-have-an-mrna-vaccine-ready/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-22"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 2,
+      "readiness_summary": "7 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 2 discovery signals"
+    },
+    {
       "id": "quantum_effects_play_meaningful_role",
       "question": "Do quantum effects play a meaningful role in biological processes?",
       "priority": "low",
@@ -12003,6 +12181,67 @@
       "newest_source_year": 2021,
       "signal_count": 5,
       "readiness_summary": "3 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 5 discovery signals"
+    },
+    {
+      "id": "crispr_gene_therapy_safely_treat",
+      "question": "Can CRISPR gene therapy safely treat genetic diseases in humans?",
+      "priority": "low",
+      "rationale": "Addresses polarized misinformation about gene therapy safety and effectiveness for treating genetic diseases",
+      "misinformation_narrative": "Both excessive fears about gene editing safety and overoptimistic claims about immediate cures create confusion about CRISPR's actual capabilities and risks",
+      "public_stakes": "Patients might avoid beneficial gene therapies due to fear, or pursue unproven treatments due to false hope",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes balanced expert uncertainty rather than identifiable groups holding specific wrong beliefs about CRISPR.",
+      "tags": [
+        "Health and Medicine",
+        "Genetics",
+        "Gene Therapy"
+      ],
+      "nasem_source_count": 3,
+      "nasem_sources_preview": [
+        {
+          "name": "Oversight and Review of Clinical Gene Transfer Protocols: Assessing the Role of the Recombinant DNA Advisory Committee (2014)",
+          "url": "https://www.nationalacademies.org/publications/18577"
+        },
+        {
+          "name": "Heritable Human Genome Editing (2021)",
+          "url": "https://www.nationalacademies.org/publications/25665"
+        },
+        {
+          "name": "Human Genome Editing: Science, Ethics, and Governance (2017)",
+          "url": "https://www.nationalacademies.org/publications/24623"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Personalized CRISPR therapies could soon reach thousands — here’s how",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01243-y",
+          "date": "2026-04-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Magnetic muon measurements and gene-therapy advances win US$3-million Breakthrough prizes",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01014-9",
+          "date": "2026-04-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Genetics & Genomics: Multicentre gene therapy for <i>OTOF</i>-related deafness followed up to 2.5 years",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10393-y",
+          "date": "2026-04-22"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 1,
+      "readiness_summary": "3 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "covid_pandemic_amnesia_making_unprepared",
@@ -12194,6 +12433,77 @@
       "readiness_summary": "2 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 2 discovery signals"
     },
     {
+      "id": "systems_exhibit_human_like_consciousness",
+      "question": "Do AI systems exhibit human-like consciousness or intelligence?",
+      "priority": "low",
+      "rationale": "Addresses anthropomorphizing of AI systems and misconceptions about current AI consciousness and intelligence",
+      "misinformation_narrative": "AI systems are often portrayed as having human-like consciousness, understanding, or general intelligence, leading to both overconfidence in AI capabilities and unrealistic fears",
+      "public_stakes": "Misunderstanding AI capabilities could lead to over-reliance on AI for critical decisions or inappropriate fear of beneficial AI applications",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes media portrayals and expert debates rather than specific misconceptions held by identifiable public groups.",
+      "tags": [
+        "Technology",
+        "Artificial Intelligence",
+        "Cognitive Science"
+      ],
+      "nasem_source_count": 2,
+      "nasem_sources_preview": [
+        {
+          "name": "Artificial Intelligence and Justified Confidence: Proceedings of a Workshop�in Brief (None)",
+          "url": "https://www.nationalacademies.org/publications/26887"
+        },
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Daily briefing: AI systems can ‘teach’ biases to other models",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01265-6",
+          "date": "2026-04-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI models ‘subliminally’ transmit biases when training other systems",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01224-1",
+          "date": "2026-04-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Dozens of AI disease-prediction models were trained on dubious data",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00697-4",
+          "date": "2026-04-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: No humans allowed: scientific AI agents get their own social network",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01278-1",
+          "date": "2026-04-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Don’t let your students use AI as a ghostwriter",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-00627-4",
+          "date": "2026-04-22"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 1,
+      "readiness_summary": "2 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
       "id": "crispr_gene_editing_safely_used",
       "question": "Can CRISPR gene editing be safely used inside the human body?",
       "priority": "low",
@@ -12248,6 +12558,52 @@
       "newest_source_year": 2021,
       "signal_count": 1,
       "readiness_summary": "2 NASEM sources, most recent 2021 · misinformation narrative not yet confirmed · 1 discovery signal"
+    },
+    {
+      "id": "systems_become_superintelligent_pose_existential",
+      "question": "Will AI systems become superintelligent and pose an existential threat to humanity?",
+      "priority": "low",
+      "rationale": "Addresses growing AI apocalypse fears by clarifying what current AI can and cannot do versus speculative future risks",
+      "misinformation_narrative": "AI doom warnings claim AI will soon become superintelligent and potentially destroy humanity, creating unnecessary panic about current AI capabilities",
+      "public_stakes": "Excessive fear could lead to counterproductive AI regulation, reduced investment in beneficial AI research, or public rejection of helpful AI applications",
+      "verification_status": "needs_review",
+      "verification_reason": "\"AI doom\" is primarily debated among researchers and tech commentators, not a widespread public misconception causing actual panic.",
+      "tags": [
+        "Technology",
+        "Artificial Intelligence",
+        "Risk Assessment"
+      ],
+      "nasem_source_count": 1,
+      "nasem_sources_preview": [
+        {
+          "name": "Human-AI Teaming: State-of-the-Art and Research Needs (2021)",
+          "url": "https://www.nationalacademies.org/publications/26355"
+        }
+      ],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: AI doom warnings are getting louder. Are they realistic?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01257-6",
+          "date": "2026-04-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Artificial Intelligence: Daily briefing: Should we worry about AI doomsday?",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01331-z",
+          "date": "2026-04-22"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "pending",
+      "newest_source_year": 2021,
+      "signal_count": 1,
+      "readiness_summary": "1 NASEM source, most recent 2021 · misinformation narrative not yet confirmed · 1 discovery signal"
     },
     {
       "id": "systems_really_develop_human_like",
@@ -15889,6 +16245,145 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "eating_certain_foods_prevent_cure",
+      "question": "Can eating certain foods prevent or cure cancer?",
+      "priority": "high",
+      "rationale": "Addresses persistent cancer cure myths and food-cancer causation claims that can harm treatment decisions",
+      "misinformation_narrative": "Claims that specific foods, supplements, or diets can cure cancer or that certain foods cause cancer, leading people to avoid proven treatments or make unnecessary dietary restrictions",
+      "public_stakes": "Cancer patients may delay or refuse effective treatments, or people may develop nutritional deficiencies from unnecessary food restrictions",
+      "verification_status": "verified",
+      "verification_reason": "Alternative health websites, social media wellness influencers, and platforms like Truth Social regularly promote food-based cancer cures.",
+      "tags": [
+        "Health and Medicine",
+        "Cancer",
+        "Nutrition"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists discover hidden “master switch” driving skin cancer growth and immune escape",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260420014746.htm",
+          "date": "2026-04-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: This missing vitamin could stop cancer cells in their tracks",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260420014744.htm",
+          "date": "2026-04-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Eating more fruits and vegetables tied to unexpected lung cancer risk",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260417224454.htm",
+          "date": "2026-04-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Scientists supercharge immune cells to destroy cancer more effectively",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260416072001.htm",
+          "date": "2026-04-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Netrin1 blockade alleviates resistance to chemotherapy in pancreatic cancer",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10436-4",
+          "date": "2026-04-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Early fibrotic niches establish tumour-permissive microenvironments",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10399-6",
+          "date": "2026-04-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Specific combinations of human and viral genetic variants explain a cancer predisposition in southern China",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01047-0",
+          "date": "2026-04-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Cancer Research: Hidden virus in your gut may be linked to colon cancer",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260422044630.htm",
+          "date": "2026-04-22"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "National Cancer Institute (NIH)",
+          "organization_full": "National Cancer Institute (NIH)",
+          "base_url": "",
+          "url": "https://www.cancer.gov/about-cancer/causes-prevention/risk/diet",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "Diet and Cancer Prevention",
+          "description": "NCI's comprehensive overview of the relationship between diet and cancer prevention, addressing what foods may reduce risk versus cure claims",
+          "relevance": "Directly addresses the distinction between cancer prevention through diet versus unproven cure claims"
+        },
+        {
+          "organization": "American Cancer Society",
+          "organization_full": "American Cancer Society",
+          "base_url": "https://www.cancer.org",
+          "url": "https://www.cancer.org/cancer/risk-prevention/diet-physical-activity/acs-guidelines-nutrition-physical-activity-cancer-prevention.html",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Diet and Physical Activity: What's the Cancer Connection?",
+          "description": "Evidence-based guidelines on nutrition and cancer prevention, clarifying what dietary factors may reduce cancer risk",
+          "relevance": "Provides authoritative guidance on proven dietary factors for cancer prevention while addressing misconceptions about food as cancer cures"
+        },
+        {
+          "organization": "World Health Organization",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/cancer",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Cancer Prevention",
+          "description": "WHO fact sheet on cancer that includes evidence-based information on dietary factors in cancer prevention",
+          "relevance": "International health authority perspective on what dietary interventions have evidence for cancer prevention"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Health Fraud Scams: Fraudulent Cancer 'Cures'",
+          "description": "FDA guidance specifically addressing fraudulent claims about foods and supplements that claim to cure cancer",
+          "relevance": "Directly addresses false claims about foods curing cancer and provides regulatory perspective on unproven treatments"
+        },
+        {
+          "organization": "Cochrane Library",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007176.pub2/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Antioxidant supplements for prevention of mortality in healthy participants and patients with various diseases",
+          "description": "Systematic review examining evidence for antioxidant supplements (often derived from foods) in disease prevention including cancer",
+          "relevance": "High-quality systematic review evidence on whether specific nutrients commonly found in foods have proven benefits for cancer prevention or treatment"
+        }
+      ],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
       "id": "covid_vaccines_cause_blood_clots",
       "question": "Do COVID vaccines cause blood clots?",
       "priority": "high",
@@ -16735,6 +17230,175 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "blood_covid_vaccinated_donors_safe",
+      "question": "Is blood from COVID-19 vaccinated donors safe for transfusions?",
+      "priority": "high",
+      "rationale": "Directly addresses dangerous vaccine misinformation that's causing people to refuse life-saving medical treatment",
+      "misinformation_narrative": "People are refusing blood transfusions from COVID-19 vaccinated donors, believing the vaccines contaminate blood or make it unsafe for recipients",
+      "public_stakes": "Patients could die from refusing necessary blood transfusions, and blood shortages could worsen if donation eligibility is unnecessarily restricted",
+      "verification_status": "verified",
+      "verification_reason": "Blood donation centers and medical facilities report actual requests from patients to refuse blood from vaccinated donors, discussed on anti-vaccine social media groups.",
+      "tags": [
+        "Health and Medicine",
+        "Vaccines",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: People are refusing transfusions from donors vaccinated against covid",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2523157-people-are-refusing-transfusions-from-donors-vaccinated-against-covid/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-20"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Updated Information for Blood Establishments Regarding the COVID-19 Pandemic and Blood Donation",
+          "description": "FDA guidance document that addresses blood donation eligibility and safety considerations related to COVID-19 vaccination",
+          "relevance": "Directly addresses blood donation safety from vaccinated individuals with regulatory guidance"
+        },
+        {
+          "organization": "American Red Cross",
+          "organization_full": "American Red Cross",
+          "base_url": "",
+          "url": "https://www.redcross.org/about-us/news-and-events/news/2021/answers-to-common-questions-about-covid-19-vaccines-and-blood-platelet-plasma-donation-eligibility.html",
+          "url_verified": true,
+          "tier": 3,
+          "resource_name": "COVID-19 Vaccine and Blood, Platelet and Plasma Donation Eligibility",
+          "description": "Official Red Cross policy and information about blood donation eligibility after COVID-19 vaccination",
+          "relevance": "Provides operational guidance from major blood collection organization on vaccination and donation safety"
+        },
+        {
+          "organization": "AABB (formerly American Association of Blood Banks)",
+          "organization_full": "AABB (formerly American Association of Blood Banks)",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "COVID-19 and Blood Safety FAQs",
+          "description": "Professional association guidance on COVID-19 related blood safety questions including vaccination status",
+          "relevance": "Expert guidance from blood banking professionals on vaccination and transfusion safety"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Coronavirus disease (COVID-19): Blood safety and availability",
+          "description": "WHO Q&A addressing blood safety concerns during COVID-19 pandemic including vaccination considerations",
+          "relevance": "International health authority guidance on blood safety and COVID-19 vaccines"
+        },
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "COVID-19 Vaccines: Myth versus Fact",
+          "description": "CDC fact sheet addressing common vaccine myths including concerns about blood donation and transfusion safety",
+          "relevance": "Addresses misconceptions about vaccine safety including blood-related concerns"
+        }
+      ],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "raw_milk_safer_nutritious_pasteurized",
+      "question": "Is raw milk safer and more nutritious than pasteurized milk?",
+      "priority": "high",
+      "rationale": "Addresses dangerous food safety misinformation that's experiencing renewed popularity on social media",
+      "misinformation_narrative": "Many people believe raw milk is more nutritious and safer than pasteurized milk, with some claiming pasteurization destroys beneficial nutrients and that raw milk prevents allergies",
+      "public_stakes": "Raw milk consumption can cause serious foodborne illnesses including E. coli, Salmonella, and Listeria infections, particularly dangerous for children and immunocompromised individuals",
+      "verification_status": "verified",
+      "verification_reason": "Raw milk advocacy thrives on wellness Instagram accounts, homesteading communities, and health freedom forums with significant followings.",
+      "tags": [
+        "Health and Medicine",
+        "Food Safety",
+        "Public Health"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Vaccines & Immunization: ‘Staggering’ number of people believe unproven claims about vaccines, raw milk and more",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01285-2",
+          "date": "2026-04-22"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "CDC",
+          "organization_full": "Centers for Disease Control and Prevention",
+          "base_url": "https://www.cdc.gov",
+          "url": "https://www.cdc.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Raw Milk Questions and Answers",
+          "description": "CDC's comprehensive Q&A addressing safety concerns and health claims about raw milk consumption",
+          "relevance": "Directly addresses both safety and nutritional claims with scientific evidence"
+        },
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "The Dangers of Raw Milk: Unpasteurized Milk Can Pose a Serious Health Risk",
+          "description": "FDA's detailed analysis of raw milk safety risks and comparison with pasteurized milk",
+          "relevance": "Provides regulatory perspective on safety and addresses nutritional claims"
+        },
+        {
+          "organization": "USDA",
+          "organization_full": "U.S. Department of Agriculture",
+          "base_url": "https://www.usda.gov",
+          "url": "https://www.usda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Food Safety and Inspection Service: Raw Milk",
+          "description": "USDA guidance on raw milk safety and food safety considerations",
+          "relevance": "Provides government food safety perspective on raw versus pasteurized milk"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/food-safety",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Food Safety Fact Sheets",
+          "description": "WHO's global perspective on food safety including dairy pasteurization",
+          "relevance": "International health organization guidance on dairy safety practices"
+        }
+      ],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage — 4 alternative sources identified"
     },
     {
       "id": "covid_vaccines_make_blood_transfusions",
@@ -25601,6 +26265,54 @@
       "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
+      "id": "planting_trees_solve_climate_change",
+      "question": "Will planting trees solve climate change and biodiversity loss?",
+      "priority": "low",
+      "rationale": "Addresses oversimplified environmental solutions that may seem intuitive but lack scientific support",
+      "misinformation_narrative": "Oversimplified messages suggest that just planting more trees will solve environmental problems, when forest restoration requires complex ecosystem approaches",
+      "public_stakes": "Ineffective tree-planting efforts waste resources and may harm existing ecosystems, while creating false confidence about climate action",
+      "verification_status": "verified",
+      "verification_reason": "Environmental social media, corporate greenwashing campaigns, and school programs commonly oversimplify tree-planting as a climate solution.",
+      "tags": [
+        "Environment",
+        "Climate Change",
+        "Conservation"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Don’t just plant trees, plant forests to restore biodiversity for the future",
+          "origin": "STM — The Conversation",
+          "url": "https://theconversation.com/dont-just-plant-trees-plant-forests-to-restore-biodiversity-for-the-future-275803",
+          "date": "2026-04-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Butterfly numbers are dropping but here are five species you may see more of",
+          "origin": "STM — BBC Science",
+          "url": "https://www.bbc.com/news/articles/c75kk7p41npo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-04-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Biodiversity & Conservation: Can a nature corridor increase London's biodiversity?",
+          "origin": "STM — BBC Science",
+          "url": "https://www.bbc.com/news/articles/cy81ewwnwwqo?at_medium=RSS&at_campaign=rss",
+          "date": "2026-04-21"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
       "id": "emperor_penguins_thriving_despite_climate",
       "question": "Are emperor penguins thriving despite climate change claims?",
       "priority": "low",
@@ -25912,6 +26624,40 @@
       "newest_source_year": 0,
       "signal_count": 2,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "space_exploration_waste_money_should",
+      "question": "Is space exploration a waste of money that should be spent on Earth's problems?",
+      "priority": "low",
+      "rationale": "Addresses persistent misconception about space research costs versus benefits for addressing Earth's challenges",
+      "misinformation_narrative": "Common belief that space exploration diverts crucial resources from solving terrestrial problems like poverty and climate change",
+      "public_stakes": "Public opposition could reduce funding for space research that provides Earth benefits like climate monitoring, GPS, and technological innovation",
+      "verification_status": "verified",
+      "verification_reason": "This sentiment appears regularly in social media comments on NASA posts and space news articles across platforms.",
+      "tags": [
+        "Space Science",
+        "Science Policy",
+        "Economics"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Space & Astronomy: Thrilling, frivolous, a waste: not everyone’s happy about the Artemis II Moon mission",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/d41586-026-01262-9",
+          "date": "2026-04-20"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 1,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "hand_washing_dishes_environmentally_friendly",
@@ -26977,6 +27723,186 @@
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
     },
     {
+      "id": "anti_aging_supplements_treatments_actually",
+      "question": "Do anti-aging supplements and treatments actually slow or reverse aging?",
+      "priority": "low",
+      "rationale": "Addresses growing misinformation in the anti-aging industry that exploits people's desire to live longer",
+      "misinformation_narrative": "The $40+ million longevity industry promotes supplements, treatments, and therapies claiming to reverse aging or 'make death optional' despite limited evidence",
+      "public_stakes": "People waste money on unproven treatments, delay proven health interventions, or risk harm from experimental anti-aging therapies",
+      "verification_status": "needs_review",
+      "verification_reason": "Most people are skeptical of anti-aging claims; this conflates industry marketing with actual widespread public belief.",
+      "tags": [
+        "Health and Medicine",
+        "Aging",
+        "Consumer Protection"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: The $40 million ‘longevity fund’ that’s looking to ‘make death optional’",
+          "origin": "STM — NY Post",
+          "url": "https://nypost.com/2026/04/20/health/40m-longevity-fund-thats-looking-to-make-death-optional/",
+          "date": "2026-04-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Biotechs Race to Turn Aging Science Into Cell Therapies",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/20/biotechs_race_to_turn_aging_science_into_cell_therapies_1177439.html",
+          "date": "2026-04-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Will AI Allow Us to Reverse Aging?",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/20/will_ai_allow_us_to_reverse_aging_1177591.html",
+          "date": "2026-04-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: What a $40 Million Longevity Fund Is Spending On",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/21/what_a_40_million_longevity_fund_is_spending_on_1177905.html",
+          "date": "2026-04-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: Dynamics of genetic and somatic trade-offs in ageing and mortality",
+          "origin": "STM — Nature",
+          "url": "https://www.nature.com/articles/s41586-026-10407-9",
+          "date": "2026-04-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Aging & Longevity: How Older Adults Rise From a Chair Says a Lot About Life Quality",
+          "origin": "STM — RealClearScience",
+          "url": "https://www.realclearscience.com/2026/04/22/how_older_adults_rise_from_a_chair_says_a_lot_about_life_quality_1178216.html",
+          "date": "2026-04-22"
+        }
+      ],
+      "alternative_sources": [
+        {
+          "organization": "FDA",
+          "organization_full": "Food and Drug Administration",
+          "base_url": "https://www.fda.gov",
+          "url": "https://www.fda.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Anti-Aging Products and Cosmetics",
+          "description": "FDA guidance on anti-aging product claims and regulatory oversight",
+          "relevance": "Addresses FDA's position on anti-aging product claims and what evidence is required"
+        },
+        {
+          "organization": "NIH/NIA",
+          "organization_full": "National Institutes of Health",
+          "base_url": "https://www.nih.gov",
+          "url": "https://www.nih.gov",
+          "url_verified": false,
+          "tier": 2,
+          "resource_name": "Anti-Aging: What We Know",
+          "description": "National Institute on Aging's comprehensive overview of anti-aging research and claims",
+          "relevance": "Directly addresses the scientific evidence behind anti-aging interventions and supplements"
+        },
+        {
+          "organization": "Cochrane",
+          "organization_full": "Cochrane Library (systematic reviews)",
+          "base_url": "https://www.cochranelibrary.com",
+          "url": "https://www.cochranelibrary.com/cdsr/doi/10.1002/14651858.CD007176.pub2/full",
+          "url_verified": true,
+          "tier": 1,
+          "resource_name": "Antioxidant supplements for preventing mortality in healthy participants and patients with various diseases",
+          "description": "Systematic review examining antioxidant supplements often marketed for anti-aging",
+          "relevance": "Provides systematic review evidence on supplements commonly promoted for anti-aging effects"
+        },
+        {
+          "organization": "WHO",
+          "organization_full": "World Health Organization",
+          "base_url": "https://www.who.int",
+          "url": "https://www.who.int/news-room/fact-sheets/detail/ageing-and-health",
+          "url_verified": true,
+          "tier": 2,
+          "resource_name": "Ageing and Health Fact Sheet",
+          "description": "WHO's fact sheet on healthy aging and evidence-based interventions",
+          "relevance": "Provides WHO's perspective on what interventions are proven effective for healthy aging"
+        },
+        {
+          "organization": "FTC",
+          "organization_full": "FTC",
+          "base_url": "",
+          "url": "",
+          "url_verified": false,
+          "tier": 3,
+          "resource_name": "Anti-Aging Products: Companies Dangling the Fountain of Youth",
+          "description": "FTC enforcement actions and warnings about unsupported anti-aging claims",
+          "relevance": "Documents regulatory actions against companies making unsubstantiated anti-aging claims"
+        }
+      ],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "natural_disasters_like_tsunamis_behave",
+      "question": "Do natural disasters like tsunamis behave exactly as scientists predict?",
+      "priority": "low",
+      "rationale": "Addresses misconceptions about disaster predictability and behavior that affect emergency preparedness",
+      "misinformation_narrative": "Oversimplified understanding of natural disasters leads to false confidence in predictions or dismissal of warnings, with recent findings showing tsunamis can be far more complex than expected",
+      "public_stakes": "Misunderstanding disaster behavior can lead to inadequate preparation, inappropriate evacuation decisions, or dismissal of scientific warnings",
+      "verification_status": "needs_review",
+      "verification_reason": "This conflates scientific complexity with public misconceptions; most people don't hold strong beliefs about tsunami prediction accuracy.",
+      "tags": [
+        "Natural Disasters",
+        "Emergency Preparedness",
+        "Earth Science"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Total solar eclipse led to seismic quiet for cities within its path",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260417224457.htm",
+          "date": "2026-04-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Earthquake sets off brief tsunami alert and a megaquake advisory in northern Japan",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-earthquake-tsunami-megaquake-advisory-northern.html",
+          "date": "2026-04-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: It wasn't just water: The hidden force inside Japan's 2011 tsunami changed everything",
+          "origin": "STM — Phys.org",
+          "url": "https://phys.org/news/2026-04-wasnt-hidden-japan-tsunami.html",
+          "date": "2026-04-22"
+        },
+        {
+          "type": "trending_article",
+          "text": "Natural Disasters & Extreme Weather: Mud-rich coastline made 2011 Japan tsunami far more destructive, study finds",
+          "origin": "STM — The Guardian Science",
+          "url": "https://www.theguardian.com/science/2026/apr/22/mud-rich-coastline-made-2011-japan-tsunami-far-more-destructive-study-finds",
+          "date": "2026-04-22"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 3,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
+    },
+    {
       "id": "glp_drugs_like_ozempic_work",
       "question": "Do GLP-1 drugs like Ozempic work equally well for everyone with obesity?",
       "priority": "low",
@@ -27896,6 +28822,54 @@
       "newest_source_year": 0,
       "signal_count": 3,
       "readiness_summary": "No NASEM coverage — 5 alternative sources identified"
+    },
+    {
+      "id": "hospital_hygiene_practices_like_tooth",
+      "question": "Do hospital hygiene practices like tooth brushing actually prevent serious infections?",
+      "priority": "low",
+      "rationale": "Addresses underestimation of basic hygiene effectiveness in preventing serious hospital infections",
+      "misinformation_narrative": "Simple hygiene interventions in hospitals are often overlooked because they seem too basic to prevent serious healthcare-associated infections",
+      "public_stakes": "Poor hospital hygiene leads to preventable healthcare-associated infections, antibiotic resistance, and patient deaths",
+      "verification_status": "needs_review",
+      "verification_reason": "This describes professional oversight rather than public misinformation; people don't actively believe hygiene doesn't work.",
+      "tags": [
+        "Health and Medicine",
+        "Hospital Safety",
+        "Infection Control"
+      ],
+      "nasem_source_count": 0,
+      "nasem_sources_preview": [],
+      "discovery_sources": [
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists discover bacteria can “explode” to spread antibiotic resistance",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260416071953.htm",
+          "date": "2026-04-20"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Brushing your teeth in hospital could prevent catching a bad infection",
+          "origin": "STM — New Scientist",
+          "url": "https://www.newscientist.com/article/2523576-brushing-your-teeth-in-hospital-could-prevent-catching-a-bad-infection/?utm_campaign=RSS%7CNSNS&utm_source=NSNS&utm_medium=RSS&utm_content=home",
+          "date": "2026-04-21"
+        },
+        {
+          "type": "trending_article",
+          "text": "Infectious Disease: Scientists discover skincare compound that kills drug-resistant bacteria",
+          "origin": "STM — ScienceDaily",
+          "url": "https://www.sciencedaily.com/releases/2026/04/260420014738.htm",
+          "date": "2026-04-21"
+        }
+      ],
+      "alternative_sources": [],
+      "discovered_at": "2026-04-23",
+      "last_seen": "2026-04-23",
+      "times_seen": 1,
+      "status": "nasem_gap",
+      "newest_source_year": 0,
+      "signal_count": 2,
+      "readiness_summary": "No NASEM coverage and no alternative sources found"
     },
     {
       "id": "human_evolution_sped_slowed_down",
